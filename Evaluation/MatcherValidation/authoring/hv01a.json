@@ -1,0 +1,229 @@
+{
+  "id": "hv01a",
+  "split": "train",
+  "storyFamily": "hv01",
+  "templateFamily": "hv01",
+  "threads": [
+    "atlas-record",
+    "atlas-parcel",
+    "book-club",
+    "shop-heater"
+  ],
+  "threadDescriptions": {
+    "atlas-record": "Identify and correct the catalogue record for the folding river atlas.",
+    "atlas-parcel": "Pack and deliver the sold river atlas to Mara.",
+    "book-club": "Prepare the shop's evening discussion of The Small Orchard.",
+    "shop-heater": "Repair the back-room heater before reopening."
+  },
+  "relatedThreads": [
+    [
+      "atlas-record",
+      "atlas-parcel"
+    ]
+  ],
+  "challenges": [
+    "shared_object_distinct_deliverables",
+    "ocr_noise",
+    "revision",
+    "bridge"
+  ],
+  "items": [
+    {
+      "id": "hv01a-i01",
+      "text": "River atlas on the intake desk: title leaf says second edition, 1896. Draft the listing at £48; check whether all foldouts are present.",
+      "modality": "note",
+      "memberships": [
+        "atlas-record"
+      ],
+      "rationale": "Begins atlas identification and listing."
+    },
+    {
+      "id": "hv01a-i02",
+      "text": "Mara paid for the river atlas. She needs it at the field station by Thursday. Ask whether the carrier accepts our long flat box.",
+      "modality": "voice",
+      "memberships": [
+        "atlas-parcel"
+      ],
+      "rationale": "Payment and delivery destination identify the atlas shipment."
+    },
+    {
+      "id": "hv01a-i03",
+      "text": "Back-room heater clicks three times and trips the socket. Leave that outlet unused until the repair visit.",
+      "modality": "video",
+      "memberships": [
+        "shop-heater"
+      ],
+      "rationale": "Records the heater failure."
+    },
+    {
+      "id": "hv01a-i04",
+      "text": "Club on Tuesday: The Small Orchard, chapters 1–7. Five people confirmed; buy decaf and move the returns trolley.",
+      "modality": "note",
+      "memberships": [
+        "book-club"
+      ],
+      "rationale": "Defines the book-club session."
+    },
+    {
+      "id": "hv01a-i05",
+      "text": "ATLAS / plate count 12 / fold at p. 44 split / pencil £48. Tiny stamp beneath the pastedown: revised issue.",
+      "modality": "image",
+      "memberships": [
+        "atlas-record"
+      ],
+      "rationale": "Condition and edition evidence for the atlas catalogue."
+    },
+    {
+      "id": "hv01a-i06",
+      "text": "Carrier form for Mara: no signature waiver, flat parcel, declared value forty-eight pounds. Destination contact answers after lunch.",
+      "modality": "file",
+      "memberships": [
+        "atlas-parcel"
+      ],
+      "rationale": "Atlas shipping form repeats buyer and value."
+    },
+    {
+      "id": "hv01a-i07",
+      "text": "Blue slip: 'Mara, twelve, Thursday?' Nothing else legible.",
+      "modality": "image",
+      "memberships": [],
+      "rationale": "Name and numbers cannot establish which activity the slip concerns."
+    },
+    {
+      "id": "hv01a-i08",
+      "text": "Correction to atlas listing: the revised-issue stamp belongs to 1901, not 1896. Keep the earlier photo in the provenance folder; change the year before sending a receipt.",
+      "modality": "note",
+      "memberships": [
+        "atlas-record"
+      ],
+      "rationale": "Explicit correction to the earlier catalogue year."
+    },
+    {
+      "id": "hv01a-i09",
+      "text": "Heater repair quote: fan bearing plus labour, £73. We can use the counter socket for the lamp but the failed unit stays unplugged.",
+      "modality": "file",
+      "memberships": [
+        "shop-heater"
+      ],
+      "rationale": "Quotes repair for the failed heater."
+    },
+    {
+      "id": "hv01a-i10",
+      "text": "For Orchard night, use the question about why the narrator hides the keys. Nobody wanted the printed plot summary last time.",
+      "modality": "voice",
+      "memberships": [
+        "book-club"
+      ],
+      "rationale": "Develops discussion material for the book club."
+    },
+    {
+      "id": "hv01a-i11",
+      "text": "Atlas handoff sheet: catalogue now says revised issue, 1901, twelve plates, one split fold. Copy that condition wording into Mara's enclosure and put the atlas between two boards so the damaged fold cannot flex.",
+      "modality": "note",
+      "memberships": [
+        "atlas-record",
+        "atlas-parcel"
+      ],
+      "rationale": "Both final catalogue facts and concrete packing instructions are substantive."
+    },
+    {
+      "id": "hv01a-i12",
+      "text": "Mara's box fits the carrier's flat rate if we trim the spare board by a centimetre. Do not trim the atlas wrapper.",
+      "modality": "image",
+      "memberships": [
+        "atlas-parcel"
+      ],
+      "rationale": "Advances packing the buyer's atlas."
+    },
+    {
+      "id": "hv01a-i13",
+      "text": "The engineer found fluff wedged behind the heater fan. Bearing replacement cancelled; clean and electrical test only.",
+      "modality": "voice",
+      "memberships": [
+        "shop-heater"
+      ],
+      "rationale": "Updates the heater repair scope."
+    },
+    {
+      "id": "hv01a-i14",
+      "text": "Shelf card proof: RIVER ATLAS — revised issue (1901). Condition note should say 'split fold', not 'missing plate'.",
+      "modality": "file",
+      "memberships": [
+        "atlas-record"
+      ],
+      "rationale": "Checks corrected atlas catalogue wording."
+    },
+    {
+      "id": "hv01a-i15",
+      "text": "Orchard group now seven; Jo can bring two folding chairs. Leave room by the door for the walking frame.",
+      "modality": "note",
+      "memberships": [
+        "book-club"
+      ],
+      "rationale": "Updates attendance and access for the discussion."
+    },
+    {
+      "id": "hv01a-i16",
+      "text": "Sent Mara the tracking code. The field station gate closes at four, so I added that to delivery instructions.",
+      "modality": "note",
+      "memberships": [
+        "atlas-parcel"
+      ],
+      "rationale": "Tracks atlas dispatch and delivery access."
+    },
+    {
+      "id": "hv01a-i17",
+      "text": "'Can you change it to four?' clipped voice message, no sender recovered.",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "Missing referent makes association uncertain."
+    },
+    {
+      "id": "hv01a-i18",
+      "text": "Heater passed its electrical test this morning. Screw the guard back on before the room is used for stock sorting.",
+      "modality": "image",
+      "memberships": [
+        "shop-heater"
+      ],
+      "rationale": "Documents completion of the heater repair."
+    },
+    {
+      "id": "hv01a-i19",
+      "text": "Mara says the flat box arrived dry and all twelve foldouts are there. Close the dispatch ticket.",
+      "modality": "voice",
+      "memberships": [
+        "atlas-parcel"
+      ],
+      "rationale": "Closes atlas delivery."
+    },
+    {
+      "id": "hv01a-i20",
+      "text": "Orchard discussion went well with the keys question. Keep the seven-chair layout for next month; return Jo's pair tonight.",
+      "modality": "note",
+      "memberships": [
+        "book-club"
+      ],
+      "rationale": "Follow-up for the same club event."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv01a-i11",
+      "threads": [
+        "atlas-record",
+        "atlas-parcel"
+      ]
+    },
+    "revision": {
+      "earlier": "hv01a-i01",
+      "later": "hv01a-i08",
+      "thread": "atlas-record"
+    },
+    "rename": null,
+    "undo": {
+      "item": "hv01a-i14",
+      "wrongThread": "atlas-parcel",
+      "reason": "Hypothetical correction: the shelf-card proof changes catalogue wording and contains no delivery work."
+    }
+  }
+}

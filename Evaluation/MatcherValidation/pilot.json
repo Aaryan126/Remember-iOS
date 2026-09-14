@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "purpose": "development-pilot-only",
+  "review": {
+    "reviewer": "executing-agent",
+    "independent": false,
+    "method": "Source evidence and membership consistency checked during authoring; not a blind pair-first review.",
+    "limitation": "Small authored examples for policy and pipeline checks, never accuracy claims or held-out evaluation."
+  },
+  "libraries": [
+    {
+      "id": "pilot-festival", "split": "pilot", "storyFamily": "festival-access-and-captioning", "templateFamily": "volunteer-handover",
+      "threads": ["ramp", "captions", "garden"],
+      "relatedThreads": [["ramp", "captions"]],
+      "challenges": ["related-separate", "renamed-thread", "bridge", "ambiguous"],
+      "items": [
+        {"id": "festival-01", "modality": "note", "text": "Lantern Festival access route: the temporary ramp at the east door needs a second handrail before the public rehearsal.", "memberships": ["ramp"], "rationale": "Physical access route repair."},
+        {"id": "festival-02", "modality": "image", "text": "Photo transcription: EAST ENTRANCE. Second rail fitted. Ramp slope checked at rehearsal; the mat still curls at its lower edge.", "memberships": ["ramp"], "rationale": "Same entrance ramp after installation."},
+        {"id": "festival-03", "modality": "voice", "text": "I renamed the east ramp checklist to Step-free arrival. Keep the old rail measurements; the only remaining task is securing that curled mat.", "memberships": ["ramp"], "rationale": "Explicit rename continues the same work, not a new thread."},
+        {"id": "festival-04", "modality": "note", "text": "Lantern Festival live captions: borrow a tablet for the speech-to-text operator and check that the projector can display two lines at once.", "memberships": ["captions"], "rationale": "Accessibility work related to the event but distinct from the ramp."},
+        {"id": "festival-05", "modality": "video", "text": "Video transcript of the caption rehearsal: the last word disappears when a speaker pauses. The tablet still sends the complete sentence to the projector.", "memberships": ["captions"], "rationale": "Caption pipeline diagnostic, not physical access."},
+        {"id": "festival-06", "modality": "note", "text": "For the festival's speech display, disable the auto-clear timer. Two-line captions now remain visible through a pause.", "memberships": ["captions"], "rationale": "Paraphrased continuation without repeating the tablet wording."},
+        {"id": "festival-07", "modality": "note", "text": "Community garden: order replacement mesh for the pea bed after the pigeons pulled out the seedlings.", "memberships": ["garden"], "rationale": "Separate gardening activity."},
+        {"id": "festival-08", "modality": "image", "text": "Garden receipt: fine bird mesh for the pea bed, collected on Wednesday. Pegs supplied with the roll.", "memberships": ["garden"], "rationale": "Receipt for the same garden repair."},
+        {"id": "festival-09", "modality": "note", "text": "Festival handover: Maya will secure the east ramp mat, and Ben will retest caption persistence during pauses. Both checks must finish before doors open.", "memberships": ["ramp", "captions"], "rationale": "Contains substantive next actions for both threads; sharing this source must not merge them."},
+        {"id": "festival-10", "modality": "voice", "text": "The check went well. Please ask Maya to bring the spare one before we open.", "memberships": [], "rationale": "Neither the check nor spare item is identified; the name alone cannot assign a thread."}
+      ]
+    },
+    {
+      "id": "pilot-flats", "split": "pilot", "storyFamily": "upstairs-plumbing-and-roof", "templateFamily": "contractor-invoices",
+      "threads": ["shower", "roof", "bicycle"],
+      "relatedThreads": [["shower", "roof"]],
+      "challenges": ["identifier-collision", "related-separate", "correction", "bridge"],
+      "items": [
+        {"id": "flats-01", "modality": "note", "text": "Cedar Court, flat 8: water appears below the shower tray only while the shower is running. Plumber's estimate 104 covers resealing the waste fitting.", "memberships": ["shower"], "rationale": "Shower waste repair in flat8."},
+        {"id": "flats-02", "modality": "image", "text": "Plumber estimate 104 — Cedar Court flat 8, shower waste reseal, access through the removable bath panel. Roof work excluded.", "memberships": ["shower"], "rationale": "Invoice identifies the shower, not just the shared number."},
+        {"id": "flats-03", "modality": "voice", "text": "Correction to the flat eight shower log: the ceiling stayed dry for twenty minutes, not two. The newly sealed waste fitting held during the longer test.", "memberships": ["shower"], "rationale": "Corrected duration is a revision of the same repair."},
+        {"id": "flats-04", "modality": "note", "text": "Cedar Court roof: rain enters around the stairwell skylight. Roofer's estimate 104 is for replacing the lifted flashing.", "memberships": ["roof"], "rationale": "Same property and invoice number from a different contractor; separate leak."},
+        {"id": "flats-05", "modality": "video", "text": "Roof inspection transcript: water tracks underneath the skylight flashing when we spray the uphill corner. The stairwell stain grows; apartments are not being tested.", "memberships": ["roof"], "rationale": "Locates ingress at the roof."},
+        {"id": "flats-06", "modality": "note", "text": "The skylight flashing was replaced this morning. Schedule the stairwell repaint after the next rain confirms the roof is dry.", "memberships": ["roof"], "rationale": "Roof job continuation without invoice code."},
+        {"id": "flats-07", "modality": "note", "text": "My folding bicycle skips gears under load. Order a new rear shift cable before the commute gets longer next month.", "memberships": ["bicycle"], "rationale": "Unrelated personal bicycle maintenance."},
+        {"id": "flats-08", "modality": "voice", "text": "The folder shifts cleanly after replacing its frayed rear cable. Keep the old housing; there was no kink in it.", "memberships": ["bicycle"], "rationale": "Paraphrase of the same bicycle repair."},
+        {"id": "flats-09", "modality": "note", "text": "Cedar Court access schedule: let the plumber into flat eight to test the shower seal at nine, then give the roofer the stairwell key for the skylight flashing check at eleven.", "memberships": ["shower", "roof"], "rationale": "Coordinates two repairs without turning them into one leak."},
+        {"id": "flats-10", "modality": "image", "text": "Torn invoice corner: estimate 104, balance payable after the water test. Contractor name and site description are missing.", "memberships": [], "rationale": "Conflicting invoice number is insufficient to choose either repair."}
+      ]
+    },
+    {
+      "id": "pilot-lab", "split": "pilot", "storyFamily": "seed-temperature-protocols", "templateFamily": "bench-notebook",
+      "threads": ["cold", "salt", "website"],
+      "relatedThreads": [["cold", "salt"]],
+      "challenges": ["shared-entities", "related-separate", "negation", "bridge"],
+      "items": [
+        {"id": "lab-01", "modality": "note", "text": "Cress cold-storage study: refrigerate half of lot Willow before sowing. Germination after storage is the outcome; all trays receive plain water.", "memberships": ["cold"], "rationale": "Storage temperature experiment."},
+        {"id": "lab-02", "modality": "image", "text": "Bench sheet: Willow, refrigerated half, 18 of 24 emerged. Room-stored half, 21 of 24. Plain water in every tray.", "memberships": ["cold"], "rationale": "Measurements identify the temperature comparison."},
+        {"id": "lab-03", "modality": "voice", "text": "For the chilled cress trial, repeat the count tomorrow; two shoots were hidden by the tray rim. No change to the storage groups.", "memberships": ["cold"], "rationale": "Same experiment with paraphrased name."},
+        {"id": "lab-04", "modality": "note", "text": "Cress salinity study also uses lot Willow. Store every seed at room temperature; compare plain water with two salt concentrations after sowing.", "memberships": ["salt"], "rationale": "Same species and lot but different intervention and project."},
+        {"id": "lab-05", "modality": "video", "text": "Salinity tray recording: the high-salt group has shorter roots than the plain-water control. Count seedlings before taking the root photographs.", "memberships": ["salt"], "rationale": "Continues salinity measurements."},
+        {"id": "lab-06", "modality": "note", "text": "Amend the salt protocol: solutions are 5 and 10 millimolar, not percent. Relabel both Willow treatment bottles before repeating the root measurements.", "memberships": ["salt"], "rationale": "Unit correction stays within the salinity thread."},
+        {"id": "lab-07", "modality": "note", "text": "Portfolio site: make the photography page keyboard accessible. The thumbnail modal currently traps focus after closing.", "memberships": ["website"], "rationale": "Unrelated website accessibility task."},
+        {"id": "lab-08", "modality": "note", "text": "The portfolio gallery now returns keyboard focus to the thumbnail that opened it. Verify Escape closes the image dialog as well.", "memberships": ["website"], "rationale": "Same website bug after a fix."},
+        {"id": "lab-09", "modality": "note", "text": "Willow seed allocation: reserve 48 for the refrigerated versus room-storage experiment, and 72 for the three watering conditions in the salinity experiment. Keep outcome sheets separate.", "memberships": ["cold", "salt"], "rationale": "Allocation supplies both trials; it does not equate the experimental objectives."},
+        {"id": "lab-10", "modality": "voice", "text": "The Willow control looks healthy today. Take another photograph before moving the tray.", "memberships": [], "rationale": "Both trials have a Willow control; no intervention identifies it."}
+      ]
+    },
+    {
+      "id": "pilot-audio", "split": "pilot", "storyFamily": "oral-history-episode-and-trailer", "templateFamily": "edit-notes",
+      "threads": ["episode", "trailer", "passport"],
+      "relatedThreads": [["episode", "trailer"]],
+      "challenges": ["shared-media", "related-separate", "same-thread-paraphrase", "bridge"],
+      "items": [
+        {"id": "audio-01", "modality": "note", "text": "Harbor Voices long episode: assemble the retired ferry pilot's interview chronologically. Keep the full storm rescue account after the childhood section.", "memberships": ["episode"], "rationale": "Long-form interview edit."},
+        {"id": "audio-02", "modality": "voice", "text": "In the ferry pilot's full interview cut, remove the repeated childhood question but leave her pause before the storm rescue story.", "memberships": ["episode"], "rationale": "Same episode edit despite not repeating the series title."},
+        {"id": "audio-03", "modality": "note", "text": "Harbor Voices episode export is 42 minutes. The childhood section now leads directly into the rescue account with the original pause intact.", "memberships": ["episode"], "rationale": "Completion of the full episode change."},
+        {"id": "audio-04", "modality": "note", "text": "Harbor Voices launch trailer: make a 30-second vertical teaser from the ferry pilot interview. Use the rescue line first, then the release date.", "memberships": ["trailer"], "rationale": "Separate deliverable using the same interview source."},
+        {"id": "audio-05", "modality": "video", "text": "Vertical teaser review: the pilot's rescue line ends at twelve seconds. Place the release-date card before the closing wave sound.", "memberships": ["trailer"], "rationale": "Trailer-specific timing and layout."},
+        {"id": "audio-06", "modality": "image", "text": "Trailer timeline screenshot transcription: 00:00 rescue quote; 00:12 release date; 00:27 Harbor Voices logo; total 00:30.", "memberships": ["trailer"], "rationale": "Timeline describes only the trailer, not every work sharing the logo."},
+        {"id": "audio-07", "modality": "note", "text": "Passport renewal: retake the photograph because the background shadow failed the upload check. Keep the application reference in the appointment email.", "memberships": ["passport"], "rationale": "Unrelated administration."},
+        {"id": "audio-08", "modality": "image", "text": "Renewal upload confirmation: replacement passport photograph accepted. Appointment remains Friday at 10:20.", "memberships": ["passport"], "rationale": "Confirmation continues the same renewal."},
+        {"id": "audio-09", "modality": "note", "text": "Harbor Voices release checklist: export the full ferry interview with chapter marks and export the thirty-second vertical trailer with burned-in captions. Archive each edit session separately.", "memberships": ["episode", "trailer"], "rationale": "One checklist applies to both deliverables without combining their histories."},
+        {"id": "audio-10", "modality": "voice", "text": "The rescue line is too quiet. Bring it up a little and send me the new export.", "memberships": [], "rationale": "The line appears in both edits; requested export is unspecified."}
+      ]
+    }
+  ]
+}

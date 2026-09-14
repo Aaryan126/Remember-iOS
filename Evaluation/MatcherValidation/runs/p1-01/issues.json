@@ -1,0 +1,1995 @@
+{
+  "authorHashes": {
+    "hv01a": "8cf86e197e9fdfecf6669806fcb959d7ee27c2583780ee2bcdb13c6212d5ff9d",
+    "hv01b": "99aba16ec6a15e3f655bf50f6ec8fd2c131cba6555bf1aa378c2d9efc017e52d",
+    "hv02a": "5b8d68175febb9abf82f363789dae75ae3733127a74bdf70451e8ae198e8304c",
+    "hv02b": "70f5a229c63ef1e5cb0e2396046046f6c3a2acaaa38523ae1dd9ed7643c3ac0c",
+    "hv03a": "b84f4e7b2be3d95e81aebad04319cc1bc002bf86c140274aae190d2c991116a9",
+    "hv03b": "1c93eaab81d3574c9ab0d520c2afa96efa91d30dad4a95d5a832c32d0e0704cb",
+    "hv04a": "11a848eb2933b717655bc2b77319c3c26efca5d2b0677eff6cca3d4dfc9b3316",
+    "hv04b": "e8db2713b83074a0a68449a14a1f6a75205b97ce62fbdc4dc6f34a630b15f74e",
+    "hv05a": "bcd142295acfb50a569d1a3e9449f24aa4ac97d9121b9d7c215cf15cd8f6d83a",
+    "hv05b": "84b9e7b504ef15e82edea5bfa435b0da7fc913878f032dc15b990af2eaf0b3b6",
+    "hv06a": "c8d1c2c1e8eb801b215c85370e0256be6de17309210590140bcfb2b5521cb342",
+    "hv06b": "b8ca3a05158861eb3642f699f7f0556122c0f654428e76e1763461a0769af3d1",
+    "hv07a": "3c0d435dee26a2d2c731d6f253de9995730ec6aa7394fa8c980fffea5932d5e3",
+    "hv07b": "94b80ba0402c5f1d888777e6246f96d27e1a6e859e1b58000f2c3631624b657d",
+    "hv08a": "619895a4055be110f83cbb6394bcb64c5a3bf3e452e7a64b7e8bb295ac3a4935",
+    "hv08b": "cc9588b4b86fa040366a85b3d82cd814147796adb9a58e01456889610e57dd25",
+    "hv09a": "2066792343487e109fd9f01fa3ef1005851ea7ae60c7d31481c7ba9f85c8b3d8",
+    "hv09b": "96dddced2109c78591ce4519ce6277430397b0cfa64c3bcd6af955058b3e4c5b",
+    "hv10a": "f0e3a787ea779d5c26ea0d290629bdce3ee9c1e4602ebb12d189108eef844c57",
+    "hv10b": "2b403b725f23ad8095a573cc5bb8e5229273d8ffb2526042e4fa4a8abfae56e3",
+    "hv11a": "8422a8ec2ad13e74fdae49575041433233f56b8d9d06bbe11930cff473456b3d",
+    "hv11b": "6bc6ff777ced21b1f6730ae0a111fc0053e566ffab37c7cfbb80ff39400cf276",
+    "hv12a": "935ccf170fde8ebb6c3f5ef06458000b37f2f55012b7a2eed96b9684df7ed02d",
+    "hv12b": "09c38600010659d4fb1962259466f3888f97ab1cd942df43f797e659cf7ee33e",
+    "hv13a": "8d2d1b6607bb046a440d99e251a4eb1a21e74b257f0bedf79d581da84c9d3ac1",
+    "hv13b": "1545ecf03fe5021fb217ea89b0fcd9dbf06f237cda819a345937f2196e99d607",
+    "hv14a": "655ee191bd1c337965f3a489f5ac747b24fd237d8bf4ecfa278053508165a0bd",
+    "hv14b": "e491d068118a4043a93345ce00c293fd423d43a67b511ebb41deff60d9e830f0",
+    "hv15a": "f3f70c6bdafe9e5ac780cf58e2bebfce3795203a2c7a387ac0670d6564b96f53",
+    "hv15b": "12a2889a42a247d7e51633959b1c2936f3b6ec130806ae81c77c4fe4c950d5bf",
+    "hv16a": "d0bbfc7076e3db6d4669dfa8076b4df0e2c898422f5b12ea7d5bc5c01c8306db",
+    "hv16b": "06706f92e94a08649bafff764c9bbd7b5b8d487bd9f642448c764e33c94db01f",
+    "hv17a": "0bdc857479631c9beb797f84de3f99504d0b284bf8a236cc0133a72069c302c4",
+    "hv17b": "cc6ca52af48a7f2aa1a6f7ca2c14b4dfe64aa583b5a8beaa10aac91f4d19977a",
+    "hv18a": "60f3f57a8ec6c9e505b3fbe69b841b99cca44daa9ce0639b405eebd0a0cc961b",
+    "hv18b": "e16137c48a5edb36e7a6e2a3d53c2630e780a24ddb334dd09f3efd1bc3d81d4e",
+    "hv19a": "414d31baf2f2744a2d2000af30a34cdbdc2a3e52c0ae063991d697d5efe7bab9",
+    "hv19b": "d51ff4ed0b50e27f7d0a006fc7f778ded39c6d645f48296854345838bb35cbac",
+    "hv20a": "21418cd241eca369a896a582b0dc61115cf349828c8448267baaafc49eeef3a2",
+    "hv20b": "6fc3466b3db0a62ea1e448c7b3ddad25715016efcd36119a0fb8d5f702083aaa",
+    "hv21a": "9fa930042e11f678d7460ba2182ac70eea896bb6c89247b5bb1430bf6b613388",
+    "hv21b": "277fb6830a7fa8f930ad8cf41a8b2dbf0d71562153f7e90e67cdf8ba8c84b7e3",
+    "hv22a": "bab0ca56a68fd7a4cc205eecc87f31ad3182fcf3f50a7930c3419a7c9e3d38ef",
+    "hv22b": "30a3f1654b82349eb728d87b50c973b415519d846e5c53ef5a3227590804e4f7",
+    "hv23a": "d4fb7a15f3085d690ab1da0d05fa255409412de49aef3f7d6c48b06bc987ba43",
+    "hv23b": "b8c47f520c3823a16bc8f17818c2d3648c99a4801e7d64b42e2ad36ab1928fc2",
+    "hv24a": "1c611bc8cce89f6b5387b16ae23b21132c7f3f8f5f38e3a3a901cd5c237979b7",
+    "hv24b": "ad370f0a008bc541ae05ff92974168c005c131e84aaea82810270ee2026dfc95"
+  },
+  "issues": [
+    {
+      "author": [
+        [
+          "poetry-batch",
+          "school-bundle"
+        ],
+        [
+          "poetry-batch",
+          "window-display"
+        ]
+      ],
+      "id": "links:hv01b",
+      "kind": "links",
+      "library": "hv01b",
+      "reviewer": [
+        [
+          "poetry-batch",
+          "school-bundle"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "market-speaking",
+          "radio-listening"
+        ],
+        [
+          "market-speaking",
+          "class-refund"
+        ],
+        [
+          "radio-listening",
+          "class-refund"
+        ]
+      ],
+      "id": "links:hv05a",
+      "kind": "links",
+      "library": "hv05a",
+      "reviewer": [
+        [
+          "radio-listening",
+          "market-speaking"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "pantry-restock",
+          "moth-cleanout"
+        ],
+        [
+          "pantry-restock",
+          "jar-labels"
+        ],
+        [
+          "moth-cleanout",
+          "jar-labels"
+        ],
+        [
+          "pantry-restock",
+          "soup-swap"
+        ]
+      ],
+      "id": "links:hv06a",
+      "kind": "links",
+      "library": "hv06a",
+      "reviewer": [
+        [
+          "moth-cleanout",
+          "pantry-restock"
+        ],
+        [
+          "pantry-restock",
+          "jar-labels"
+        ],
+        [
+          "pantry-restock",
+          "soup-swap"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "bulk-oil-order",
+          "household-breakfast"
+        ],
+        [
+          "household-breakfast",
+          "courier-claim"
+        ]
+      ],
+      "id": "links:hv06b",
+      "kind": "links",
+      "library": "hv06b",
+      "reviewer": [
+        [
+          "household-breakfast",
+          "courier-claim"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "festival-map",
+          "sticker-pack"
+        ],
+        [
+          "festival-map",
+          "usage-license"
+        ],
+        [
+          "sticker-pack",
+          "usage-license"
+        ],
+        [
+          "festival-map",
+          "invoice-round"
+        ],
+        [
+          "sticker-pack",
+          "invoice-round"
+        ]
+      ],
+      "id": "links:hv07b",
+      "kind": "links",
+      "library": "hv07b",
+      "reviewer": [
+        [
+          "festival-map",
+          "sticker-pack"
+        ],
+        [
+          "festival-map",
+          "usage-license"
+        ],
+        [
+          "sticker-pack",
+          "usage-license"
+        ],
+        [
+          "festival-map",
+          "invoice-round"
+        ],
+        [
+          "sticker-pack",
+          "invoice-round"
+        ],
+        [
+          "usage-license",
+          "invoice-round"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "league-rosters",
+          "appeals-desk"
+        ],
+        [
+          "league-rosters",
+          "volunteer-shifts"
+        ],
+        [
+          "broadcast-show",
+          "sponsor-report"
+        ],
+        [
+          "broadcast-show",
+          "volunteer-shifts"
+        ],
+        [
+          "appeals-desk",
+          "volunteer-shifts"
+        ],
+        [
+          "league-rosters",
+          "sponsor-report"
+        ]
+      ],
+      "id": "links:hv08b",
+      "kind": "links",
+      "library": "hv08b",
+      "reviewer": [
+        [
+          "league-rosters",
+          "appeals-desk"
+        ],
+        [
+          "league-rosters",
+          "broadcast-show"
+        ],
+        [
+          "league-rosters",
+          "sponsor-report"
+        ],
+        [
+          "broadcast-show",
+          "sponsor-report"
+        ],
+        [
+          "broadcast-show",
+          "volunteer-shifts"
+        ],
+        [
+          "appeals-desk",
+          "broadcast-show"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "annex-deposit",
+          "archive-transfer"
+        ],
+        [
+          "archive-transfer",
+          "studio-access"
+        ],
+        [
+          "studio-access",
+          "signage"
+        ]
+      ],
+      "id": "links:hv09b",
+      "kind": "links",
+      "library": "hv09b",
+      "reviewer": [
+        [
+          "annex-deposit",
+          "archive-transfer"
+        ],
+        [
+          "annex-deposit",
+          "studio-access"
+        ],
+        [
+          "annex-deposit",
+          "signage"
+        ],
+        [
+          "archive-transfer",
+          "studio-access"
+        ],
+        [
+          "archive-transfer",
+          "signage"
+        ],
+        [
+          "studio-access",
+          "signage"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "estate-deliveries",
+          "donor-report"
+        ],
+        [
+          "estate-deliveries",
+          "van-cleaning"
+        ],
+        [
+          "collection-drive",
+          "donor-report"
+        ]
+      ],
+      "id": "links:hv10b",
+      "kind": "links",
+      "library": "hv10b",
+      "reviewer": [
+        [
+          "estate-deliveries",
+          "donor-report"
+        ],
+        [
+          "collection-drive",
+          "donor-report"
+        ],
+        [
+          "estate-deliveries",
+          "collection-drive"
+        ],
+        [
+          "estate-deliveries",
+          "van-cleaning"
+        ],
+        [
+          "collection-drive",
+          "van-cleaning"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "junction-track",
+          "signal-control"
+        ],
+        [
+          "junction-track",
+          "marsh-scenery"
+        ]
+      ],
+      "id": "links:hv11a",
+      "kind": "links",
+      "library": "hv11a",
+      "reviewer": [
+        [
+          "junction-track",
+          "signal-control"
+        ],
+        [
+          "junction-track",
+          "marsh-scenery"
+        ],
+        [
+          "signal-control",
+          "marsh-scenery"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "folding-baseboard",
+          "exhibition-crate"
+        ],
+        [
+          "folding-baseboard",
+          "station-announcements"
+        ],
+        [
+          "tram-repaint",
+          "exhibition-crate"
+        ]
+      ],
+      "id": "links:hv11b",
+      "kind": "links",
+      "library": "hv11b",
+      "reviewer": [
+        [
+          "folding-baseboard",
+          "exhibition-crate"
+        ],
+        [
+          "folding-baseboard",
+          "tram-repaint"
+        ],
+        [
+          "folding-baseboard",
+          "station-announcements"
+        ],
+        [
+          "tram-repaint",
+          "station-announcements"
+        ],
+        [
+          "exhibition-crate",
+          "tram-repaint"
+        ],
+        [
+          "exhibition-crate",
+          "station-announcements"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "timing-repair",
+          "results-release"
+        ],
+        [
+          "results-release",
+          "medal-order"
+        ],
+        [
+          "access-seating",
+          "results-release"
+        ]
+      ],
+      "id": "links:hv13b",
+      "kind": "links",
+      "library": "hv13b",
+      "reviewer": [
+        [
+          "timing-repair",
+          "results-release"
+        ],
+        [
+          "timing-repair",
+          "medal-order"
+        ],
+        [
+          "timing-repair",
+          "access-seating"
+        ],
+        [
+          "results-release",
+          "medal-order"
+        ],
+        [
+          "results-release",
+          "access-seating"
+        ],
+        [
+          "medal-order",
+          "access-seating"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "oat-stock",
+          "winter-drinks"
+        ],
+        [
+          "grinder-service",
+          "winter-drinks"
+        ]
+      ],
+      "id": "links:hv14a",
+      "kind": "links",
+      "library": "hv14a",
+      "reviewer": [
+        [
+          "oat-stock",
+          "winter-drinks"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "pastry-count",
+          "allergen-cards"
+        ],
+        [
+          "pastry-count",
+          "bin-contract"
+        ],
+        [
+          "catering-coffee",
+          "pastry-count"
+        ]
+      ],
+      "id": "links:hv14b",
+      "kind": "links",
+      "library": "hv14b",
+      "reviewer": [
+        [
+          "pastry-count",
+          "allergen-cards"
+        ],
+        [
+          "pastry-count",
+          "bin-contract"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "stop-access-audit",
+          "address-crosswalk"
+        ],
+        [
+          "stop-access-audit",
+          "public-issue-view"
+        ],
+        [
+          "stop-access-audit",
+          "survey-training"
+        ],
+        [
+          "address-crosswalk",
+          "public-issue-view"
+        ],
+        [
+          "public-issue-view",
+          "survey-training"
+        ]
+      ],
+      "id": "links:hv15b",
+      "kind": "links",
+      "library": "hv15b",
+      "reviewer": [
+        [
+          "stop-access-audit",
+          "address-crosswalk"
+        ],
+        [
+          "stop-access-audit",
+          "public-issue-view"
+        ],
+        [
+          "stop-access-audit",
+          "survey-training"
+        ],
+        [
+          "address-crosswalk",
+          "public-issue-view"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "pilot-structure",
+          "character-voices"
+        ],
+        [
+          "pilot-structure",
+          "pitch-packet"
+        ],
+        [
+          "character-voices",
+          "pitch-packet"
+        ],
+        [
+          "pilot-structure",
+          "workshop-booking"
+        ],
+        [
+          "character-voices",
+          "workshop-booking"
+        ]
+      ],
+      "id": "links:hv16b",
+      "kind": "links",
+      "library": "hv16b",
+      "reviewer": [
+        [
+          "pilot-structure",
+          "character-voices"
+        ],
+        [
+          "pilot-structure",
+          "pitch-packet"
+        ],
+        [
+          "character-voices",
+          "pitch-packet"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "cedar-application",
+          "marsh-bursary"
+        ],
+        [
+          "cedar-application",
+          "recommendation"
+        ]
+      ],
+      "id": "links:hv18a",
+      "kind": "links",
+      "library": "hv18a",
+      "reviewer": [
+        [
+          "cedar-application",
+          "recommendation"
+        ],
+        [
+          "cedar-application",
+          "marsh-bursary"
+        ],
+        [
+          "marsh-bursary",
+          "recommendation"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "harbour-portfolio",
+          "harbour-interview"
+        ],
+        [
+          "harbour-portfolio",
+          "print-reimbursement"
+        ]
+      ],
+      "id": "links:hv18b",
+      "kind": "links",
+      "library": "hv18b",
+      "reviewer": [
+        [
+          "harbour-portfolio",
+          "harbour-interview"
+        ],
+        [
+          "harbour-portfolio",
+          "print-reimbursement"
+        ],
+        [
+          "harbour-interview",
+          "print-reimbursement"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "permission-prompt",
+          "cohort-report"
+        ],
+        [
+          "permission-prompt",
+          "spanish-onboarding"
+        ],
+        [
+          "permission-prompt",
+          "audio-crash"
+        ],
+        [
+          "cohort-report",
+          "audio-crash"
+        ]
+      ],
+      "id": "links:hv20b",
+      "kind": "links",
+      "library": "hv20b",
+      "reviewer": [
+        [
+          "permission-prompt",
+          "cohort-report"
+        ],
+        [
+          "permission-prompt",
+          "spanish-onboarding"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "court-resurfacing",
+          "family-open-day"
+        ],
+        [
+          "family-open-day",
+          "membership-trial"
+        ],
+        [
+          "family-open-day",
+          "lost-equipment"
+        ],
+        [
+          "membership-trial",
+          "lost-equipment"
+        ]
+      ],
+      "id": "links:hv21b",
+      "kind": "links",
+      "library": "hv21b",
+      "reviewer": [
+        [
+          "family-open-day",
+          "membership-trial"
+        ],
+        [
+          "court-resurfacing",
+          "family-open-day"
+        ],
+        [
+          "court-resurfacing",
+          "membership-trial"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "glare-control",
+          "shared-desk-handover"
+        ],
+        [
+          "input-layout",
+          "shared-desk-handover"
+        ],
+        [
+          "glare-control",
+          "video-lighting"
+        ],
+        [
+          "video-lighting",
+          "shared-desk-handover"
+        ]
+      ],
+      "id": "links:hv22b",
+      "kind": "links",
+      "library": "hv22b",
+      "reviewer": [
+        [
+          "input-layout",
+          "shared-desk-handover"
+        ],
+        [
+          "glare-control",
+          "video-lighting"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "shopkeeper-testimony",
+          "walking-booklet"
+        ],
+        [
+          "shopkeeper-testimony",
+          "archive-deposit"
+        ],
+        [
+          "map-rights",
+          "walking-booklet"
+        ]
+      ],
+      "id": "links:hv23b",
+      "kind": "links",
+      "library": "hv23b",
+      "reviewer": [
+        [
+          "shopkeeper-testimony",
+          "walking-booklet"
+        ],
+        [
+          "shopkeeper-testimony",
+          "archive-deposit"
+        ],
+        [
+          "walking-booklet",
+          "map-rights"
+        ],
+        [
+          "shopkeeper-testimony",
+          "map-rights"
+        ],
+        [
+          "walking-booklet",
+          "archive-deposit"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "ridge-training",
+          "race-weekend"
+        ],
+        [
+          "ridge-training",
+          "shoe-testing"
+        ]
+      ],
+      "id": "links:hv24a",
+      "kind": "links",
+      "library": "hv24a",
+      "reviewer": [
+        [
+          "ridge-training",
+          "race-weekend"
+        ],
+        [
+          "ridge-training",
+          "shoe-testing"
+        ],
+        [
+          "race-weekend",
+          "shoe-testing"
+        ]
+      ]
+    },
+    {
+      "author": [
+        [
+          "evening-base-block",
+          "night-relay-team"
+        ],
+        [
+          "evening-base-block",
+          "headlamp-checks"
+        ],
+        [
+          "evening-base-block",
+          "club-route-notes"
+        ],
+        [
+          "night-relay-team",
+          "headlamp-checks"
+        ],
+        [
+          "headlamp-checks",
+          "club-route-notes"
+        ]
+      ],
+      "id": "links:hv24b",
+      "kind": "links",
+      "library": "hv24b",
+      "reviewer": [
+        [
+          "evening-base-block",
+          "headlamp-checks"
+        ],
+        [
+          "evening-base-block",
+          "club-route-notes"
+        ],
+        [
+          "evening-base-block",
+          "night-relay-team"
+        ],
+        [
+          "headlamp-checks",
+          "club-route-notes"
+        ],
+        [
+          "headlamp-checks",
+          "night-relay-team"
+        ],
+        [
+          "club-route-notes",
+          "night-relay-team"
+        ]
+      ]
+    },
+    {
+      "author": [],
+      "authorReason": "Name and numbers cannot establish which activity the slip concerns.",
+      "id": "membership:hv01a-i07",
+      "kind": "membership",
+      "library": "hv01a",
+      "reviewer": [
+        "atlas-parcel"
+      ],
+      "reviewerReason": "Context identifies Mara and Thursday as the atlas delivery recipient/deadline; twelve remains unexplained but task identity is supported.",
+      "source": "hv01a-i07"
+    },
+    {
+      "author": [],
+      "authorReason": "Too abbreviated to distinguish a money amount, measurement or appointment.",
+      "id": "membership:hv02a-i08",
+      "kind": "membership",
+      "library": "hv02a",
+      "reviewer": [
+        "loan-cello"
+      ],
+      "reviewerReason": "Full context matches 90, Thursday and L to the co-op deposit, pickup and Leena; stronger than the isolated pair evidence.",
+      "source": "hv02a-i08"
+    },
+    {
+      "author": [],
+      "authorReason": "A dimension alone lacks a secure object reference.",
+      "id": "membership:hv02b-i08",
+      "kind": "membership",
+      "library": "hv02b",
+      "reviewer": [
+        "quartet-stands"
+      ],
+      "reviewerReason": "Context uniquely links 62 and the nonclosing lid to the bus locker dimension corrected in i09.",
+      "source": "hv02b-i08"
+    },
+    {
+      "author": [],
+      "authorReason": "Partial identifier alone gives inadequate purpose.",
+      "id": "membership:hv03b-i08",
+      "kind": "membership",
+      "library": "hv03b",
+      "reviewer": [
+        "island-permit"
+      ],
+      "reviewerReason": "HN and 28 together match the unique HN-28 permit reference; context identifies the task despite incomplete annotation.",
+      "source": "hv03b-i08"
+    },
+    {
+      "author": [],
+      "authorReason": "Fragment mixes cues without a clear action or context.",
+      "id": "membership:hv05b-i18",
+      "kind": "membership",
+      "library": "hv05b",
+      "reviewer": [
+        "kitchen-renovation"
+      ],
+      "reviewerReason": "In full context the nickel sample uniquely matches the matte nickel handle sample in i11; Olek/Saturday do not add a grammar objective.",
+      "source": "hv05b-i18"
+    },
+    {
+      "author": [],
+      "authorReason": "Could describe an order, artwork or another item; lacks task identity.",
+      "id": "membership:hv13b-i08",
+      "kind": "membership",
+      "library": "hv13b",
+      "reviewer": [
+        "medal-order"
+      ],
+      "reviewerReason": "48 and blue uniquely match the medal quantity/ribbons, with engraving proof also confirmed later; Friday remains an unexplained detail.",
+      "source": "hv13b-i08"
+    },
+    {
+      "author": [],
+      "authorReason": "Unresolved blend of food and writing cues.",
+      "id": "membership:hv16b-i10",
+      "kind": "membership",
+      "library": "hv16b",
+      "reviewer": [
+        "bread-starter"
+      ],
+      "reviewerReason": "The warm-shelf/longer-wait instruction is identifiable through i11's starter doubling on that same warm shelf; 'second half' alone does not establish script work.",
+      "source": "hv16b-i10"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv01b-i01--hv01b-i02",
+      "kind": "pair",
+      "library": "hv01b",
+      "pair": "hv01b-i01--hv01b-i02",
+      "reviewer": "unrelated",
+      "reviewerReason": "Cataloguing donated poetry pamphlets does not share an identified objective with arranging a borrowed moon and window crates.",
+      "sufficiency": "sufficient"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv01b-i01--hv01b-i19",
+      "kind": "pair",
+      "library": "hv01b",
+      "pair": "hv01b-i01--hv01b-i19",
+      "reviewer": "unrelated",
+      "reviewerReason": "Donated pamphlet records and marking the Paper Moon prop for return are distinct shop activities.",
+      "sufficiency": "sufficient"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv01b-i06--hv01b-i08",
+      "kind": "pair",
+      "library": "hv01b",
+      "pair": "hv01b-i06--hv01b-i08",
+      "reviewer": "unrelated",
+      "reviewerReason": "Noon Ferry bibliographic checking and a moon-and-crates window arrangement have different objectives.",
+      "sufficiency": "sufficient"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv01b-i08--hv01b-i13",
+      "kind": "pair",
+      "library": "hv01b",
+      "pair": "hv01b-i08--hv01b-i13",
+      "reviewer": "unrelated",
+      "reviewerReason": "Window-prop positioning does not advance the school's bundle reservation, stock update or packing list.",
+      "sufficiency": "sufficient"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv03a-i01--hv03a-i03",
+      "kind": "pair",
+      "library": "hv03a",
+      "pair": "hv03a-i01--hv03a-i03",
+      "reviewer": "related",
+      "reviewerReason": "Tent weatherproofing plausibly supports the camping itinerary, but the tent source does not identify which trip it serves.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv03a-i07--hv03a-i12",
+      "kind": "pair",
+      "library": "hv03a",
+      "pair": "hv03a-i07--hv03a-i12",
+      "reviewer": "related",
+      "reviewerReason": "Weatherproofing a tent plausibly relates to camping route/water changes, but the two-source evidence does not identify a shared outing.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv03a-i07--hv03a-i14",
+      "kind": "pair",
+      "library": "hv03a",
+      "pair": "hv03a-i07--hv03a-i14",
+      "reviewer": "related",
+      "reviewerReason": "Tent repair could support the renamed camping route, but no trip identity appears in the seam-sealing note.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "same",
+      "id": "pair:hv03a-i09--hv03a-i15",
+      "kind": "pair",
+      "library": "hv03a",
+      "pair": "hv03a-i09--hv03a-i15",
+      "reviewer": "related",
+      "reviewerReason": "Water availability and allergen-safe pouches could both provision a trip, but the pouch source does not identify this Ridge outing.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv03b-i01--hv03b-i02",
+      "kind": "pair",
+      "library": "hv03b",
+      "pair": "hv03b-i01--hv03b-i02",
+      "reviewer": "related",
+      "reviewerReason": "Island camping and ferry cycle transport plausibly belong to one trip, but the ferry source omits destination and date.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv03b-i01--hv03b-i03",
+      "kind": "pair",
+      "library": "hv03b",
+      "pair": "hv03b-i01--hv03b-i03",
+      "reviewer": "related",
+      "reviewerReason": "An island sky session plausibly uses the overnight campsite, but the photography source does not name Heron or its date.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv03b-i01--hv03b-i19",
+      "kind": "pair",
+      "library": "hv03b",
+      "pair": "hv03b-i01--hv03b-i19",
+      "reviewer": "related",
+      "reviewerReason": "A campsite permit and cycle-ferry booking could be trip logistics, but the booking does not identify Heron Island or the permit date.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv03b-i03--hv03b-i05",
+      "kind": "pair",
+      "library": "hv03b",
+      "pair": "hv03b-i03--hv03b-i05",
+      "reviewer": "related",
+      "reviewerReason": "Sky photography and a meadow permit may support the same island visit, but the location connection is incomplete in these texts.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv03b-i03--hv03b-i11",
+      "kind": "pair",
+      "library": "hv03b",
+      "pair": "hv03b-i03--hv03b-i11",
+      "reviewer": "related",
+      "reviewerReason": "The photography session could be on the camping/ferry outing, but no shared place or identifier is stated across these two texts.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv04a-i07--hv04a-i19",
+      "kind": "pair",
+      "library": "hv04a",
+      "pair": "hv04a-i07--hv04a-i19",
+      "reviewer": "related",
+      "reviewerReason": "A Survey circle and personal loop exercises plausibly concern the same study area, but the retry does not name that group.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv04b-i01--hv04b-i04",
+      "kind": "pair",
+      "library": "hv04b",
+      "pair": "hv04b-i01--hv04b-i04",
+      "reviewer": "related",
+      "reviewerReason": "Daily scenario drills and a full timed mock are distinct preparation activities; the mock text does not name the certificate.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv04b-i04--hv04b-i07",
+      "kind": "pair",
+      "library": "hv04b",
+      "pair": "hv04b-i04--hv04b-i07",
+      "reviewer": "related",
+      "reviewerReason": "Mock-exam preparation and expense reimbursement plausibly support the same qualification, but neither text identifies which exam.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv04b-i11--hv04b-i20",
+      "kind": "pair",
+      "library": "hv04b",
+      "pair": "hv04b-i11--hv04b-i20",
+      "reviewer": "related",
+      "reviewerReason": "An error-reasoning log and retention of a timed mock are connected study activities, but the mock's subject is unstated.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv05a-i01--hv05a-i03",
+      "kind": "pair",
+      "library": "hv05a",
+      "pair": "hv05a-i01--hv05a-i03",
+      "reviewer": "uncertain",
+      "reviewerReason": "Market Spanish and a Radio Patio listening lesson may support one language programme, but the radio note does not establish its language or connection to the market practice.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv05a-i03--hv05a-i05",
+      "kind": "pair",
+      "library": "hv05a",
+      "pair": "hv05a-i03--hv05a-i05",
+      "reviewer": "uncertain",
+      "reviewerReason": "Radio Patio weather listening and Alma's market card could be connected learning activities, but no shared language or concrete project is identified in these two texts.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv05a-i04--hv05a-i05",
+      "kind": "pair",
+      "library": "hv05a",
+      "pair": "hv05a-i04--hv05a-i05",
+      "reviewer": "uncertain",
+      "reviewerReason": "Alma appears in a cancelled-class refund and a market-card correction, but the pair does not establish that the card belongs to the cancelled Spanish learning project.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv05a-i05--hv05a-i20",
+      "kind": "pair",
+      "library": "hv05a",
+      "pair": "hv05a-i05--hv05a-i20",
+      "reviewer": "uncertain",
+      "reviewerReason": "A stallholder dialogue card and Patio street-name listening results are different exercises; their common language or programme is not stated.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv06b-i01--hv06b-i05",
+      "kind": "pair",
+      "library": "hv06b",
+      "pair": "hv06b-i01--hv06b-i05",
+      "reviewer": "unrelated",
+      "reviewerReason": "The breakfast oats/toast plan and Mo's shared oil-volume correction have no stated common order or ingredient.",
+      "sufficiency": "sufficient"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv06b-i02--hv06b-i20",
+      "kind": "pair",
+      "library": "hv06b",
+      "pair": "hv06b-i02--hv06b-i20",
+      "reviewer": "uncertain",
+      "reviewerReason": "Sheet 27 describes oil allocation while claim K-27 lacks an object in this pair; similar numbering cannot establish whether the damaged parcel contained that oil.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv06b-i13--hv06b-i15",
+      "kind": "pair",
+      "library": "hv06b",
+      "pair": "hv06b-i13--hv06b-i15",
+      "reviewer": "unrelated",
+      "reviewerReason": "Settling a shared seven-litre oil purchase and adjusting raisins for oat breakfasts concern distinct purchases with no stated shared order.",
+      "sufficiency": "sufficient"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv06b-i17--hv06b-i20",
+      "kind": "pair",
+      "library": "hv06b",
+      "pair": "hv06b-i17--hv06b-i20",
+      "reviewer": "uncertain",
+      "reviewerReason": "The oil split is clear, but this isolated K-27 repayment note does not identify the claimed parcel contents, so an oil-shipment connection cannot be resolved.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv08b-i01--hv08b-i02",
+      "kind": "pair",
+      "library": "hv08b",
+      "pair": "hv08b-i01--hv08b-i02",
+      "reviewer": "uncertain",
+      "reviewerReason": "Online-league eligibility and a commentary stream plausibly share an event, but the rundown does not name this league or Heron.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv08b-i01--hv08b-i04",
+      "kind": "pair",
+      "library": "hv08b",
+      "pair": "hv08b-i01--hv08b-i04",
+      "reviewer": "uncertain",
+      "reviewerReason": "The volunteer rota names chat/helpdesk shifts but not the online league whose roster is being checked.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv08b-i12--hv08b-i15",
+      "kind": "pair",
+      "library": "hv08b",
+      "pair": "hv08b-i12--hv08b-i15",
+      "reviewer": "uncertain",
+      "reviewerReason": "The chat/helpdesk staffing change does not identify the competition associated with appeal A9, so their common event needs context.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv08b-i15--hv08b-i20",
+      "kind": "pair",
+      "library": "hv08b",
+      "pair": "hv08b-i15--hv08b-i20",
+      "reviewer": "uncertain",
+      "reviewerReason": "Restoring game A9 and editing a commentary replay may concern the same competition, but the replay names no game, appeal or league.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv09a-i01--hv09a-i20",
+      "kind": "pair",
+      "library": "hv09a",
+      "pair": "hv09a-i01--hv09a-i20",
+      "reviewer": "uncertain",
+      "reviewerReason": "The breakfast debrief does not identify Quayside or establish its connection to the furniture move.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv09b-i01--hv09b-i03",
+      "kind": "pair",
+      "library": "hv09b",
+      "pair": "hv09b-i01--hv09b-i03",
+      "reviewer": "uncertain",
+      "reviewerReason": "An Annex exit and studio badge rollout could be parts of relocation, but this pair does not establish that link.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv09b-i06--hv09b-i08",
+      "kind": "pair",
+      "library": "hv09b",
+      "pair": "hv09b-i06--hv09b-i08",
+      "reviewer": "uncertain",
+      "reviewerReason": "Studio reader access and Annex deposit evidence need relocation context to establish a relationship.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv10a-i01--hv10a-i02",
+      "kind": "pair",
+      "library": "hv10a",
+      "pair": "hv10a-i01--hv10a-i02",
+      "reviewer": "uncertain",
+      "reviewerReason": "Food parcel packing and cooler repair could share a facility, but the two texts do not establish that dependency.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv10a-i01--hv10a-i04",
+      "kind": "pair",
+      "library": "hv10a",
+      "pair": "hv10a-i01--hv10a-i04",
+      "reviewer": "related",
+      "reviewerReason": "Food packing and volunteer food-handling induction plausibly support one operation, but the induction lacks a named event or site.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv10a-i09--hv10a-i15",
+      "kind": "pair",
+      "library": "hv10a",
+      "pair": "hv10a-i09--hv10a-i15",
+      "reviewer": "related",
+      "reviewerReason": "Packing-floor procedures and volunteer lifting induction are compatible operational tasks; their common program is not explicit in the pair.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv10b-i08--hv10b-i12",
+      "kind": "pair",
+      "library": "hv10b",
+      "pair": "hv10b-i08--hv10b-i12",
+      "reviewer": "related",
+      "reviewerReason": "Vehicle mat cleanup and workplace food collection have different immediate objectives; a shared operation needs context.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv10b-i08--hv10b-i15",
+      "kind": "pair",
+      "library": "hv10b",
+      "pair": "hv10b-i08--hv10b-i15",
+      "reviewer": "related",
+      "reviewerReason": "Van cleanup and a food collection drive might share food-bank operations, but this pair does not identify the van's role.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv11a-i13--hv11a-i15",
+      "kind": "pair",
+      "library": "hv11a",
+      "pair": "hv11a-i13--hv11a-i15",
+      "reviewer": "related",
+      "reviewerReason": "Scenic water sealing and coach-clearance testing are separate model-layout tasks; the latter lacks the layout name.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv11b-i01--hv11b-i02",
+      "kind": "pair",
+      "library": "hv11b",
+      "pair": "hv11b-i01--hv11b-i02",
+      "reviewer": "related",
+      "reviewerReason": "Portable tram track construction and painting tram 62 are distinct model railway tasks; their common layout is inferred.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv11b-i05--hv11b-i15",
+      "kind": "pair",
+      "library": "hv11b",
+      "pair": "hv11b-i05--hv11b-i15",
+      "reviewer": "related",
+      "reviewerReason": "Transit announcements could belong to the tram layout, but the audio text does not explicitly identify that model.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv11b-i05--hv11b-i19",
+      "kind": "pair",
+      "library": "hv11b",
+      "pair": "hv11b-i05--hv11b-i19",
+      "reviewer": "related",
+      "reviewerReason": "Transit sound effects and tram miniature finishing are plausibly related but have no explicit shared layout in the pair.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv11b-i11--hv11b-i13",
+      "kind": "pair",
+      "library": "hv11b",
+      "pair": "hv11b-i11--hv11b-i13",
+      "reviewer": "uncertain",
+      "reviewerReason": "The portable-layout crate adjustment does not establish a connection to the Market Hall audio edit.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv11b-i14--hv11b-i18",
+      "kind": "pair",
+      "library": "hv11b",
+      "pair": "hv11b-i14--hv11b-i18",
+      "reviewer": "related",
+      "reviewerReason": "Tram track-joint tests and announcement-player tests are different components; the audio device's model-layout use needs context.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "same",
+      "id": "pair:hv12a-i03--hv12a-i12",
+      "kind": "pair",
+      "library": "hv12a",
+      "pair": "hv12a-i03--hv12a-i12",
+      "reviewer": "same",
+      "reviewerReason": "Both use Mira's recollections to identify family photographs; full context is needed to confirm one shared identification project.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv12a-i09--hv12a-i20",
+      "kind": "pair",
+      "library": "hv12a",
+      "pair": "hv12a-i09--hv12a-i20",
+      "reviewer": "related",
+      "reviewerReason": "Scanning a shoebox batch and maintaining a caption index are distinct photo-archive activities, but their common collection is unstated.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv12b-i01--hv12b-i02",
+      "kind": "pair",
+      "library": "hv12b",
+      "pair": "hv12b-i01--hv12b-i02",
+      "reviewer": "related",
+      "reviewerReason": "A borrowed projector and an inventory of slides are compatible parts of a project, but this pair does not say the projector serves that collection.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv12b-i01--hv12b-i03",
+      "kind": "pair",
+      "library": "hv12b",
+      "pair": "hv12b-i01--hv12b-i03",
+      "reviewer": "uncertain",
+      "reviewerReason": "Returning a club projector and arranging a family gallery lack an explicit operational link.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv12b-i01--hv12b-i04",
+      "kind": "pair",
+      "library": "hv12b",
+      "pair": "hv12b-i01--hv12b-i04",
+      "reviewer": "related",
+      "reviewerReason": "Projector handling could support slide capture, but the camera rig does not mention using the borrowed projector.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv12b-i03--hv12b-i18",
+      "kind": "pair",
+      "library": "hv12b",
+      "pair": "hv12b-i03--hv12b-i18",
+      "reviewer": "uncertain",
+      "reviewerReason": "Private-gallery sharing and a club projector receipt do not establish a common project from the pair alone.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv12b-i04--hv12b-i18",
+      "kind": "pair",
+      "library": "hv12b",
+      "pair": "hv12b-i04--hv12b-i18",
+      "reviewer": "related",
+      "reviewerReason": "Slide capture and projector return may share a digitization project, but the camera rig's dependence on that loan is not stated.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv12b-i10--hv12b-i14",
+      "kind": "pair",
+      "library": "hv12b",
+      "pair": "hv12b-i10--hv12b-i14",
+      "reviewer": "uncertain",
+      "reviewerReason": "Photo-sharing consent and packing borrowed projection equipment have no explicit connection in these texts.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv12b-i17--hv12b-i18",
+      "kind": "pair",
+      "library": "hv12b",
+      "pair": "hv12b-i17--hv12b-i18",
+      "reviewer": "uncertain",
+      "reviewerReason": "Repairing a cousin's gallery invitation and returning club equipment do not establish shared work.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv13b-i02--hv13b-i11",
+      "kind": "pair",
+      "library": "hv13b",
+      "pair": "hv13b-i02--hv13b-i11",
+      "reviewer": "related",
+      "reviewerReason": "Awards provisioning and corrected race results may support one meet, but the handoff does not identify the invitational or an awards dependency.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv14a-i01--hv14a-i02",
+      "kind": "pair",
+      "library": "hv14a",
+      "pair": "hv14a-i01--hv14a-i02",
+      "reviewer": "related",
+      "reviewerReason": "Oat-drink stock and a latte recipe are connected caf\u00e9 work, but this recipe text does not establish use of the stocked oat base.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv14b-i13--hv14b-i16",
+      "kind": "pair",
+      "library": "hv14b",
+      "pair": "hv14b-i13--hv14b-i16",
+      "reviewer": "unrelated",
+      "reviewerReason": "The archive's catered coffee headcount and daily counter pastry ordering are distinct customer/order streams.",
+      "sufficiency": "sufficient"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv15a-i06--hv15a-i16",
+      "kind": "pair",
+      "library": "hv15a",
+      "pair": "hv15a-i06--hv15a-i16",
+      "reviewer": "uncertain",
+      "reviewerReason": "The route test mentions exposed pavements but does not say it uses the public tree dataset being checked, so that dependency needs context.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv15a-i07--hv15a-i16",
+      "kind": "pair",
+      "library": "hv15a",
+      "pair": "hv15a-i07--hv15a-i16",
+      "reviewer": "uncertain",
+      "reviewerReason": "The T-48 pavement coordinate correction does not identify the point as a tree in this pair; its relationship to the public tree package is not established.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv15b-i04--hv15b-i13",
+      "kind": "pair",
+      "library": "hv15b",
+      "pair": "hv15b-i04--hv15b-i13",
+      "reviewer": "uncertain",
+      "reviewerReason": "The curb training note does not identify the dataset whose RV-N/R17 address crosswalk is being documented.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv15b-i07--hv15b-i19",
+      "kind": "pair",
+      "library": "hv15b",
+      "pair": "hv15b-i07--hv15b-i19",
+      "reviewer": "uncertain",
+      "reviewerReason": "A stop/address identifier collision and a generic curb-measurement training pack could support one survey, but that common project is unstated in the pair.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv16a-i01--hv16a-i16",
+      "kind": "pair",
+      "library": "hv16a",
+      "pair": "hv16a-i01--hv16a-i16",
+      "reviewer": "uncertain",
+      "reviewerReason": "The indexed table-read recording does not name Night Ferry or its characters, so assignment to this outline's film project needs context.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv16a-i04--hv16a-i08",
+      "kind": "pair",
+      "library": "hv16a",
+      "pair": "hv16a-i04--hv16a-i08",
+      "reviewer": "uncertain",
+      "reviewerReason": "The unnamed landing permit and retitled daughter-and-brother short may be connected, but this pair does not identify the short's filming location.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv16b-i04--hv16b-i06",
+      "kind": "pair",
+      "library": "hv16b",
+      "pair": "hv16b-i04--hv16b-i06",
+      "reviewer": "uncertain",
+      "reviewerReason": "The workshop's booking terms do not establish that its work includes the caretaker pilot whose reveal is being revised.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv16b-i04--hv16b-i16",
+      "kind": "pair",
+      "library": "hv16b",
+      "pair": "hv16b-i04--hv16b-i16",
+      "reviewer": "uncertain",
+      "reviewerReason": "A screenplay workshop registration and a pilot continuity edit share a field but no stated workshop assignment or common concrete project.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv16b-i06--hv16b-i07",
+      "kind": "pair",
+      "library": "hv16b",
+      "pair": "hv16b-i06--hv16b-i07",
+      "reviewer": "uncertain",
+      "reviewerReason": "The caretaker reveal and Bea/Otis voice exercise may concern the same script, but neither text connects these named characters to that caretaker plot.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv16b-i07--hv16b-i18",
+      "kind": "pair",
+      "library": "hv16b",
+      "pair": "hv16b-i07--hv16b-i18",
+      "reviewer": "uncertain",
+      "reviewerReason": "The Bea/Otis exercise is not identified as work from the completed Saturday workshop, so their connection needs context.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv17a-i03--hv17a-i14",
+      "kind": "pair",
+      "library": "hv17a",
+      "pair": "hv17a-i03--hv17a-i14",
+      "reviewer": "related",
+      "reviewerReason": "Oven warranty registration and dishwasher servicing share household appliance administration, but no direct dependency is stated.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv17a-i05--hv17a-i17",
+      "kind": "pair",
+      "library": "hv17a",
+      "pair": "hv17a-i05--hv17a-i17",
+      "reviewer": "same",
+      "reviewerReason": "The same dishwasher hinge leak is shown before and after repair, although claim evidence and service verification could be separately scoped objectives.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv17a-i05--hv17a-i18",
+      "kind": "pair",
+      "library": "hv17a",
+      "pair": "hv17a-i05--hv17a-i18",
+      "reviewer": "related",
+      "reviewerReason": "Dishwasher fault evidence and oven warranty records are separate appliance documentation tasks without an explicit shared case.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv17a-i08--hv17a-i18",
+      "kind": "pair",
+      "library": "hv17a",
+      "pair": "hv17a-i08--hv17a-i18",
+      "reviewer": "related",
+      "reviewerReason": "Dishwasher service access and oven warranty documentation are separate appliance tasks; common household context is implicit.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv17a-i14--hv17a-i18",
+      "kind": "pair",
+      "library": "hv17a",
+      "pair": "hv17a-i14--hv17a-i18",
+      "reviewer": "related",
+      "reviewerReason": "A dishwasher repair visit and oven installation paperwork involve distinct appliances; broader administrative linkage needs context.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv17b-i05--hv17b-i09",
+      "kind": "pair",
+      "library": "hv17b",
+      "pair": "hv17b-i05--hv17b-i09",
+      "reviewer": "related",
+      "reviewerReason": "Freezer proof-of-purchase recovery and vacuum replacement are distinct appliance administration tasks with no direct shared case.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv18a-i01--hv18a-i04",
+      "kind": "pair",
+      "library": "hv18a",
+      "pair": "hv18a-i01--hv18a-i04",
+      "reviewer": "same",
+      "reviewerReason": "The checklist expressly requires a Cedar reference and the second requests it; finer separation of proposal work from reference coordination needs thread context.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv18a-i15--hv18a-i17",
+      "kind": "pair",
+      "library": "hv18a",
+      "pair": "hv18a-i15--hv18a-i17",
+      "reviewer": "related",
+      "reviewerReason": "Marsh's other-funding disclosure explicitly references Cedar, while the second tracks Cedar's reference receipt.",
+      "sufficiency": "sufficient"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv18b-i01--hv18b-i02",
+      "kind": "pair",
+      "library": "hv18b",
+      "pair": "hv18b-i01--hv18b-i02",
+      "reviewer": "uncertain",
+      "reviewerReason": "The Harbour portfolio and Access income evidence name different processes without stating their relationship.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv18b-i05--hv18b-i06",
+      "kind": "pair",
+      "library": "hv18b",
+      "pair": "hv18b-i05--hv18b-i06",
+      "reviewer": "related",
+      "reviewerReason": "Printing-cost reimbursement and editing a tactile-map spread are separate portfolio tasks; the spread's inclusion in that printing order is implicit.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv18b-i05--hv18b-i15",
+      "kind": "pair",
+      "library": "hv18b",
+      "pair": "hv18b-i05--hv18b-i15",
+      "reviewer": "related",
+      "reviewerReason": "College expense reimbursement and Access bursary income assessment are different funding processes without an explicit shared application.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv18b-i06--hv18b-i08",
+      "kind": "pair",
+      "library": "hv18b",
+      "pair": "hv18b-i06--hv18b-i08",
+      "reviewer": "related",
+      "reviewerReason": "Editing a design spread and timing a design walkthrough are plausibly connected, but the first lacks a Harbour identifier.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv18b-i15--hv18b-i17",
+      "kind": "pair",
+      "library": "hv18b",
+      "pair": "hv18b-i15--hv18b-i17",
+      "reviewer": "related",
+      "reviewerReason": "Means-tested bursary evidence and portfolio-print reimbursement are distinct educational funding processes; a common application context is unstated.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv18b-i16--hv18b-i20",
+      "kind": "pair",
+      "library": "hv18b",
+      "pair": "hv18b-i16--hv18b-i20",
+      "reviewer": "related",
+      "reviewerReason": "Harbour interview practice and completion of college bursary evidence are different processes; their shared educational application context needs confirmation.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv19b-i13--hv19b-i18",
+      "kind": "pair",
+      "library": "hv19b",
+      "pair": "hv19b-i13--hv19b-i18",
+      "reviewer": "related",
+      "reviewerReason": "Textile support/condition documentation could support the named exhibition itinerary, but these texts do not explicitly identify the same hanging.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv19b-i14--hv19b-i20",
+      "kind": "pair",
+      "library": "hv19b",
+      "pair": "hv19b-i14--hv19b-i20",
+      "reviewer": "related",
+      "reviewerReason": "Return logistics and textile baseline condition images plausibly support one loan, but the photograph source does not name Stitched journeys.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv20a-i06--hv20a-i08",
+      "kind": "pair",
+      "library": "hv20a",
+      "pair": "hv20a-i06--hv20a-i08",
+      "reviewer": "related",
+      "reviewerReason": "First-note persistence and first-run saving explanations are connected concerns, but Cedar is not identified as Fieldmark in these two texts.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv20b-i15--hv20b-i16",
+      "kind": "pair",
+      "library": "hv20b",
+      "pair": "hv20b-i15--hv20b-i16",
+      "reviewer": "unrelated",
+      "reviewerReason": "Replay crash/cancellation testing and cohort-report counting address separate bugs/deliverables; no report dependency on replay is stated.",
+      "sufficiency": "sufficient"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv21b-i01--hv21b-i03",
+      "kind": "pair",
+      "library": "hv21b",
+      "pair": "hv21b-i01--hv21b-i03",
+      "reviewer": "uncertain",
+      "reviewerReason": "The generic club trial offer does not identify its sport, facility or use of the court being repaired.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv21b-i01--hv21b-i04",
+      "kind": "pair",
+      "library": "hv21b",
+      "pair": "hv21b-i01--hv21b-i04",
+      "reviewer": "uncertain",
+      "reviewerReason": "Family-day trial registration does not state that the offer uses court two or the facility under repair.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv21b-i02--hv21b-i10",
+      "kind": "pair",
+      "library": "hv21b",
+      "pair": "hv21b-i02--hv21b-i10",
+      "reviewer": "uncertain",
+      "reviewerReason": "A family badminton taster and a household trial ledger could form an intake process, but the ledger does not state that those households came through this event.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv21b-i03--hv21b-i14",
+      "kind": "pair",
+      "library": "hv21b",
+      "pair": "hv21b-i03--hv21b-i14",
+      "reviewer": "uncertain",
+      "reviewerReason": "The four-visit club offer lacks a named facility, so its relationship to the court-two repaint cannot be determined from this pair.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv21b-i06--hv21b-i10",
+      "kind": "pair",
+      "library": "hv21b",
+      "pair": "hv21b-i06--hv21b-i10",
+      "reviewer": "uncertain",
+      "reviewerReason": "The trial-card ledger names no venue or sport linking it to the hall's unclaimed racquet and bags.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv21b-i17--hv21b-i20",
+      "kind": "pair",
+      "library": "hv21b",
+      "pair": "hv21b-i17--hv21b-i20",
+      "reviewer": "related",
+      "reviewerReason": "Hall racquet lost-property handling and court reopening are different operations within a racquet-sport facility setting.",
+      "sufficiency": "sufficient"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv22b-i03--hv22b-i15",
+      "kind": "pair",
+      "library": "hv22b",
+      "pair": "hv22b-i03--hv22b-i15",
+      "reviewer": "related",
+      "reviewerReason": "Both improve computer workstation usability, with keyboard/mouse reach separate from keeping a glare cover off the screen.",
+      "sufficiency": "sufficient"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv23a-i01--hv23a-i04",
+      "kind": "pair",
+      "library": "hv23a",
+      "pair": "hv23a-i01--hv23a-i04",
+      "reviewer": "related",
+      "reviewerReason": "A river-worker listening exhibit plausibly draws on ferry interviews, but this pair does not identify the proposed speaker or collection.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv23a-i01--hv23a-i10",
+      "kind": "pair",
+      "library": "hv23a",
+      "pair": "hv23a-i01--hv23a-i10",
+      "reviewer": "related",
+      "reviewerReason": "Renn interview planning and Dane's permission register are oral-history activities, but the pair does not explicitly place them in one project.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv23a-i11--hv23a-i15",
+      "kind": "pair",
+      "library": "hv23a",
+      "pair": "hv23a-i11--hv23a-i15",
+      "reviewer": "related",
+      "reviewerReason": "Correcting Dane's transcript and recording Renn's permissions are different oral-history tasks; shared collection scope needs context.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv23a-i17--hv23a-i18",
+      "kind": "pair",
+      "library": "hv23a",
+      "pair": "hv23a-i17--hv23a-i18",
+      "reviewer": "related",
+      "reviewerReason": "Listening-station hardware and Renn's transcript correction could share a project, but the pair does not say his interview serves this exhibit.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv23b-i01--hv23b-i09",
+      "kind": "pair",
+      "library": "hv23b",
+      "pair": "hv23b-i01--hv23b-i09",
+      "reviewer": "related",
+      "reviewerReason": "Market Street testimony and museum-plan booklet rights are plausibly linked research outputs, but the plan or booklet is not tied to the interview in this pair.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv23b-i07--hv23b-i19",
+      "kind": "pair",
+      "library": "hv23b",
+      "pair": "hv23b-i07--hv23b-i19",
+      "reviewer": "related",
+      "reviewerReason": "Writing a walking-booklet stop and approving a plan reproduction credit are different publication tasks; the plan's use in that booklet is unstated here.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "unrelated",
+      "id": "pair:hv23b-i18--hv23b-i20",
+      "kind": "pair",
+      "library": "hv23b",
+      "pair": "hv23b-i18--hv23b-i20",
+      "reviewer": "related",
+      "reviewerReason": "Testing a heritage walk and depositing shopkeeper interviews are different local-history outputs, with shared project context not explicit.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv24a-i19--hv24a-i20",
+      "kind": "pair",
+      "library": "hv24a",
+      "pair": "hv24a-i19--hv24a-i20",
+      "reviewer": "related",
+      "reviewerReason": "Race accommodation and post-race training reflection are distinct objectives; the travel note does not explicitly name Ridge.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv24b-i01--hv24b-i02",
+      "kind": "pair",
+      "library": "hv24b",
+      "pair": "hv24b-i01--hv24b-i02",
+      "reviewer": "related",
+      "reviewerReason": "A personal evening base block and a night relay lineup are distinct running objectives, but their shared event preparation is not explicit.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv24b-i07--hv24b-i14",
+      "kind": "pair",
+      "library": "hv24b",
+      "pair": "hv24b-i07--hv24b-i14",
+      "reviewer": "related",
+      "reviewerReason": "Relay leg assignment and personal base-training attendance are different running tasks; the pair does not explicitly join their programs.",
+      "sufficiency": "needs-context"
+    },
+    {
+      "author": "related",
+      "id": "pair:hv24b-i08--hv24b-i12",
+      "kind": "pair",
+      "library": "hv24b",
+      "pair": "hv24b-i08--hv24b-i12",
+      "reviewer": "related",
+      "reviewerReason": "Route wayfinding and headlamp fit testing are distinct outdoor-running tasks, but the lamp test does not name the riverside route.",
+      "sufficiency": "needs-context"
+    }
+  ],
+  "reviewHashes": {
+    "author_a-context.json": "5b017115bb45dd5609458059c81e0eab58613b5541637dd3fcca083e759f092d",
+    "author_a-pairs.json": "652c2cb793d909e705de0841c2d68f53789a0d2793eb3b61ee78f40ebae2921d",
+    "author_b-context.json": "213bfe8476c77c07109c62a28bfcd54ca00a13dd0c9577eaf858c1cb9779df01",
+    "author_b-pairs.json": "0c5eb225d6348129efce904d3e1a8278143cb76029a76a35681238dd8f0de772",
+    "author_c-context.json": "92e3f8857bd48300751cd329417e8b5cee14e3b01c2adc56743b2fc85cb38f32",
+    "author_c-pairs.json": "01d85fd573b95a2c80bbeaecd864a1fe20ec9dab475d18fe19c3396dd31161d7"
+  }
+}

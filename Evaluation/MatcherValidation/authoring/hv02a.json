@@ -1,0 +1,230 @@
+{
+  "id": "hv02a",
+  "split": "train",
+  "storyFamily": "hv02",
+  "templateFamily": "hv02",
+  "threads": [
+    "cello-neck",
+    "loan-cello",
+    "bow-rehair",
+    "studio-lock"
+  ],
+  "threadDescriptions": {
+    "cello-neck": "Restore the slipped neck joint on Leena's cello.",
+    "loan-cello": "Arrange a temporary cello for Leena's concert while hers is repaired.",
+    "bow-rehair": "Rehair Tomas's bow and obtain his approval of the tension.",
+    "studio-lock": "Replace and distribute keys for the workshop door lock."
+  },
+  "relatedThreads": [
+    [
+      "cello-neck",
+      "loan-cello"
+    ]
+  ],
+  "challenges": [
+    "person_overlap",
+    "related_deliverables",
+    "revision",
+    "media_noise",
+    "bridge"
+  ],
+  "items": [
+    {
+      "id": "hv02a-i01",
+      "text": "Leena's cello: neck projection dropped during rehearsal. Photograph the heel gap before loosening strings; no glue until the joint is inspected.",
+      "modality": "image",
+      "memberships": [
+        "cello-neck"
+      ],
+      "rationale": "Documents the repair object and symptom."
+    },
+    {
+      "id": "hv02a-i02",
+      "text": "Tomas asked for black hair on his spare bow, normal length. He'll collect after Saturday's lesson.",
+      "modality": "voice",
+      "memberships": [
+        "bow-rehair"
+      ],
+      "rationale": "Defines a different customer's bow work."
+    },
+    {
+      "id": "hv02a-i03",
+      "text": "Door cylinder sticks even with the spare key. Ordered a replacement keyed alike to three fresh keys.",
+      "modality": "note",
+      "memberships": [
+        "studio-lock"
+      ],
+      "rationale": "Begins workshop lock replacement."
+    },
+    {
+      "id": "hv02a-i04",
+      "text": "Leena needs a loan cello for Friday's concert. Call the cooperative about their full-size instrument and check whether a hard case is included.",
+      "modality": "note",
+      "memberships": [
+        "loan-cello"
+      ],
+      "rationale": "Starts temporary instrument arrangement for Leena."
+    },
+    {
+      "id": "hv02a-i05",
+      "text": "Heel gap close-up: old hide glue crumbled out dry. Mortise edges intact; neck reset estimate two bench days.",
+      "modality": "video",
+      "memberships": [
+        "cello-neck"
+      ],
+      "rationale": "Examines the failed cello joint."
+    },
+    {
+      "id": "hv02a-i06",
+      "text": "Co-op reply: full-size loan cello available Thursday afternoon, deposit £90. Leena must sign it out herself.",
+      "modality": "file",
+      "memberships": [
+        "loan-cello"
+      ],
+      "rationale": "Specifies loan terms."
+    },
+    {
+      "id": "hv02a-i07",
+      "text": "Tomas's frog slide is stubborn. Protect the pearl while opening it for the rehair; keep the removed knot in the job tray.",
+      "modality": "note",
+      "memberships": [
+        "bow-rehair"
+      ],
+      "rationale": "Preparation on Tomas's bow."
+    },
+    {
+      "id": "hv02a-i08",
+      "text": "'90 by Thursday; ask L.' on torn masking tape.",
+      "modality": "image",
+      "memberships": [],
+      "rationale": "Too abbreviated to distinguish a money amount, measurement or appointment."
+    },
+    {
+      "id": "hv02a-i09",
+      "text": "Measured Leena's neck dry-fit again: three bench days, not two, because the button needs reinforcement. Concert deadline will not be met.",
+      "modality": "note",
+      "memberships": [
+        "cello-neck"
+      ],
+      "rationale": "Revises duration based on additional repair work."
+    },
+    {
+      "id": "hv02a-i10",
+      "text": "Key blanks arrived wrong profile. Locksmith will bring the proper cylinder and matching keys together Tuesday.",
+      "modality": "voice",
+      "memberships": [
+        "studio-lock"
+      ],
+      "rationale": "Updates replacement lock procurement."
+    },
+    {
+      "id": "hv02a-i11",
+      "text": "Leena repair/loan call: neck reinforcement needs until Monday. Extend the co-op cello booking through Monday evening and set its bridge curve close to her usual setup so the Friday programme is playable.",
+      "modality": "voice",
+      "memberships": [
+        "cello-neck",
+        "loan-cello"
+      ],
+      "rationale": "Repair completion schedule and actionable loan extension both appear."
+    },
+    {
+      "id": "hv02a-i12",
+      "text": "Bow rehair test for Tomas: at playing tension the ribbon is even, but two loose hairs need trimming near the tip.",
+      "modality": "video",
+      "memberships": [
+        "bow-rehair"
+      ],
+      "rationale": "Tests the rehaired bow."
+    },
+    {
+      "id": "hv02a-i13",
+      "text": "Loan cello receipt, Leena: Thursday 15:30 to Monday 18:00, case included. Photograph existing scuff on lower rib at pickup.",
+      "modality": "file",
+      "memberships": [
+        "loan-cello"
+      ],
+      "rationale": "Documents amended loan and condition at collection."
+    },
+    {
+      "id": "hv02a-i14",
+      "text": "Leena neck joint clamped cleanly. Pencil line shows no movement after initial tension; leave overnight before final setup.",
+      "modality": "note",
+      "memberships": [
+        "cello-neck"
+      ],
+      "rationale": "Progress on original cello restoration."
+    },
+    {
+      "id": "hv02a-i15",
+      "text": "Workshop cylinder now turns freely. One new key to the cleaner, one to me, one in the sealed spare envelope.",
+      "modality": "image",
+      "memberships": [
+        "studio-lock"
+      ],
+      "rationale": "Installation and distribution of replacement keys."
+    },
+    {
+      "id": "hv02a-i16",
+      "text": "Tomas prefers slightly firmer tension than the first trial. Re-seat the knot rather than shorten hair at the frog.",
+      "modality": "voice",
+      "memberships": [
+        "bow-rehair"
+      ],
+      "rationale": "Customer feedback modifies rehair."
+    },
+    {
+      "id": "hv02a-i17",
+      "text": "Leena played her repaired cello for twenty minutes. Projection stable; invoice should include the button reinforcement.",
+      "modality": "file",
+      "memberships": [
+        "cello-neck"
+      ],
+      "rationale": "Final repair test and billing detail."
+    },
+    {
+      "id": "hv02a-i18",
+      "text": "Bench note without object: 'leave overnight; tiny movement?'",
+      "modality": "note",
+      "memberships": [],
+      "rationale": "No reliable identity for the item being monitored."
+    },
+    {
+      "id": "hv02a-i19",
+      "text": "Co-op accepted Leena's loan cello back Monday, matching pickup photos. Deposit released.",
+      "modality": "note",
+      "memberships": [
+        "loan-cello"
+      ],
+      "rationale": "Closes temporary cello arrangement."
+    },
+    {
+      "id": "hv02a-i20",
+      "text": "Tomas collected the bow after trying the firmer setup. Keep the black-hair preference on his job card.",
+      "modality": "note",
+      "memberships": [
+        "bow-rehair"
+      ],
+      "rationale": "Closes bow work."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv02a-i11",
+      "threads": [
+        "cello-neck",
+        "loan-cello"
+      ]
+    },
+    "revision": {
+      "earlier": "hv02a-i05",
+      "later": "hv02a-i09",
+      "thread": "cello-neck"
+    },
+    "rename": null,
+    "undo": {
+      "item": "hv02a-i13",
+      "wrongThread": "cello-neck",
+      "reason": "Hypothetical correction: receipt and pickup scuff concern the temporary cello, not the neck restoration."
+    }
+  }
+}

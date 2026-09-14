@@ -1,0 +1,10 @@
+# Python 3.11; isolated Mac environment, not app dependencies.
+# Full resolved versions are captured after installation in environment.lock.txt.
+torch==2.7.0
+transformers==4.53.3
+coremltools==9.0
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.5.1
+safetensors==0.6.2
+sentencepiece==0.2.1

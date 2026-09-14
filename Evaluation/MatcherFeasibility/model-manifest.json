@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "model": "microsoft/MiniLM-L12-H384-uncased",
+  "revision": "44acabbec0ef496f6dbc93adadea57f376b7c0ec",
+  "license": "mit",
+  "assets": {
+    "README.md": {
+      "bytes": 2015,
+      "sha256": "57d6772ba7a25afe078fc96042c029779100ba2ab483f95ca6193255ee1d9379",
+      "url": "https://huggingface.co/microsoft/MiniLM-L12-H384-uncased/resolve/44acabbec0ef496f6dbc93adadea57f376b7c0ec/README.md"
+    },
+    "config.json": {
+      "bytes": 385,
+      "sha256": "235fcbb1b55045e08e0e061994023b71089e101d906074f0fd88a1ee8081226e",
+      "url": "https://huggingface.co/microsoft/MiniLM-L12-H384-uncased/resolve/44acabbec0ef496f6dbc93adadea57f376b7c0ec/config.json"
+    },
+    "pytorch_model.bin": {
+      "bytes": 133483028,
+      "sha256": "bcc275fe3e183a68e629c55355be77ef51c2ee780990173ca8f8edc65152fae7",
+      "url": "https://huggingface.co/microsoft/MiniLM-L12-H384-uncased/resolve/44acabbec0ef496f6dbc93adadea57f376b7c0ec/pytorch_model.bin"
+    },
+    "special_tokens_map.json": {
+      "bytes": 112,
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "url": "https://huggingface.co/microsoft/MiniLM-L12-H384-uncased/resolve/44acabbec0ef496f6dbc93adadea57f376b7c0ec/special_tokens_map.json"
+    },
+    "tokenizer_config.json": {
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "url": "https://huggingface.co/microsoft/MiniLM-L12-H384-uncased/resolve/44acabbec0ef496f6dbc93adadea57f376b7c0ec/tokenizer_config.json"
+    },
+    "vocab.txt": {
+      "bytes": 231508,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "url": "https://huggingface.co/microsoft/MiniLM-L12-H384-uncased/resolve/44acabbec0ef496f6dbc93adadea57f376b7c0ec/vocab.txt"
+    }
+  },
+  "workspaceRelativeDirectory": "models/44acabbec0ef496f6dbc93adadea57f376b7c0ec",
+  "loadPolicy": {
+    "trustRemoteCode": false,
+    "localFilesOnly": true,
+    "weightsOnly": true,
+    "inferencePerformed": false
+  },
+  "architecture": {
+    "model_type": "bert",
+    "hidden_size": 384,
+    "num_hidden_layers": 12,
+    "vocab_size": 30522,
+    "max_position_embeddings": 512
+  }
+}

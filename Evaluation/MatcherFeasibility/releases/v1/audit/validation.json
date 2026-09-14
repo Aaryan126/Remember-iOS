@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "libraries": [
+    {
+      "id": "mf01",
+      "split": "train",
+      "pairs": {
+        "unrelated": 96,
+        "same": 41,
+        "related": 16,
+        "uncertain": 37
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 9,
+      "wordCountMax": 74
+    },
+    {
+      "id": "mf02",
+      "split": "train",
+      "pairs": {
+        "unrelated": 96,
+        "related": 16,
+        "same": 41,
+        "uncertain": 37
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 9,
+      "wordCountMax": 81
+    },
+    {
+      "id": "mf03",
+      "split": "train",
+      "pairs": {
+        "unrelated": 104,
+        "same": 67,
+        "uncertain": 19
+      },
+      "ambiguousItems": 1,
+      "bridgeItems": 0,
+      "wordCountMin": 9,
+      "wordCountMax": 83
+    },
+    {
+      "id": "mf04",
+      "split": "train",
+      "pairs": {
+        "uncertain": 37,
+        "unrelated": 96,
+        "same": 41,
+        "related": 16
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 9,
+      "wordCountMax": 89
+    },
+    {
+      "id": "mf05",
+      "split": "train",
+      "pairs": {
+        "unrelated": 96,
+        "uncertain": 37,
+        "same": 57
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 0,
+      "wordCountMin": 10,
+      "wordCountMax": 88
+    },
+    {
+      "id": "mf06",
+      "split": "train",
+      "pairs": {
+        "uncertain": 37,
+        "unrelated": 96,
+        "same": 41,
+        "related": 16
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 10,
+      "wordCountMax": 85
+    },
+    {
+      "id": "mf07",
+      "split": "train",
+      "pairs": {
+        "unrelated": 96,
+        "same": 45,
+        "uncertain": 37,
+        "related": 12
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 3,
+      "wordCountMin": 9,
+      "wordCountMax": 94
+    },
+    {
+      "id": "mf08",
+      "split": "train",
+      "pairs": {
+        "unrelated": 96,
+        "uncertain": 37,
+        "same": 41,
+        "related": 16
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 9,
+      "wordCountMax": 91
+    },
+    {
+      "id": "mf09",
+      "split": "train",
+      "pairs": {
+        "unrelated": 96,
+        "related": 16,
+        "same": 41,
+        "uncertain": 37
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 8,
+      "wordCountMax": 99
+    },
+    {
+      "id": "mf10",
+      "split": "train",
+      "pairs": {
+        "unrelated": 96,
+        "same": 41,
+        "uncertain": 37,
+        "related": 16
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 10,
+      "wordCountMax": 96
+    },
+    {
+      "id": "mf11",
+      "split": "train",
+      "pairs": {
+        "unrelated": 96,
+        "same": 41,
+        "uncertain": 37,
+        "related": 16
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 10,
+      "wordCountMax": 93
+    },
+    {
+      "id": "mf12",
+      "split": "train",
+      "pairs": {
+        "same": 45,
+        "unrelated": 96,
+        "uncertain": 37,
+        "related": 12
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 3,
+      "wordCountMin": 10,
+      "wordCountMax": 85
+    },
+    {
+      "id": "mf13",
+      "split": "train",
+      "pairs": {
+        "uncertain": 37,
+        "unrelated": 96,
+        "related": 16,
+        "same": 41
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 10,
+      "wordCountMax": 92
+    },
+    {
+      "id": "mf14",
+      "split": "train",
+      "pairs": {
+        "unrelated": 96,
+        "same": 45,
+        "uncertain": 37,
+        "related": 12
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 3,
+      "wordCountMin": 9,
+      "wordCountMax": 96
+    },
+    {
+      "id": "mf15",
+      "split": "train",
+      "pairs": {
+        "unrelated": 64,
+        "same": 126
+      },
+      "ambiguousItems": 0,
+      "bridgeItems": 0,
+      "wordCountMin": 9,
+      "wordCountMax": 95
+    },
+    {
+      "id": "mf16",
+      "split": "train",
+      "pairs": {
+        "unrelated": 96,
+        "same": 41,
+        "uncertain": 37,
+        "related": 16
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 8,
+      "wordCountMax": 172
+    },
+    {
+      "id": "mf17",
+      "split": "train",
+      "pairs": {
+        "unrelated": 104,
+        "uncertain": 19,
+        "same": 67
+      },
+      "ambiguousItems": 1,
+      "bridgeItems": 0,
+      "wordCountMin": 9,
+      "wordCountMax": 151
+    },
+    {
+      "id": "mf18",
+      "split": "train",
+      "pairs": {
+        "unrelated": 96,
+        "same": 41,
+        "uncertain": 37,
+        "related": 16
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 9,
+      "wordCountMax": 145
+    },
+    {
+      "id": "mf19",
+      "split": "development",
+      "pairs": {
+        "related": 40,
+        "uncertain": 37,
+        "unrelated": 72,
+        "same": 41
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 10,
+      "wordCountMax": 84
+    },
+    {
+      "id": "mf20",
+      "split": "development",
+      "pairs": {
+        "same": 41,
+        "related": 40,
+        "unrelated": 72,
+        "uncertain": 37
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 10,
+      "wordCountMax": 82
+    },
+    {
+      "id": "mf21",
+      "split": "development",
+      "pairs": {
+        "related": 40,
+        "uncertain": 37,
+        "unrelated": 72,
+        "same": 41
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 9,
+      "wordCountMax": 84
+    },
+    {
+      "id": "mf22",
+      "split": "development",
+      "pairs": {
+        "uncertain": 37,
+        "related": 40,
+        "unrelated": 72,
+        "same": 41
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 10,
+      "wordCountMax": 88
+    },
+    {
+      "id": "mf23",
+      "split": "development",
+      "pairs": {
+        "unrelated": 72,
+        "related": 40,
+        "same": 41,
+        "uncertain": 37
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 10,
+      "wordCountMax": 92
+    },
+    {
+      "id": "mf24",
+      "split": "development",
+      "pairs": {
+        "unrelated": 81,
+        "same": 40,
+        "uncertain": 37,
+        "related": 32
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 10,
+      "wordCountMax": 92
+    },
+    {
+      "id": "mf25",
+      "split": "test",
+      "pairs": {
+        "related": 18,
+        "unrelated": 105,
+        "uncertain": 37,
+        "same": 30
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 11,
+      "wordCountMax": 107
+    },
+    {
+      "id": "mf26",
+      "split": "test",
+      "pairs": {
+        "unrelated": 89,
+        "related": 34,
+        "uncertain": 37,
+        "same": 30
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 10,
+      "wordCountMax": 112
+    },
+    {
+      "id": "mf27",
+      "split": "test",
+      "pairs": {
+        "unrelated": 105,
+        "same": 39,
+        "uncertain": 37,
+        "related": 9
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 1,
+      "wordCountMin": 10,
+      "wordCountMax": 115
+    },
+    {
+      "id": "mf28",
+      "split": "test",
+      "pairs": {
+        "uncertain": 70,
+        "same": 72,
+        "related": 48
+      },
+      "ambiguousItems": 4,
+      "bridgeItems": 0,
+      "wordCountMin": 10,
+      "wordCountMax": 115
+    },
+    {
+      "id": "mf29",
+      "split": "test",
+      "pairs": {
+        "unrelated": 105,
+        "related": 18,
+        "uncertain": 37,
+        "same": 30
+      },
+      "ambiguousItems": 2,
+      "bridgeItems": 2,
+      "wordCountMin": 11,
+      "wordCountMax": 116
+    },
+    {
+      "id": "mf30",
+      "split": "test",
+      "pairs": {
+        "same": 111,
+        "unrelated": 60,
+        "uncertain": 19
+      },
+      "ambiguousItems": 1,
+      "bridgeItems": 0,
+      "wordCountMin": 11,
+      "wordCountMax": 113
+    }
+  ],
+  "items": 600,
+  "splits": {
+    "train": 18,
+    "development": 6,
+    "test": 6
+  },
+  "pairCount": 5700,
+  "crossSplitTemplateFlags": [],
+  "historicalExactMatches": [],
+  "limitations": "Lexical screening cannot prove semantic or template independence. Agent review is not human validation."
+}

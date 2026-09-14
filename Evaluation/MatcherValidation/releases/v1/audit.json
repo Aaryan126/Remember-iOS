@@ -1,0 +1,243 @@
+{
+  "bySplit": {
+    "calibration": {
+      "related": 552,
+      "same": 412,
+      "uncertain": 394,
+      "unrelated": 922
+    },
+    "evaluation": {
+      "related": 711,
+      "same": 442,
+      "uncertain": 405,
+      "unrelated": 722
+    },
+    "train": {
+      "related": 1245,
+      "same": 899,
+      "uncertain": 783,
+      "unrelated": 1633
+    }
+  },
+  "diversity": {
+    "limitation": "Descriptive diversity/lexical checks cannot certify semantic independence",
+    "sourceWordCounts": {
+      "calibration": {
+        "maximum": 137,
+        "mean": 21.741666666666667,
+        "minimum": 5
+      },
+      "evaluation": {
+        "maximum": 136,
+        "mean": 24.954166666666666,
+        "minimum": 4
+      },
+      "train": {
+        "maximum": 136,
+        "mean": 20.433333333333334,
+        "minimum": 4
+      }
+    },
+    "threadCountHistogram": {
+      "3": 5,
+      "4": 22,
+      "5": 18,
+      "6": 3
+    },
+    "topCrossSplitLexicalPairs": [
+      {
+        "first": "hv09b-i20",
+        "jaccard": 0.15384615384615385,
+        "second": "hv17b-i13"
+      },
+      {
+        "first": "hv07a-i17",
+        "jaccard": 0.13333333333333333,
+        "second": "hv17b-i07"
+      },
+      {
+        "first": "hv22a-i12",
+        "jaccard": 0.11538461538461539,
+        "second": "hv09b-i20"
+      },
+      {
+        "first": "hv22a-i12",
+        "jaccard": 0.1,
+        "second": "hv17b-i13"
+      },
+      {
+        "first": "hv15a-i17",
+        "jaccard": 0.07142857142857142,
+        "second": "hv21a-i11"
+      },
+      {
+        "first": "hv13b-i20",
+        "jaccard": 0.06976744186046512,
+        "second": "hv09a-i09"
+      },
+      {
+        "first": "hv03a-i19",
+        "jaccard": 0.06666666666666667,
+        "second": "hv23b-i08"
+      },
+      {
+        "first": "hv02b-i16",
+        "jaccard": 0.0625,
+        "second": "hv23a-i07"
+      },
+      {
+        "first": "hv07a-i04",
+        "jaccard": 0.05714285714285714,
+        "second": "hv21b-i15"
+      },
+      {
+        "first": "hv08a-i11",
+        "jaccard": 0.05128205128205128,
+        "second": "hv17b-i01"
+      },
+      {
+        "first": "hv13a-i06",
+        "jaccard": 0.045454545454545456,
+        "second": "hv24b-i07"
+      },
+      {
+        "first": "hv12b-i18",
+        "jaccard": 0.045454545454545456,
+        "second": "hv17b-i13"
+      },
+      {
+        "first": "hv06b-i08",
+        "jaccard": 0.043478260869565216,
+        "second": "hv17a-i07"
+      },
+      {
+        "first": "hv21a-i11",
+        "jaccard": 0.04,
+        "second": "hv11a-i17"
+      },
+      {
+        "first": "hv20b-i12",
+        "jaccard": 0.03571428571428571,
+        "second": "hv07a-i17"
+      },
+      {
+        "first": "hv06a-i18",
+        "jaccard": 0.03571428571428571,
+        "second": "hv23a-i17"
+      },
+      {
+        "first": "hv20b-i12",
+        "jaccard": 0.034482758620689655,
+        "second": "hv17b-i07"
+      },
+      {
+        "first": "hv22b-i09",
+        "jaccard": 0.03333333333333333,
+        "second": "hv11a-i17"
+      },
+      {
+        "first": "hv08a-i01",
+        "jaccard": 0.03225806451612903,
+        "second": "hv18b-i18"
+      },
+      {
+        "first": "hv04b-i12",
+        "jaccard": 0.03225806451612903,
+        "second": "hv16b-i11"
+      },
+      {
+        "first": "hv13b-i06",
+        "jaccard": 0.030303030303030304,
+        "second": "hv08b-i20"
+      },
+      {
+        "first": "hv07a-i19",
+        "jaccard": 0.030303030303030304,
+        "second": "hv21a-i19"
+      },
+      {
+        "first": "hv07a-i17",
+        "jaccard": 0.030303030303030304,
+        "second": "hv22b-i09"
+      },
+      {
+        "first": "hv05a-i16",
+        "jaccard": 0.030303030303030304,
+        "second": "hv17a-i10"
+      }
+    ]
+  },
+  "finalRelations": {
+    "related": 2508,
+    "same": 1753,
+    "uncertain": 1582,
+    "unrelated": 3277
+  },
+  "historicalOverlap": {
+    "checkedSourceCount": 520,
+    "findings": [],
+    "limitation": "Lexical duplicate screen, not semantic independence proof",
+    "maximumObserved": {
+      "jaccard": 0.05555555555555555,
+      "oldSource": "mf13-i01",
+      "source": "hv04b-i18"
+    },
+    "oldTestOpened": false,
+    "sources": {
+      "Evaluation/MatcherFeasibility/releases/v1/inputs-development.json": "38c2ba1d9b748d14887368aa481bf88fb43bd2dd6bf65a5c5e9ed31fde97225e",
+      "Evaluation/MatcherFeasibility/releases/v1/inputs-train.json": "dd9b933b5ec5347397ca2395c5f296e4a41ff624d7d4d8907205f9d6b91f536c",
+      "Evaluation/MatcherValidation/runs/preparation-01/pilot-inputs.json": "909b80fcf56ff7938195ae401806e4306383428de6741d7142fb2969e2d94653"
+    }
+  },
+  "historyFixtures": 48,
+  "modelScoresUsed": false,
+  "pairAudit": {
+    "checkedPairs": 9120,
+    "implementation": "thread-member set expansion, separate from projection",
+    "passed": true
+  },
+  "pairOnlyUncertaintyOverrides": 8,
+  "productionHistoryReplayRun": false,
+  "reviews": {
+    "additionalRootLinkCorrections": 1,
+    "contextSourceReviews": 960,
+    "directPairReviews": 576,
+    "disagreements": 131,
+    "distinctReviewers": 3,
+    "exhaustiveIndependentPairReview": false,
+    "independentHumanReview": false,
+    "kinds": {
+      "links": 23,
+      "membership": 7,
+      "pair": 101
+    },
+    "pairFirstRelations": {
+      "related": 148,
+      "same": 160,
+      "uncertain": 113,
+      "unrelated": 155
+    },
+    "pairFirstSufficiency": {
+      "needs-context": 168,
+      "sufficient": 408
+    },
+    "postAdjudicationPairDispositions": 35
+  },
+  "structural": {
+    "libraries": 48,
+    "pairs": 9120,
+    "qualificationReady": false,
+    "relations": {
+      "related": 2512,
+      "same": 1756,
+      "uncertain": 1574,
+      "unrelated": 3278
+    },
+    "sources": 960,
+    "splits": {
+      "calibration": 12,
+      "evaluation": 12,
+      "train": 24
+    }
+  }
+}

@@ -1,0 +1,3161 @@
+{
+  "libraries": [
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv13a-i10",
+        "threads": [
+          "relay-entries",
+          "relay-deck"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "relay-entries"
+          ],
+          "source": "hv13a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "home-router"
+          ],
+          "source": "hv13a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "relay-deck"
+          ],
+          "source": "hv13a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "relay-entries"
+          ],
+          "source": "hv13a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "relay-deck"
+          ],
+          "source": "hv13a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "relay-entries"
+          ],
+          "source": "hv13a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "home-router"
+          ],
+          "source": "hv13a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv13a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "relay-entries"
+          ],
+          "source": "hv13a-i09",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv13a-i06",
+          "later": "hv13a-i09",
+          "thread": "relay-entries",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "relay-entries",
+            "relay-deck"
+          ],
+          "source": "hv13a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "home-router"
+          ],
+          "source": "hv13a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "relay-deck"
+          ],
+          "source": "hv13a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "relay-entries"
+          ],
+          "source": "hv13a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "relay-deck"
+          ],
+          "source": "hv13a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "relay-entries"
+          ],
+          "source": "hv13a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv13a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "relay-deck"
+          ],
+          "source": "hv13a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "home-router"
+          ],
+          "source": "hv13a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "relay-entries"
+          ],
+          "source": "hv13a-i19",
+          "type": "insert"
+        },
+        {
+          "source": "hv13a-i19",
+          "thread": "relay-deck",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv13a-i19",
+          "thread": "relay-deck",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "relay-deck"
+          ],
+          "source": "hv13a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv13a-i01": [
+            "relay-entries"
+          ],
+          "hv13a-i02": [
+            "home-router"
+          ],
+          "hv13a-i03": [
+            "relay-deck"
+          ],
+          "hv13a-i04": [
+            "relay-entries"
+          ],
+          "hv13a-i05": [
+            "relay-deck"
+          ],
+          "hv13a-i06": [
+            "relay-entries"
+          ],
+          "hv13a-i07": [
+            "home-router"
+          ],
+          "hv13a-i08": [],
+          "hv13a-i09": [
+            "relay-entries"
+          ],
+          "hv13a-i10": [
+            "relay-deck",
+            "relay-entries"
+          ],
+          "hv13a-i11": [
+            "home-router"
+          ],
+          "hv13a-i12": [
+            "relay-deck"
+          ],
+          "hv13a-i13": [
+            "relay-entries"
+          ],
+          "hv13a-i14": [
+            "relay-deck"
+          ],
+          "hv13a-i15": [
+            "relay-entries"
+          ],
+          "hv13a-i16": [],
+          "hv13a-i17": [
+            "relay-deck"
+          ],
+          "hv13a-i18": [
+            "home-router"
+          ],
+          "hv13a-i19": [
+            "relay-entries"
+          ],
+          "hv13a-i20": [
+            "relay-deck"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv13a-i06",
+            "later": "hv13a-i09",
+            "thread": "relay-entries"
+          }
+        ],
+        "threadNames": {
+          "home-router": "Diagnose and replace the unreliable home wireless router.",
+          "relay-deck": "Coordinate marshalling, lane access and on-deck staff for the junior relay session.",
+          "relay-entries": "Submit accurate swimmer names and running order for the junior medley relay."
+        }
+      },
+      "initialThreadNames": {
+        "home-router": "Diagnose and replace the unreliable home wireless router.",
+        "relay-deck": "Coordinate marshalling, lane access and on-deck staff for the junior relay session.",
+        "relay-entries": "Submit accurate swimmer names and running order for the junior medley relay."
+      },
+      "library": "hv13a",
+      "relatedThreads": [
+        [
+          "relay-entries",
+          "relay-deck"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv13b-i11",
+        "threads": [
+          "timing-repair",
+          "results-release"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "timing-repair"
+          ],
+          "source": "hv13b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "medal-order"
+          ],
+          "source": "hv13b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "club-banners"
+          ],
+          "source": "hv13b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bus-hire"
+          ],
+          "source": "hv13b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "access-seating"
+          ],
+          "source": "hv13b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "results-release"
+          ],
+          "source": "hv13b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "timing-repair"
+          ],
+          "source": "hv13b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "medal-order"
+          ],
+          "source": "hv13b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "club-banners"
+          ],
+          "source": "hv13b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "results-release"
+          ],
+          "source": "hv13b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "timing-repair",
+            "results-release"
+          ],
+          "source": "hv13b-i11",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv13b-i10",
+          "later": "hv13b-i11",
+          "thread": "results-release",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "medal-order"
+          ],
+          "source": "hv13b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "access-seating"
+          ],
+          "source": "hv13b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bus-hire"
+          ],
+          "source": "hv13b-i14",
+          "type": "insert"
+        },
+        {
+          "source": "hv13b-i14",
+          "thread": "access-seating",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv13b-i14",
+          "thread": "access-seating",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "timing-repair"
+          ],
+          "source": "hv13b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "results-release"
+          ],
+          "source": "hv13b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv13b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "medal-order"
+          ],
+          "source": "hv13b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "club-banners"
+          ],
+          "source": "hv13b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "access-seating"
+          ],
+          "source": "hv13b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv13b-i01": [
+            "timing-repair"
+          ],
+          "hv13b-i02": [
+            "medal-order"
+          ],
+          "hv13b-i03": [
+            "club-banners"
+          ],
+          "hv13b-i04": [
+            "bus-hire"
+          ],
+          "hv13b-i05": [
+            "access-seating"
+          ],
+          "hv13b-i06": [
+            "results-release"
+          ],
+          "hv13b-i07": [
+            "timing-repair"
+          ],
+          "hv13b-i08": [
+            "medal-order"
+          ],
+          "hv13b-i09": [
+            "club-banners"
+          ],
+          "hv13b-i10": [
+            "results-release"
+          ],
+          "hv13b-i11": [
+            "results-release",
+            "timing-repair"
+          ],
+          "hv13b-i12": [
+            "medal-order"
+          ],
+          "hv13b-i13": [
+            "access-seating"
+          ],
+          "hv13b-i14": [
+            "bus-hire"
+          ],
+          "hv13b-i15": [
+            "timing-repair"
+          ],
+          "hv13b-i16": [
+            "results-release"
+          ],
+          "hv13b-i17": [],
+          "hv13b-i18": [
+            "medal-order"
+          ],
+          "hv13b-i19": [
+            "club-banners"
+          ],
+          "hv13b-i20": [
+            "access-seating"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv13b-i10",
+            "later": "hv13b-i11",
+            "thread": "results-release"
+          }
+        ],
+        "threadNames": {
+          "access-seating": "Arrange accessible spectator seating at the swim venue.",
+          "bus-hire": "Book transport for an unrelated hiking club outing.",
+          "club-banners": "Produce a new reusable club banner.",
+          "medal-order": "Order and receive awards for the invitational.",
+          "results-release": "Check and publish the invitational race results.",
+          "timing-repair": "Repair and verify the lane-two touchpad timing fault before the invitational."
+        }
+      },
+      "initialThreadNames": {
+        "access-seating": "Arrange accessible spectator seating at the swim venue.",
+        "bus-hire": "Book transport for an unrelated hiking club outing.",
+        "club-banners": "Produce a new reusable club banner.",
+        "medal-order": "Order and receive awards for the invitational.",
+        "results-release": "Check and publish the invitational race results.",
+        "timing-repair": "Repair and verify the lane-two touchpad timing fault before the invitational."
+      },
+      "library": "hv13b",
+      "relatedThreads": [
+        [
+          "timing-repair",
+          "results-release"
+        ],
+        [
+          "timing-repair",
+          "medal-order"
+        ],
+        [
+          "timing-repair",
+          "access-seating"
+        ],
+        [
+          "results-release",
+          "medal-order"
+        ],
+        [
+          "results-release",
+          "access-seating"
+        ],
+        [
+          "medal-order",
+          "access-seating"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv14a-i13",
+        "threads": [
+          "oat-stock",
+          "winter-drinks"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "oat-stock"
+          ],
+          "source": "hv14a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "winter-drinks"
+          ],
+          "source": "hv14a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "staff-aprons"
+          ],
+          "source": "hv14a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "grinder-service"
+          ],
+          "source": "hv14a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "oat-stock"
+          ],
+          "source": "hv14a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "winter-drinks"
+          ],
+          "source": "hv14a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv14a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "oat-stock"
+          ],
+          "source": "hv14a-i08",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv14a-i01",
+          "later": "hv14a-i08",
+          "thread": "oat-stock",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "grinder-service"
+          ],
+          "source": "hv14a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "staff-aprons"
+          ],
+          "source": "hv14a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "winter-drinks"
+          ],
+          "source": "hv14a-i11",
+          "type": "insert"
+        },
+        {
+          "source": "hv14a-i11",
+          "thread": "oat-stock",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv14a-i11",
+          "thread": "oat-stock",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "oat-stock"
+          ],
+          "source": "hv14a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "oat-stock",
+            "winter-drinks"
+          ],
+          "source": "hv14a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "winter-drinks"
+          ],
+          "source": "hv14a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "grinder-service"
+          ],
+          "source": "hv14a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "staff-aprons"
+          ],
+          "source": "hv14a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "oat-stock"
+          ],
+          "source": "hv14a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv14a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "winter-drinks"
+          ],
+          "source": "hv14a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "staff-aprons"
+          ],
+          "source": "hv14a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv14a-i01": [
+            "oat-stock"
+          ],
+          "hv14a-i02": [
+            "winter-drinks"
+          ],
+          "hv14a-i03": [
+            "staff-aprons"
+          ],
+          "hv14a-i04": [
+            "grinder-service"
+          ],
+          "hv14a-i05": [
+            "oat-stock"
+          ],
+          "hv14a-i06": [
+            "winter-drinks"
+          ],
+          "hv14a-i07": [],
+          "hv14a-i08": [
+            "oat-stock"
+          ],
+          "hv14a-i09": [
+            "grinder-service"
+          ],
+          "hv14a-i10": [
+            "staff-aprons"
+          ],
+          "hv14a-i11": [
+            "winter-drinks"
+          ],
+          "hv14a-i12": [
+            "oat-stock"
+          ],
+          "hv14a-i13": [
+            "oat-stock",
+            "winter-drinks"
+          ],
+          "hv14a-i14": [
+            "winter-drinks"
+          ],
+          "hv14a-i15": [
+            "grinder-service"
+          ],
+          "hv14a-i16": [
+            "staff-aprons"
+          ],
+          "hv14a-i17": [
+            "oat-stock"
+          ],
+          "hv14a-i18": [],
+          "hv14a-i19": [
+            "winter-drinks"
+          ],
+          "hv14a-i20": [
+            "staff-aprons"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv14a-i01",
+            "later": "hv14a-i08",
+            "thread": "oat-stock"
+          }
+        ],
+        "threadNames": {
+          "grinder-service": "Diagnose and repair uneven output from the counter grinder.",
+          "oat-stock": "Keep the caf\u00e9's oat-drink supply accurate and sufficient for service.",
+          "staff-aprons": "Fit and order replacement staff aprons.",
+          "winter-drinks": "Develop and publish the winter drinks menu with tested recipes and costs."
+        }
+      },
+      "initialThreadNames": {
+        "grinder-service": "Diagnose and repair uneven output from the counter grinder.",
+        "oat-stock": "Keep the caf\u00e9's oat-drink supply accurate and sufficient for service.",
+        "staff-aprons": "Fit and order replacement staff aprons.",
+        "winter-drinks": "Develop and publish the winter drinks menu with tested recipes and costs."
+      },
+      "library": "hv14a",
+      "relatedThreads": [
+        [
+          "oat-stock",
+          "winter-drinks"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv14b-i11",
+        "threads": [
+          "pastry-count",
+          "allergen-cards"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "pastry-count"
+          ],
+          "source": "hv14b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "catering-coffee"
+          ],
+          "source": "hv14b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "allergen-cards"
+          ],
+          "source": "hv14b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "window-film"
+          ],
+          "source": "hv14b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bin-contract"
+          ],
+          "source": "hv14b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "pastry-count"
+          ],
+          "source": "hv14b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "allergen-cards"
+          ],
+          "source": "hv14b-i07",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv14b-i03",
+          "later": "hv14b-i07",
+          "thread": "allergen-cards",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "catering-coffee"
+          ],
+          "source": "hv14b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv14b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bin-contract"
+          ],
+          "source": "hv14b-i10",
+          "type": "insert"
+        },
+        {
+          "from": "Extra uplift",
+          "thread": "bin-contract",
+          "to": "Food bin schedule",
+          "type": "rename"
+        },
+        {
+          "memberships": [
+            "pastry-count",
+            "allergen-cards"
+          ],
+          "source": "hv14b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "window-film"
+          ],
+          "source": "hv14b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "catering-coffee"
+          ],
+          "source": "hv14b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "allergen-cards"
+          ],
+          "source": "hv14b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bin-contract"
+          ],
+          "source": "hv14b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "pastry-count"
+          ],
+          "source": "hv14b-i16",
+          "type": "insert"
+        },
+        {
+          "source": "hv14b-i16",
+          "thread": "bin-contract",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv14b-i16",
+          "thread": "bin-contract",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [],
+          "source": "hv14b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "window-film"
+          ],
+          "source": "hv14b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "catering-coffee"
+          ],
+          "source": "hv14b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "allergen-cards"
+          ],
+          "source": "hv14b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv14b-i01": [
+            "pastry-count"
+          ],
+          "hv14b-i02": [
+            "catering-coffee"
+          ],
+          "hv14b-i03": [
+            "allergen-cards"
+          ],
+          "hv14b-i04": [
+            "window-film"
+          ],
+          "hv14b-i05": [
+            "bin-contract"
+          ],
+          "hv14b-i06": [
+            "pastry-count"
+          ],
+          "hv14b-i07": [
+            "allergen-cards"
+          ],
+          "hv14b-i08": [
+            "catering-coffee"
+          ],
+          "hv14b-i09": [],
+          "hv14b-i10": [
+            "bin-contract"
+          ],
+          "hv14b-i11": [
+            "allergen-cards",
+            "pastry-count"
+          ],
+          "hv14b-i12": [
+            "window-film"
+          ],
+          "hv14b-i13": [
+            "catering-coffee"
+          ],
+          "hv14b-i14": [
+            "allergen-cards"
+          ],
+          "hv14b-i15": [
+            "bin-contract"
+          ],
+          "hv14b-i16": [
+            "pastry-count"
+          ],
+          "hv14b-i17": [],
+          "hv14b-i18": [
+            "window-film"
+          ],
+          "hv14b-i19": [
+            "catering-coffee"
+          ],
+          "hv14b-i20": [
+            "allergen-cards"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv14b-i03",
+            "later": "hv14b-i07",
+            "thread": "allergen-cards"
+          }
+        ],
+        "threadNames": {
+          "allergen-cards": "Correct and replace counter allergen cards for the pastries.",
+          "bin-contract": "Food bin schedule",
+          "catering-coffee": "Prepare and deliver coffee service for the archive's breakfast meeting.",
+          "pastry-count": "Control daily pastry ordering and waste at the caf\u00e9.",
+          "window-film": "Install glare-reducing film on the caf\u00e9's west window."
+        }
+      },
+      "initialThreadNames": {
+        "allergen-cards": "Correct and replace counter allergen cards for the pastries.",
+        "bin-contract": "Extra uplift",
+        "catering-coffee": "Prepare and deliver coffee service for the archive's breakfast meeting.",
+        "pastry-count": "Control daily pastry ordering and waste at the caf\u00e9.",
+        "window-film": "Install glare-reducing film on the caf\u00e9's west window."
+      },
+      "library": "hv14b",
+      "relatedThreads": [
+        [
+          "pastry-count",
+          "allergen-cards"
+        ],
+        [
+          "pastry-count",
+          "bin-contract"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv15a-i12",
+        "threads": [
+          "tree-survey",
+          "shade-map"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "tree-survey"
+          ],
+          "source": "hv15a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "shade-map"
+          ],
+          "source": "hv15a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "laundry-repair"
+          ],
+          "source": "hv15a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "open-data-release"
+          ],
+          "source": "hv15a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tree-survey"
+          ],
+          "source": "hv15a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "shade-map"
+          ],
+          "source": "hv15a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tree-survey"
+          ],
+          "source": "hv15a-i07",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv15a-i05",
+          "later": "hv15a-i07",
+          "thread": "tree-survey",
+          "type": "revision"
+        },
+        {
+          "memberships": [],
+          "source": "hv15a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "laundry-repair"
+          ],
+          "source": "hv15a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "open-data-release"
+          ],
+          "source": "hv15a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tree-survey"
+          ],
+          "source": "hv15a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tree-survey",
+            "shade-map"
+          ],
+          "source": "hv15a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "open-data-release"
+          ],
+          "source": "hv15a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "laundry-repair"
+          ],
+          "source": "hv15a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "shade-map"
+          ],
+          "source": "hv15a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "open-data-release"
+          ],
+          "source": "hv15a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv15a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "laundry-repair"
+          ],
+          "source": "hv15a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "shade-map"
+          ],
+          "source": "hv15a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tree-survey"
+          ],
+          "source": "hv15a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv15a-i01": [
+            "tree-survey"
+          ],
+          "hv15a-i02": [
+            "shade-map"
+          ],
+          "hv15a-i03": [
+            "laundry-repair"
+          ],
+          "hv15a-i04": [
+            "open-data-release"
+          ],
+          "hv15a-i05": [
+            "tree-survey"
+          ],
+          "hv15a-i06": [
+            "shade-map"
+          ],
+          "hv15a-i07": [
+            "tree-survey"
+          ],
+          "hv15a-i08": [],
+          "hv15a-i09": [
+            "laundry-repair"
+          ],
+          "hv15a-i10": [
+            "open-data-release"
+          ],
+          "hv15a-i11": [
+            "tree-survey"
+          ],
+          "hv15a-i12": [
+            "shade-map",
+            "tree-survey"
+          ],
+          "hv15a-i13": [
+            "open-data-release"
+          ],
+          "hv15a-i14": [
+            "laundry-repair"
+          ],
+          "hv15a-i15": [
+            "shade-map"
+          ],
+          "hv15a-i16": [
+            "open-data-release"
+          ],
+          "hv15a-i17": [],
+          "hv15a-i18": [
+            "laundry-repair"
+          ],
+          "hv15a-i19": [
+            "shade-map"
+          ],
+          "hv15a-i20": [
+            "tree-survey"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv15a-i05",
+            "later": "hv15a-i07",
+            "thread": "tree-survey"
+          }
+        ],
+        "threadNames": {
+          "laundry-repair": "Repair a leaking household washing-machine inlet connection",
+          "open-data-release": "Prepare a documented public release of the civic tree dataset",
+          "shade-map": "Build a summer walking-route shade map using verified canopy information",
+          "tree-survey": "Clean and verify civic street-tree point records collected by volunteers"
+        }
+      },
+      "initialThreadNames": {
+        "laundry-repair": "Repair a leaking household washing-machine inlet connection",
+        "open-data-release": "Prepare a documented public release of the civic tree dataset",
+        "shade-map": "Build a summer walking-route shade map using verified canopy information",
+        "tree-survey": "Clean and verify civic street-tree point records collected by volunteers"
+      },
+      "library": "hv15a",
+      "relatedThreads": [
+        [
+          "tree-survey",
+          "shade-map"
+        ],
+        [
+          "tree-survey",
+          "open-data-release"
+        ],
+        [
+          "shade-map",
+          "open-data-release"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv15b-i12",
+        "threads": [
+          "public-issue-view",
+          "stop-access-audit"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "stop-access-audit"
+          ],
+          "source": "hv15b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "address-crosswalk"
+          ],
+          "source": "hv15b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "choir-recording"
+          ],
+          "source": "hv15b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-training"
+          ],
+          "source": "hv15b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "public-issue-view"
+          ],
+          "source": "hv15b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "stop-access-audit"
+          ],
+          "source": "hv15b-i06",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv15b-i01",
+          "later": "hv15b-i06",
+          "thread": "stop-access-audit",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "address-crosswalk"
+          ],
+          "source": "hv15b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-training"
+          ],
+          "source": "hv15b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv15b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "choir-recording"
+          ],
+          "source": "hv15b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "stop-access-audit"
+          ],
+          "source": "hv15b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "public-issue-view",
+            "stop-access-audit"
+          ],
+          "source": "hv15b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "address-crosswalk"
+          ],
+          "source": "hv15b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-training"
+          ],
+          "source": "hv15b-i14",
+          "type": "insert"
+        },
+        {
+          "source": "hv15b-i14",
+          "thread": "stop-access-audit",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv15b-i14",
+          "thread": "stop-access-audit",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "public-issue-view"
+          ],
+          "source": "hv15b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "choir-recording"
+          ],
+          "source": "hv15b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "stop-access-audit"
+          ],
+          "source": "hv15b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv15b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-training"
+          ],
+          "source": "hv15b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "public-issue-view"
+          ],
+          "source": "hv15b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv15b-i01": [
+            "stop-access-audit"
+          ],
+          "hv15b-i02": [
+            "address-crosswalk"
+          ],
+          "hv15b-i03": [
+            "choir-recording"
+          ],
+          "hv15b-i04": [
+            "survey-training"
+          ],
+          "hv15b-i05": [
+            "public-issue-view"
+          ],
+          "hv15b-i06": [
+            "stop-access-audit"
+          ],
+          "hv15b-i07": [
+            "address-crosswalk"
+          ],
+          "hv15b-i08": [
+            "survey-training"
+          ],
+          "hv15b-i09": [],
+          "hv15b-i10": [
+            "choir-recording"
+          ],
+          "hv15b-i11": [
+            "stop-access-audit"
+          ],
+          "hv15b-i12": [
+            "public-issue-view",
+            "stop-access-audit"
+          ],
+          "hv15b-i13": [
+            "address-crosswalk"
+          ],
+          "hv15b-i14": [
+            "survey-training"
+          ],
+          "hv15b-i15": [
+            "public-issue-view"
+          ],
+          "hv15b-i16": [
+            "choir-recording"
+          ],
+          "hv15b-i17": [
+            "stop-access-audit"
+          ],
+          "hv15b-i18": [],
+          "hv15b-i19": [
+            "survey-training"
+          ],
+          "hv15b-i20": [
+            "public-issue-view"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv15b-i01",
+            "later": "hv15b-i06",
+            "thread": "stop-access-audit"
+          }
+        ],
+        "threadNames": {
+          "address-crosswalk": "Reconcile bus-stop identifiers across address and transport datasets",
+          "choir-recording": "Prepare audio files from a community choir rehearsal",
+          "public-issue-view": "Publish a resident-facing map of audited bus-stop access issues",
+          "stop-access-audit": "Verify step-free access and pavement conditions at civic bus stops",
+          "survey-training": "Train volunteer surveyors to capture consistent bus-stop access observations"
+        }
+      },
+      "initialThreadNames": {
+        "address-crosswalk": "Reconcile bus-stop identifiers across address and transport datasets",
+        "choir-recording": "Prepare audio files from a community choir rehearsal",
+        "public-issue-view": "Publish a resident-facing map of audited bus-stop access issues",
+        "stop-access-audit": "Verify step-free access and pavement conditions at civic bus stops",
+        "survey-training": "Train volunteer surveyors to capture consistent bus-stop access observations"
+      },
+      "library": "hv15b",
+      "relatedThreads": [
+        [
+          "stop-access-audit",
+          "address-crosswalk"
+        ],
+        [
+          "stop-access-audit",
+          "public-issue-view"
+        ],
+        [
+          "stop-access-audit",
+          "survey-training"
+        ],
+        [
+          "address-crosswalk",
+          "public-issue-view"
+        ],
+        [
+          "address-crosswalk",
+          "survey-training"
+        ],
+        [
+          "public-issue-view",
+          "survey-training"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv16a-i12",
+        "threads": [
+          "table-read",
+          "ferry-script"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "ferry-script"
+          ],
+          "source": "hv16a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "table-read"
+          ],
+          "source": "hv16a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "window-blinds"
+          ],
+          "source": "hv16a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "location-permit"
+          ],
+          "source": "hv16a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ferry-script"
+          ],
+          "source": "hv16a-i05",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv16a-i01",
+          "later": "hv16a-i05",
+          "thread": "ferry-script",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "table-read"
+          ],
+          "source": "hv16a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "location-permit"
+          ],
+          "source": "hv16a-i07",
+          "type": "insert"
+        },
+        {
+          "source": "hv16a-i07",
+          "thread": "ferry-script",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv16a-i07",
+          "thread": "ferry-script",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "ferry-script"
+          ],
+          "source": "hv16a-i08",
+          "type": "insert"
+        },
+        {
+          "from": "Night Ferry",
+          "thread": "ferry-script",
+          "to": "Last Crossing",
+          "type": "rename"
+        },
+        {
+          "memberships": [
+            "window-blinds"
+          ],
+          "source": "hv16a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ferry-script"
+          ],
+          "source": "hv16a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv16a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "table-read",
+            "ferry-script"
+          ],
+          "source": "hv16a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "location-permit"
+          ],
+          "source": "hv16a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "window-blinds"
+          ],
+          "source": "hv16a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ferry-script"
+          ],
+          "source": "hv16a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "table-read"
+          ],
+          "source": "hv16a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "location-permit"
+          ],
+          "source": "hv16a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "window-blinds"
+          ],
+          "source": "hv16a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv16a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ferry-script"
+          ],
+          "source": "hv16a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv16a-i01": [
+            "ferry-script"
+          ],
+          "hv16a-i02": [
+            "table-read"
+          ],
+          "hv16a-i03": [
+            "window-blinds"
+          ],
+          "hv16a-i04": [
+            "location-permit"
+          ],
+          "hv16a-i05": [
+            "ferry-script"
+          ],
+          "hv16a-i06": [
+            "table-read"
+          ],
+          "hv16a-i07": [
+            "location-permit"
+          ],
+          "hv16a-i08": [
+            "ferry-script"
+          ],
+          "hv16a-i09": [
+            "window-blinds"
+          ],
+          "hv16a-i10": [
+            "ferry-script"
+          ],
+          "hv16a-i11": [],
+          "hv16a-i12": [
+            "ferry-script",
+            "table-read"
+          ],
+          "hv16a-i13": [
+            "location-permit"
+          ],
+          "hv16a-i14": [
+            "window-blinds"
+          ],
+          "hv16a-i15": [
+            "ferry-script"
+          ],
+          "hv16a-i16": [
+            "table-read"
+          ],
+          "hv16a-i17": [
+            "location-permit"
+          ],
+          "hv16a-i18": [
+            "window-blinds"
+          ],
+          "hv16a-i19": [],
+          "hv16a-i20": [
+            "ferry-script"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv16a-i01",
+            "later": "hv16a-i05",
+            "thread": "ferry-script"
+          }
+        ],
+        "threadNames": {
+          "ferry-script": "Last Crossing",
+          "location-permit": "Secure permission to film Night Ferry on the old ferry landing",
+          "table-read": "Organize and document a cast table read of Night Ferry",
+          "window-blinds": "Measure and replace bedroom window blinds"
+        }
+      },
+      "initialThreadNames": {
+        "ferry-script": "Night Ferry",
+        "location-permit": "Secure permission to film Night Ferry on the old ferry landing",
+        "table-read": "Organize and document a cast table read of Night Ferry",
+        "window-blinds": "Measure and replace bedroom window blinds"
+      },
+      "library": "hv16a",
+      "relatedThreads": [
+        [
+          "ferry-script",
+          "table-read"
+        ],
+        [
+          "ferry-script",
+          "location-permit"
+        ],
+        [
+          "table-read",
+          "location-permit"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv16b-i12",
+        "threads": [
+          "pilot-structure",
+          "character-voices"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "pilot-structure"
+          ],
+          "source": "hv16b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "character-voices"
+          ],
+          "source": "hv16b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bread-starter"
+          ],
+          "source": "hv16b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "workshop-booking"
+          ],
+          "source": "hv16b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "pitch-packet"
+          ],
+          "source": "hv16b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "pilot-structure"
+          ],
+          "source": "hv16b-i06",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv16b-i01",
+          "later": "hv16b-i06",
+          "thread": "pilot-structure",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "character-voices"
+          ],
+          "source": "hv16b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "workshop-booking"
+          ],
+          "source": "hv16b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "pitch-packet"
+          ],
+          "source": "hv16b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bread-starter"
+          ],
+          "source": "hv16b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bread-starter"
+          ],
+          "source": "hv16b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "pilot-structure",
+            "character-voices"
+          ],
+          "source": "hv16b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "workshop-booking"
+          ],
+          "source": "hv16b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "pitch-packet"
+          ],
+          "source": "hv16b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "character-voices"
+          ],
+          "source": "hv16b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "pilot-structure"
+          ],
+          "source": "hv16b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bread-starter"
+          ],
+          "source": "hv16b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "workshop-booking"
+          ],
+          "source": "hv16b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv16b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "pitch-packet"
+          ],
+          "source": "hv16b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv16b-i01": [
+            "pilot-structure"
+          ],
+          "hv16b-i02": [
+            "character-voices"
+          ],
+          "hv16b-i03": [
+            "bread-starter"
+          ],
+          "hv16b-i04": [
+            "workshop-booking"
+          ],
+          "hv16b-i05": [
+            "pitch-packet"
+          ],
+          "hv16b-i06": [
+            "pilot-structure"
+          ],
+          "hv16b-i07": [
+            "character-voices"
+          ],
+          "hv16b-i08": [
+            "workshop-booking"
+          ],
+          "hv16b-i09": [
+            "pitch-packet"
+          ],
+          "hv16b-i10": [
+            "bread-starter"
+          ],
+          "hv16b-i11": [
+            "bread-starter"
+          ],
+          "hv16b-i12": [
+            "character-voices",
+            "pilot-structure"
+          ],
+          "hv16b-i13": [
+            "workshop-booking"
+          ],
+          "hv16b-i14": [
+            "pitch-packet"
+          ],
+          "hv16b-i15": [
+            "character-voices"
+          ],
+          "hv16b-i16": [
+            "pilot-structure"
+          ],
+          "hv16b-i17": [
+            "bread-starter"
+          ],
+          "hv16b-i18": [
+            "workshop-booking"
+          ],
+          "hv16b-i19": [],
+          "hv16b-i20": [
+            "pitch-packet"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv16b-i01",
+            "later": "hv16b-i06",
+            "thread": "pilot-structure"
+          }
+        ],
+        "threadNames": {
+          "bread-starter": "Maintain a sourdough starter and troubleshoot slow activity",
+          "character-voices": "Differentiate the recurring characters' dialogue for Spare Keys",
+          "pilot-structure": "Develop the plot and scene order of comedy pilot Spare Keys",
+          "pitch-packet": "Prepare a concise pitch packet for the Spare Keys series",
+          "workshop-booking": "Book and pay for an external screenplay workshop"
+        }
+      },
+      "initialThreadNames": {
+        "bread-starter": "Maintain a sourdough starter and troubleshoot slow activity",
+        "character-voices": "Differentiate the recurring characters' dialogue for Spare Keys",
+        "pilot-structure": "Develop the plot and scene order of comedy pilot Spare Keys",
+        "pitch-packet": "Prepare a concise pitch packet for the Spare Keys series",
+        "workshop-booking": "Book and pay for an external screenplay workshop"
+      },
+      "library": "hv16b",
+      "relatedThreads": [
+        [
+          "pilot-structure",
+          "character-voices"
+        ],
+        [
+          "pilot-structure",
+          "pitch-packet"
+        ],
+        [
+          "character-voices",
+          "pitch-packet"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv17a-i11",
+        "threads": [
+          "dishwasher-claim",
+          "repair-visit"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "dishwasher-claim"
+          ],
+          "source": "hv17a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "library-books"
+          ],
+          "source": "hv17a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "oven-registration"
+          ],
+          "source": "hv17a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "repair-visit"
+          ],
+          "source": "hv17a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "dishwasher-claim"
+          ],
+          "source": "hv17a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "oven-registration"
+          ],
+          "source": "hv17a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv17a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "repair-visit"
+          ],
+          "source": "hv17a-i08",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv17a-i04",
+          "later": "hv17a-i08",
+          "thread": "repair-visit",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "dishwasher-claim"
+          ],
+          "source": "hv17a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "library-books"
+          ],
+          "source": "hv17a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "dishwasher-claim",
+            "repair-visit"
+          ],
+          "source": "hv17a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "oven-registration"
+          ],
+          "source": "hv17a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "repair-visit"
+          ],
+          "source": "hv17a-i13",
+          "type": "insert"
+        },
+        {
+          "source": "hv17a-i13",
+          "thread": "dishwasher-claim",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv17a-i13",
+          "thread": "dishwasher-claim",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "repair-visit"
+          ],
+          "source": "hv17a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "dishwasher-claim"
+          ],
+          "source": "hv17a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "library-books"
+          ],
+          "source": "hv17a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "repair-visit"
+          ],
+          "source": "hv17a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "oven-registration"
+          ],
+          "source": "hv17a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "dishwasher-claim"
+          ],
+          "source": "hv17a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "library-books"
+          ],
+          "source": "hv17a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv17a-i01": [
+            "dishwasher-claim"
+          ],
+          "hv17a-i02": [
+            "library-books"
+          ],
+          "hv17a-i03": [
+            "oven-registration"
+          ],
+          "hv17a-i04": [
+            "repair-visit"
+          ],
+          "hv17a-i05": [
+            "dishwasher-claim"
+          ],
+          "hv17a-i06": [
+            "oven-registration"
+          ],
+          "hv17a-i07": [],
+          "hv17a-i08": [
+            "repair-visit"
+          ],
+          "hv17a-i09": [
+            "dishwasher-claim"
+          ],
+          "hv17a-i10": [
+            "library-books"
+          ],
+          "hv17a-i11": [
+            "dishwasher-claim",
+            "repair-visit"
+          ],
+          "hv17a-i12": [
+            "oven-registration"
+          ],
+          "hv17a-i13": [
+            "repair-visit"
+          ],
+          "hv17a-i14": [
+            "repair-visit"
+          ],
+          "hv17a-i15": [
+            "dishwasher-claim"
+          ],
+          "hv17a-i16": [
+            "library-books"
+          ],
+          "hv17a-i17": [
+            "repair-visit"
+          ],
+          "hv17a-i18": [
+            "oven-registration"
+          ],
+          "hv17a-i19": [
+            "dishwasher-claim"
+          ],
+          "hv17a-i20": [
+            "library-books"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv17a-i04",
+            "later": "hv17a-i08",
+            "thread": "repair-visit"
+          }
+        ],
+        "threadNames": {
+          "dishwasher-claim": "Obtain warranty approval for the leaking dishwasher",
+          "library-books": "Renew or return my borrowed library books",
+          "oven-registration": "Register the new oven and preserve its warranty documents",
+          "repair-visit": "Arrange and verify the dishwasher technician's visit"
+        }
+      },
+      "initialThreadNames": {
+        "dishwasher-claim": "Obtain warranty approval for the leaking dishwasher",
+        "library-books": "Renew or return my borrowed library books",
+        "oven-registration": "Register the new oven and preserve its warranty documents",
+        "repair-visit": "Arrange and verify the dishwasher technician's visit"
+      },
+      "library": "hv17a",
+      "relatedThreads": [
+        [
+          "dishwasher-claim",
+          "repair-visit"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv17b-i12",
+        "threads": [
+          "vacuum-replacement",
+          "courier-collection"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "vacuum-replacement"
+          ],
+          "source": "hv17b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "appliance-ledger"
+          ],
+          "source": "hv17b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "coat-alteration"
+          ],
+          "source": "hv17b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "blender-extension"
+          ],
+          "source": "hv17b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "freezer-proof"
+          ],
+          "source": "hv17b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "courier-collection"
+          ],
+          "source": "hv17b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv17b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "appliance-ledger"
+          ],
+          "source": "hv17b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "vacuum-replacement"
+          ],
+          "source": "hv17b-i09",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv17b-i01",
+          "later": "hv17b-i09",
+          "thread": "vacuum-replacement",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "blender-extension"
+          ],
+          "source": "hv17b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "freezer-proof"
+          ],
+          "source": "hv17b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "vacuum-replacement",
+            "courier-collection"
+          ],
+          "source": "hv17b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv17b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "coat-alteration"
+          ],
+          "source": "hv17b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "courier-collection"
+          ],
+          "source": "hv17b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "vacuum-replacement"
+          ],
+          "source": "hv17b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "freezer-proof"
+          ],
+          "source": "hv17b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv17b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "appliance-ledger"
+          ],
+          "source": "hv17b-i19",
+          "type": "insert"
+        },
+        {
+          "source": "hv17b-i19",
+          "thread": "blender-extension",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv17b-i19",
+          "thread": "blender-extension",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "coat-alteration"
+          ],
+          "source": "hv17b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv17b-i01": [
+            "vacuum-replacement"
+          ],
+          "hv17b-i02": [
+            "appliance-ledger"
+          ],
+          "hv17b-i03": [
+            "coat-alteration"
+          ],
+          "hv17b-i04": [
+            "blender-extension"
+          ],
+          "hv17b-i05": [
+            "freezer-proof"
+          ],
+          "hv17b-i06": [
+            "courier-collection"
+          ],
+          "hv17b-i07": [],
+          "hv17b-i08": [
+            "appliance-ledger"
+          ],
+          "hv17b-i09": [
+            "vacuum-replacement"
+          ],
+          "hv17b-i10": [
+            "blender-extension"
+          ],
+          "hv17b-i11": [
+            "freezer-proof"
+          ],
+          "hv17b-i12": [
+            "courier-collection",
+            "vacuum-replacement"
+          ],
+          "hv17b-i13": [],
+          "hv17b-i14": [
+            "coat-alteration"
+          ],
+          "hv17b-i15": [
+            "courier-collection"
+          ],
+          "hv17b-i16": [
+            "vacuum-replacement"
+          ],
+          "hv17b-i17": [
+            "freezer-proof"
+          ],
+          "hv17b-i18": [],
+          "hv17b-i19": [
+            "appliance-ledger"
+          ],
+          "hv17b-i20": [
+            "coat-alteration"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv17b-i01",
+            "later": "hv17b-i09",
+            "thread": "vacuum-replacement"
+          }
+        ],
+        "threadNames": {
+          "appliance-ledger": "Maintain the household appliance warranty inventory",
+          "blender-extension": "Decide whether to purchase the blender's optional coverage extension",
+          "coat-alteration": "Have the sleeves of my winter coat shortened",
+          "courier-collection": "Arrange courier collection of the faulty vacuum",
+          "freezer-proof": "Recover the missing freezer proof of purchase",
+          "vacuum-replacement": "Secure a warranty replacement for the failed vacuum"
+        }
+      },
+      "initialThreadNames": {
+        "appliance-ledger": "Maintain the household appliance warranty inventory",
+        "blender-extension": "Decide whether to purchase the blender's optional coverage extension",
+        "coat-alteration": "Have the sleeves of my winter coat shortened",
+        "courier-collection": "Arrange courier collection of the faulty vacuum",
+        "freezer-proof": "Recover the missing freezer proof of purchase",
+        "vacuum-replacement": "Secure a warranty replacement for the failed vacuum"
+      },
+      "library": "hv17b",
+      "relatedThreads": [
+        [
+          "vacuum-replacement",
+          "courier-collection"
+        ],
+        [
+          "vacuum-replacement",
+          "appliance-ledger"
+        ],
+        [
+          "appliance-ledger",
+          "blender-extension"
+        ],
+        [
+          "appliance-ledger",
+          "freezer-proof"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv18a-i11",
+        "threads": [
+          "cedar-application",
+          "recommendation"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "cedar-application"
+          ],
+          "source": "hv18a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "room-sublet"
+          ],
+          "source": "hv18a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "marsh-bursary"
+          ],
+          "source": "hv18a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "recommendation"
+          ],
+          "source": "hv18a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cedar-application"
+          ],
+          "source": "hv18a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "room-sublet"
+          ],
+          "source": "hv18a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv18a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "recommendation"
+          ],
+          "source": "hv18a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cedar-application"
+          ],
+          "source": "hv18a-i09",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv18a-i05",
+          "later": "hv18a-i09",
+          "thread": "cedar-application",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "marsh-bursary"
+          ],
+          "source": "hv18a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cedar-application",
+            "recommendation"
+          ],
+          "source": "hv18a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "room-sublet"
+          ],
+          "source": "hv18a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cedar-application"
+          ],
+          "source": "hv18a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "recommendation"
+          ],
+          "source": "hv18a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "marsh-bursary"
+          ],
+          "source": "hv18a-i15",
+          "type": "insert"
+        },
+        {
+          "source": "hv18a-i15",
+          "thread": "cedar-application",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv18a-i15",
+          "thread": "cedar-application",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [],
+          "source": "hv18a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "recommendation"
+          ],
+          "source": "hv18a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cedar-application"
+          ],
+          "source": "hv18a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "room-sublet"
+          ],
+          "source": "hv18a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "marsh-bursary"
+          ],
+          "source": "hv18a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv18a-i01": [
+            "cedar-application"
+          ],
+          "hv18a-i02": [
+            "room-sublet"
+          ],
+          "hv18a-i03": [
+            "marsh-bursary"
+          ],
+          "hv18a-i04": [
+            "recommendation"
+          ],
+          "hv18a-i05": [
+            "cedar-application"
+          ],
+          "hv18a-i06": [
+            "room-sublet"
+          ],
+          "hv18a-i07": [],
+          "hv18a-i08": [
+            "recommendation"
+          ],
+          "hv18a-i09": [
+            "cedar-application"
+          ],
+          "hv18a-i10": [
+            "marsh-bursary"
+          ],
+          "hv18a-i11": [
+            "cedar-application",
+            "recommendation"
+          ],
+          "hv18a-i12": [
+            "room-sublet"
+          ],
+          "hv18a-i13": [
+            "cedar-application"
+          ],
+          "hv18a-i14": [
+            "recommendation"
+          ],
+          "hv18a-i15": [
+            "marsh-bursary"
+          ],
+          "hv18a-i16": [],
+          "hv18a-i17": [
+            "recommendation"
+          ],
+          "hv18a-i18": [
+            "cedar-application"
+          ],
+          "hv18a-i19": [
+            "room-sublet"
+          ],
+          "hv18a-i20": [
+            "marsh-bursary"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv18a-i05",
+            "later": "hv18a-i09",
+            "thread": "cedar-application"
+          }
+        ],
+        "threadNames": {
+          "cedar-application": "Submit the Cedar field-study scholarship application",
+          "marsh-bursary": "Apply for the local Marsh travel bursary",
+          "recommendation": "Arrange Dr Ives's recommendation for the Cedar scholarship",
+          "room-sublet": "Find a summer subtenant for my room"
+        }
+      },
+      "initialThreadNames": {
+        "cedar-application": "Submit the Cedar field-study scholarship application",
+        "marsh-bursary": "Apply for the local Marsh travel bursary",
+        "recommendation": "Arrange Dr Ives's recommendation for the Cedar scholarship",
+        "room-sublet": "Find a summer subtenant for my room"
+      },
+      "library": "hv18a",
+      "relatedThreads": [
+        [
+          "cedar-application",
+          "recommendation"
+        ],
+        [
+          "cedar-application",
+          "marsh-bursary"
+        ],
+        [
+          "marsh-bursary",
+          "recommendation"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv18b-i10",
+        "threads": [
+          "harbour-portfolio",
+          "harbour-interview"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "harbour-portfolio"
+          ],
+          "source": "hv18b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bursary-income"
+          ],
+          "source": "hv18b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "dog-sitting"
+          ],
+          "source": "hv18b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "harbour-interview"
+          ],
+          "source": "hv18b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "print-reimbursement"
+          ],
+          "source": "hv18b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "harbour-portfolio"
+          ],
+          "source": "hv18b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bursary-income"
+          ],
+          "source": "hv18b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "harbour-interview"
+          ],
+          "source": "hv18b-i08",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv18b-i04",
+          "later": "hv18b-i08",
+          "thread": "harbour-interview",
+          "type": "revision"
+        },
+        {
+          "memberships": [],
+          "source": "hv18b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "harbour-portfolio",
+            "harbour-interview"
+          ],
+          "source": "hv18b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "dog-sitting"
+          ],
+          "source": "hv18b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "print-reimbursement"
+          ],
+          "source": "hv18b-i12",
+          "type": "insert"
+        },
+        {
+          "source": "hv18b-i12",
+          "thread": "harbour-portfolio",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv18b-i12",
+          "thread": "harbour-portfolio",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "harbour-interview"
+          ],
+          "source": "hv18b-i13",
+          "type": "insert"
+        },
+        {
+          "from": "Harbour talk",
+          "thread": "harbour-interview",
+          "to": "Harbour interview",
+          "type": "rename"
+        },
+        {
+          "memberships": [
+            "harbour-portfolio"
+          ],
+          "source": "hv18b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bursary-income"
+          ],
+          "source": "hv18b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "harbour-interview"
+          ],
+          "source": "hv18b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "print-reimbursement"
+          ],
+          "source": "hv18b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "dog-sitting"
+          ],
+          "source": "hv18b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "harbour-interview"
+          ],
+          "source": "hv18b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bursary-income"
+          ],
+          "source": "hv18b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv18b-i01": [
+            "harbour-portfolio"
+          ],
+          "hv18b-i02": [
+            "bursary-income"
+          ],
+          "hv18b-i03": [
+            "dog-sitting"
+          ],
+          "hv18b-i04": [
+            "harbour-interview"
+          ],
+          "hv18b-i05": [
+            "print-reimbursement"
+          ],
+          "hv18b-i06": [
+            "harbour-portfolio"
+          ],
+          "hv18b-i07": [
+            "bursary-income"
+          ],
+          "hv18b-i08": [
+            "harbour-interview"
+          ],
+          "hv18b-i09": [],
+          "hv18b-i10": [
+            "harbour-interview",
+            "harbour-portfolio"
+          ],
+          "hv18b-i11": [
+            "dog-sitting"
+          ],
+          "hv18b-i12": [
+            "print-reimbursement"
+          ],
+          "hv18b-i13": [
+            "harbour-interview"
+          ],
+          "hv18b-i14": [
+            "harbour-portfolio"
+          ],
+          "hv18b-i15": [
+            "bursary-income"
+          ],
+          "hv18b-i16": [
+            "harbour-interview"
+          ],
+          "hv18b-i17": [
+            "print-reimbursement"
+          ],
+          "hv18b-i18": [
+            "dog-sitting"
+          ],
+          "hv18b-i19": [
+            "harbour-interview"
+          ],
+          "hv18b-i20": [
+            "bursary-income"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv18b-i04",
+            "later": "hv18b-i08",
+            "thread": "harbour-interview"
+          }
+        ],
+        "threadNames": {
+          "bursary-income": "Provide household-income evidence for the college access bursary",
+          "dog-sitting": "Arrange care for Pip while I am away",
+          "harbour-interview": "Harbour interview",
+          "harbour-portfolio": "Prepare the portfolio for the Harbour design scholarship",
+          "print-reimbursement": "Recover the agreed portfolio printing expense from college"
+        }
+      },
+      "initialThreadNames": {
+        "bursary-income": "Provide household-income evidence for the college access bursary",
+        "dog-sitting": "Arrange care for Pip while I am away",
+        "harbour-interview": "Harbour talk",
+        "harbour-portfolio": "Prepare the portfolio for the Harbour design scholarship",
+        "print-reimbursement": "Recover the agreed portfolio printing expense from college"
+      },
+      "library": "hv18b",
+      "relatedThreads": [
+        [
+          "harbour-portfolio",
+          "harbour-interview"
+        ],
+        [
+          "harbour-portfolio",
+          "print-reimbursement"
+        ],
+        [
+          "harbour-interview",
+          "print-reimbursement"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    }
+  ],
+  "schemaVersion": 1
+}

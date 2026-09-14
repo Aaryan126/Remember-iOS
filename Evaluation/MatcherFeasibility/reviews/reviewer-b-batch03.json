@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "reviewer-b",
+  "model": "unknown",
+  "blindToAuthorLabels": true,
+  "blindToPredictions": true,
+  "libraries": [
+    {
+      "id": "mf25",
+      "groups": [
+        {
+          "id": "kelp-cove",
+          "members": [
+            "mf25-i01",
+            "mf25-i07",
+            "mf25-i08",
+            "mf25-i17"
+          ],
+          "evidence": "Kelp Cove is one passive deployment covering eastern and western moorings; its night recordings, chain-noise interval and anchor recovery continue that field project."
+        },
+        {
+          "id": "reference-tank",
+          "members": [
+            "mf25-i02",
+            "mf25-i07",
+            "mf25-i12",
+            "mf25-i16"
+          ],
+          "evidence": "The reference-tank program explicitly recalibrates instruments for multiple independent field projects on its own continuing schedule; H8 corrections transfer to Kelp Cove."
+        },
+        {
+          "id": "echotag",
+          "members": [
+            "mf25-i03",
+            "mf25-i09",
+            "mf25-i14",
+            "mf25-i19"
+          ],
+          "evidence": "EchoTag maintains reviewed sound-event annotations, correcting labels and resolving ambiguous audible cues; selected reviewed clips are supplied to QuietWater."
+        },
+        {
+          "id": "harbor-pulse",
+          "members": [
+            "mf25-i05",
+            "mf25-i10",
+            "mf25-i15",
+            "mf25-i20"
+          ],
+          "evidence": "Harbor Pulse is the active east-pier transmitted-sweep trial, revising receiver placement and preserving station/sweep identifiers."
+        },
+        {
+          "id": "quietwater",
+          "members": [
+            "mf25-i06",
+            "mf25-i11",
+            "mf25-i14",
+            "mf25-i18"
+          ],
+          "evidence": "QuietWater develops a visitor listening installation through loop order, caption comprehension, reviewed clip names and headphone repairs."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "kelp-cove",
+          "reference-tank"
+        ],
+        [
+          "echotag",
+          "quietwater"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf25-i04",
+          "reason": "Listening samples and revised notes could concern annotation review or exhibition preparation; no project identity is supplied."
+        },
+        {
+          "id": "mf25-i13",
+          "reason": "A cleaner trace and settings check could concern tank calibration, passive recording or active sweeps."
+        }
+      ],
+      "issues": [
+        "The amended reference-tank scope in i02 establishes independence from Kelp Cove, while i01/i17 explicitly place both moorings in one deployment."
+      ]
+    },
+    {
+      "id": "mf26",
+      "groups": [
+        {
+          "id": "fenwick-junction",
+          "members": [
+            "mf26-i01",
+            "mf26-i07",
+            "mf26-i09",
+            "mf26-i16"
+          ],
+          "evidence": "Fenwick Junction's continuing layout operations address the goods-loop feed, operational tests, passenger shuttle and borrowed railcar demonstration."
+        },
+        {
+          "id": "copper-ridge",
+          "members": [
+            "mf26-i02",
+            "mf26-i08",
+            "mf26-i13",
+            "mf26-i20"
+          ],
+          "evidence": "Copper Ridge's continuing layout preparation includes scenery repair, finish selection and transport protection for its quarry wall, bridge and embankment."
+        },
+        {
+          "id": "beginner-course",
+          "members": [
+            "mf26-i03",
+            "mf26-i10",
+            "mf26-i14",
+            "mf26-i18"
+          ],
+          "evidence": "The six-week club turnout-wiring course has its own upcoming cohort; the exhibition taster is outreach within that continuing teaching project."
+        },
+        {
+          "id": "exhibition",
+          "members": [
+            "mf26-i04",
+            "mf26-i11",
+            "mf26-i14",
+            "mf26-i19"
+          ],
+          "evidence": "Exhibition delivery coordinates entrances, tickets, accessible routes and the workshop audience's effect on floor circulation."
+        },
+        {
+          "id": "rolling-stock-loans",
+          "members": [
+            "mf26-i05",
+            "mf26-i07",
+            "mf26-i12",
+            "mf26-i17"
+          ],
+          "evidence": "The expressly year-round inter-layout loan undertaking tracks vehicle condition, unique loan numbers, operating hours and returns beyond this exhibition."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "fenwick-junction",
+          "rolling-stock-loans"
+        ],
+        [
+          "beginner-course",
+          "exhibition"
+        ],
+        [
+          "copper-ridge",
+          "exhibition"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf26-i06",
+          "reason": "The green one and usual photo folder do not identify a particular vehicle, layout or loan undertaking."
+        },
+        {
+          "id": "mf26-i15",
+          "reason": "An unnamed clearance diagram could concern scenery packing, vehicle operation or exhibition circulation."
+        }
+      ],
+      "issues": [
+        "i03/i05 explicitly support course and loan-program independence from the exhibition. i13 directly connects Copper Ridge transport/unpacking to the exhibition, supporting a related pair without treating a layout-specific packing note as a full exhibition-planning source."
+      ]
+    },
+    {
+      "id": "mf27",
+      "groups": [
+        {
+          "id": "glass-orchard-four",
+          "members": [
+            "mf27-i01",
+            "mf27-i03",
+            "mf27-i07",
+            "mf27-i10",
+            "mf27-i12",
+            "mf27-i14",
+            "mf27-i15"
+          ],
+          "evidence": "Glass Orchard four's print copies and ScreenDoor accessible edition are formats of the same publication project: i07 joins subscriber distribution and contributor-credit corrections across both."
+        },
+        {
+          "id": "counterlight",
+          "members": [
+            "mf27-i02",
+            "mf27-i08",
+            "mf27-i13",
+            "mf27-i18"
+          ],
+          "evidence": "Counterlight operates shop consignment accounts, differentiating deliveries, sales, damaged copies, credited returns and donated stock."
+        },
+        {
+          "id": "night-fold",
+          "members": [
+            "mf27-i04",
+            "mf27-i09",
+            "mf27-i17",
+            "mf27-i20"
+          ],
+          "evidence": "Night Fold's stall undertaking coordinates table layout, staffing, prices, payment equipment and cash reconciliation."
+        },
+        {
+          "id": "pocket-shelf",
+          "members": [
+            "mf27-i06",
+            "mf27-i11",
+            "mf27-i13",
+            "mf27-i19"
+          ],
+          "evidence": "Pocket Shelf's touring lending collection uses removable sleeves, host-library circulation records and scheduled library moves."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "counterlight",
+          "pocket-shelf"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf27-i05",
+          "reason": "Remaining copies and an amended sheet could concern publication fulfilment, consignment, stall inventory or lending stock."
+        },
+        {
+          "id": "mf27-i16",
+          "reason": "Unidentified copy counts and returns do not select a publication or inventory undertaking."
+        }
+      ],
+      "issues": [
+        "ScreenDoor is explicitly linked by i07 to Glass Orchard four's accessible edition; production-format differences do not establish another project."
+      ]
+    },
+    {
+      "id": "mf28",
+      "groups": [
+        {
+          "id": "cedar-cup",
+          "members": [
+            "mf28-i01",
+            "mf28-i02",
+            "mf28-i03",
+            "mf28-i04",
+            "mf28-i07",
+            "mf28-i08",
+            "mf28-i09",
+            "mf28-i10",
+            "mf28-i11",
+            "mf28-i13",
+            "mf28-i15",
+            "mf28-i16",
+            "mf28-i17",
+            "mf28-i18",
+            "mf28-i20"
+          ],
+          "evidence": "Cedar Cup is one tournament undertaking covering fixtures/results, referee crews, hotel transport and equipment service; i18 locates the service-card handover within Cedar Cup."
+        },
+        {
+          "id": "open-hoops",
+          "members": [
+            "mf28-i06",
+            "mf28-i12",
+            "mf28-i13",
+            "mf28-i19"
+          ],
+          "evidence": "Open Hoops is a continuing newcomer coaching program with introductory drills, participant progression and signup explanations; i13 coordinates its loan chairs with the event's service bay."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "cedar-cup",
+          "open-hoops"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf28-i05",
+          "reason": "Second-group timing and an unspecified desk could concern tournament operations or the separate introductory sessions."
+        },
+        {
+          "id": "mf28-i14",
+          "reason": "An unnamed spare, label and departed volunteer do not identify which program needs the item."
+        }
+      ],
+      "issues": [
+        "The inputs establish one Cedar Cup event, so operational desks and crew assignments remain together. The service bay is linked explicitly to Cedar Cup by i18 and supplies Open Hoops in i13; no source establishes a separately scoped year-round service program. i02/i09 inherit the identified service-bay context, although neither alone names the event."
+      ]
+    },
+    {
+      "id": "mf29",
+      "groups": [
+        {
+          "id": "frost-finch",
+          "members": [
+            "mf29-i01",
+            "mf29-i07",
+            "mf29-i09",
+            "mf29-i15"
+          ],
+          "evidence": "Frost Finch maps cabinet temperatures using corrected probe placement and controlled shelf-load comparisons."
+        },
+        {
+          "id": "seal-sparrow",
+          "members": [
+            "mf29-i02",
+            "mf29-i08",
+            "mf29-i13",
+            "mf29-i19"
+          ],
+          "evidence": "Seal Sparrow compares pouch-seam moisture ingress, preserving comparison seams and exposed specimens."
+        },
+        {
+          "id": "wake-wren",
+          "members": [
+            "mf29-i03",
+            "mf29-i07",
+            "mf29-i12",
+            "mf29-i16"
+          ],
+          "evidence": "Wake Wren follows germination of thawed seed lots, controlling tray conditions and preserving corrected day-ten observations."
+        },
+        {
+          "id": "hold-heron",
+          "members": [
+            "mf29-i04",
+            "mf29-i11",
+            "mf29-i17",
+            "mf29-i20"
+          ],
+          "evidence": "Hold Heron measures outage backup endurance, freezer restart and temperature-limit timing as distinct outcomes of its drill."
+        },
+        {
+          "id": "trace-tern",
+          "members": [
+            "mf29-i06",
+            "mf29-i10",
+            "mf29-i13",
+            "mf29-i18"
+          ],
+          "evidence": "Trace Tern qualifies sample identification and custody through barcode/check-string failures, moisture-resistant labels and timestamped handoffs."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "frost-finch",
+          "wake-wren"
+        ],
+        [
+          "seal-sparrow",
+          "trace-tern"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf29-i05",
+          "reason": "A revised batch and acceptance limit identify none of the named independent trial questions."
+        },
+        {
+          "id": "mf29-i14",
+          "reason": "An unspecified sensor and setup difference do not identify the cabinet map or another bench trial."
+        }
+      ],
+      "issues": [
+        "Distinct named experimental questions and their respective comparison/qualification procedures support separate projects. Joint tickets i07/i13 connect their evidence without merging the experiments."
+      ]
+    },
+    {
+      "id": "mf30",
+      "groups": [
+        {
+          "id": "hands-on-harbor",
+          "members": [
+            "mf30-i01",
+            "mf30-i02",
+            "mf30-i04",
+            "mf30-i05",
+            "mf30-i07",
+            "mf30-i08",
+            "mf30-i09",
+            "mf30-i11",
+            "mf30-i12",
+            "mf30-i13",
+            "mf30-i15",
+            "mf30-i17",
+            "mf30-i18",
+            "mf30-i19"
+          ],
+          "evidence": "Hands on Harbor is one full-size tactile-gallery exhibit project whose relief fabrication, audio directions, visitor studies and cleaning/finish trials iteratively revise the same experience."
+        },
+        {
+          "id": "touch-routes",
+          "members": [
+            "mf30-i03",
+            "mf30-i10",
+            "mf30-i14",
+            "mf30-i20"
+          ],
+          "evidence": "Touch Routes is a separately named school-loan undertaking with classroom tile sets, teacher cards, loan cases and its own inventory/dispatch corrections."
+        }
+      ],
+      "relatedGroupPairs": [],
+      "ambiguous": [
+        {
+          "id": "mf30-i06",
+          "reason": "Lower-edge access and wording are compatible with gallery exhibit review or classroom materials; no project or artifact identifies the intended revision."
+        },
+        {
+          "id": "mf30-i16",
+          "reason": "A clearer version, fresh group and more copies could describe either the gallery materials or school-loan materials."
+        }
+      ],
+      "issues": [
+        "Fabrication, audio, visitor research and care trials are components of the explicitly named Hands on Harbor project. Touch Routes' loan sets and teacher cards establish a separate undertaking; similar tactile subject matter alone does not establish a direct related-group relationship."
+      ]
+    }
+  ]
+}

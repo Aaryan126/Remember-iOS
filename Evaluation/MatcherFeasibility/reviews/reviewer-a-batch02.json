@@ -1,0 +1,1196 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "reviewer-a",
+  "model": "unknown",
+  "blindToAuthorLabels": true,
+  "blindToPredictions": true,
+  "libraries": [
+    {
+      "id": "mf01",
+      "groups": [
+        {
+          "id": "hearth-repair",
+          "members": [
+            "mf01-i01",
+            "mf01-i03",
+            "mf01-i04",
+            "mf01-i12",
+            "mf01-i15",
+            "mf01-i18",
+            "mf01-i20"
+          ],
+          "evidence": "H17 identifies Hearth's lower door-seal repair, including gasket dimensions, fitting, and test-bake sign-off."
+        },
+        {
+          "id": "scale-q4",
+          "members": [
+            "mf01-i02",
+            "mf01-i05",
+            "mf01-i16",
+            "mf01-i19"
+          ],
+          "evidence": "Q4 consistently tracks empty-scale zero drift and corrected measurement records."
+        },
+        {
+          "id": "loft-repair",
+          "members": [
+            "mf01-i03",
+            "mf01-i04",
+            "mf01-i07",
+            "mf01-i10",
+            "mf01-i13",
+            "mf01-i20"
+          ],
+          "evidence": "L22 identifies Loft's steam-nozzle insert replacement and post-fit tests. i04 also refers to Hearth's gasket order."
+        },
+        {
+          "id": "trolley-c8",
+          "members": [
+            "mf01-i08",
+            "mf01-i11",
+            "mf01-i14",
+            "mf01-i17"
+          ],
+          "evidence": "C8 is the flour-rack trolley caster trial, revised wheel size and loaded tile-joint check."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "hearth-repair",
+          "loft-repair"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf01-i06",
+          "reason": "An unnamed replacement part and service folder could refer to either oven or other repair."
+        },
+        {
+          "id": "mf01-i09",
+          "reason": "A smaller corrected measurement and supplier message do not identify which repair."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf02",
+      "groups": [
+        {
+          "id": "squash-loop",
+          "members": [
+            "mf02-i01",
+            "mf02-i04",
+            "mf02-i11",
+            "mf02-i14",
+            "mf02-i15",
+            "mf02-i18"
+          ],
+          "evidence": "W-S is the new west-squash loop and tap sharing the bean rain barrel, with revised elbows and initial pressure testing."
+        },
+        {
+          "id": "shed-pump",
+          "members": [
+            "mf02-i02",
+            "mf02-i05",
+            "mf02-i08",
+            "mf02-i19"
+          ],
+          "evidence": "P2 is the rebuilt shed pump, leather cup, bolt correction, and post-soak flush."
+        },
+        {
+          "id": "bean-loop",
+          "members": [
+            "mf02-i03",
+            "mf02-i06",
+            "mf02-i09",
+            "mf02-i11",
+            "mf02-i12",
+            "mf02-i14",
+            "mf02-i15"
+          ],
+          "evidence": "E-B is the east-bean emitter repair and root-zone check; W-S's new outlet draws from its shared barrel."
+        },
+        {
+          "id": "glasshouse-trial",
+          "members": [
+            "mf02-i07",
+            "mf02-i10",
+            "mf02-i13",
+            "mf02-i16"
+          ],
+          "evidence": "G-T compares seedling substrates by tray mass under controlled mist and rotated positions."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "squash-loop",
+          "bean-loop"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf02-i17",
+          "reason": "The source explicitly lacks the bed identity, and both irrigation loops involve outlets and testing."
+        },
+        {
+          "id": "mf02-i20",
+          "reason": "An unheaded connector drawing and revised dimensions do not identify the job."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf03",
+      "groups": [
+        {
+          "id": "archive-waistcoat",
+          "members": [
+            "mf03-i01",
+            "mf03-i04",
+            "mf03-i07",
+            "mf03-i18"
+          ],
+          "evidence": "Archive V9 identifies the plum velvet waistcoat seam support and documentation."
+        },
+        {
+          "id": "captain-coat",
+          "members": [
+            "mf03-i02",
+            "mf03-i03",
+            "mf03-i05",
+            "mf03-i06",
+            "mf03-i14",
+            "mf03-i17",
+            "mf03-i20"
+          ],
+          "evidence": "SL-C identifies the captain's storm-coat fitting and pleat/clasp revisions, with offcuts reserved for the messenger."
+        },
+        {
+          "id": "messenger-cape",
+          "members": [
+            "mf03-i02",
+            "mf03-i05",
+            "mf03-i06",
+            "mf03-i09",
+            "mf03-i12",
+            "mf03-i15"
+          ],
+          "evidence": "SL-M identifies the messenger cape's running hem and hood patch using captain-coat cloth."
+        },
+        {
+          "id": "workshop-aprons",
+          "members": [
+            "mf03-i10",
+            "mf03-i13",
+            "mf03-i16",
+            "mf03-i19"
+          ],
+          "evidence": "WA is an independently counted cotton-apron batch for the backstage workshop, including wash shrinkage and adjustable loops."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "captain-coat",
+          "messenger-cape"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf03-i08",
+          "reason": "Unnamed rain garment could be either captain coat or messenger cape."
+        },
+        {
+          "id": "mf03-i11",
+          "reason": "A changed measurement and tape strip identify no garment or batch."
+        }
+      ],
+      "issues": [
+        "SL-C and SL-M are treated as independently scoped garment-alteration jobs with separate fitting targets and identifiers, despite sharing the Salt Lantern production. A production-level interpretation would collapse them; source job boundaries support retaining them separately."
+      ]
+    },
+    {
+      "id": "mf04",
+      "groups": [
+        {
+          "id": "helmet-rack",
+          "members": [
+            "mf04-i01",
+            "mf04-i04",
+            "mf04-i07",
+            "mf04-i10"
+          ],
+          "evidence": "H-R is the loan-helmet rack installation with revised bracket location and spacing."
+        },
+        {
+          "id": "commuter-wheel",
+          "members": [
+            "mf04-i03",
+            "mf04-i06",
+            "mf04-i13",
+            "mf04-i16",
+            "mf04-i17",
+            "mf04-i20"
+          ],
+          "evidence": "B14 is the blue commuter's wheel-strength upgrade retaining its rim and adopting O31's spoke specification."
+        },
+        {
+          "id": "delivery-wheel",
+          "members": [
+            "mf04-i05",
+            "mf04-i08",
+            "mf04-i11",
+            "mf04-i13",
+            "mf04-i14",
+            "mf04-i16",
+            "mf04-i17"
+          ],
+          "evidence": "O31 is the orange delivery bike's cracked-rim rebuild and tension/load checks; its specification is shared with B14."
+        },
+        {
+          "id": "balance-steering",
+          "members": [
+            "mf04-i09",
+            "mf04-i12",
+            "mf04-i15",
+            "mf04-i18"
+          ],
+          "evidence": "G6 concerns the green balance bike's binding headset, dust-cap spacer and free-steering sign-off."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "commuter-wheel",
+          "delivery-wheel"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf04-i02",
+          "reason": "The replacement and measurement lack an identifying part or job number."
+        },
+        {
+          "id": "mf04-i19",
+          "reason": "Both wheel jobs need tension checks, and the source explicitly lacks a bike/job tag."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf05",
+      "groups": [
+        {
+          "id": "box-insert",
+          "members": [
+            "mf05-i01",
+            "mf05-i12",
+            "mf05-i15",
+            "mf05-i18"
+          ],
+          "evidence": "BX is the carry-box insert prototype, reinforced fold, locking tab and corrected internal width."
+        },
+        {
+          "id": "core-auction",
+          "members": [
+            "mf05-i02",
+            "mf05-i04",
+            "mf05-i05",
+            "mf05-i07",
+            "mf05-i08",
+            "mf05-i16",
+            "mf05-i19"
+          ],
+          "evidence": "Glass Harbour core auction A tests starting cash and freight bidding; expansion T depends on its coin supply and purse decision."
+        },
+        {
+          "id": "last-pear",
+          "members": [
+            "mf05-i03",
+            "mf05-i06",
+            "mf05-i09",
+            "mf05-i20"
+          ],
+          "evidence": "LP is Last Pear's cooperative shared-loss and spoil-counter rule trial."
+        },
+        {
+          "id": "tug-expansion",
+          "members": [
+            "mf05-i04",
+            "mf05-i07",
+            "mf05-i08",
+            "mf05-i11",
+            "mf05-i14",
+            "mf05-i17"
+          ],
+          "evidence": "T is the separately scoped tugboat expansion with tow permits, rescue bonuses, and one-vessel limit."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "core-auction",
+          "tug-expansion"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf05-i10",
+          "reason": "The unheaded rule limit is not identified; three/four suggests Last Pear but a numeric fragment alone does not establish the rule context."
+        },
+        {
+          "id": "mf05-i13",
+          "reason": "Unidentified cards, packet and rule example could refer to either game or the expansion."
+        }
+      ],
+      "issues": [
+        "Core auction A and expansion T are retained as distinct scoped developments, with an explicit economy dependency. If the intended context is the whole Glass Harbour game, the core/expansion boundary requires clarification rather than an assumption based only on task codes."
+      ]
+    },
+    {
+      "id": "mf06",
+      "groups": [
+        {
+          "id": "nori-room",
+          "members": [
+            "mf06-i02",
+            "mf06-i05",
+            "mf06-i08",
+            "mf06-i15",
+            "mf06-i18",
+            "mf06-i19"
+          ],
+          "evidence": "NR is Nori's upstairs spare-room preparation, adapting Bramble's checklist with a fireplace guard and smaller alcove bed."
+        },
+        {
+          "id": "bedding-cupboard",
+          "members": [
+            "mf06-i03",
+            "mf06-i06",
+            "mf06-i09",
+            "mf06-i12"
+          ],
+          "evidence": "BC is the reusable fleece/pad inventory and repair task with corrected usable count."
+        },
+        {
+          "id": "bramble-room",
+          "members": [
+            "mf06-i07",
+            "mf06-i10",
+            "mf06-i13",
+            "mf06-i15",
+            "mf06-i16",
+            "mf06-i18",
+            "mf06-i19"
+          ],
+          "evidence": "BR is Bramble's downstairs room preparation with cabinet gap, bed screen, and window-wall water bowl."
+        },
+        {
+          "id": "rabbit-transport",
+          "members": [
+            "mf06-i11",
+            "mf06-i14",
+            "mf06-i17",
+            "mf06-i20"
+          ],
+          "evidence": "RT is Pip and Thistle's weekend foster transfer using the booked car and revised pickup time."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "nori-room",
+          "bramble-room"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf06-i01",
+          "reason": "Both animal rooms have sign preparation; the quiet room is unnamed."
+        },
+        {
+          "id": "mf06-i04",
+          "reason": "Packed supplies and a revised count provide no task-specific object or destination."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf07",
+      "groups": [
+        {
+          "id": "north-loft-window",
+          "members": [
+            "mf07-i01",
+            "mf07-i04",
+            "mf07-i06",
+            "mf07-i07",
+            "mf07-i09",
+            "mf07-i10",
+            "mf07-i18"
+          ],
+          "evidence": "The north loft opening-sash repair uses seals, hinge adjustment, corrected width and a repeated strip test; the study job shares its supplier."
+        },
+        {
+          "id": "cylinder-jacket",
+          "members": [
+            "mf07-i02",
+            "mf07-i05",
+            "mf07-i08",
+            "mf07-i11"
+          ],
+          "evidence": "The hot-water cylinder jacket is fitted to measured cupboard clearances without obstructing controls."
+        },
+        {
+          "id": "bedroom-underlay",
+          "members": [
+            "mf07-i03",
+            "mf07-i14",
+            "mf07-i17",
+            "mf07-i20"
+          ],
+          "evidence": "The bedroom rug underlay trial addresses noise, sliding and corrected rug dimensions."
+        },
+        {
+          "id": "study-glazing",
+          "members": [
+            "mf07-i06",
+            "mf07-i09",
+            "mf07-i10",
+            "mf07-i13",
+            "mf07-i16",
+            "mf07-i19"
+          ],
+          "evidence": "The study's removable clear inner pane addresses condensation, with magnetic edging and a shared installer visit."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "north-loft-window",
+          "study-glazing"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf07-i12",
+          "reason": "Window measurements without a room could concern either the loft or study job."
+        },
+        {
+          "id": "mf07-i15",
+          "reason": "An unnamed sample and revised sketch could concern several measured installations."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf08",
+      "groups": [
+        {
+          "id": "willow-celadon",
+          "members": [
+            "mf08-i01",
+            "mf08-i04",
+            "mf08-i07",
+            "mf08-i10",
+            "mf08-i17",
+            "mf08-i20"
+          ],
+          "evidence": "Willow is the celadon comparison with tile placement, corrected C7 label, and an Aster-derived cooling segment."
+        },
+        {
+          "id": "kiln-supports",
+          "members": [
+            "mf08-i02",
+            "mf08-i13",
+            "mf08-i16",
+            "mf08-i19"
+          ],
+          "evidence": "Chipped kiln short posts are counted, measured, replaced and checked for flat seating."
+        },
+        {
+          "id": "reclaim-boards",
+          "members": [
+            "mf08-i05",
+            "mf08-i08",
+            "mf08-i11",
+            "mf08-i14"
+          ],
+          "evidence": "Sink-sized slatted reclaim boards require a crosspiece and corrected span before wet-clay loading."
+        },
+        {
+          "id": "aster-amber",
+          "members": [
+            "mf08-i01",
+            "mf08-i09",
+            "mf08-i12",
+            "mf08-i15",
+            "mf08-i17",
+            "mf08-i18",
+            "mf08-i20"
+          ],
+          "evidence": "Aster tests amber-glaze pinholes using a longer peak hold; its cooling segment is reused by Willow."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "willow-celadon",
+          "aster-amber"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf08-i03",
+          "reason": "Unlabeled uneven test tiles could belong to either glaze trial."
+        },
+        {
+          "id": "mf08-i06",
+          "reason": "An incorrect firing number without the run name does not identify Aster or Willow."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf09",
+      "groups": [
+        {
+          "id": "birch-signs",
+          "members": [
+            "mf09-i01",
+            "mf09-i08",
+            "mf09-i11",
+            "mf09-i12",
+            "mf09-i15",
+            "mf09-i18"
+          ],
+          "evidence": "Birch spur receives new junction panels with revised destination layout/distance and Alder-derived arrows."
+        },
+        {
+          "id": "boot-station",
+          "members": [
+            "mf09-i02",
+            "mf09-i05",
+            "mf09-i16",
+            "mf09-i19"
+          ],
+          "evidence": "The trailhead boot-brush station is built and checked for brush width and lace-snagging."
+        },
+        {
+          "id": "alder-signs",
+          "members": [
+            "mf09-i03",
+            "mf09-i06",
+            "mf09-i08",
+            "mf09-i09",
+            "mf09-i11",
+            "mf09-i12",
+            "mf09-i20"
+          ],
+          "evidence": "Alder loop replacement signs include bend-four visibility, corrected panel count and artwork shared with Birch."
+        },
+        {
+          "id": "moss-handrail",
+          "members": [
+            "mf09-i04",
+            "mf09-i07",
+            "mf09-i10",
+            "mf09-i13"
+          ],
+          "evidence": "Moss bridge's eastern handrail joint gets a repair plate with corrected hole count."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "birch-signs",
+          "alder-signs"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf09-i14",
+          "reason": "Both routes have arrow panels and sight-line checks; the route name is removed."
+        },
+        {
+          "id": "mf09-i17",
+          "reason": "Revised count and painted pieces could refer to route signs or the brush installation."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf10",
+      "groups": [
+        {
+          "id": "pebble-starter",
+          "members": [
+            "mf10-i01",
+            "mf10-i04",
+            "mf10-i15",
+            "mf10-i18"
+          ],
+          "evidence": "Pebble's rye-starter week tracks evening feed timing and overnight rise marks."
+        },
+        {
+          "id": "ruby-cabbage",
+          "members": [
+            "mf10-i02",
+            "mf10-i03",
+            "mf10-i11",
+            "mf10-i14",
+            "mf10-i17",
+            "mf10-i19",
+            "mf10-i20"
+          ],
+          "evidence": "Ruby compares red-cabbage salt levels with corrected jar-B mass, shared tasting dates and consistent observation records."
+        },
+        {
+          "id": "sun-carrots",
+          "members": [
+            "mf10-i02",
+            "mf10-i03",
+            "mf10-i06",
+            "mf10-i09",
+            "mf10-i12",
+            "mf10-i19"
+          ],
+          "evidence": "Sun compares dill/plain carrots, using Ruby's tasting schedule and corrected triangle lid marks."
+        },
+        {
+          "id": "jar-shelf",
+          "members": [
+            "mf10-i07",
+            "mf10-i10",
+            "mf10-i13",
+            "mf10-i16"
+          ],
+          "evidence": "A ventilated shaded jar shelf is designed with retaining lip and corrected depth."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "ruby-cabbage",
+          "sun-carrots"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf10-i05",
+          "reason": "An unidentifiable darker lid and missing mark key cannot determine the fermentation experiment."
+        },
+        {
+          "id": "mf10-i08",
+          "reason": "Jar photographs and tasting comparison without labels fit both Ruby and Sun."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf11",
+      "groups": [
+        {
+          "id": "folder-shelves",
+          "members": [
+            "mf11-i01",
+            "mf11-i04",
+            "mf11-i07",
+            "mf11-i18"
+          ],
+          "evidence": "Replacement choir-folder shelving has corrected span, label placement and drying finish."
+        },
+        {
+          "id": "winter-window",
+          "members": [
+            "mf11-i02",
+            "mf11-i05",
+            "mf11-i08",
+            "mf11-i10",
+            "mf11-i11",
+            "mf11-i13",
+            "mf11-i14"
+          ],
+          "evidence": "Winter Window's opening-set rehearsal fixes the alto entry using a shared-breath exercise adopted by Lantern Walk."
+        },
+        {
+          "id": "lantern-walk",
+          "members": [
+            "mf11-i03",
+            "mf11-i10",
+            "mf11-i13",
+            "mf11-i14",
+            "mf11-i17",
+            "mf11-i20"
+          ],
+          "evidence": "Lantern Walk's outdoor set rehearses street-corner cues, arc formation and revised song order."
+        },
+        {
+          "id": "meadow-guides",
+          "members": [
+            "mf11-i06",
+            "mf11-i09",
+            "mf11-i12",
+            "mf11-i15"
+          ],
+          "evidence": "Meadow Book archive guide recording uses spoken verse numbers, retakes and corrected file labels."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "winter-window",
+          "lantern-walk"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf11-i16",
+          "reason": "Late entry after a silent beat could concern either concert or outdoor set, both using the same exercise."
+        },
+        {
+          "id": "mf11-i19",
+          "reason": "The photocopy lacks the set name and both sets have revised cues."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf12",
+      "groups": [
+        {
+          "id": "display-flow",
+          "members": [
+            "mf12-i01",
+            "mf12-i02",
+            "mf12-i04",
+            "mf12-i05",
+            "mf12-i13",
+            "mf12-i16",
+            "mf12-i19"
+          ],
+          "evidence": "The planted display's filter flow is restored by intake-sponge cleaning and measured with corrected bucket-fill time; it donates nursery media."
+        },
+        {
+          "id": "shrimp-nursery",
+          "members": [
+            "mf12-i01",
+            "mf12-i04",
+            "mf12-i05",
+            "mf12-i08",
+            "mf12-i11",
+            "mf12-i14"
+          ],
+          "evidence": "The separate shrimp nursery is set up with a transferred media pouch and gentle outlet elbow."
+        },
+        {
+          "id": "spare-cleaning",
+          "members": [
+            "mf12-i03",
+            "mf12-i06",
+            "mf12-i17",
+            "mf12-i20"
+          ],
+          "evidence": "The empty spare aquarium is cleaned of mineral haze and inspected before storage."
+        },
+        {
+          "id": "supply-cabinet",
+          "members": [
+            "mf12-i09",
+            "mf12-i12",
+            "mf12-i15",
+            "mf12-i18"
+          ],
+          "evidence": "The supply cabinet build includes splash-resistant doors, plinth, tongs hook and corrected width."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "display-flow",
+          "shrimp-nursery"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf12-i07",
+          "reason": "Weaker outlet reading explicitly lacks tank identity; both active filters are monitored."
+        },
+        {
+          "id": "mf12-i10",
+          "reason": "A number without units or card heading cannot identify the tank task."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf13",
+      "groups": [
+        {
+          "id": "birch-tray",
+          "members": [
+            "mf13-i02",
+            "mf13-i05",
+            "mf13-i12",
+            "mf13-i15",
+            "mf13-i16",
+            "mf13-i19"
+          ],
+          "evidence": "Birch's loaded parcel-tray attachment uses Cedar's mount-hole pattern, with width correction and retaining-edge trial."
+        },
+        {
+          "id": "paper-maze",
+          "members": [
+            "mf13-i03",
+            "mf13-i06",
+            "mf13-i09",
+            "mf13-i20"
+          ],
+          "evidence": "The open-day arrow-card paper maze is revised for goal recognition, grid size and reset instructions."
+        },
+        {
+          "id": "cedar-linefix",
+          "members": [
+            "mf13-i04",
+            "mf13-i07",
+            "mf13-i10",
+            "mf13-i12",
+            "mf13-i13",
+            "mf13-i15",
+            "mf13-i16"
+          ],
+          "evidence": "Cedar LF-8 fixes corner line-following using sensor/bracket observations and corrected threshold; its mount design is copied to Birch."
+        },
+        {
+          "id": "battery-inventory",
+          "members": [
+            "mf13-i08",
+            "mf13-i11",
+            "mf13-i14",
+            "mf13-i17"
+          ],
+          "evidence": "BI counts loan-ready rechargeable packs while excluding and identifying unlabeled connectors."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "birch-tray",
+          "cedar-linefix"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf13-i01",
+          "reason": "An unnamed drawing and revised number fit several fabrication/printing tasks."
+        },
+        {
+          "id": "mf13-i18",
+          "reason": "Unnamed robot and bracket/turn issue cannot separate Cedar's sensor bracket from Birch's loaded-tray problem."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf14",
+      "groups": [
+        {
+          "id": "maple-aeration",
+          "members": [
+            "mf14-i01",
+            "mf14-i03",
+            "mf14-i04",
+            "mf14-i06",
+            "mf14-i07",
+            "mf14-i15",
+            "mf14-i18"
+          ],
+          "evidence": "Maple's dense compost centre is opened with coarse stems and rechecked; its mature material seeds Willow."
+        },
+        {
+          "id": "bucket-rota",
+          "members": [
+            "mf14-i02",
+            "mf14-i05",
+            "mf14-i08",
+            "mf14-i19"
+          ],
+          "evidence": "Courtyard scrap collection uses east/west-door buckets, covered labels and revised pickup rota."
+        },
+        {
+          "id": "willow-startup",
+          "members": [
+            "mf14-i03",
+            "mf14-i06",
+            "mf14-i07",
+            "mf14-i10",
+            "mf14-i13",
+            "mf14-i16"
+          ],
+          "evidence": "Willow's new bay uses Maple starter, thin layers and a corrected initial depth, with leaf-mat breakup."
+        },
+        {
+          "id": "leaf-sieve",
+          "members": [
+            "mf14-i11",
+            "mf14-i14",
+            "mf14-i17",
+            "mf14-i20"
+          ],
+          "evidence": "The leaf-sieve frame is braced and checked for screw clearance, brace length and squareness."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "maple-aeration",
+          "willow-startup"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf14-i09",
+          "reason": "A compact middle layer could be Maple's dense centre or Willow's leaf mat."
+        },
+        {
+          "id": "mf14-i12",
+          "reason": "An unreadable corrected total on an unnamed card does not identify the work."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf15",
+      "groups": [
+        {
+          "id": "recipe-booklet",
+          "members": [
+            "mf15-i01",
+            "mf15-i03",
+            "mf15-i04",
+            "mf15-i06",
+            "mf15-i07",
+            "mf15-i09",
+            "mf15-i10",
+            "mf15-i12",
+            "mf15-i13",
+            "mf15-i14",
+            "mf15-i15",
+            "mf15-i16",
+            "mf15-i17",
+            "mf15-i18",
+            "mf15-i19",
+            "mf15-i20"
+          ],
+          "evidence": "Summer and winter are chapters in a shared editorial/proof process with common notation and one proof packet; the family recipe booklet cover is another deliverable of that publication. Recipe-proof fragments remain within this context even without a chapter name."
+        },
+        {
+          "id": "picnic-lunch",
+          "members": [
+            "mf15-i02",
+            "mf15-i05",
+            "mf15-i08",
+            "mf15-i11"
+          ],
+          "evidence": "A separately scoped picnic-menu tasting compares bean wraps and pear sandwiches with portability forms and a revised taster count."
+        }
+      ],
+      "relatedGroupPairs": [],
+      "ambiguous": [],
+      "issues": [
+        "Summer and winter chapter proofreading and the booklet cover are grouped as one continuing publication. No text establishes independently published chapters or a different cover project. If separate editorial projects were intended, the sources need explicit independent scope. The unspecified recipe-proof items i03 and i20 no longer require abstention once the chapters share a context. The picnic trial is not explicitly linked to the booklet."
+      ]
+    },
+    {
+      "id": "mf16",
+      "groups": [
+        {
+          "id": "roof-strip",
+          "members": [
+            "mf16-i01",
+            "mf16-i04",
+            "mf16-i07",
+            "mf16-i10"
+          ],
+          "evidence": "Sliding-roof maintenance replaces a split west weather strip, corrects profile width and trims latch clearance."
+        },
+        {
+          "id": "lunar-archive",
+          "members": [
+            "mf16-i02",
+            "mf16-i13",
+            "mf16-i16",
+            "mf16-i19"
+          ],
+          "evidence": "The lunar-sketch archive is indexed by date and feature while preserving undated and repeated-crater pages."
+        },
+        {
+          "id": "reflector-alignment",
+          "members": [
+            "mf16-i03",
+            "mf16-i05",
+            "mf16-i06",
+            "mf16-i08",
+            "mf16-i09",
+            "mf16-i17",
+            "mf16-i20"
+          ],
+          "evidence": "The rooftop reflector's mount-alignment trial repeats star holds with corrected reference offset; its large-label chart is shared with the courtyard."
+        },
+        {
+          "id": "courtyard-binoculars",
+          "members": [
+            "mf16-i05",
+            "mf16-i08",
+            "mf16-i09",
+            "mf16-i12",
+            "mf16-i15",
+            "mf16-i18"
+          ],
+          "evidence": "The courtyard newcomer binocular session adapts the reflector chart for wall clearance, seated positions and revised start time."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "reflector-alignment",
+          "courtyard-binoculars"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf16-i11",
+          "reason": "A target disappearing behind an edge fits courtyard wall obstruction or the explicitly described reflector roof edge."
+        },
+        {
+          "id": "mf16-i14",
+          "reason": "An incorrect number and handwritten mark lack task identity and units."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf17",
+      "groups": [
+        {
+          "id": "cushion-zip",
+          "members": [
+            "mf17-i01",
+            "mf17-i12",
+            "mf17-i15",
+            "mf17-i18"
+          ],
+          "evidence": "The canvas cushion's side zip is replaced while retaining piping and correcting zipper length."
+        },
+        {
+          "id": "jacket-pocket",
+          "members": [
+            "mf17-i03",
+            "mf17-i06",
+            "mf17-i09",
+            "mf17-i16",
+            "mf17-i19",
+            "mf17-i20"
+          ],
+          "evidence": "The green linen jacket's pocket-edge repair has a revised patch width and entry check, using matching trouser offcuts."
+        },
+        {
+          "id": "bag-wraps",
+          "members": [
+            "mf17-i04",
+            "mf17-i07",
+            "mf17-i10",
+            "mf17-i13"
+          ],
+          "evidence": "A bag-handle sleeve batch is revised for fastening strips and eight wraps."
+        },
+        {
+          "id": "trouser-hems",
+          "members": [
+            "mf17-i08",
+            "mf17-i11",
+            "mf17-i14",
+            "mf17-i16",
+            "mf17-i17",
+            "mf17-i19",
+            "mf17-i20"
+          ],
+          "evidence": "The green linen trousers get measured hems, corrected left-leg shortening and a walking/seated fitting; their cloth supplies the jacket patch."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "jacket-pocket",
+          "trouser-hems"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf17-i02",
+          "reason": "Green linen and a puckered seam identify neither the trousers nor matching jacket."
+        },
+        {
+          "id": "mf17-i05",
+          "reason": "A changed measurement after unpicking could concern either alteration or the cushion zip."
+        }
+      ],
+      "issues": [
+        "The matching jacket and trousers are retained as distinct garment-alteration undertakings with separate required repairs and fitting records. Shared outfit/fitting and cloth transfer establish relatedness; the source does not explicitly name one unified alteration project."
+      ]
+    },
+    {
+      "id": "mf18",
+      "groups": [
+        {
+          "id": "dock-maintenance",
+          "members": [
+            "mf18-i01",
+            "mf18-i04",
+            "mf18-i15",
+            "mf18-i18"
+          ],
+          "evidence": "The floating dock hinge-plate inspection uses a reserved access window and western-joint clearance."
+        },
+        {
+          "id": "youth-launch",
+          "members": [
+            "mf18-i02",
+            "mf18-i05",
+            "mf18-i07",
+            "mf18-i08",
+            "mf18-i10",
+            "mf18-i11",
+            "mf18-i19"
+          ],
+          "evidence": "The youth practice launches six revised-manifest dinghies via a marshalled east-ramp trolley sequence; its return-lane plan passes to the adult session."
+        },
+        {
+          "id": "loan-aids",
+          "members": [
+            "mf18-i03",
+            "mf18-i06",
+            "mf18-i09",
+            "mf18-i12"
+          ],
+          "evidence": "Loan buoyancy aids are inventoried, deduplicated and relabeled against the checkout sheet."
+        },
+        {
+          "id": "adult-launch",
+          "members": [
+            "mf18-i07",
+            "mf18-i10",
+            "mf18-i11",
+            "mf18-i14",
+            "mf18-i17",
+            "mf18-i20"
+          ],
+          "evidence": "The separate adult beginner session uses four dinghies, sail-rack briefing, youth-derived return-lane plan and revised 11:20 slot."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "youth-launch",
+          "adult-launch"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf18-i13",
+          "reason": "Trolleys, marshal and return lane fit the youth rehearsal and the adult session that explicitly adopts its arrangement."
+        },
+        {
+          "id": "mf18-i16",
+          "reason": "An outdated launch time without session identity cannot securely identify youth versus adult."
+        }
+      ],
+      "issues": []
+    }
+  ]
+}

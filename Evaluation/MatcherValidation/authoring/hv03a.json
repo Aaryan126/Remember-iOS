@@ -1,0 +1,240 @@
+{
+  "id": "hv03a",
+  "split": "train",
+  "storyFamily": "hv03",
+  "templateFamily": "hv03",
+  "threads": [
+    "ridge-route",
+    "ridge-food",
+    "tent-repair",
+    "cat-sitter",
+    "work-handoff"
+  ],
+  "threadDescriptions": {
+    "ridge-route": "Plan the walking route and overnight camp on the Slate Ridge weekend.",
+    "ridge-food": "Prepare meals and drinking-water logistics for the Slate Ridge hikers.",
+    "tent-repair": "Patch and test the leaking two-person tent before the trip.",
+    "cat-sitter": "Arrange care of Miso at home during the weekend away.",
+    "work-handoff": "Hand off the Friday client report before taking leave."
+  },
+  "relatedThreads": [
+    [
+      "ridge-route",
+      "ridge-food"
+    ],
+    [
+      "ridge-route",
+      "tent-repair"
+    ],
+    [
+      "ridge-food",
+      "tent-repair"
+    ]
+  ],
+  "challenges": [
+    "shared_deadline",
+    "cross_thread_bridge",
+    "rename",
+    "sparse_voice"
+  ],
+  "items": [
+    {
+      "id": "hv03a-i01",
+      "text": "Slate Ridge Saturday: bus to Mill Gate, climb by the eastern path, camp at the old quarry. Seven kilometres carrying packs.",
+      "modality": "note",
+      "memberships": [
+        "ridge-route"
+      ],
+      "rationale": "Sets itinerary and campsite."
+    },
+    {
+      "id": "hv03a-i02",
+      "text": "Miso sitter: Ana can do Saturday dinner but needs the key before Friday. Cat food is in the red cupboard.",
+      "modality": "voice",
+      "memberships": [
+        "cat-sitter"
+      ],
+      "rationale": "Arranges home pet care."
+    },
+    {
+      "id": "hv03a-i03",
+      "text": "Tent test in shower: slow drip along the foot-end seam. Mark the wet spot with tape; buy seam sealer.",
+      "modality": "video",
+      "memberships": [
+        "tent-repair"
+      ],
+      "rationale": "Locates tent leak and repair supply."
+    },
+    {
+      "id": "hv03a-i04",
+      "text": "Ridge food for three: oats twice, lentil packets Saturday night, wraps for lunches. Ben cannot eat sesame.",
+      "modality": "note",
+      "memberships": [
+        "ridge-food"
+      ],
+      "rationale": "Defines group menu and allergy constraint."
+    },
+    {
+      "id": "hv03a-i05",
+      "text": "Friday client report handoff: Jules needs the draft charts by Thursday noon to cover my leave.",
+      "modality": "file",
+      "memberships": [
+        "work-handoff"
+      ],
+      "rationale": "Sets work coverage deliverable."
+    },
+    {
+      "id": "hv03a-i06",
+      "text": "Map enlargement shows the quarry is inside the no-camping zone. Revise Slate Ridge overnight stop to Juniper Field; add two kilometres to Saturday.",
+      "modality": "image",
+      "memberships": [
+        "ridge-route"
+      ],
+      "rationale": "Corrects campsite and route length."
+    },
+    {
+      "id": "hv03a-i07",
+      "text": "Tent foot seam cleaned and sealed. Cure flat indoors for a full day before repeating the water test.",
+      "modality": "note",
+      "memberships": [
+        "tent-repair"
+      ],
+      "rationale": "Performs tent repair."
+    },
+    {
+      "id": "hv03a-i08",
+      "text": "Voice memo lost the start: 'three, red one, before Friday'.",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "Shared timing and generic descriptors cannot identify a thread."
+    },
+    {
+      "id": "hv03a-i09",
+      "text": "Juniper Field has a tap by the gate, but the notice says seasonal. Phone the caretaker before deciding how much water to carry on the ridge.",
+      "modality": "note",
+      "memberships": [
+        "ridge-food"
+      ],
+      "rationale": "Plans trip drinking water using campsite infrastructure."
+    },
+    {
+      "id": "hv03a-i10",
+      "text": "Ana has the key and Miso's feeding card. She asked me to leave a light on a timer.",
+      "modality": "note",
+      "memberships": [
+        "cat-sitter"
+      ],
+      "rationale": "Confirms cat-sitting preparation."
+    },
+    {
+      "id": "hv03a-i11",
+      "text": "Client report charts exported. Jules spotted a missing legend on revenue; fix it before sending the Thursday handoff.",
+      "modality": "image",
+      "memberships": [
+        "work-handoff"
+      ],
+      "rationale": "Checks report handoff charts."
+    },
+    {
+      "id": "hv03a-i12",
+      "text": "Call with caretaker: Juniper Field tap shut this weekend. Move the route's lunch stop to Mill Spring for a refill, and pack an extra two-litre bladder plus a no-boil dinner so our water plan still works.",
+      "modality": "voice",
+      "memberships": [
+        "ridge-route",
+        "ridge-food"
+      ],
+      "rationale": "Changes the walking stop and concrete food/water plan."
+    },
+    {
+      "id": "hv03a-i13",
+      "text": "Second tent shower test: the foot seam stays dry after ten minutes. Repack only when the fly has dried.",
+      "modality": "video",
+      "memberships": [
+        "tent-repair"
+      ],
+      "rationale": "Verifies repaired seam."
+    },
+    {
+      "id": "hv03a-i14",
+      "text": "Rename our 'Slate Ridge weekend' route sheet to 'Juniper loop'. It's still the same bus, walkers and revised Juniper Field camp; easier to distinguish from last year's ridge plan.",
+      "modality": "note",
+      "memberships": [
+        "ridge-route"
+      ],
+      "rationale": "Explicitly renames the route plan without changing identity."
+    },
+    {
+      "id": "hv03a-i15",
+      "text": "Lentil packet labels have sesame oil. Replace all three with the chickpea pouches; Ben checked those ingredients.",
+      "modality": "image",
+      "memberships": [
+        "ridge-food"
+      ],
+      "rationale": "Corrects menu to meet established allergy constraint."
+    },
+    {
+      "id": "hv03a-i16",
+      "text": "Miso's sitter backup is Omar if Ana's late shift runs over. Both have the same feeding card; don't double the evening meal.",
+      "modality": "note",
+      "memberships": [
+        "cat-sitter"
+      ],
+      "rationale": "Plans coverage and avoids duplicate feeding."
+    },
+    {
+      "id": "hv03a-i17",
+      "text": "Jules received the client report with revenue legend restored. Leave note says he owns any Friday edits.",
+      "modality": "file",
+      "memberships": [
+        "work-handoff"
+      ],
+      "rationale": "Completes work handoff."
+    },
+    {
+      "id": "hv03a-i18",
+      "text": "Juniper loop GPX now includes Mill Spring and the extra distance. Download it before leaving mobile coverage.",
+      "modality": "file",
+      "memberships": [
+        "ridge-route"
+      ],
+      "rationale": "Updates offline route artifact."
+    },
+    {
+      "id": "hv03a-i19",
+      "text": "Green bag by the door. Check whether it has the small one.",
+      "modality": "note",
+      "memberships": [],
+      "rationale": "No identifiable contents or purpose."
+    },
+    {
+      "id": "hv03a-i20",
+      "text": "Ridge meals packed: sesame-free chickpeas, wraps, oats, extra bladder. Put Ben's marked pouch at the top for the spring lunch stop.",
+      "modality": "image",
+      "memberships": [
+        "ridge-food"
+      ],
+      "rationale": "Final trip meal and water packing."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv03a-i12",
+      "threads": [
+        "ridge-route",
+        "ridge-food"
+      ]
+    },
+    "revision": {
+      "earlier": "hv03a-i01",
+      "later": "hv03a-i06",
+      "thread": "ridge-route"
+    },
+    "rename": {
+      "thread": "ridge-route",
+      "from": "Slate Ridge weekend",
+      "to": "Juniper loop",
+      "evidenceItem": "hv03a-i14"
+    },
+    "undo": null
+  }
+}

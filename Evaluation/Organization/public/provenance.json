@@ -1,0 +1,1013 @@
+{
+  "source": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/57ec275d8078af65b7731c2a98be812d844a6d6b/banking_data/test.csv",
+  "revision": "57ec275d8078af65b7731c2a98be812d844a6d6b",
+  "sourceSHA256": "d12d6e3bc4c3103966ae786dc435913c0c563dfa328f5a3646d0e62cfeeb474d",
+  "license": "CC-BY-4.0",
+  "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+  "authors": "Iñigo Casanueva, Tadas Temčinas, Daniela Gerz, Matthew Henderson, Ivan Vulić / PolyAI",
+  "citation": "Efficient Intent Detection with Dual Sentence Encoders, NLP for ConvAI 2020",
+  "selection": "SHA256 seed1729 selects20categories,10 unique test examples each; no relabeling",
+  "adaptation": "200-example subset; original text unchanged, opaque IDs added; not a standard BANKING77 score",
+  "rows": [
+    {
+      "itemID": "p-001",
+      "sourceRow": 2615,
+      "category": "get_disposable_virtual_card"
+    },
+    {
+      "itemID": "p-002",
+      "sourceRow": 2606,
+      "category": "get_disposable_virtual_card"
+    },
+    {
+      "itemID": "p-003",
+      "sourceRow": 2635,
+      "category": "get_disposable_virtual_card"
+    },
+    {
+      "itemID": "p-004",
+      "sourceRow": 2629,
+      "category": "get_disposable_virtual_card"
+    },
+    {
+      "itemID": "p-005",
+      "sourceRow": 2631,
+      "category": "get_disposable_virtual_card"
+    },
+    {
+      "itemID": "p-006",
+      "sourceRow": 2634,
+      "category": "get_disposable_virtual_card"
+    },
+    {
+      "itemID": "p-007",
+      "sourceRow": 2613,
+      "category": "get_disposable_virtual_card"
+    },
+    {
+      "itemID": "p-008",
+      "sourceRow": 2639,
+      "category": "get_disposable_virtual_card"
+    },
+    {
+      "itemID": "p-009",
+      "sourceRow": 2605,
+      "category": "get_disposable_virtual_card"
+    },
+    {
+      "itemID": "p-010",
+      "sourceRow": 2614,
+      "category": "get_disposable_virtual_card"
+    },
+    {
+      "itemID": "p-011",
+      "sourceRow": 2513,
+      "category": "order_physical_card"
+    },
+    {
+      "itemID": "p-012",
+      "sourceRow": 2515,
+      "category": "order_physical_card"
+    },
+    {
+      "itemID": "p-013",
+      "sourceRow": 2487,
+      "category": "order_physical_card"
+    },
+    {
+      "itemID": "p-014",
+      "sourceRow": 2484,
+      "category": "order_physical_card"
+    },
+    {
+      "itemID": "p-015",
+      "sourceRow": 2501,
+      "category": "order_physical_card"
+    },
+    {
+      "itemID": "p-016",
+      "sourceRow": 2496,
+      "category": "order_physical_card"
+    },
+    {
+      "itemID": "p-017",
+      "sourceRow": 2509,
+      "category": "order_physical_card"
+    },
+    {
+      "itemID": "p-018",
+      "sourceRow": 2485,
+      "category": "order_physical_card"
+    },
+    {
+      "itemID": "p-019",
+      "sourceRow": 2482,
+      "category": "order_physical_card"
+    },
+    {
+      "itemID": "p-020",
+      "sourceRow": 2514,
+      "category": "order_physical_card"
+    },
+    {
+      "itemID": "p-021",
+      "sourceRow": 1393,
+      "category": "disposable_card_limits"
+    },
+    {
+      "itemID": "p-022",
+      "sourceRow": 1392,
+      "category": "disposable_card_limits"
+    },
+    {
+      "itemID": "p-023",
+      "sourceRow": 1366,
+      "category": "disposable_card_limits"
+    },
+    {
+      "itemID": "p-024",
+      "sourceRow": 1386,
+      "category": "disposable_card_limits"
+    },
+    {
+      "itemID": "p-025",
+      "sourceRow": 1361,
+      "category": "disposable_card_limits"
+    },
+    {
+      "itemID": "p-026",
+      "sourceRow": 1376,
+      "category": "disposable_card_limits"
+    },
+    {
+      "itemID": "p-027",
+      "sourceRow": 1364,
+      "category": "disposable_card_limits"
+    },
+    {
+      "itemID": "p-028",
+      "sourceRow": 1387,
+      "category": "disposable_card_limits"
+    },
+    {
+      "itemID": "p-029",
+      "sourceRow": 1381,
+      "category": "disposable_card_limits"
+    },
+    {
+      "itemID": "p-030",
+      "sourceRow": 1371,
+      "category": "disposable_card_limits"
+    },
+    {
+      "itemID": "p-031",
+      "sourceRow": 75,
+      "category": "card_linking"
+    },
+    {
+      "itemID": "p-032",
+      "sourceRow": 58,
+      "category": "card_linking"
+    },
+    {
+      "itemID": "p-033",
+      "sourceRow": 70,
+      "category": "card_linking"
+    },
+    {
+      "itemID": "p-034",
+      "sourceRow": 41,
+      "category": "card_linking"
+    },
+    {
+      "itemID": "p-035",
+      "sourceRow": 44,
+      "category": "card_linking"
+    },
+    {
+      "itemID": "p-036",
+      "sourceRow": 66,
+      "category": "card_linking"
+    },
+    {
+      "itemID": "p-037",
+      "sourceRow": 64,
+      "category": "card_linking"
+    },
+    {
+      "itemID": "p-038",
+      "sourceRow": 61,
+      "category": "card_linking"
+    },
+    {
+      "itemID": "p-039",
+      "sourceRow": 67,
+      "category": "card_linking"
+    },
+    {
+      "itemID": "p-040",
+      "sourceRow": 72,
+      "category": "card_linking"
+    },
+    {
+      "itemID": "p-041",
+      "sourceRow": 215,
+      "category": "pending_cash_withdrawal"
+    },
+    {
+      "itemID": "p-042",
+      "sourceRow": 222,
+      "category": "pending_cash_withdrawal"
+    },
+    {
+      "itemID": "p-043",
+      "sourceRow": 208,
+      "category": "pending_cash_withdrawal"
+    },
+    {
+      "itemID": "p-044",
+      "sourceRow": 239,
+      "category": "pending_cash_withdrawal"
+    },
+    {
+      "itemID": "p-045",
+      "sourceRow": 217,
+      "category": "pending_cash_withdrawal"
+    },
+    {
+      "itemID": "p-046",
+      "sourceRow": 213,
+      "category": "pending_cash_withdrawal"
+    },
+    {
+      "itemID": "p-047",
+      "sourceRow": 229,
+      "category": "pending_cash_withdrawal"
+    },
+    {
+      "itemID": "p-048",
+      "sourceRow": 221,
+      "category": "pending_cash_withdrawal"
+    },
+    {
+      "itemID": "p-049",
+      "sourceRow": 200,
+      "category": "pending_cash_withdrawal"
+    },
+    {
+      "itemID": "p-050",
+      "sourceRow": 203,
+      "category": "pending_cash_withdrawal"
+    },
+    {
+      "itemID": "p-051",
+      "sourceRow": 2666,
+      "category": "top_up_failed"
+    },
+    {
+      "itemID": "p-052",
+      "sourceRow": 2671,
+      "category": "top_up_failed"
+    },
+    {
+      "itemID": "p-053",
+      "sourceRow": 2659,
+      "category": "top_up_failed"
+    },
+    {
+      "itemID": "p-054",
+      "sourceRow": 2660,
+      "category": "top_up_failed"
+    },
+    {
+      "itemID": "p-055",
+      "sourceRow": 2645,
+      "category": "top_up_failed"
+    },
+    {
+      "itemID": "p-056",
+      "sourceRow": 2677,
+      "category": "top_up_failed"
+    },
+    {
+      "itemID": "p-057",
+      "sourceRow": 2640,
+      "category": "top_up_failed"
+    },
+    {
+      "itemID": "p-058",
+      "sourceRow": 2642,
+      "category": "top_up_failed"
+    },
+    {
+      "itemID": "p-059",
+      "sourceRow": 2655,
+      "category": "top_up_failed"
+    },
+    {
+      "itemID": "p-060",
+      "sourceRow": 2648,
+      "category": "top_up_failed"
+    },
+    {
+      "itemID": "p-061",
+      "sourceRow": 1683,
+      "category": "request_refund"
+    },
+    {
+      "itemID": "p-062",
+      "sourceRow": 1702,
+      "category": "request_refund"
+    },
+    {
+      "itemID": "p-063",
+      "sourceRow": 1681,
+      "category": "request_refund"
+    },
+    {
+      "itemID": "p-064",
+      "sourceRow": 1688,
+      "category": "request_refund"
+    },
+    {
+      "itemID": "p-065",
+      "sourceRow": 1685,
+      "category": "request_refund"
+    },
+    {
+      "itemID": "p-066",
+      "sourceRow": 1698,
+      "category": "request_refund"
+    },
+    {
+      "itemID": "p-067",
+      "sourceRow": 1682,
+      "category": "request_refund"
+    },
+    {
+      "itemID": "p-068",
+      "sourceRow": 1711,
+      "category": "request_refund"
+    },
+    {
+      "itemID": "p-069",
+      "sourceRow": 1696,
+      "category": "request_refund"
+    },
+    {
+      "itemID": "p-070",
+      "sourceRow": 1712,
+      "category": "request_refund"
+    },
+    {
+      "itemID": "p-071",
+      "sourceRow": 1291,
+      "category": "visa_or_mastercard"
+    },
+    {
+      "itemID": "p-072",
+      "sourceRow": 1283,
+      "category": "visa_or_mastercard"
+    },
+    {
+      "itemID": "p-073",
+      "sourceRow": 1306,
+      "category": "visa_or_mastercard"
+    },
+    {
+      "itemID": "p-074",
+      "sourceRow": 1281,
+      "category": "visa_or_mastercard"
+    },
+    {
+      "itemID": "p-075",
+      "sourceRow": 1294,
+      "category": "visa_or_mastercard"
+    },
+    {
+      "itemID": "p-076",
+      "sourceRow": 1301,
+      "category": "visa_or_mastercard"
+    },
+    {
+      "itemID": "p-077",
+      "sourceRow": 1316,
+      "category": "visa_or_mastercard"
+    },
+    {
+      "itemID": "p-078",
+      "sourceRow": 1299,
+      "category": "visa_or_mastercard"
+    },
+    {
+      "itemID": "p-079",
+      "sourceRow": 1300,
+      "category": "visa_or_mastercard"
+    },
+    {
+      "itemID": "p-080",
+      "sourceRow": 1297,
+      "category": "visa_or_mastercard"
+    },
+    {
+      "itemID": "p-081",
+      "sourceRow": 1941,
+      "category": "card_swallowed"
+    },
+    {
+      "itemID": "p-082",
+      "sourceRow": 1939,
+      "category": "card_swallowed"
+    },
+    {
+      "itemID": "p-083",
+      "sourceRow": 1928,
+      "category": "card_swallowed"
+    },
+    {
+      "itemID": "p-084",
+      "sourceRow": 1943,
+      "category": "card_swallowed"
+    },
+    {
+      "itemID": "p-085",
+      "sourceRow": 1958,
+      "category": "card_swallowed"
+    },
+    {
+      "itemID": "p-086",
+      "sourceRow": 1930,
+      "category": "card_swallowed"
+    },
+    {
+      "itemID": "p-087",
+      "sourceRow": 1927,
+      "category": "card_swallowed"
+    },
+    {
+      "itemID": "p-088",
+      "sourceRow": 1948,
+      "category": "card_swallowed"
+    },
+    {
+      "itemID": "p-089",
+      "sourceRow": 1944,
+      "category": "card_swallowed"
+    },
+    {
+      "itemID": "p-090",
+      "sourceRow": 1935,
+      "category": "card_swallowed"
+    },
+    {
+      "itemID": "p-091",
+      "sourceRow": 2524,
+      "category": "virtual_card_not_working"
+    },
+    {
+      "itemID": "p-092",
+      "sourceRow": 2540,
+      "category": "virtual_card_not_working"
+    },
+    {
+      "itemID": "p-093",
+      "sourceRow": 2527,
+      "category": "virtual_card_not_working"
+    },
+    {
+      "itemID": "p-094",
+      "sourceRow": 2549,
+      "category": "virtual_card_not_working"
+    },
+    {
+      "itemID": "p-095",
+      "sourceRow": 2542,
+      "category": "virtual_card_not_working"
+    },
+    {
+      "itemID": "p-096",
+      "sourceRow": 2530,
+      "category": "virtual_card_not_working"
+    },
+    {
+      "itemID": "p-097",
+      "sourceRow": 2532,
+      "category": "virtual_card_not_working"
+    },
+    {
+      "itemID": "p-098",
+      "sourceRow": 2555,
+      "category": "virtual_card_not_working"
+    },
+    {
+      "itemID": "p-099",
+      "sourceRow": 2550,
+      "category": "virtual_card_not_working"
+    },
+    {
+      "itemID": "p-100",
+      "sourceRow": 2525,
+      "category": "virtual_card_not_working"
+    },
+    {
+      "itemID": "p-101",
+      "sourceRow": 1823,
+      "category": "declined_card_payment"
+    },
+    {
+      "itemID": "p-102",
+      "sourceRow": 1813,
+      "category": "declined_card_payment"
+    },
+    {
+      "itemID": "p-103",
+      "sourceRow": 1833,
+      "category": "declined_card_payment"
+    },
+    {
+      "itemID": "p-104",
+      "sourceRow": 1829,
+      "category": "declined_card_payment"
+    },
+    {
+      "itemID": "p-105",
+      "sourceRow": 1805,
+      "category": "declined_card_payment"
+    },
+    {
+      "itemID": "p-106",
+      "sourceRow": 1818,
+      "category": "declined_card_payment"
+    },
+    {
+      "itemID": "p-107",
+      "sourceRow": 1824,
+      "category": "declined_card_payment"
+    },
+    {
+      "itemID": "p-108",
+      "sourceRow": 1808,
+      "category": "declined_card_payment"
+    },
+    {
+      "itemID": "p-109",
+      "sourceRow": 1835,
+      "category": "declined_card_payment"
+    },
+    {
+      "itemID": "p-110",
+      "sourceRow": 1826,
+      "category": "declined_card_payment"
+    },
+    {
+      "itemID": "p-111",
+      "sourceRow": 1666,
+      "category": "lost_or_stolen_phone"
+    },
+    {
+      "itemID": "p-112",
+      "sourceRow": 1649,
+      "category": "lost_or_stolen_phone"
+    },
+    {
+      "itemID": "p-113",
+      "sourceRow": 1650,
+      "category": "lost_or_stolen_phone"
+    },
+    {
+      "itemID": "p-114",
+      "sourceRow": 1642,
+      "category": "lost_or_stolen_phone"
+    },
+    {
+      "itemID": "p-115",
+      "sourceRow": 1667,
+      "category": "lost_or_stolen_phone"
+    },
+    {
+      "itemID": "p-116",
+      "sourceRow": 1665,
+      "category": "lost_or_stolen_phone"
+    },
+    {
+      "itemID": "p-117",
+      "sourceRow": 1669,
+      "category": "lost_or_stolen_phone"
+    },
+    {
+      "itemID": "p-118",
+      "sourceRow": 1677,
+      "category": "lost_or_stolen_phone"
+    },
+    {
+      "itemID": "p-119",
+      "sourceRow": 1648,
+      "category": "lost_or_stolen_phone"
+    },
+    {
+      "itemID": "p-120",
+      "sourceRow": 1654,
+      "category": "lost_or_stolen_phone"
+    },
+    {
+      "itemID": "p-121",
+      "sourceRow": 357,
+      "category": "automatic_top_up"
+    },
+    {
+      "itemID": "p-122",
+      "sourceRow": 322,
+      "category": "automatic_top_up"
+    },
+    {
+      "itemID": "p-123",
+      "sourceRow": 324,
+      "category": "automatic_top_up"
+    },
+    {
+      "itemID": "p-124",
+      "sourceRow": 358,
+      "category": "automatic_top_up"
+    },
+    {
+      "itemID": "p-125",
+      "sourceRow": 353,
+      "category": "automatic_top_up"
+    },
+    {
+      "itemID": "p-126",
+      "sourceRow": 340,
+      "category": "automatic_top_up"
+    },
+    {
+      "itemID": "p-127",
+      "sourceRow": 325,
+      "category": "automatic_top_up"
+    },
+    {
+      "itemID": "p-128",
+      "sourceRow": 346,
+      "category": "automatic_top_up"
+    },
+    {
+      "itemID": "p-129",
+      "sourceRow": 326,
+      "category": "automatic_top_up"
+    },
+    {
+      "itemID": "p-130",
+      "sourceRow": 359,
+      "category": "automatic_top_up"
+    },
+    {
+      "itemID": "p-131",
+      "sourceRow": 1358,
+      "category": "topping_up_by_card"
+    },
+    {
+      "itemID": "p-132",
+      "sourceRow": 1332,
+      "category": "topping_up_by_card"
+    },
+    {
+      "itemID": "p-133",
+      "sourceRow": 1353,
+      "category": "topping_up_by_card"
+    },
+    {
+      "itemID": "p-134",
+      "sourceRow": 1344,
+      "category": "topping_up_by_card"
+    },
+    {
+      "itemID": "p-135",
+      "sourceRow": 1338,
+      "category": "topping_up_by_card"
+    },
+    {
+      "itemID": "p-136",
+      "sourceRow": 1323,
+      "category": "topping_up_by_card"
+    },
+    {
+      "itemID": "p-137",
+      "sourceRow": 1321,
+      "category": "topping_up_by_card"
+    },
+    {
+      "itemID": "p-138",
+      "sourceRow": 1343,
+      "category": "topping_up_by_card"
+    },
+    {
+      "itemID": "p-139",
+      "sourceRow": 1325,
+      "category": "topping_up_by_card"
+    },
+    {
+      "itemID": "p-140",
+      "sourceRow": 1341,
+      "category": "topping_up_by_card"
+    },
+    {
+      "itemID": "p-141",
+      "sourceRow": 400,
+      "category": "exchange_via_app"
+    },
+    {
+      "itemID": "p-142",
+      "sourceRow": 418,
+      "category": "exchange_via_app"
+    },
+    {
+      "itemID": "p-143",
+      "sourceRow": 434,
+      "category": "exchange_via_app"
+    },
+    {
+      "itemID": "p-144",
+      "sourceRow": 404,
+      "category": "exchange_via_app"
+    },
+    {
+      "itemID": "p-145",
+      "sourceRow": 409,
+      "category": "exchange_via_app"
+    },
+    {
+      "itemID": "p-146",
+      "sourceRow": 432,
+      "category": "exchange_via_app"
+    },
+    {
+      "itemID": "p-147",
+      "sourceRow": 428,
+      "category": "exchange_via_app"
+    },
+    {
+      "itemID": "p-148",
+      "sourceRow": 408,
+      "category": "exchange_via_app"
+    },
+    {
+      "itemID": "p-149",
+      "sourceRow": 406,
+      "category": "exchange_via_app"
+    },
+    {
+      "itemID": "p-150",
+      "sourceRow": 416,
+      "category": "exchange_via_app"
+    },
+    {
+      "itemID": "p-151",
+      "sourceRow": 1194,
+      "category": "why_verify_identity"
+    },
+    {
+      "itemID": "p-152",
+      "sourceRow": 1171,
+      "category": "why_verify_identity"
+    },
+    {
+      "itemID": "p-153",
+      "sourceRow": 1182,
+      "category": "why_verify_identity"
+    },
+    {
+      "itemID": "p-154",
+      "sourceRow": 1195,
+      "category": "why_verify_identity"
+    },
+    {
+      "itemID": "p-155",
+      "sourceRow": 1178,
+      "category": "why_verify_identity"
+    },
+    {
+      "itemID": "p-156",
+      "sourceRow": 1173,
+      "category": "why_verify_identity"
+    },
+    {
+      "itemID": "p-157",
+      "sourceRow": 1185,
+      "category": "why_verify_identity"
+    },
+    {
+      "itemID": "p-158",
+      "sourceRow": 1176,
+      "category": "why_verify_identity"
+    },
+    {
+      "itemID": "p-159",
+      "sourceRow": 1191,
+      "category": "why_verify_identity"
+    },
+    {
+      "itemID": "p-160",
+      "sourceRow": 1196,
+      "category": "why_verify_identity"
+    },
+    {
+      "itemID": "p-161",
+      "sourceRow": 638,
+      "category": "top_up_by_bank_transfer_charge"
+    },
+    {
+      "itemID": "p-162",
+      "sourceRow": 631,
+      "category": "top_up_by_bank_transfer_charge"
+    },
+    {
+      "itemID": "p-163",
+      "sourceRow": 606,
+      "category": "top_up_by_bank_transfer_charge"
+    },
+    {
+      "itemID": "p-164",
+      "sourceRow": 621,
+      "category": "top_up_by_bank_transfer_charge"
+    },
+    {
+      "itemID": "p-165",
+      "sourceRow": 636,
+      "category": "top_up_by_bank_transfer_charge"
+    },
+    {
+      "itemID": "p-166",
+      "sourceRow": 612,
+      "category": "top_up_by_bank_transfer_charge"
+    },
+    {
+      "itemID": "p-167",
+      "sourceRow": 604,
+      "category": "top_up_by_bank_transfer_charge"
+    },
+    {
+      "itemID": "p-168",
+      "sourceRow": 620,
+      "category": "top_up_by_bank_transfer_charge"
+    },
+    {
+      "itemID": "p-169",
+      "sourceRow": 624,
+      "category": "top_up_by_bank_transfer_charge"
+    },
+    {
+      "itemID": "p-170",
+      "sourceRow": 619,
+      "category": "top_up_by_bank_transfer_charge"
+    },
+    {
+      "itemID": "p-171",
+      "sourceRow": 907,
+      "category": "supported_cards_and_currencies"
+    },
+    {
+      "itemID": "p-172",
+      "sourceRow": 896,
+      "category": "supported_cards_and_currencies"
+    },
+    {
+      "itemID": "p-173",
+      "sourceRow": 911,
+      "category": "supported_cards_and_currencies"
+    },
+    {
+      "itemID": "p-174",
+      "sourceRow": 891,
+      "category": "supported_cards_and_currencies"
+    },
+    {
+      "itemID": "p-175",
+      "sourceRow": 919,
+      "category": "supported_cards_and_currencies"
+    },
+    {
+      "itemID": "p-176",
+      "sourceRow": 904,
+      "category": "supported_cards_and_currencies"
+    },
+    {
+      "itemID": "p-177",
+      "sourceRow": 900,
+      "category": "supported_cards_and_currencies"
+    },
+    {
+      "itemID": "p-178",
+      "sourceRow": 906,
+      "category": "supported_cards_and_currencies"
+    },
+    {
+      "itemID": "p-179",
+      "sourceRow": 895,
+      "category": "supported_cards_and_currencies"
+    },
+    {
+      "itemID": "p-180",
+      "sourceRow": 887,
+      "category": "supported_cards_and_currencies"
+    },
+    {
+      "itemID": "p-181",
+      "sourceRow": 2317,
+      "category": "failed_transfer"
+    },
+    {
+      "itemID": "p-182",
+      "sourceRow": 2305,
+      "category": "failed_transfer"
+    },
+    {
+      "itemID": "p-183",
+      "sourceRow": 2290,
+      "category": "failed_transfer"
+    },
+    {
+      "itemID": "p-184",
+      "sourceRow": 2286,
+      "category": "failed_transfer"
+    },
+    {
+      "itemID": "p-185",
+      "sourceRow": 2289,
+      "category": "failed_transfer"
+    },
+    {
+      "itemID": "p-186",
+      "sourceRow": 2316,
+      "category": "failed_transfer"
+    },
+    {
+      "itemID": "p-187",
+      "sourceRow": 2296,
+      "category": "failed_transfer"
+    },
+    {
+      "itemID": "p-188",
+      "sourceRow": 2308,
+      "category": "failed_transfer"
+    },
+    {
+      "itemID": "p-189",
+      "sourceRow": 2311,
+      "category": "failed_transfer"
+    },
+    {
+      "itemID": "p-190",
+      "sourceRow": 2313,
+      "category": "failed_transfer"
+    },
+    {
+      "itemID": "p-191",
+      "sourceRow": 2046,
+      "category": "transfer_timing"
+    },
+    {
+      "itemID": "p-192",
+      "sourceRow": 2059,
+      "category": "transfer_timing"
+    },
+    {
+      "itemID": "p-193",
+      "sourceRow": 2050,
+      "category": "transfer_timing"
+    },
+    {
+      "itemID": "p-194",
+      "sourceRow": 2073,
+      "category": "transfer_timing"
+    },
+    {
+      "itemID": "p-195",
+      "sourceRow": 2044,
+      "category": "transfer_timing"
+    },
+    {
+      "itemID": "p-196",
+      "sourceRow": 2063,
+      "category": "transfer_timing"
+    },
+    {
+      "itemID": "p-197",
+      "sourceRow": 2072,
+      "category": "transfer_timing"
+    },
+    {
+      "itemID": "p-198",
+      "sourceRow": 2045,
+      "category": "transfer_timing"
+    },
+    {
+      "itemID": "p-199",
+      "sourceRow": 2077,
+      "category": "transfer_timing"
+    },
+    {
+      "itemID": "p-200",
+      "sourceRow": 2047,
+      "category": "transfer_timing"
+    }
+  ]
+}

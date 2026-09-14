@@ -1,0 +1,30 @@
+{
+  "id":"hv06a","split":"train","storyFamily":"hv06","templateFamily":"hv06a-pantry-moth-response",
+  "threads":["pantry-restock","moth-cleanout","water-bill","jar-labels","soup-swap"],
+  "threadDescriptions":{"pantry-restock":"Replenish usable household dry goods within the weekly budget","moth-cleanout":"Remove a pantry moth infestation and monitor recurrence","water-bill":"Resolve an estimated household water meter bill","jar-labels":"Create durable ingredient and date labels for storage jars","soup-swap":"Prepare portions for a neighborhood soup exchange"},
+  "relatedThreads":[["pantry-restock","moth-cleanout"],["pantry-restock","jar-labels"],["moth-cleanout","jar-labels"],["pantry-restock","soup-swap"]],
+  "challenges":["shared-numbers","five-thread-topology","label-revision","bridge"],
+  "items":[
+    {"id":"hv06a-i01","text":"Pantry shopping cap 38 this week. Need oats, lentils and rice; check unopened bags before paying for duplicates.","modality":"note","memberships":["pantry-restock"],"rationale":"Dry-goods procurement list."},
+    {"id":"hv06a-i02","text":"Tiny webbing inside the flour seam. Empty that shelf, seal the affected flour for disposal, and inspect the adjacent packets.","modality":"image","memberships":["moth-cleanout"],"rationale":"Infestation discovery and cleanup."},
+    {"id":"hv06a-i03","text":"Water bill uses estimated reading 0038. Photograph the actual meter and send it with account reference Cedar Flat.","modality":"file","memberships":["water-bill"],"rationale":"Meter billing dispute."},
+    {"id":"hv06a-i04","text":"Soup swap on Sunday: six lentil portions in returnable tubs. Tessa brings bread; I need to mark mine dairy-free.","modality":"voice","memberships":["soup-swap"],"rationale":"Neighborhood meal exchange preparation."},
+    {"id":"hv06a-i05","text":"Jar label design: ingredient, opened date, best-before. Use blue washable marker on plain paper for the first trial.","modality":"note","memberships":["jar-labels"],"rationale":"Defines storage-label format and material."},
+    {"id":"hv06a-i06","text":"Inspection update: oats are infested too. Add replacement oats and flour to the shopping list after clearing the contaminated packets; leave the sealed rice alone.","modality":"voice","memberships":["moth-cleanout","pantry-restock"],"rationale":"Direct cleanup finding changes the purchase list."},
+    {"id":"hv06a-i07","text":"Actual water meter reads 0029, not the estimated 0038. Portal photo uploaded, waiting for a revised bill.","modality":"image","memberships":["water-bill"],"rationale":"Corrected reading submitted for billing."},
+    {"id":"hv06a-i08","text":"38, blue, back shelf","modality":"note","memberships":[],"rationale":"Disconnected cues lack a definite task."},
+    {"id":"hv06a-i09","text":"Oats cheaper in the large sack, but the small sealed bag fits this week's pantry budget and our containers. Buy one, not three.","modality":"image","memberships":["pantry-restock"],"rationale":"Procurement quantity decision."},
+    {"id":"hv06a-i10","text":"Label soak test failed. Replace the plain paper and washable ink with waterproof tape and permanent black lettering; keep the three fields.","modality":"video","memberships":["jar-labels"],"rationale":"Corrects label material after a test."},
+    {"id":"hv06a-i11","text":"Vacuumed the empty pantry shelf corners and washed the bins. Record any new moth sightings each evening for two weeks.","modality":"note","memberships":["moth-cleanout"],"rationale":"Cleanup and ongoing monitoring."},
+    {"id":"hv06a-i12","text":"Soup trial too thick after chilling. Reserve cooking liquid so Sunday's six tubs can be loosened before collection.","modality":"voice","memberships":["soup-swap"],"rationale":"Meal preparation adjustment."},
+    {"id":"hv06a-i13","text":"Water account reply: revised charge issued using the uploaded meter photo. Check next month's opening reading is 0029.","modality":"file","memberships":["water-bill"],"rationale":"Billing correction confirmation."},
+    {"id":"hv06a-i14","text":"Pantry receipt total 31.70. Flour, oats and lentils purchased; rice crossed off because the unopened bag was usable.","modality":"image","memberships":["pantry-restock"],"rationale":"Completed shopping and stock decision."},
+    {"id":"hv06a-i15","text":"Cut twenty waterproof jar strips. Large lettering reads well through the cabinet glass; dates need two extra blank squares.","modality":"note","memberships":["jar-labels"],"rationale":"Storage-label production refinement."},
+    {"id":"hv06a-i16","text":"Six soup lids say lentil, dairy-free, made Sunday. Tessa will collect four tubs; hold the other two for Ivo.","modality":"image","memberships":["soup-swap"],"rationale":"Labels and collection for the meal exchange, not storage jars."},
+    {"id":"hv06a-i17","text":"Pantry watch, evening nine: no moths on shelf or wall. Keep monitoring until the full two weeks are done.","modality":"voice","memberships":["moth-cleanout"],"rationale":"Infestation follow-up."},
+    {"id":"hv06a-i18","text":"The replacement is on the table. Check before Friday.","modality":"voice","memberships":[],"rationale":"No recoverable referent for replacement."},
+    {"id":"hv06a-i19","text":"Jar label tape survived the second wash. Finish the rice and oats jars with opened dates from their packets.","modality":"video","memberships":["jar-labels"],"rationale":"Durability verification and application."},
+    {"id":"hv06a-i20","text":"Soup swap complete. Four empty tubs returned already; note that Ivo still has two, for the next collection.","modality":"note","memberships":["soup-swap"],"rationale":"Exchange container tracking."}
+  ],
+  "historyChecks":{"bridge":{"item":"hv06a-i06","threads":["moth-cleanout","pantry-restock"]},"revision":{"earlier":"hv06a-i05","later":"hv06a-i10","thread":"jar-labels"},"rename":null,"undo":{"item":"hv06a-i16","wrongThread":"jar-labels","reason":"Hypothetically undo a broad label-word match: these are meal lids for the soup exchange, not durable storage-jar labels."}}
+}

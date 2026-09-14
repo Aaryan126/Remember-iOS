@@ -1,0 +1,241 @@
+{
+  "id": "hv01b",
+  "split": "train",
+  "storyFamily": "hv01",
+  "templateFamily": "hv01",
+  "threads": [
+    "poetry-batch",
+    "school-bundle",
+    "return-claims",
+    "window-display",
+    "till-rolls"
+  ],
+  "threadDescriptions": {
+    "poetry-batch": "Catalogue the donated small-press poetry pamphlets as individual stock.",
+    "school-bundle": "Assemble and dispatch an affordable poetry bundle to Elm School.",
+    "return-claims": "Resolve the unrelated return of a defective chess manual.",
+    "window-display": "Build the autumn window display using borrowed props.",
+    "till-rolls": "Replenish receipt paper of the correct width."
+  },
+  "relatedThreads": [
+    [
+      "poetry-batch",
+      "school-bundle"
+    ],
+    [
+      "poetry-batch",
+      "window-display"
+    ]
+  ],
+  "challenges": [
+    "overlapping_domain",
+    "identifier_collision",
+    "sparse_fragment",
+    "bridge",
+    "rename"
+  ],
+  "items": [
+    {
+      "id": "hv01b-i01",
+      "text": "Donation from the old print co-op: nineteen poetry pamphlets. Give each its own record, even where the covers look identical.",
+      "modality": "voice",
+      "memberships": [
+        "poetry-batch"
+      ],
+      "rationale": "Starts individual cataloguing of donated poetry."
+    },
+    {
+      "id": "hv01b-i02",
+      "text": "Window plan: a paper moon over three orange crates. Borrow the moon from Suri; she needs it back before the parade.",
+      "modality": "note",
+      "memberships": [
+        "window-display"
+      ],
+      "rationale": "Specifies the shop window installation."
+    },
+    {
+      "id": "hv01b-i03",
+      "text": "Elm School wants twelve poetry books under £60 including postage. Teacher asked for short poems suitable for reading aloud.",
+      "modality": "file",
+      "memberships": [
+        "school-bundle"
+      ],
+      "rationale": "Defines school poetry order."
+    },
+    {
+      "id": "hv01b-i04",
+      "text": "Receipt roll core reads 12 mm; paper width looks like 57. Measure it before ordering another carton.",
+      "modality": "image",
+      "memberships": [
+        "till-rolls"
+      ],
+      "rationale": "Identifies receipt-paper procurement."
+    },
+    {
+      "id": "hv01b-i05",
+      "text": "Chess manual return, order 57: pages 81–96 duplicated, 97–112 absent. Customer sent these photos and wants a replacement.",
+      "modality": "image",
+      "memberships": [
+        "return-claims"
+      ],
+      "rationale": "Defective chess-book return uses order number 57."
+    },
+    {
+      "id": "hv01b-i06",
+      "text": "Pamphlet checklist: Noon Ferry has eight leaves, not missing pages. Its foldout cover makes it look incomplete. Record the artist's initials exactly as printed.",
+      "modality": "note",
+      "memberships": [
+        "poetry-batch"
+      ],
+      "rationale": "Clarifies physical description for one donated pamphlet."
+    },
+    {
+      "id": "hv01b-i07",
+      "text": "Elm shortlist has eleven titles. Add Noon Ferry only if the price still leaves six pounds for postage.",
+      "modality": "note",
+      "memberships": [
+        "school-bundle"
+      ],
+      "rationale": "Selects titles against school order budget."
+    },
+    {
+      "id": "hv01b-i08",
+      "text": "Moon will fit in the window if the middle orange crate goes sideways. No books against the glass: condensation yesterday.",
+      "modality": "video",
+      "memberships": [
+        "window-display"
+      ],
+      "rationale": "Tests window-display arrangement."
+    },
+    {
+      "id": "hv01b-i09",
+      "text": "57 again. too wide? ring after 2",
+      "modality": "note",
+      "memberships": [],
+      "rationale": "Could refer to paper width or order number; insufficient evidence."
+    },
+    {
+      "id": "hv01b-i10",
+      "text": "Replacement chess manual checked page by page; complete. Email the prepaid return label for the defective one.",
+      "modality": "note",
+      "memberships": [
+        "return-claims"
+      ],
+      "rationale": "Advances replacement of the defective manual."
+    },
+    {
+      "id": "hv01b-i11",
+      "text": "Count correction for print co-op intake: eighteen pamphlets, not nineteen. Two rubber bands held one long foldout together; it wasn't a second title.",
+      "modality": "voice",
+      "memberships": [
+        "poetry-batch"
+      ],
+      "rationale": "Corrects original donation count."
+    },
+    {
+      "id": "hv01b-i12",
+      "text": "Actual till paper is 58 mm wide, 12 mm core. Previous 57 was an estimate from the squashed roll. Order two boxes of the measured size.",
+      "modality": "note",
+      "memberships": [
+        "till-rolls"
+      ],
+      "rationale": "Corrects receipt-paper measurement and orders stock."
+    },
+    {
+      "id": "hv01b-i13",
+      "text": "School packing list and stock update: reserve Noon Ferry and eleven other pamphlets for Elm, total £51. Mark those twelve catalogue records sold as a bundle and print the itemized enclosure for their librarian.",
+      "modality": "file",
+      "memberships": [
+        "poetry-batch",
+        "school-bundle"
+      ],
+      "rationale": "Updates stock records and creates the school's shipment enclosure."
+    },
+    {
+      "id": "hv01b-i14",
+      "text": "Rename the 'Autumn crates' window job to 'Paper Moon'. Same borrowed moon, same orange crates; use the new heading on Suri's return reminder.",
+      "modality": "note",
+      "memberships": [
+        "window-display"
+      ],
+      "rationale": "Explicit rename of the window job."
+    },
+    {
+      "id": "hv01b-i15",
+      "text": "Supplier confirms 58 mm till rolls arrive Friday. Keep the current roll's cardboard core as the size sample.",
+      "modality": "voice",
+      "memberships": [
+        "till-rolls"
+      ],
+      "rationale": "Confirms paper order."
+    },
+    {
+      "id": "hv01b-i16",
+      "text": "Elm's poetry carton collected. Librarian approved the itemized £51 list; postage was £5.40.",
+      "modality": "note",
+      "memberships": [
+        "school-bundle"
+      ],
+      "rationale": "Records collection and cost for the school shipment."
+    },
+    {
+      "id": "hv01b-i17",
+      "text": "Chess customer chose a refund after all. Stop the replacement before dispatch; refund order 57 when the faulty copy comes back.",
+      "modality": "file",
+      "memberships": [
+        "return-claims"
+      ],
+      "rationale": "Revises resolution of the chess return."
+    },
+    {
+      "id": "hv01b-i18",
+      "text": "Co-op pamphlet records left to finish: title lettering on Salt Steps and the unnumbered white booklet. Use first lines when no title exists.",
+      "modality": "image",
+      "memberships": [
+        "poetry-batch"
+      ],
+      "rationale": "Remaining cataloguing work in the donated batch."
+    },
+    {
+      "id": "hv01b-i19",
+      "text": "Paper Moon lit from the left now. Suri's name is on the reverse of the prop so it won't be sold with the stock.",
+      "modality": "image",
+      "memberships": [
+        "window-display"
+      ],
+      "rationale": "Documents finished display and prop ownership."
+    },
+    {
+      "id": "hv01b-i20",
+      "text": "No label on this envelope. 'Hold the white one' written across flap.",
+      "modality": "image",
+      "memberships": [],
+      "rationale": "Colour reference cannot resolve the intended object or thread."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv01b-i13",
+      "threads": [
+        "poetry-batch",
+        "school-bundle"
+      ]
+    },
+    "revision": {
+      "earlier": "hv01b-i01",
+      "later": "hv01b-i11",
+      "thread": "poetry-batch"
+    },
+    "rename": {
+      "thread": "window-display",
+      "from": "Autumn crates",
+      "to": "Paper Moon",
+      "evidenceItem": "hv01b-i14"
+    },
+    "undo": {
+      "item": "hv01b-i09",
+      "wrongThread": "till-rolls",
+      "reason": "Hypothetical correction: 57 is ambiguous between roll width and a return order, so keep this source uncertain."
+    }
+  }
+}

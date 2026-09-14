@@ -1,0 +1,9 @@
+# Checkpoint headroom — clean preparation retry
+
+This is `checkpoint-headroom-attempt-02`, under the user's same explicit approval for temporary 4.5 GiB headroom, a final 4 GiB screening-assets target and at least 10 GiB free. The full operational policy is in CHECKPOINT_HEADROOM.md; it is unchanged.
+
+Preparation attempt01 captured a test snapshot before its correction: the tampering test mistakenly called the immutable save helper to overwrite a fixture. The test was corrected to alter only its disposable fixture directly. All 181 matcher and 22 organization tests then passed, but run verification correctly rejected attempt01's mismatched test hash before training. That attempt, its source snapshots and its failure record remain preserved. No model step or result changed during the failed invocation.
+
+The retry entrypoint configures a new attempt identifier, source list and execution document around the unchanged headroom driver. It binds the corrected tests, both driver files, both test files, this document and every file of the failed preparation attempt (including the original policy document's binding in its manifest). The original statistical freeze and fast-scan continuation still verify normally. No old manifest or snapshot is rewritten. This retry changes provenance packaging only, not the approved limits or statistical execution.
+
+Run all regression tests successfully before preparation. Then use the existing feasibility venv with `screening2_headroom_v2.py prepare|run|pause|verify --run Evaluation/MatcherScreening/runs/screen-attempt-01`. Execution requires `--resume`. First run a two-step recovery exercise with `--pause-after-steps 2`, then omit that flag for normal continuation. Pause remains cooperative; wait for exit before closing the laptop. The completed run only verifies and never starts a new experiment. Stop after confirmation and the full audit for user review.

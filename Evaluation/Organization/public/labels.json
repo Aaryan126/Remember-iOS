@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "libraries": [
+    {
+      "id": "public-banking77",
+      "memberships": {
+        "p-001": [
+          "get_disposable_virtual_card"
+        ],
+        "p-002": [
+          "get_disposable_virtual_card"
+        ],
+        "p-003": [
+          "get_disposable_virtual_card"
+        ],
+        "p-004": [
+          "get_disposable_virtual_card"
+        ],
+        "p-005": [
+          "get_disposable_virtual_card"
+        ],
+        "p-006": [
+          "get_disposable_virtual_card"
+        ],
+        "p-007": [
+          "get_disposable_virtual_card"
+        ],
+        "p-008": [
+          "get_disposable_virtual_card"
+        ],
+        "p-009": [
+          "get_disposable_virtual_card"
+        ],
+        "p-010": [
+          "get_disposable_virtual_card"
+        ],
+        "p-011": [
+          "order_physical_card"
+        ],
+        "p-012": [
+          "order_physical_card"
+        ],
+        "p-013": [
+          "order_physical_card"
+        ],
+        "p-014": [
+          "order_physical_card"
+        ],
+        "p-015": [
+          "order_physical_card"
+        ],
+        "p-016": [
+          "order_physical_card"
+        ],
+        "p-017": [
+          "order_physical_card"
+        ],
+        "p-018": [
+          "order_physical_card"
+        ],
+        "p-019": [
+          "order_physical_card"
+        ],
+        "p-020": [
+          "order_physical_card"
+        ],
+        "p-021": [
+          "disposable_card_limits"
+        ],
+        "p-022": [
+          "disposable_card_limits"
+        ],
+        "p-023": [
+          "disposable_card_limits"
+        ],
+        "p-024": [
+          "disposable_card_limits"
+        ],
+        "p-025": [
+          "disposable_card_limits"
+        ],
+        "p-026": [
+          "disposable_card_limits"
+        ],
+        "p-027": [
+          "disposable_card_limits"
+        ],
+        "p-028": [
+          "disposable_card_limits"
+        ],
+        "p-029": [
+          "disposable_card_limits"
+        ],
+        "p-030": [
+          "disposable_card_limits"
+        ],
+        "p-031": [
+          "card_linking"
+        ],
+        "p-032": [
+          "card_linking"
+        ],
+        "p-033": [
+          "card_linking"
+        ],
+        "p-034": [
+          "card_linking"
+        ],
+        "p-035": [
+          "card_linking"
+        ],
+        "p-036": [
+          "card_linking"
+        ],
+        "p-037": [
+          "card_linking"
+        ],
+        "p-038": [
+          "card_linking"
+        ],
+        "p-039": [
+          "card_linking"
+        ],
+        "p-040": [
+          "card_linking"
+        ],
+        "p-041": [
+          "pending_cash_withdrawal"
+        ],
+        "p-042": [
+          "pending_cash_withdrawal"
+        ],
+        "p-043": [
+          "pending_cash_withdrawal"
+        ],
+        "p-044": [
+          "pending_cash_withdrawal"
+        ],
+        "p-045": [
+          "pending_cash_withdrawal"
+        ],
+        "p-046": [
+          "pending_cash_withdrawal"
+        ],
+        "p-047": [
+          "pending_cash_withdrawal"
+        ],
+        "p-048": [
+          "pending_cash_withdrawal"
+        ],
+        "p-049": [
+          "pending_cash_withdrawal"
+        ],
+        "p-050": [
+          "pending_cash_withdrawal"
+        ],
+        "p-051": [
+          "top_up_failed"
+        ],
+        "p-052": [
+          "top_up_failed"
+        ],
+        "p-053": [
+          "top_up_failed"
+        ],
+        "p-054": [
+          "top_up_failed"
+        ],
+        "p-055": [
+          "top_up_failed"
+        ],
+        "p-056": [
+          "top_up_failed"
+        ],
+        "p-057": [
+          "top_up_failed"
+        ],
+        "p-058": [
+          "top_up_failed"
+        ],
+        "p-059": [
+          "top_up_failed"
+        ],
+        "p-060": [
+          "top_up_failed"
+        ],
+        "p-061": [
+          "request_refund"
+        ],
+        "p-062": [
+          "request_refund"
+        ],
+        "p-063": [
+          "request_refund"
+        ],
+        "p-064": [
+          "request_refund"
+        ],
+        "p-065": [
+          "request_refund"
+        ],
+        "p-066": [
+          "request_refund"
+        ],
+        "p-067": [
+          "request_refund"
+        ],
+        "p-068": [
+          "request_refund"
+        ],
+        "p-069": [
+          "request_refund"
+        ],
+        "p-070": [
+          "request_refund"
+        ],
+        "p-071": [
+          "visa_or_mastercard"
+        ],
+        "p-072": [
+          "visa_or_mastercard"
+        ],
+        "p-073": [
+          "visa_or_mastercard"
+        ],
+        "p-074": [
+          "visa_or_mastercard"
+        ],
+        "p-075": [
+          "visa_or_mastercard"
+        ],
+        "p-076": [
+          "visa_or_mastercard"
+        ],
+        "p-077": [
+          "visa_or_mastercard"
+        ],
+        "p-078": [
+          "visa_or_mastercard"
+        ],
+        "p-079": [
+          "visa_or_mastercard"
+        ],
+        "p-080": [
+          "visa_or_mastercard"
+        ],
+        "p-081": [
+          "card_swallowed"
+        ],
+        "p-082": [
+          "card_swallowed"
+        ],
+        "p-083": [
+          "card_swallowed"
+        ],
+        "p-084": [
+          "card_swallowed"
+        ],
+        "p-085": [
+          "card_swallowed"
+        ],
+        "p-086": [
+          "card_swallowed"
+        ],
+        "p-087": [
+          "card_swallowed"
+        ],
+        "p-088": [
+          "card_swallowed"
+        ],
+        "p-089": [
+          "card_swallowed"
+        ],
+        "p-090": [
+          "card_swallowed"
+        ],
+        "p-091": [
+          "virtual_card_not_working"
+        ],
+        "p-092": [
+          "virtual_card_not_working"
+        ],
+        "p-093": [
+          "virtual_card_not_working"
+        ],
+        "p-094": [
+          "virtual_card_not_working"
+        ],
+        "p-095": [
+          "virtual_card_not_working"
+        ],
+        "p-096": [
+          "virtual_card_not_working"
+        ],
+        "p-097": [
+          "virtual_card_not_working"
+        ],
+        "p-098": [
+          "virtual_card_not_working"
+        ],
+        "p-099": [
+          "virtual_card_not_working"
+        ],
+        "p-100": [
+          "virtual_card_not_working"
+        ],
+        "p-101": [
+          "declined_card_payment"
+        ],
+        "p-102": [
+          "declined_card_payment"
+        ],
+        "p-103": [
+          "declined_card_payment"
+        ],
+        "p-104": [
+          "declined_card_payment"
+        ],
+        "p-105": [
+          "declined_card_payment"
+        ],
+        "p-106": [
+          "declined_card_payment"
+        ],
+        "p-107": [
+          "declined_card_payment"
+        ],
+        "p-108": [
+          "declined_card_payment"
+        ],
+        "p-109": [
+          "declined_card_payment"
+        ],
+        "p-110": [
+          "declined_card_payment"
+        ],
+        "p-111": [
+          "lost_or_stolen_phone"
+        ],
+        "p-112": [
+          "lost_or_stolen_phone"
+        ],
+        "p-113": [
+          "lost_or_stolen_phone"
+        ],
+        "p-114": [
+          "lost_or_stolen_phone"
+        ],
+        "p-115": [
+          "lost_or_stolen_phone"
+        ],
+        "p-116": [
+          "lost_or_stolen_phone"
+        ],
+        "p-117": [
+          "lost_or_stolen_phone"
+        ],
+        "p-118": [
+          "lost_or_stolen_phone"
+        ],
+        "p-119": [
+          "lost_or_stolen_phone"
+        ],
+        "p-120": [
+          "lost_or_stolen_phone"
+        ],
+        "p-121": [
+          "automatic_top_up"
+        ],
+        "p-122": [
+          "automatic_top_up"
+        ],
+        "p-123": [
+          "automatic_top_up"
+        ],
+        "p-124": [
+          "automatic_top_up"
+        ],
+        "p-125": [
+          "automatic_top_up"
+        ],
+        "p-126": [
+          "automatic_top_up"
+        ],
+        "p-127": [
+          "automatic_top_up"
+        ],
+        "p-128": [
+          "automatic_top_up"
+        ],
+        "p-129": [
+          "automatic_top_up"
+        ],
+        "p-130": [
+          "automatic_top_up"
+        ],
+        "p-131": [
+          "topping_up_by_card"
+        ],
+        "p-132": [
+          "topping_up_by_card"
+        ],
+        "p-133": [
+          "topping_up_by_card"
+        ],
+        "p-134": [
+          "topping_up_by_card"
+        ],
+        "p-135": [
+          "topping_up_by_card"
+        ],
+        "p-136": [
+          "topping_up_by_card"
+        ],
+        "p-137": [
+          "topping_up_by_card"
+        ],
+        "p-138": [
+          "topping_up_by_card"
+        ],
+        "p-139": [
+          "topping_up_by_card"
+        ],
+        "p-140": [
+          "topping_up_by_card"
+        ],
+        "p-141": [
+          "exchange_via_app"
+        ],
+        "p-142": [
+          "exchange_via_app"
+        ],
+        "p-143": [
+          "exchange_via_app"
+        ],
+        "p-144": [
+          "exchange_via_app"
+        ],
+        "p-145": [
+          "exchange_via_app"
+        ],
+        "p-146": [
+          "exchange_via_app"
+        ],
+        "p-147": [
+          "exchange_via_app"
+        ],
+        "p-148": [
+          "exchange_via_app"
+        ],
+        "p-149": [
+          "exchange_via_app"
+        ],
+        "p-150": [
+          "exchange_via_app"
+        ],
+        "p-151": [
+          "why_verify_identity"
+        ],
+        "p-152": [
+          "why_verify_identity"
+        ],
+        "p-153": [
+          "why_verify_identity"
+        ],
+        "p-154": [
+          "why_verify_identity"
+        ],
+        "p-155": [
+          "why_verify_identity"
+        ],
+        "p-156": [
+          "why_verify_identity"
+        ],
+        "p-157": [
+          "why_verify_identity"
+        ],
+        "p-158": [
+          "why_verify_identity"
+        ],
+        "p-159": [
+          "why_verify_identity"
+        ],
+        "p-160": [
+          "why_verify_identity"
+        ],
+        "p-161": [
+          "top_up_by_bank_transfer_charge"
+        ],
+        "p-162": [
+          "top_up_by_bank_transfer_charge"
+        ],
+        "p-163": [
+          "top_up_by_bank_transfer_charge"
+        ],
+        "p-164": [
+          "top_up_by_bank_transfer_charge"
+        ],
+        "p-165": [
+          "top_up_by_bank_transfer_charge"
+        ],
+        "p-166": [
+          "top_up_by_bank_transfer_charge"
+        ],
+        "p-167": [
+          "top_up_by_bank_transfer_charge"
+        ],
+        "p-168": [
+          "top_up_by_bank_transfer_charge"
+        ],
+        "p-169": [
+          "top_up_by_bank_transfer_charge"
+        ],
+        "p-170": [
+          "top_up_by_bank_transfer_charge"
+        ],
+        "p-171": [
+          "supported_cards_and_currencies"
+        ],
+        "p-172": [
+          "supported_cards_and_currencies"
+        ],
+        "p-173": [
+          "supported_cards_and_currencies"
+        ],
+        "p-174": [
+          "supported_cards_and_currencies"
+        ],
+        "p-175": [
+          "supported_cards_and_currencies"
+        ],
+        "p-176": [
+          "supported_cards_and_currencies"
+        ],
+        "p-177": [
+          "supported_cards_and_currencies"
+        ],
+        "p-178": [
+          "supported_cards_and_currencies"
+        ],
+        "p-179": [
+          "supported_cards_and_currencies"
+        ],
+        "p-180": [
+          "supported_cards_and_currencies"
+        ],
+        "p-181": [
+          "failed_transfer"
+        ],
+        "p-182": [
+          "failed_transfer"
+        ],
+        "p-183": [
+          "failed_transfer"
+        ],
+        "p-184": [
+          "failed_transfer"
+        ],
+        "p-185": [
+          "failed_transfer"
+        ],
+        "p-186": [
+          "failed_transfer"
+        ],
+        "p-187": [
+          "failed_transfer"
+        ],
+        "p-188": [
+          "failed_transfer"
+        ],
+        "p-189": [
+          "failed_transfer"
+        ],
+        "p-190": [
+          "failed_transfer"
+        ],
+        "p-191": [
+          "transfer_timing"
+        ],
+        "p-192": [
+          "transfer_timing"
+        ],
+        "p-193": [
+          "transfer_timing"
+        ],
+        "p-194": [
+          "transfer_timing"
+        ],
+        "p-195": [
+          "transfer_timing"
+        ],
+        "p-196": [
+          "transfer_timing"
+        ],
+        "p-197": [
+          "transfer_timing"
+        ],
+        "p-198": [
+          "transfer_timing"
+        ],
+        "p-199": [
+          "transfer_timing"
+        ],
+        "p-200": [
+          "transfer_timing"
+        ]
+      },
+      "ambiguous": [],
+      "relationships": []
+    }
+  ]
+}

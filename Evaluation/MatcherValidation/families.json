@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "families": [
+    {"id":"hv01","split":"train","author":"author_a","domain":"used-book shop cataloguing and dispatch","libraries":["hv01a","hv01b"]},
+    {"id":"hv02","split":"train","author":"author_a","domain":"string instrument restoration","libraries":["hv02a","hv02b"]},
+    {"id":"hv03","split":"train","author":"author_a","domain":"camping trip preparation","libraries":["hv03a","hv03b"]},
+    {"id":"hv04","split":"train","author":"author_a","domain":"professional exam study planning","libraries":["hv04a","hv04b"]},
+    {"id":"hv05","split":"train","author":"author_b","domain":"adult language learning","libraries":["hv05a","hv05b"]},
+    {"id":"hv06","split":"train","author":"author_b","domain":"household pantry procurement","libraries":["hv06a","hv06b"]},
+    {"id":"hv07","split":"train","author":"author_b","domain":"freelance illustration commissions and billing","libraries":["hv07a","hv07b"]},
+    {"id":"hv08","split":"train","author":"author_b","domain":"chess tournament organization","libraries":["hv08a","hv08b"]},
+    {"id":"hv09","split":"train","author":"author_c","domain":"coworking office relocation","libraries":["hv09a","hv09b"]},
+    {"id":"hv10","split":"train","author":"author_c","domain":"food-bank volunteer operations","libraries":["hv10a","hv10b"]},
+    {"id":"hv11","split":"train","author":"author_c","domain":"model railway construction","libraries":["hv11a","hv11b"]},
+    {"id":"hv12","split":"train","author":"author_c","domain":"family photograph digitization","libraries":["hv12a","hv12b"]},
+    {"id":"hv13","split":"calibration","author":"author_a","domain":"swimming meet coordination","libraries":["hv13a","hv13b"]},
+    {"id":"hv14","split":"calibration","author":"author_a","domain":"coffee shop inventory and menus","libraries":["hv14a","hv14b"]},
+    {"id":"hv15","split":"calibration","author":"author_b","domain":"civic geospatial datasets","libraries":["hv15a","hv15b"]},
+    {"id":"hv16","split":"calibration","author":"author_b","domain":"screenplay development","libraries":["hv16a","hv16b"]},
+    {"id":"hv17","split":"calibration","author":"author_c","domain":"household appliance warranties","libraries":["hv17a","hv17b"]},
+    {"id":"hv18","split":"calibration","author":"author_c","domain":"scholarship applications","libraries":["hv18a","hv18b"]},
+    {"id":"hv19","split":"evaluation","author":"author_a","domain":"museum object loans and shipping","libraries":["hv19a","hv19b"]},
+    {"id":"hv20","split":"evaluation","author":"author_a","domain":"mobile app onboarding experiments","libraries":["hv20a","hv20b"]},
+    {"id":"hv21","split":"evaluation","author":"author_b","domain":"sports club memberships and facilities","libraries":["hv21a","hv21b"]},
+    {"id":"hv22","split":"evaluation","author":"author_b","domain":"remote work desk ergonomics","libraries":["hv22a","hv22b"]},
+    {"id":"hv23","split":"evaluation","author":"author_c","domain":"oral local-history research and permissions","libraries":["hv23a","hv23b"]},
+    {"id":"hv24","split":"evaluation","author":"author_c","domain":"distance running training blocks","libraries":["hv24a","hv24b"]}
+  ]
+}

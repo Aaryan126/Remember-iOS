@@ -1,0 +1,2323 @@
+{
+  "at": "2026-09-11T07:49:14.797169+00:00",
+  "runCompleteSHA256": "316a288748307c4e1c8d4c4138e185c334ee42ed7573147be389cb577f954731",
+  "sourceSHA256": "a22ec273ce7e33991c63c93a08fb25dbebeb1be8e41e6de54c685706f38f3adb",
+  "split": "development",
+  "testLabelsReadByThisDiagnostic": false,
+  "candidates": [
+    {
+      "seed": 17,
+      "epoch": 1,
+      "officialQualifies": false,
+      "officialMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 0,
+        "fp": 0,
+        "fn": 245,
+        "acceptedKnownPairs": 0,
+        "precision": null,
+        "recall": 0.0,
+        "macroLibraryRecall": 0.0,
+        "automationFraction": 0.0,
+        "acceptedUncertainPairs": 0,
+        "acceptedUncertainFraction": 0.0,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            230,
+            12,
+            3
+          ],
+          [
+            106,
+            86,
+            40
+          ],
+          [
+            36,
+            114,
+            291
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf20": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf21": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf22": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf23": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf24": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 40,
+            "precision": null,
+            "recall": 0.0
+          }
+        }
+      },
+      "argmaxMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 230,
+        "fp": 142,
+        "fn": 15,
+        "acceptedKnownPairs": 372,
+        "precision": 0.6182795698924731,
+        "recall": 0.9387755102040817,
+        "macroLibraryRecall": 0.9390243902439025,
+        "automationFraction": 0.35350877192982455,
+        "acceptedUncertainPairs": 31,
+        "acceptedUncertainFraction": 0.13963963963963963,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            230,
+            12,
+            3
+          ],
+          [
+            106,
+            86,
+            40
+          ],
+          [
+            36,
+            114,
+            291
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 32,
+            "fp": 10,
+            "fn": 9,
+            "precision": 0.7619047619047619,
+            "recall": 0.7804878048780488
+          },
+          "mf20": {
+            "tp": 41,
+            "fp": 27,
+            "fn": 0,
+            "precision": 0.6029411764705882,
+            "recall": 1.0
+          },
+          "mf21": {
+            "tp": 38,
+            "fp": 52,
+            "fn": 3,
+            "precision": 0.4222222222222222,
+            "recall": 0.926829268292683
+          },
+          "mf22": {
+            "tp": 39,
+            "fp": 5,
+            "fn": 2,
+            "precision": 0.8863636363636364,
+            "recall": 0.9512195121951219
+          },
+          "mf23": {
+            "tp": 40,
+            "fp": 37,
+            "fn": 1,
+            "precision": 0.5194805194805194,
+            "recall": 0.975609756097561
+          },
+          "mf24": {
+            "tp": 40,
+            "fp": 11,
+            "fn": 0,
+            "precision": 0.7843137254901961,
+            "recall": 1.0
+          }
+        }
+      },
+      "bestPrecisionAtCoverage30": {
+        "threshold": 0.8588767647743225,
+        "metrics": {
+          "tp": 101,
+          "fp": 10,
+          "fn": 144,
+          "precision": 0.9099099099099099,
+          "recall": 0.4122448979591837,
+          "macroLibraryRecall": 0.41290650406504065,
+          "acceptedKnownPairs": 111,
+          "perLibrary": {
+            "mf19": {
+              "tp": 4,
+              "fp": 0,
+              "fn": 37,
+              "precision": 1.0,
+              "recall": 0.0975609756097561
+            },
+            "mf20": {
+              "tp": 20,
+              "fp": 2,
+              "fn": 21,
+              "precision": 0.9090909090909091,
+              "recall": 0.4878048780487805
+            },
+            "mf21": {
+              "tp": 20,
+              "fp": 5,
+              "fn": 21,
+              "precision": 0.8,
+              "recall": 0.4878048780487805
+            },
+            "mf22": {
+              "tp": 10,
+              "fp": 0,
+              "fn": 31,
+              "precision": 1.0,
+              "recall": 0.24390243902439024
+            },
+            "mf23": {
+              "tp": 24,
+              "fp": 1,
+              "fn": 17,
+              "precision": 0.96,
+              "recall": 0.5853658536585366
+            },
+            "mf24": {
+              "tp": 23,
+              "fp": 2,
+              "fn": 17,
+              "precision": 0.92,
+              "recall": 0.575
+            }
+          }
+        },
+        "purpose": "diagnostic precision at >=30 accepted pairs; NOT an approved operating point"
+      },
+      "summarySHA256": "a0958fc72212d0a20c6c971043e8e9f883e41a4c622afee3be5ea27fbcba434c"
+    },
+    {
+      "seed": 17,
+      "epoch": 2,
+      "officialQualifies": false,
+      "officialMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 0,
+        "fp": 0,
+        "fn": 245,
+        "acceptedKnownPairs": 0,
+        "precision": null,
+        "recall": 0.0,
+        "macroLibraryRecall": 0.0,
+        "automationFraction": 0.0,
+        "acceptedUncertainPairs": 0,
+        "acceptedUncertainFraction": 0.0,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            225,
+            20,
+            0
+          ],
+          [
+            128,
+            98,
+            6
+          ],
+          [
+            57,
+            289,
+            95
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf20": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf21": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf22": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf23": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf24": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 40,
+            "precision": null,
+            "recall": 0.0
+          }
+        }
+      },
+      "argmaxMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 225,
+        "fp": 185,
+        "fn": 20,
+        "acceptedKnownPairs": 410,
+        "precision": 0.5487804878048781,
+        "recall": 0.9183673469387755,
+        "macroLibraryRecall": 0.91869918699187,
+        "automationFraction": 0.41228070175438597,
+        "acceptedUncertainPairs": 60,
+        "acceptedUncertainFraction": 0.2702702702702703,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            225,
+            20,
+            0
+          ],
+          [
+            128,
+            98,
+            6
+          ],
+          [
+            57,
+            289,
+            95
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 33,
+            "fp": 16,
+            "fn": 8,
+            "precision": 0.673469387755102,
+            "recall": 0.8048780487804879
+          },
+          "mf20": {
+            "tp": 41,
+            "fp": 49,
+            "fn": 0,
+            "precision": 0.45555555555555555,
+            "recall": 1.0
+          },
+          "mf21": {
+            "tp": 38,
+            "fp": 55,
+            "fn": 3,
+            "precision": 0.40860215053763443,
+            "recall": 0.926829268292683
+          },
+          "mf22": {
+            "tp": 35,
+            "fp": 9,
+            "fn": 6,
+            "precision": 0.7954545454545454,
+            "recall": 0.8536585365853658
+          },
+          "mf23": {
+            "tp": 38,
+            "fp": 45,
+            "fn": 3,
+            "precision": 0.4578313253012048,
+            "recall": 0.926829268292683
+          },
+          "mf24": {
+            "tp": 40,
+            "fp": 11,
+            "fn": 0,
+            "precision": 0.7843137254901961,
+            "recall": 1.0
+          }
+        }
+      },
+      "bestPrecisionAtCoverage30": {
+        "threshold": 0.958681046962738,
+        "metrics": {
+          "tp": 166,
+          "fp": 86,
+          "fn": 79,
+          "precision": 0.6587301587301587,
+          "recall": 0.6775510204081633,
+          "macroLibraryRecall": 0.6783536585365854,
+          "acceptedKnownPairs": 252,
+          "perLibrary": {
+            "mf19": {
+              "tp": 17,
+              "fp": 5,
+              "fn": 24,
+              "precision": 0.7727272727272727,
+              "recall": 0.4146341463414634
+            },
+            "mf20": {
+              "tp": 35,
+              "fp": 22,
+              "fn": 6,
+              "precision": 0.6140350877192983,
+              "recall": 0.8536585365853658
+            },
+            "mf21": {
+              "tp": 28,
+              "fp": 32,
+              "fn": 13,
+              "precision": 0.4666666666666667,
+              "recall": 0.6829268292682927
+            },
+            "mf22": {
+              "tp": 17,
+              "fp": 1,
+              "fn": 24,
+              "precision": 0.9444444444444444,
+              "recall": 0.4146341463414634
+            },
+            "mf23": {
+              "tp": 34,
+              "fp": 22,
+              "fn": 7,
+              "precision": 0.6071428571428571,
+              "recall": 0.8292682926829268
+            },
+            "mf24": {
+              "tp": 35,
+              "fp": 4,
+              "fn": 5,
+              "precision": 0.8974358974358975,
+              "recall": 0.875
+            }
+          }
+        },
+        "purpose": "diagnostic precision at >=30 accepted pairs; NOT an approved operating point"
+      },
+      "summarySHA256": "42406f4340fb72937292b43ea47c74fc97397e890b573b84c49911971c3af51f"
+    },
+    {
+      "seed": 17,
+      "epoch": 3,
+      "officialQualifies": false,
+      "officialMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 0,
+        "fp": 0,
+        "fn": 245,
+        "acceptedKnownPairs": 0,
+        "precision": null,
+        "recall": 0.0,
+        "macroLibraryRecall": 0.0,
+        "automationFraction": 0.0,
+        "acceptedUncertainPairs": 0,
+        "acceptedUncertainFraction": 0.0,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            230,
+            13,
+            2
+          ],
+          [
+            145,
+            71,
+            16
+          ],
+          [
+            59,
+            259,
+            123
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf20": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf21": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf22": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf23": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf24": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 40,
+            "precision": null,
+            "recall": 0.0
+          }
+        }
+      },
+      "argmaxMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 230,
+        "fp": 204,
+        "fn": 15,
+        "acceptedKnownPairs": 434,
+        "precision": 0.5299539170506913,
+        "recall": 0.9387755102040817,
+        "macroLibraryRecall": 0.9390243902439025,
+        "automationFraction": 0.42719298245614035,
+        "acceptedUncertainPairs": 53,
+        "acceptedUncertainFraction": 0.23873873873873874,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            230,
+            13,
+            2
+          ],
+          [
+            145,
+            71,
+            16
+          ],
+          [
+            59,
+            259,
+            123
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 32,
+            "fp": 15,
+            "fn": 9,
+            "precision": 0.6808510638297872,
+            "recall": 0.7804878048780488
+          },
+          "mf20": {
+            "tp": 41,
+            "fp": 51,
+            "fn": 0,
+            "precision": 0.44565217391304346,
+            "recall": 1.0
+          },
+          "mf21": {
+            "tp": 38,
+            "fp": 64,
+            "fn": 3,
+            "precision": 0.37254901960784315,
+            "recall": 0.926829268292683
+          },
+          "mf22": {
+            "tp": 40,
+            "fp": 18,
+            "fn": 1,
+            "precision": 0.6896551724137931,
+            "recall": 0.975609756097561
+          },
+          "mf23": {
+            "tp": 39,
+            "fp": 41,
+            "fn": 2,
+            "precision": 0.4875,
+            "recall": 0.9512195121951219
+          },
+          "mf24": {
+            "tp": 40,
+            "fp": 15,
+            "fn": 0,
+            "precision": 0.7272727272727273,
+            "recall": 1.0
+          }
+        }
+      },
+      "bestPrecisionAtCoverage30": {
+        "threshold": 0.9831428229808807,
+        "metrics": {
+          "tp": 48,
+          "fp": 3,
+          "fn": 197,
+          "precision": 0.9411764705882353,
+          "recall": 0.19591836734693877,
+          "macroLibraryRecall": 0.19593495934959348,
+          "acceptedKnownPairs": 51,
+          "perLibrary": {
+            "mf19": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 40,
+              "precision": 1.0,
+              "recall": 0.024390243902439025
+            },
+            "mf20": {
+              "tp": 20,
+              "fp": 1,
+              "fn": 21,
+              "precision": 0.9523809523809523,
+              "recall": 0.4878048780487805
+            },
+            "mf21": {
+              "tp": 8,
+              "fp": 2,
+              "fn": 33,
+              "precision": 0.8,
+              "recall": 0.1951219512195122
+            },
+            "mf22": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 40,
+              "precision": 1.0,
+              "recall": 0.024390243902439025
+            },
+            "mf23": {
+              "tp": 10,
+              "fp": 0,
+              "fn": 31,
+              "precision": 1.0,
+              "recall": 0.24390243902439024
+            },
+            "mf24": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 32,
+              "precision": 1.0,
+              "recall": 0.2
+            }
+          }
+        },
+        "purpose": "diagnostic precision at >=30 accepted pairs; NOT an approved operating point"
+      },
+      "summarySHA256": "95bacce57a2ce583ad12cc2e43406d4e47839a603e9815691f2536907b4d12e0"
+    },
+    {
+      "seed": 29,
+      "epoch": 1,
+      "officialQualifies": false,
+      "officialMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 0,
+        "fp": 0,
+        "fn": 245,
+        "acceptedKnownPairs": 0,
+        "precision": null,
+        "recall": 0.0,
+        "macroLibraryRecall": 0.0,
+        "automationFraction": 0.0,
+        "acceptedUncertainPairs": 0,
+        "acceptedUncertainFraction": 0.0,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            239,
+            4,
+            2
+          ],
+          [
+            161,
+            28,
+            43
+          ],
+          [
+            82,
+            78,
+            281
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf20": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf21": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf22": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf23": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf24": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 40,
+            "precision": null,
+            "recall": 0.0
+          }
+        }
+      },
+      "argmaxMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 239,
+        "fp": 243,
+        "fn": 6,
+        "acceptedKnownPairs": 482,
+        "precision": 0.495850622406639,
+        "recall": 0.9755102040816327,
+        "macroLibraryRecall": 0.975609756097561,
+        "automationFraction": 0.48947368421052634,
+        "acceptedUncertainPairs": 76,
+        "acceptedUncertainFraction": 0.34234234234234234,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            239,
+            4,
+            2
+          ],
+          [
+            161,
+            28,
+            43
+          ],
+          [
+            82,
+            78,
+            281
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 37,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.6166666666666667,
+            "recall": 0.9024390243902439
+          },
+          "mf20": {
+            "tp": 41,
+            "fp": 55,
+            "fn": 0,
+            "precision": 0.4270833333333333,
+            "recall": 1.0
+          },
+          "mf21": {
+            "tp": 40,
+            "fp": 76,
+            "fn": 1,
+            "precision": 0.3448275862068966,
+            "recall": 0.975609756097561
+          },
+          "mf22": {
+            "tp": 41,
+            "fp": 16,
+            "fn": 0,
+            "precision": 0.7192982456140351,
+            "recall": 1.0
+          },
+          "mf23": {
+            "tp": 40,
+            "fp": 54,
+            "fn": 1,
+            "precision": 0.425531914893617,
+            "recall": 0.975609756097561
+          },
+          "mf24": {
+            "tp": 40,
+            "fp": 19,
+            "fn": 0,
+            "precision": 0.6779661016949152,
+            "recall": 1.0
+          }
+        }
+      },
+      "bestPrecisionAtCoverage30": {
+        "threshold": 0.9076242446899414,
+        "metrics": {
+          "tp": 50,
+          "fp": 17,
+          "fn": 195,
+          "precision": 0.746268656716418,
+          "recall": 0.20408163265306123,
+          "macroLibraryRecall": 0.20396341463414636,
+          "acceptedKnownPairs": 67,
+          "perLibrary": {
+            "mf19": {
+              "tp": 4,
+              "fp": 0,
+              "fn": 37,
+              "precision": 1.0,
+              "recall": 0.0975609756097561
+            },
+            "mf20": {
+              "tp": 11,
+              "fp": 3,
+              "fn": 30,
+              "precision": 0.7857142857142857,
+              "recall": 0.2682926829268293
+            },
+            "mf21": {
+              "tp": 6,
+              "fp": 10,
+              "fn": 35,
+              "precision": 0.375,
+              "recall": 0.14634146341463414
+            },
+            "mf22": {
+              "tp": 4,
+              "fp": 0,
+              "fn": 37,
+              "precision": 1.0,
+              "recall": 0.0975609756097561
+            },
+            "mf23": {
+              "tp": 18,
+              "fp": 3,
+              "fn": 23,
+              "precision": 0.8571428571428571,
+              "recall": 0.43902439024390244
+            },
+            "mf24": {
+              "tp": 7,
+              "fp": 1,
+              "fn": 33,
+              "precision": 0.875,
+              "recall": 0.175
+            }
+          }
+        },
+        "purpose": "diagnostic precision at >=30 accepted pairs; NOT an approved operating point"
+      },
+      "summarySHA256": "bcd942774fbc6481a8c772162ace4496651f03164590edb98ab8d46bc93d7261"
+    },
+    {
+      "seed": 29,
+      "epoch": 2,
+      "officialQualifies": false,
+      "officialMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 0,
+        "fp": 0,
+        "fn": 245,
+        "acceptedKnownPairs": 0,
+        "precision": null,
+        "recall": 0.0,
+        "macroLibraryRecall": 0.0,
+        "automationFraction": 0.0,
+        "acceptedUncertainPairs": 0,
+        "acceptedUncertainFraction": 0.0,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            212,
+            33,
+            0
+          ],
+          [
+            104,
+            108,
+            20
+          ],
+          [
+            31,
+            284,
+            126
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf20": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf21": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf22": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf23": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf24": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 40,
+            "precision": null,
+            "recall": 0.0
+          }
+        }
+      },
+      "argmaxMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 212,
+        "fp": 135,
+        "fn": 33,
+        "acceptedKnownPairs": 347,
+        "precision": 0.6109510086455331,
+        "recall": 0.8653061224489796,
+        "macroLibraryRecall": 0.8658536585365854,
+        "automationFraction": 0.3298245614035088,
+        "acceptedUncertainPairs": 29,
+        "acceptedUncertainFraction": 0.13063063063063063,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            212,
+            33,
+            0
+          ],
+          [
+            104,
+            108,
+            20
+          ],
+          [
+            31,
+            284,
+            126
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 29,
+            "fp": 10,
+            "fn": 12,
+            "precision": 0.7435897435897436,
+            "recall": 0.7073170731707317
+          },
+          "mf20": {
+            "tp": 41,
+            "fp": 31,
+            "fn": 0,
+            "precision": 0.5694444444444444,
+            "recall": 1.0
+          },
+          "mf21": {
+            "tp": 36,
+            "fp": 52,
+            "fn": 5,
+            "precision": 0.4090909090909091,
+            "recall": 0.8780487804878049
+          },
+          "mf22": {
+            "tp": 30,
+            "fp": 4,
+            "fn": 11,
+            "precision": 0.8823529411764706,
+            "recall": 0.7317073170731707
+          },
+          "mf23": {
+            "tp": 36,
+            "fp": 30,
+            "fn": 5,
+            "precision": 0.5454545454545454,
+            "recall": 0.8780487804878049
+          },
+          "mf24": {
+            "tp": 40,
+            "fp": 8,
+            "fn": 0,
+            "precision": 0.8333333333333334,
+            "recall": 1.0
+          }
+        }
+      },
+      "bestPrecisionAtCoverage30": {
+        "threshold": 0.9542814791202545,
+        "metrics": {
+          "tp": 44,
+          "fp": 12,
+          "fn": 201,
+          "precision": 0.7857142857142857,
+          "recall": 0.17959183673469387,
+          "macroLibraryRecall": 0.17926829268292685,
+          "acceptedKnownPairs": 56,
+          "perLibrary": {
+            "mf19": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 40,
+              "precision": 1.0,
+              "recall": 0.024390243902439025
+            },
+            "mf20": {
+              "tp": 14,
+              "fp": 2,
+              "fn": 27,
+              "precision": 0.875,
+              "recall": 0.34146341463414637
+            },
+            "mf21": {
+              "tp": 7,
+              "fp": 9,
+              "fn": 34,
+              "precision": 0.4375,
+              "recall": 0.17073170731707318
+            },
+            "mf22": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 41,
+              "precision": null,
+              "recall": 0.0
+            },
+            "mf23": {
+              "tp": 18,
+              "fp": 0,
+              "fn": 23,
+              "precision": 1.0,
+              "recall": 0.43902439024390244
+            },
+            "mf24": {
+              "tp": 4,
+              "fp": 1,
+              "fn": 36,
+              "precision": 0.8,
+              "recall": 0.1
+            }
+          }
+        },
+        "purpose": "diagnostic precision at >=30 accepted pairs; NOT an approved operating point"
+      },
+      "summarySHA256": "0aa1b78bd2cbb01bdc2706076d823fe45a648d7fbcf2fd0666824f0518eae97b"
+    },
+    {
+      "seed": 29,
+      "epoch": 3,
+      "officialQualifies": false,
+      "officialMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 0,
+        "fp": 0,
+        "fn": 245,
+        "acceptedKnownPairs": 0,
+        "precision": null,
+        "recall": 0.0,
+        "macroLibraryRecall": 0.0,
+        "automationFraction": 0.0,
+        "acceptedUncertainPairs": 0,
+        "acceptedUncertainFraction": 0.0,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            224,
+            18,
+            3
+          ],
+          [
+            128,
+            73,
+            31
+          ],
+          [
+            54,
+            201,
+            186
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf20": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf21": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf22": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf23": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf24": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 40,
+            "precision": null,
+            "recall": 0.0
+          }
+        }
+      },
+      "argmaxMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 224,
+        "fp": 182,
+        "fn": 21,
+        "acceptedKnownPairs": 406,
+        "precision": 0.5517241379310345,
+        "recall": 0.9142857142857143,
+        "macroLibraryRecall": 0.9146341463414634,
+        "automationFraction": 0.41842105263157897,
+        "acceptedUncertainPairs": 71,
+        "acceptedUncertainFraction": 0.31981981981981983,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            224,
+            18,
+            3
+          ],
+          [
+            128,
+            73,
+            31
+          ],
+          [
+            54,
+            201,
+            186
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 33,
+            "fp": 16,
+            "fn": 8,
+            "precision": 0.673469387755102,
+            "recall": 0.8048780487804879
+          },
+          "mf20": {
+            "tp": 41,
+            "fp": 53,
+            "fn": 0,
+            "precision": 0.43617021276595747,
+            "recall": 1.0
+          },
+          "mf21": {
+            "tp": 36,
+            "fp": 47,
+            "fn": 5,
+            "precision": 0.43373493975903615,
+            "recall": 0.8780487804878049
+          },
+          "mf22": {
+            "tp": 37,
+            "fp": 11,
+            "fn": 4,
+            "precision": 0.7708333333333334,
+            "recall": 0.9024390243902439
+          },
+          "mf23": {
+            "tp": 37,
+            "fp": 42,
+            "fn": 4,
+            "precision": 0.46835443037974683,
+            "recall": 0.9024390243902439
+          },
+          "mf24": {
+            "tp": 40,
+            "fp": 13,
+            "fn": 0,
+            "precision": 0.7547169811320755,
+            "recall": 1.0
+          }
+        }
+      },
+      "bestPrecisionAtCoverage30": {
+        "threshold": 0.9864830672740936,
+        "metrics": {
+          "tp": 34,
+          "fp": 15,
+          "fn": 211,
+          "precision": 0.6938775510204082,
+          "recall": 0.13877551020408163,
+          "macroLibraryRecall": 0.13851626016260163,
+          "acceptedKnownPairs": 49,
+          "perLibrary": {
+            "mf19": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 40,
+              "precision": 1.0,
+              "recall": 0.024390243902439025
+            },
+            "mf20": {
+              "tp": 7,
+              "fp": 0,
+              "fn": 34,
+              "precision": 1.0,
+              "recall": 0.17073170731707318
+            },
+            "mf21": {
+              "tp": 6,
+              "fp": 10,
+              "fn": 35,
+              "precision": 0.375,
+              "recall": 0.14634146341463414
+            },
+            "mf22": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 41,
+              "precision": null,
+              "recall": 0.0
+            },
+            "mf23": {
+              "tp": 17,
+              "fp": 4,
+              "fn": 24,
+              "precision": 0.8095238095238095,
+              "recall": 0.4146341463414634
+            },
+            "mf24": {
+              "tp": 3,
+              "fp": 1,
+              "fn": 37,
+              "precision": 0.75,
+              "recall": 0.075
+            }
+          }
+        },
+        "purpose": "diagnostic precision at >=30 accepted pairs; NOT an approved operating point"
+      },
+      "summarySHA256": "4630ac9576392e3e23d0ac571575aa83fb75685350a5747783090f5a28b51230"
+    },
+    {
+      "seed": 41,
+      "epoch": 1,
+      "officialQualifies": false,
+      "officialMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 0,
+        "fp": 0,
+        "fn": 245,
+        "acceptedKnownPairs": 0,
+        "precision": null,
+        "recall": 0.0,
+        "macroLibraryRecall": 0.0,
+        "automationFraction": 0.0,
+        "acceptedUncertainPairs": 0,
+        "acceptedUncertainFraction": 0.0,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            240,
+            3,
+            2
+          ],
+          [
+            164,
+            48,
+            20
+          ],
+          [
+            83,
+            192,
+            166
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf20": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf21": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf22": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf23": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf24": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 40,
+            "precision": null,
+            "recall": 0.0
+          }
+        }
+      },
+      "argmaxMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 240,
+        "fp": 247,
+        "fn": 5,
+        "acceptedKnownPairs": 487,
+        "precision": 0.4928131416837782,
+        "recall": 0.9795918367346939,
+        "macroLibraryRecall": 0.9796747967479674,
+        "automationFraction": 0.48596491228070177,
+        "acceptedUncertainPairs": 67,
+        "acceptedUncertainFraction": 0.30180180180180183,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            240,
+            3,
+            2
+          ],
+          [
+            164,
+            48,
+            20
+          ],
+          [
+            83,
+            192,
+            166
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 39,
+            "fp": 20,
+            "fn": 2,
+            "precision": 0.6610169491525424,
+            "recall": 0.9512195121951219
+          },
+          "mf20": {
+            "tp": 41,
+            "fp": 51,
+            "fn": 0,
+            "precision": 0.44565217391304346,
+            "recall": 1.0
+          },
+          "mf21": {
+            "tp": 40,
+            "fp": 84,
+            "fn": 1,
+            "precision": 0.3225806451612903,
+            "recall": 0.975609756097561
+          },
+          "mf22": {
+            "tp": 40,
+            "fp": 17,
+            "fn": 1,
+            "precision": 0.7017543859649122,
+            "recall": 0.975609756097561
+          },
+          "mf23": {
+            "tp": 40,
+            "fp": 54,
+            "fn": 1,
+            "precision": 0.425531914893617,
+            "recall": 0.975609756097561
+          },
+          "mf24": {
+            "tp": 40,
+            "fp": 21,
+            "fn": 0,
+            "precision": 0.6557377049180327,
+            "recall": 1.0
+          }
+        }
+      },
+      "bestPrecisionAtCoverage30": {
+        "threshold": 0.899879515171051,
+        "metrics": {
+          "tp": 64,
+          "fp": 16,
+          "fn": 181,
+          "precision": 0.8,
+          "recall": 0.2612244897959184,
+          "macroLibraryRecall": 0.2610772357723577,
+          "acceptedKnownPairs": 80,
+          "perLibrary": {
+            "mf19": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 39,
+              "precision": 1.0,
+              "recall": 0.04878048780487805
+            },
+            "mf20": {
+              "tp": 18,
+              "fp": 4,
+              "fn": 23,
+              "precision": 0.8181818181818182,
+              "recall": 0.43902439024390244
+            },
+            "mf21": {
+              "tp": 15,
+              "fp": 9,
+              "fn": 26,
+              "precision": 0.625,
+              "recall": 0.36585365853658536
+            },
+            "mf22": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 41,
+              "precision": null,
+              "recall": 0.0
+            },
+            "mf23": {
+              "tp": 20,
+              "fp": 2,
+              "fn": 21,
+              "precision": 0.9090909090909091,
+              "recall": 0.4878048780487805
+            },
+            "mf24": {
+              "tp": 9,
+              "fp": 1,
+              "fn": 31,
+              "precision": 0.9,
+              "recall": 0.225
+            }
+          }
+        },
+        "purpose": "diagnostic precision at >=30 accepted pairs; NOT an approved operating point"
+      },
+      "summarySHA256": "ef168bce5eb2da0719a0c39d86b30a6a5cb9e512815a5ee471f318f0c21680f8"
+    },
+    {
+      "seed": 41,
+      "epoch": 2,
+      "officialQualifies": false,
+      "officialMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 0,
+        "fp": 0,
+        "fn": 245,
+        "acceptedKnownPairs": 0,
+        "precision": null,
+        "recall": 0.0,
+        "macroLibraryRecall": 0.0,
+        "automationFraction": 0.0,
+        "acceptedUncertainPairs": 0,
+        "acceptedUncertainFraction": 0.0,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            235,
+            9,
+            1
+          ],
+          [
+            156,
+            65,
+            11
+          ],
+          [
+            82,
+            256,
+            103
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf20": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf21": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf22": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf23": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf24": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 40,
+            "precision": null,
+            "recall": 0.0
+          }
+        }
+      },
+      "argmaxMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 235,
+        "fp": 238,
+        "fn": 10,
+        "acceptedKnownPairs": 473,
+        "precision": 0.49682875264270615,
+        "recall": 0.9591836734693877,
+        "macroLibraryRecall": 0.959349593495935,
+        "automationFraction": 0.4649122807017544,
+        "acceptedUncertainPairs": 57,
+        "acceptedUncertainFraction": 0.25675675675675674,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            235,
+            9,
+            1
+          ],
+          [
+            156,
+            65,
+            11
+          ],
+          [
+            82,
+            256,
+            103
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 36,
+            "fp": 23,
+            "fn": 5,
+            "precision": 0.6101694915254238,
+            "recall": 0.8780487804878049
+          },
+          "mf20": {
+            "tp": 41,
+            "fp": 48,
+            "fn": 0,
+            "precision": 0.4606741573033708,
+            "recall": 1.0
+          },
+          "mf21": {
+            "tp": 39,
+            "fp": 82,
+            "fn": 2,
+            "precision": 0.32231404958677684,
+            "recall": 0.9512195121951219
+          },
+          "mf22": {
+            "tp": 39,
+            "fp": 16,
+            "fn": 2,
+            "precision": 0.7090909090909091,
+            "recall": 0.9512195121951219
+          },
+          "mf23": {
+            "tp": 40,
+            "fp": 50,
+            "fn": 1,
+            "precision": 0.4444444444444444,
+            "recall": 0.975609756097561
+          },
+          "mf24": {
+            "tp": 40,
+            "fp": 19,
+            "fn": 0,
+            "precision": 0.6779661016949152,
+            "recall": 1.0
+          }
+        }
+      },
+      "bestPrecisionAtCoverage30": {
+        "threshold": 0.970683217048645,
+        "metrics": {
+          "tp": 110,
+          "fp": 53,
+          "fn": 135,
+          "precision": 0.6748466257668712,
+          "recall": 0.4489795918367347,
+          "macroLibraryRecall": 0.4495934959349594,
+          "acceptedKnownPairs": 163,
+          "perLibrary": {
+            "mf19": {
+              "tp": 11,
+              "fp": 5,
+              "fn": 30,
+              "precision": 0.6875,
+              "recall": 0.2682926829268293
+            },
+            "mf20": {
+              "tp": 19,
+              "fp": 10,
+              "fn": 22,
+              "precision": 0.6551724137931034,
+              "recall": 0.4634146341463415
+            },
+            "mf21": {
+              "tp": 22,
+              "fp": 21,
+              "fn": 19,
+              "precision": 0.5116279069767442,
+              "recall": 0.5365853658536586
+            },
+            "mf22": {
+              "tp": 12,
+              "fp": 0,
+              "fn": 29,
+              "precision": 1.0,
+              "recall": 0.2926829268292683
+            },
+            "mf23": {
+              "tp": 22,
+              "fp": 14,
+              "fn": 19,
+              "precision": 0.6111111111111112,
+              "recall": 0.5365853658536586
+            },
+            "mf24": {
+              "tp": 24,
+              "fp": 3,
+              "fn": 16,
+              "precision": 0.8888888888888888,
+              "recall": 0.6
+            }
+          }
+        },
+        "purpose": "diagnostic precision at >=30 accepted pairs; NOT an approved operating point"
+      },
+      "summarySHA256": "2751bf86720e91a0cd1193cbb44305cf8ccc348187d7b42cc4b8196508fe3de8"
+    },
+    {
+      "seed": 41,
+      "epoch": 3,
+      "officialQualifies": false,
+      "officialMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 0,
+        "fp": 0,
+        "fn": 245,
+        "acceptedKnownPairs": 0,
+        "precision": null,
+        "recall": 0.0,
+        "macroLibraryRecall": 0.0,
+        "automationFraction": 0.0,
+        "acceptedUncertainPairs": 0,
+        "acceptedUncertainFraction": 0.0,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            236,
+            9,
+            0
+          ],
+          [
+            158,
+            58,
+            16
+          ],
+          [
+            88,
+            265,
+            88
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf20": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf21": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf22": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf23": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 41,
+            "precision": null,
+            "recall": 0.0
+          },
+          "mf24": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 40,
+            "precision": null,
+            "recall": 0.0
+          }
+        }
+      },
+      "argmaxMetrics": {
+        "pairs": 1140,
+        "knownPairs": 918,
+        "uncertainPairs": 222,
+        "tp": 236,
+        "fp": 246,
+        "fn": 9,
+        "acceptedKnownPairs": 482,
+        "precision": 0.4896265560165975,
+        "recall": 0.963265306122449,
+        "macroLibraryRecall": 0.9634146341463414,
+        "automationFraction": 0.5,
+        "acceptedUncertainPairs": 88,
+        "acceptedUncertainFraction": 0.3963963963963964,
+        "missingPredictionPairs": 0,
+        "classOrder": [
+          "same",
+          "related",
+          "unrelated"
+        ],
+        "argmaxConfusionMatrix": [
+          [
+            236,
+            9,
+            0
+          ],
+          [
+            158,
+            58,
+            16
+          ],
+          [
+            88,
+            265,
+            88
+          ]
+        ],
+        "perLibrary": {
+          "mf19": {
+            "tp": 37,
+            "fp": 21,
+            "fn": 4,
+            "precision": 0.6379310344827587,
+            "recall": 0.9024390243902439
+          },
+          "mf20": {
+            "tp": 41,
+            "fp": 59,
+            "fn": 0,
+            "precision": 0.41,
+            "recall": 1.0
+          },
+          "mf21": {
+            "tp": 39,
+            "fp": 75,
+            "fn": 2,
+            "precision": 0.34210526315789475,
+            "recall": 0.9512195121951219
+          },
+          "mf22": {
+            "tp": 40,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.6666666666666666,
+            "recall": 0.975609756097561
+          },
+          "mf23": {
+            "tp": 39,
+            "fp": 40,
+            "fn": 2,
+            "precision": 0.4936708860759494,
+            "recall": 0.9512195121951219
+          },
+          "mf24": {
+            "tp": 40,
+            "fp": 31,
+            "fn": 0,
+            "precision": 0.5633802816901409,
+            "recall": 1.0
+          }
+        }
+      },
+      "bestPrecisionAtCoverage30": {
+        "threshold": 0.9869768023490906,
+        "metrics": {
+          "tp": 45,
+          "fp": 20,
+          "fn": 200,
+          "precision": 0.6923076923076923,
+          "recall": 0.1836734693877551,
+          "macroLibraryRecall": 0.1834349593495935,
+          "acceptedKnownPairs": 65,
+          "perLibrary": {
+            "mf19": {
+              "tp": 13,
+              "fp": 5,
+              "fn": 28,
+              "precision": 0.7222222222222222,
+              "recall": 0.3170731707317073
+            },
+            "mf20": {
+              "tp": 0,
+              "fp": 1,
+              "fn": 41,
+              "precision": 0.0,
+              "recall": 0.0
+            },
+            "mf21": {
+              "tp": 9,
+              "fp": 5,
+              "fn": 32,
+              "precision": 0.6428571428571429,
+              "recall": 0.21951219512195122
+            },
+            "mf22": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 27,
+              "precision": 1.0,
+              "recall": 0.34146341463414637
+            },
+            "mf23": {
+              "tp": 4,
+              "fp": 8,
+              "fn": 37,
+              "precision": 0.3333333333333333,
+              "recall": 0.0975609756097561
+            },
+            "mf24": {
+              "tp": 5,
+              "fp": 1,
+              "fn": 35,
+              "precision": 0.8333333333333334,
+              "recall": 0.125
+            }
+          }
+        },
+        "purpose": "diagnostic precision at >=30 accepted pairs; NOT an approved operating point"
+      },
+      "summarySHA256": "335ebc69d7b7c6e2f205228b1013ce2c4f468146a57aafd3300fd0ade8cc5a1f"
+    }
+  ],
+  "frozenBaselineDevelopment": {
+    "pairs": 1140,
+    "knownPairs": 918,
+    "uncertainPairs": 222,
+    "tp": 73,
+    "fp": 3,
+    "fn": 172,
+    "acceptedKnownPairs": 76,
+    "precision": 0.9605263157894737,
+    "recall": 0.2979591836734694,
+    "macroLibraryRecall": 0.299390243902439,
+    "automationFraction": 0.06666666666666667,
+    "acceptedUncertainPairs": 0,
+    "acceptedUncertainFraction": 0.0,
+    "missingPredictionPairs": 0,
+    "classOrder": [
+      "same",
+      "related",
+      "unrelated"
+    ],
+    "argmaxConfusionMatrix": [
+      [
+        225,
+        9,
+        11
+      ],
+      [
+        144,
+        53,
+        35
+      ],
+      [
+        237,
+        131,
+        73
+      ]
+    ],
+    "perLibrary": {
+      "mf19": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 31,
+        "precision": 1.0,
+        "recall": 0.24390243902439024
+      },
+      "mf20": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 36,
+        "precision": 1.0,
+        "recall": 0.12195121951219512
+      },
+      "mf21": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 30,
+        "precision": 1.0,
+        "recall": 0.2682926829268293
+      },
+      "mf22": {
+        "tp": 13,
+        "fp": 1,
+        "fn": 28,
+        "precision": 0.9285714285714286,
+        "recall": 0.3170731707317073
+      },
+      "mf23": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 33,
+        "precision": 1.0,
+        "recall": 0.1951219512195122
+      },
+      "mf24": {
+        "tp": 26,
+        "fp": 2,
+        "fn": 14,
+        "precision": 0.9285714285714286,
+        "recall": 0.65
+      }
+    }
+  },
+  "errorExamples": {
+    "falsePositive": {
+      "count": 3,
+      "examples": [
+        {
+          "library": "mf21",
+          "first": "mf21-i12",
+          "second": "mf21-i20",
+          "relation": "related",
+          "probabilities": [
+            0.9832654893398285,
+            0.01021183468401432,
+            0.006522707873955369
+          ],
+          "texts": [
+            "MC-71 legend repair tissue sample awaits the conservator's review.",
+            "Correction for MC-72: the crack crosses the North Pier label and the Ferry Steps label, not South Pier. My handwritten N looked like an S. Revise the diagram for the 1910 pocket map before the support design is finalized."
+          ]
+        },
+        {
+          "library": "mf20",
+          "first": "mf20-i12",
+          "second": "mf20-i19",
+          "relation": "related",
+          "probabilities": [
+            0.9832296371459961,
+            0.010290476959198713,
+            0.0064798390958458185
+          ],
+          "texts": [
+            "LO-ES greenhouse button fits now; capture the small-window screenshot tomorrow.",
+            "LO-FR release sheet: Lantern Orchard's French full game includes the greenhouse tutorial and the winter market. Jules owns the French glossary; the first review question is whether the market vendor addresses the player formally."
+          ]
+        },
+        {
+          "library": "mf21",
+          "first": "mf21-i13",
+          "second": "mf21-i20",
+          "relation": "unrelated",
+          "probabilities": [
+            0.9832245111465454,
+            0.010353395249694586,
+            0.006422070553526282
+          ],
+          "texts": [
+            "MC-88 plate-seven cradle angle reduced; the gutter now rests comfortably.",
+            "Correction for MC-72: the crack crosses the North Pier label and the Ferry Steps label, not South Pier. My handwritten N looked like an S. Revise the diagram for the 1910 pocket map before the support design is finalized."
+          ]
+        }
+      ]
+    },
+    "missedSame": {
+      "count": 197,
+      "examples": [
+        {
+          "library": "mf24",
+          "first": "mf24-i05",
+          "second": "mf24-i10",
+          "relation": "same",
+          "probabilities": [
+            0.9831411242485046,
+            0.01072948332875967,
+            0.0061293537728488445
+          ],
+          "texts": [
+            "AW-S planning note: the detached studio at 14 Alder Walk has a flat roof and its own proposed inverter position by the pottery sink. The roof sketch shows a low vent that constrains the first layout.",
+            "Studio flat-roof survey: the low vent is farther from the rear parapet than the draft drawing showed. The installer will revise panel spacing for AW-S. The proposed inverter position remains beside the pottery sink pending their assessment."
+          ]
+        },
+        {
+          "library": "mf24",
+          "first": "mf24-i02",
+          "second": "mf24-i13",
+          "relation": "same",
+          "probabilities": [
+            0.983136385679245,
+            0.01081215962767601,
+            0.006051428848877549
+          ],
+          "texts": [
+            "LL-22 planning at 22 Linden Lane: the west-facing roof is partly shaded by a neighbor's tall pear tree. We asked for a shade review before choosing between the two array sizes on the household's preliminary quote.",
+            "Our neighborhood quote clinic will compare QC-8's chimney-shadow review with LL-22's pear-tree shade review. Bring the timed Quarry Close roof image and Linden Lane tree image so the installer can explain each household's outstanding layout question."
+          ]
+        },
+        {
+          "library": "mf21",
+          "first": "mf21-i07",
+          "second": "mf21-i16",
+          "relation": "same",
+          "probabilities": [
+            0.9831262528896332,
+            0.010820533148944378,
+            0.006053190678358078
+          ],
+          "texts": [
+            "The imaging session pairs MC-71's flat soundings legend with MC-93's raised, painted harbor key. Use the same color target for the Eastmere wall chart and Mount Vale relief map, then take an additional side view for the plaster object.",
+            "Eastmere display planning joins MC-71, the 1892 wall chart, and MC-72, the 1910 pocket map. Photograph the same North Pier area on both for the exhibition comparison, while retaining each object's own treatment record and accession label."
+          ]
+        },
+        {
+          "library": "mf21",
+          "first": "mf21-i04",
+          "second": "mf21-i10",
+          "relation": "same",
+          "probabilities": [
+            0.9831242263317108,
+            0.010902618058025837,
+            0.005973230814561248
+          ],
+          "texts": [
+            "MC-72 intake: Eastmere harbor pocket map, dated 1910, folded into a blue cloth case. The central fold has cracked through two harbor labels. Unlike the wall format, this object has no hanging rod.",
+            "Pocket Eastmere map update: the blue case is stable enough for photography. The brittle central fold still needs support during opening. Put the unfolded view and the closed-case view together in MC-72's condition record."
+          ]
+        },
+        {
+          "library": "mf20",
+          "first": "mf20-i07",
+          "second": "mf20-i19",
+          "relation": "same",
+          "probabilities": [
+            0.9831230044364929,
+            0.010792027227580547,
+            0.0060850088484585285
+          ],
+          "texts": [
+            "Jules settled the winter-market address in LO-FR: use the formal form throughout the vendor exchange. The greenhouse guide remains informal. Both speakers appear in Lantern Orchard's French release, so note the speaker distinction in the glossary.",
+            "LO-FR release sheet: Lantern Orchard's French full game includes the greenhouse tutorial and the winter market. Jules owns the French glossary; the first review question is whether the market vendor addresses the player formally."
+          ]
+        },
+        {
+          "library": "mf21",
+          "first": "mf21-i07",
+          "second": "mf21-i08",
+          "relation": "same",
+          "probabilities": [
+            0.9831127822399139,
+            0.010720010846853256,
+            0.006167225772514939
+          ],
+          "texts": [
+            "The imaging session pairs MC-71's flat soundings legend with MC-93's raised, painted harbor key. Use the same color target for the Eastmere wall chart and Mount Vale relief map, then take an additional side view for the plaster object.",
+            "The wall chart's soundings-legend tear measures 34 millimeters after flattening the curled edge. My initial 43 millimeters included a crease. Amend the MC-71 condition diagram; no treatment decision follows from the corrected length alone."
+          ]
+        },
+        {
+          "library": "mf23",
+          "first": "mf23-i03",
+          "second": "mf23-i15",
+          "relation": "same",
+          "probabilities": [
+            0.983106791973114,
+            0.010820414870977402,
+            0.006072754273191094
+          ],
+          "texts": [
+            "OG-C visit: Cedar at Orchard Gate is the green hive beside the rain barrel. We photographed the brood pattern on frame three and saw the marked queen. The frame map is clipped inside the Orchard Gate inspection book.",
+            "Orchard Gate visit list covers Cedar OG-C and Willow OG-W. Bring the camera for Cedar's corrected frame-four comparison and the scale for Willow's assembled feeder. Both colonies are inside the same locked gate, so arrange one access slot."
+          ]
+        },
+        {
+          "library": "mf21",
+          "first": "mf21-i07",
+          "second": "mf21-i12",
+          "relation": "same",
+          "probabilities": [
+            0.9830969572067261,
+            0.010682803113013506,
+            0.006220232462510467
+          ],
+          "texts": [
+            "The imaging session pairs MC-71's flat soundings legend with MC-93's raised, painted harbor key. Use the same color target for the Eastmere wall chart and Mount Vale relief map, then take an additional side view for the plaster object.",
+            "MC-71 legend repair tissue sample awaits the conservator's review."
+          ]
+        }
+      ]
+    },
+    "acceptedAmbiguous": {
+      "count": 0,
+      "examples": []
+    },
+    "representative": {
+      "seed": 17,
+      "epoch": 3,
+      "threshold": 0.9831428229808807,
+      "diagnosticOnly": true,
+      "doesNotChangeOfficialSelection": true
+    }
+  },
+  "limitation": "Post-run explanation of development errors, not a new operating-point selection or heldout comparison."
+}

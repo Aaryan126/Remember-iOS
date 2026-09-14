@@ -1,0 +1,233 @@
+{
+  "id": "hv14a",
+  "split": "calibration",
+  "storyFamily": "hv14",
+  "templateFamily": "hv14",
+  "threads": [
+    "oat-stock",
+    "winter-drinks",
+    "grinder-service",
+    "staff-aprons"
+  ],
+  "threadDescriptions": {
+    "oat-stock": "Keep the café's oat-drink supply accurate and sufficient for service.",
+    "winter-drinks": "Develop and publish the winter drinks menu with tested recipes and costs.",
+    "grinder-service": "Diagnose and repair uneven output from the counter grinder.",
+    "staff-aprons": "Fit and order replacement staff aprons."
+  },
+  "relatedThreads": [
+    [
+      "oat-stock",
+      "winter-drinks"
+    ],
+    [
+      "grinder-service",
+      "winter-drinks"
+    ]
+  ],
+  "challenges": [
+    "shared_ingredient",
+    "inventory_correction",
+    "bridge",
+    "noisy_ocr"
+  ],
+  "items": [
+    {
+      "id": "hv14a-i01",
+      "text": "Morning oat count: seven sealed cartons behind the bar, six in the storeroom. Reorder at twelve because delivery takes two days.",
+      "modality": "note",
+      "memberships": [
+        "oat-stock"
+      ],
+      "rationale": "Counts and sets reorder rule for oat supply."
+    },
+    {
+      "id": "hv14a-i02",
+      "text": "Winter drinks test: toasted-date latte at 250 ml. Try the syrup at 15 ml first; current sample overwhelms the coffee.",
+      "modality": "voice",
+      "memberships": [
+        "winter-drinks"
+      ],
+      "rationale": "Develops menu recipe."
+    },
+    {
+      "id": "hv14a-i03",
+      "text": "Apron sizing sheet: Len wants longer ties, Priya shorter neck strap. Send actual measurements, not just S/M.",
+      "modality": "file",
+      "memberships": [
+        "staff-aprons"
+      ],
+      "rationale": "Defines replacement apron fit requirements."
+    },
+    {
+      "id": "hv14a-i04",
+      "text": "Grinder shot comparison: left basket gets mostly fines; burr collar clicks under load. Stop adjusting until service checks alignment.",
+      "modality": "video",
+      "memberships": [
+        "grinder-service"
+      ],
+      "rationale": "Documents grinder fault."
+    },
+    {
+      "id": "hv14a-i05",
+      "text": "Delivery invoice OCR: OAT DRlNK 6 x 1L / qty 2 / lot OD83. Received two cases, both sealed.",
+      "modality": "image",
+      "memberships": [
+        "oat-stock"
+      ],
+      "rationale": "Records oat inventory receipt despite OCR noise."
+    },
+    {
+      "id": "hv14a-i06",
+      "text": "Date latte panel liked 9 ml syrup better than 15. Keep 250 ml cup; cost the lower-syrup recipe for the winter board.",
+      "modality": "note",
+      "memberships": [
+        "winter-drinks"
+      ],
+      "rationale": "Revises winter recipe after tasting."
+    },
+    {
+      "id": "hv14a-i07",
+      "text": "Seven? one open; ask Len.",
+      "modality": "note",
+      "memberships": [],
+      "rationale": "Ambiguous count and person without identifiable stock or apparel referent."
+    },
+    {
+      "id": "hv14a-i08",
+      "text": "Stock correction: morning total was thirteen cartons but two behind-bar cartons were empty display props. Actual usable oat stock was eleven before the delivery.",
+      "modality": "note",
+      "memberships": [
+        "oat-stock"
+      ],
+      "rationale": "Corrects starting inventory count."
+    },
+    {
+      "id": "hv14a-i09",
+      "text": "Grinder service found a loose upper-burr carrier. Replacement screw ordered; technician says keep this grinder off until fitted.",
+      "modality": "file",
+      "memberships": [
+        "grinder-service"
+      ],
+      "rationale": "Identifies repair needed."
+    },
+    {
+      "id": "hv14a-i10",
+      "text": "Apron supplier can lengthen ties by 20 cm at no charge. Priya tried a pinned neck strap and marked the comfortable length.",
+      "modality": "image",
+      "memberships": [
+        "staff-aprons"
+      ],
+      "rationale": "Advances apron fitting and order."
+    },
+    {
+      "id": "hv14a-i11",
+      "text": "Winter menu costing sheet: date latte with oat base adds 22p over dairy at today's carton price. Show one fixed menu price; don't print the ingredient-cost arithmetic.",
+      "modality": "file",
+      "memberships": [
+        "winter-drinks"
+      ],
+      "rationale": "Costs and presents winter drink."
+    },
+    {
+      "id": "hv14a-i12",
+      "text": "Oat supplier says next delivery will be a day late. We have enough for ordinary service but not a large promotion.",
+      "modality": "voice",
+      "memberships": [
+        "oat-stock"
+      ],
+      "rationale": "Updates oat replenishment risk."
+    },
+    {
+      "id": "hv14a-i13",
+      "text": "Winter launch stock plan: reserve eight oat cartons for Saturday's date-latte samples and increase the next oat order by one case. Delay the printed menu's launch date to Sunday if the late delivery doesn't arrive; replace the old Friday launch proof. The tasting table will use small cups, but the bar will still serve ordinary drinks, so the reserve cannot be the entire stock available to the shift. Put a dated count sheet on the storeroom door and have the opener check the delivery before approving the board for printing. If the carton count is short, leave the regular board up and tell the printer which dated proof to hold. We already approved the drink recipe and price; only its public start date depends on this delivery. Count unopened cartons after sampling to establish Monday's reorder quantity.",
+      "modality": "note",
+      "memberships": [
+        "oat-stock",
+        "winter-drinks"
+      ],
+      "rationale": "Allocates/orders stock and changes menu publication timing."
+    },
+    {
+      "id": "hv14a-i14",
+      "text": "Winter board proof: 'Toasted Date Latte', 250 ml, one price. Remove the crossed-out Friday launch line before printing.",
+      "modality": "image",
+      "memberships": [
+        "winter-drinks"
+      ],
+      "rationale": "Checks final menu publication artifact."
+    },
+    {
+      "id": "hv14a-i15",
+      "text": "Burr carrier secured. Grind-size spread now even in three test shots; service ticket closed.",
+      "modality": "video",
+      "memberships": [
+        "grinder-service"
+      ],
+      "rationale": "Verifies grinder repair."
+    },
+    {
+      "id": "hv14a-i16",
+      "text": "Apron order confirmed: six black, Len's pair with longer ties, Priya's pair with shortened neck straps, two standard spares.",
+      "modality": "note",
+      "memberships": [
+        "staff-aprons"
+      ],
+      "rationale": "Places fitted apparel order."
+    },
+    {
+      "id": "hv14a-i17",
+      "text": "Oat case arrived before close. Count gives enough for eight-carton sampling reserve plus weekday service; put the oldest lot in front.",
+      "modality": "image",
+      "memberships": [
+        "oat-stock"
+      ],
+      "rationale": "Confirms stock sufficiency and rotation."
+    },
+    {
+      "id": "hv14a-i18",
+      "text": "Voice scrap: 'change the old price before Sunday' with background milk-steamer noise.",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "Café setting does not identify which priced item or document."
+    },
+    {
+      "id": "hv14a-i19",
+      "text": "Date latte winter board printed and hung. Final batch uses the approved 9 ml syrup; label the pump to avoid returning to 15.",
+      "modality": "note",
+      "memberships": [
+        "winter-drinks"
+      ],
+      "rationale": "Launches finalized recipe and menu."
+    },
+    {
+      "id": "hv14a-i20",
+      "text": "Delivered aprons match the marked lengths. Priya can reach the till without the neck pulling; put the two spares upstairs.",
+      "modality": "video",
+      "memberships": [
+        "staff-aprons"
+      ],
+      "rationale": "Verifies clothing order fit."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv14a-i13",
+      "threads": [
+        "oat-stock",
+        "winter-drinks"
+      ]
+    },
+    "revision": {
+      "earlier": "hv14a-i01",
+      "later": "hv14a-i08",
+      "thread": "oat-stock"
+    },
+    "rename": null,
+    "undo": {
+      "item": "hv14a-i11",
+      "wrongThread": "oat-stock",
+      "reason": "Hypothetical correction: costing a recipe references oat prices but does not count, reserve or replenish inventory."
+    }
+  }
+}

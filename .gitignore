@@ -167,6 +167,7 @@ xcuserdata/
 *.ipa
 *.dSYM.zip
 *.dSYM
+*.xcresult/
 
 # Local ML model weights and caches
 models/
@@ -175,6 +176,21 @@ models/
 *.gguf
 *.mlmodelc/
 *.mlpackage/
+*.pt
+*.pth
+*.pt.gz
+*.pth.gz
+
+# Evaluation execution artifacts stay local; curated reports, fictional datasets,
+# review packets, protocols and source code remain versionable.
+/Evaluation/MatcherFeasibility/runs/
+/Evaluation/MatcherFeasibility/setup-attempts/
+/Evaluation/MatcherFeasibility/environment.json
+/Evaluation/MatcherScreening/runs/
+/Evaluation/MatcherValidation/runs/validation-*/
+/Evaluation/Organization/results/
+/Evaluation/OrganizationDiagnostics/runs/
+/Evaluation/**/worker.lock
 
 # Ruby
 .bundle/
@@ -224,6 +240,14 @@ fastlane/test_output/
 *.sqlite3
 *.db
 *.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
 *.rdb
 
 # Archives and packaged artifacts

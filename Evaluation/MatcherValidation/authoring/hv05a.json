@@ -1,0 +1,30 @@
+{
+  "id":"hv05a","split":"train","storyFamily":"hv05","templateFamily":"hv05a-neighborhood-spanish",
+  "threads":["market-speaking","radio-listening","bike-repair","class-refund"],
+  "threadDescriptions":{"market-speaking":"Prepare and practice Spanish conversations at the neighborhood market","radio-listening":"Build listening comprehension with the fictional Radio Patio recordings","bike-repair":"Replace the rear brake cable on the commuting bicycle","class-refund":"Recover payment for a cancelled Spanish evening course"},
+  "relatedThreads":[["market-speaking","radio-listening"],["market-speaking","class-refund"],["radio-listening","class-refund"]],
+  "challenges":["shared-teacher-name","renamed-objective","sparse-fragment","bridge"],
+  "items":[
+    {"id":"hv05a-i01","text":"Spanish market practice: ask for half a kilo, ask the price, then understand the answer without switching languages.","modality":"note","memberships":["market-speaking"],"rationale":"States the market speaking objective."},
+    {"id":"hv05a-i02","text":"Receipt photo: rear brake cable, 1.6 mm. Bike shop says bring the old housing when collecting.","modality":"image","memberships":["bike-repair"],"rationale":"Brake replacement purchase."},
+    {"id":"hv05a-i03","text":"Radio Patio lesson 12. Heard the numbers but lost the street names. Replay the weather segment at normal speed tomorrow.","modality":"voice","memberships":["radio-listening"],"rationale":"Specific listening practice."},
+    {"id":"hv05a-i04","text":"Evening Spanish cancelled; Alma's email offers a credit. I paid 84 and want the money returned instead.","modality":"file","memberships":["class-refund"],"rationale":"Cancellation reimbursement request."},
+    {"id":"hv05a-i05","text":"Alma corrected my market card: use the polite request first. Keep the stallholder's likely reply on the reverse.","modality":"note","memberships":["market-speaking"],"rationale":"Speaking prompt revision."},
+    {"id":"hv05a-i06","text":"12 / Alma / green one?","modality":"image","memberships":[],"rationale":"Names and number do not identify an objective."},
+    {"id":"hv05a-i07","text":"The cable is fitted but the rear lever still reaches the handlebar. Check tension before riding to work.","modality":"voice","memberships":["bike-repair"],"rationale":"Brake repair follow-up."},
+    {"id":"hv05a-i08","text":"Refund form sent with the course receipt. Cancellation date is the 18th, not the 8th as I wrote in my first email.","modality":"note","memberships":["class-refund"],"rationale":"Continues reimbursement with corrected date."},
+    {"id":"hv05a-i09","text":"Radio Patio: the presenter said fourteen, not forty. I copied the transcript too soon; listen blind once before checking it.","modality":"file","memberships":["radio-listening"],"rationale":"Listening error and practice adjustment."},
+    {"id":"hv05a-i10","text":"Market target update: stop rehearsing half-kilo orders. The stalls sell by the piece here; ask for three tomatoes and two peppers.","modality":"voice","memberships":["market-speaking"],"rationale":"Explicit correction to initial speaking plan."},
+    {"id":"hv05a-i11","text":"Call this notebook section Stall conversations now; it used to be Market speaking. Same cards, just a name I will recognize.","modality":"note","memberships":["market-speaking"],"rationale":"Explicit rename of the practice section."},
+    {"id":"hv05a-i12","text":"Alma says accounting approved the 84 refund; allow five working days. Save the message until the bank entry appears.","modality":"image","memberships":["class-refund"],"rationale":"Refund processing confirmation."},
+    {"id":"hv05a-i13","text":"Practice clip: I order three tomatoes, then pause while the seller answers. Still saying the question as one long word.","modality":"video","memberships":["market-speaking"],"rationale":"Recorded market speaking rehearsal."},
+    {"id":"hv05a-i14","text":"Use Patio's produce interview for two exercises: transcribe the seller's prices for listening practice, then turn those replies into my stall-conversation cards. I need both the audio timestamps and the spoken prompts.","modality":"note","memberships":["radio-listening","market-speaking"],"rationale":"Produces listening annotations and speaking materials."},
+    {"id":"hv05a-i15","text":"Rear brake passes the slow driveway test. Trim cable tail and fit an end cap before calling the repair done.","modality":"video","memberships":["bike-repair"],"rationale":"Repair verification and remaining step."},
+    {"id":"hv05a-i16","text":"Patio episode 13 has two voices overlapping. Save it for Friday; twelve is now understandable without the transcript.","modality":"note","memberships":["radio-listening"],"rationale":"Listening progression."},
+    {"id":"hv05a-i17","text":"Ask again on Friday. They may have changed it.","modality":"voice","memberships":[],"rationale":"Missing referent prevents reliable assignment."},
+    {"id":"hv05a-i18","text":"Market debrief: managed the order, but needed the price repeated. Add one short request for repetition to the stall cards.","modality":"voice","memberships":["market-speaking"],"rationale":"Updates market conversation practice."},
+    {"id":"hv05a-i19","text":"Bank screenshot: course repayment 84 received. The cancelled evening class claim can be closed.","modality":"image","memberships":["class-refund"],"rationale":"Refund completion."},
+    {"id":"hv05a-i20","text":"Patio listening log: street names 4/6 today, numbers 6/6. Next replay without slowing playback.","modality":"file","memberships":["radio-listening"],"rationale":"Listening performance log."}
+  ],
+  "historyChecks":{"bridge":{"item":"hv05a-i14","threads":["radio-listening","market-speaking"]},"revision":{"earlier":"hv05a-i01","later":"hv05a-i10","thread":"market-speaking"},"rename":{"thread":"market-speaking","from":"Market speaking","to":"Stall conversations","evidenceItem":"hv05a-i11"},"undo":{"item":"hv05a-i12","wrongThread":"market-speaking","reason":"Hypothetically undo an association based solely on shared teacher Alma; the source documents a refund."}}
+}

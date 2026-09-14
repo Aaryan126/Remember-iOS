@@ -1,0 +1,1193 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "adversarial-auditor",
+  "role": "independent adversarial input auditor",
+  "modelIdentity": "unknown",
+  "blindToPredictions": true,
+  "blindToAuthorLabels": true,
+  "blindToOtherReviews": true,
+  "inputsSha256": "c5f61a5b168d2f70f66bb7a622ecabff509a1babe63e54c9abbf8efb7f45e97a",
+  "method": {
+    "population": 360,
+    "sampleSize": 72,
+    "perLibrary": 6,
+    "selection": "Within each library sort ascending by SHA256('audit1729:'+item.id), select first 6.",
+    "presentationOrder": "Within selected six sort ascending by SHA256('audit-order1729:'+item.id). Library order l01 to l12.",
+    "context": "Consulted all raw source items to check continuing-context identity. Did not read author labels, other reviews, application code, predictions, or results.",
+    "scope": "Source-supported grouping and dataset adversarial quality only; not an evaluation of app behavior or factual correctness of specialist advice."
+  },
+  "summary": {
+    "supportedSampleItems": 72,
+    "ambiguousSampleItems": 0,
+    "dualContextSampleItems": 8,
+    "singletonSampleItems": 6,
+    "assessment": "Sampled contexts are supported by specific source evidence. This does not establish correctness of unseen candidate labels. Coverage and repeated phrasing substantially limit claims of generalization."
+  },
+  "statistics": {
+    "populationCharacters": {
+      "min": 160,
+      "p10": 177,
+      "median": 196,
+      "p90": 221,
+      "max": 254
+    },
+    "populationWhitespaceWords": {
+      "min": 27,
+      "p10": 29,
+      "median": 31,
+      "p90": 34,
+      "max": 37
+    },
+    "oneParagraphItems": 360,
+    "textKindItems": 360,
+    "under20WordItems": 0,
+    "over100WordItems": 0,
+    "quantileConvention": "Sorted index floor(p*N), N=360; median reported as sorted index 180."
+  },
+  "findings": [
+    {
+      "id": "coverage-length",
+      "severity": "high",
+      "finding": "All 360 inputs fall within 27–37 whitespace words and 160–254 characters. There are no empty or telegraphic captures, long documents, multiple paragraphs, or truncation stress cases.",
+      "evidence": [
+        "l01-i10",
+        "l06-i15",
+        "l12-i27"
+      ],
+      "implication": "Results cannot establish sparse-note recovery, long-document identity extraction, mixed-context paragraph handling, or robustness to missing context."
+    },
+    {
+      "id": "coverage-modalities",
+      "severity": "high",
+      "finding": "All 360 inputs have kind=text and a single paragraph. Mentions of screenshots, video, photographs and audio are prose rather than supplied media.",
+      "evidence": [
+        "l03-i06",
+        "l04-i03",
+        "l09-i04",
+        "l10-i21"
+      ],
+      "implication": "This source set cannot establish image/OCR, PDF, audio transcription, video captions, or extraction-path grouping quality."
+    },
+    {
+      "id": "explicit-boundaries",
+      "severity": "medium",
+      "finding": "Many hard-negative and overlapping sources state the intended distinction directly: different projects, separate records, not the other named task. That is legitimate source evidence but an easy linguistic cue.",
+      "evidence": [
+        "l02-i15",
+        "l03-i08",
+        "l05-i21",
+        "l06-i13",
+        "l07-i23",
+        "l08-i16",
+        "l12-i02"
+      ],
+      "implication": "Success on these explicit examples may overestimate robustness when users omit separation language or merely mention a neighboring project."
+    },
+    {
+      "id": "duplicate-template",
+      "severity": "medium",
+      "finding": "Every library includes a source that announces itself as a copied/duplicate reminder and supplies a reason for a second copy.",
+      "evidence": [
+        "l01-i19",
+        "l02-i21",
+        "l03-i06",
+        "l04-i23",
+        "l05-i27",
+        "l06-i09",
+        "l07-i21",
+        "l08-i11",
+        "l09-i12",
+        "l10-i15",
+        "l11-i18",
+        "l12-i03"
+      ],
+      "implication": "Repeated duplicate framing is a reusable shortcut; genuine unmarked paraphrases and noisy duplicates need separate coverage."
+    },
+    {
+      "id": "retrospective-template",
+      "severity": "medium",
+      "finding": "Corrections frequently tell the reader to retain the earlier note, preserve the old date, or keep contradictory evidence. These are unusually instructional personal notes.",
+      "evidence": [
+        "l01-i03",
+        "l05-i17",
+        "l06-i07",
+        "l08-i27",
+        "l09-i03",
+        "l10-i24",
+        "l11-i28",
+        "l12-i12"
+      ],
+      "implication": "Shared synthetic writing style across development and heldout can correlate reviewer and system decisions without demonstrating real-world temporal identity resolution."
+    },
+    {
+      "id": "title-leakage",
+      "severity": "medium",
+      "finding": "No gold IDs or label-only titles were observed in input fields. Natural source openings repeatedly identify named projects; important omitted-name follow-ups are usually resolvable through unique equipment, places or deliverables.",
+      "evidence": [
+        "l01-i05",
+        "l02-i06",
+        "l04-i08",
+        "l07-i12",
+        "l10-i16"
+      ],
+      "implication": "Natural names are allowed by the contract. They should not be described as label leakage, but uniform title-plus-instruction introductions reduce identity uncertainty."
+    },
+    {
+      "id": "ambiguity-coverage",
+      "severity": "medium",
+      "finding": "The sample contains no item for which full-library evidence compels an unresolved choice. Some isolated follow-ups are underspecified, but the supplied library usually contains only one compatible continuing task.",
+      "evidence": [
+        "l02-i06",
+        "l09-i02",
+        "l10-i16"
+      ],
+      "implication": "Zero sampled ambiguity is a property of this authored source set, not proof that a reviewer reliably detects ambiguity. Unresolvable pronouns, competing same-task anchors and insufficient evidence remain untested."
+    },
+    {
+      "id": "cross-split-family-risk",
+      "severity": "medium",
+      "finding": "Different domains and names reduce direct source overlap, but duplicate-copy, separate-resource coordination, budget tradeoff, correction, and personal-metaphor templates recur across splits.",
+      "evidence": [
+        "l01-i20",
+        "l06-i04",
+        "l07-i15",
+        "l08-i07",
+        "l09-i29",
+        "l12-i16"
+      ],
+      "implication": "This raw-source audit cannot certify independence of authoring/paraphrase families. Domain separation alone does not establish stylistic independence."
+    },
+    {
+      "id": "multilingual-limits",
+      "severity": "medium",
+      "finding": "Multilingual libraries contain English/Spanish and English/French sources with repeated named projects and clear shared nouns. Sampled cross-language identity is supported.",
+      "evidence": [
+        "l11-i15",
+        "l11-i29",
+        "l12-i04",
+        "l12-i13"
+      ],
+      "implication": "Does not cover transliteration, mixed-language fragments, unrelated scripts, noisy translation, dialects, or source language detection failures."
+    }
+  ],
+  "libraries": [
+    {
+      "id": "l01",
+      "sample": [
+        {
+          "id": "l01-i16",
+          "judgment": "supported",
+          "contexts": [
+            "North Hall repair cafe"
+          ],
+          "evidenceItemIds": [
+            "l01-i21",
+            "l01-i13"
+          ],
+          "ambiguous": false,
+          "rationale": "Saturday hall repairs and lamp inspection continue the named repair-cafe session."
+        },
+        {
+          "id": "l01-i24",
+          "judgment": "supported",
+          "contexts": [
+            "Elm steps garden"
+          ],
+          "evidenceItemIds": [
+            "l01-i01"
+          ],
+          "ambiguous": false,
+          "rationale": "Lowest stair, east-curb drawing and runoff match the permit sketch."
+        },
+        {
+          "id": "l01-i11",
+          "judgment": "supported",
+          "contexts": [
+            "Juniper stop shade petition"
+          ],
+          "evidenceItemIds": [
+            "l01-i15",
+            "l01-i17"
+          ],
+          "ambiguous": false,
+          "rationale": "Shade petition meeting date correction belongs with the petition, not the crossing audit."
+        },
+        {
+          "id": "l01-i10",
+          "judgment": "supported",
+          "contexts": [
+            "Personal mug preference"
+          ],
+          "evidenceItemIds": [],
+          "ambiguous": false,
+          "rationale": "Mug handle and glaze preference has no supported continuing context elsewhere in this library."
+        },
+        {
+          "id": "l01-i05",
+          "judgment": "supported",
+          "contexts": [
+            "Orchard crossing audit"
+          ],
+          "evidenceItemIds": [
+            "l01-i28",
+            "l01-i08",
+            "l01-i02"
+          ],
+          "ambiguous": false,
+          "rationale": "Loading bay and seated sightline identify the crossing audit despite red-paint vocabulary."
+        },
+        {
+          "id": "l01-i22",
+          "judgment": "supported",
+          "contexts": [
+            "Canal towpath planting"
+          ],
+          "evidenceItemIds": [
+            "l01-i25",
+            "l01-i23"
+          ],
+          "ambiguous": false,
+          "rationale": "Reed plugs and canal allowance identify planting; explicit independent stairway budget blocks a budget-based merge."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    },
+    {
+      "id": "l02",
+      "sample": [
+        {
+          "id": "l02-i19",
+          "judgment": "supported",
+          "contexts": [
+            "Kettle control-panel assignment"
+          ],
+          "evidenceItemIds": [
+            "l02-i29",
+            "l02-i04"
+          ],
+          "ambiguous": false,
+          "rationale": "Low-vision temperature controls are the same prototype and critique deliverable."
+        },
+        {
+          "id": "l02-i12",
+          "judgment": "supported",
+          "contexts": [
+            "Indigo material report"
+          ],
+          "evidenceItemIds": [
+            "l02-i01",
+            "l02-i26"
+          ],
+          "ambiguous": false,
+          "rationale": "Cotton dye swatches and drying-dependent shade comparisons identify this report."
+        },
+        {
+          "id": "l02-i16",
+          "judgment": "supported",
+          "contexts": [
+            "Indigo material report",
+            "Kettle control-panel assignment"
+          ],
+          "evidenceItemIds": [
+            "l02-i12",
+            "l02-i19"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly coordinates photographs for both assignments; shared lamp does not establish a single assignment."
+        },
+        {
+          "id": "l02-i11",
+          "judgment": "supported",
+          "contexts": [
+            "Torus seminar presentation"
+          ],
+          "evidenceItemIds": [
+            "l02-i09"
+          ],
+          "ambiguous": false,
+          "rationale": "Torus, paper model and loops identify the topology presentation."
+        },
+        {
+          "id": "l02-i15",
+          "judgment": "supported",
+          "contexts": [
+            "Torus seminar presentation",
+            "Urn simulation presentation"
+          ],
+          "evidenceItemIds": [
+            "l02-i11",
+            "l02-i10"
+          ],
+          "ambiguous": false,
+          "rationale": "Separate rehearsal slots and rubrics explicitly support two-context membership."
+        },
+        {
+          "id": "l02-i06",
+          "judgment": "supported",
+          "contexts": [
+            "Urban history essay"
+          ],
+          "evidenceItemIds": [
+            "l02-i20",
+            "l02-i14",
+            "l02-i24"
+          ],
+          "ambiguous": false,
+          "rationale": "Map sheets, transport background and essay bibliography connect to the only map-based essay in library context."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    },
+    {
+      "id": "l03",
+      "sample": [
+        {
+          "id": "l03-i30",
+          "judgment": "supported",
+          "contexts": [
+            "Vela rail festival trip"
+          ],
+          "evidenceItemIds": [
+            "l03-i27"
+          ],
+          "ambiguous": false,
+          "rationale": "Heritage demonstration and return train identify the festival; corrected hour preserves trip identity."
+        },
+        {
+          "id": "l03-i06",
+          "judgment": "supported",
+          "contexts": [
+            "Vela rail festival trip"
+          ],
+          "evidenceItemIds": [
+            "l03-i07",
+            "l03-i14"
+          ],
+          "ambiguous": false,
+          "rationale": "Same signal-box tour and explicit single booking support duplicate membership in one trip."
+        },
+        {
+          "id": "l03-i18",
+          "judgment": "supported",
+          "contexts": [
+            "Rook architecture weekend",
+            "Vela rail festival trip"
+          ],
+          "evidenceItemIds": [
+            "l03-i25",
+            "l03-i27",
+            "l03-i04"
+          ],
+          "ambiguous": false,
+          "rationale": "Two named trips and distinct deposits support overlapping membership without trip merger."
+        },
+        {
+          "id": "l03-i08",
+          "judgment": "supported",
+          "contexts": [
+            "Sable Ridge trek",
+            "Linden reunion"
+          ],
+          "evidenceItemIds": [
+            "l03-i22",
+            "l03-i26",
+            "l03-i15"
+          ],
+          "ambiguous": false,
+          "rationale": "Both packing lists explicitly named; equipment reuse links two different journeys."
+        },
+        {
+          "id": "l03-i01",
+          "judgment": "supported",
+          "contexts": [
+            "Mere Island overnight"
+          ],
+          "evidenceItemIds": [
+            "l03-i17"
+          ],
+          "ambiguous": false,
+          "rationale": "Bunkhouse and island ferry identify overnight trip, distinct from mainland estuary day visit."
+        },
+        {
+          "id": "l03-i15",
+          "judgment": "supported",
+          "contexts": [
+            "Sable Ridge trek"
+          ],
+          "evidenceItemIds": [
+            "l03-i22",
+            "l03-i11"
+          ],
+          "ambiguous": false,
+          "rationale": "Hut, ridge and liners identify the trek."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    },
+    {
+      "id": "l04",
+      "sample": [
+        {
+          "id": "l04-i25",
+          "judgment": "supported",
+          "contexts": [
+            "Dusk courtyard mural"
+          ],
+          "evidenceItemIds": [
+            "l04-i24",
+            "l04-i26"
+          ],
+          "ambiguous": false,
+          "rationale": "Courtyard brick-wall composition and palette work support one mural proposal."
+        },
+        {
+          "id": "l04-i03",
+          "judgment": "supported",
+          "contexts": [
+            "Orchard Voices episode"
+          ],
+          "evidenceItemIds": [
+            "l04-i19"
+          ],
+          "ambiguous": false,
+          "rationale": "Bell recording and episode log identify audio production, distinct from personal bicycle bell."
+        },
+        {
+          "id": "l04-i10",
+          "judgment": "supported",
+          "contexts": [
+            "Orchard Voices episode"
+          ],
+          "evidenceItemIds": [
+            "l04-i19"
+          ],
+          "ambiguous": false,
+          "rationale": "Stallholder episode release correction identifies the same audio episode."
+        },
+        {
+          "id": "l04-i27",
+          "judgment": "supported",
+          "contexts": [
+            "Lantern listening evening"
+          ],
+          "evidenceItemIds": [
+            "l04-i28",
+            "l04-i12"
+          ],
+          "ambiguous": false,
+          "rationale": "String trio, lanterns and accessible chair rows identify the listening event."
+        },
+        {
+          "id": "l04-i08",
+          "judgment": "supported",
+          "contexts": [
+            "Window Seat short film"
+          ],
+          "evidenceItemIds": [
+            "l04-i09",
+            "l04-i11"
+          ],
+          "ambiguous": false,
+          "rationale": "Silent bus film with interior reactions and window shots identifies the same short."
+        },
+        {
+          "id": "l04-i04",
+          "judgment": "supported",
+          "contexts": [
+            "Moon Paper chapbook"
+          ],
+          "evidenceItemIds": [
+            "l04-i06",
+            "l04-i30"
+          ],
+          "ambiguous": false,
+          "rationale": "Poetry printing budget and binding are the print edition, not the similarly named puppet performance."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    },
+    {
+      "id": "l05",
+      "sample": [
+        {
+          "id": "l05-i17",
+          "judgment": "supported",
+          "contexts": [
+            "Moss plant reminder trial"
+          ],
+          "evidenceItemIds": [
+            "l05-i09",
+            "l05-i12",
+            "l05-i18"
+          ],
+          "ambiguous": false,
+          "rationale": "Moss scheduling and interruption history continue the balcony reminder trial."
+        },
+        {
+          "id": "l05-i21",
+          "judgment": "supported",
+          "contexts": [
+            "Pebble reading extension"
+          ],
+          "evidenceItemIds": [
+            "l05-i15",
+            "l05-i04"
+          ],
+          "ambiguous": false,
+          "rationale": "Browser reading queue is explicitly different from pantry prototype sharing Pebble name."
+        },
+        {
+          "id": "l05-i03",
+          "judgment": "supported",
+          "contexts": [
+            "Personal toy-kite repair"
+          ],
+          "evidenceItemIds": [],
+          "ambiguous": false,
+          "rationale": "Broken childhood toy has no evidence of identity with Kite invoice software."
+        },
+        {
+          "id": "l05-i26",
+          "judgment": "supported",
+          "contexts": [
+            "Pebble reading extension",
+            "Kite invoice export"
+          ],
+          "evidenceItemIds": [
+            "l05-i21",
+            "l05-i22",
+            "l05-i15"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly shares preview design between import and export; distinct validation tasks remain separate."
+        },
+        {
+          "id": "l05-i15",
+          "judgment": "supported",
+          "contexts": [
+            "Pebble reading extension"
+          ],
+          "evidenceItemIds": [
+            "l05-i21",
+            "l05-i04"
+          ],
+          "ambiguous": false,
+          "rationale": "Reading list, URLs and edited article titles identify browser extension."
+        },
+        {
+          "id": "l05-i02",
+          "judgment": "supported",
+          "contexts": [
+            "Drift shift board"
+          ],
+          "evidenceItemIds": [
+            "l05-i28",
+            "l05-i27"
+          ],
+          "ambiguous": false,
+          "rationale": "Simultaneous acceptance of one shift identifies the board failure, not room booking concurrency."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    },
+    {
+      "id": "l06",
+      "sample": [
+        {
+          "id": "l06-i05",
+          "judgment": "supported",
+          "contexts": [
+            "Aster lacquer screen treatment"
+          ],
+          "evidenceItemIds": [
+            "l06-i15"
+          ],
+          "ambiguous": false,
+          "rationale": "Detached fragment, consolidant and gold cloud identify lacquer conservation."
+        },
+        {
+          "id": "l06-i27",
+          "judgment": "supported",
+          "contexts": [
+            "Blue vessel monitoring"
+          ],
+          "evidenceItemIds": [
+            "l06-i03",
+            "l06-i07"
+          ],
+          "ambiguous": false,
+          "rationale": "Deposits and fixed photography position identify vessel monitoring."
+        },
+        {
+          "id": "l06-i15",
+          "judgment": "supported",
+          "contexts": [
+            "Aster lacquer screen treatment"
+          ],
+          "evidenceItemIds": [
+            "l06-i05"
+          ],
+          "ambiguous": false,
+          "rationale": "Lifting gold-cloud edges and study-fragment testing define one treatment project."
+        },
+        {
+          "id": "l06-i23",
+          "judgment": "supported",
+          "contexts": [
+            "Amber textile rotation"
+          ],
+          "evidenceItemIds": [
+            "l06-i06",
+            "l06-i16",
+            "l06-i28"
+          ],
+          "ambiguous": false,
+          "rationale": "Exposure records for two panels belong to the explicitly shared rotation project."
+        },
+        {
+          "id": "l06-i11",
+          "judgment": "supported",
+          "contexts": [
+            "Copper automaton loan"
+          ],
+          "evidenceItemIds": [
+            "l06-i10",
+            "l06-i01"
+          ],
+          "ambiguous": false,
+          "rationale": "Base screw scratch and packing rehearsal identify the loan; old photo changes condition attribution, not membership."
+        },
+        {
+          "id": "l06-i29",
+          "judgment": "supported",
+          "contexts": [
+            "Dock ledger digitization",
+            "Copper automaton loan"
+          ],
+          "evidenceItemIds": [
+            "l06-i02",
+            "l06-i10"
+          ],
+          "ambiguous": false,
+          "rationale": "Separate procurement orders for scan cradle and outgoing-loan support support two memberships."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    },
+    {
+      "id": "l07",
+      "sample": [
+        {
+          "id": "l07-i21",
+          "judgment": "supported",
+          "contexts": [
+            "Stone tank emitter audit"
+          ],
+          "evidenceItemIds": [
+            "l07-i27",
+            "l07-i11"
+          ],
+          "ambiguous": false,
+          "rationale": "Three positions, fixed interval and pressure identify the copied irrigation audit instructions."
+        },
+        {
+          "id": "l07-i23",
+          "judgment": "supported",
+          "contexts": [
+            "West barley cover-crop trial"
+          ],
+          "evidenceItemIds": [
+            "l07-i06",
+            "l07-i09"
+          ],
+          "ambiguous": false,
+          "rationale": "Previous covers distinguish this barley experiment from east sowing-depth trial."
+        },
+        {
+          "id": "l07-i05",
+          "judgment": "supported",
+          "contexts": [
+            "Tomato shade experiment"
+          ],
+          "evidenceItemIds": [
+            "l07-i13",
+            "l07-i17"
+          ],
+          "ambiguous": false,
+          "rationale": "Cloth-density assignments and calibrated sensors define tomato trial."
+        },
+        {
+          "id": "l07-i30",
+          "judgment": "supported",
+          "contexts": [
+            "Stone tank emitter audit"
+          ],
+          "evidenceItemIds": [
+            "l07-i27",
+            "l07-i11",
+            "l07-i16"
+          ],
+          "ambiguous": false,
+          "rationale": "Stone tank and uphill pressure-loss diagram connect to irrigation audit."
+        },
+        {
+          "id": "l07-i12",
+          "judgment": "supported",
+          "contexts": [
+            "Blue shed mushroom experiment"
+          ],
+          "evidenceItemIds": [
+            "l07-i18",
+            "l07-i07"
+          ],
+          "ambiguous": false,
+          "rationale": "Straw bags, substrate comparison and weighing connect to mushroom experiment despite omitted name."
+        },
+        {
+          "id": "l07-i24",
+          "judgment": "supported",
+          "contexts": [
+            "Blue shed mushroom experiment"
+          ],
+          "evidenceItemIds": [
+            "l07-i18",
+            "l07-i04"
+          ],
+          "ambiguous": false,
+          "rationale": "Mushroom bags, replicate costs and packing-room scale identify the same substrate study."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    },
+    {
+      "id": "l08",
+      "sample": [
+        {
+          "id": "l08-i01",
+          "judgment": "supported",
+          "contexts": [
+            "Basin C sediment survey",
+            "East channel fog-signal trial"
+          ],
+          "evidenceItemIds": [
+            "l08-i23",
+            "l08-i17"
+          ],
+          "ambiguous": false,
+          "rationale": "Boat coordination explicitly spans sounding transects and listening station placement."
+        },
+        {
+          "id": "l08-i05",
+          "judgment": "supported",
+          "contexts": [
+            "Quay 4 spill drill"
+          ],
+          "evidenceItemIds": [
+            "l08-i15",
+            "l08-i19",
+            "l08-i25"
+          ],
+          "ambiguous": false,
+          "rationale": "Marker spill and boom-response observations define drill."
+        },
+        {
+          "id": "l08-i18",
+          "judgment": "supported",
+          "contexts": [
+            "South beacon lens cleaning"
+          ],
+          "evidenceItemIds": [
+            "l08-i22",
+            "l08-i20"
+          ],
+          "ambiguous": false,
+          "rationale": "South landing ladder and cleaning boat identify south beacon visit; departure change preserves visit identity."
+        },
+        {
+          "id": "l08-i23",
+          "judgment": "supported",
+          "contexts": [
+            "Basin C sediment survey"
+          ],
+          "evidenceItemIds": [
+            "l08-i10",
+            "l08-i26"
+          ],
+          "ambiguous": false,
+          "rationale": "Repeated tide-corrected sounding transects identify sediment survey."
+        },
+        {
+          "id": "l08-i17",
+          "judgment": "supported",
+          "contexts": [
+            "East channel fog-signal trial"
+          ],
+          "evidenceItemIds": [
+            "l08-i08",
+            "l08-i13",
+            "l08-i14"
+          ],
+          "ambiguous": false,
+          "rationale": "Horn pulse patterns, stations and detection sheets define one trial."
+        },
+        {
+          "id": "l08-i21",
+          "judgment": "supported",
+          "contexts": [
+            "Harbor Seal ramp refit"
+          ],
+          "evidenceItemIds": [
+            "l08-i09",
+            "l08-i03",
+            "l08-i30"
+          ],
+          "ambiguous": false,
+          "rationale": "Lateral ramp movement and remaining squeak identify refit, not nearby spill exercise."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    },
+    {
+      "id": "l09",
+      "sample": [
+        {
+          "id": "l09-i09",
+          "judgment": "supported",
+          "contexts": [
+            "River juniors starts clinic"
+          ],
+          "evidenceItemIds": [
+            "l09-i04",
+            "l09-i11"
+          ],
+          "ambiguous": false,
+          "rationale": "First five strokes and junior training identify clinic, distinct from masters endurance."
+        },
+        {
+          "id": "l09-i07",
+          "judgment": "supported",
+          "contexts": [
+            "Hill Court tennis taster"
+          ],
+          "evidenceItemIds": [
+            "l09-i14",
+            "l09-i19"
+          ],
+          "ambiguous": false,
+          "rationale": "Taster, loan chairs and ball basket connect to accessible tennis event."
+        },
+        {
+          "id": "l09-i02",
+          "judgment": "supported",
+          "contexts": [
+            "Slate Pool confidence series"
+          ],
+          "evidenceItemIds": [
+            "l09-i08",
+            "l09-i16"
+          ],
+          "ambiguous": false,
+          "rationale": "Wall exercises, floats and second instructor identify shallow-water confidence series."
+        },
+        {
+          "id": "l09-i24",
+          "judgment": "supported",
+          "contexts": [
+            "Cedar relay"
+          ],
+          "evidenceItemIds": [
+            "l09-i28",
+            "l09-i05",
+            "l09-i17"
+          ],
+          "ambiguous": false,
+          "rationale": "Relay route and marshal rain plan identify running event."
+        },
+        {
+          "id": "l09-i18",
+          "judgment": "supported",
+          "contexts": [
+            "Slate Pool confidence series"
+          ],
+          "evidenceItemIds": [
+            "l09-i08",
+            "l09-i03"
+          ],
+          "ambiguous": false,
+          "rationale": "Confidence-series shallow standing exercises establish same series despite offered venue adjustment."
+        },
+        {
+          "id": "l09-i14",
+          "judgment": "supported",
+          "contexts": [
+            "Hill Court tennis taster"
+          ],
+          "evidenceItemIds": [
+            "l09-i19",
+            "l09-i07"
+          ],
+          "ambiguous": false,
+          "rationale": "Turning space and practice balls define accessible tennis taster."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    },
+    {
+      "id": "l10",
+      "sample": [
+        {
+          "id": "l10-i10",
+          "judgment": "supported",
+          "contexts": [
+            "Personal bookshelf repair"
+          ],
+          "evidenceItemIds": [],
+          "ambiguous": false,
+          "rationale": "Floorboard shim and bookshelf wobble lack a shared observatory task."
+        },
+        {
+          "id": "l10-i27",
+          "judgment": "supported",
+          "contexts": [
+            "Personal radio-drama observation"
+          ],
+          "evidenceItemIds": [],
+          "ambiguous": false,
+          "rationale": "Fictional vanishing visitor shares disappearance vocabulary with occultation only; no event identity."
+        },
+        {
+          "id": "l10-i22",
+          "judgment": "supported",
+          "contexts": [
+            "Cinder brightness study"
+          ],
+          "evidenceItemIds": [
+            "l10-i13",
+            "l10-i18"
+          ],
+          "ambiguous": false,
+          "rationale": "Named star study and cloud-contaminated photometry identify same observation project."
+        },
+        {
+          "id": "l10-i07",
+          "judgment": "supported",
+          "contexts": [
+            "Lumen mirror wash"
+          ],
+          "evidenceItemIds": [
+            "l10-i29",
+            "l10-i05",
+            "l10-i01"
+          ],
+          "ambiguous": false,
+          "rationale": "Mirror maintenance is explicitly distinct from finder alignment even on same instrument."
+        },
+        {
+          "id": "l10-i16",
+          "judgment": "supported",
+          "contexts": [
+            "Cobalt calibration"
+          ],
+          "evidenceItemIds": [
+            "l10-i14",
+            "l10-i08",
+            "l10-i25"
+          ],
+          "ambiguous": false,
+          "rationale": "Reference spectral line centers, fit residuals and polynomial identify calibration in library context."
+        },
+        {
+          "id": "l10-i06",
+          "judgment": "supported",
+          "contexts": [
+            "Aurora camera heater trial"
+          ],
+          "evidenceItemIds": [
+            "l10-i12",
+            "l10-i09"
+          ],
+          "ambiguous": false,
+          "rationale": "Persistent edge reflection after moving cable continues documented camera-trial artifact."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    },
+    {
+      "id": "l11",
+      "sample": [
+        {
+          "id": "l11-i15",
+          "judgment": "supported",
+          "contexts": [
+            "Nube aroma lesson"
+          ],
+          "evidenceItemIds": [
+            "l11-i11",
+            "l11-i25"
+          ],
+          "ambiguous": false,
+          "rationale": "Spanish Nube budget for opaque cups and retained aromas matches English aroma class."
+        },
+        {
+          "id": "l11-i16",
+          "judgment": "supported",
+          "contexts": [
+            "Oliva recipe booklet"
+          ],
+          "evidenceItemIds": [
+            "l11-i08",
+            "l11-i18",
+            "l11-i28"
+          ],
+          "ambiguous": false,
+          "rationale": "Simmer translation correction belongs to bilingual recipe editing."
+        },
+        {
+          "id": "l11-i12",
+          "judgment": "supported",
+          "contexts": [
+            "Brisa Sunday starter clinic"
+          ],
+          "evidenceItemIds": [
+            "l11-i09",
+            "l11-i29"
+          ],
+          "ambiguous": false,
+          "rationale": "Sunday clinic and jars identify starter care, not Saturday bread shaping; revised hour stays same event."
+        },
+        {
+          "id": "l11-i03",
+          "judgment": "supported",
+          "contexts": [
+            "Faro soup supper"
+          ],
+          "evidenceItemIds": [
+            "l11-i05",
+            "l11-i01",
+            "l11-i27"
+          ],
+          "ambiguous": false,
+          "rationale": "Spanish post-dinner lentil-soup and serving-station observations continue one supper, including changed day."
+        },
+        {
+          "id": "l11-i04",
+          "judgment": "supported",
+          "contexts": [
+            "Personal drawer noise"
+          ],
+          "evidenceItemIds": [],
+          "ambiguous": false,
+          "rationale": "Scarf-induced drawer squeak has no shared cooking project evidence."
+        },
+        {
+          "id": "l11-i29",
+          "judgment": "supported",
+          "contexts": [
+            "Brisa Sunday starter clinic"
+          ],
+          "evidenceItemIds": [
+            "l11-i09",
+            "l11-i12"
+          ],
+          "ambiguous": false,
+          "rationale": "English starter rise/fall handout links to Spanish Sunday jar-care clinic."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    },
+    {
+      "id": "l12",
+      "sample": [
+        {
+          "id": "l12-i19",
+          "judgment": "supported",
+          "contexts": [
+            "Personal houseplant care"
+          ],
+          "evidenceItemIds": [],
+          "ambiguous": false,
+          "rationale": "French houseplant light/radiator note has no archaeological project identity."
+        },
+        {
+          "id": "l12-i02",
+          "judgment": "supported",
+          "contexts": [
+            "Serein well recording",
+            "Ardoise sediment archive"
+          ],
+          "evidenceItemIds": [
+            "l12-i13",
+            "l12-i24",
+            "l12-i27"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicit reuse of well-plan revision as archive-meeting example supports dual membership; projects remain distinct."
+        },
+        {
+          "id": "l12-i08",
+          "judgment": "supported",
+          "contexts": [
+            "Valon trench A hearth sampling"
+          ],
+          "evidenceItemIds": [
+            "l12-i06",
+            "l12-i14"
+          ],
+          "ambiguous": false,
+          "rationale": "Hearth ash lenses and sample depth identify trench A, distinct from trench B wall phasing."
+        },
+        {
+          "id": "l12-i27",
+          "judgment": "supported",
+          "contexts": [
+            "Ardoise sediment archive"
+          ],
+          "evidenceItemIds": [
+            "l12-i05",
+            "l12-i09",
+            "l12-i15"
+          ],
+          "ambiguous": false,
+          "rationale": "Named archive and context labels identify sediment-box recording."
+        },
+        {
+          "id": "l12-i04",
+          "judgment": "supported",
+          "contexts": [
+            "Ardoise sediment archive"
+          ],
+          "evidenceItemIds": [
+            "l12-i27",
+            "l12-i15"
+          ],
+          "ambiguous": false,
+          "rationale": "Ardoise boxes and shelf procurement continue archive management."
+        },
+        {
+          "id": "l12-i13",
+          "judgment": "supported",
+          "contexts": [
+            "Serein well recording"
+          ],
+          "evidenceItemIds": [
+            "l12-i24",
+            "l12-i26",
+            "l12-i30"
+          ],
+          "ambiguous": false,
+          "rationale": "Named well timber joints and plan numbering define timber-recording project."
+        }
+      ],
+      "limitation": "Judgments use the full supplied library, not isolated-item or temporal-prefix evidence. Context names are reviewer descriptions, not gold identifiers."
+    }
+  ],
+  "limitations": [
+    "Agent-reviewed, not human-validated. This auditor is a separate context, but shared model-family priors and the common contract can create correlated bias.",
+    "This was a 20% item audit with full-library context, not an independent review of all candidate labels and not a probability estimate of gold-label error.",
+    "No author labels or independent reviewer artifacts were opened during this phase; no claim about their agreement or accuracy is made.",
+    "No production code, tuning thresholds, predictions, or results were consulted.",
+    "No temporal checkpoint judgments were made; full-library references may use later sources and must not be reused as prefix-time certainty.",
+    "Specialist source statements were treated as fictional grouping evidence, without validating operational, scientific, safety, or legal advice.",
+    "No missing real-world evidence, new labels, or stricter grouping rules were invented to match any unknown implementation."
+  ]
+}

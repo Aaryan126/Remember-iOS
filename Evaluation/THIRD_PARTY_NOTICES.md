@@ -33,3 +33,13 @@ Authors: Pradeep Dasigi, Kyle Lo, Iz Beltagy, Arman Cohan, Noah A. Smith, and Ma
 License: Creative Commons Attribution 4.0 International (<https://creativecommons.org/licenses/by/4.0/>)
 
 Citation: “A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers,” NAACL 2021. The fixture contains transformed validation examples; changes include splitting papers into locator-bearing memory records and normalizing the answer/evidence fields into the Remember evaluation schema.
+
+## BANKING77 organization diagnostic
+
+Source: <https://huggingface.co/datasets/PolyAI/banking77>
+
+Authors: Iñigo Casanueva, Tadas Temčinas, Daniela Gerz, Matthew Henderson, and Ivan Vulić / PolyAI
+
+License: Creative Commons Attribution 4.0 International (<https://creativecommons.org/licenses/by/4.0/>)
+
+Citation: “Efficient Intent Detection with Dual Sentence Encoders,” NLP for ConvAI 2020. `Organization/public/` contains a deterministic 200-example subset of the original test data (20 intents, ten examples each). Source text and intent labels are unchanged; opaque IDs and the Remember input/label schema were added. This diagnostic is not an official full BANKING77 score. The pinned revision, original row indices, selection rule, and source SHA256 are recorded in [provenance.json](Organization/public/provenance.json).

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-09-11T06:09:35.924989+00:00",
+  "passed": true,
+  "stage1": {
+    "verified": true,
+    "files": 57,
+    "freezeSHA256": "b5291755a161344e83cc9f85f91307d50214aad4da05b558650c2dc3bdd71641"
+  },
+  "stage2": {
+    "verified": true,
+    "files": 908,
+    "workspaceFiles": 5,
+    "completeSHA256": "b8cd3fee4bfd87e5befb54d7fe81b7749fb1de28eace90f5de76cfa8ff44e888"
+  },
+  "auditorSHA256": "0599c03223947f9ee9333cafe7be24042131c0b28be5049a3ff1214a4aac4add",
+  "coverage": {
+    "train": {
+      "pairs": 3420,
+      "withProbabilities": 3420,
+      "classes": {
+        "unrelated": 1712,
+        "same": 903,
+        "related": 212,
+        "uncertain": 593
+      }
+    },
+    "development": {
+      "pairs": 1140,
+      "withProbabilities": 1140,
+      "classes": {
+        "related": 232,
+        "uncertain": 222,
+        "unrelated": 441,
+        "same": 245
+      }
+    }
+  },
+  "trainingOnlyTFIDFReproduced": true,
+  "portableClassifierMaxProbabilityDifference": 0.0,
+  "thresholdSelectionReproducedByBruteForce": true,
+  "independentDevelopmentCounts": {
+    "tp": 73,
+    "fp": 3,
+    "fn": 172
+  },
+  "pauseEvents": 1,
+  "prePauseEmbeddingsPreserved": 114,
+  "historicalArtifactsUnchanged": 6,
+  "productionSourcesUnchanged": 51,
+  "testLabelsRead": false
+}

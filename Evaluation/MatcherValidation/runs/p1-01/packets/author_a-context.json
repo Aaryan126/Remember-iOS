@@ -1,0 +1,2239 @@
+{
+  "author": "author_a",
+  "libraries": [
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv01a-i11",
+          "threads": [
+            "atlas-record",
+            "atlas-parcel"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv01a-i01",
+          "later": "hv01a-i08",
+          "thread": "atlas-record"
+        },
+        "undo": {
+          "item": "hv01a-i14",
+          "reason": "Hypothetical correction: the shelf-card proof changes catalogue wording and contains no delivery work.",
+          "wrongThread": "atlas-parcel"
+        }
+      },
+      "id": "hv01a",
+      "items": [
+        {
+          "id": "hv01a-i01",
+          "modality": "note",
+          "text": "River atlas on the intake desk: title leaf says second edition, 1896. Draft the listing at \u00a348; check whether all foldouts are present."
+        },
+        {
+          "id": "hv01a-i02",
+          "modality": "voice",
+          "text": "Mara paid for the river atlas. She needs it at the field station by Thursday. Ask whether the carrier accepts our long flat box."
+        },
+        {
+          "id": "hv01a-i03",
+          "modality": "video",
+          "text": "Back-room heater clicks three times and trips the socket. Leave that outlet unused until the repair visit."
+        },
+        {
+          "id": "hv01a-i04",
+          "modality": "note",
+          "text": "Club on Tuesday: The Small Orchard, chapters 1\u20137. Five people confirmed; buy decaf and move the returns trolley."
+        },
+        {
+          "id": "hv01a-i05",
+          "modality": "image",
+          "text": "ATLAS / plate count 12 / fold at p. 44 split / pencil \u00a348. Tiny stamp beneath the pastedown: revised issue."
+        },
+        {
+          "id": "hv01a-i06",
+          "modality": "file",
+          "text": "Carrier form for Mara: no signature waiver, flat parcel, declared value forty-eight pounds. Destination contact answers after lunch."
+        },
+        {
+          "id": "hv01a-i07",
+          "modality": "image",
+          "text": "Blue slip: 'Mara, twelve, Thursday?' Nothing else legible."
+        },
+        {
+          "id": "hv01a-i08",
+          "modality": "note",
+          "text": "Correction to atlas listing: the revised-issue stamp belongs to 1901, not 1896. Keep the earlier photo in the provenance folder; change the year before sending a receipt."
+        },
+        {
+          "id": "hv01a-i09",
+          "modality": "file",
+          "text": "Heater repair quote: fan bearing plus labour, \u00a373. We can use the counter socket for the lamp but the failed unit stays unplugged."
+        },
+        {
+          "id": "hv01a-i10",
+          "modality": "voice",
+          "text": "For Orchard night, use the question about why the narrator hides the keys. Nobody wanted the printed plot summary last time."
+        },
+        {
+          "id": "hv01a-i11",
+          "modality": "note",
+          "text": "Atlas handoff sheet: catalogue now says revised issue, 1901, twelve plates, one split fold. Copy that condition wording into Mara's enclosure and put the atlas between two boards so the damaged fold cannot flex."
+        },
+        {
+          "id": "hv01a-i12",
+          "modality": "image",
+          "text": "Mara's box fits the carrier's flat rate if we trim the spare board by a centimetre. Do not trim the atlas wrapper."
+        },
+        {
+          "id": "hv01a-i13",
+          "modality": "voice",
+          "text": "The engineer found fluff wedged behind the heater fan. Bearing replacement cancelled; clean and electrical test only."
+        },
+        {
+          "id": "hv01a-i14",
+          "modality": "file",
+          "text": "Shelf card proof: RIVER ATLAS \u2014 revised issue (1901). Condition note should say 'split fold', not 'missing plate'."
+        },
+        {
+          "id": "hv01a-i15",
+          "modality": "note",
+          "text": "Orchard group now seven; Jo can bring two folding chairs. Leave room by the door for the walking frame."
+        },
+        {
+          "id": "hv01a-i16",
+          "modality": "note",
+          "text": "Sent Mara the tracking code. The field station gate closes at four, so I added that to delivery instructions."
+        },
+        {
+          "id": "hv01a-i17",
+          "modality": "voice",
+          "text": "'Can you change it to four?' clipped voice message, no sender recovered."
+        },
+        {
+          "id": "hv01a-i18",
+          "modality": "image",
+          "text": "Heater passed its electrical test this morning. Screw the guard back on before the room is used for stock sorting."
+        },
+        {
+          "id": "hv01a-i19",
+          "modality": "voice",
+          "text": "Mara says the flat box arrived dry and all twelve foldouts are there. Close the dispatch ticket."
+        },
+        {
+          "id": "hv01a-i20",
+          "modality": "note",
+          "text": "Orchard discussion went well with the keys question. Keep the seven-chair layout for next month; return Jo's pair tonight."
+        }
+      ],
+      "threadDescriptions": {
+        "atlas-parcel": "Pack and deliver the sold river atlas to Mara.",
+        "atlas-record": "Identify and correct the catalogue record for the folding river atlas.",
+        "book-club": "Prepare the shop's evening discussion of The Small Orchard.",
+        "shop-heater": "Repair the back-room heater before reopening."
+      },
+      "threads": [
+        "atlas-record",
+        "atlas-parcel",
+        "book-club",
+        "shop-heater"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv01b-i13",
+          "threads": [
+            "poetry-batch",
+            "school-bundle"
+          ]
+        },
+        "rename": {
+          "evidenceItem": "hv01b-i14",
+          "from": "Autumn crates",
+          "thread": "window-display",
+          "to": "Paper Moon"
+        },
+        "revision": {
+          "earlier": "hv01b-i01",
+          "later": "hv01b-i11",
+          "thread": "poetry-batch"
+        },
+        "undo": {
+          "item": "hv01b-i09",
+          "reason": "Hypothetical correction: 57 is ambiguous between roll width and a return order, so keep this source uncertain.",
+          "wrongThread": "till-rolls"
+        }
+      },
+      "id": "hv01b",
+      "items": [
+        {
+          "id": "hv01b-i01",
+          "modality": "voice",
+          "text": "Donation from the old print co-op: nineteen poetry pamphlets. Give each its own record, even where the covers look identical."
+        },
+        {
+          "id": "hv01b-i02",
+          "modality": "note",
+          "text": "Window plan: a paper moon over three orange crates. Borrow the moon from Suri; she needs it back before the parade."
+        },
+        {
+          "id": "hv01b-i03",
+          "modality": "file",
+          "text": "Elm School wants twelve poetry books under \u00a360 including postage. Teacher asked for short poems suitable for reading aloud."
+        },
+        {
+          "id": "hv01b-i04",
+          "modality": "image",
+          "text": "Receipt roll core reads 12 mm; paper width looks like 57. Measure it before ordering another carton."
+        },
+        {
+          "id": "hv01b-i05",
+          "modality": "image",
+          "text": "Chess manual return, order 57: pages 81\u201396 duplicated, 97\u2013112 absent. Customer sent these photos and wants a replacement."
+        },
+        {
+          "id": "hv01b-i06",
+          "modality": "note",
+          "text": "Pamphlet checklist: Noon Ferry has eight leaves, not missing pages. Its foldout cover makes it look incomplete. Record the artist's initials exactly as printed."
+        },
+        {
+          "id": "hv01b-i07",
+          "modality": "note",
+          "text": "Elm shortlist has eleven titles. Add Noon Ferry only if the price still leaves six pounds for postage."
+        },
+        {
+          "id": "hv01b-i08",
+          "modality": "video",
+          "text": "Moon will fit in the window if the middle orange crate goes sideways. No books against the glass: condensation yesterday."
+        },
+        {
+          "id": "hv01b-i09",
+          "modality": "note",
+          "text": "57 again. too wide? ring after 2"
+        },
+        {
+          "id": "hv01b-i10",
+          "modality": "note",
+          "text": "Replacement chess manual checked page by page; complete. Email the prepaid return label for the defective one."
+        },
+        {
+          "id": "hv01b-i11",
+          "modality": "voice",
+          "text": "Count correction for print co-op intake: eighteen pamphlets, not nineteen. Two rubber bands held one long foldout together; it wasn't a second title."
+        },
+        {
+          "id": "hv01b-i12",
+          "modality": "note",
+          "text": "Actual till paper is 58 mm wide, 12 mm core. Previous 57 was an estimate from the squashed roll. Order two boxes of the measured size."
+        },
+        {
+          "id": "hv01b-i13",
+          "modality": "file",
+          "text": "School packing list and stock update: reserve Noon Ferry and eleven other pamphlets for Elm, total \u00a351. Mark those twelve catalogue records sold as a bundle and print the itemized enclosure for their librarian."
+        },
+        {
+          "id": "hv01b-i14",
+          "modality": "note",
+          "text": "Rename the 'Autumn crates' window job to 'Paper Moon'. Same borrowed moon, same orange crates; use the new heading on Suri's return reminder."
+        },
+        {
+          "id": "hv01b-i15",
+          "modality": "voice",
+          "text": "Supplier confirms 58 mm till rolls arrive Friday. Keep the current roll's cardboard core as the size sample."
+        },
+        {
+          "id": "hv01b-i16",
+          "modality": "note",
+          "text": "Elm's poetry carton collected. Librarian approved the itemized \u00a351 list; postage was \u00a35.40."
+        },
+        {
+          "id": "hv01b-i17",
+          "modality": "file",
+          "text": "Chess customer chose a refund after all. Stop the replacement before dispatch; refund order 57 when the faulty copy comes back."
+        },
+        {
+          "id": "hv01b-i18",
+          "modality": "image",
+          "text": "Co-op pamphlet records left to finish: title lettering on Salt Steps and the unnumbered white booklet. Use first lines when no title exists."
+        },
+        {
+          "id": "hv01b-i19",
+          "modality": "image",
+          "text": "Paper Moon lit from the left now. Suri's name is on the reverse of the prop so it won't be sold with the stock."
+        },
+        {
+          "id": "hv01b-i20",
+          "modality": "image",
+          "text": "No label on this envelope. 'Hold the white one' written across flap."
+        }
+      ],
+      "threadDescriptions": {
+        "poetry-batch": "Catalogue the donated small-press poetry pamphlets as individual stock.",
+        "return-claims": "Resolve the unrelated return of a defective chess manual.",
+        "school-bundle": "Assemble and dispatch an affordable poetry bundle to Elm School.",
+        "till-rolls": "Replenish receipt paper of the correct width.",
+        "window-display": "Build the autumn window display using borrowed props."
+      },
+      "threads": [
+        "poetry-batch",
+        "school-bundle",
+        "return-claims",
+        "window-display",
+        "till-rolls"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv02a-i11",
+          "threads": [
+            "cello-neck",
+            "loan-cello"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv02a-i05",
+          "later": "hv02a-i09",
+          "thread": "cello-neck"
+        },
+        "undo": {
+          "item": "hv02a-i13",
+          "reason": "Hypothetical correction: receipt and pickup scuff concern the temporary cello, not the neck restoration.",
+          "wrongThread": "cello-neck"
+        }
+      },
+      "id": "hv02a",
+      "items": [
+        {
+          "id": "hv02a-i01",
+          "modality": "image",
+          "text": "Leena's cello: neck projection dropped during rehearsal. Photograph the heel gap before loosening strings; no glue until the joint is inspected."
+        },
+        {
+          "id": "hv02a-i02",
+          "modality": "voice",
+          "text": "Tomas asked for black hair on his spare bow, normal length. He'll collect after Saturday's lesson."
+        },
+        {
+          "id": "hv02a-i03",
+          "modality": "note",
+          "text": "Door cylinder sticks even with the spare key. Ordered a replacement keyed alike to three fresh keys."
+        },
+        {
+          "id": "hv02a-i04",
+          "modality": "note",
+          "text": "Leena needs a loan cello for Friday's concert. Call the cooperative about their full-size instrument and check whether a hard case is included."
+        },
+        {
+          "id": "hv02a-i05",
+          "modality": "video",
+          "text": "Heel gap close-up: old hide glue crumbled out dry. Mortise edges intact; neck reset estimate two bench days."
+        },
+        {
+          "id": "hv02a-i06",
+          "modality": "file",
+          "text": "Co-op reply: full-size loan cello available Thursday afternoon, deposit \u00a390. Leena must sign it out herself."
+        },
+        {
+          "id": "hv02a-i07",
+          "modality": "note",
+          "text": "Tomas's frog slide is stubborn. Protect the pearl while opening it for the rehair; keep the removed knot in the job tray."
+        },
+        {
+          "id": "hv02a-i08",
+          "modality": "image",
+          "text": "'90 by Thursday; ask L.' on torn masking tape."
+        },
+        {
+          "id": "hv02a-i09",
+          "modality": "note",
+          "text": "Measured Leena's neck dry-fit again: three bench days, not two, because the button needs reinforcement. Concert deadline will not be met."
+        },
+        {
+          "id": "hv02a-i10",
+          "modality": "voice",
+          "text": "Key blanks arrived wrong profile. Locksmith will bring the proper cylinder and matching keys together Tuesday."
+        },
+        {
+          "id": "hv02a-i11",
+          "modality": "voice",
+          "text": "Leena repair/loan call: neck reinforcement needs until Monday. Extend the co-op cello booking through Monday evening and set its bridge curve close to her usual setup so the Friday programme is playable."
+        },
+        {
+          "id": "hv02a-i12",
+          "modality": "video",
+          "text": "Bow rehair test for Tomas: at playing tension the ribbon is even, but two loose hairs need trimming near the tip."
+        },
+        {
+          "id": "hv02a-i13",
+          "modality": "file",
+          "text": "Loan cello receipt, Leena: Thursday 15:30 to Monday 18:00, case included. Photograph existing scuff on lower rib at pickup."
+        },
+        {
+          "id": "hv02a-i14",
+          "modality": "note",
+          "text": "Leena neck joint clamped cleanly. Pencil line shows no movement after initial tension; leave overnight before final setup."
+        },
+        {
+          "id": "hv02a-i15",
+          "modality": "image",
+          "text": "Workshop cylinder now turns freely. One new key to the cleaner, one to me, one in the sealed spare envelope."
+        },
+        {
+          "id": "hv02a-i16",
+          "modality": "voice",
+          "text": "Tomas prefers slightly firmer tension than the first trial. Re-seat the knot rather than shorten hair at the frog."
+        },
+        {
+          "id": "hv02a-i17",
+          "modality": "file",
+          "text": "Leena played her repaired cello for twenty minutes. Projection stable; invoice should include the button reinforcement."
+        },
+        {
+          "id": "hv02a-i18",
+          "modality": "note",
+          "text": "Bench note without object: 'leave overnight; tiny movement?'"
+        },
+        {
+          "id": "hv02a-i19",
+          "modality": "note",
+          "text": "Co-op accepted Leena's loan cello back Monday, matching pickup photos. Deposit released."
+        },
+        {
+          "id": "hv02a-i20",
+          "modality": "note",
+          "text": "Tomas collected the bow after trying the firmer setup. Keep the black-hair preference on his job card."
+        }
+      ],
+      "threadDescriptions": {
+        "bow-rehair": "Rehair Tomas's bow and obtain his approval of the tension.",
+        "cello-neck": "Restore the slipped neck joint on Leena's cello.",
+        "loan-cello": "Arrange a temporary cello for Leena's concert while hers is repaired.",
+        "studio-lock": "Replace and distribute keys for the workshop door lock."
+      },
+      "threads": [
+        "cello-neck",
+        "loan-cello",
+        "bow-rehair",
+        "studio-lock"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv02b-i14",
+          "threads": [
+            "mandolin-top",
+            "finish-samples"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv02b-i02",
+          "later": "hv02b-i09",
+          "thread": "quartet-stands"
+        },
+        "undo": {
+          "item": "hv02b-i12",
+          "reason": "Hypothetical correction: sample removal testing develops the finish; it does not perform structural stabilization.",
+          "wrongThread": "mandolin-top"
+        }
+      },
+      "id": "hv02b",
+      "items": [
+        {
+          "id": "hv02b-i01",
+          "modality": "file",
+          "text": "Museum mandolin has a split beside the treble foot. Strings are off; curator wants stability for display, no promise that it will be playable."
+        },
+        {
+          "id": "hv02b-i02",
+          "modality": "note",
+          "text": "Four folding stands for the quartet. Prototype must fit inside the old bus locker, maximum folded length 62 cm."
+        },
+        {
+          "id": "hv02b-i03",
+          "modality": "note",
+          "text": "Start finish tests for museum mandolin on offcuts. Amber wash over isolation layer; record the mix so the touch-up can later be removed."
+        },
+        {
+          "id": "hv02b-i04",
+          "modality": "video",
+          "text": "Close view under mandolin top: one loose brace stops just before the crack. Pencil marks show where the two cleats may sit."
+        },
+        {
+          "id": "hv02b-i05",
+          "modality": "voice",
+          "text": "stand hinge squeaks / drill jig hole wandering / try hand reamer"
+        },
+        {
+          "id": "hv02b-i06",
+          "modality": "image",
+          "text": "Finish card: mix amber 3, clear 7. Under cool light it looks too orange next to the mandolin's worn edge."
+        },
+        {
+          "id": "hv02b-i07",
+          "modality": "file",
+          "text": "Curator approved two small cleats on the mandolin split, keeping the stamped date visible. Photograph the stamp before installation."
+        },
+        {
+          "id": "hv02b-i08",
+          "modality": "note",
+          "text": "62? lid won't shut"
+        },
+        {
+          "id": "hv02b-i09",
+          "modality": "voice",
+          "text": "Quartet bus locker was measured with the lid open. Correct folded-stand limit to 58 cm, replacing the earlier 62; shorten the lower rail drawing."
+        },
+        {
+          "id": "hv02b-i10",
+          "modality": "note",
+          "text": "Mandolin repair test: the amber 3/clear 7 sample obscures grain under exhibition lighting. Retire that recipe; the new card is amber 1/clear 9 over the same isolation layer."
+        },
+        {
+          "id": "hv02b-i11",
+          "modality": "image",
+          "text": "Cleats glued and clamp pressure released. Mandolin seam stays shut with no string load; do not add tension just to prove a display repair."
+        },
+        {
+          "id": "hv02b-i12",
+          "modality": "file",
+          "text": "Finish notebook page for the mandolin: one-to-nine mix stays translucent after drying. Removal test lifts it without disturbing the isolation coat."
+        },
+        {
+          "id": "hv02b-i13",
+          "modality": "video",
+          "text": "Quartet stand prototype folds to 57.5 cm now. Bass player tried opening it one-handed; add a thumb notch in the latch."
+        },
+        {
+          "id": "hv02b-i14",
+          "modality": "note",
+          "text": "Joint review with curator: mandolin seam is stable with two cleats; coat only the pale exposed line using the one-to-nine amber trial. Add both the cleat positions and finish-removal method to the conservation record. We looked at the top first under the bench lamp and then under the warmer exhibition lamp. The repaired line is more noticeable under the bench lamp, but the curator prefers that to covering the surrounding original surface. Leave the little dark scratch beside the treble foot alone; it appears in the oldest photograph and is not part of this damage. Before applying colour, photograph the closed seam with a scale and mark the two cleats on a separate underside sketch. Attach the approved offcut sample number and isolation-coat notes so a future conservator can distinguish our touch-up from the original finish."
+        },
+        {
+          "id": "hv02b-i15",
+          "modality": "image",
+          "text": "Under magnification the mandolin cleats have no squeezed-out glue near the stamp. Conservation photo accepted."
+        },
+        {
+          "id": "hv02b-i16",
+          "modality": "image",
+          "text": "Tin labelled 'clear' has no mixing date. Don't use until identified."
+        },
+        {
+          "id": "hv02b-i17",
+          "modality": "note",
+          "text": "Quartet rails cut as a set of four. One knot at the hinge line: remake that rail before assembling the remaining stands."
+        },
+        {
+          "id": "hv02b-i18",
+          "modality": "voice",
+          "text": "Dry mandolin touch-up viewed from normal gallery distance. Curator says the pale line no longer distracts; store the approved sample card with recipe."
+        },
+        {
+          "id": "hv02b-i19",
+          "modality": "file",
+          "text": "Museum signed off the mandolin's stable display condition. Foam support must carry the neck; repaired top should bear no mounting weight."
+        },
+        {
+          "id": "hv02b-i20",
+          "modality": "note",
+          "text": "All four quartet stands fit the locker and open with the new thumb notch. Write the hinge oiling note on their care sheet."
+        }
+      ],
+      "threadDescriptions": {
+        "finish-samples": "Develop and document a reversible colour-match finish for the mandolin repair.",
+        "mandolin-top": "Stabilize the cracked top of the museum's mandolin for display.",
+        "quartet-stands": "Make four collapsible music stands for the town quartet."
+      },
+      "threads": [
+        "mandolin-top",
+        "finish-samples",
+        "quartet-stands"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv03a-i12",
+          "threads": [
+            "ridge-route",
+            "ridge-food"
+          ]
+        },
+        "rename": {
+          "evidenceItem": "hv03a-i14",
+          "from": "Slate Ridge weekend",
+          "thread": "ridge-route",
+          "to": "Juniper loop"
+        },
+        "revision": {
+          "earlier": "hv03a-i01",
+          "later": "hv03a-i06",
+          "thread": "ridge-route"
+        },
+        "undo": null
+      },
+      "id": "hv03a",
+      "items": [
+        {
+          "id": "hv03a-i01",
+          "modality": "note",
+          "text": "Slate Ridge Saturday: bus to Mill Gate, climb by the eastern path, camp at the old quarry. Seven kilometres carrying packs."
+        },
+        {
+          "id": "hv03a-i02",
+          "modality": "voice",
+          "text": "Miso sitter: Ana can do Saturday dinner but needs the key before Friday. Cat food is in the red cupboard."
+        },
+        {
+          "id": "hv03a-i03",
+          "modality": "video",
+          "text": "Tent test in shower: slow drip along the foot-end seam. Mark the wet spot with tape; buy seam sealer."
+        },
+        {
+          "id": "hv03a-i04",
+          "modality": "note",
+          "text": "Ridge food for three: oats twice, lentil packets Saturday night, wraps for lunches. Ben cannot eat sesame."
+        },
+        {
+          "id": "hv03a-i05",
+          "modality": "file",
+          "text": "Friday client report handoff: Jules needs the draft charts by Thursday noon to cover my leave."
+        },
+        {
+          "id": "hv03a-i06",
+          "modality": "image",
+          "text": "Map enlargement shows the quarry is inside the no-camping zone. Revise Slate Ridge overnight stop to Juniper Field; add two kilometres to Saturday."
+        },
+        {
+          "id": "hv03a-i07",
+          "modality": "note",
+          "text": "Tent foot seam cleaned and sealed. Cure flat indoors for a full day before repeating the water test."
+        },
+        {
+          "id": "hv03a-i08",
+          "modality": "voice",
+          "text": "Voice memo lost the start: 'three, red one, before Friday'."
+        },
+        {
+          "id": "hv03a-i09",
+          "modality": "note",
+          "text": "Juniper Field has a tap by the gate, but the notice says seasonal. Phone the caretaker before deciding how much water to carry on the ridge."
+        },
+        {
+          "id": "hv03a-i10",
+          "modality": "note",
+          "text": "Ana has the key and Miso's feeding card. She asked me to leave a light on a timer."
+        },
+        {
+          "id": "hv03a-i11",
+          "modality": "image",
+          "text": "Client report charts exported. Jules spotted a missing legend on revenue; fix it before sending the Thursday handoff."
+        },
+        {
+          "id": "hv03a-i12",
+          "modality": "voice",
+          "text": "Call with caretaker: Juniper Field tap shut this weekend. Move the route's lunch stop to Mill Spring for a refill, and pack an extra two-litre bladder plus a no-boil dinner so our water plan still works."
+        },
+        {
+          "id": "hv03a-i13",
+          "modality": "video",
+          "text": "Second tent shower test: the foot seam stays dry after ten minutes. Repack only when the fly has dried."
+        },
+        {
+          "id": "hv03a-i14",
+          "modality": "note",
+          "text": "Rename our 'Slate Ridge weekend' route sheet to 'Juniper loop'. It's still the same bus, walkers and revised Juniper Field camp; easier to distinguish from last year's ridge plan."
+        },
+        {
+          "id": "hv03a-i15",
+          "modality": "image",
+          "text": "Lentil packet labels have sesame oil. Replace all three with the chickpea pouches; Ben checked those ingredients."
+        },
+        {
+          "id": "hv03a-i16",
+          "modality": "note",
+          "text": "Miso's sitter backup is Omar if Ana's late shift runs over. Both have the same feeding card; don't double the evening meal."
+        },
+        {
+          "id": "hv03a-i17",
+          "modality": "file",
+          "text": "Jules received the client report with revenue legend restored. Leave note says he owns any Friday edits."
+        },
+        {
+          "id": "hv03a-i18",
+          "modality": "file",
+          "text": "Juniper loop GPX now includes Mill Spring and the extra distance. Download it before leaving mobile coverage."
+        },
+        {
+          "id": "hv03a-i19",
+          "modality": "note",
+          "text": "Green bag by the door. Check whether it has the small one."
+        },
+        {
+          "id": "hv03a-i20",
+          "modality": "image",
+          "text": "Ridge meals packed: sesame-free chickpeas, wraps, oats, extra bladder. Put Ben's marked pouch at the top for the spring lunch stop."
+        }
+      ],
+      "threadDescriptions": {
+        "cat-sitter": "Arrange care of Miso at home during the weekend away.",
+        "ridge-food": "Prepare meals and drinking-water logistics for the Slate Ridge hikers.",
+        "ridge-route": "Plan the walking route and overnight camp on the Slate Ridge weekend.",
+        "tent-repair": "Patch and test the leaking two-person tent before the trip.",
+        "work-handoff": "Hand off the Friday client report before taking leave."
+      },
+      "threads": [
+        "ridge-route",
+        "ridge-food",
+        "tent-repair",
+        "cat-sitter",
+        "work-handoff"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv03b-i11",
+          "threads": [
+            "island-permit",
+            "ferry-bikes"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv03b-i06",
+          "later": "hv03b-i10",
+          "thread": "ferry-bikes"
+        },
+        "undo": {
+          "item": "hv03b-i12",
+          "reason": "Hypothetical correction: a beacon photograph is photography planning, despite being taken on the same island.",
+          "wrongThread": "island-permit"
+        }
+      },
+      "id": "hv03b",
+      "items": [
+        {
+          "id": "hv03b-i01",
+          "modality": "file",
+          "text": "Heron Island overnight permits opened. Request two adults at the north meadow pitch for 18 May; no fires allowed."
+        },
+        {
+          "id": "hv03b-i02",
+          "modality": "image",
+          "text": "Tom's wide bike tyres may not fit ferry rack slots. Send the ferry office a side photo before reserving cycle spaces."
+        },
+        {
+          "id": "hv03b-i03",
+          "modality": "note",
+          "text": "Island sky session: take the small tracker and a 24 mm lens. Want the beacon at the edge of the frame, not in the middle."
+        },
+        {
+          "id": "hv03b-i04",
+          "modality": "video",
+          "text": "Balcony pots dried out last trip. Trial a wick from the big bucket into each herb pot before we leave."
+        },
+        {
+          "id": "hv03b-i05",
+          "modality": "note",
+          "text": "North meadow permit provisional, reference HN-28. Ranger wants arrival ferry time before assigning the pitch."
+        },
+        {
+          "id": "hv03b-i06",
+          "modality": "voice",
+          "text": "Ferry says wide tyres go on the floor straps. Two passenger tickets and two cycles held on the 10:40 boat."
+        },
+        {
+          "id": "hv03b-i07",
+          "modality": "note",
+          "text": "Tracker batteries held charge overnight. Run another test with the cold pack; the island can be windy after sunset."
+        },
+        {
+          "id": "hv03b-i08",
+          "modality": "image",
+          "text": "HN? 28? pencil rubbed out below the number."
+        },
+        {
+          "id": "hv03b-i09",
+          "modality": "note",
+          "text": "Herb wick trial flooded the mint tray. Raise bucket to the same level as the pots, not above them."
+        },
+        {
+          "id": "hv03b-i10",
+          "modality": "file",
+          "text": "Ferry timetable correction from office: 10:40 sailing cancelled for inspection. Our two bikes and passengers moved to 12:10; confirmation attached."
+        },
+        {
+          "id": "hv03b-i11",
+          "modality": "note",
+          "text": "Permit update for HN-28: give ranger the new 12:10 ferry arrival plan and request late pitch check-in. Ferry office also needs our camping permit number added to the bicycle group booking; reply to both confirmations."
+        },
+        {
+          "id": "hv03b-i12",
+          "modality": "image",
+          "text": "Beacon test frame from last scouting visit: even the short exposure flares across the centre. Put the camera east of the post and shade the lens with the hood."
+        },
+        {
+          "id": "hv03b-i13",
+          "modality": "file",
+          "text": "Heron north meadow permit issued for two adults, one night. Ranger marked the pitch beyond the hand pump; print the no-fire conditions."
+        },
+        {
+          "id": "hv03b-i14",
+          "modality": "video",
+          "text": "Ferry loading rehearsal: unclip both panniers and tie the front wheel so it cannot turn while the wide-tyre bike is strapped down."
+        },
+        {
+          "id": "hv03b-i15",
+          "modality": "image",
+          "text": "Watering trial day two: mint tray damp, basil upright. Bucket line dropped about one centimetre; mark the full level before departure."
+        },
+        {
+          "id": "hv03b-i16",
+          "modality": "voice",
+          "text": "Remember the adapter. It's on the shelf."
+        },
+        {
+          "id": "hv03b-i17",
+          "modality": "note",
+          "text": "Sky forecast note for Heron outing: if haze hides the stars, make a long exposure of the beacon reflection. Pack the neutral-density filter for that fallback."
+        },
+        {
+          "id": "hv03b-i18",
+          "modality": "note",
+          "text": "Heron permit printout now in the dry pouch. Check out with the ranger by ten Sunday so the pitch isn't marked occupied."
+        },
+        {
+          "id": "hv03b-i19",
+          "modality": "image",
+          "text": "Ferry cycle booking shows floor straps for both bikes and the 12:10 departure. Tom has a screenshot for the ticket office."
+        },
+        {
+          "id": "hv03b-i20",
+          "modality": "note",
+          "text": "Tripod feet washed; lens hood and spare tracker batteries in camera pouch. Beacon composition sketch taped inside."
+        }
+      ],
+      "threadDescriptions": {
+        "balcony-plants": "Set up watering for balcony plants while away.",
+        "ferry-bikes": "Book and prepare bicycles for ferry transport to Heron Island.",
+        "island-permit": "Secure the overnight camping permit and pitch at Heron Island.",
+        "night-sky": "Prepare a sky-photography session during the island stay."
+      },
+      "threads": [
+        "island-permit",
+        "ferry-bikes",
+        "night-sky",
+        "balcony-plants"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv04a-i12",
+          "threads": [
+            "survey-practice",
+            "study-circle"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv04a-i05",
+          "later": "hv04a-i19",
+          "thread": "survey-practice"
+        },
+        "undo": {
+          "item": "hv04a-i08",
+          "reason": "Hypothetical correction: date 14 and an unnamed form also fit the dental visit, so the source remains uncertain.",
+          "wrongThread": "survey-booking"
+        }
+      },
+      "id": "hv04a",
+      "items": [
+        {
+          "id": "hv04a-i01",
+          "modality": "note",
+          "text": "Traverse practice plan: work six closed-loop questions this week, then redo any closure errors without looking at the worked answers."
+        },
+        {
+          "id": "hv04a-i02",
+          "modality": "file",
+          "text": "Surveying exam portal: registration incomplete until photo ID and access-arrangement form are uploaded. Deadline the 14th."
+        },
+        {
+          "id": "hv04a-i03",
+          "modality": "voice",
+          "text": "Dental receptionist offered the 14th at 09:00 for check-up. Ask whether that includes cleaning."
+        },
+        {
+          "id": "hv04a-i04",
+          "modality": "note",
+          "text": "Study circle: Mei and Rowan can meet Wednesdays. Reserve the quiet room and give everyone two questions to contribute."
+        },
+        {
+          "id": "hv04a-i05",
+          "modality": "image",
+          "text": "Loop exercise 4: I keep applying the eastings correction to the northings column. Circle the column labels before calculating."
+        },
+        {
+          "id": "hv04a-i06",
+          "modality": "note",
+          "text": "Exam access form sent with evidence. Portal still says pending; save the confirmation number and check Friday."
+        },
+        {
+          "id": "hv04a-i07",
+          "modality": "file",
+          "text": "Wednesday room booking needs a group name. Use 'Survey circle' and book ninety minutes, no projector."
+        },
+        {
+          "id": "hv04a-i08",
+          "modality": "image",
+          "text": "'14, bring the form' on a sticky note without letterhead."
+        },
+        {
+          "id": "hv04a-i09",
+          "modality": "voice",
+          "text": "Correction to my traverse formula card: distribute angular misclosure evenly across angles here, not proportional to line length. My previous card mixed two different adjustment steps."
+        },
+        {
+          "id": "hv04a-i10",
+          "modality": "file",
+          "text": "Dentist confirmed the 14th appointment includes cleaning. Appointment card says arrive ten minutes early for updated history form."
+        },
+        {
+          "id": "hv04a-i11",
+          "modality": "note",
+          "text": "Rowan's proposed study questions duplicate Mei's. Keep Mei's two and ask Rowan for instrument-error problems before Wednesday."
+        },
+        {
+          "id": "hv04a-i12",
+          "modality": "note",
+          "text": "Bring my corrected angular-misclosure card to the Survey circle and run a ten-minute worked example. Add the six traverse questions I practised to the shared bank, with the eastings/northings mistake highlighted in the answer notes."
+        },
+        {
+          "id": "hv04a-i13",
+          "modality": "voice",
+          "text": "Exam centre approved a low-distraction seat. Registration is complete once I pay the remaining fee by Monday."
+        },
+        {
+          "id": "hv04a-i14",
+          "modality": "image",
+          "text": "Timed traverse attempt: 42 minutes, closure within tolerance. Still wasted five minutes copying coordinates twice."
+        },
+        {
+          "id": "hv04a-i15",
+          "modality": "note",
+          "text": "Quiet-room staff moved our Survey circle to upstairs room 2 for this Wednesday only. Send the room number with the question sheet."
+        },
+        {
+          "id": "hv04a-i16",
+          "modality": "file",
+          "text": "Portal receipt: exam fee paid, low-distraction seat noted, candidate entry saved offline."
+        },
+        {
+          "id": "hv04a-i17",
+          "modality": "voice",
+          "text": "Too early. move to next week?"
+        },
+        {
+          "id": "hv04a-i18",
+          "modality": "note",
+          "text": "Dental visit done. Next routine check-up card filed; buy the smaller brush heads recommended during cleaning."
+        },
+        {
+          "id": "hv04a-i19",
+          "modality": "note",
+          "text": "I redid loop exercise 4 from blank paper. No swapped columns this time; annotate the old wrong solution rather than deleting it."
+        },
+        {
+          "id": "hv04a-i20",
+          "modality": "voice",
+          "text": "Survey circle attendance five. The short worked example fit; leave more time for everyone's instrument-error answers next meeting."
+        }
+      ],
+      "threadDescriptions": {
+        "dental-visit": "Arrange and attend a routine dental appointment.",
+        "study-circle": "Organize peer study sessions and a shared question bank.",
+        "survey-booking": "Complete exam registration and required access arrangements.",
+        "survey-practice": "Improve traverse-adjustment skills for the surveying professional exam."
+      },
+      "threads": [
+        "survey-practice",
+        "survey-booking",
+        "study-circle",
+        "dental-visit"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv04b-i14",
+          "threads": [
+            "mock-exam",
+            "coding-drills"
+          ]
+        },
+        "rename": {
+          "evidenceItem": "hv04b-i11",
+          "from": "Red list",
+          "thread": "coding-drills",
+          "to": "Reasoning repairs"
+        },
+        "revision": {
+          "earlier": "hv04b-i04",
+          "later": "hv04b-i08",
+          "thread": "mock-exam"
+        },
+        "undo": {
+          "item": "hv04b-i15",
+          "reason": "Hypothetical correction: finance processing advances reimbursement, not preparation or scoring of the mock.",
+          "wrongThread": "mock-exam"
+        }
+      },
+      "id": "hv04b",
+      "items": [
+        {
+          "id": "hv04b-i01",
+          "modality": "note",
+          "text": "Records certificate drills: fifteen retention scenarios each morning. Error log heading is 'Red list'; explain why I chose the wrong category."
+        },
+        {
+          "id": "hv04b-i02",
+          "modality": "image",
+          "text": "Kitchen shelf bracket spacing 44 cm. Wall detector flags a cable on the right, so don't drill until the route is checked."
+        },
+        {
+          "id": "hv04b-i03",
+          "modality": "file",
+          "text": "Ask training coordinator to reimburse the records certificate fee. Policy wants a paid receipt and manager's approval, even before the result."
+        },
+        {
+          "id": "hv04b-i04",
+          "modality": "note",
+          "text": "Mock exam on Sunday: 80 questions, 100 minutes. Print one clean answer sheet and put the phone outside the room."
+        },
+        {
+          "id": "hv04b-i05",
+          "modality": "voice",
+          "text": "Library card expires this month. Renewal desk needs current address proof; electricity statement will do."
+        },
+        {
+          "id": "hv04b-i06",
+          "modality": "note",
+          "text": "Retention drill: deletion freeze overrides the routine disposal date when a hold applies. My answer assumed the schedule kept running."
+        },
+        {
+          "id": "hv04b-i07",
+          "modality": "voice",
+          "text": "Manager approved exam expense. Finance rejected the bank screenshot; download the provider's itemized receipt."
+        },
+        {
+          "id": "hv04b-i08",
+          "modality": "file",
+          "text": "Exam mock booklet erratum: this edition has 75 questions and a 90-minute allowance, replacing my 80/100 setup. Reprint the timer cover."
+        },
+        {
+          "id": "hv04b-i09",
+          "modality": "image",
+          "text": "'Use current statement' torn corner, no logo."
+        },
+        {
+          "id": "hv04b-i10",
+          "modality": "note",
+          "text": "Shelf cable runs vertically from the socket. Move both brackets left by 8 cm; shelf still clears the kettle lid."
+        },
+        {
+          "id": "hv04b-i11",
+          "modality": "note",
+          "text": "Rename my 'Red list' study log to 'Reasoning repairs'. Same scenario errors; new heading reminds me to write the rule instead of just circling mistakes."
+        },
+        {
+          "id": "hv04b-i12",
+          "modality": "file",
+          "text": "Library renewal accepted with electricity statement. New expiry date is next September; keep the same physical card."
+        },
+        {
+          "id": "hv04b-i13",
+          "modality": "image",
+          "text": "Sunday mock finished in 88 minutes, 58 of 75 correct. Wrong answers cluster around legal holds and duplicate record copies. Don't judge progress from the raw score until the answer-key erratum is checked."
+        },
+        {
+          "id": "hv04b-i14",
+          "modality": "note",
+          "text": "Mock review: after checking the erratum, score is 60/75. Copy the remaining hold and duplicate-copy errors into Reasoning repairs; schedule ten fresh scenarios in those categories for Tuesday, and annotate the mock answer sheet with the corrected key."
+        },
+        {
+          "id": "hv04b-i15",
+          "modality": "file",
+          "text": "Finance received itemized exam receipt and manager approval. Reimbursement queued for next payroll under training, not travel."
+        },
+        {
+          "id": "hv04b-i16",
+          "modality": "video",
+          "text": "Kitchen shelf installed level. Kettle lid clears by three fingers; let the adhesive screw covers settle before wiping."
+        },
+        {
+          "id": "hv04b-i17",
+          "modality": "voice",
+          "text": "Tuesday drills: nine out of ten holds/copies scenarios right. The miss was an active working copy, not a duplicate record."
+        },
+        {
+          "id": "hv04b-i18",
+          "modality": "note",
+          "text": "Receipt? the one with the old number."
+        },
+        {
+          "id": "hv04b-i19",
+          "modality": "image",
+          "text": "Payroll line 'professional development' matches the full records exam fee. Mark reimbursement complete."
+        },
+        {
+          "id": "hv04b-i20",
+          "modality": "note",
+          "text": "Keep the marked Sunday mock paper as the baseline. Next full mock will use a fresh booklet and the corrected 90-minute limit."
+        }
+      ],
+      "threadDescriptions": {
+        "coding-drills": "Practise scenario coding and maintain an error log for a fictional records-management certification.",
+        "exam-reimbursement": "Obtain employer reimbursement of certification fees.",
+        "kitchen-shelf": "Install a kitchen shelf above the kettle.",
+        "library-card": "Renew the municipal lending-library card.",
+        "mock-exam": "Arrange and complete a timed mock of the records-management exam."
+      },
+      "threads": [
+        "coding-drills",
+        "mock-exam",
+        "exam-reimbursement",
+        "kitchen-shelf",
+        "library-card"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv13a-i10",
+          "threads": [
+            "relay-entries",
+            "relay-deck"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv13a-i06",
+          "later": "hv13a-i09",
+          "thread": "relay-entries"
+        },
+        "undo": {
+          "item": "hv13a-i19",
+          "reason": "Hypothetical correction: adding reserve identity is entry administration and gives no marshalling instruction.",
+          "wrongThread": "relay-deck"
+        }
+      },
+      "id": "hv13a",
+      "items": [
+        {
+          "id": "hv13a-i01",
+          "modality": "note",
+          "text": "Junior medley entry draft: backstroke Nia, breaststroke Dev, butterfly Cal, freestyle Ruth. Need all four birth years before submitting."
+        },
+        {
+          "id": "hv13a-i02",
+          "modality": "video",
+          "text": "Home router drops both bands after twenty minutes. Modem lights stay steady; save the router log before restarting."
+        },
+        {
+          "id": "hv13a-i03",
+          "modality": "file",
+          "text": "Relay deck plan: teams assemble by the shallow-end benches, then the marshal calls them to lane gates. Parents stay behind the barrier."
+        },
+        {
+          "id": "hv13a-i04",
+          "modality": "voice",
+          "text": "Dev's parent confirmed birth year and surname spelling: Devan, no second n. Amend the junior medley form."
+        },
+        {
+          "id": "hv13a-i05",
+          "modality": "note",
+          "text": "Deck volunteer Ellen can cover gates 1\u20133. Need one more person for 4\u20136 during junior relays."
+        },
+        {
+          "id": "hv13a-i06",
+          "modality": "image",
+          "text": "Relay entry confirmation shows Ruth in butterfly. That's wrong: Cal swims butterfly, Ruth freestyle. Request correction before the entry deadline."
+        },
+        {
+          "id": "hv13a-i07",
+          "modality": "file",
+          "text": "Router log repeats overheating warning with nothing stacked above it. Supplier agreed to replacement under the existing warranty."
+        },
+        {
+          "id": "hv13a-i08",
+          "modality": "image",
+          "text": "'Cal / 4 / by the bench' scribbled on a wet towel label."
+        },
+        {
+          "id": "hv13a-i09",
+          "modality": "note",
+          "text": "Relay secretary corrected Cal and Ruth's strokes. The accepted order is now Nia, Dev, Cal, Ruth; save this version over the draft only on the print queue, not in the archive."
+        },
+        {
+          "id": "hv13a-i10",
+          "modality": "voice",
+          "text": "Our junior medley team drew lane 5. Update their accepted entry sheet with that assignment and give the 4\u20136 gate marshal the named stroke order, marking Ruth as the final swimmer so the team is called in sequence."
+        },
+        {
+          "id": "hv13a-i11",
+          "modality": "note",
+          "text": "New router arrived. Use the old network name so the printer can reconnect, but make a fresh admin password."
+        },
+        {
+          "id": "hv13a-i12",
+          "modality": "video",
+          "text": "Relay start demonstration: gate marshal counts four swimmers, checks wristbands, then points them along the marked route. No shortcut across timing cables."
+        },
+        {
+          "id": "hv13a-i13",
+          "modality": "file",
+          "text": "Nia's family name has an accent missing on the programme proof. Ask entries desk to fix the junior medley team line."
+        },
+        {
+          "id": "hv13a-i14",
+          "modality": "note",
+          "text": "Ellen swapped shifts; Jo covers gates 1\u20133 for the relay session. Revised marshal list on the clipboard."
+        },
+        {
+          "id": "hv13a-i15",
+          "modality": "image",
+          "text": "Programme proof now spells all four relay surnames correctly, including Nia's accent. Parent checks complete."
+        },
+        {
+          "id": "hv13a-i16",
+          "modality": "voice",
+          "text": "Six? No, leave the old one."
+        },
+        {
+          "id": "hv13a-i17",
+          "modality": "image",
+          "text": "Relay benches wet after warm-up. Put towels on the waiting area and check the barrier gap stays clear for the marshal."
+        },
+        {
+          "id": "hv13a-i18",
+          "modality": "note",
+          "text": "Replacement router ran all evening without drops. Printer and laptop both rejoined; send the old unit back with supplier label."
+        },
+        {
+          "id": "hv13a-i19",
+          "modality": "note",
+          "text": "Relay entry desk asked for reserve swimmer details even though the four starters are unchanged. Add Ivo as reserve with his birth year."
+        },
+        {
+          "id": "hv13a-i20",
+          "modality": "voice",
+          "text": "Junior relay marshal debrief: lane 5 team reached the gate in correct order, but the waiting benches need a larger sign next time."
+        }
+      ],
+      "threadDescriptions": {
+        "home-router": "Diagnose and replace the unreliable home wireless router.",
+        "relay-deck": "Coordinate marshalling, lane access and on-deck staff for the junior relay session.",
+        "relay-entries": "Submit accurate swimmer names and running order for the junior medley relay."
+      },
+      "threads": [
+        "relay-entries",
+        "relay-deck",
+        "home-router"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv13b-i11",
+          "threads": [
+            "timing-repair",
+            "results-release"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv13b-i10",
+          "later": "hv13b-i11",
+          "thread": "results-release"
+        },
+        "undo": {
+          "item": "hv13b-i14",
+          "reason": "Hypothetical correction: the bus record belongs to the hiking outing; its pickup clarification does not arrange swim spectator access.",
+          "wrongThread": "access-seating"
+        }
+      },
+      "id": "hv13b",
+      "items": [
+        {
+          "id": "hv13b-i01",
+          "modality": "video",
+          "text": "Lane two touchpad sometimes misses a finish. Test cable continuity first; don't assume the pad itself is dead."
+        },
+        {
+          "id": "hv13b-i02",
+          "modality": "file",
+          "text": "Invitational awards order: 48 medals with blue ribbons. Engraving is year and meet name only, no swimmer names."
+        },
+        {
+          "id": "hv13b-i03",
+          "modality": "note",
+          "text": "New club banner: turquoise background, white wave, no year so we can use it next season. Need a print proof."
+        },
+        {
+          "id": "hv13b-i04",
+          "modality": "voice",
+          "text": "Hiking club bus quote for 22 people to Alder Pass. Deposit due Friday; wheelchair lift not requested for this booking."
+        },
+        {
+          "id": "hv13b-i05",
+          "modality": "note",
+          "text": "Swim spectator seating: reserve four wheelchair spaces at the west gallery and adjacent companion chairs. Lift key stays at reception."
+        },
+        {
+          "id": "hv13b-i06",
+          "modality": "file",
+          "text": "Results release checklist: verify disqualifications against referee sheets before posting the invitational PDF. Initial draft has no relay splits."
+        },
+        {
+          "id": "hv13b-i07",
+          "modality": "note",
+          "text": "Touchpad fault follows lane-two cable when swapped to lane four. Replace that cable; keep the pad."
+        },
+        {
+          "id": "hv13b-i08",
+          "modality": "note",
+          "text": "48 blue, Friday, confirm proof"
+        },
+        {
+          "id": "hv13b-i09",
+          "modality": "image",
+          "text": "Printer's club banner proof is too dark to show the white wave detail. Ask for a lighter turquoise sample on the actual fabric."
+        },
+        {
+          "id": "hv13b-i10",
+          "modality": "image",
+          "text": "Invitational provisional results give heat 3 lane two a 1:08.42, but hand timers both recorded about 1:06. Flag it for referee review."
+        },
+        {
+          "id": "hv13b-i11",
+          "modality": "note",
+          "text": "Results/timing handoff: new lane-two cable passes twenty finishes, so reopen the lane for afternoon heats. For the earlier heat 3 result, use the referee-approved backup 1:06.38 in place of 1:08.42 and retain the failed automatic record in the audit attachment."
+        },
+        {
+          "id": "hv13b-i12",
+          "modality": "voice",
+          "text": "Medal supplier short of blue ribbon. Approved navy for all 48; delivery still Thursday."
+        },
+        {
+          "id": "hv13b-i13",
+          "modality": "image",
+          "text": "West gallery ramp blocked by a stack of chairs in setup photo. Venue steward agreed to clear it and mark the four reserved wheelchair spaces."
+        },
+        {
+          "id": "hv13b-i14",
+          "modality": "file",
+          "text": "Alder Pass hiking bus booked for 22, deposit paid. Driver pickup is library car park, not the swimming pool."
+        },
+        {
+          "id": "hv13b-i15",
+          "modality": "voice",
+          "text": "Replace the suspect lane-two cable's label with 'failed continuity test' and keep it off the spare rack. New cable stayed clean for afternoon races."
+        },
+        {
+          "id": "hv13b-i16",
+          "modality": "note",
+          "text": "Invitational results PDF now includes corrected heat 3 time and signed disqualification codes. Release after the final referee read-through."
+        },
+        {
+          "id": "hv13b-i17",
+          "modality": "voice",
+          "text": "Left it at reception. Could someone collect?"
+        },
+        {
+          "id": "hv13b-i18",
+          "modality": "image",
+          "text": "All 48 medals delivered with approved navy ribbons. Counted twelve per tray; engraving matches the invitational proof."
+        },
+        {
+          "id": "hv13b-i19",
+          "modality": "file",
+          "text": "Banner fabric sample approved in lighter turquoise. Print one 2-metre banner with reinforced corner eyelets."
+        },
+        {
+          "id": "hv13b-i20",
+          "modality": "video",
+          "text": "West gallery setup checked: four wheelchair bays and four companion seats, clear route from the lift. Reception has the key."
+        }
+      ],
+      "threadDescriptions": {
+        "access-seating": "Arrange accessible spectator seating at the swim venue.",
+        "bus-hire": "Book transport for an unrelated hiking club outing.",
+        "club-banners": "Produce a new reusable club banner.",
+        "medal-order": "Order and receive awards for the invitational.",
+        "results-release": "Check and publish the invitational race results.",
+        "timing-repair": "Repair and verify the lane-two touchpad timing fault before the invitational."
+      },
+      "threads": [
+        "timing-repair",
+        "results-release",
+        "medal-order",
+        "access-seating",
+        "club-banners",
+        "bus-hire"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv14a-i13",
+          "threads": [
+            "oat-stock",
+            "winter-drinks"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv14a-i01",
+          "later": "hv14a-i08",
+          "thread": "oat-stock"
+        },
+        "undo": {
+          "item": "hv14a-i11",
+          "reason": "Hypothetical correction: costing a recipe references oat prices but does not count, reserve or replenish inventory.",
+          "wrongThread": "oat-stock"
+        }
+      },
+      "id": "hv14a",
+      "items": [
+        {
+          "id": "hv14a-i01",
+          "modality": "note",
+          "text": "Morning oat count: seven sealed cartons behind the bar, six in the storeroom. Reorder at twelve because delivery takes two days."
+        },
+        {
+          "id": "hv14a-i02",
+          "modality": "voice",
+          "text": "Winter drinks test: toasted-date latte at 250 ml. Try the syrup at 15 ml first; current sample overwhelms the coffee."
+        },
+        {
+          "id": "hv14a-i03",
+          "modality": "file",
+          "text": "Apron sizing sheet: Len wants longer ties, Priya shorter neck strap. Send actual measurements, not just S/M."
+        },
+        {
+          "id": "hv14a-i04",
+          "modality": "video",
+          "text": "Grinder shot comparison: left basket gets mostly fines; burr collar clicks under load. Stop adjusting until service checks alignment."
+        },
+        {
+          "id": "hv14a-i05",
+          "modality": "image",
+          "text": "Delivery invoice OCR: OAT DRlNK 6 x 1L / qty 2 / lot OD83. Received two cases, both sealed."
+        },
+        {
+          "id": "hv14a-i06",
+          "modality": "note",
+          "text": "Date latte panel liked 9 ml syrup better than 15. Keep 250 ml cup; cost the lower-syrup recipe for the winter board."
+        },
+        {
+          "id": "hv14a-i07",
+          "modality": "note",
+          "text": "Seven? one open; ask Len."
+        },
+        {
+          "id": "hv14a-i08",
+          "modality": "note",
+          "text": "Stock correction: morning total was thirteen cartons but two behind-bar cartons were empty display props. Actual usable oat stock was eleven before the delivery."
+        },
+        {
+          "id": "hv14a-i09",
+          "modality": "file",
+          "text": "Grinder service found a loose upper-burr carrier. Replacement screw ordered; technician says keep this grinder off until fitted."
+        },
+        {
+          "id": "hv14a-i10",
+          "modality": "image",
+          "text": "Apron supplier can lengthen ties by 20 cm at no charge. Priya tried a pinned neck strap and marked the comfortable length."
+        },
+        {
+          "id": "hv14a-i11",
+          "modality": "file",
+          "text": "Winter menu costing sheet: date latte with oat base adds 22p over dairy at today's carton price. Show one fixed menu price; don't print the ingredient-cost arithmetic."
+        },
+        {
+          "id": "hv14a-i12",
+          "modality": "voice",
+          "text": "Oat supplier says next delivery will be a day late. We have enough for ordinary service but not a large promotion."
+        },
+        {
+          "id": "hv14a-i13",
+          "modality": "note",
+          "text": "Winter launch stock plan: reserve eight oat cartons for Saturday's date-latte samples and increase the next oat order by one case. Delay the printed menu's launch date to Sunday if the late delivery doesn't arrive; replace the old Friday launch proof. The tasting table will use small cups, but the bar will still serve ordinary drinks, so the reserve cannot be the entire stock available to the shift. Put a dated count sheet on the storeroom door and have the opener check the delivery before approving the board for printing. If the carton count is short, leave the regular board up and tell the printer which dated proof to hold. We already approved the drink recipe and price; only its public start date depends on this delivery. Count unopened cartons after sampling to establish Monday's reorder quantity."
+        },
+        {
+          "id": "hv14a-i14",
+          "modality": "image",
+          "text": "Winter board proof: 'Toasted Date Latte', 250 ml, one price. Remove the crossed-out Friday launch line before printing."
+        },
+        {
+          "id": "hv14a-i15",
+          "modality": "video",
+          "text": "Burr carrier secured. Grind-size spread now even in three test shots; service ticket closed."
+        },
+        {
+          "id": "hv14a-i16",
+          "modality": "note",
+          "text": "Apron order confirmed: six black, Len's pair with longer ties, Priya's pair with shortened neck straps, two standard spares."
+        },
+        {
+          "id": "hv14a-i17",
+          "modality": "image",
+          "text": "Oat case arrived before close. Count gives enough for eight-carton sampling reserve plus weekday service; put the oldest lot in front."
+        },
+        {
+          "id": "hv14a-i18",
+          "modality": "voice",
+          "text": "Voice scrap: 'change the old price before Sunday' with background milk-steamer noise."
+        },
+        {
+          "id": "hv14a-i19",
+          "modality": "note",
+          "text": "Date latte winter board printed and hung. Final batch uses the approved 9 ml syrup; label the pump to avoid returning to 15."
+        },
+        {
+          "id": "hv14a-i20",
+          "modality": "video",
+          "text": "Delivered aprons match the marked lengths. Priya can reach the till without the neck pulling; put the two spares upstairs."
+        }
+      ],
+      "threadDescriptions": {
+        "grinder-service": "Diagnose and repair uneven output from the counter grinder.",
+        "oat-stock": "Keep the caf\u00e9's oat-drink supply accurate and sufficient for service.",
+        "staff-aprons": "Fit and order replacement staff aprons.",
+        "winter-drinks": "Develop and publish the winter drinks menu with tested recipes and costs."
+      },
+      "threads": [
+        "oat-stock",
+        "winter-drinks",
+        "grinder-service",
+        "staff-aprons"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv14b-i11",
+          "threads": [
+            "pastry-count",
+            "allergen-cards"
+          ]
+        },
+        "rename": {
+          "evidenceItem": "hv14b-i10",
+          "from": "Extra uplift",
+          "thread": "bin-contract",
+          "to": "Food bin schedule"
+        },
+        "revision": {
+          "earlier": "hv14b-i03",
+          "later": "hv14b-i07",
+          "thread": "allergen-cards"
+        },
+        "undo": {
+          "item": "hv14b-i16",
+          "reason": "Hypothetical correction: recording zero pastry waste manages stock; it does not alter the collection contract.",
+          "wrongThread": "bin-contract"
+        }
+      },
+      "id": "hv14b",
+      "items": [
+        {
+          "id": "hv14b-i01",
+          "modality": "note",
+          "text": "Bakery tally: ordered 18 pear twists, sold 11, staff ate 2, five left. Reduce tomorrow's order to fourteen and track waste separately."
+        },
+        {
+          "id": "hv14b-i02",
+          "modality": "file",
+          "text": "Archive breakfast coffee order: thirty cups at 08:15 Tuesday, filter only. They supply cups, we bring urn and stirrers."
+        },
+        {
+          "id": "hv14b-i03",
+          "modality": "image",
+          "text": "Counter allergen card for pear twist says dairy only. Bakery recipe sheet also lists wheat and egg; confirm before reprinting."
+        },
+        {
+          "id": "hv14b-i04",
+          "modality": "video",
+          "text": "West window glare hits the espresso screen after three. Film sample A makes the room grey; test the clear UV sample instead."
+        },
+        {
+          "id": "hv14b-i05",
+          "modality": "voice",
+          "text": "Waste collector quote for twice-weekly food bin instead of weekly. Ask whether the smaller wheelie bin changes the minimum term."
+        },
+        {
+          "id": "hv14b-i06",
+          "modality": "note",
+          "text": "Pear twist order sent at fourteen. Add a column for unsold pieces that can still be donated; they are not all waste."
+        },
+        {
+          "id": "hv14b-i07",
+          "modality": "file",
+          "text": "Bakery clarified the pear-twist wash uses milk, no egg. Correct my card draft: wheat and milk; retain their signed ingredient sheet as evidence."
+        },
+        {
+          "id": "hv14b-i08",
+          "modality": "voice",
+          "text": "Breakfast urn trial holds coffee above our service target for ninety minutes. Preheat with hot water, empty, then fill just before leaving for the archive."
+        },
+        {
+          "id": "hv14b-i09",
+          "modality": "note",
+          "text": "A clear one, not fourteen. check supplier."
+        },
+        {
+          "id": "hv14b-i10",
+          "modality": "note",
+          "text": "Bin contract name on quote is 'Extra uplift'. Rename our admin folder to 'Food bin schedule'; still the same twice-weekly food-waste proposal."
+        },
+        {
+          "id": "hv14b-i11",
+          "modality": "note",
+          "text": "Pastry supply changed for Friday: bakery replaces pear twists with apple pockets. Order ten pockets instead of fourteen twists, and replace the counter allergen card with the supplier's wheat/milk/almond declaration before displaying them."
+        },
+        {
+          "id": "hv14b-i12",
+          "modality": "image",
+          "text": "Window installer measured west pane twice: 132 by 186 cm inside the seals. Approved clear film sample after viewing at three o'clock."
+        },
+        {
+          "id": "hv14b-i13",
+          "modality": "file",
+          "text": "Archive host revised headcount to twenty-four. Coffee delivery stays 08:15; reduce brewed volume and send the revised catering total."
+        },
+        {
+          "id": "hv14b-i14",
+          "modality": "image",
+          "text": "Apple pocket allergen card proof: wheat, milk, almond in bold, product name above. Keep pear-twist card in the retired folder so it isn't put back accidentally."
+        },
+        {
+          "id": "hv14b-i15",
+          "modality": "file",
+          "text": "Food bin schedule accepted: Tuesday and Friday collections, smaller bin, month-to-month. First Tuesday pickup starts next week."
+        },
+        {
+          "id": "hv14b-i16",
+          "modality": "note",
+          "text": "Friday pastry close: ten apple pockets in, eight sold, two donated; zero discarded. Keep Monday order at ten pending another day's sales."
+        },
+        {
+          "id": "hv14b-i17",
+          "modality": "voice",
+          "text": "On the counter, by the old sheet. Ask Mina."
+        },
+        {
+          "id": "hv14b-i18",
+          "modality": "video",
+          "text": "West window film installed with a small bubble at the top. Installer says inspect after three days; screen is readable this afternoon."
+        },
+        {
+          "id": "hv14b-i19",
+          "modality": "note",
+          "text": "Archive meeting coffee delivered 08:10 for twenty-four. Urn returned empty and clean; final invoice matches revised headcount."
+        },
+        {
+          "id": "hv14b-i20",
+          "modality": "note",
+          "text": "Counter check: apple pocket sign matches the current bakery ingredient declaration. No pear-twist labels left among today's trays."
+        }
+      ],
+      "threadDescriptions": {
+        "allergen-cards": "Correct and replace counter allergen cards for the pastries.",
+        "bin-contract": "Change the caf\u00e9's waste-collection schedule and contract.",
+        "catering-coffee": "Prepare and deliver coffee service for the archive's breakfast meeting.",
+        "pastry-count": "Control daily pastry ordering and waste at the caf\u00e9.",
+        "window-film": "Install glare-reducing film on the caf\u00e9's west window."
+      },
+      "threads": [
+        "pastry-count",
+        "allergen-cards",
+        "catering-coffee",
+        "window-film",
+        "bin-contract"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv19a-i12",
+          "threads": [
+            "globe-loan",
+            "globe-crate"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv19a-i03",
+          "later": "hv19a-i08",
+          "thread": "globe-crate"
+        },
+        "undo": {
+          "item": "hv19a-i16",
+          "reason": "Hypothetical correction: signing loan dates and donor credit is agreement work, with no crate or transport action.",
+          "wrongThread": "globe-crate"
+        }
+      },
+      "id": "hv19a",
+      "items": [
+        {
+          "id": "hv19a-i01",
+          "modality": "file",
+          "text": "Bay Museum requests the celestial globe for Navigating at Night, four months from June. Loan committee needs their case specification and light-level plan before approval."
+        },
+        {
+          "id": "hv19a-i02",
+          "modality": "note",
+          "text": "Returning mask from Ash Gallery due next Wednesday. Compare carved edge with the outgoing condition photos before signing receipt."
+        },
+        {
+          "id": "hv19a-i03",
+          "modality": "image",
+          "text": "Globe crate sketch: suspended inner cradle, no pressure on meridian ring. Outside width estimate 82 cm including foam and handles."
+        },
+        {
+          "id": "hv19a-i04",
+          "modality": "voice",
+          "text": "Please check the ring before signing. Message forwarded without attachment or sender context."
+        },
+        {
+          "id": "hv19a-i05",
+          "modality": "note",
+          "text": "Paper archive humidity climbs whenever the supply fan stops. Technician wants a week of readings from the independent logger."
+        },
+        {
+          "id": "hv19a-i06",
+          "modality": "image",
+          "text": "Choir altos: pencilled breath after 'water', not before it. Make six copies of the marked score for Monday rehearsal."
+        },
+        {
+          "id": "hv19a-i07",
+          "modality": "file",
+          "text": "Bay sent the globe case drawing with a supported brass base and controlled lights. Committee approved the loan subject to the signed indemnity schedule."
+        },
+        {
+          "id": "hv19a-i08",
+          "modality": "voice",
+          "text": "Crate maker measured globe on its base: outside width must be 91 cm, replacing the 82 cm sketch. Larger handles included in the new figure; check the loading-door opening."
+        },
+        {
+          "id": "hv19a-i09",
+          "modality": "image",
+          "text": "Ash mask return condition sheet: old chip beside left eye unchanged, but new scrape on the underside of the stand. Photograph before moving it off the unpacking table."
+        },
+        {
+          "id": "hv19a-i10",
+          "modality": "note",
+          "text": "Courier route sheet has globe outward collection and Ash mask return on the same vehicle. Mask paperwork stays with receiving registrar; globe crate can load only after the return is unloaded."
+        },
+        {
+          "id": "hv19a-i11",
+          "modality": "file",
+          "text": "Archive logger shows peaks at fan stoppages, not when the door opens. Service company bringing a replacement relay on Thursday."
+        },
+        {
+          "id": "hv19a-i12",
+          "modality": "note",
+          "text": "Globe dispatch review with Bay: approve the loan schedule with the revised packed dimensions, and attach the signed case/light conditions to the agreement. Transport team must use a liftgate van because the completed 91 cm crate cannot go through the smaller side door. The host registrar will receive the sealed crate at the loading bay and send the seal photograph before their crew opens it. Committee approval alone is not our dispatch release; release comes after the crate maker confirms the cradle holds the base without touching the meridian ring. Pack a copy of the agreed handling diagram in the outer document pocket so nobody needs to break the seal to find it. Bay's registrar has checked the revised loan schedule and will return the signature page after their facilities team confirms the liftgate arrival slot."
+        },
+        {
+          "id": "hv19a-i13",
+          "modality": "voice",
+          "text": "Choir director changed the alto breath: take it before 'water' after all, together with tenors. Mark the correction on all six rehearsal copies."
+        },
+        {
+          "id": "hv19a-i14",
+          "modality": "file",
+          "text": "Ash Gallery agrees the mask stand scrape is new. Registrar will retain the comparison photos and record the accepted repair contribution against this return."
+        },
+        {
+          "id": "hv19a-i15",
+          "modality": "video",
+          "text": "Globe cradle test filmed with dummy load: base stays level through the ramp angle, meridian ring area remains clear. Crate maker signed release sheet."
+        },
+        {
+          "id": "hv19a-i16",
+          "modality": "note",
+          "text": "Bay globe agreement signed by both registrars. Loan dates remain June through September; exhibition credit line now includes the donor family."
+        },
+        {
+          "id": "hv19a-i17",
+          "modality": "image",
+          "text": "New archive relay fitted. Supply fan ran overnight and the paper-room logger stayed inside the set band; keep logging through Monday."
+        },
+        {
+          "id": "hv19a-i18",
+          "modality": "note",
+          "text": "Globe van collected at the agreed bay. Crate seal and liftgate loading photographed; send tracking update to Bay registrar."
+        },
+        {
+          "id": "hv19a-i19",
+          "modality": "note",
+          "text": "Mask return reconciled: receiving signature, scrape photographs and contribution agreement all filed. Move object back to its assigned store shelf."
+        },
+        {
+          "id": "hv19a-i20",
+          "modality": "file",
+          "text": "Monday choir pack ready, six alto scores with the revised breath mark. Keep one crossed-out original so I remember which instruction changed."
+        }
+      ],
+      "threadDescriptions": {
+        "archive-air": "Repair humidity control in the museum paper archive.",
+        "choir-score": "Prepare marked scores for a community choir rehearsal.",
+        "globe-crate": "Design the globe's protective crate and arrange its outward transport.",
+        "globe-loan": "Agree and document the celestial globe loan to the Bay Museum exhibition.",
+        "mask-return": "Receive and reconcile a carved mask returning from an earlier loan."
+      },
+      "threads": [
+        "globe-loan",
+        "globe-crate",
+        "mask-return",
+        "archive-air",
+        "choir-score"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv19b-i14",
+          "threads": [
+            "textile-tour",
+            "courier-rota"
+          ]
+        },
+        "rename": {
+          "evidenceItem": "hv19b-i12",
+          "from": "Three rooms",
+          "thread": "textile-tour",
+          "to": "Stitched journeys"
+        },
+        "revision": {
+          "earlier": "hv19b-i04",
+          "later": "hv19b-i08",
+          "thread": "textile-tour"
+        },
+        "undo": {
+          "item": "hv19b-i13",
+          "reason": "Hypothetical correction: a condition diagram intended for couriers does not schedule staff or travel cover.",
+          "wrongThread": "courier-rota"
+        }
+      },
+      "id": "hv19b",
+      "items": [
+        {
+          "id": "hv19b-i01",
+          "modality": "image",
+          "text": "Loose slip from tote: 'third one too weak; move it' with a smudged arrow."
+        },
+        {
+          "id": "hv19b-i02",
+          "modality": "image",
+          "text": "Embroidered hanging survey: fading strongest along top third, two weak stitches at lower sleeve. Compare against last year's colour target photographs."
+        },
+        {
+          "id": "hv19b-i03",
+          "modality": "voice",
+          "text": "Home fence blew over at the corner. Save the undamaged gate; price three replacement panels and two posts."
+        },
+        {
+          "id": "hv19b-i04",
+          "modality": "file",
+          "text": "Hanging tour draft: Bell House in March, Estuary Rooms in April, Hill Centre in May. Each venue wants a full calendar month."
+        },
+        {
+          "id": "hv19b-i05",
+          "modality": "note",
+          "text": "Textile courier coverage: Sal available March only; Mina can do April and May if dates avoid her course. Need someone trained to supervise unrolling."
+        },
+        {
+          "id": "hv19b-i06",
+          "modality": "video",
+          "text": "Survey under raking light shows lower sleeve stitches hold at rest but pull when hanging vertically. Recommend a sloped support board instead of free hanging."
+        },
+        {
+          "id": "hv19b-i07",
+          "modality": "note",
+          "text": "Bell House can build the sloped support. Their conservator asks us to send the exact board angle with the condition report."
+        },
+        {
+          "id": "hv19b-i08",
+          "modality": "voice",
+          "text": "Tour revision: Hill Centre cannot control daylight, so remove its May slot. Bell House remains March; Estuary Rooms gets April plus the first week of May."
+        },
+        {
+          "id": "hv19b-i09",
+          "modality": "note",
+          "text": "Mina's course moved to 3 May. She can take the hanging to Estuary in April but cannot supervise its return on 7 May; seek return cover."
+        },
+        {
+          "id": "hv19b-i10",
+          "modality": "voice",
+          "text": "'Mina / 7 / angle?' heard over station announcement."
+        },
+        {
+          "id": "hv19b-i11",
+          "modality": "image",
+          "text": "Fence supplier quote is for four panels by mistake. We need three; gate stays. Revised dimensions marked on corner sketch."
+        },
+        {
+          "id": "hv19b-i12",
+          "modality": "note",
+          "text": "Tour renamed from 'Three rooms' to 'Stitched journeys' after dropping Hill Centre. Keep existing Bell House and Estuary agreements under the new project heading."
+        },
+        {
+          "id": "hv19b-i13",
+          "modality": "file",
+          "text": "Textile support trial passed at 20 degrees from vertical. Record the lower sleeve's weak stitches on the courier condition diagram so any change during unpacking can be compared to today's survey."
+        },
+        {
+          "id": "hv19b-i14",
+          "modality": "note",
+          "text": "Stitched journeys return plan: shorten Estuary display to 5 May, when trained courier Arun is free. Amend the venue loan end date and book Arun's return train for the next morning, allowing daylight for the unpacking inspection at our store."
+        },
+        {
+          "id": "hv19b-i15",
+          "modality": "file",
+          "text": "Arun confirmed return travel and received unrolling training sign-off. Mina still handles the April outward move."
+        },
+        {
+          "id": "hv19b-i16",
+          "modality": "video",
+          "text": "Home fence posts now set. Test gate swing after hanging the three panels; neighbour asked us to keep the old latch height."
+        },
+        {
+          "id": "hv19b-i17",
+          "modality": "note",
+          "text": "Condition review limits the embroidered hanging to nine weeks of display at the agreed light level. Annotate the survey report with that cap and reduce Bell House's opening by one week so the revised two-venue tour fits within it; send both venues the amended dates."
+        },
+        {
+          "id": "hv19b-i18",
+          "modality": "file",
+          "text": "Bell House countersigned its shortened dates; Estuary's 5 May close remains. Final Stitched journeys itinerary filed with both agreements."
+        },
+        {
+          "id": "hv19b-i19",
+          "modality": "note",
+          "text": "Keep it flat until Monday. No image attached."
+        },
+        {
+          "id": "hv19b-i20",
+          "modality": "image",
+          "text": "Textile baseline photographs complete with colour target, sleeve detail and 20-degree support view. Use these for the next condition comparison."
+        }
+      ],
+      "threadDescriptions": {
+        "courier-rota": "Schedule trained couriers and travel cover for the textile tour.",
+        "garden-fence": "Replace a damaged fence at home.",
+        "textile-survey": "Document condition and suitable display duration of a touring embroidered hanging.",
+        "textile-tour": "Negotiate and maintain the hanging's venue itinerary and loan dates."
+      },
+      "threads": [
+        "textile-survey",
+        "textile-tour",
+        "courier-rota",
+        "garden-fence"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv20a-i05",
+          "threads": [
+            "first-note-flow",
+            "activation-events"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv20a-i04",
+          "later": "hv20a-i13",
+          "thread": "activation-events"
+        },
+        "undo": {
+          "item": "hv20a-i15",
+          "reason": "Hypothetical correction: explanatory screen copy tests user understanding and does not repair or verify persistence.",
+          "wrongThread": "offline-save"
+        }
+      },
+      "id": "hv20a",
+      "items": [
+        {
+          "id": "hv20a-i01",
+          "modality": "image",
+          "text": "Fieldmark first-run sketch: ask walkers to name a place, then write their first trail note. Test whether the blank map before that step is making people quit."
+        },
+        {
+          "id": "hv20a-i02",
+          "modality": "voice",
+          "text": "Flowers for Asha's wedding: mixed white stems in low bowls, six tables. Florist needs final table count by the 9th."
+        },
+        {
+          "id": "hv20a-i03",
+          "modality": "note",
+          "text": "'Skip fires twice' on a note beside the laptop. No screen or event name recorded."
+        },
+        {
+          "id": "hv20a-i04",
+          "modality": "file",
+          "text": "Fieldmark analytics draft: onboarding_done fires on leaving the last intro card, first_note_saved only after storage confirms success. Need a separate skipped flag."
+        },
+        {
+          "id": "hv20a-i05",
+          "modality": "note",
+          "text": "Onboarding experiment handoff: variant Cedar removes the blank map and opens the first-note editor immediately. Add intro_variant=Cedar to onboarding_done and first_note_saved, then verify both events after a complete first-run walkthrough. The design test still compares the same task: creating a trail note."
+        },
+        {
+          "id": "hv20a-i06",
+          "modality": "video",
+          "text": "Airplane-mode recording: Fieldmark shows 'saved' for a first trail note, but reopening loses it. Reproduces with a fresh install and no network."
+        },
+        {
+          "id": "hv20a-i07",
+          "modality": "image",
+          "text": "Florist sketch uses tall vases, but Asha asked for low bowls so guests can see across tables. Request corrected proposal."
+        },
+        {
+          "id": "hv20a-i08",
+          "modality": "voice",
+          "text": "Cedar first-run test with five volunteers: four reached the editor without help; one looked for an account button. Keep the name-place prompt but explain saving before sign-in."
+        },
+        {
+          "id": "hv20a-i09",
+          "modality": "file",
+          "text": "Event trace on fresh install: onboarding_done emitted twice when app returns from background on the last card. Deduplicate by completed onboarding session, not by screen view."
+        },
+        {
+          "id": "hv20a-i10",
+          "modality": "note",
+          "text": "Offline save diagnosis: first launch creates the local store only after a profile fetch. Initialize the store before any network work so the editor can commit without a profile."
+        },
+        {
+          "id": "hv20a-i11",
+          "modality": "voice",
+          "text": "Maybe the local one? recording cuts off immediately."
+        },
+        {
+          "id": "hv20a-i12",
+          "modality": "note",
+          "text": "Wedding table count is seven now, not six. Florist can add one matching low bowl; keep the aisle flowers unchanged."
+        },
+        {
+          "id": "hv20a-i13",
+          "modality": "note",
+          "text": "Measurement correction: onboarding_done must fire on explicit Finish or Skip, not any exit from the last card; backgrounding is neither. Keep first_note_saved tied to the storage confirmation as before."
+        },
+        {
+          "id": "hv20a-i14",
+          "modality": "video",
+          "text": "Offline fix test: three notes survive force-close in airplane mode on a fresh install. Reconnection later uploads each once; the local store initializes without a profile."
+        },
+        {
+          "id": "hv20a-i15",
+          "modality": "image",
+          "text": "Cedar copy change: 'Your note stays on this device until you sign in.' Put this under the first-note editor, above the save button; next test should check what users think happens offline."
+        },
+        {
+          "id": "hv20a-i16",
+          "modality": "file",
+          "text": "Release walkthrough for Fieldmark: with the offline-store fix, first_note_saved arrives only after the local commit even without a connection. Test analytics queue replay on reconnect and assert one saved event for the one surviving note; retain the airplane-mode persistence check in the bug's acceptance notes."
+        },
+        {
+          "id": "hv20a-i17",
+          "modality": "note",
+          "text": "Cedar follow-up: all six participants could explain device-only saving after reading the new sentence. Four created a note; two deliberately skipped. Summarize the comprehension finding alongside the task completion counts."
+        },
+        {
+          "id": "hv20a-i18",
+          "modality": "file",
+          "text": "Florist revised order accepted: seven low bowls, unchanged aisle stems. Cousin Dan will return the bowls on Monday; add his name to the rental pickup sheet."
+        },
+        {
+          "id": "hv20a-i19",
+          "modality": "image",
+          "text": "End of debug log only: 'ok 1 queued 1'. Device and action missing."
+        },
+        {
+          "id": "hv20a-i20",
+          "modality": "note",
+          "text": "Analytics validation complete: Finish and Skip each emit one completion with correct skipped value; returning from background emits none. Saved-note event waits for successful local commit."
+        }
+      ],
+      "threadDescriptions": {
+        "activation-events": "Define and validate analytics for onboarding completion and first successful note.",
+        "first-note-flow": "Test and improve the first-note onboarding screens in the fictional Fieldmark app.",
+        "offline-save": "Fix lost notes when the Fieldmark app starts without a network connection.",
+        "wedding-flowers": "Arrange flowers and vase return for a family wedding."
+      },
+      "threads": [
+        "first-note-flow",
+        "activation-events",
+        "offline-save",
+        "wedding-flowers"
+      ]
+    },
+    {
+      "historyChecks": {
+        "bridge": {
+          "item": "hv20b-i14",
+          "threads": [
+            "permission-prompt",
+            "cohort-report"
+          ]
+        },
+        "rename": {
+          "evidenceItem": "hv20b-i10",
+          "from": "Late mic",
+          "thread": "permission-prompt",
+          "to": "Ask on Record"
+        },
+        "revision": {
+          "earlier": "hv20b-i05",
+          "later": "hv20b-i11",
+          "thread": "cohort-report"
+        },
+        "undo": {
+          "item": "hv20b-i04",
+          "reason": "Hypothetical correction: denied microphone access is a reproduction condition for an audio crash, not a timing-design decision.",
+          "wrongThread": "permission-prompt"
+        }
+      },
+      "id": "hv20b",
+      "items": [
+        {
+          "id": "hv20b-i01",
+          "modality": "note",
+          "text": "EchoSteps onboarding test: compare microphone permission on launch with asking only when the learner taps Record in lesson one. Prototype label is 'Late mic'."
+        },
+        {
+          "id": "hv20b-i02",
+          "modality": "voice",
+          "text": "Pippin needs a walker Tuesday and Thursday while I'm on the early shift. Bea can collect at eight; ask about wet-weather cover."
+        },
+        {
+          "id": "hv20b-i03",
+          "modality": "file",
+          "text": "Spanish onboarding sheet: translator wants screenshots for 'Record', 'Try again' and the sentence explaining microphone access. Text limits differ between buttons and body copy."
+        },
+        {
+          "id": "hv20b-i04",
+          "modality": "video",
+          "text": "First-lesson replay crash recording: finish example audio, tap Replay twice quickly, app closes. Happened after microphone access was denied too."
+        },
+        {
+          "id": "hv20b-i05",
+          "modality": "note",
+          "text": "Experiment report draft: denominator is users who opened lesson one; numerator is users who completed a recording within a day. Break out prompt-on-launch and Late mic cohorts."
+        },
+        {
+          "id": "hv20b-i06",
+          "modality": "voice",
+          "text": "Permission prototype interview: learners understood why Record needs the mic, but the launch dialog felt unexplained. Add a one-sentence explanation immediately before the later request."
+        },
+        {
+          "id": "hv20b-i07",
+          "modality": "note",
+          "text": "Pippin walking confirmation: Bea takes Tuesday, Jules Thursday. Spare lead hangs inside the cupboard; both know he shouldn't chase bikes."
+        },
+        {
+          "id": "hv20b-i08",
+          "modality": "image",
+          "text": "Spanish screenshot check: 'Grabar' fits the Record button. The explanatory body sentence wraps to three lines at large text size; allow the panel to grow."
+        },
+        {
+          "id": "hv20b-i09",
+          "modality": "file",
+          "text": "Replay crash stack points to the disposed playback handle. Ignore a second Replay until the first restart has obtained a new handle; cancellation must clear the pending restart."
+        },
+        {
+          "id": "hv20b-i10",
+          "modality": "note",
+          "text": "Rename the 'Late mic' onboarding prototype to 'Ask on Record'. It remains the same request-on-first-record variant; update the review board title and leave the launch-timing control alone."
+        },
+        {
+          "id": "hv20b-i11",
+          "modality": "note",
+          "text": "Report correction: using lesson openers as the denominator drops people put off by the launch permission dialog. Use all newly assigned eligible installs, replacing that draft denominator, and keep completion within a day as numerator."
+        },
+        {
+          "id": "hv20b-i12",
+          "modality": "image",
+          "text": "Pippin soaked the spare lead Tuesday. Put a dry one on the hook before Jules arrives Thursday; Bea's walk itself was fine."
+        },
+        {
+          "id": "hv20b-i13",
+          "modality": "file",
+          "text": "Spanish review of the mic explanation is approved by the translator. Keep 'micr\u00f3fono' in the body, and use the short verb on the button; export the signed strings sheet."
+        },
+        {
+          "id": "hv20b-i14",
+          "modality": "note",
+          "text": "Ask on Record analysis handoff: freeze the prototype with the explanatory sentence before the permission request, and report outcomes under that final variant name. Rebuild the outcome table from all assigned eligible installs, including those who never reached lesson one; attach the exact screen sequence beside the table so readers know which flow was tested."
+        },
+        {
+          "id": "hv20b-i15",
+          "modality": "video",
+          "text": "Replay fix stress test: ten double-taps after example completion, no crash; leaving the lesson during pending restart cancels cleanly. Repeat once with microphone denied."
+        },
+        {
+          "id": "hv20b-i16",
+          "modality": "file",
+          "text": "Cohort report rebuilt: launch prompt 81/210 completed a recording, Ask on Record 103/214. These are the fixed one-day counts; hold interpretation until checking assignment and missing events."
+        },
+        {
+          "id": "hv20b-i17",
+          "modality": "image",
+          "text": "Ask on Record permission screen at maximum text size: explanation and both actions visible after scrolling. Keep the explicit Not now action in the test build."
+        },
+        {
+          "id": "hv20b-i18",
+          "modality": "note",
+          "text": "Denied-microphone replay check passed: no crash on rapid Replay, and the example audio still works. Close the playback-handle bug."
+        },
+        {
+          "id": "hv20b-i19",
+          "modality": "note",
+          "text": "Spanish onboarding export imported. Screenshots match the signed strings, accents intact, no clipped Record button; translation handoff complete."
+        },
+        {
+          "id": "hv20b-i20",
+          "modality": "voice",
+          "text": "'The later one needs checking' \u2014 no attachment, subject or quoted message."
+        }
+      ],
+      "threadDescriptions": {
+        "audio-crash": "Fix a crash when users replay the first lesson's example audio.",
+        "cohort-report": "Produce a correctly defined outcome report for the microphone-prompt experiment.",
+        "dog-walker": "Arrange weekday walking cover for the dog Pippin.",
+        "permission-prompt": "Test when to request microphone access during the fictional EchoSteps app's lesson onboarding.",
+        "spanish-onboarding": "Prepare and review Spanish text for EchoSteps onboarding screens."
+      },
+      "threads": [
+        "permission-prompt",
+        "cohort-report",
+        "spanish-onboarding",
+        "audio-crash",
+        "dog-walker"
+      ]
+    }
+  ],
+  "pairReviewSHA256": "01d85fd573b95a2c80bbeaecd864a1fe20ec9dab475d18fe19c3396dd31161d7",
+  "phase": "context",
+  "reviewer": "author_c",
+  "schemaVersion": 1
+}

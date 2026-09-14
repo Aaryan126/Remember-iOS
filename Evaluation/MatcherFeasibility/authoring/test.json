@@ -1,0 +1,1747 @@
+{
+  "schemaVersion": 1,
+  "libraries": [
+    {
+      "id": "mf25",
+      "split": "test",
+      "domain": "underwater acoustics study",
+      "templateFamily": "annotated field notebook",
+      "contexts": [
+        {
+          "id": "mf25-c1",
+          "description": "Kelp Cove passive hydrophone deployment measuring nightly vessel and biological sound."
+        },
+        {
+          "id": "mf25-c2",
+          "description": "Indoor reference-tank calibration of the study's hydrophones and recorder gain."
+        },
+        {
+          "id": "mf25-c3",
+          "description": "EchoTag annotation guide and review of sound-event labels in field recordings."
+        },
+        {
+          "id": "mf25-c4",
+          "description": "Harbor Pulse active-source trial measuring reflections beneath the east pier."
+        },
+        {
+          "id": "mf25-c5",
+          "description": "QuietWater public listening installation translating recordings for gallery visitors."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf25-c1",
+          "mf25-c2"
+        ],
+        [
+          "mf25-c1",
+          "mf25-c3"
+        ],
+        [
+          "mf25-c1",
+          "mf25-c4"
+        ],
+        [
+          "mf25-c3",
+          "mf25-c5"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf25-i01",
+          "text": "Kelp Cove, before dawn: the western logger is hanging two metres above the anchor. We are recording continuously through the ferry interval; no test sounds will be transmitted.",
+          "memberships": [
+            "mf25-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The location and passive recording schedule identify the cove deployment.",
+          "tags": [
+            "field-note",
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf25-i02",
+          "text": "Reference tank: repeat the gain sweep after the bubbles settle.",
+          "memberships": [
+            "mf25-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The tank and gain sweep identify instrument calibration.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf25-i03",
+          "text": "EchoTag margin note: a tonal streak is not automatically a boat. Reviewers need both a persistent harmonic stack and the rising or falling level envelope before choosing vessel.",
+          "memberships": [
+            "mf25-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "This revises criteria for the named annotation guide.",
+          "tags": [
+            "label-definition"
+          ]
+        },
+        {
+          "id": "mf25-i04",
+          "text": "Listening session moved to Thursday. Bring the short samples and the revised notes; the room should be quieter after lunch.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Neither the session nor samples identify field review, tank work, or the public installation.",
+          "tags": [
+            "ambiguous"
+          ]
+        },
+        {
+          "id": "mf25-i05",
+          "text": "Harbor Pulse trial book: the east-pier source will emit three short sweeps per station. The return at eleven milliseconds needs a second pass with the receiver moved away from the piling.",
+          "memberships": [
+            "mf25-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Named active trial and reflection measurement identify the pier experiment.",
+          "tags": [
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf25-i06",
+          "text": "QuietWater layout sketch: visitors should encounter the surface-rain loop before the propeller loop. The captions will explain what is audible without requiring a spectrogram.",
+          "memberships": [
+            "mf25-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Named visitor installation and caption layout identify the gallery work.",
+          "tags": [
+            "audience"
+          ]
+        },
+        {
+          "id": "mf25-i07",
+          "text": "Calibration transfer: the tank gain correction for logger H8 must be applied to the Kelp Cove night files. Keep the raw files alongside the corrected levels so the deployment summary can show the effect of the bench result.",
+          "memberships": [
+            "mf25-c1",
+            "mf25-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly connects reference-tank calibration to cove field data.",
+          "tags": [
+            "bridge",
+            "calibration"
+          ]
+        },
+        {
+          "id": "mf25-i08",
+          "text": "Kelp Cove, tide falling. The spare mount survived the overnight swell, but the cable rubbed the buoy chain for twelve minutes. Mark that interval as handling noise in the deployment log before calculating the nightly background level.",
+          "memberships": [
+            "mf25-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Cove equipment condition and deployment background calculation identify field monitoring.",
+          "tags": [
+            "incident"
+          ]
+        },
+        {
+          "id": "mf25-i09",
+          "text": "EchoTag review table: we agreed to rename the old scraping label to chain rattle. Earlier annotations should be remapped; the short metallic bursts remain the same examples.",
+          "memberships": [
+            "mf25-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The named label review and remapping are annotation-guide maintenance.",
+          "tags": [
+            "revision",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf25-i10",
+          "text": "Harbor Pulse correction, east pier: the earlier sketch put the receiver against the piling. Move it half a metre outward for tomorrow's transmitted sweeps, and retain the old sketch in the trial record.",
+          "memberships": [
+            "mf25-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "A location revision for the active pier experiment.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf25-i11",
+          "text": "QuietWater caption draft: 'A passing engine can mask tiny snapping sounds.' Test whether visitors understand mask before printing the large-type panel beside the headphones.",
+          "memberships": [
+            "mf25-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Caption testing for public headphones identifies the installation.",
+          "tags": [
+            "draft"
+          ]
+        },
+        {
+          "id": "mf25-i12",
+          "text": "Tank bench, recorder H8. The first sweep looked like a sensitivity loss, but the reference speaker had shifted against its bracket. After remounting it, the curve returned to last week's shape. We need one more measurement with the speaker orientation photographed and the water temperature entered before the run. The calibration report should show both curves and explain why the first one is unsuitable, because somebody looking only at the exported table could otherwise infer that the hydrophone had deteriorated. Do not replace the instrument on the basis of this morning's trace. The repeat is booked for the same tank tomorrow, with the bracket locked before filling.",
+          "memberships": [
+            "mf25-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The entire incident concerns validity and repetition of the reference-tank measurement.",
+          "tags": [
+            "long",
+            "error-analysis"
+          ]
+        },
+        {
+          "id": "mf25-i13",
+          "text": "Unlabelled scrap: the second trace is cleaner, but the original settings need checking before we accept the difference.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Generic traces and settings fit several measurement contexts without a distinguishing reference.",
+          "tags": [
+            "ambiguous",
+            "fragment"
+          ]
+        },
+        {
+          "id": "mf25-i14",
+          "text": "EchoTag reviewers selected five uncontroversial vessel clips for QuietWater. The installation captions should use the reviewed names, and any visitor-facing simplification should be recorded beside the corresponding guide entry.",
+          "memberships": [
+            "mf25-c3",
+            "mf25-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "The annotation team supplies reviewed examples and terminology to the named installation.",
+          "tags": [
+            "bridge"
+          ]
+        },
+        {
+          "id": "mf25-i15",
+          "text": "East-pier reflection log: the longer delay appeared only at the outer Harbor Pulse station, even though the emitted sweep and source depth were unchanged.",
+          "memberships": [
+            "mf25-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Active source, pier station, and named trial identify reflection research.",
+          "tags": [
+            "measurement"
+          ]
+        },
+        {
+          "id": "mf25-i16",
+          "text": "Reference-tank worksheet now records temperature beside each sensitivity value. The old sheet hid temperature in the footer, which made comparisons between calibration days too easy to misread.",
+          "memberships": [
+            "mf25-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Changes the tank calibration reporting worksheet.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf25-i17",
+          "text": "Cove deployment reminder: recover the eastern anchor after sunrise tomorrow.",
+          "memberships": [
+            "mf25-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Cove and anchor recovery identify the passive deployment.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf25-i18",
+          "text": "QuietWater volunteer note: one headphone channel cut out during the preview. Swap the extension lead before opening and let visitors know the listening stools can be moved.",
+          "memberships": [
+            "mf25-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Public preview, headphones, and movable stools identify installation operations.",
+          "tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "mf25-i19",
+          "text": "EchoTag disagreement queue: review the clips labelled both rain and shrimp. Reviewers should record the audible cue that changed their vote, rather than just overwriting the earlier event name.",
+          "memberships": [
+            "mf25-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Annotation disagreements and reviewer decisions identify label-quality work.",
+          "tags": [
+            "review"
+          ]
+        },
+        {
+          "id": "mf25-i20",
+          "text": "Harbor Pulse station cards need the transmitted sweep number as well as the receiver position. Two east-pier trials used the same station name on different days.",
+          "memberships": [
+            "mf25-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Card identifiers are specifically for the active pier trials.",
+          "tags": [
+            "identifier-collision"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf26",
+      "split": "test",
+      "domain": "rail model exhibition",
+      "templateFamily": "volunteer handover cards",
+      "contexts": [
+        {
+          "id": "mf26-c1",
+          "description": "Fenwick Junction exhibition layout operations and electrical reliability."
+        },
+        {
+          "id": "mf26-c2",
+          "description": "Copper Ridge exhibition layout scenery restoration and packing."
+        },
+        {
+          "id": "mf26-c3",
+          "description": "Rail model exhibition visitor access, entry, and floor circulation."
+        },
+        {
+          "id": "mf26-c4",
+          "description": "Beginner turnout-wiring workshop at the exhibition's teaching bench."
+        },
+        {
+          "id": "mf26-c5",
+          "description": "Borrowed rolling-stock inventory, condition records, and lender returns."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf26-c1",
+          "mf26-c2"
+        ],
+        [
+          "mf26-c1",
+          "mf26-c4"
+        ],
+        [
+          "mf26-c3",
+          "mf26-c4"
+        ],
+        [
+          "mf26-c1",
+          "mf26-c5"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf26-i01",
+          "text": "For the next Fenwick Junction operator: stop before the goods loop if the blue indicator flickers. The intermittent feed is still confined to the approach point.",
+          "memberships": [
+            "mf26-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Names the operating layout and its electrical fault.",
+          "tags": [
+            "handover",
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf26-i02",
+          "text": "Copper Ridge packing card: lift the quarry wall by its base, never by the painted crane. The loose scenic ballast belongs in the labelled repair pouch.",
+          "memberships": [
+            "mf26-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Named scenery layout and packing instructions identify restoration.",
+          "tags": [
+            "physical-object"
+          ]
+        },
+        {
+          "id": "mf26-i03",
+          "text": "Workshop helper: the teaching bench needs six spare point motors.",
+          "memberships": [
+            "mf26-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Teaching bench and workshop helper identify the beginner wiring session.",
+          "tags": [
+            "sparse",
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf26-i04",
+          "text": "Opening team: put the exhibition entry queue along the window wall. The centre aisle must let a visitor pause at a layout without blocking the route to the exit.",
+          "memberships": [
+            "mf26-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Visitor queue and floor circulation identify access planning.",
+          "tags": [
+            "accessibility"
+          ]
+        },
+        {
+          "id": "mf26-i05",
+          "text": "Lender desk handover: the green brake van arrived with one missing buffer. Photograph that end before attaching the loan number, and copy the condition note onto the return sheet.",
+          "memberships": [
+            "mf26-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Loan identification and condition documentation identify borrowed-stock management.",
+          "tags": [
+            "condition-record"
+          ]
+        },
+        {
+          "id": "mf26-i06",
+          "text": "Whoever takes over: the green one needs another check before Saturday. I left the reference photo in the usual folder.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The object and folder are unnamed; color and deadline cannot establish a context.",
+          "tags": [
+            "ambiguous"
+          ]
+        },
+        {
+          "id": "mf26-i07",
+          "text": "Fenwick Junction has borrowed the silver railcar for its opening demonstration. The operator must sign its running-hours box, and the lender desk needs that box copied into the railcar's return record.",
+          "memberships": [
+            "mf26-c1",
+            "mf26-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Connects operation of a named layout with the borrowed vehicle's loan record.",
+          "tags": [
+            "bridge"
+          ]
+        },
+        {
+          "id": "mf26-i08",
+          "text": "Copper Ridge scenery team: the replacement quarry wall is a little taller, so the old foam packing lid presses on the ridge. Cut a new relief in the removable insert before the display travels.",
+          "memberships": [
+            "mf26-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Scenic alteration and transport protection identify the Copper Ridge work.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf26-i09",
+          "text": "Fenwick Junction evening card: both goods-loop rails now have fresh feeds. Run the short wheelbase shunter slowly through the point in each direction before declaring the intermittent stop solved.",
+          "memberships": [
+            "mf26-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Updates the named layout electrical fix and acceptance check.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf26-i10",
+          "text": "Beginner wiring tutor: start with the dead demonstration turnout. Ask learners to trace the frog feed with the battery lamp before anyone connects a controller to their practice board.",
+          "memberships": [
+            "mf26-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Tutor, learners, and practice board identify the workshop.",
+          "tags": [
+            "instruction",
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf26-i11",
+          "text": "Front-door revision: the exhibition's advance-ticket table is moving inside the hall. A steward will stay at the threshold to explain the step-free entrance around the side.",
+          "memberships": [
+            "mf26-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Entry arrangements and step-free route identify visitor access.",
+          "tags": [
+            "revision",
+            "accessibility"
+          ]
+        },
+        {
+          "id": "mf26-i12",
+          "text": "Borrowed-stock desk: two red tank wagons came in the same padded box, but their owners supplied different loan numbers. Return each wagon against its own photograph.",
+          "memberships": [
+            "mf26-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Owner loan numbers and return photographs establish the inventory context.",
+          "tags": [
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf26-i13",
+          "text": "Copper Ridge closing handover. The river gloss was still tacky when we packed the first crate, so the bridge must travel in its shallow tray until the surface has cured. I have sketched the tray arrangement on the packing card and placed soft spacers under the abutments. Please check that the spacers are supporting the base, because pressure on the handrails would undo the repair. The crate with the hills has room for the loose quarry wall but cannot take the bridge as well. When the scenery team unpacks at the exhibition, compare the river surface with the photograph taken before transport and record any marks before trying to polish them away.",
+          "memberships": [
+            "mf26-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Detailed transport and restoration handover names Copper Ridge and its scenic objects.",
+          "tags": [
+            "long",
+            "handover"
+          ]
+        },
+        {
+          "id": "mf26-i14",
+          "text": "Floor steward and workshop tutor: move the turnout-wiring waiting line to the wall marked on the exhibition access plan. The teaching bench can keep six seats only if its audience leaves the cross-aisle open.",
+          "memberships": [
+            "mf26-c3",
+            "mf26-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Combines workshop seating and waiting arrangements with exhibition circulation.",
+          "tags": [
+            "bridge"
+          ]
+        },
+        {
+          "id": "mf26-i15",
+          "text": "Handover: the updated diagram fixes the clearance issue, but use the older dimensions until someone measures the gap again.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "No layout, aisle, packing object, or bench is identified.",
+          "tags": [
+            "ambiguous",
+            "revision"
+          ]
+        },
+        {
+          "id": "mf26-i16",
+          "text": "Fenwick Junction operator: the passenger shuttle now pauses at the platform before returning. The controller card replaces yesterday's instruction to reverse immediately at the buffer stop.",
+          "memberships": [
+            "mf26-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "A named layout operating sequence is revised.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf26-i17",
+          "text": "Loan returns: the silver railcar's original sleeve is under the lender table. Its replacement display label is not a substitute for the signed receipt.",
+          "memberships": [
+            "mf26-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Packaging and signed receipt identify borrowed stock returns.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf26-i18",
+          "text": "Beginner session prep: put the oversized wiring diagram behind the teaching bench so seated learners can follow the turnout circuit without standing around the tutor.",
+          "memberships": [
+            "mf26-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Learner visibility of turnout teaching materials identifies workshop preparation.",
+          "tags": [
+            "accessibility"
+          ]
+        },
+        {
+          "id": "mf26-i19",
+          "text": "Entrance steward: count visitors waiting at the step-free door too.",
+          "memberships": [
+            "mf26-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Visitor count at accessible entry identifies exhibition access operations.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf26-i20",
+          "text": "Scenery handover, Copper Ridge: the patched embankment looks pale under the hall lamps. Bring the test swatches so we can choose a final wash after the layout is lit.",
+          "memberships": [
+            "mf26-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Named layout embankment color work identifies scenic restoration.",
+          "tags": [
+            "lighting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf27",
+      "split": "test",
+      "domain": "independent zine distribution",
+      "templateFamily": "correspondence excerpts and account annotations",
+      "contexts": [
+        {
+          "id": "mf27-c1",
+          "description": "Glass Orchard issue four print-run fulfilment and direct subscriber mail."
+        },
+        {
+          "id": "mf27-c2",
+          "description": "Counterlight cooperative's ongoing bookshop consignment accounts and returns."
+        },
+        {
+          "id": "mf27-c3",
+          "description": "Night Fold fair stall logistics and in-person zine sales."
+        },
+        {
+          "id": "mf27-c4",
+          "description": "Accessible digital editions for ScreenDoor zine readers."
+        },
+        {
+          "id": "mf27-c5",
+          "description": "Travelling Pocket Shelf lending collection and host-library circulation."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf27-c1",
+          "mf27-c2"
+        ],
+        [
+          "mf27-c1",
+          "mf27-c3"
+        ],
+        [
+          "mf27-c1",
+          "mf27-c4"
+        ],
+        [
+          "mf27-c2",
+          "mf27-c5"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf27-i01",
+          "text": "Printer reply, Glass Orchard four: the fold is approved. Please hold twelve finished copies for replacements before we count the subscriber mailing stock.",
+          "memberships": [
+            "mf27-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Print issue and subscriber stock identify direct fulfilment.",
+          "tags": [
+            "correspondence"
+          ]
+        },
+        {
+          "id": "mf27-i02",
+          "text": "From the Counterlight treasurer: shops should report copies sold, copies damaged, and copies returned in different columns. The quarterly payment is based on sales, not the number delivered.",
+          "memberships": [
+            "mf27-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Consignment shop accounting establishes the cooperative context.",
+          "tags": [
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf27-i03",
+          "text": "ScreenDoor reply: image descriptions need the joke, not just the objects.",
+          "memberships": [
+            "mf27-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Named accessible-edition project and image description guidance identify digital accessibility.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf27-i04",
+          "text": "Night Fold organiser says our table backs onto a pillar. We can hang the price board there, but the boxes must fit under our own half of the stall.",
+          "memberships": [
+            "mf27-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Named fair and physical stall layout identify event sales.",
+          "tags": [
+            "logistics"
+          ]
+        },
+        {
+          "id": "mf27-i05",
+          "text": "Draft reply: yes, we can send the remaining copies next week. Please confirm whether you want the amended sheet enclosed.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Copies and an amended sheet could concern several distribution channels.",
+          "tags": [
+            "ambiguous"
+          ]
+        },
+        {
+          "id": "mf27-i06",
+          "text": "Pocket Shelf host note: the lending stamps go on removable sleeves, because the touring collection will move to another library after your six-week slot.",
+          "memberships": [
+            "mf27-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Touring lending collection and host rotation identify library circulation.",
+          "tags": [
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf27-i07",
+          "text": "Glass Orchard four fulfilment update: ScreenDoor's accessible edition is ready. Add its reading link to the subscriber dispatch message, and send the corrected contributor credits to both the print mailing sheet and the digital edition editor.",
+          "memberships": [
+            "mf27-c1",
+            "mf27-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly coordinates issue subscribers and accessible digital publication.",
+          "tags": [
+            "bridge"
+          ]
+        },
+        {
+          "id": "mf27-i08",
+          "text": "Counterlight account annotation: the nine copies at Ash Window Books are still on consignment. Their invoice request does not mean the stock has sold; ask for a sales count first.",
+          "memberships": [
+            "mf27-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Specific shop consignment and payment status establish account work.",
+          "tags": [
+            "correction"
+          ]
+        },
+        {
+          "id": "mf27-i09",
+          "text": "Night Fold stall rota: I can take the opening shift and the closing cash count, but somebody else must cover the lunch hour. The card-reader battery lasts about four hours.",
+          "memberships": [
+            "mf27-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Event shift staffing and stall payments identify fair logistics.",
+          "tags": [
+            "first-person"
+          ]
+        },
+        {
+          "id": "mf27-i10",
+          "text": "Glass Orchard mailing annotation: the heavier cover pushes a two-copy order into the next postage band. Recalculate those subscriber envelopes before printing the remaining labels.",
+          "memberships": [
+            "mf27-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Issue mailing weights and subscriber labels identify fulfilment.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf27-i11",
+          "text": "Pocket Shelf circulation reply: a missing sleeve number is repairable. Record the title and host-library checkout date now; we can match it to the touring catalogue when the crate returns.",
+          "memberships": [
+            "mf27-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Host checkouts and touring catalogue identify lending collection records.",
+          "tags": [
+            "repair"
+          ]
+        },
+        {
+          "id": "mf27-i12",
+          "text": "ScreenDoor production email. I tried the issue on a small screen with enlarged text, and the side comments appear between the wrong paragraphs. The reading order needs to follow the argument before it follows the printed page positions. Please put each side comment immediately after the sentence it qualifies and label it as a note. The illustration captions should stay with their descriptions when the font grows. I would also like the contents links checked from a keyboard, because a reader should be able to reach the next section without passing through every illustration link. Once these changes are in the accessible edition, send a fresh preview to the volunteer readers before we distribute it.",
+          "memberships": [
+            "mf27-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "All requests concern accessible digital reading order, resizing, and keyboard navigation.",
+          "tags": [
+            "long",
+            "accessibility"
+          ]
+        },
+        {
+          "id": "mf27-i13",
+          "text": "Counterlight and Pocket Shelf correspondence: the shop cooperative will donate its unsold sample bundle to the touring lending collection. Close those copies as donated in the consignment ledger and assign lending sleeves when the library coordinator receives them.",
+          "memberships": [
+            "mf27-c2",
+            "mf27-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Transfers stock from consignment accounts to the lending collection with both records specified.",
+          "tags": [
+            "bridge"
+          ]
+        },
+        {
+          "id": "mf27-i14",
+          "text": "Reply concerning Glass Orchard four: the subscriber who reported blurred pages will receive one of the reserved replacements. Check the reserve stack before promising any extra copies to new orders.",
+          "memberships": [
+            "mf27-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Replacement reserve and issue subscriber fulfilment identify direct mail.",
+          "tags": [
+            "follow-up"
+          ]
+        },
+        {
+          "id": "mf27-i15",
+          "text": "ScreenDoor correction: we withdrew the earlier PDF link because its headings were flattened into images. The replacement has navigable headings and retains the same publication title.",
+          "memberships": [
+            "mf27-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Accessible edition replacement and heading navigation identify ScreenDoor.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf27-i16",
+          "text": "Ledger pencil note: three left, two promised, one damaged. Ask whether the return is included before carrying the total forward.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The ledger lacks title, outlet, host, or event evidence and fits multiple inventories.",
+          "tags": [
+            "ambiguous",
+            "fragment"
+          ]
+        },
+        {
+          "id": "mf27-i17",
+          "text": "Night Fold debrief request: retain the cash tally sheet from the stall. We need to compare the discount-bundle marks with the individual-copy totals before paying the table fee.",
+          "memberships": [
+            "mf27-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Named fair stall cash reconciliation identifies event sales.",
+          "tags": [
+            "accounts",
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf27-i18",
+          "text": "Counterlight reminder: Ash Window Books may return unsold zines in their original delivery carton. Credit their account only after the contents match the return count.",
+          "memberships": [
+            "mf27-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Shop returns and account credit identify consignment management.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf27-i19",
+          "text": "Pocket Shelf arrives at Willow Hall library on Monday morning.",
+          "memberships": [
+            "mf27-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Named touring collection and library arrival identify host rotation.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf27-i20",
+          "text": "Night Fold price-card draft: list the three-zine bundle above the single-copy prices. Visitors kept asking whether the elastic-bound packets were display samples or stock for sale.",
+          "memberships": [
+            "mf27-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Fair signage and visitor buying confusion identify stall sales.",
+          "tags": [
+            "revision"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf28",
+      "split": "test",
+      "domain": "wheelchair basketball tournament",
+      "templateFamily": "operations radio transcripts and incident summaries",
+      "contexts": [
+        {
+          "id": "mf28-c1",
+          "description": "Cedar Cup fixtures, court allocation, and results administration."
+        },
+        {
+          "id": "mf28-c2",
+          "description": "Cedar Cup equipment service bay for sports-chair checks and repairs."
+        },
+        {
+          "id": "mf28-c3",
+          "description": "Cedar Cup shuttle vehicles, team pickup, and accessible transport."
+        },
+        {
+          "id": "mf28-c4",
+          "description": "Cedar Cup referee briefings, rule scenarios, and officiating assignments."
+        },
+        {
+          "id": "mf28-c5",
+          "description": "Open Hoops introductory wheelchair basketball sessions for local newcomers during tournament week."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf28-c1",
+          "mf28-c3"
+        ],
+        [
+          "mf28-c1",
+          "mf28-c4"
+        ],
+        [
+          "mf28-c2",
+          "mf28-c5"
+        ],
+        [
+          "mf28-c3",
+          "mf28-c5"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf28-i01",
+          "text": "Control to results desk: court two's Cedar Cup scoreboard reset during the third period. Preserve the signed paper score before entering the final result in the fixtures sheet.",
+          "memberships": [
+            "mf28-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Results desk, fixture sheet, and game score identify competition administration.",
+          "tags": [
+            "radio"
+          ]
+        },
+        {
+          "id": "mf28-i02",
+          "text": "Service bay to floor runner: the spare axle for the silver sports chair has arrived. Bring the repair card with the chair so the mechanic can check the reported wheel play.",
+          "memberships": [
+            "mf28-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Repair card and mechanic at the service bay identify equipment servicing.",
+          "tags": [
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf28-i03",
+          "text": "Transport to team liaison: the Cedar Cup shuttle can carry the folded kit trolley only after all booked chairs are secured. We need the actual passenger count for the next hotel pickup.",
+          "memberships": [
+            "mf28-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Shuttle capacity and hotel pickup identify team transport.",
+          "tags": [
+            "logistics"
+          ]
+        },
+        {
+          "id": "mf28-i04",
+          "text": "Officials room: tonight's Cedar Cup referee briefing uses three out-of-bounds scenarios. Each crew should explain its restart decision before seeing the annotated answer.",
+          "memberships": [
+            "mf28-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Referee training scenarios identify officiating preparation.",
+          "tags": [
+            "training",
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf28-i05",
+          "text": "Control copy: move the second group back fifteen minutes. The first checks are running late and somebody needs to tell the desk.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Neither group, checks, nor desk is identified; several tournament operations fit.",
+          "tags": [
+            "ambiguous"
+          ]
+        },
+        {
+          "id": "mf28-i06",
+          "text": "Open Hoops coach: reserve the low-speed passing drill for the first newcomer session. Participants should have time to try turning before we introduce a defender.",
+          "memberships": [
+            "mf28-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Named introductory programme and newcomer drills identify outreach coaching.",
+          "tags": [
+            "training",
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf28-i07",
+          "text": "Fixtures and shuttle desks agreed: the Cedar Cup west-hotel team now tips off at eleven, so its pickup moves to nine forty. Update both the court schedule and the transport manifest before notifying the team liaison.",
+          "memberships": [
+            "mf28-c1",
+            "mf28-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "An explicit fixture change causes an explicit transport change.",
+          "tags": [
+            "bridge",
+            "revision"
+          ]
+        },
+        {
+          "id": "mf28-i08",
+          "text": "Results runner: Cedar Cup court one is ready after the delayed game. Enter the next warmup start on the fixtures board so the teams stop relying on the superseded printout.",
+          "memberships": [
+            "mf28-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Court readiness and fixture board updates identify game scheduling.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf28-i09",
+          "text": "Service bay incident: a loose caster produced the clicking sound on the red training chair. The mechanic replaced its washer and requested a rolling check before signing off the repair.",
+          "memberships": [
+            "mf28-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Mechanical finding and repair signoff identify chair servicing.",
+          "tags": [
+            "incident"
+          ]
+        },
+        {
+          "id": "mf28-i10",
+          "text": "Transport correction: the north-door ramp is unavailable for shuttle loading this afternoon. Cedar Cup drivers should use the marked loading bay on the west side and allow extra turnaround time.",
+          "memberships": [
+            "mf28-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Driver loading route correction identifies tournament shuttles.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf28-i11",
+          "text": "Referee coordinator to officials: swap the second Cedar Cup game between crews Birch and Elm. Elm's late arrival affects its assignment, not the order of games on the court.",
+          "memberships": [
+            "mf28-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The change concerns named officiating crew assignments only.",
+          "tags": [
+            "hard-negative",
+            "assignment"
+          ]
+        },
+        {
+          "id": "mf28-i12",
+          "text": "Open Hoops session report. Several newcomers could propel confidently in a straight line but stopped watching the ball when they had to turn. For the next introductory session, start with pairs passing while stationary, then add a wide turn around a single cone. The younger participants asked for a game immediately, but we can use a short no-steal game after everyone has practised stopping. The volunteer demonstration helped most when it was slow enough to copy. We should repeat that pace and leave time for each person to ask for another try. Record which drill each group reached so the next coach can continue at a sensible level rather than assuming everyone finished the sequence.",
+          "memberships": [
+            "mf28-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "The full report describes progression of the named newcomer coaching sessions.",
+          "tags": [
+            "long",
+            "observation"
+          ]
+        },
+        {
+          "id": "mf28-i13",
+          "text": "Equipment service lead and Open Hoops coach: put the six loan chairs through the bay's pre-session rolling check before the newcomers arrive. Send any chair rejected by the mechanic back to storage and reduce the coaching group size accordingly.",
+          "memberships": [
+            "mf28-c2",
+            "mf28-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Links service-bay safety checks to the introductory programme's equipment and group size.",
+          "tags": [
+            "bridge"
+          ]
+        },
+        {
+          "id": "mf28-i14",
+          "text": "Radio fragment: the spare is ready beside the west door. It still needs a label, and the volunteer who requested it has left.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "A spare near a door could be equipment or transport material; no project is recoverable.",
+          "tags": [
+            "ambiguous"
+          ]
+        },
+        {
+          "id": "mf28-i15",
+          "text": "Cedar Cup score table reminder: both team representatives must see the corrected running total before the results desk publishes the game sheet.",
+          "memberships": [
+            "mf28-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Competition score correction and publication identify results administration.",
+          "tags": [
+            "correction"
+          ]
+        },
+        {
+          "id": "mf28-i16",
+          "text": "Officials briefing follow-up: the Cedar Cup video example omitted the whistle before the substitution. Replace the clip so the referee discussion is based on the full sequence.",
+          "memberships": [
+            "mf28-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Referee instructional video revision identifies officiating briefings.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf28-i17",
+          "text": "Shuttle dispatch: Cedar Cup hotel pickup three is fully booked.",
+          "memberships": [
+            "mf28-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Named tournament hotel pickup identifies transport.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf28-i18",
+          "text": "Bay handover: keep the removed caster with its Cedar Cup service card until the team collects the repaired chair. They asked to see which part caused the wobble.",
+          "memberships": [
+            "mf28-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Removed part and service card identify chair repair handover.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf28-i19",
+          "text": "Open Hoops signup desk: add a quiet explanation area beside the practice court. Newcomers can discuss the introductory session with a coach before joining the group.",
+          "memberships": [
+            "mf28-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Named newcomer programme and introductory discussion identify outreach access.",
+          "tags": [
+            "accessibility"
+          ]
+        },
+        {
+          "id": "mf28-i20",
+          "text": "Referee kit desk: each Cedar Cup crew gets the updated scenario sheet.",
+          "memberships": [
+            "mf28-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Referee crews and scenario sheet identify officiating materials.",
+          "tags": [
+            "sparse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf29",
+      "split": "test",
+      "domain": "seed-bank freezer trials",
+      "templateFamily": "laboratory deviation tickets and bench log excerpts",
+      "contexts": [
+        {
+          "id": "mf29-c1",
+          "description": "Frost Finch cabinet temperature-mapping trial under different shelf loads."
+        },
+        {
+          "id": "mf29-c2",
+          "description": "Seal Sparrow pouch-seal and moisture-ingress trial for seed packaging."
+        },
+        {
+          "id": "mf29-c3",
+          "description": "Wake Wren germination follow-up of frozen seed lots after thawing."
+        },
+        {
+          "id": "mf29-c4",
+          "description": "Hold Heron backup-power endurance drill for freezer operation."
+        },
+        {
+          "id": "mf29-c5",
+          "description": "Trace Tern sample labels and chain-of-custody workflow qualification."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf29-c1",
+          "mf29-c4"
+        ],
+        [
+          "mf29-c1",
+          "mf29-c3"
+        ],
+        [
+          "mf29-c2",
+          "mf29-c3"
+        ],
+        [
+          "mf29-c2",
+          "mf29-c5"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf29-i01",
+          "text": "Frost Finch bench log: probe seven is on the upper rear shelf. The lightly loaded cabinet still has a warmer band there during the compressor's off interval.",
+          "memberships": [
+            "mf29-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Named cabinet mapping trial and shelf probe measurement identify temperature mapping.",
+          "tags": [
+            "bench-log",
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf29-i02",
+          "text": "Seal Sparrow ticket: the wide pouch seam passed the pull check but gained mass in the humid box. Repeat with fresh desiccant and record the starting pouch mass.",
+          "memberships": [
+            "mf29-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Named seal trial and moisture ingress measurement identify packaging qualification.",
+          "tags": [
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf29-i03",
+          "text": "Wake Wren tray note: count normal seedlings again on day ten.",
+          "memberships": [
+            "mf29-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Named germination follow-up and seedling count identify post-thaw viability.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf29-i04",
+          "text": "Hold Heron drill: the reserve battery alarm reached the desk, but the freezer restart was delayed after mains power returned. Capture that delay in the next endurance run.",
+          "memberships": [
+            "mf29-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Backup-power drill and restart behavior identify power endurance.",
+          "tags": [
+            "incident"
+          ]
+        },
+        {
+          "id": "mf29-i05",
+          "text": "Deviation draft: the second batch looks better after the change. Need the original readings and the revised acceptance limit before closing this.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The batch, change, readings, and limit have no identifying trial details.",
+          "tags": [
+            "ambiguous"
+          ]
+        },
+        {
+          "id": "mf29-i06",
+          "text": "Trace Tern qualification: scanning a torn sleeve should produce an unreadable-label event rather than attach the sample to the last successfully scanned identifier.",
+          "memberships": [
+            "mf29-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Label scanning and identity error behavior identify custody workflow qualification.",
+          "tags": [
+            "identity"
+          ]
+        },
+        {
+          "id": "mf29-i07",
+          "text": "Trial linkage ticket: Wake Wren will germinate the seed lots stored in the warmest Frost Finch shelf zone. Preserve each cabinet position with the thaw record so the viability result can be compared with its temperature exposure.",
+          "memberships": [
+            "mf29-c1",
+            "mf29-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly links temperature mapping positions to germination follow-up.",
+          "tags": [
+            "bridge"
+          ]
+        },
+        {
+          "id": "mf29-i08",
+          "text": "Seal Sparrow revision: narrow seams will remain in the trial as a comparison group. The earlier note to discard them would remove the only direct measure of the wider seal's benefit.",
+          "memberships": [
+            "mf29-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Changes comparison group handling within the named pouch trial.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf29-i09",
+          "text": "Frost Finch mapping correction: probe seven's cable was touching the door gasket. Move the cable into the guide, then repeat the upper-shelf run before interpreting the apparent warm spot.",
+          "memberships": [
+            "mf29-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Corrects instrumentation placement in temperature mapping.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf29-i10",
+          "text": "Trace Tern custody log: lot labels now include a short check string below the barcode. The receiving operator must report a mismatch instead of manually guessing the final character.",
+          "memberships": [
+            "mf29-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Identifiers and receiving custody validation identify label workflow.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf29-i11",
+          "text": "Hold Heron bench record: the full-load endurance run ended when battery output fell below the cabinet controller's requirement. The freezer temperature had not yet reached the drill's stopping limit.",
+          "memberships": [
+            "mf29-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Power endurance stopping cause identifies backup-power testing.",
+          "tags": [
+            "measurement"
+          ]
+        },
+        {
+          "id": "mf29-i12",
+          "text": "Wake Wren deviation review. The trays from the first thaw session emerged a day later than the comparison trays, but they were also placed under a different lamp. We cannot attribute that delay to freezing from this run alone. Repeat the follow-up with the tray positions rotated and use the same watering schedule for both groups. Record normal seedlings, abnormal seedlings, and ungerminated seeds separately, because a single total hides the pattern we need to examine. Retain the original tray photographs with their dates. If the repeated germination counts differ, the report should describe the changed growing conditions as well as the storage history, rather than presenting the first tray sequence as a clean freezing effect.",
+          "memberships": [
+            "mf29-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The named germination follow-up evaluates confounded post-thaw seedling results.",
+          "tags": [
+            "long",
+            "confound"
+          ]
+        },
+        {
+          "id": "mf29-i13",
+          "text": "Seal Sparrow and Trace Tern joint ticket: moisture exposure erased two pouch barcodes. The seal team needs the affected pouches retained for ingress inspection, while custody qualification must test the proposed waterproof label against the same exposure.",
+          "memberships": [
+            "mf29-c2",
+            "mf29-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly joins pouch moisture testing with label durability and custody qualification.",
+          "tags": [
+            "bridge"
+          ]
+        },
+        {
+          "id": "mf29-i14",
+          "text": "Unattached bench note: move the sensor lower and repeat after lunch. The previous setup may have made the difference look larger.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "No apparatus or trial is named, and sensor relocation fits several experiments.",
+          "tags": [
+            "ambiguous",
+            "fragment"
+          ]
+        },
+        {
+          "id": "mf29-i15",
+          "text": "Frost Finch setup card: repeat the cabinet map with inert ballast on every shelf. Use the same probe coordinates as the light-load run so the load comparison remains interpretable.",
+          "memberships": [
+            "mf29-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Cabinet map, load comparison, and fixed probes identify temperature mapping.",
+          "tags": [
+            "comparison"
+          ]
+        },
+        {
+          "id": "mf29-i16",
+          "text": "Wake Wren follow-up: the delayed tray has now produced three additional normal seedlings. Amend the day-ten count while preserving the earlier observation in the germination log.",
+          "memberships": [
+            "mf29-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Seedling count revision in named germination log identifies viability follow-up.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf29-i17",
+          "text": "Hold Heron reminder: recharge the reserve pack before Thursday's outage drill.",
+          "memberships": [
+            "mf29-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Named backup pack and outage drill identify power endurance.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf29-i18",
+          "text": "Trace Tern receiving rehearsal: the sample changed hands without a timestamp at the packing bench. Add that handoff to the custody form before the next workflow qualification run.",
+          "memberships": [
+            "mf29-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Sample handoff and custody form identify traceability qualification.",
+          "tags": [
+            "process-gap"
+          ]
+        },
+        {
+          "id": "mf29-i19",
+          "text": "Seal Sparrow pouch log: the inner indicator changed colour in two narrow-seam bags. Photograph the seam edges before opening them for the moisture measurement.",
+          "memberships": [
+            "mf29-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Named pouch trial and moisture ingress evidence identify packaging.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf29-i20",
+          "text": "Hold Heron report correction: the six-hour figure describes usable backup supply, not time until the cabinet warmed beyond the limit. Both durations need their own labels in the drill summary.",
+          "memberships": [
+            "mf29-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Clarifies two metrics in the backup-power trial.",
+          "tags": [
+            "revision",
+            "hard-negative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf30",
+      "split": "test",
+      "domain": "museum tactile exhibit",
+      "templateFamily": "curatorial review comments and visitor-study excerpts",
+      "contexts": [
+        {
+          "id": "mf30-c1",
+          "description": "Hands on Harbor tactile exhibit relief-map fabrication and physical prototype revisions."
+        },
+        {
+          "id": "mf30-c2",
+          "description": "Hands on Harbor audio description and wayfinding script production."
+        },
+        {
+          "id": "mf30-c3",
+          "description": "Hands on Harbor facilitated visitor testing and observation analysis."
+        },
+        {
+          "id": "mf30-c4",
+          "description": "Hands on Harbor cleaning, surface wear, and handling-care trials."
+        },
+        {
+          "id": "mf30-c5",
+          "description": "Touch Routes travelling school-loan kit with smaller tactile reproductions and teaching materials."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf30-c1",
+          "mf30-c2"
+        ],
+        [
+          "mf30-c1",
+          "mf30-c4"
+        ],
+        [
+          "mf30-c2",
+          "mf30-c3"
+        ],
+        [
+          "mf30-c1",
+          "mf30-c5"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf30-i01",
+          "text": "Fabricator comment on Hands on Harbor: round the raised quay edge on the full-size relief. The current corner catches a fingertip before the visitor reaches the channel groove.",
+          "memberships": [
+            "mf30-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Physical modification to the full-size relief identifies prototype fabrication.",
+          "tags": [
+            "review",
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf30-i02",
+          "text": "Audio editor, Hands on Harbor: introduce the starting notch before naming the island. The current description assumes listeners have already found the lower edge of the map.",
+          "memberships": [
+            "mf30-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Audio description sequencing identifies script production.",
+          "tags": [
+            "review"
+          ]
+        },
+        {
+          "id": "mf30-i03",
+          "text": "Touch Routes packing annotation: each school-loan case needs a spare small river tile. The classroom sets travel with teacher cards rather than the gallery's headphone equipment.",
+          "memberships": [
+            "mf30-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "School kit size, cases, and teaching cards identify travelling loans.",
+          "tags": [
+            "hard-negative"
+          ]
+        },
+        {
+          "id": "mf30-i04",
+          "text": "Visitor study observer: during Hands on Harbor session B, three participants found the harbour entrance without prompting. Record how long each searched before interpreting their route choices.",
+          "memberships": [
+            "mf30-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Facilitated session observations and analysis identify visitor testing.",
+          "tags": [
+            "observation"
+          ]
+        },
+        {
+          "id": "mf30-i05",
+          "text": "Care trial log: the Hands on Harbor test coupon became tacky after the third wipe. Retain the cleaner dilution and drying interval with the surface photograph.",
+          "memberships": [
+            "mf30-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Cleaning coupon and repeated wipes identify handling-care trials.",
+          "tags": [
+            "measurement"
+          ]
+        },
+        {
+          "id": "mf30-i06",
+          "text": "Review margin: make the lower edge easier to find, and put the revised wording beside the diagram before the next session.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The object and session are unspecified; fabrication, scripts, visitor testing, and school materials are all plausible.",
+          "tags": [
+            "ambiguous"
+          ]
+        },
+        {
+          "id": "mf30-i07",
+          "text": "Hands on Harbor fabrication and care review: the replacement relief coating must survive the same wipe sequence that damaged the first sample. Send a coated offcut to the care trial before approving the full-size map's finish.",
+          "memberships": [
+            "mf30-c1",
+            "mf30-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly makes fabrication finish approval depend on the cleaning trial.",
+          "tags": [
+            "bridge"
+          ]
+        },
+        {
+          "id": "mf30-i08",
+          "text": "Script correction, Hands on Harbor: replace 'turn east' with 'move toward the raised compass point.' The audio needs a direction a listener can locate by touch on the relief.",
+          "memberships": [
+            "mf30-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Revises spoken wayfinding language for the named exhibit.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf30-i09",
+          "text": "Prototype review: the Hands on Harbor channel is now deeper, but the small inlet still feels like a scratch. Widen that inlet on the next full-size relief proof.",
+          "memberships": [
+            "mf30-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Physical relief feature revisions identify fabrication.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf30-i10",
+          "text": "Touch Routes teacher reply: the youngest class used the small harbour tiles to invent journeys. Add a prompt asking them to compare two routes before revealing the place names.",
+          "memberships": [
+            "mf30-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Classroom small tiles and teacher activity changes identify school-loan teaching.",
+          "tags": [
+            "pedagogy"
+          ]
+        },
+        {
+          "id": "mf30-i11",
+          "text": "Hands on Harbor study note: ask participants what they expected the textured circle to mean after they finish exploring. Naming it in the opening question would bias the observation.",
+          "memberships": [
+            "mf30-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Interview timing and bias control identify visitor study design.",
+          "tags": [
+            "method"
+          ]
+        },
+        {
+          "id": "mf30-i12",
+          "text": "Handling-care review for Hands on Harbor. The sample labelled soft cloth has less visible wear than the sample labelled brush, but the volunteers also spent longer on the brushed surface. Repeat the comparison with equal contact time and count the number of passes. A photograph under the same angled light should accompany each record, since the overhead room lighting made the fine scratches disappear. We also need a tactile assessment after drying; a finish can look intact while becoming sticky. Until the repeat is complete, the care sheet should describe the cloth result as preliminary. Preserve the worn samples so the next reviewer can feel the differences that the photographs fail to capture.",
+          "memberships": [
+            "mf30-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The entire review assesses surface-wear cleaning methodology and care guidance.",
+          "tags": [
+            "long",
+            "confound"
+          ]
+        },
+        {
+          "id": "mf30-i13",
+          "text": "Hands on Harbor visitor study found that the audio's 'nearest ridge' sent listeners to two different features. The script editor will name the quay ridge explicitly, and the facilitators will repeat that task with the revised recording.",
+          "memberships": [
+            "mf30-c2",
+            "mf30-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Visitor study evidence drives a script revision and retest.",
+          "tags": [
+            "bridge",
+            "revision"
+          ]
+        },
+        {
+          "id": "mf30-i14",
+          "text": "Touch Routes dispatch note: the Elm classroom case returns Friday morning.",
+          "memberships": [
+            "mf30-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "Named school-loan project and classroom case return identify kit circulation.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf30-i15",
+          "text": "Hands on Harbor cleaning update: discontinue the scented wipe in the surface trial. Its residue remained detectable after drying, and the next comparison will use the unscented formulation.",
+          "memberships": [
+            "mf30-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Cleaning formulation change within surface trials identifies care testing.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf30-i16",
+          "text": "Loose review comment: the new version feels clearer, but we should try it with a fresh group before making more copies.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "No version, group, or copies are identified; multiple prototype and testing streams fit.",
+          "tags": [
+            "ambiguous"
+          ]
+        },
+        {
+          "id": "mf30-i17",
+          "text": "Hands on Harbor audio booth note: leave a longer pause after the starting-notch instruction. Listeners need enough time to place a hand before the next location is described.",
+          "memberships": [
+            "mf30-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Recording pause timing and spoken instruction identify audio production.",
+          "tags": [
+            "timing"
+          ]
+        },
+        {
+          "id": "mf30-i18",
+          "text": "Fabricator delivery note: the Hands on Harbor full-size relief arrived with the removable quay insert fitted. Check its seam by touch before signing off the prototype.",
+          "memberships": [
+            "mf30-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Physical prototype acceptance of a named full-size relief identifies fabrication.",
+          "tags": [
+            "acceptance"
+          ]
+        },
+        {
+          "id": "mf30-i19",
+          "text": "Visitor-study coding memo: Hands on Harbor observers should distinguish a facilitator hint from a participant's own correction. Both reached the right inlet, but they provide different evidence about independent navigation.",
+          "memberships": [
+            "mf30-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Observation coding for study outcomes identifies visitor research.",
+          "tags": [
+            "analysis"
+          ]
+        },
+        {
+          "id": "mf30-i20",
+          "text": "Touch Routes teacher-card correction: the travel kit contains four relief tiles, not five. Revise the classroom inventory diagram before printing the next loan packet.",
+          "memberships": [
+            "mf30-c5"
+          ],
+          "ambiguous": false,
+          "rationale": "School-loan kit inventory and teacher print packet identify travelling kit materials.",
+          "tags": [
+            "revision"
+          ]
+        }
+      ]
+    }
+  ]
+}

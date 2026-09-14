@@ -1,0 +1,237 @@
+{
+  "id": "hv20a",
+  "split": "evaluation",
+  "storyFamily": "hv20",
+  "templateFamily": "hv20",
+  "threads": [
+    "first-note-flow",
+    "activation-events",
+    "offline-save",
+    "wedding-flowers"
+  ],
+  "threadDescriptions": {
+    "first-note-flow": "Test and improve the first-note onboarding screens in the fictional Fieldmark app.",
+    "activation-events": "Define and validate analytics for onboarding completion and first successful note.",
+    "offline-save": "Fix lost notes when the Fieldmark app starts without a network connection.",
+    "wedding-flowers": "Arrange flowers and vase return for a family wedding."
+  },
+  "relatedThreads": [
+    [
+      "first-note-flow",
+      "activation-events"
+    ],
+    [
+      "first-note-flow",
+      "offline-save"
+    ],
+    [
+      "activation-events",
+      "offline-save"
+    ]
+  ],
+  "challenges": [
+    "shared_screen",
+    "event_semantics",
+    "bug_vs_experiment",
+    "bridge",
+    "short_fragments"
+  ],
+  "items": [
+    {
+      "id": "hv20a-i01",
+      "text": "Fieldmark first-run sketch: ask walkers to name a place, then write their first trail note. Test whether the blank map before that step is making people quit.",
+      "modality": "image",
+      "memberships": [
+        "first-note-flow"
+      ],
+      "rationale": "Defines onboarding design hypothesis."
+    },
+    {
+      "id": "hv20a-i02",
+      "text": "Flowers for Asha's wedding: mixed white stems in low bowls, six tables. Florist needs final table count by the 9th.",
+      "modality": "voice",
+      "memberships": [
+        "wedding-flowers"
+      ],
+      "rationale": "Starts unrelated family-event procurement."
+    },
+    {
+      "id": "hv20a-i03",
+      "text": "'Skip fires twice' on a note beside the laptop. No screen or event name recorded.",
+      "modality": "note",
+      "memberships": [],
+      "rationale": "Ambiguous between interaction and measurement issues without app context."
+    },
+    {
+      "id": "hv20a-i04",
+      "text": "Fieldmark analytics draft: onboarding_done fires on leaving the last intro card, first_note_saved only after storage confirms success. Need a separate skipped flag.",
+      "modality": "file",
+      "memberships": [
+        "activation-events"
+      ],
+      "rationale": "Defines distinct measurement semantics."
+    },
+    {
+      "id": "hv20a-i05",
+      "text": "Onboarding experiment handoff: variant Cedar removes the blank map and opens the first-note editor immediately. Add intro_variant=Cedar to onboarding_done and first_note_saved, then verify both events after a complete first-run walkthrough. The design test still compares the same task: creating a trail note.",
+      "modality": "note",
+      "memberships": [
+        "first-note-flow",
+        "activation-events"
+      ],
+      "rationale": "Specifies UI variant and concrete analytics instrumentation/verification."
+    },
+    {
+      "id": "hv20a-i06",
+      "text": "Airplane-mode recording: Fieldmark shows 'saved' for a first trail note, but reopening loses it. Reproduces with a fresh install and no network.",
+      "modality": "video",
+      "memberships": [
+        "offline-save"
+      ],
+      "rationale": "Defines offline persistence defect."
+    },
+    {
+      "id": "hv20a-i07",
+      "text": "Florist sketch uses tall vases, but Asha asked for low bowls so guests can see across tables. Request corrected proposal.",
+      "modality": "image",
+      "memberships": [
+        "wedding-flowers"
+      ],
+      "rationale": "Corrects wedding floral design."
+    },
+    {
+      "id": "hv20a-i08",
+      "text": "Cedar first-run test with five volunteers: four reached the editor without help; one looked for an account button. Keep the name-place prompt but explain saving before sign-in.",
+      "modality": "voice",
+      "memberships": [
+        "first-note-flow"
+      ],
+      "rationale": "Reports usability results for onboarding variant."
+    },
+    {
+      "id": "hv20a-i09",
+      "text": "Event trace on fresh install: onboarding_done emitted twice when app returns from background on the last card. Deduplicate by completed onboarding session, not by screen view.",
+      "modality": "file",
+      "memberships": [
+        "activation-events"
+      ],
+      "rationale": "Identifies and plans analytics duplicate fix."
+    },
+    {
+      "id": "hv20a-i10",
+      "text": "Offline save diagnosis: first launch creates the local store only after a profile fetch. Initialize the store before any network work so the editor can commit without a profile.",
+      "modality": "note",
+      "memberships": [
+        "offline-save"
+      ],
+      "rationale": "Explains persistence cause and fix approach."
+    },
+    {
+      "id": "hv20a-i11",
+      "text": "Maybe the local one? recording cuts off immediately.",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "Insufficient referent despite plausible app vocabulary."
+    },
+    {
+      "id": "hv20a-i12",
+      "text": "Wedding table count is seven now, not six. Florist can add one matching low bowl; keep the aisle flowers unchanged.",
+      "modality": "note",
+      "memberships": [
+        "wedding-flowers"
+      ],
+      "rationale": "Revises floral quantity."
+    },
+    {
+      "id": "hv20a-i13",
+      "text": "Measurement correction: onboarding_done must fire on explicit Finish or Skip, not any exit from the last card; backgrounding is neither. Keep first_note_saved tied to the storage confirmation as before.",
+      "modality": "note",
+      "memberships": [
+        "activation-events"
+      ],
+      "rationale": "Corrects initial completion event rule while preserving save definition."
+    },
+    {
+      "id": "hv20a-i14",
+      "text": "Offline fix test: three notes survive force-close in airplane mode on a fresh install. Reconnection later uploads each once; the local store initializes without a profile.",
+      "modality": "video",
+      "memberships": [
+        "offline-save"
+      ],
+      "rationale": "Verifies persistence fix and upload behavior."
+    },
+    {
+      "id": "hv20a-i15",
+      "text": "Cedar copy change: 'Your note stays on this device until you sign in.' Put this under the first-note editor, above the save button; next test should check what users think happens offline.",
+      "modality": "image",
+      "memberships": [
+        "first-note-flow"
+      ],
+      "rationale": "Develops and schedules test of onboarding explanatory copy."
+    },
+    {
+      "id": "hv20a-i16",
+      "text": "Release walkthrough for Fieldmark: with the offline-store fix, first_note_saved arrives only after the local commit even without a connection. Test analytics queue replay on reconnect and assert one saved event for the one surviving note; retain the airplane-mode persistence check in the bug's acceptance notes.",
+      "modality": "file",
+      "memberships": [
+        "activation-events",
+        "offline-save"
+      ],
+      "rationale": "Verifies telemetry behavior and offline bug acceptance together."
+    },
+    {
+      "id": "hv20a-i17",
+      "text": "Cedar follow-up: all six participants could explain device-only saving after reading the new sentence. Four created a note; two deliberately skipped. Summarize the comprehension finding alongside the task completion counts.",
+      "modality": "note",
+      "memberships": [
+        "first-note-flow"
+      ],
+      "rationale": "Reports onboarding experiment outcomes."
+    },
+    {
+      "id": "hv20a-i18",
+      "text": "Florist revised order accepted: seven low bowls, unchanged aisle stems. Cousin Dan will return the bowls on Monday; add his name to the rental pickup sheet.",
+      "modality": "file",
+      "memberships": [
+        "wedding-flowers"
+      ],
+      "rationale": "Finalizes floral order and rental logistics."
+    },
+    {
+      "id": "hv20a-i19",
+      "text": "End of debug log only: 'ok 1 queued 1'. Device and action missing.",
+      "modality": "image",
+      "memberships": [],
+      "rationale": "Log fragment lacks enough context for analytics or persistence membership."
+    },
+    {
+      "id": "hv20a-i20",
+      "text": "Analytics validation complete: Finish and Skip each emit one completion with correct skipped value; returning from background emits none. Saved-note event waits for successful local commit.",
+      "modality": "note",
+      "memberships": [
+        "activation-events"
+      ],
+      "rationale": "Checks corrected event contract."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv20a-i05",
+      "threads": [
+        "first-note-flow",
+        "activation-events"
+      ]
+    },
+    "revision": {
+      "earlier": "hv20a-i04",
+      "later": "hv20a-i13",
+      "thread": "activation-events"
+    },
+    "rename": null,
+    "undo": {
+      "item": "hv20a-i15",
+      "wrongThread": "offline-save",
+      "reason": "Hypothetical correction: explanatory screen copy tests user understanding and does not repair or verify persistence."
+    }
+  }
+}

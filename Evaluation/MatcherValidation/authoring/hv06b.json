@@ -1,0 +1,30 @@
+{
+  "id":"hv06b","split":"train","storyFamily":"hv06","templateFamily":"hv06b-bulk-buy-cooperative",
+  "threads":["bulk-oil-order","household-breakfast","courier-claim","garden-seeds"],
+  "threadDescriptions":{"bulk-oil-order":"Coordinate a shared olive-oil purchase and divide costs among households","household-breakfast":"Procure and plan affordable weekday breakfasts for the household","courier-claim":"Obtain compensation for a damaged parcel of pantry breakfast supplies","garden-seeds":"Select and sow autumn balcony salad seeds"},
+  "relatedThreads":[["bulk-oil-order","household-breakfast"],["household-breakfast","courier-claim"]],
+  "challenges":["identifier-collision","quantity-correction","bridge","routine-heavy"],
+  "items":[
+    {"id":"hv06b-i01","text":"Breakfast plan for the next fortnight: overnight oats on workdays, toast at weekends. Inventory the oats before placing the grocery order.","modality":"note","memberships":["household-breakfast"],"rationale":"Breakfast provisioning plan."},
+    {"id":"hv06b-i02","text":"Shared oil order, sheet 27: Rina 2 litres, us 3, Mo 1. Supplier quoted delivery for one six-litre carton.","modality":"file","memberships":["bulk-oil-order"],"rationale":"Group purchase quantities."},
+    {"id":"hv06b-i03","text":"Seed packet photo: balcony salad mix, batch 27, sow shallowly. Check whether both window boxes get enough morning light.","modality":"image","memberships":["garden-seeds"],"rationale":"Balcony sowing preparation."},
+    {"id":"hv06b-i04","text":"We have three breakfasts' worth of oats, no raisins. Add a kilo of oats and one small raisin bag to the household order.","modality":"voice","memberships":["household-breakfast"],"rationale":"Inventory converted into breakfast purchase."},
+    {"id":"hv06b-i05","text":"Mo corrected the oil sheet: wants two litres, not one. Total is seven; ask whether we can combine a six-litre carton and a bottle.","modality":"note","memberships":["bulk-oil-order"],"rationale":"Genuine update to shared oil quantities."},
+    {"id":"hv06b-i06","text":"Breakfast delivery arrived crushed. Oats split across the wet carton; photograph parcel and labels for a courier claim, and put replacement oats on tomorrow's breakfast shopping list.","modality":"image","memberships":["household-breakfast","courier-claim"],"rationale":"Damaged goods trigger both replenishment and claim evidence."},
+    {"id":"hv06b-i07","text":"Use the shallow tray for salad seedlings, not the tall empty pot. Balcony gets sun until ten; move the tray away from the dripping outlet.","modality":"video","memberships":["garden-seeds"],"rationale":"Seed sowing setup."},
+    {"id":"hv06b-i08","text":"Courier claim K-27 opened. They need the delivery timestamp and a clear image of the split breakfast-oats packet.","modality":"file","memberships":["courier-claim"],"rationale":"Compensation claim requirements."},
+    {"id":"hv06b-i09","text":"27 — one more? Rina has the picture.","modality":"voice","memberships":[],"rationale":"Number and person are insufficient to resolve task."},
+    {"id":"hv06b-i10","text":"Oil supplier accepts seven litres at the same unit price. Collect on Wednesday; bring clean bottles and a funnel for splitting the carton.","modality":"voice","memberships":["bulk-oil-order"],"rationale":"Group order confirmation and division logistics."},
+    {"id":"hv06b-i11","text":"Replacement oats bought locally. For tomorrow's breakfast soak just two portions; the children chose toast this week.","modality":"note","memberships":["household-breakfast"],"rationale":"Breakfast stock restored and portions planned."},
+    {"id":"hv06b-i12","text":"Uploaded the damaged-carton photos to K-27. Claim value excludes the intact raisin bag; only the spoiled oats are being claimed.","modality":"image","memberships":["courier-claim"],"rationale":"Clarifies reimbursement scope."},
+    {"id":"hv06b-i13","text":"Oil cost table checked against seven litres: split delivery by household, contents by volume. Rina paid her share today.","modality":"file","memberships":["bulk-oil-order"],"rationale":"Shared purchase accounting."},
+    {"id":"hv06b-i14","text":"Salad seedlings showing at the tray edge. Rotate the tray each morning so they stop leaning toward the balcony rail.","modality":"image","memberships":["garden-seeds"],"rationale":"Seedling care."},
+    {"id":"hv06b-i15","text":"Breakfast note: oats with chopped apple were popular. Reduce the next raisin order; the small bag remains nearly full.","modality":"voice","memberships":["household-breakfast"],"rationale":"Meal feedback informs future procurement."},
+    {"id":"hv06b-i16","text":"K-27 accepted for the spoiled oats. Courier offered store credit, but the claim form requested repayment to the original payment method.","modality":"note","memberships":["courier-claim"],"rationale":"Claim settlement follow-up."},
+    {"id":"hv06b-i17","text":"Wednesday oil split done. Mo took two filled bottles; the remaining three litres on our shelf are the household allocation.","modality":"video","memberships":["bulk-oil-order"],"rationale":"Distribution of shared oil purchase."},
+    {"id":"hv06b-i18","text":"Thin the balcony salad seedlings to leave a finger's width between them. Save the packet for the next sowing date.","modality":"note","memberships":["garden-seeds"],"rationale":"Salad growing task."},
+    {"id":"hv06b-i19","text":"Breakfast cupboard checklist pinned inside door: oats below one jar triggers purchase; check fruit bowl before adding dried fruit.","modality":"image","memberships":["household-breakfast"],"rationale":"Recurring breakfast procurement rule."},
+    {"id":"hv06b-i20","text":"Courier repayment appeared today for claim K-27. Save confirmation with the damaged parcel photos and close the claim.","modality":"file","memberships":["courier-claim"],"rationale":"Claim resolved."}
+  ],
+  "historyChecks":{"bridge":{"item":"hv06b-i06","threads":["household-breakfast","courier-claim"]},"revision":{"earlier":"hv06b-i02","later":"hv06b-i05","thread":"bulk-oil-order"},"rename":null,"undo":null}
+}

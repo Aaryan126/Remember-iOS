@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "stage": 2,
+  "status": "completed_not_integrated",
+  "stoppedAtCheckpoint": true,
+  "run": "Evaluation/MatcherFeasibility/runs/stage-2-attempt-01",
+  "completeSHA256": "b8cd3fee4bfd87e5befb54d7fe81b7749fb1de28eace90f5de76cfa8ff44e888",
+  "report": "Evaluation/MatcherFeasibility/checkpoints/stage-2.md",
+  "audit": "Evaluation/MatcherFeasibility/checkpoints/stage-2-audit.json",
+  "embeddingsCompleted": 480,
+  "baselineFitPairs": 2827,
+  "development": {
+    "precision": 0.9605263157894737,
+    "pooledRecall": 0.2979591836734694,
+    "macroLibraryRecall": 0.299390243902439,
+    "tp": 73,
+    "fp": 3,
+    "fn": 172,
+    "atLeastOneCandidateRecall": 1.0,
+    "allRelevantCandidateRecall": 0.753061224489796
+  },
+  "originalReferenceCases": 416,
+  "referenceHeadUntrained": true,
+  "neuralTrainingPerformed": false,
+  "coreMLConversionPerformed": false,
+  "phoneTestingPerformed": false,
+  "testResultsOpened": false,
+  "pauseResumeTested": true,
+  "completedEmbeddingsPreservedAcrossPause": 114,
+  "checks": {"feasibilityTestsPassed": 56, "existingTestsPassed": 22, "runFilesVerified": 908, "externalArtifactsVerified": 5},
+  "next": {"stage": 3, "hardware": "mac_only", "estimatedHours": [3, 6], "requiresExplicitContinuation": true},
+  "remainingEstimatedActiveHours": [12, 25]
+}

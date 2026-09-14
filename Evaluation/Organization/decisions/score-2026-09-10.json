@@ -1,0 +1,490 @@
+{
+  "schemaVersion": 1,
+  "interpretation": "Controlled seeded-state operational diagnostic; not natural arrival-history accuracy",
+  "modes": {
+    "embedding": {
+      "merge": {
+        "opportunities": 12,
+        "completed": 12,
+        "modelAvailable": 10,
+        "successful": 2,
+        "observedEvents": 2,
+        "correctEvents": 2,
+        "citationFailures": 0,
+        "opportunityRecall": 0.16666666666666666,
+        "eventPrecision": 1
+      },
+      "split": {
+        "opportunities": 12,
+        "completed": 12,
+        "modelAvailable": 10,
+        "successful": 0,
+        "observedEvents": 0,
+        "correctEvents": 0,
+        "citationFailures": 0,
+        "unexpectedMembershipChanges": 0,
+        "opportunityRecall": 0,
+        "eventPrecision": null
+      }
+    },
+    "local": {
+      "merge": {
+        "opportunities": 12,
+        "completed": 12,
+        "modelAvailable": 10,
+        "successful": 2,
+        "observedEvents": 2,
+        "correctEvents": 2,
+        "citationFailures": 0,
+        "opportunityRecall": 0.16666666666666666,
+        "eventPrecision": 1
+      },
+      "split": {
+        "opportunities": 12,
+        "completed": 12,
+        "modelAvailable": 10,
+        "successful": 0,
+        "observedEvents": 0,
+        "correctEvents": 0,
+        "citationFailures": 0,
+        "unexpectedMembershipChanges": 0,
+        "opportunityRecall": 0,
+        "eventPrecision": null
+      }
+    }
+  },
+  "cases": [
+    {
+      "runID": "case01-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case02-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case03-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case04-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case05-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": true,
+      "observedEvents": 1,
+      "correctEvents": 1,
+      "preserved": null
+    },
+    {
+      "runID": "case06-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case07-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case08-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case09-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case10-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case11-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case12-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case13-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": true,
+      "observedEvents": 1,
+      "correctEvents": 1,
+      "preserved": null
+    },
+    {
+      "runID": "case14-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case15-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case16-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case17-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case18-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case19-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case20-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case21-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case22-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case23-embedding",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case24-embedding",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case01-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case02-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case03-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case04-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case05-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": true,
+      "observedEvents": 1,
+      "correctEvents": 1,
+      "preserved": null
+    },
+    {
+      "runID": "case06-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case07-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case08-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case09-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case10-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case11-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case12-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case13-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": true,
+      "observedEvents": 1,
+      "correctEvents": 1,
+      "preserved": null
+    },
+    {
+      "runID": "case14-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case15-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case16-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case17-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case18-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case19-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case20-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case21-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case22-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    },
+    {
+      "runID": "case23-local",
+      "kind": "merge",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": null
+    },
+    {
+      "runID": "case24-local",
+      "kind": "split",
+      "status": "completed",
+      "success": false,
+      "observedEvents": 0,
+      "correctEvents": 0,
+      "preserved": true
+    }
+  ]
+}

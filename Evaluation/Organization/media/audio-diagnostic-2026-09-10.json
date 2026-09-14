@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "semantics": {
+    "status": "post-hoc; not preregistered with the organization benchmark",
+    "normalization": "Casefold, then Unicode alphanumeric word runs ([^\\W_]+). Punctuation, apostrophes, hyphens and underscores separate tokens. Preserve accents and numeric forms; no stemming, number expansion or language-specific substitutions.",
+    "metric": "Unit-cost word Levenshtein edit distance divided by reference word count; WER can exceed 1. Corpus WER pools edits and reference words; macro WER averages audio-item WER.",
+    "failurePolicy": "Missing or non-completed run/extraction uses an empty hypothesis, contributing every reference word as a deletion. Completed extraction with empty text is also scored. No reference transcript fallback.",
+    "scope": "Every audio item in the frozen inputs, one embedding/chronological/extracted run per library. Other media excluded. Reference text is the synthetic spoken-script diagnostic control.",
+    "interpretation": "Transcript similarity diagnostic, not semantic correctness or organization accuracy. Device transcription uses Locale.current, not a per-file language. No quality threshold is asserted."
+  },
+  "items": [
+    {
+      "itemID": "l01-i15",
+      "libraryID": "l01",
+      "split": "development",
+      "runID": "l01-embedding-chronological-0",
+      "runStatus": "completed",
+      "extractionStatus": "completed",
+      "completedExtraction": true,
+      "nonemptyHypothesis": true,
+      "referenceWords": 31,
+      "hypothesisWords": 30,
+      "wordEdits": 4,
+      "wordErrorRate": 0.12903225806451613
+    },
+    {
+      "itemID": "l02-i15",
+      "libraryID": "l02",
+      "split": "development",
+      "runID": "l02-embedding-chronological-0",
+      "runStatus": "completed",
+      "extractionStatus": "completed",
+      "completedExtraction": true,
+      "nonemptyHypothesis": true,
+      "referenceWords": 33,
+      "hypothesisWords": 32,
+      "wordEdits": 3,
+      "wordErrorRate": 0.09090909090909091
+    },
+    {
+      "itemID": "l03-i15",
+      "libraryID": "l03",
+      "split": "development",
+      "runID": "l03-embedding-chronological-0",
+      "runStatus": "completed",
+      "extractionStatus": "completed",
+      "completedExtraction": true,
+      "nonemptyHypothesis": true,
+      "referenceWords": 29,
+      "hypothesisWords": 29,
+      "wordEdits": 1,
+      "wordErrorRate": 0.034482758620689655
+    },
+    {
+      "itemID": "l04-i15",
+      "libraryID": "l04",
+      "split": "development",
+      "runID": "l04-embedding-chronological-0",
+      "runStatus": "completed",
+      "extractionStatus": "completed",
+      "completedExtraction": true,
+      "nonemptyHypothesis": true,
+      "referenceWords": 31,
+      "hypothesisWords": 32,
+      "wordEdits": 2,
+      "wordErrorRate": 0.06451612903225806
+    },
+    {
+      "itemID": "l09-i08",
+      "libraryID": "l09",
+      "split": "heldout",
+      "runID": "l09-embedding-chronological-0",
+      "runStatus": "completed",
+      "extractionStatus": "completed",
+      "completedExtraction": true,
+      "nonemptyHypothesis": true,
+      "referenceWords": 34,
+      "hypothesisWords": 33,
+      "wordEdits": 2,
+      "wordErrorRate": 0.058823529411764705
+    },
+    {
+      "itemID": "l10-i08",
+      "libraryID": "l10",
+      "split": "heldout",
+      "runID": "l10-embedding-chronological-0",
+      "runStatus": "completed",
+      "extractionStatus": "completed",
+      "completedExtraction": true,
+      "nonemptyHypothesis": true,
+      "referenceWords": 35,
+      "hypothesisWords": 35,
+      "wordEdits": 0,
+      "wordErrorRate": 0.0
+    },
+    {
+      "itemID": "l11-i08",
+      "libraryID": "l11",
+      "split": "development",
+      "runID": "l11-embedding-chronological-0",
+      "runStatus": "completed",
+      "extractionStatus": "completed",
+      "completedExtraction": true,
+      "nonemptyHypothesis": true,
+      "referenceWords": 36,
+      "hypothesisWords": 30,
+      "wordEdits": 32,
+      "wordErrorRate": 0.8888888888888888
+    },
+    {
+      "itemID": "l12-i08",
+      "libraryID": "l12",
+      "split": "heldout",
+      "runID": "l12-embedding-chronological-0",
+      "runStatus": "completed",
+      "extractionStatus": "completed",
+      "completedExtraction": true,
+      "nonemptyHypothesis": true,
+      "referenceWords": 36,
+      "hypothesisWords": 33,
+      "wordEdits": 22,
+      "wordErrorRate": 0.6111111111111112
+    }
+  ],
+  "coverage": {
+    "expectedAudioItems": 8,
+    "completedExtractions": 8,
+    "nonemptyHypotheses": 8,
+    "extractionStatuses": {
+      "completed": 8
+    },
+    "missingOrFailedIDs": []
+  },
+  "aggregate": {
+    "referenceWords": 265,
+    "wordEdits": 66,
+    "corpusWordErrorRate": 0.2490566037735849,
+    "macroItemWordErrorRate": 0.23472047075478994
+  },
+  "binding": {
+    "schemaVersion": 1,
+    "inputsSHA256": "f196588bc8ddb9e80276780b8af8fb89f0e30adb97161166315f48f82344481c",
+    "corpusFreezeSHA256": "0ebc68e0e85db90ebdbeb4499d20ed6d83249ca0d868427a92cb4a158c1c189f",
+    "resultsSHA256": "61608b1528bcee3da89edd72ba0dc7ecdb708f109c4fdffff152cf0cb93cf8f9",
+    "scorerSHA256": "32767be06e0f7457f57ab476a86786c721fb2ca6e53f0fc58d3dc8bf293dfb59",
+    "semantics": {
+      "status": "post-hoc; not preregistered with the organization benchmark",
+      "normalization": "Casefold, then Unicode alphanumeric word runs ([^\\W_]+). Punctuation, apostrophes, hyphens and underscores separate tokens. Preserve accents and numeric forms; no stemming, number expansion or language-specific substitutions.",
+      "metric": "Unit-cost word Levenshtein edit distance divided by reference word count; WER can exceed 1. Corpus WER pools edits and reference words; macro WER averages audio-item WER.",
+      "failurePolicy": "Missing or non-completed run/extraction uses an empty hypothesis, contributing every reference word as a deletion. Completed extraction with empty text is also scored. No reference transcript fallback.",
+      "scope": "Every audio item in the frozen inputs, one embedding/chronological/extracted run per library. Other media excluded. Reference text is the synthetic spoken-script diagnostic control.",
+      "interpretation": "Transcript similarity diagnostic, not semantic correctness or organization accuracy. Device transcription uses Locale.current, not a per-file language. No quality threshold is asserted."
+    },
+    "diagnosticFreezeSHA256": "e9374e934db48d2e01f36f19ed48498f315cd3b6e2268ee20cdbe1b0c3cc03e4"
+  }
+}

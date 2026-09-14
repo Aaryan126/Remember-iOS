@@ -1,0 +1,6319 @@
+{
+  "libraries": [
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv01a-i11",
+        "threads": [
+          "atlas-record",
+          "atlas-parcel"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "atlas-record"
+          ],
+          "source": "hv01a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "atlas-parcel"
+          ],
+          "source": "hv01a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "shop-heater"
+          ],
+          "source": "hv01a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "book-club"
+          ],
+          "source": "hv01a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "atlas-record"
+          ],
+          "source": "hv01a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "atlas-parcel"
+          ],
+          "source": "hv01a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "atlas-parcel"
+          ],
+          "source": "hv01a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "atlas-record"
+          ],
+          "source": "hv01a-i08",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv01a-i01",
+          "later": "hv01a-i08",
+          "thread": "atlas-record",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "shop-heater"
+          ],
+          "source": "hv01a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "book-club"
+          ],
+          "source": "hv01a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "atlas-record",
+            "atlas-parcel"
+          ],
+          "source": "hv01a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "atlas-parcel"
+          ],
+          "source": "hv01a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "shop-heater"
+          ],
+          "source": "hv01a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "atlas-record"
+          ],
+          "source": "hv01a-i14",
+          "type": "insert"
+        },
+        {
+          "source": "hv01a-i14",
+          "thread": "atlas-parcel",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv01a-i14",
+          "thread": "atlas-parcel",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "book-club"
+          ],
+          "source": "hv01a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "atlas-parcel"
+          ],
+          "source": "hv01a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv01a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "shop-heater"
+          ],
+          "source": "hv01a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "atlas-parcel"
+          ],
+          "source": "hv01a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "book-club"
+          ],
+          "source": "hv01a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv01a-i01": [
+            "atlas-record"
+          ],
+          "hv01a-i02": [
+            "atlas-parcel"
+          ],
+          "hv01a-i03": [
+            "shop-heater"
+          ],
+          "hv01a-i04": [
+            "book-club"
+          ],
+          "hv01a-i05": [
+            "atlas-record"
+          ],
+          "hv01a-i06": [
+            "atlas-parcel"
+          ],
+          "hv01a-i07": [
+            "atlas-parcel"
+          ],
+          "hv01a-i08": [
+            "atlas-record"
+          ],
+          "hv01a-i09": [
+            "shop-heater"
+          ],
+          "hv01a-i10": [
+            "book-club"
+          ],
+          "hv01a-i11": [
+            "atlas-parcel",
+            "atlas-record"
+          ],
+          "hv01a-i12": [
+            "atlas-parcel"
+          ],
+          "hv01a-i13": [
+            "shop-heater"
+          ],
+          "hv01a-i14": [
+            "atlas-record"
+          ],
+          "hv01a-i15": [
+            "book-club"
+          ],
+          "hv01a-i16": [
+            "atlas-parcel"
+          ],
+          "hv01a-i17": [],
+          "hv01a-i18": [
+            "shop-heater"
+          ],
+          "hv01a-i19": [
+            "atlas-parcel"
+          ],
+          "hv01a-i20": [
+            "book-club"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv01a-i01",
+            "later": "hv01a-i08",
+            "thread": "atlas-record"
+          }
+        ],
+        "threadNames": {
+          "atlas-parcel": "Pack and deliver the sold river atlas to Mara.",
+          "atlas-record": "Identify and correct the catalogue record for the folding river atlas.",
+          "book-club": "Prepare the shop's evening discussion of The Small Orchard.",
+          "shop-heater": "Repair the back-room heater before reopening."
+        }
+      },
+      "initialThreadNames": {
+        "atlas-parcel": "Pack and deliver the sold river atlas to Mara.",
+        "atlas-record": "Identify and correct the catalogue record for the folding river atlas.",
+        "book-club": "Prepare the shop's evening discussion of The Small Orchard.",
+        "shop-heater": "Repair the back-room heater before reopening."
+      },
+      "library": "hv01a",
+      "relatedThreads": [
+        [
+          "atlas-record",
+          "atlas-parcel"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv01b-i13",
+        "threads": [
+          "poetry-batch",
+          "school-bundle"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "poetry-batch"
+          ],
+          "source": "hv01b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "window-display"
+          ],
+          "source": "hv01b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "school-bundle"
+          ],
+          "source": "hv01b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "till-rolls"
+          ],
+          "source": "hv01b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "return-claims"
+          ],
+          "source": "hv01b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "poetry-batch"
+          ],
+          "source": "hv01b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "school-bundle"
+          ],
+          "source": "hv01b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "window-display"
+          ],
+          "source": "hv01b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv01b-i09",
+          "type": "insert"
+        },
+        {
+          "source": "hv01b-i09",
+          "thread": "till-rolls",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv01b-i09",
+          "thread": "till-rolls",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "return-claims"
+          ],
+          "source": "hv01b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "poetry-batch"
+          ],
+          "source": "hv01b-i11",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv01b-i01",
+          "later": "hv01b-i11",
+          "thread": "poetry-batch",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "till-rolls"
+          ],
+          "source": "hv01b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "poetry-batch",
+            "school-bundle"
+          ],
+          "source": "hv01b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "window-display"
+          ],
+          "source": "hv01b-i14",
+          "type": "insert"
+        },
+        {
+          "from": "Autumn crates",
+          "thread": "window-display",
+          "to": "Paper Moon",
+          "type": "rename"
+        },
+        {
+          "memberships": [
+            "till-rolls"
+          ],
+          "source": "hv01b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "school-bundle"
+          ],
+          "source": "hv01b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "return-claims"
+          ],
+          "source": "hv01b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "poetry-batch"
+          ],
+          "source": "hv01b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "window-display"
+          ],
+          "source": "hv01b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv01b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv01b-i01": [
+            "poetry-batch"
+          ],
+          "hv01b-i02": [
+            "window-display"
+          ],
+          "hv01b-i03": [
+            "school-bundle"
+          ],
+          "hv01b-i04": [
+            "till-rolls"
+          ],
+          "hv01b-i05": [
+            "return-claims"
+          ],
+          "hv01b-i06": [
+            "poetry-batch"
+          ],
+          "hv01b-i07": [
+            "school-bundle"
+          ],
+          "hv01b-i08": [
+            "window-display"
+          ],
+          "hv01b-i09": [],
+          "hv01b-i10": [
+            "return-claims"
+          ],
+          "hv01b-i11": [
+            "poetry-batch"
+          ],
+          "hv01b-i12": [
+            "till-rolls"
+          ],
+          "hv01b-i13": [
+            "poetry-batch",
+            "school-bundle"
+          ],
+          "hv01b-i14": [
+            "window-display"
+          ],
+          "hv01b-i15": [
+            "till-rolls"
+          ],
+          "hv01b-i16": [
+            "school-bundle"
+          ],
+          "hv01b-i17": [
+            "return-claims"
+          ],
+          "hv01b-i18": [
+            "poetry-batch"
+          ],
+          "hv01b-i19": [
+            "window-display"
+          ],
+          "hv01b-i20": []
+        },
+        "revisions": [
+          {
+            "earlier": "hv01b-i01",
+            "later": "hv01b-i11",
+            "thread": "poetry-batch"
+          }
+        ],
+        "threadNames": {
+          "poetry-batch": "Catalogue the donated small-press poetry pamphlets as individual stock.",
+          "return-claims": "Resolve the unrelated return of a defective chess manual.",
+          "school-bundle": "Assemble and dispatch an affordable poetry bundle to Elm School.",
+          "till-rolls": "Replenish receipt paper of the correct width.",
+          "window-display": "Paper Moon"
+        }
+      },
+      "initialThreadNames": {
+        "poetry-batch": "Catalogue the donated small-press poetry pamphlets as individual stock.",
+        "return-claims": "Resolve the unrelated return of a defective chess manual.",
+        "school-bundle": "Assemble and dispatch an affordable poetry bundle to Elm School.",
+        "till-rolls": "Replenish receipt paper of the correct width.",
+        "window-display": "Autumn crates"
+      },
+      "library": "hv01b",
+      "relatedThreads": [
+        [
+          "poetry-batch",
+          "school-bundle"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv02a-i11",
+        "threads": [
+          "cello-neck",
+          "loan-cello"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "cello-neck"
+          ],
+          "source": "hv02a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bow-rehair"
+          ],
+          "source": "hv02a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "studio-lock"
+          ],
+          "source": "hv02a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "loan-cello"
+          ],
+          "source": "hv02a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cello-neck"
+          ],
+          "source": "hv02a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "loan-cello"
+          ],
+          "source": "hv02a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bow-rehair"
+          ],
+          "source": "hv02a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "loan-cello"
+          ],
+          "source": "hv02a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cello-neck"
+          ],
+          "source": "hv02a-i09",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv02a-i05",
+          "later": "hv02a-i09",
+          "thread": "cello-neck",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "studio-lock"
+          ],
+          "source": "hv02a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cello-neck",
+            "loan-cello"
+          ],
+          "source": "hv02a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bow-rehair"
+          ],
+          "source": "hv02a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "loan-cello"
+          ],
+          "source": "hv02a-i13",
+          "type": "insert"
+        },
+        {
+          "source": "hv02a-i13",
+          "thread": "cello-neck",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv02a-i13",
+          "thread": "cello-neck",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "cello-neck"
+          ],
+          "source": "hv02a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "studio-lock"
+          ],
+          "source": "hv02a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bow-rehair"
+          ],
+          "source": "hv02a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cello-neck"
+          ],
+          "source": "hv02a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv02a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "loan-cello"
+          ],
+          "source": "hv02a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bow-rehair"
+          ],
+          "source": "hv02a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv02a-i01": [
+            "cello-neck"
+          ],
+          "hv02a-i02": [
+            "bow-rehair"
+          ],
+          "hv02a-i03": [
+            "studio-lock"
+          ],
+          "hv02a-i04": [
+            "loan-cello"
+          ],
+          "hv02a-i05": [
+            "cello-neck"
+          ],
+          "hv02a-i06": [
+            "loan-cello"
+          ],
+          "hv02a-i07": [
+            "bow-rehair"
+          ],
+          "hv02a-i08": [
+            "loan-cello"
+          ],
+          "hv02a-i09": [
+            "cello-neck"
+          ],
+          "hv02a-i10": [
+            "studio-lock"
+          ],
+          "hv02a-i11": [
+            "cello-neck",
+            "loan-cello"
+          ],
+          "hv02a-i12": [
+            "bow-rehair"
+          ],
+          "hv02a-i13": [
+            "loan-cello"
+          ],
+          "hv02a-i14": [
+            "cello-neck"
+          ],
+          "hv02a-i15": [
+            "studio-lock"
+          ],
+          "hv02a-i16": [
+            "bow-rehair"
+          ],
+          "hv02a-i17": [
+            "cello-neck"
+          ],
+          "hv02a-i18": [],
+          "hv02a-i19": [
+            "loan-cello"
+          ],
+          "hv02a-i20": [
+            "bow-rehair"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv02a-i05",
+            "later": "hv02a-i09",
+            "thread": "cello-neck"
+          }
+        ],
+        "threadNames": {
+          "bow-rehair": "Rehair Tomas's bow and obtain his approval of the tension.",
+          "cello-neck": "Restore the slipped neck joint on Leena's cello.",
+          "loan-cello": "Arrange a temporary cello for Leena's concert while hers is repaired.",
+          "studio-lock": "Replace and distribute keys for the workshop door lock."
+        }
+      },
+      "initialThreadNames": {
+        "bow-rehair": "Rehair Tomas's bow and obtain his approval of the tension.",
+        "cello-neck": "Restore the slipped neck joint on Leena's cello.",
+        "loan-cello": "Arrange a temporary cello for Leena's concert while hers is repaired.",
+        "studio-lock": "Replace and distribute keys for the workshop door lock."
+      },
+      "library": "hv02a",
+      "relatedThreads": [
+        [
+          "cello-neck",
+          "loan-cello"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv02b-i14",
+        "threads": [
+          "mandolin-top",
+          "finish-samples"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "mandolin-top"
+          ],
+          "source": "hv02b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quartet-stands"
+          ],
+          "source": "hv02b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "finish-samples"
+          ],
+          "source": "hv02b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "mandolin-top"
+          ],
+          "source": "hv02b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quartet-stands"
+          ],
+          "source": "hv02b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "finish-samples"
+          ],
+          "source": "hv02b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "mandolin-top"
+          ],
+          "source": "hv02b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quartet-stands"
+          ],
+          "source": "hv02b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quartet-stands"
+          ],
+          "source": "hv02b-i09",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv02b-i02",
+          "later": "hv02b-i09",
+          "thread": "quartet-stands",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "finish-samples"
+          ],
+          "source": "hv02b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "mandolin-top"
+          ],
+          "source": "hv02b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "finish-samples"
+          ],
+          "source": "hv02b-i12",
+          "type": "insert"
+        },
+        {
+          "source": "hv02b-i12",
+          "thread": "mandolin-top",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv02b-i12",
+          "thread": "mandolin-top",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "quartet-stands"
+          ],
+          "source": "hv02b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "mandolin-top",
+            "finish-samples"
+          ],
+          "source": "hv02b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "mandolin-top"
+          ],
+          "source": "hv02b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv02b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quartet-stands"
+          ],
+          "source": "hv02b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "finish-samples"
+          ],
+          "source": "hv02b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "mandolin-top"
+          ],
+          "source": "hv02b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quartet-stands"
+          ],
+          "source": "hv02b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv02b-i01": [
+            "mandolin-top"
+          ],
+          "hv02b-i02": [
+            "quartet-stands"
+          ],
+          "hv02b-i03": [
+            "finish-samples"
+          ],
+          "hv02b-i04": [
+            "mandolin-top"
+          ],
+          "hv02b-i05": [
+            "quartet-stands"
+          ],
+          "hv02b-i06": [
+            "finish-samples"
+          ],
+          "hv02b-i07": [
+            "mandolin-top"
+          ],
+          "hv02b-i08": [
+            "quartet-stands"
+          ],
+          "hv02b-i09": [
+            "quartet-stands"
+          ],
+          "hv02b-i10": [
+            "finish-samples"
+          ],
+          "hv02b-i11": [
+            "mandolin-top"
+          ],
+          "hv02b-i12": [
+            "finish-samples"
+          ],
+          "hv02b-i13": [
+            "quartet-stands"
+          ],
+          "hv02b-i14": [
+            "finish-samples",
+            "mandolin-top"
+          ],
+          "hv02b-i15": [
+            "mandolin-top"
+          ],
+          "hv02b-i16": [],
+          "hv02b-i17": [
+            "quartet-stands"
+          ],
+          "hv02b-i18": [
+            "finish-samples"
+          ],
+          "hv02b-i19": [
+            "mandolin-top"
+          ],
+          "hv02b-i20": [
+            "quartet-stands"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv02b-i02",
+            "later": "hv02b-i09",
+            "thread": "quartet-stands"
+          }
+        ],
+        "threadNames": {
+          "finish-samples": "Develop and document a reversible colour-match finish for the mandolin repair.",
+          "mandolin-top": "Stabilize the cracked top of the museum's mandolin for display.",
+          "quartet-stands": "Make four collapsible music stands for the town quartet."
+        }
+      },
+      "initialThreadNames": {
+        "finish-samples": "Develop and document a reversible colour-match finish for the mandolin repair.",
+        "mandolin-top": "Stabilize the cracked top of the museum's mandolin for display.",
+        "quartet-stands": "Make four collapsible music stands for the town quartet."
+      },
+      "library": "hv02b",
+      "relatedThreads": [
+        [
+          "mandolin-top",
+          "finish-samples"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv03a-i12",
+        "threads": [
+          "ridge-route",
+          "ridge-food"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "ridge-route"
+          ],
+          "source": "hv03a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cat-sitter"
+          ],
+          "source": "hv03a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tent-repair"
+          ],
+          "source": "hv03a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ridge-food"
+          ],
+          "source": "hv03a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "work-handoff"
+          ],
+          "source": "hv03a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ridge-route"
+          ],
+          "source": "hv03a-i06",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv03a-i01",
+          "later": "hv03a-i06",
+          "thread": "ridge-route",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "tent-repair"
+          ],
+          "source": "hv03a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv03a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ridge-food"
+          ],
+          "source": "hv03a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cat-sitter"
+          ],
+          "source": "hv03a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "work-handoff"
+          ],
+          "source": "hv03a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ridge-route",
+            "ridge-food"
+          ],
+          "source": "hv03a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tent-repair"
+          ],
+          "source": "hv03a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ridge-route"
+          ],
+          "source": "hv03a-i14",
+          "type": "insert"
+        },
+        {
+          "from": "Slate Ridge weekend",
+          "thread": "ridge-route",
+          "to": "Juniper loop",
+          "type": "rename"
+        },
+        {
+          "memberships": [
+            "ridge-food"
+          ],
+          "source": "hv03a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cat-sitter"
+          ],
+          "source": "hv03a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "work-handoff"
+          ],
+          "source": "hv03a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ridge-route"
+          ],
+          "source": "hv03a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv03a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ridge-food"
+          ],
+          "source": "hv03a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv03a-i01": [
+            "ridge-route"
+          ],
+          "hv03a-i02": [
+            "cat-sitter"
+          ],
+          "hv03a-i03": [
+            "tent-repair"
+          ],
+          "hv03a-i04": [
+            "ridge-food"
+          ],
+          "hv03a-i05": [
+            "work-handoff"
+          ],
+          "hv03a-i06": [
+            "ridge-route"
+          ],
+          "hv03a-i07": [
+            "tent-repair"
+          ],
+          "hv03a-i08": [],
+          "hv03a-i09": [
+            "ridge-food"
+          ],
+          "hv03a-i10": [
+            "cat-sitter"
+          ],
+          "hv03a-i11": [
+            "work-handoff"
+          ],
+          "hv03a-i12": [
+            "ridge-food",
+            "ridge-route"
+          ],
+          "hv03a-i13": [
+            "tent-repair"
+          ],
+          "hv03a-i14": [
+            "ridge-route"
+          ],
+          "hv03a-i15": [
+            "ridge-food"
+          ],
+          "hv03a-i16": [
+            "cat-sitter"
+          ],
+          "hv03a-i17": [
+            "work-handoff"
+          ],
+          "hv03a-i18": [
+            "ridge-route"
+          ],
+          "hv03a-i19": [],
+          "hv03a-i20": [
+            "ridge-food"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv03a-i01",
+            "later": "hv03a-i06",
+            "thread": "ridge-route"
+          }
+        ],
+        "threadNames": {
+          "cat-sitter": "Arrange care of Miso at home during the weekend away.",
+          "ridge-food": "Prepare meals and drinking-water logistics for the Slate Ridge hikers.",
+          "ridge-route": "Juniper loop",
+          "tent-repair": "Patch and test the leaking two-person tent before the trip.",
+          "work-handoff": "Hand off the Friday client report before taking leave."
+        }
+      },
+      "initialThreadNames": {
+        "cat-sitter": "Arrange care of Miso at home during the weekend away.",
+        "ridge-food": "Prepare meals and drinking-water logistics for the Slate Ridge hikers.",
+        "ridge-route": "Slate Ridge weekend",
+        "tent-repair": "Patch and test the leaking two-person tent before the trip.",
+        "work-handoff": "Hand off the Friday client report before taking leave."
+      },
+      "library": "hv03a",
+      "relatedThreads": [
+        [
+          "ridge-route",
+          "ridge-food"
+        ],
+        [
+          "ridge-route",
+          "tent-repair"
+        ],
+        [
+          "ridge-food",
+          "tent-repair"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv03b-i11",
+        "threads": [
+          "island-permit",
+          "ferry-bikes"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "island-permit"
+          ],
+          "source": "hv03b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ferry-bikes"
+          ],
+          "source": "hv03b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "night-sky"
+          ],
+          "source": "hv03b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "balcony-plants"
+          ],
+          "source": "hv03b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "island-permit"
+          ],
+          "source": "hv03b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ferry-bikes"
+          ],
+          "source": "hv03b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "night-sky"
+          ],
+          "source": "hv03b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "island-permit"
+          ],
+          "source": "hv03b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "balcony-plants"
+          ],
+          "source": "hv03b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ferry-bikes"
+          ],
+          "source": "hv03b-i10",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv03b-i06",
+          "later": "hv03b-i10",
+          "thread": "ferry-bikes",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "island-permit",
+            "ferry-bikes"
+          ],
+          "source": "hv03b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "night-sky"
+          ],
+          "source": "hv03b-i12",
+          "type": "insert"
+        },
+        {
+          "source": "hv03b-i12",
+          "thread": "island-permit",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv03b-i12",
+          "thread": "island-permit",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "island-permit"
+          ],
+          "source": "hv03b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ferry-bikes"
+          ],
+          "source": "hv03b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "balcony-plants"
+          ],
+          "source": "hv03b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv03b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "night-sky"
+          ],
+          "source": "hv03b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "island-permit"
+          ],
+          "source": "hv03b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "ferry-bikes"
+          ],
+          "source": "hv03b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "night-sky"
+          ],
+          "source": "hv03b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv03b-i01": [
+            "island-permit"
+          ],
+          "hv03b-i02": [
+            "ferry-bikes"
+          ],
+          "hv03b-i03": [
+            "night-sky"
+          ],
+          "hv03b-i04": [
+            "balcony-plants"
+          ],
+          "hv03b-i05": [
+            "island-permit"
+          ],
+          "hv03b-i06": [
+            "ferry-bikes"
+          ],
+          "hv03b-i07": [
+            "night-sky"
+          ],
+          "hv03b-i08": [
+            "island-permit"
+          ],
+          "hv03b-i09": [
+            "balcony-plants"
+          ],
+          "hv03b-i10": [
+            "ferry-bikes"
+          ],
+          "hv03b-i11": [
+            "ferry-bikes",
+            "island-permit"
+          ],
+          "hv03b-i12": [
+            "night-sky"
+          ],
+          "hv03b-i13": [
+            "island-permit"
+          ],
+          "hv03b-i14": [
+            "ferry-bikes"
+          ],
+          "hv03b-i15": [
+            "balcony-plants"
+          ],
+          "hv03b-i16": [],
+          "hv03b-i17": [
+            "night-sky"
+          ],
+          "hv03b-i18": [
+            "island-permit"
+          ],
+          "hv03b-i19": [
+            "ferry-bikes"
+          ],
+          "hv03b-i20": [
+            "night-sky"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv03b-i06",
+            "later": "hv03b-i10",
+            "thread": "ferry-bikes"
+          }
+        ],
+        "threadNames": {
+          "balcony-plants": "Set up watering for balcony plants while away.",
+          "ferry-bikes": "Book and prepare bicycles for ferry transport to Heron Island.",
+          "island-permit": "Secure the overnight camping permit and pitch at Heron Island.",
+          "night-sky": "Prepare a sky-photography session during the island stay."
+        }
+      },
+      "initialThreadNames": {
+        "balcony-plants": "Set up watering for balcony plants while away.",
+        "ferry-bikes": "Book and prepare bicycles for ferry transport to Heron Island.",
+        "island-permit": "Secure the overnight camping permit and pitch at Heron Island.",
+        "night-sky": "Prepare a sky-photography session during the island stay."
+      },
+      "library": "hv03b",
+      "relatedThreads": [
+        [
+          "island-permit",
+          "ferry-bikes"
+        ],
+        [
+          "island-permit",
+          "night-sky"
+        ],
+        [
+          "ferry-bikes",
+          "night-sky"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv04a-i12",
+        "threads": [
+          "survey-practice",
+          "study-circle"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "survey-practice"
+          ],
+          "source": "hv04a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-booking"
+          ],
+          "source": "hv04a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "dental-visit"
+          ],
+          "source": "hv04a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "study-circle"
+          ],
+          "source": "hv04a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-practice"
+          ],
+          "source": "hv04a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-booking"
+          ],
+          "source": "hv04a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "study-circle"
+          ],
+          "source": "hv04a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv04a-i08",
+          "type": "insert"
+        },
+        {
+          "source": "hv04a-i08",
+          "thread": "survey-booking",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv04a-i08",
+          "thread": "survey-booking",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "survey-practice"
+          ],
+          "source": "hv04a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "dental-visit"
+          ],
+          "source": "hv04a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "study-circle"
+          ],
+          "source": "hv04a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-practice",
+            "study-circle"
+          ],
+          "source": "hv04a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-booking"
+          ],
+          "source": "hv04a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-practice"
+          ],
+          "source": "hv04a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "study-circle"
+          ],
+          "source": "hv04a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-booking"
+          ],
+          "source": "hv04a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv04a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "dental-visit"
+          ],
+          "source": "hv04a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "survey-practice"
+          ],
+          "source": "hv04a-i19",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv04a-i05",
+          "later": "hv04a-i19",
+          "thread": "survey-practice",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "study-circle"
+          ],
+          "source": "hv04a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv04a-i01": [
+            "survey-practice"
+          ],
+          "hv04a-i02": [
+            "survey-booking"
+          ],
+          "hv04a-i03": [
+            "dental-visit"
+          ],
+          "hv04a-i04": [
+            "study-circle"
+          ],
+          "hv04a-i05": [
+            "survey-practice"
+          ],
+          "hv04a-i06": [
+            "survey-booking"
+          ],
+          "hv04a-i07": [
+            "study-circle"
+          ],
+          "hv04a-i08": [],
+          "hv04a-i09": [
+            "survey-practice"
+          ],
+          "hv04a-i10": [
+            "dental-visit"
+          ],
+          "hv04a-i11": [
+            "study-circle"
+          ],
+          "hv04a-i12": [
+            "study-circle",
+            "survey-practice"
+          ],
+          "hv04a-i13": [
+            "survey-booking"
+          ],
+          "hv04a-i14": [
+            "survey-practice"
+          ],
+          "hv04a-i15": [
+            "study-circle"
+          ],
+          "hv04a-i16": [
+            "survey-booking"
+          ],
+          "hv04a-i17": [],
+          "hv04a-i18": [
+            "dental-visit"
+          ],
+          "hv04a-i19": [
+            "survey-practice"
+          ],
+          "hv04a-i20": [
+            "study-circle"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv04a-i05",
+            "later": "hv04a-i19",
+            "thread": "survey-practice"
+          }
+        ],
+        "threadNames": {
+          "dental-visit": "Arrange and attend a routine dental appointment.",
+          "study-circle": "Organize peer study sessions and a shared question bank.",
+          "survey-booking": "Complete exam registration and required access arrangements.",
+          "survey-practice": "Improve traverse-adjustment skills for the surveying professional exam."
+        }
+      },
+      "initialThreadNames": {
+        "dental-visit": "Arrange and attend a routine dental appointment.",
+        "study-circle": "Organize peer study sessions and a shared question bank.",
+        "survey-booking": "Complete exam registration and required access arrangements.",
+        "survey-practice": "Improve traverse-adjustment skills for the surveying professional exam."
+      },
+      "library": "hv04a",
+      "relatedThreads": [
+        [
+          "survey-practice",
+          "survey-booking"
+        ],
+        [
+          "survey-practice",
+          "study-circle"
+        ],
+        [
+          "survey-booking",
+          "study-circle"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv04b-i14",
+        "threads": [
+          "mock-exam",
+          "coding-drills"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "coding-drills"
+          ],
+          "source": "hv04b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "kitchen-shelf"
+          ],
+          "source": "hv04b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "exam-reimbursement"
+          ],
+          "source": "hv04b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "mock-exam"
+          ],
+          "source": "hv04b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "library-card"
+          ],
+          "source": "hv04b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "coding-drills"
+          ],
+          "source": "hv04b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "exam-reimbursement"
+          ],
+          "source": "hv04b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "mock-exam"
+          ],
+          "source": "hv04b-i08",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv04b-i04",
+          "later": "hv04b-i08",
+          "thread": "mock-exam",
+          "type": "revision"
+        },
+        {
+          "memberships": [],
+          "source": "hv04b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "kitchen-shelf"
+          ],
+          "source": "hv04b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "coding-drills"
+          ],
+          "source": "hv04b-i11",
+          "type": "insert"
+        },
+        {
+          "from": "Red list",
+          "thread": "coding-drills",
+          "to": "Reasoning repairs",
+          "type": "rename"
+        },
+        {
+          "memberships": [
+            "library-card"
+          ],
+          "source": "hv04b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "mock-exam"
+          ],
+          "source": "hv04b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "mock-exam",
+            "coding-drills"
+          ],
+          "source": "hv04b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "exam-reimbursement"
+          ],
+          "source": "hv04b-i15",
+          "type": "insert"
+        },
+        {
+          "source": "hv04b-i15",
+          "thread": "mock-exam",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv04b-i15",
+          "thread": "mock-exam",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "kitchen-shelf"
+          ],
+          "source": "hv04b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "coding-drills"
+          ],
+          "source": "hv04b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv04b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "exam-reimbursement"
+          ],
+          "source": "hv04b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "mock-exam"
+          ],
+          "source": "hv04b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv04b-i01": [
+            "coding-drills"
+          ],
+          "hv04b-i02": [
+            "kitchen-shelf"
+          ],
+          "hv04b-i03": [
+            "exam-reimbursement"
+          ],
+          "hv04b-i04": [
+            "mock-exam"
+          ],
+          "hv04b-i05": [
+            "library-card"
+          ],
+          "hv04b-i06": [
+            "coding-drills"
+          ],
+          "hv04b-i07": [
+            "exam-reimbursement"
+          ],
+          "hv04b-i08": [
+            "mock-exam"
+          ],
+          "hv04b-i09": [],
+          "hv04b-i10": [
+            "kitchen-shelf"
+          ],
+          "hv04b-i11": [
+            "coding-drills"
+          ],
+          "hv04b-i12": [
+            "library-card"
+          ],
+          "hv04b-i13": [
+            "mock-exam"
+          ],
+          "hv04b-i14": [
+            "coding-drills",
+            "mock-exam"
+          ],
+          "hv04b-i15": [
+            "exam-reimbursement"
+          ],
+          "hv04b-i16": [
+            "kitchen-shelf"
+          ],
+          "hv04b-i17": [
+            "coding-drills"
+          ],
+          "hv04b-i18": [],
+          "hv04b-i19": [
+            "exam-reimbursement"
+          ],
+          "hv04b-i20": [
+            "mock-exam"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv04b-i04",
+            "later": "hv04b-i08",
+            "thread": "mock-exam"
+          }
+        ],
+        "threadNames": {
+          "coding-drills": "Reasoning repairs",
+          "exam-reimbursement": "Obtain employer reimbursement of certification fees.",
+          "kitchen-shelf": "Install a kitchen shelf above the kettle.",
+          "library-card": "Renew the municipal lending-library card.",
+          "mock-exam": "Arrange and complete a timed mock of the records-management exam."
+        }
+      },
+      "initialThreadNames": {
+        "coding-drills": "Red list",
+        "exam-reimbursement": "Obtain employer reimbursement of certification fees.",
+        "kitchen-shelf": "Install a kitchen shelf above the kettle.",
+        "library-card": "Renew the municipal lending-library card.",
+        "mock-exam": "Arrange and complete a timed mock of the records-management exam."
+      },
+      "library": "hv04b",
+      "relatedThreads": [
+        [
+          "coding-drills",
+          "mock-exam"
+        ],
+        [
+          "mock-exam",
+          "exam-reimbursement"
+        ],
+        [
+          "coding-drills",
+          "exam-reimbursement"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv05a-i14",
+        "threads": [
+          "radio-listening",
+          "market-speaking"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "market-speaking"
+          ],
+          "source": "hv05a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bike-repair"
+          ],
+          "source": "hv05a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "radio-listening"
+          ],
+          "source": "hv05a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "class-refund"
+          ],
+          "source": "hv05a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "market-speaking"
+          ],
+          "source": "hv05a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv05a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bike-repair"
+          ],
+          "source": "hv05a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "class-refund"
+          ],
+          "source": "hv05a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "radio-listening"
+          ],
+          "source": "hv05a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "market-speaking"
+          ],
+          "source": "hv05a-i10",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv05a-i01",
+          "later": "hv05a-i10",
+          "thread": "market-speaking",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "market-speaking"
+          ],
+          "source": "hv05a-i11",
+          "type": "insert"
+        },
+        {
+          "from": "Market speaking",
+          "thread": "market-speaking",
+          "to": "Stall conversations",
+          "type": "rename"
+        },
+        {
+          "memberships": [
+            "class-refund"
+          ],
+          "source": "hv05a-i12",
+          "type": "insert"
+        },
+        {
+          "source": "hv05a-i12",
+          "thread": "market-speaking",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv05a-i12",
+          "thread": "market-speaking",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "market-speaking"
+          ],
+          "source": "hv05a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "radio-listening",
+            "market-speaking"
+          ],
+          "source": "hv05a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bike-repair"
+          ],
+          "source": "hv05a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "radio-listening"
+          ],
+          "source": "hv05a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv05a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "market-speaking"
+          ],
+          "source": "hv05a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "class-refund"
+          ],
+          "source": "hv05a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "radio-listening"
+          ],
+          "source": "hv05a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv05a-i01": [
+            "market-speaking"
+          ],
+          "hv05a-i02": [
+            "bike-repair"
+          ],
+          "hv05a-i03": [
+            "radio-listening"
+          ],
+          "hv05a-i04": [
+            "class-refund"
+          ],
+          "hv05a-i05": [
+            "market-speaking"
+          ],
+          "hv05a-i06": [],
+          "hv05a-i07": [
+            "bike-repair"
+          ],
+          "hv05a-i08": [
+            "class-refund"
+          ],
+          "hv05a-i09": [
+            "radio-listening"
+          ],
+          "hv05a-i10": [
+            "market-speaking"
+          ],
+          "hv05a-i11": [
+            "market-speaking"
+          ],
+          "hv05a-i12": [
+            "class-refund"
+          ],
+          "hv05a-i13": [
+            "market-speaking"
+          ],
+          "hv05a-i14": [
+            "market-speaking",
+            "radio-listening"
+          ],
+          "hv05a-i15": [
+            "bike-repair"
+          ],
+          "hv05a-i16": [
+            "radio-listening"
+          ],
+          "hv05a-i17": [],
+          "hv05a-i18": [
+            "market-speaking"
+          ],
+          "hv05a-i19": [
+            "class-refund"
+          ],
+          "hv05a-i20": [
+            "radio-listening"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv05a-i01",
+            "later": "hv05a-i10",
+            "thread": "market-speaking"
+          }
+        ],
+        "threadNames": {
+          "bike-repair": "Replace the rear brake cable on the commuting bicycle",
+          "class-refund": "Recover payment for a cancelled Spanish evening course",
+          "market-speaking": "Stall conversations",
+          "radio-listening": "Build listening comprehension with the fictional Radio Patio recordings"
+        }
+      },
+      "initialThreadNames": {
+        "bike-repair": "Replace the rear brake cable on the commuting bicycle",
+        "class-refund": "Recover payment for a cancelled Spanish evening course",
+        "market-speaking": "Market speaking",
+        "radio-listening": "Build listening comprehension with the fictional Radio Patio recordings"
+      },
+      "library": "hv05a",
+      "relatedThreads": [
+        [
+          "radio-listening",
+          "market-speaking"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv05b-i12",
+        "threads": [
+          "grandfather-interview",
+          "polish-case-drills"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "kitchen-renovation"
+          ],
+          "source": "hv05b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "polish-case-drills"
+          ],
+          "source": "hv05b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "grandfather-interview"
+          ],
+          "source": "hv05b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "kitchen-renovation"
+          ],
+          "source": "hv05b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "polish-case-drills"
+          ],
+          "source": "hv05b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "grandfather-interview"
+          ],
+          "source": "hv05b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "kitchen-renovation"
+          ],
+          "source": "hv05b-i07",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv05b-i04",
+          "later": "hv05b-i07",
+          "thread": "kitchen-renovation",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "polish-case-drills"
+          ],
+          "source": "hv05b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv05b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "grandfather-interview"
+          ],
+          "source": "hv05b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "kitchen-renovation"
+          ],
+          "source": "hv05b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "grandfather-interview",
+            "polish-case-drills"
+          ],
+          "source": "hv05b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "polish-case-drills"
+          ],
+          "source": "hv05b-i13",
+          "type": "insert"
+        },
+        {
+          "source": "hv05b-i13",
+          "thread": "kitchen-renovation",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv05b-i13",
+          "thread": "kitchen-renovation",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "grandfather-interview"
+          ],
+          "source": "hv05b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "polish-case-drills"
+          ],
+          "source": "hv05b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "kitchen-renovation"
+          ],
+          "source": "hv05b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "grandfather-interview"
+          ],
+          "source": "hv05b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "kitchen-renovation"
+          ],
+          "source": "hv05b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "kitchen-renovation"
+          ],
+          "source": "hv05b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "grandfather-interview"
+          ],
+          "source": "hv05b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv05b-i01": [
+            "kitchen-renovation"
+          ],
+          "hv05b-i02": [
+            "polish-case-drills"
+          ],
+          "hv05b-i03": [
+            "grandfather-interview"
+          ],
+          "hv05b-i04": [
+            "kitchen-renovation"
+          ],
+          "hv05b-i05": [
+            "polish-case-drills"
+          ],
+          "hv05b-i06": [
+            "grandfather-interview"
+          ],
+          "hv05b-i07": [
+            "kitchen-renovation"
+          ],
+          "hv05b-i08": [
+            "polish-case-drills"
+          ],
+          "hv05b-i09": [],
+          "hv05b-i10": [
+            "grandfather-interview"
+          ],
+          "hv05b-i11": [
+            "kitchen-renovation"
+          ],
+          "hv05b-i12": [
+            "grandfather-interview",
+            "polish-case-drills"
+          ],
+          "hv05b-i13": [
+            "polish-case-drills"
+          ],
+          "hv05b-i14": [
+            "grandfather-interview"
+          ],
+          "hv05b-i15": [
+            "polish-case-drills"
+          ],
+          "hv05b-i16": [
+            "kitchen-renovation"
+          ],
+          "hv05b-i17": [
+            "grandfather-interview"
+          ],
+          "hv05b-i18": [
+            "kitchen-renovation"
+          ],
+          "hv05b-i19": [
+            "kitchen-renovation"
+          ],
+          "hv05b-i20": [
+            "grandfather-interview"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv05b-i04",
+            "later": "hv05b-i07",
+            "thread": "kitchen-renovation"
+          }
+        ],
+        "threadNames": {
+          "grandfather-interview": "Prepare and conduct a Polish audio interview about grandfather's childhood",
+          "kitchen-renovation": "Choose and install replacement kitchen cabinet handles",
+          "polish-case-drills": "Practice Polish noun cases in a weekly adult study circle"
+        }
+      },
+      "initialThreadNames": {
+        "grandfather-interview": "Prepare and conduct a Polish audio interview about grandfather's childhood",
+        "kitchen-renovation": "Choose and install replacement kitchen cabinet handles",
+        "polish-case-drills": "Practice Polish noun cases in a weekly adult study circle"
+      },
+      "library": "hv05b",
+      "relatedThreads": [
+        [
+          "grandfather-interview",
+          "polish-case-drills"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv06a-i06",
+        "threads": [
+          "moth-cleanout",
+          "pantry-restock"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "pantry-restock"
+          ],
+          "source": "hv06a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "moth-cleanout"
+          ],
+          "source": "hv06a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "water-bill"
+          ],
+          "source": "hv06a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "soup-swap"
+          ],
+          "source": "hv06a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "jar-labels"
+          ],
+          "source": "hv06a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "moth-cleanout",
+            "pantry-restock"
+          ],
+          "source": "hv06a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "water-bill"
+          ],
+          "source": "hv06a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv06a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "pantry-restock"
+          ],
+          "source": "hv06a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "jar-labels"
+          ],
+          "source": "hv06a-i10",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv06a-i05",
+          "later": "hv06a-i10",
+          "thread": "jar-labels",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "moth-cleanout"
+          ],
+          "source": "hv06a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "soup-swap"
+          ],
+          "source": "hv06a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "water-bill"
+          ],
+          "source": "hv06a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "pantry-restock"
+          ],
+          "source": "hv06a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "jar-labels"
+          ],
+          "source": "hv06a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "soup-swap"
+          ],
+          "source": "hv06a-i16",
+          "type": "insert"
+        },
+        {
+          "source": "hv06a-i16",
+          "thread": "jar-labels",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv06a-i16",
+          "thread": "jar-labels",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "moth-cleanout"
+          ],
+          "source": "hv06a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv06a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "jar-labels"
+          ],
+          "source": "hv06a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "soup-swap"
+          ],
+          "source": "hv06a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv06a-i01": [
+            "pantry-restock"
+          ],
+          "hv06a-i02": [
+            "moth-cleanout"
+          ],
+          "hv06a-i03": [
+            "water-bill"
+          ],
+          "hv06a-i04": [
+            "soup-swap"
+          ],
+          "hv06a-i05": [
+            "jar-labels"
+          ],
+          "hv06a-i06": [
+            "moth-cleanout",
+            "pantry-restock"
+          ],
+          "hv06a-i07": [
+            "water-bill"
+          ],
+          "hv06a-i08": [],
+          "hv06a-i09": [
+            "pantry-restock"
+          ],
+          "hv06a-i10": [
+            "jar-labels"
+          ],
+          "hv06a-i11": [
+            "moth-cleanout"
+          ],
+          "hv06a-i12": [
+            "soup-swap"
+          ],
+          "hv06a-i13": [
+            "water-bill"
+          ],
+          "hv06a-i14": [
+            "pantry-restock"
+          ],
+          "hv06a-i15": [
+            "jar-labels"
+          ],
+          "hv06a-i16": [
+            "soup-swap"
+          ],
+          "hv06a-i17": [
+            "moth-cleanout"
+          ],
+          "hv06a-i18": [],
+          "hv06a-i19": [
+            "jar-labels"
+          ],
+          "hv06a-i20": [
+            "soup-swap"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv06a-i05",
+            "later": "hv06a-i10",
+            "thread": "jar-labels"
+          }
+        ],
+        "threadNames": {
+          "jar-labels": "Create durable ingredient and date labels for storage jars",
+          "moth-cleanout": "Remove a pantry moth infestation and monitor recurrence",
+          "pantry-restock": "Replenish usable household dry goods within the weekly budget",
+          "soup-swap": "Prepare portions for a neighborhood soup exchange",
+          "water-bill": "Resolve an estimated household water meter bill"
+        }
+      },
+      "initialThreadNames": {
+        "jar-labels": "Create durable ingredient and date labels for storage jars",
+        "moth-cleanout": "Remove a pantry moth infestation and monitor recurrence",
+        "pantry-restock": "Replenish usable household dry goods within the weekly budget",
+        "soup-swap": "Prepare portions for a neighborhood soup exchange",
+        "water-bill": "Resolve an estimated household water meter bill"
+      },
+      "library": "hv06a",
+      "relatedThreads": [
+        [
+          "pantry-restock",
+          "moth-cleanout"
+        ],
+        [
+          "pantry-restock",
+          "jar-labels"
+        ],
+        [
+          "moth-cleanout",
+          "jar-labels"
+        ],
+        [
+          "pantry-restock",
+          "soup-swap"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv06b-i06",
+        "threads": [
+          "household-breakfast",
+          "courier-claim"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "household-breakfast"
+          ],
+          "source": "hv06b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bulk-oil-order"
+          ],
+          "source": "hv06b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "garden-seeds"
+          ],
+          "source": "hv06b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "household-breakfast"
+          ],
+          "source": "hv06b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bulk-oil-order"
+          ],
+          "source": "hv06b-i05",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv06b-i02",
+          "later": "hv06b-i05",
+          "thread": "bulk-oil-order",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "household-breakfast",
+            "courier-claim"
+          ],
+          "source": "hv06b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "garden-seeds"
+          ],
+          "source": "hv06b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "courier-claim"
+          ],
+          "source": "hv06b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv06b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bulk-oil-order"
+          ],
+          "source": "hv06b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "household-breakfast"
+          ],
+          "source": "hv06b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "courier-claim"
+          ],
+          "source": "hv06b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bulk-oil-order"
+          ],
+          "source": "hv06b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "garden-seeds"
+          ],
+          "source": "hv06b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "household-breakfast"
+          ],
+          "source": "hv06b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "courier-claim"
+          ],
+          "source": "hv06b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bulk-oil-order"
+          ],
+          "source": "hv06b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "garden-seeds"
+          ],
+          "source": "hv06b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "household-breakfast"
+          ],
+          "source": "hv06b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "courier-claim"
+          ],
+          "source": "hv06b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv06b-i01": [
+            "household-breakfast"
+          ],
+          "hv06b-i02": [
+            "bulk-oil-order"
+          ],
+          "hv06b-i03": [
+            "garden-seeds"
+          ],
+          "hv06b-i04": [
+            "household-breakfast"
+          ],
+          "hv06b-i05": [
+            "bulk-oil-order"
+          ],
+          "hv06b-i06": [
+            "courier-claim",
+            "household-breakfast"
+          ],
+          "hv06b-i07": [
+            "garden-seeds"
+          ],
+          "hv06b-i08": [
+            "courier-claim"
+          ],
+          "hv06b-i09": [],
+          "hv06b-i10": [
+            "bulk-oil-order"
+          ],
+          "hv06b-i11": [
+            "household-breakfast"
+          ],
+          "hv06b-i12": [
+            "courier-claim"
+          ],
+          "hv06b-i13": [
+            "bulk-oil-order"
+          ],
+          "hv06b-i14": [
+            "garden-seeds"
+          ],
+          "hv06b-i15": [
+            "household-breakfast"
+          ],
+          "hv06b-i16": [
+            "courier-claim"
+          ],
+          "hv06b-i17": [
+            "bulk-oil-order"
+          ],
+          "hv06b-i18": [
+            "garden-seeds"
+          ],
+          "hv06b-i19": [
+            "household-breakfast"
+          ],
+          "hv06b-i20": [
+            "courier-claim"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv06b-i02",
+            "later": "hv06b-i05",
+            "thread": "bulk-oil-order"
+          }
+        ],
+        "threadNames": {
+          "bulk-oil-order": "Coordinate a shared olive-oil purchase and divide costs among households",
+          "courier-claim": "Obtain compensation for a damaged parcel of pantry breakfast supplies",
+          "garden-seeds": "Select and sow autumn balcony salad seeds",
+          "household-breakfast": "Procure and plan affordable weekday breakfasts for the household"
+        }
+      },
+      "initialThreadNames": {
+        "bulk-oil-order": "Coordinate a shared olive-oil purchase and divide costs among households",
+        "courier-claim": "Obtain compensation for a damaged parcel of pantry breakfast supplies",
+        "garden-seeds": "Select and sow autumn balcony salad seeds",
+        "household-breakfast": "Procure and plan affordable weekday breakfasts for the household"
+      },
+      "library": "hv06b",
+      "relatedThreads": [
+        [
+          "household-breakfast",
+          "courier-claim"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv07a-i12",
+        "threads": [
+          "fern-cover",
+          "fern-invoice"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "fern-cover"
+          ],
+          "source": "hv07a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "fern-invoice"
+          ],
+          "source": "hv07a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "portfolio-refresh"
+          ],
+          "source": "hv07a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cat-sitter"
+          ],
+          "source": "hv07a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "fern-cover"
+          ],
+          "source": "hv07a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "fern-invoice"
+          ],
+          "source": "hv07a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv07a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "fern-cover"
+          ],
+          "source": "hv07a-i08",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv07a-i01",
+          "later": "hv07a-i08",
+          "thread": "fern-cover",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "portfolio-refresh"
+          ],
+          "source": "hv07a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "fern-cover"
+          ],
+          "source": "hv07a-i10",
+          "type": "insert"
+        },
+        {
+          "from": "Fern cover",
+          "thread": "fern-cover",
+          "to": "Spring seed cover",
+          "type": "rename"
+        },
+        {
+          "memberships": [
+            "cat-sitter"
+          ],
+          "source": "hv07a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "fern-cover",
+            "fern-invoice"
+          ],
+          "source": "hv07a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "portfolio-refresh"
+          ],
+          "source": "hv07a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "fern-invoice"
+          ],
+          "source": "hv07a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "fern-cover"
+          ],
+          "source": "hv07a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "portfolio-refresh"
+          ],
+          "source": "hv07a-i16",
+          "type": "insert"
+        },
+        {
+          "source": "hv07a-i16",
+          "thread": "fern-cover",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv07a-i16",
+          "thread": "fern-cover",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [],
+          "source": "hv07a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cat-sitter"
+          ],
+          "source": "hv07a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "fern-invoice"
+          ],
+          "source": "hv07a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "portfolio-refresh"
+          ],
+          "source": "hv07a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv07a-i01": [
+            "fern-cover"
+          ],
+          "hv07a-i02": [
+            "fern-invoice"
+          ],
+          "hv07a-i03": [
+            "portfolio-refresh"
+          ],
+          "hv07a-i04": [
+            "cat-sitter"
+          ],
+          "hv07a-i05": [
+            "fern-cover"
+          ],
+          "hv07a-i06": [
+            "fern-invoice"
+          ],
+          "hv07a-i07": [],
+          "hv07a-i08": [
+            "fern-cover"
+          ],
+          "hv07a-i09": [
+            "portfolio-refresh"
+          ],
+          "hv07a-i10": [
+            "fern-cover"
+          ],
+          "hv07a-i11": [
+            "cat-sitter"
+          ],
+          "hv07a-i12": [
+            "fern-cover",
+            "fern-invoice"
+          ],
+          "hv07a-i13": [
+            "portfolio-refresh"
+          ],
+          "hv07a-i14": [
+            "fern-invoice"
+          ],
+          "hv07a-i15": [
+            "fern-cover"
+          ],
+          "hv07a-i16": [
+            "portfolio-refresh"
+          ],
+          "hv07a-i17": [],
+          "hv07a-i18": [
+            "cat-sitter"
+          ],
+          "hv07a-i19": [
+            "fern-invoice"
+          ],
+          "hv07a-i20": [
+            "portfolio-refresh"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv07a-i01",
+            "later": "hv07a-i08",
+            "thread": "fern-cover"
+          }
+        ],
+        "threadNames": {
+          "cat-sitter": "Arrange cat care during an upcoming weekend away",
+          "fern-cover": "Spring seed cover",
+          "fern-invoice": "Invoice and collect payment for the Fern Quarterly cover commission",
+          "portfolio-refresh": "Refresh the illustrator's public portfolio with selected finished work"
+        }
+      },
+      "initialThreadNames": {
+        "cat-sitter": "Arrange cat care during an upcoming weekend away",
+        "fern-cover": "Fern cover",
+        "fern-invoice": "Invoice and collect payment for the Fern Quarterly cover commission",
+        "portfolio-refresh": "Refresh the illustrator's public portfolio with selected finished work"
+      },
+      "library": "hv07a",
+      "relatedThreads": [
+        [
+          "fern-cover",
+          "fern-invoice"
+        ],
+        [
+          "fern-cover",
+          "portfolio-refresh"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv07b-i12",
+        "threads": [
+          "sticker-pack",
+          "usage-license"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "festival-map"
+          ],
+          "source": "hv07b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tablet-repair"
+          ],
+          "source": "hv07b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "sticker-pack"
+          ],
+          "source": "hv07b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "invoice-round"
+          ],
+          "source": "hv07b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "usage-license"
+          ],
+          "source": "hv07b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "festival-map"
+          ],
+          "source": "hv07b-i06",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv07b-i01",
+          "later": "hv07b-i06",
+          "thread": "festival-map",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "sticker-pack"
+          ],
+          "source": "hv07b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv07b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tablet-repair"
+          ],
+          "source": "hv07b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "usage-license"
+          ],
+          "source": "hv07b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "festival-map"
+          ],
+          "source": "hv07b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "sticker-pack",
+            "usage-license",
+            "invoice-round"
+          ],
+          "source": "hv07b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "invoice-round"
+          ],
+          "source": "hv07b-i13",
+          "type": "insert"
+        },
+        {
+          "source": "hv07b-i13",
+          "thread": "festival-map",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv07b-i13",
+          "thread": "festival-map",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "tablet-repair"
+          ],
+          "source": "hv07b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "sticker-pack"
+          ],
+          "source": "hv07b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "usage-license"
+          ],
+          "source": "hv07b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "festival-map"
+          ],
+          "source": "hv07b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv07b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tablet-repair"
+          ],
+          "source": "hv07b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "invoice-round"
+          ],
+          "source": "hv07b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv07b-i01": [
+            "festival-map"
+          ],
+          "hv07b-i02": [
+            "tablet-repair"
+          ],
+          "hv07b-i03": [
+            "sticker-pack"
+          ],
+          "hv07b-i04": [
+            "invoice-round"
+          ],
+          "hv07b-i05": [
+            "usage-license"
+          ],
+          "hv07b-i06": [
+            "festival-map"
+          ],
+          "hv07b-i07": [
+            "sticker-pack"
+          ],
+          "hv07b-i08": [],
+          "hv07b-i09": [
+            "tablet-repair"
+          ],
+          "hv07b-i10": [
+            "usage-license"
+          ],
+          "hv07b-i11": [
+            "festival-map"
+          ],
+          "hv07b-i12": [
+            "invoice-round",
+            "sticker-pack",
+            "usage-license"
+          ],
+          "hv07b-i13": [
+            "invoice-round"
+          ],
+          "hv07b-i14": [
+            "tablet-repair"
+          ],
+          "hv07b-i15": [
+            "sticker-pack"
+          ],
+          "hv07b-i16": [
+            "usage-license"
+          ],
+          "hv07b-i17": [
+            "festival-map"
+          ],
+          "hv07b-i18": [],
+          "hv07b-i19": [
+            "tablet-repair"
+          ],
+          "hv07b-i20": [
+            "invoice-round"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv07b-i01",
+            "later": "hv07b-i06",
+            "thread": "festival-map"
+          }
+        ],
+        "threadNames": {
+          "festival-map": "Illustrate the visitor map for Lantern Steps Festival",
+          "invoice-round": "Prepare and reconcile monthly invoices for illustration clients",
+          "sticker-pack": "Design a set of mascot stickers for Lantern Steps Festival",
+          "tablet-repair": "Resolve intermittent pen pressure on the drawing tablet",
+          "usage-license": "Agree and document usage rights for the festival illustrations"
+        }
+      },
+      "initialThreadNames": {
+        "festival-map": "Illustrate the visitor map for Lantern Steps Festival",
+        "invoice-round": "Prepare and reconcile monthly invoices for illustration clients",
+        "sticker-pack": "Design a set of mascot stickers for Lantern Steps Festival",
+        "tablet-repair": "Resolve intermittent pen pressure on the drawing tablet",
+        "usage-license": "Agree and document usage rights for the festival illustrations"
+      },
+      "library": "hv07b",
+      "relatedThreads": [
+        [
+          "festival-map",
+          "sticker-pack"
+        ],
+        [
+          "festival-map",
+          "usage-license"
+        ],
+        [
+          "sticker-pack",
+          "usage-license"
+        ],
+        [
+          "festival-map",
+          "invoice-round"
+        ],
+        [
+          "sticker-pack",
+          "invoice-round"
+        ],
+        [
+          "usage-license",
+          "invoice-round"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv08a-i12",
+        "threads": [
+          "rapid-pairings",
+          "hall-setup"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "rapid-pairings"
+          ],
+          "source": "hv08a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "hall-setup"
+          ],
+          "source": "hv08a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "trophy-engraving"
+          ],
+          "source": "hv08a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "heating-service"
+          ],
+          "source": "hv08a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "rapid-pairings"
+          ],
+          "source": "hv08a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "hall-setup"
+          ],
+          "source": "hv08a-i06",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv08a-i02",
+          "later": "hv08a-i06",
+          "thread": "hall-setup",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "trophy-engraving"
+          ],
+          "source": "hv08a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv08a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "rapid-pairings"
+          ],
+          "source": "hv08a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "hall-setup"
+          ],
+          "source": "hv08a-i10",
+          "type": "insert"
+        },
+        {
+          "source": "hv08a-i10",
+          "thread": "rapid-pairings",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv08a-i10",
+          "thread": "rapid-pairings",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "heating-service"
+          ],
+          "source": "hv08a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "rapid-pairings",
+            "hall-setup"
+          ],
+          "source": "hv08a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "trophy-engraving"
+          ],
+          "source": "hv08a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "rapid-pairings"
+          ],
+          "source": "hv08a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "heating-service"
+          ],
+          "source": "hv08a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "hall-setup"
+          ],
+          "source": "hv08a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "rapid-pairings"
+          ],
+          "source": "hv08a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv08a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "trophy-engraving"
+          ],
+          "source": "hv08a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "rapid-pairings"
+          ],
+          "source": "hv08a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv08a-i01": [
+            "rapid-pairings"
+          ],
+          "hv08a-i02": [
+            "hall-setup"
+          ],
+          "hv08a-i03": [
+            "trophy-engraving"
+          ],
+          "hv08a-i04": [
+            "heating-service"
+          ],
+          "hv08a-i05": [
+            "rapid-pairings"
+          ],
+          "hv08a-i06": [
+            "hall-setup"
+          ],
+          "hv08a-i07": [
+            "trophy-engraving"
+          ],
+          "hv08a-i08": [],
+          "hv08a-i09": [
+            "rapid-pairings"
+          ],
+          "hv08a-i10": [
+            "hall-setup"
+          ],
+          "hv08a-i11": [
+            "heating-service"
+          ],
+          "hv08a-i12": [
+            "hall-setup",
+            "rapid-pairings"
+          ],
+          "hv08a-i13": [
+            "trophy-engraving"
+          ],
+          "hv08a-i14": [
+            "rapid-pairings"
+          ],
+          "hv08a-i15": [
+            "heating-service"
+          ],
+          "hv08a-i16": [
+            "hall-setup"
+          ],
+          "hv08a-i17": [
+            "rapid-pairings"
+          ],
+          "hv08a-i18": [],
+          "hv08a-i19": [
+            "trophy-engraving"
+          ],
+          "hv08a-i20": [
+            "rapid-pairings"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv08a-i02",
+            "later": "hv08a-i06",
+            "thread": "hall-setup"
+          }
+        ],
+        "threadNames": {
+          "hall-setup": "Prepare tables, clocks and accessible circulation in the school chess hall",
+          "heating-service": "Arrange the household boiler's annual service",
+          "rapid-pairings": "Register players and run pairings/results for a school rapid chess event",
+          "trophy-engraving": "Order and verify awards for the school rapid event"
+        }
+      },
+      "initialThreadNames": {
+        "hall-setup": "Prepare tables, clocks and accessible circulation in the school chess hall",
+        "heating-service": "Arrange the household boiler's annual service",
+        "rapid-pairings": "Register players and run pairings/results for a school rapid chess event",
+        "trophy-engraving": "Order and verify awards for the school rapid event"
+      },
+      "library": "hv08a",
+      "relatedThreads": [
+        [
+          "rapid-pairings",
+          "hall-setup"
+        ],
+        [
+          "rapid-pairings",
+          "trophy-engraving"
+        ],
+        [
+          "hall-setup",
+          "trophy-engraving"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv08b-i13",
+        "threads": [
+          "broadcast-show",
+          "sponsor-report"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "league-rosters"
+          ],
+          "source": "hv08b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "broadcast-show"
+          ],
+          "source": "hv08b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "aquarium-care"
+          ],
+          "source": "hv08b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "volunteer-shifts"
+          ],
+          "source": "hv08b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "appeals-desk"
+          ],
+          "source": "hv08b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "sponsor-report"
+          ],
+          "source": "hv08b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "league-rosters"
+          ],
+          "source": "hv08b-i07",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv08b-i01",
+          "later": "hv08b-i07",
+          "thread": "league-rosters",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "broadcast-show"
+          ],
+          "source": "hv08b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "appeals-desk"
+          ],
+          "source": "hv08b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv08b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "aquarium-care"
+          ],
+          "source": "hv08b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "volunteer-shifts"
+          ],
+          "source": "hv08b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "broadcast-show",
+            "sponsor-report"
+          ],
+          "source": "hv08b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "league-rosters"
+          ],
+          "source": "hv08b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "appeals-desk"
+          ],
+          "source": "hv08b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "aquarium-care"
+          ],
+          "source": "hv08b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "sponsor-report"
+          ],
+          "source": "hv08b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "volunteer-shifts"
+          ],
+          "source": "hv08b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv08b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "broadcast-show"
+          ],
+          "source": "hv08b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv08b-i01": [
+            "league-rosters"
+          ],
+          "hv08b-i02": [
+            "broadcast-show"
+          ],
+          "hv08b-i03": [
+            "aquarium-care"
+          ],
+          "hv08b-i04": [
+            "volunteer-shifts"
+          ],
+          "hv08b-i05": [
+            "appeals-desk"
+          ],
+          "hv08b-i06": [
+            "sponsor-report"
+          ],
+          "hv08b-i07": [
+            "league-rosters"
+          ],
+          "hv08b-i08": [
+            "broadcast-show"
+          ],
+          "hv08b-i09": [
+            "appeals-desk"
+          ],
+          "hv08b-i10": [],
+          "hv08b-i11": [
+            "aquarium-care"
+          ],
+          "hv08b-i12": [
+            "volunteer-shifts"
+          ],
+          "hv08b-i13": [
+            "broadcast-show",
+            "sponsor-report"
+          ],
+          "hv08b-i14": [
+            "league-rosters"
+          ],
+          "hv08b-i15": [
+            "appeals-desk"
+          ],
+          "hv08b-i16": [
+            "aquarium-care"
+          ],
+          "hv08b-i17": [
+            "sponsor-report"
+          ],
+          "hv08b-i18": [
+            "volunteer-shifts"
+          ],
+          "hv08b-i19": [],
+          "hv08b-i20": [
+            "broadcast-show"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv08b-i01",
+            "later": "hv08b-i07",
+            "thread": "league-rosters"
+          }
+        ],
+        "threadNames": {
+          "appeals-desk": "Document and resolve formal match-result appeals",
+          "aquarium-care": "Maintain a home freshwater aquarium",
+          "broadcast-show": "Produce the league's public commentary stream",
+          "league-rosters": "Maintain eligible team lineups and substitutions for an online chess league",
+          "sponsor-report": "Report league participation and audience totals to its sponsor",
+          "volunteer-shifts": "Staff the league's moderation and helpdesk shifts"
+        }
+      },
+      "initialThreadNames": {
+        "appeals-desk": "Document and resolve formal match-result appeals",
+        "aquarium-care": "Maintain a home freshwater aquarium",
+        "broadcast-show": "Produce the league's public commentary stream",
+        "league-rosters": "Maintain eligible team lineups and substitutions for an online chess league",
+        "sponsor-report": "Report league participation and audience totals to its sponsor",
+        "volunteer-shifts": "Staff the league's moderation and helpdesk shifts"
+      },
+      "library": "hv08b",
+      "relatedThreads": [
+        [
+          "league-rosters",
+          "broadcast-show"
+        ],
+        [
+          "league-rosters",
+          "appeals-desk"
+        ],
+        [
+          "league-rosters",
+          "sponsor-report"
+        ],
+        [
+          "league-rosters",
+          "volunteer-shifts"
+        ],
+        [
+          "broadcast-show",
+          "appeals-desk"
+        ],
+        [
+          "broadcast-show",
+          "sponsor-report"
+        ],
+        [
+          "broadcast-show",
+          "volunteer-shifts"
+        ],
+        [
+          "appeals-desk",
+          "sponsor-report"
+        ],
+        [
+          "appeals-desk",
+          "volunteer-shifts"
+        ],
+        [
+          "sponsor-report",
+          "volunteer-shifts"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv09a-i12",
+        "threads": [
+          "quayside-desks",
+          "quayside-network"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "quayside-desks"
+          ],
+          "source": "hv09a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quayside-network"
+          ],
+          "source": "hv09a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "flat-curtains"
+          ],
+          "source": "hv09a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "member-breakfast"
+          ],
+          "source": "hv09a-i04",
+          "type": "insert"
+        },
+        {
+          "source": "hv09a-i04",
+          "thread": "quayside-network",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv09a-i04",
+          "thread": "quayside-network",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "quayside-desks"
+          ],
+          "source": "hv09a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quayside-network"
+          ],
+          "source": "hv09a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv09a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "member-breakfast"
+          ],
+          "source": "hv09a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quayside-desks"
+          ],
+          "source": "hv09a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quayside-desks"
+          ],
+          "source": "hv09a-i10",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv09a-i05",
+          "later": "hv09a-i10",
+          "thread": "quayside-desks",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "flat-curtains"
+          ],
+          "source": "hv09a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quayside-desks",
+            "quayside-network"
+          ],
+          "source": "hv09a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quayside-network"
+          ],
+          "source": "hv09a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv09a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "member-breakfast"
+          ],
+          "source": "hv09a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quayside-desks"
+          ],
+          "source": "hv09a-i16",
+          "type": "insert"
+        },
+        {
+          "from": "Quayside desks",
+          "thread": "quayside-desks",
+          "to": "Quayside furniture move",
+          "type": "rename"
+        },
+        {
+          "memberships": [
+            "flat-curtains"
+          ],
+          "source": "hv09a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quayside-network"
+          ],
+          "source": "hv09a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "quayside-desks"
+          ],
+          "source": "hv09a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "member-breakfast"
+          ],
+          "source": "hv09a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv09a-i01": [
+            "quayside-desks"
+          ],
+          "hv09a-i02": [
+            "quayside-network"
+          ],
+          "hv09a-i03": [
+            "flat-curtains"
+          ],
+          "hv09a-i04": [
+            "member-breakfast"
+          ],
+          "hv09a-i05": [
+            "quayside-desks"
+          ],
+          "hv09a-i06": [
+            "quayside-network"
+          ],
+          "hv09a-i07": [],
+          "hv09a-i08": [
+            "member-breakfast"
+          ],
+          "hv09a-i09": [
+            "quayside-desks"
+          ],
+          "hv09a-i10": [
+            "quayside-desks"
+          ],
+          "hv09a-i11": [
+            "flat-curtains"
+          ],
+          "hv09a-i12": [
+            "quayside-desks",
+            "quayside-network"
+          ],
+          "hv09a-i13": [
+            "quayside-network"
+          ],
+          "hv09a-i14": [],
+          "hv09a-i15": [
+            "member-breakfast"
+          ],
+          "hv09a-i16": [
+            "quayside-desks"
+          ],
+          "hv09a-i17": [
+            "flat-curtains"
+          ],
+          "hv09a-i18": [
+            "quayside-network"
+          ],
+          "hv09a-i19": [
+            "quayside-desks"
+          ],
+          "hv09a-i20": [
+            "member-breakfast"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv09a-i05",
+            "later": "hv09a-i10",
+            "thread": "quayside-desks"
+          }
+        ],
+        "threadNames": {
+          "flat-curtains": "Replace the curtains in my apartment",
+          "member-breakfast": "Arrange the first member breakfast after relocation",
+          "quayside-desks": "Quayside furniture move",
+          "quayside-network": "Commission internet access at the new Quayside office"
+        }
+      },
+      "initialThreadNames": {
+        "flat-curtains": "Replace the curtains in my apartment",
+        "member-breakfast": "Arrange the first member breakfast after relocation",
+        "quayside-desks": "Quayside desks",
+        "quayside-network": "Commission internet access at the new Quayside office"
+      },
+      "library": "hv09a",
+      "relatedThreads": [
+        [
+          "quayside-desks",
+          "quayside-network"
+        ],
+        [
+          "quayside-desks",
+          "member-breakfast"
+        ],
+        [
+          "quayside-network",
+          "member-breakfast"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv09b-i12",
+        "threads": [
+          "archive-transfer",
+          "studio-access"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "annex-deposit"
+          ],
+          "source": "hv09b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "train-pass"
+          ],
+          "source": "hv09b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "studio-access"
+          ],
+          "source": "hv09b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "archive-transfer"
+          ],
+          "source": "hv09b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "signage"
+          ],
+          "source": "hv09b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "studio-access"
+          ],
+          "source": "hv09b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv09b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "annex-deposit"
+          ],
+          "source": "hv09b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "archive-transfer"
+          ],
+          "source": "hv09b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "train-pass"
+          ],
+          "source": "hv09b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "archive-transfer"
+          ],
+          "source": "hv09b-i11",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv09b-i09",
+          "later": "hv09b-i11",
+          "thread": "archive-transfer",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "archive-transfer",
+            "studio-access"
+          ],
+          "source": "hv09b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "annex-deposit"
+          ],
+          "source": "hv09b-i13",
+          "type": "insert"
+        },
+        {
+          "source": "hv09b-i13",
+          "thread": "studio-access",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv09b-i13",
+          "thread": "studio-access",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "signage"
+          ],
+          "source": "hv09b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "studio-access"
+          ],
+          "source": "hv09b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv09b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "archive-transfer"
+          ],
+          "source": "hv09b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "annex-deposit"
+          ],
+          "source": "hv09b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "signage"
+          ],
+          "source": "hv09b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "train-pass"
+          ],
+          "source": "hv09b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv09b-i01": [
+            "annex-deposit"
+          ],
+          "hv09b-i02": [
+            "train-pass"
+          ],
+          "hv09b-i03": [
+            "studio-access"
+          ],
+          "hv09b-i04": [
+            "archive-transfer"
+          ],
+          "hv09b-i05": [
+            "signage"
+          ],
+          "hv09b-i06": [
+            "studio-access"
+          ],
+          "hv09b-i07": [],
+          "hv09b-i08": [
+            "annex-deposit"
+          ],
+          "hv09b-i09": [
+            "archive-transfer"
+          ],
+          "hv09b-i10": [
+            "train-pass"
+          ],
+          "hv09b-i11": [
+            "archive-transfer"
+          ],
+          "hv09b-i12": [
+            "archive-transfer",
+            "studio-access"
+          ],
+          "hv09b-i13": [
+            "annex-deposit"
+          ],
+          "hv09b-i14": [
+            "signage"
+          ],
+          "hv09b-i15": [
+            "studio-access"
+          ],
+          "hv09b-i16": [],
+          "hv09b-i17": [
+            "archive-transfer"
+          ],
+          "hv09b-i18": [
+            "annex-deposit"
+          ],
+          "hv09b-i19": [
+            "signage"
+          ],
+          "hv09b-i20": [
+            "train-pass"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv09b-i09",
+            "later": "hv09b-i11",
+            "thread": "archive-transfer"
+          }
+        ],
+        "threadNames": {
+          "annex-deposit": "Recover the deposit on the vacated Annex coworking space",
+          "archive-transfer": "Transfer member archive boxes into the new shared studio",
+          "signage": "Produce wayfinding signs for the shared studio",
+          "studio-access": "Issue and verify access credentials for the new shared studio",
+          "train-pass": "Resolve an overcharge on my commuter rail pass"
+        }
+      },
+      "initialThreadNames": {
+        "annex-deposit": "Recover the deposit on the vacated Annex coworking space",
+        "archive-transfer": "Transfer member archive boxes into the new shared studio",
+        "signage": "Produce wayfinding signs for the shared studio",
+        "studio-access": "Issue and verify access credentials for the new shared studio",
+        "train-pass": "Resolve an overcharge on my commuter rail pass"
+      },
+      "library": "hv09b",
+      "relatedThreads": [
+        [
+          "annex-deposit",
+          "archive-transfer"
+        ],
+        [
+          "annex-deposit",
+          "studio-access"
+        ],
+        [
+          "annex-deposit",
+          "signage"
+        ],
+        [
+          "archive-transfer",
+          "studio-access"
+        ],
+        [
+          "archive-transfer",
+          "signage"
+        ],
+        [
+          "studio-access",
+          "signage"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv10a-i11",
+        "threads": [
+          "saturday-packing",
+          "cooler-repair"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "saturday-packing"
+          ],
+          "source": "hv10a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cooler-repair"
+          ],
+          "source": "hv10a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bike-lamp"
+          ],
+          "source": "hv10a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "volunteer-induction"
+          ],
+          "source": "hv10a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "saturday-packing"
+          ],
+          "source": "hv10a-i05",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv10a-i01",
+          "later": "hv10a-i05",
+          "thread": "saturday-packing",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "cooler-repair"
+          ],
+          "source": "hv10a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv10a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "volunteer-induction"
+          ],
+          "source": "hv10a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "saturday-packing"
+          ],
+          "source": "hv10a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bike-lamp"
+          ],
+          "source": "hv10a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "saturday-packing",
+            "cooler-repair"
+          ],
+          "source": "hv10a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "volunteer-induction"
+          ],
+          "source": "hv10a-i12",
+          "type": "insert"
+        },
+        {
+          "source": "hv10a-i12",
+          "thread": "saturday-packing",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv10a-i12",
+          "thread": "saturday-packing",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "cooler-repair"
+          ],
+          "source": "hv10a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "saturday-packing"
+          ],
+          "source": "hv10a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "volunteer-induction"
+          ],
+          "source": "hv10a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv10a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "cooler-repair"
+          ],
+          "source": "hv10a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "bike-lamp"
+          ],
+          "source": "hv10a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "saturday-packing"
+          ],
+          "source": "hv10a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "saturday-packing"
+          ],
+          "source": "hv10a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv10a-i01": [
+            "saturday-packing"
+          ],
+          "hv10a-i02": [
+            "cooler-repair"
+          ],
+          "hv10a-i03": [
+            "bike-lamp"
+          ],
+          "hv10a-i04": [
+            "volunteer-induction"
+          ],
+          "hv10a-i05": [
+            "saturday-packing"
+          ],
+          "hv10a-i06": [
+            "cooler-repair"
+          ],
+          "hv10a-i07": [],
+          "hv10a-i08": [
+            "volunteer-induction"
+          ],
+          "hv10a-i09": [
+            "saturday-packing"
+          ],
+          "hv10a-i10": [
+            "bike-lamp"
+          ],
+          "hv10a-i11": [
+            "cooler-repair",
+            "saturday-packing"
+          ],
+          "hv10a-i12": [
+            "volunteer-induction"
+          ],
+          "hv10a-i13": [
+            "cooler-repair"
+          ],
+          "hv10a-i14": [
+            "saturday-packing"
+          ],
+          "hv10a-i15": [
+            "volunteer-induction"
+          ],
+          "hv10a-i16": [],
+          "hv10a-i17": [
+            "cooler-repair"
+          ],
+          "hv10a-i18": [
+            "bike-lamp"
+          ],
+          "hv10a-i19": [
+            "saturday-packing"
+          ],
+          "hv10a-i20": [
+            "saturday-packing"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv10a-i01",
+            "later": "hv10a-i05",
+            "thread": "saturday-packing"
+          }
+        ],
+        "threadNames": {
+          "bike-lamp": "Repair my bicycle front lamp",
+          "cooler-repair": "Restore reliable temperature control in the food-bank cooler",
+          "saturday-packing": "Prepare and distribute Saturday food-bank parcels",
+          "volunteer-induction": "Prepare and run new volunteer induction"
+        }
+      },
+      "initialThreadNames": {
+        "bike-lamp": "Repair my bicycle front lamp",
+        "cooler-repair": "Restore reliable temperature control in the food-bank cooler",
+        "saturday-packing": "Prepare and distribute Saturday food-bank parcels",
+        "volunteer-induction": "Prepare and run new volunteer induction"
+      },
+      "library": "hv10a",
+      "relatedThreads": [
+        [
+          "saturday-packing",
+          "cooler-repair"
+        ],
+        [
+          "saturday-packing",
+          "volunteer-induction"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv10b-i10",
+        "threads": [
+          "estate-deliveries",
+          "donor-report"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "estate-deliveries"
+          ],
+          "source": "hv10b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "donor-report"
+          ],
+          "source": "hv10b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "porch-planter"
+          ],
+          "source": "hv10b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "van-cleaning"
+          ],
+          "source": "hv10b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "collection-drive"
+          ],
+          "source": "hv10b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "estate-deliveries"
+          ],
+          "source": "hv10b-i06",
+          "type": "insert"
+        },
+        {
+          "source": "hv10b-i06",
+          "thread": "donor-report",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv10b-i06",
+          "thread": "donor-report",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "donor-report"
+          ],
+          "source": "hv10b-i07",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv10b-i02",
+          "later": "hv10b-i07",
+          "thread": "donor-report",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "van-cleaning"
+          ],
+          "source": "hv10b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "porch-planter"
+          ],
+          "source": "hv10b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "estate-deliveries",
+            "donor-report"
+          ],
+          "source": "hv10b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv10b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "collection-drive"
+          ],
+          "source": "hv10b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "van-cleaning"
+          ],
+          "source": "hv10b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "estate-deliveries"
+          ],
+          "source": "hv10b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "collection-drive",
+            "donor-report"
+          ],
+          "source": "hv10b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv10b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "porch-planter"
+          ],
+          "source": "hv10b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "donor-report"
+          ],
+          "source": "hv10b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "estate-deliveries"
+          ],
+          "source": "hv10b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "collection-drive"
+          ],
+          "source": "hv10b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv10b-i01": [
+            "estate-deliveries"
+          ],
+          "hv10b-i02": [
+            "donor-report"
+          ],
+          "hv10b-i03": [
+            "porch-planter"
+          ],
+          "hv10b-i04": [
+            "van-cleaning"
+          ],
+          "hv10b-i05": [
+            "collection-drive"
+          ],
+          "hv10b-i06": [
+            "estate-deliveries"
+          ],
+          "hv10b-i07": [
+            "donor-report"
+          ],
+          "hv10b-i08": [
+            "van-cleaning"
+          ],
+          "hv10b-i09": [
+            "porch-planter"
+          ],
+          "hv10b-i10": [
+            "donor-report",
+            "estate-deliveries"
+          ],
+          "hv10b-i11": [],
+          "hv10b-i12": [
+            "collection-drive"
+          ],
+          "hv10b-i13": [
+            "van-cleaning"
+          ],
+          "hv10b-i14": [
+            "estate-deliveries"
+          ],
+          "hv10b-i15": [
+            "collection-drive",
+            "donor-report"
+          ],
+          "hv10b-i16": [],
+          "hv10b-i17": [
+            "porch-planter"
+          ],
+          "hv10b-i18": [
+            "donor-report"
+          ],
+          "hv10b-i19": [
+            "estate-deliveries"
+          ],
+          "hv10b-i20": [
+            "collection-drive"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv10b-i02",
+            "later": "hv10b-i07",
+            "thread": "donor-report"
+          }
+        ],
+        "threadNames": {
+          "collection-drive": "Run the workplace food collection drive",
+          "donor-report": "Report monthly food-bank distribution totals to donors",
+          "estate-deliveries": "Arrange food-bank home deliveries to the Cedar estate",
+          "porch-planter": "Build a planter for my porch",
+          "van-cleaning": "Remove a spill and odour from the food-bank van"
+        }
+      },
+      "initialThreadNames": {
+        "collection-drive": "Run the workplace food collection drive",
+        "donor-report": "Report monthly food-bank distribution totals to donors",
+        "estate-deliveries": "Arrange food-bank home deliveries to the Cedar estate",
+        "porch-planter": "Build a planter for my porch",
+        "van-cleaning": "Remove a spill and odour from the food-bank van"
+      },
+      "library": "hv10b",
+      "relatedThreads": [
+        [
+          "estate-deliveries",
+          "donor-report"
+        ],
+        [
+          "estate-deliveries",
+          "van-cleaning"
+        ],
+        [
+          "collection-drive",
+          "donor-report"
+        ],
+        [
+          "collection-drive",
+          "estate-deliveries"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv11a-i11",
+        "threads": [
+          "junction-track",
+          "signal-control"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "junction-track"
+          ],
+          "source": "hv11a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "guitar-practice"
+          ],
+          "source": "hv11a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "signal-control"
+          ],
+          "source": "hv11a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "marsh-scenery"
+          ],
+          "source": "hv11a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "junction-track"
+          ],
+          "source": "hv11a-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "signal-control"
+          ],
+          "source": "hv11a-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv11a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "guitar-practice"
+          ],
+          "source": "hv11a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "junction-track"
+          ],
+          "source": "hv11a-i09",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv11a-i05",
+          "later": "hv11a-i09",
+          "thread": "junction-track",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "marsh-scenery"
+          ],
+          "source": "hv11a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "junction-track",
+            "signal-control"
+          ],
+          "source": "hv11a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "signal-control"
+          ],
+          "source": "hv11a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "marsh-scenery"
+          ],
+          "source": "hv11a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "marsh-scenery"
+          ],
+          "source": "hv11a-i14",
+          "type": "insert"
+        },
+        {
+          "from": "Wetland corner",
+          "thread": "marsh-scenery",
+          "to": "Marsh bank",
+          "type": "rename"
+        },
+        {
+          "memberships": [
+            "junction-track"
+          ],
+          "source": "hv11a-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "guitar-practice"
+          ],
+          "source": "hv11a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv11a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "marsh-scenery"
+          ],
+          "source": "hv11a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "signal-control"
+          ],
+          "source": "hv11a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "junction-track"
+          ],
+          "source": "hv11a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv11a-i01": [
+            "junction-track"
+          ],
+          "hv11a-i02": [
+            "guitar-practice"
+          ],
+          "hv11a-i03": [
+            "signal-control"
+          ],
+          "hv11a-i04": [
+            "marsh-scenery"
+          ],
+          "hv11a-i05": [
+            "junction-track"
+          ],
+          "hv11a-i06": [
+            "signal-control"
+          ],
+          "hv11a-i07": [],
+          "hv11a-i08": [
+            "guitar-practice"
+          ],
+          "hv11a-i09": [
+            "junction-track"
+          ],
+          "hv11a-i10": [
+            "marsh-scenery"
+          ],
+          "hv11a-i11": [
+            "junction-track",
+            "signal-control"
+          ],
+          "hv11a-i12": [
+            "signal-control"
+          ],
+          "hv11a-i13": [
+            "marsh-scenery"
+          ],
+          "hv11a-i14": [
+            "marsh-scenery"
+          ],
+          "hv11a-i15": [
+            "junction-track"
+          ],
+          "hv11a-i16": [
+            "guitar-practice"
+          ],
+          "hv11a-i17": [],
+          "hv11a-i18": [
+            "marsh-scenery"
+          ],
+          "hv11a-i19": [
+            "signal-control"
+          ],
+          "hv11a-i20": [
+            "junction-track"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv11a-i05",
+            "later": "hv11a-i09",
+            "thread": "junction-track"
+          }
+        ],
+        "threadNames": {
+          "guitar-practice": "Prepare a guitar arrangement for a friend's dinner",
+          "junction-track": "Lay and test model track at Marsh Junction",
+          "marsh-scenery": "Marsh bank",
+          "signal-control": "Wire and program the Marsh Junction signals"
+        }
+      },
+      "initialThreadNames": {
+        "guitar-practice": "Prepare a guitar arrangement for a friend's dinner",
+        "junction-track": "Lay and test model track at Marsh Junction",
+        "marsh-scenery": "Wetland corner",
+        "signal-control": "Wire and program the Marsh Junction signals"
+      },
+      "library": "hv11a",
+      "relatedThreads": [
+        [
+          "junction-track",
+          "signal-control"
+        ],
+        [
+          "junction-track",
+          "marsh-scenery"
+        ],
+        [
+          "signal-control",
+          "marsh-scenery"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv11b-i11",
+        "threads": [
+          "folding-baseboard",
+          "exhibition-crate"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "folding-baseboard"
+          ],
+          "source": "hv11b-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tram-repaint"
+          ],
+          "source": "hv11b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "roof-gutter"
+          ],
+          "source": "hv11b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "exhibition-crate"
+          ],
+          "source": "hv11b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "station-announcements"
+          ],
+          "source": "hv11b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "folding-baseboard"
+          ],
+          "source": "hv11b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tram-repaint"
+          ],
+          "source": "hv11b-i07",
+          "type": "insert"
+        },
+        {
+          "source": "hv11b-i07",
+          "thread": "exhibition-crate",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv11b-i07",
+          "thread": "exhibition-crate",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "exhibition-crate"
+          ],
+          "source": "hv11b-i08",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv11b-i04",
+          "later": "hv11b-i08",
+          "thread": "exhibition-crate",
+          "type": "revision"
+        },
+        {
+          "memberships": [],
+          "source": "hv11b-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "roof-gutter"
+          ],
+          "source": "hv11b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "folding-baseboard",
+            "exhibition-crate"
+          ],
+          "source": "hv11b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tram-repaint"
+          ],
+          "source": "hv11b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "station-announcements"
+          ],
+          "source": "hv11b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "folding-baseboard"
+          ],
+          "source": "hv11b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "exhibition-crate"
+          ],
+          "source": "hv11b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "roof-gutter"
+          ],
+          "source": "hv11b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv11b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "station-announcements"
+          ],
+          "source": "hv11b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "tram-repaint"
+          ],
+          "source": "hv11b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "exhibition-crate"
+          ],
+          "source": "hv11b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv11b-i01": [
+            "folding-baseboard"
+          ],
+          "hv11b-i02": [
+            "tram-repaint"
+          ],
+          "hv11b-i03": [
+            "roof-gutter"
+          ],
+          "hv11b-i04": [
+            "exhibition-crate"
+          ],
+          "hv11b-i05": [
+            "station-announcements"
+          ],
+          "hv11b-i06": [
+            "folding-baseboard"
+          ],
+          "hv11b-i07": [
+            "tram-repaint"
+          ],
+          "hv11b-i08": [
+            "exhibition-crate"
+          ],
+          "hv11b-i09": [],
+          "hv11b-i10": [
+            "roof-gutter"
+          ],
+          "hv11b-i11": [
+            "exhibition-crate",
+            "folding-baseboard"
+          ],
+          "hv11b-i12": [
+            "tram-repaint"
+          ],
+          "hv11b-i13": [
+            "station-announcements"
+          ],
+          "hv11b-i14": [
+            "folding-baseboard"
+          ],
+          "hv11b-i15": [
+            "exhibition-crate"
+          ],
+          "hv11b-i16": [
+            "roof-gutter"
+          ],
+          "hv11b-i17": [],
+          "hv11b-i18": [
+            "station-announcements"
+          ],
+          "hv11b-i19": [
+            "tram-repaint"
+          ],
+          "hv11b-i20": [
+            "exhibition-crate"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv11b-i04",
+            "later": "hv11b-i08",
+            "thread": "exhibition-crate"
+          }
+        ],
+        "threadNames": {
+          "exhibition-crate": "Build and fit a transport crate for the tram layout",
+          "folding-baseboard": "Construct a folding baseboard for the portable tram layout",
+          "roof-gutter": "Fix overflowing guttering at home",
+          "station-announcements": "Make a playable announcement soundtrack for the tram layout",
+          "tram-repaint": "Repaint model tram 62 in the cream-and-russet scheme"
+        }
+      },
+      "initialThreadNames": {
+        "exhibition-crate": "Build and fit a transport crate for the tram layout",
+        "folding-baseboard": "Construct a folding baseboard for the portable tram layout",
+        "roof-gutter": "Fix overflowing guttering at home",
+        "station-announcements": "Make a playable announcement soundtrack for the tram layout",
+        "tram-repaint": "Repaint model tram 62 in the cream-and-russet scheme"
+      },
+      "library": "hv11b",
+      "relatedThreads": [
+        [
+          "folding-baseboard",
+          "exhibition-crate"
+        ],
+        [
+          "folding-baseboard",
+          "tram-repaint"
+        ],
+        [
+          "folding-baseboard",
+          "station-announcements"
+        ],
+        [
+          "tram-repaint",
+          "station-announcements"
+        ],
+        [
+          "exhibition-crate",
+          "tram-repaint"
+        ],
+        [
+          "exhibition-crate",
+          "station-announcements"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv12a-i10",
+        "threads": [
+          "caption-research",
+          "anniversary-album"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "shoebox-scans"
+          ],
+          "source": "hv12a-i01",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "orchid-repot"
+          ],
+          "source": "hv12a-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "caption-research"
+          ],
+          "source": "hv12a-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "anniversary-album"
+          ],
+          "source": "hv12a-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "shoebox-scans"
+          ],
+          "source": "hv12a-i05",
+          "type": "insert"
+        },
+        {
+          "source": "hv12a-i05",
+          "thread": "caption-research",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv12a-i05",
+          "thread": "caption-research",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "caption-research"
+          ],
+          "source": "hv12a-i06",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv12a-i03",
+          "later": "hv12a-i06",
+          "thread": "caption-research",
+          "type": "revision"
+        },
+        {
+          "memberships": [],
+          "source": "hv12a-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "anniversary-album"
+          ],
+          "source": "hv12a-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "shoebox-scans"
+          ],
+          "source": "hv12a-i09",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "caption-research",
+            "anniversary-album"
+          ],
+          "source": "hv12a-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "orchid-repot"
+          ],
+          "source": "hv12a-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "caption-research"
+          ],
+          "source": "hv12a-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "anniversary-album"
+          ],
+          "source": "hv12a-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "shoebox-scans"
+          ],
+          "source": "hv12a-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "caption-research"
+          ],
+          "source": "hv12a-i15",
+          "type": "insert"
+        },
+        {
+          "from": "Who's in these?",
+          "thread": "caption-research",
+          "to": "Blue shoebox captions",
+          "type": "rename"
+        },
+        {
+          "memberships": [
+            "orchid-repot"
+          ],
+          "source": "hv12a-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv12a-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "shoebox-scans"
+          ],
+          "source": "hv12a-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "anniversary-album"
+          ],
+          "source": "hv12a-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "caption-research"
+          ],
+          "source": "hv12a-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv12a-i01": [
+            "shoebox-scans"
+          ],
+          "hv12a-i02": [
+            "orchid-repot"
+          ],
+          "hv12a-i03": [
+            "caption-research"
+          ],
+          "hv12a-i04": [
+            "anniversary-album"
+          ],
+          "hv12a-i05": [
+            "shoebox-scans"
+          ],
+          "hv12a-i06": [
+            "caption-research"
+          ],
+          "hv12a-i07": [],
+          "hv12a-i08": [
+            "anniversary-album"
+          ],
+          "hv12a-i09": [
+            "shoebox-scans"
+          ],
+          "hv12a-i10": [
+            "anniversary-album",
+            "caption-research"
+          ],
+          "hv12a-i11": [
+            "orchid-repot"
+          ],
+          "hv12a-i12": [
+            "caption-research"
+          ],
+          "hv12a-i13": [
+            "anniversary-album"
+          ],
+          "hv12a-i14": [
+            "shoebox-scans"
+          ],
+          "hv12a-i15": [
+            "caption-research"
+          ],
+          "hv12a-i16": [
+            "orchid-repot"
+          ],
+          "hv12a-i17": [],
+          "hv12a-i18": [
+            "shoebox-scans"
+          ],
+          "hv12a-i19": [
+            "anniversary-album"
+          ],
+          "hv12a-i20": [
+            "caption-research"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv12a-i03",
+            "later": "hv12a-i06",
+            "thread": "caption-research"
+          }
+        ],
+        "threadNames": {
+          "anniversary-album": "Assemble a small printed family album for the grandparents' anniversary",
+          "caption-research": "Blue shoebox captions",
+          "orchid-repot": "Repot the kitchen orchid",
+          "shoebox-scans": "Digitize and preserve the family photographs from the blue shoebox"
+        }
+      },
+      "initialThreadNames": {
+        "anniversary-album": "Assemble a small printed family album for the grandparents' anniversary",
+        "caption-research": "Who's in these?",
+        "orchid-repot": "Repot the kitchen orchid",
+        "shoebox-scans": "Digitize and preserve the family photographs from the blue shoebox"
+      },
+      "library": "hv12a",
+      "relatedThreads": [
+        [
+          "shoebox-scans",
+          "caption-research"
+        ],
+        [
+          "shoebox-scans",
+          "anniversary-album"
+        ],
+        [
+          "caption-research",
+          "anniversary-album"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    },
+    {
+      "automaticTransitiveMergeAllowed": false,
+      "bridgeWitness": {
+        "item": "hv12b-i11",
+        "threads": [
+          "slide-capture",
+          "family-sharing"
+        ]
+      },
+      "events": [
+        {
+          "memberships": [
+            "projector-return"
+          ],
+          "source": "hv12b-i01",
+          "type": "insert"
+        },
+        {
+          "source": "hv12b-i01",
+          "thread": "slide-capture",
+          "type": "hypothetical-link"
+        },
+        {
+          "source": "hv12b-i01",
+          "thread": "slide-capture",
+          "type": "undo-link"
+        },
+        {
+          "memberships": [
+            "slide-capture"
+          ],
+          "source": "hv12b-i02",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "family-sharing"
+          ],
+          "source": "hv12b-i03",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "slide-capture"
+          ],
+          "source": "hv12b-i04",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "projector-return"
+          ],
+          "source": "hv12b-i05",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "family-sharing"
+          ],
+          "source": "hv12b-i06",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "slide-capture"
+          ],
+          "source": "hv12b-i07",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv12b-i08",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "projector-return"
+          ],
+          "source": "hv12b-i09",
+          "type": "insert"
+        },
+        {
+          "earlier": "hv12b-i01",
+          "later": "hv12b-i09",
+          "thread": "projector-return",
+          "type": "revision"
+        },
+        {
+          "memberships": [
+            "family-sharing"
+          ],
+          "source": "hv12b-i10",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "slide-capture",
+            "family-sharing"
+          ],
+          "source": "hv12b-i11",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "slide-capture"
+          ],
+          "source": "hv12b-i12",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "family-sharing"
+          ],
+          "source": "hv12b-i13",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "projector-return"
+          ],
+          "source": "hv12b-i14",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "slide-capture"
+          ],
+          "source": "hv12b-i15",
+          "type": "insert"
+        },
+        {
+          "memberships": [],
+          "source": "hv12b-i16",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "family-sharing"
+          ],
+          "source": "hv12b-i17",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "projector-return"
+          ],
+          "source": "hv12b-i18",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "slide-capture"
+          ],
+          "source": "hv12b-i19",
+          "type": "insert"
+        },
+        {
+          "memberships": [
+            "family-sharing"
+          ],
+          "source": "hv12b-i20",
+          "type": "insert"
+        }
+      ],
+      "expected": {
+        "memberships": {
+          "hv12b-i01": [
+            "projector-return"
+          ],
+          "hv12b-i02": [
+            "slide-capture"
+          ],
+          "hv12b-i03": [
+            "family-sharing"
+          ],
+          "hv12b-i04": [
+            "slide-capture"
+          ],
+          "hv12b-i05": [
+            "projector-return"
+          ],
+          "hv12b-i06": [
+            "family-sharing"
+          ],
+          "hv12b-i07": [
+            "slide-capture"
+          ],
+          "hv12b-i08": [],
+          "hv12b-i09": [
+            "projector-return"
+          ],
+          "hv12b-i10": [
+            "family-sharing"
+          ],
+          "hv12b-i11": [
+            "family-sharing",
+            "slide-capture"
+          ],
+          "hv12b-i12": [
+            "slide-capture"
+          ],
+          "hv12b-i13": [
+            "family-sharing"
+          ],
+          "hv12b-i14": [
+            "projector-return"
+          ],
+          "hv12b-i15": [
+            "slide-capture"
+          ],
+          "hv12b-i16": [],
+          "hv12b-i17": [
+            "family-sharing"
+          ],
+          "hv12b-i18": [
+            "projector-return"
+          ],
+          "hv12b-i19": [
+            "slide-capture"
+          ],
+          "hv12b-i20": [
+            "family-sharing"
+          ]
+        },
+        "revisions": [
+          {
+            "earlier": "hv12b-i01",
+            "later": "hv12b-i09",
+            "thread": "projector-return"
+          }
+        ],
+        "threadNames": {
+          "family-sharing": "Publish selected seaside images to a private family gallery with agreed access",
+          "projector-return": "Return a borrowed projector and resolve its missing case latch",
+          "slide-capture": "Digitize and catalogue the family's seaside slide reels"
+        }
+      },
+      "initialThreadNames": {
+        "family-sharing": "Publish selected seaside images to a private family gallery with agreed access",
+        "projector-return": "Return a borrowed projector and resolve its missing case latch",
+        "slide-capture": "Digitize and catalogue the family's seaside slide reels"
+      },
+      "library": "hv12b",
+      "relatedThreads": [
+        [
+          "slide-capture",
+          "family-sharing"
+        ]
+      ],
+      "scope": "reference-fixture-not-production-replay"
+    }
+  ],
+  "schemaVersion": 1
+}

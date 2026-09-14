@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "inputsSHA256": "189b78c63aadf04ac31eb18e08d7536552b6354f3eb4642a831d38dc27fbef9f",
+  "labelsSHA256": "5934a7a84a7bb84e34268774054616c3e11e9303cc5bd3b43d1f7aebcd20e1c0",
+  "contractSHA256": "bfbf33aa523347a94664c394e233fdbfbe82799a4e5ce5c10835972c6f825e13",
+  "scorerSHA256": "b0e688e96270cb2d79050986c2a7dcd163ba63ab8cf97e9296f067b6f68c4638",
+  "reviews": [
+    {
+      "path": "Evaluation/Organization/reviews/reviewer-a-final.json",
+      "sha256": "3620ff3cfdaf2fcf24dce2cefc1c521e412d09c3a5328415362074658dc2a848"
+    },
+    {
+      "path": "Evaluation/Organization/reviews/reviewer-b-final.json",
+      "sha256": "ff8d906f356c97875ad90d6056160c0ca1a4ce5bf6b6531d8d7d69e7a68456e4"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "Evaluation/Organization/reviews/adjudication.json",
+      "sha256": "48d460848501201c0ce33e3caf2be9f112252a398119bd15753b703b1f41bee6"
+    },
+    {
+      "path": "Evaluation/Organization/reviews/adversarial-audit.json",
+      "sha256": "1982c54fee286c005d071fe5e90f48ab3f547eabe3dbc46a73883886c713f8de"
+    },
+    {
+      "path": "Evaluation/Organization/amendments.json",
+      "sha256": "993a6aaa45477f510399f80088bb85d0018448958989c5731deccfcad1e4002e"
+    }
+  ],
+  "counts": {
+    "libraries": 12,
+    "items": 360
+  },
+  "targets": {
+    "pairPrecision": 0.99,
+    "pairRecall": 0.85,
+    "prohibitedMerges": 0
+  },
+  "claim": "agent-reviewed baseline; no human validation or model-family independence claimed"
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "stage": 1,
+  "status": "prepared_not_evaluated",
+  "stoppedAtCheckpoint": true,
+  "nextStageStarted": false,
+  "date": "2026-09-11",
+  "freeze": "Evaluation/MatcherFeasibility/freeze.json",
+  "freezeSHA256": "b5291755a161344e83cc9f85f91307d50214aad4da05b558650c2dc3bdd71641",
+  "report": "Evaluation/MatcherFeasibility/checkpoints/stage-1.md",
+  "dataset": {
+    "items": 600,
+    "libraries": 30,
+    "contexts": 114,
+    "ambiguousItems": 57,
+    "overlappingItems": 50,
+    "pairClasses": {"same": 1460, "related": 571, "unrelated": 2617, "uncertain": 1052},
+    "reviewDisagreementPairs": 162,
+    "authorToFinalChangedPairs": 553,
+    "sourceAmendments": 6,
+    "humanValidated": false
+  },
+  "checks": {
+    "preparationTestsPassed": 36,
+    "existingOrganizationTestsPassed": 22,
+    "frozenFilesVerified": 57,
+    "modelAssetsVerified": 6,
+    "lockedPackagesVerified": 37,
+    "pipCheckPassed": true,
+    "historicalArtifactsUnchanged": 6,
+    "productionSourcesUnchanged": 51,
+    "freeBytes": 38450987008
+  },
+  "modelInferencePerformed": false,
+  "modelTrainingPerformed": false,
+  "phoneTestingPerformed": false,
+  "productionChanges": false,
+  "next": {"stage": 2, "hardware": "mac_only", "estimatedHours": [2, 4], "requiresExplicitContinuation": true},
+  "remainingEstimatedActiveHours": [14, 29]
+}

@@ -1,0 +1,195 @@
+{
+  "backupCreated": false,
+  "checkpoint": "2026-09-13-pre-diagnostic",
+  "evidence": {
+    "Evaluation/MatcherFeasibility/environment.json": {
+      "bytes": 498,
+      "sha256": "e05788264b352fd9c3a6da62fd98b4d74a1a2887c8b6674df6103523a3accfb6"
+    },
+    "Evaluation/MatcherFeasibility/model-manifest.json": {
+      "bytes": 2200,
+      "sha256": "537b120e1fec315e806f730a75791e1ba3db3e789977b38fd56f9cb1294d7a34"
+    },
+    "Evaluation/MatcherFeasibility/runs/stage-2-attempt-01/complete.json": {
+      "bytes": 102833,
+      "sha256": "b8cd3fee4bfd87e5befb54d7fe81b7749fb1de28eace90f5de76cfa8ff44e888"
+    },
+    "Evaluation/MatcherFeasibility/runs/stage-3-attempt-03/complete.json": {
+      "bytes": 224285,
+      "sha256": "babcc16a0aebced158e38b1aa6e9a5f981b386545c9e2253ebd8da5fb992b39c"
+    },
+    "Evaluation/MatcherFeasibility/runs/stage-4-attempt-02/complete.json": {
+      "bytes": 615497,
+      "sha256": "4891fadd62a504c687f347005a8a6e9e0e027b47295693a15dee74158adc749b"
+    },
+    "Evaluation/MatcherFeasibility/runs/stage-5-attempt-01/complete.json": {
+      "bytes": 1513211,
+      "sha256": "316a288748307c4e1c8d4c4138e185c334ee42ed7573147be389cb577f954731"
+    },
+    "Evaluation/MatcherScreening/runs/audit-attempt-01/complete.json": {
+      "bytes": 423318,
+      "sha256": "90961460de28a80e53801b99724d24414e50bf9aec7702144c54a4ecc391e344"
+    },
+    "Evaluation/MatcherScreening/runs/screen-attempt-01/complete.json": {
+      "bytes": 8080686,
+      "sha256": "dbf644d321dd50f7a455161dcf9d9a04a25a234122092d08b5f1270b03e0cefd"
+    },
+    "Evaluation/MatcherValidation/runs/p1-01/complete.json": {
+      "bytes": 12832,
+      "sha256": "a00ed7144b3fa443d6234ee39f4d0186c3d1cd1179f612108a5a7d4721f2ebcc"
+    },
+    "Evaluation/MatcherValidation/runs/preparation-01/complete.json": {
+      "bytes": 1320,
+      "sha256": "054a33e7d8695dfb5180ce6f094d43f314ec48954da789fb1cd13819d4390d63"
+    },
+    "Evaluation/MatcherValidation/runs/validation-02/complete.json": {
+      "bytes": 3829038,
+      "sha256": "1fc484bd5f2c6f787713ffa010a874aecf9eec1bed4640cae3951119edf2b830"
+    },
+    "Evaluation/MatcherValidation/runs/validation-02/manifest.json": {
+      "bytes": 62820,
+      "sha256": "0ca79ad477e4a3dae1e114a969f6fb5ad86aa326292139c59c6955a82fba75a6"
+    },
+    "Evaluation/MatcherValidation/runs/validation-02/report.json": {
+      "bytes": 49689,
+      "sha256": "e7666864fa396fc1ac4c2db1bbbba118359b50eb71187437443327d4fa94a737"
+    },
+    "Evaluation/Organization/results/core-complete-2026-09-11.json.gz": {
+      "bytes": 38371669,
+      "sha256": "29a946ab22e9ccb1c7fe23080ec9e1bd3ad9cd937cac1f5919bf076b77c95327"
+    }
+  },
+  "inventoryExcludes": [
+    "worker.lock",
+    ".DS_Store",
+    "__pycache__"
+  ],
+  "p2": {
+    "allSeedsPassed": false,
+    "oldTestOpened": false,
+    "productionQualified": false,
+    "productionReplayRun": false,
+    "seeds": {
+      "17": {
+        "baseline": {
+          "acceptedUncertain": 7,
+          "fn": 253,
+          "fp": 8,
+          "macroRecall": 0.4383604488408032,
+          "precision": 0.9593908629441624,
+          "tp": 189
+        },
+        "hybrid": {
+          "acceptedUncertain": 6,
+          "fn": 162,
+          "fp": 16,
+          "macroRecall": 0.651547131576426,
+          "precision": 0.9459459459459459,
+          "tp": 280
+        },
+        "qualification": {
+          "checks": {
+            "baselineSupported": true,
+            "completeKnownCoverage": true,
+            "minimumCount": true,
+            "precision": false,
+            "recallGain": true
+          },
+          "passed": false,
+          "requiredPrecision": 0.95
+        }
+      },
+      "29": {
+        "baseline": {
+          "acceptedUncertain": 7,
+          "fn": 253,
+          "fp": 8,
+          "macroRecall": 0.4383604488408032,
+          "precision": 0.9593908629441624,
+          "tp": 189
+        },
+        "hybrid": {
+          "acceptedUncertain": 5,
+          "fn": 192,
+          "fp": 11,
+          "macroRecall": 0.5838602179942732,
+          "precision": 0.9578544061302682,
+          "tp": 250
+        },
+        "qualification": {
+          "checks": {
+            "baselineSupported": true,
+            "completeKnownCoverage": true,
+            "minimumCount": true,
+            "precision": true,
+            "recallGain": true
+          },
+          "passed": true,
+          "requiredPrecision": 0.95
+        }
+      },
+      "41": {
+        "baseline": {
+          "acceptedUncertain": 7,
+          "fn": 253,
+          "fp": 8,
+          "macroRecall": 0.4383604488408032,
+          "precision": 0.9593908629441624,
+          "tp": 189
+        },
+        "hybrid": {
+          "acceptedUncertain": 4,
+          "fn": 178,
+          "fp": 15,
+          "macroRecall": 0.6163699107813452,
+          "precision": 0.946236559139785,
+          "tp": 264
+        },
+        "qualification": {
+          "checks": {
+            "baselineSupported": true,
+            "completeKnownCoverage": true,
+            "minimumCount": true,
+            "precision": false,
+            "recallGain": true
+          },
+          "passed": false,
+          "requiredPrecision": 0.95
+        }
+      }
+    }
+  },
+  "rawDirectories": {
+    "Evaluation/MatcherFeasibility/runs": {
+      "bytes": 75627537,
+      "files": 18132,
+      "treeSHA256": "d1da0d1bc96f46c967c485bd2dd97da49a3335b4219bdb11fba7ec7d4f7e4d4d"
+    },
+    "Evaluation/MatcherFeasibility/setup-attempts": {
+      "bytes": 1181,
+      "files": 2,
+      "treeSHA256": "95a39338a997324ffa75c6c81ed62cdb772a712d175a73ccb893f974c02aa161"
+    },
+    "Evaluation/MatcherScreening/runs": {
+      "bytes": 116122695,
+      "files": 60505,
+      "treeSHA256": "a93819125d9c348848badbdae0960ffcac62e8b1d52e3bff450fe5dc109c3d05"
+    },
+    "Evaluation/MatcherValidation/runs/validation-01": {
+      "bytes": 11979986,
+      "files": 495,
+      "treeSHA256": "0ad9339c527e8cc1db8fad8e64ccb745b422be03f3df0ccf40a0abee806fe871"
+    },
+    "Evaluation/MatcherValidation/runs/validation-02": {
+      "bytes": 42930395,
+      "files": 28973,
+      "treeSHA256": "6da47484bbaa2850f43e29aadc22da35de232d0ce1cfaba0e403e9e07d50ac5d"
+    },
+    "Evaluation/Organization/results": {
+      "bytes": 303149164,
+      "files": 27,
+      "treeSHA256": "63fd6a9cf3e5c03b82416f7ee356f03fee3a38c8c65f68dea367415e157e7ca9"
+    }
+  },
+  "schemaVersion": 1
+}

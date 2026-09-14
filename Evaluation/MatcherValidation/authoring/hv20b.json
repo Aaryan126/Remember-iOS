@@ -1,0 +1,251 @@
+{
+  "id": "hv20b",
+  "split": "evaluation",
+  "storyFamily": "hv20",
+  "templateFamily": "hv20",
+  "threads": [
+    "permission-prompt",
+    "cohort-report",
+    "spanish-onboarding",
+    "audio-crash",
+    "dog-walker"
+  ],
+  "threadDescriptions": {
+    "permission-prompt": "Test when to request microphone access during the fictional EchoSteps app's lesson onboarding.",
+    "cohort-report": "Produce a correctly defined outcome report for the microphone-prompt experiment.",
+    "spanish-onboarding": "Prepare and review Spanish text for EchoSteps onboarding screens.",
+    "audio-crash": "Fix a crash when users replay the first lesson's example audio.",
+    "dog-walker": "Arrange weekday walking cover for the dog Pippin."
+  },
+  "relatedThreads": [
+    [
+      "permission-prompt",
+      "cohort-report"
+    ],
+    [
+      "permission-prompt",
+      "spanish-onboarding"
+    ],
+    [
+      "permission-prompt",
+      "audio-crash"
+    ],
+    [
+      "cohort-report",
+      "audio-crash"
+    ]
+  ],
+  "challenges": [
+    "localization_boundary",
+    "cohort_correction",
+    "rename",
+    "bridge",
+    "routine_cases"
+  ],
+  "items": [
+    {
+      "id": "hv20b-i01",
+      "text": "EchoSteps onboarding test: compare microphone permission on launch with asking only when the learner taps Record in lesson one. Prototype label is 'Late mic'.",
+      "modality": "note",
+      "memberships": [
+        "permission-prompt"
+      ],
+      "rationale": "Defines timing experiment and prototype label."
+    },
+    {
+      "id": "hv20b-i02",
+      "text": "Pippin needs a walker Tuesday and Thursday while I'm on the early shift. Bea can collect at eight; ask about wet-weather cover.",
+      "modality": "voice",
+      "memberships": [
+        "dog-walker"
+      ],
+      "rationale": "Begins pet walking arrangement."
+    },
+    {
+      "id": "hv20b-i03",
+      "text": "Spanish onboarding sheet: translator wants screenshots for 'Record', 'Try again' and the sentence explaining microphone access. Text limits differ between buttons and body copy.",
+      "modality": "file",
+      "memberships": [
+        "spanish-onboarding"
+      ],
+      "rationale": "Defines localization inputs and constraints."
+    },
+    {
+      "id": "hv20b-i04",
+      "text": "First-lesson replay crash recording: finish example audio, tap Replay twice quickly, app closes. Happened after microphone access was denied too.",
+      "modality": "video",
+      "memberships": [
+        "audio-crash"
+      ],
+      "rationale": "Defines audio replay bug independent of permission grant."
+    },
+    {
+      "id": "hv20b-i05",
+      "text": "Experiment report draft: denominator is users who opened lesson one; numerator is users who completed a recording within a day. Break out prompt-on-launch and Late mic cohorts.",
+      "modality": "note",
+      "memberships": [
+        "cohort-report"
+      ],
+      "rationale": "Sets initial outcome report definitions."
+    },
+    {
+      "id": "hv20b-i06",
+      "text": "Permission prototype interview: learners understood why Record needs the mic, but the launch dialog felt unexplained. Add a one-sentence explanation immediately before the later request.",
+      "modality": "voice",
+      "memberships": [
+        "permission-prompt"
+      ],
+      "rationale": "Develops permission timing design from feedback."
+    },
+    {
+      "id": "hv20b-i07",
+      "text": "Pippin walking confirmation: Bea takes Tuesday, Jules Thursday. Spare lead hangs inside the cupboard; both know he shouldn't chase bikes.",
+      "modality": "note",
+      "memberships": [
+        "dog-walker"
+      ],
+      "rationale": "Confirms care coverage and instructions."
+    },
+    {
+      "id": "hv20b-i08",
+      "text": "Spanish screenshot check: 'Grabar' fits the Record button. The explanatory body sentence wraps to three lines at large text size; allow the panel to grow.",
+      "modality": "image",
+      "memberships": [
+        "spanish-onboarding"
+      ],
+      "rationale": "Reviews translated UI fit and accessibility."
+    },
+    {
+      "id": "hv20b-i09",
+      "text": "Replay crash stack points to the disposed playback handle. Ignore a second Replay until the first restart has obtained a new handle; cancellation must clear the pending restart.",
+      "modality": "file",
+      "memberships": [
+        "audio-crash"
+      ],
+      "rationale": "Diagnoses crash and defines repair."
+    },
+    {
+      "id": "hv20b-i10",
+      "text": "Rename the 'Late mic' onboarding prototype to 'Ask on Record'. It remains the same request-on-first-record variant; update the review board title and leave the launch-timing control alone.",
+      "modality": "note",
+      "memberships": [
+        "permission-prompt"
+      ],
+      "rationale": "Explicit rename of experiment variant."
+    },
+    {
+      "id": "hv20b-i11",
+      "text": "Report correction: using lesson openers as the denominator drops people put off by the launch permission dialog. Use all newly assigned eligible installs, replacing that draft denominator, and keep completion within a day as numerator.",
+      "modality": "note",
+      "memberships": [
+        "cohort-report"
+      ],
+      "rationale": "Corrects cohort definition to include pre-lesson attrition."
+    },
+    {
+      "id": "hv20b-i12",
+      "text": "Pippin soaked the spare lead Tuesday. Put a dry one on the hook before Jules arrives Thursday; Bea's walk itself was fine.",
+      "modality": "image",
+      "memberships": [
+        "dog-walker"
+      ],
+      "rationale": "Follows up walking equipment for next assigned walker."
+    },
+    {
+      "id": "hv20b-i13",
+      "text": "Spanish review of the mic explanation is approved by the translator. Keep 'micrófono' in the body, and use the short verb on the button; export the signed strings sheet.",
+      "modality": "file",
+      "memberships": [
+        "spanish-onboarding"
+      ],
+      "rationale": "Completes translation review."
+    },
+    {
+      "id": "hv20b-i14",
+      "text": "Ask on Record analysis handoff: freeze the prototype with the explanatory sentence before the permission request, and report outcomes under that final variant name. Rebuild the outcome table from all assigned eligible installs, including those who never reached lesson one; attach the exact screen sequence beside the table so readers know which flow was tested.",
+      "modality": "note",
+      "memberships": [
+        "permission-prompt",
+        "cohort-report"
+      ],
+      "rationale": "Freezes experimental flow and substantively specifies the report and denominator."
+    },
+    {
+      "id": "hv20b-i15",
+      "text": "Replay fix stress test: ten double-taps after example completion, no crash; leaving the lesson during pending restart cancels cleanly. Repeat once with microphone denied.",
+      "modality": "video",
+      "memberships": [
+        "audio-crash"
+      ],
+      "rationale": "Verifies crash repair and cancellation edge case."
+    },
+    {
+      "id": "hv20b-i16",
+      "text": "Cohort report rebuilt: launch prompt 81/210 completed a recording, Ask on Record 103/214. These are the fixed one-day counts; hold interpretation until checking assignment and missing events.",
+      "modality": "file",
+      "memberships": [
+        "cohort-report"
+      ],
+      "rationale": "Produces outcome report with corrected groups and caveats."
+    },
+    {
+      "id": "hv20b-i17",
+      "text": "Ask on Record permission screen at maximum text size: explanation and both actions visible after scrolling. Keep the explicit Not now action in the test build.",
+      "modality": "image",
+      "memberships": [
+        "permission-prompt"
+      ],
+      "rationale": "Checks tested permission-flow accessibility and actions."
+    },
+    {
+      "id": "hv20b-i18",
+      "text": "Denied-microphone replay check passed: no crash on rapid Replay, and the example audio still works. Close the playback-handle bug.",
+      "modality": "note",
+      "memberships": [
+        "audio-crash"
+      ],
+      "rationale": "Closes repaired replay defect."
+    },
+    {
+      "id": "hv20b-i19",
+      "text": "Spanish onboarding export imported. Screenshots match the signed strings, accents intact, no clipped Record button; translation handoff complete.",
+      "modality": "note",
+      "memberships": [
+        "spanish-onboarding"
+      ],
+      "rationale": "Verifies localization delivery."
+    },
+    {
+      "id": "hv20b-i20",
+      "text": "'The later one needs checking' — no attachment, subject or quoted message.",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "Unspecified referent cannot securely identify variant, report or another task."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv20b-i14",
+      "threads": [
+        "permission-prompt",
+        "cohort-report"
+      ]
+    },
+    "revision": {
+      "earlier": "hv20b-i05",
+      "later": "hv20b-i11",
+      "thread": "cohort-report"
+    },
+    "rename": {
+      "thread": "permission-prompt",
+      "from": "Late mic",
+      "to": "Ask on Record",
+      "evidenceItem": "hv20b-i10"
+    },
+    "undo": {
+      "item": "hv20b-i04",
+      "wrongThread": "permission-prompt",
+      "reason": "Hypothetical correction: denied microphone access is a reproduction condition for an audio crash, not a timing-design decision."
+    }
+  }
+}

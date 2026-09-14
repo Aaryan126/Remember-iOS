@@ -1,0 +1,30 @@
+{
+  "id":"hv08a","split":"train","storyFamily":"hv08","templateFamily":"hv08a-school-rapid-day",
+  "threads":["rapid-pairings","hall-setup","trophy-engraving","heating-service"],
+  "threadDescriptions":{"rapid-pairings":"Register players and run pairings/results for a school rapid chess event","hall-setup":"Prepare tables, clocks and accessible circulation in the school chess hall","trophy-engraving":"Order and verify awards for the school rapid event","heating-service":"Arrange the household boiler's annual service"},
+  "relatedThreads":[["rapid-pairings","hall-setup"],["rapid-pairings","trophy-engraving"],["hall-setup","trophy-engraving"]],
+  "challenges":["board-number-collision","role-disambiguation","bridge","history-update"],
+  "items":[
+    {"id":"hv08a-i01","text":"School rapid entries close Thursday. Five rounds, twenty minutes each side; collect age group and emergency contact on registration.","modality":"file","memberships":["rapid-pairings"],"rationale":"Tournament registration and format."},
+    {"id":"hv08a-i02","text":"Hall sketch: eighteen chess tables in three rows, clocks on the aisle side. Leave the rear doorway clear.","modality":"image","memberships":["hall-setup"],"rationale":"Event room layout."},
+    {"id":"hv08a-i03","text":"Trophy engraving proof: School Rapid, winner and runner-up for each age group. Check the year before approving brass plates.","modality":"file","memberships":["trophy-engraving"],"rationale":"Award production verification."},
+    {"id":"hv08a-i04","text":"Boiler annual service booked with Deni for Thursday, window 9–12. Clear the cupboard shelf so the panel opens.","modality":"voice","memberships":["heating-service"],"rationale":"Household service appointment."},
+    {"id":"hv08a-i05","text":"Rapid registration update: two late withdrawals in the under-twelve group. Rebuild the player list before generating round one.","modality":"note","memberships":["rapid-pairings"],"rationale":"Pairing roster maintenance."},
+    {"id":"hv08a-i06","text":"Hall caretaker says only fourteen tables are available. Replace the eighteen-table sketch with two rows of seven and keep the wheelchair turning area.","modality":"voice","memberships":["hall-setup"],"rationale":"Corrects initial table count and layout."},
+    {"id":"hv08a-i07","text":"Engraver misread School Rapid as School Rapids. Return the proof with the final s crossed out on every plate.","modality":"image","memberships":["trophy-engraving"],"rationale":"Award text correction."},
+    {"id":"hv08a-i08","text":"Board 7, Deni, after twelve","modality":"note","memberships":[],"rationale":"Fragment has overlapping event and appointment cues."},
+    {"id":"hv08a-i09","text":"Round-one pairing sheet: Priya has white against Leon on board seven. Print a large copy by the hall entrance.","modality":"file","memberships":["rapid-pairings"],"rationale":"Specific competition pairing."},
+    {"id":"hv08a-i10","text":"Clock on physical table seven has a sticky button. Swap it with the spare before players enter; label the faulty unit for repair.","modality":"video","memberships":["hall-setup"],"rationale":"Equipment readiness, not player pairing."},
+    {"id":"hv08a-i11","text":"Deni needs the boiler model from the inside cover. Send a photo of the model label, with the cupboard cleared for Thursday.","modality":"image","memberships":["heating-service"],"rationale":"Service preparation."},
+    {"id":"hv08a-i12","text":"Late accessibility request: move Priya and Leon's round-one game to the wide-aisle table, update their board number on the pairing sheet, and reposition that table's clock within reach.","modality":"voice","memberships":["rapid-pairings","hall-setup"],"rationale":"Changes published pairing location and physical setup."},
+    {"id":"hv08a-i13","text":"School Rapid engraving proof now correct. Approve the plates and collect awards Friday before the shop closes.","modality":"note","memberships":["trophy-engraving"],"rationale":"Award order approval."},
+    {"id":"hv08a-i14","text":"Round two result slip: Leon 1, Mira 0. Both signed; enter it before pairing the next round.","modality":"image","memberships":["rapid-pairings"],"rationale":"Tournament result entry."},
+    {"id":"hv08a-i15","text":"Boiler service report: cleaned burner, replaced seal, no further visit needed. Keep the dated report with appliance records.","modality":"file","memberships":["heating-service"],"rationale":"Service outcome."},
+    {"id":"hv08a-i16","text":"Hall readiness clip: door clear, wide aisle marked, every clock starts and stops. Put spare batteries under the arbiter's table.","modality":"video","memberships":["hall-setup"],"rationale":"Venue equipment verification."},
+    {"id":"hv08a-i17","text":"Five-round rapid completed. Two players tied on points; apply the announced opponent-score tiebreak before publishing standings.","modality":"note","memberships":["rapid-pairings"],"rationale":"Final competition standings."},
+    {"id":"hv08a-i18","text":"Check the second row. One is backwards.","modality":"voice","memberships":[],"rationale":"Could reference several physical or tabular objects."},
+    {"id":"hv08a-i19","text":"Collected the engraved trophies. The under-twelve runner-up plate is loose; ask the engraver to refasten it before prize-giving.","modality":"image","memberships":["trophy-engraving"],"rationale":"Award quality check."},
+    {"id":"hv08a-i20","text":"Final School Rapid standings uploaded with the corrected opponent-score tiebreak. Keep the signed slips for any results query.","modality":"file","memberships":["rapid-pairings"],"rationale":"Results publication and provenance."}
+  ],
+  "historyChecks":{"bridge":{"item":"hv08a-i12","threads":["rapid-pairings","hall-setup"]},"revision":{"earlier":"hv08a-i02","later":"hv08a-i06","thread":"hall-setup"},"rename":null,"undo":{"item":"hv08a-i10","wrongThread":"rapid-pairings","reason":"Hypothetically undo a board-seven keyword association; repairing a clock is venue preparation."}}
+}

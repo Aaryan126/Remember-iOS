@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "libraries": [
+    {
+      "id": "mf19",
+      "groups": [
+        {
+          "id": "quarry-finch",
+          "members": [
+            "mf19-i01",
+            "mf19-i06",
+            "mf19-i07",
+            "mf19-i11",
+            "mf19-i16",
+            "mf19-i19"
+          ],
+          "evidence": "AQ-41 identifies the seven-bolt quarry line behind the split alder; the fifth-hanger correction and return photographs continue that inspection."
+        },
+        {
+          "id": "ridge-finch",
+          "members": [
+            "mf19-i02",
+            "mf19-i10",
+            "mf19-i15",
+            "mf19-i16",
+            "mf19-i20"
+          ],
+          "evidence": "GR-09 identifies the unbolted Glass Ridge line approached from the eastern saddle, with a second-ledge flake inspection."
+        },
+        {
+          "id": "tin-lark",
+          "members": [
+            "mf19-i03",
+            "mf19-i07",
+            "mf19-i08",
+            "mf19-i14",
+            "mf19-i18"
+          ],
+          "evidence": "AQ-42 identifies Tin Lark's two-ring station and Tessa's photographs; correcting the drainage-notch drawing does not change the route."
+        },
+        {
+          "id": "moon-ladder",
+          "members": [
+            "mf19-i05",
+            "mf19-i09",
+            "mf19-i12",
+            "mf19-i17"
+          ],
+          "evidence": "PH-12 concerns the orange panel-C training line's third foothold and manager sign-off at Plover Hall."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "quarry-finch",
+          "tin-lark"
+        ],
+        [
+          "quarry-finch",
+          "ridge-finch"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf19-i04",
+          "reason": "Finch names two different surveys and this fragment supplies no distinguishing identifier."
+        },
+        {
+          "id": "mf19-i13",
+          "reason": "A corrected sketch and a person with pictures do not identify a particular inspection."
+        }
+      ],
+      "issues": [
+        "The duplicate-name index repair in i16 connects two records administratively, without making their inspection contexts identical."
+      ]
+    },
+    {
+      "id": "mf20",
+      "groups": [
+        {
+          "id": "orchard-spanish-demo",
+          "members": [
+            "mf20-i02",
+            "mf20-i03",
+            "mf20-i08",
+            "mf20-i10",
+            "mf20-i12",
+            "mf20-i17"
+          ],
+          "evidence": "LO-ES is Lantern Orchard's Spanish demo, including issue 18's twelve-character greenhouse button and its layout corrections."
+        },
+        {
+          "id": "orchard-french-release",
+          "members": [
+            "mf20-i01",
+            "mf20-i02",
+            "mf20-i07",
+            "mf20-i15",
+            "mf20-i19"
+          ],
+          "evidence": "LO-FR is the French full release, with Jules's glossary, vendor register, and corrected greenhouse string identifier."
+        },
+        {
+          "id": "quiet-engine-german",
+          "members": [
+            "mf20-i04",
+            "mf20-i09",
+            "mf20-i14",
+            "mf20-i18"
+          ],
+          "evidence": "QE-DE covers the German boiler valve label, tooltip and subtitle asset for The Quiet Engine."
+        },
+        {
+          "id": "stone-ferry-spanish",
+          "members": [
+            "mf20-i06",
+            "mf20-i10",
+            "mf20-i11",
+            "mf20-i16",
+            "mf20-i20"
+          ],
+          "evidence": "SF-ES covers Stone Ferry's Spanish kiosk destination, coin-icon caption overlap and passenger-ticket terminology."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "orchard-spanish-demo",
+          "orchard-french-release"
+        ],
+        [
+          "orchard-spanish-demo",
+          "stone-ferry-spanish"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf20-i05",
+          "reason": "No game, locale or issue identifies the delivery whose wording changed."
+        },
+        {
+          "id": "mf20-i13",
+          "reason": "Orchard and narrow-width clipping can refer to the Lantern Orchard button or Stone Ferry destination; neither locale nor string is supplied."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf21",
+      "groups": [
+        {
+          "id": "school-relief",
+          "members": [
+            "mf21-i01",
+            "mf21-i06",
+            "mf21-i07",
+            "mf21-i11",
+            "mf21-i17"
+          ],
+          "evidence": "MC-93 is Mount Vale School's plaster relief map, with a lifted northeast corner and corrected photograph orientation."
+        },
+        {
+          "id": "wall-chart",
+          "members": [
+            "mf21-i02",
+            "mf21-i07",
+            "mf21-i08",
+            "mf21-i12",
+            "mf21-i16",
+            "mf21-i18"
+          ],
+          "evidence": "MC-71 is the 1892 Eastmere wall chart with red backing stamp, hanging rod and soundings-legend tear; the repair tissue remains a trial."
+        },
+        {
+          "id": "pocket-map",
+          "members": [
+            "mf21-i04",
+            "mf21-i10",
+            "mf21-i15",
+            "mf21-i16",
+            "mf21-i20"
+          ],
+          "evidence": "MC-72 is the 1910 blue-case Eastmere pocket map, with its supported central fold and corrected North Pier label."
+        },
+        {
+          "id": "drainage-atlas",
+          "members": [
+            "mf21-i05",
+            "mf21-i09",
+            "mf21-i13",
+            "mf21-i19"
+          ],
+          "evidence": "MC-88 is Briar County's bound drainage atlas; plate-seven tide marks, cradle support and the later tracing remain in its examination record."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "school-relief",
+          "wall-chart"
+        ],
+        [
+          "wall-chart",
+          "pocket-map"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf21-i03",
+          "reason": "Eastmere and damaged lettering fit more than one catalogued object; no accession or format disambiguates."
+        },
+        {
+          "id": "mf21-i14",
+          "reason": "No accession, object or diagram identifies which support needs an orientation correction."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf22",
+      "groups": [
+        {
+          "id": "adult-lantern",
+          "members": [
+            "mf22-i02",
+            "mf22-i06",
+            "mf22-i07",
+            "mf22-i11",
+            "mf22-i14",
+            "mf22-i17"
+          ],
+          "evidence": "Omar's River Steps adult Lantern Set is the seven-o'clock Juniper Hall performance, with kitchen entry, black trunk and opening circle."
+        },
+        {
+          "id": "turning-home",
+          "members": [
+            "mf22-i03",
+            "mf22-i10",
+            "mf22-i14",
+            "mf22-i15",
+            "mf22-i19"
+          ],
+          "evidence": "Dev's Cedar Wheels Turning Home at Linden Court uses facing lines and a central fabric lantern with revised turning clearance."
+        },
+        {
+          "id": "youth-lantern",
+          "members": [
+            "mf22-i04",
+            "mf22-i06",
+            "mf22-i09",
+            "mf22-i16",
+            "mf22-i20"
+          ],
+          "evidence": "Nia's two-o'clock River Steps youth Lantern Set uses garden entry and red case; eleven dancers continue the corrected diagonal."
+        },
+        {
+          "id": "tide-waltz",
+          "members": [
+            "mf22-i05",
+            "mf22-i08",
+            "mf22-i13",
+            "mf22-i18"
+          ],
+          "evidence": "Bea's Harbor Circle Tide Waltz at Dockside Pavilion has blue chair markers, a seated opening and corrected phrase-three rise."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "adult-lantern",
+          "youth-lantern"
+        ],
+        [
+          "adult-lantern",
+          "turning-home"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf22-i01",
+          "reason": "Lantern Set has distinct adult and youth performances; no cast, time or leader selects one."
+        },
+        {
+          "id": "mf22-i12",
+          "reason": "Spare marker tape and tomorrow's run identify no performance or coordinator."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf23",
+      "groups": [
+        {
+          "id": "roof-cedar",
+          "members": [
+            "mf23-i01",
+            "mf23-i05",
+            "mf23-i06",
+            "mf23-i11",
+            "mf23-i16"
+          ],
+          "evidence": "MR-C is Mill Roof's unpainted Cedar hive by the west skylight, monitored for landing-board traffic after a screen adjustment."
+        },
+        {
+          "id": "meadow-birch",
+          "members": [
+            "mf23-i02",
+            "mf23-i10",
+            "mf23-i13",
+            "mf23-i19"
+          ],
+          "evidence": "ML-B is Meadow Lane's blue Birch hive, followed for under-cover moisture with a corrected northwest image caption."
+        },
+        {
+          "id": "orchard-cedar",
+          "members": [
+            "mf23-i03",
+            "mf23-i05",
+            "mf23-i07",
+            "mf23-i12",
+            "mf23-i15",
+            "mf23-i18"
+          ],
+          "evidence": "OG-C is Orchard Gate's green Cedar by the barrel, followed through brood photographs and corrected entrance-side frame-four numbering."
+        },
+        {
+          "id": "orchard-willow",
+          "members": [
+            "mf23-i04",
+            "mf23-i09",
+            "mf23-i14",
+            "mf23-i15",
+            "mf23-i20"
+          ],
+          "evidence": "OG-W is the yellow Willow by Orchard Gate's gatepost, with assembled-feeder weight comparisons and a corrected box description."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "roof-cedar",
+          "orchard-cedar"
+        ],
+        [
+          "orchard-cedar",
+          "orchard-willow"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf23-i08",
+          "reason": "Cedar is shared by two colonies and no apiary or observation identifies the intended one."
+        },
+        {
+          "id": "mf23-i17",
+          "reason": "A moved visit and updated sheet provide no colony, place or observation identity."
+        }
+      ],
+      "issues": [
+        "i05 is a cross-record naming cleanup, not evidence that the two Cedar colonies share an inspection context."
+      ]
+    },
+    {
+      "id": "mf24",
+      "groups": [
+        {
+          "id": "alder-house",
+          "members": [
+            "mf24-i01",
+            "mf24-i04",
+            "mf24-i08",
+            "mf24-i12",
+            "mf24-i18"
+          ],
+          "evidence": "AW-H concerns the main house's east tiled roof and utility-room inverter cupboard at 14 Alder Walk, pending a revised cable-route sketch."
+        },
+        {
+          "id": "linden-solar",
+          "members": [
+            "mf24-i02",
+            "mf24-i06",
+            "mf24-i11",
+            "mf24-i13",
+            "mf24-i17"
+          ],
+          "evidence": "LL-22 concerns 22 Linden Lane's west roof and existing pear-tree shade assessment between two array options."
+        },
+        {
+          "id": "quarry-solar",
+          "members": [
+            "mf24-i03",
+            "mf24-i09",
+            "mf24-i13",
+            "mf24-i16",
+            "mf24-i20"
+          ],
+          "evidence": "QC-8 concerns the Quarry Close slate roof, chimney-shadow layout review and corrected roof photograph compass annotation."
+        },
+        {
+          "id": "alder-studio",
+          "members": [
+            "mf24-i01",
+            "mf24-i05",
+            "mf24-i10",
+            "mf24-i14",
+            "mf24-i19"
+          ],
+          "evidence": "AW-S concerns the detached flat-roof studio, vent-constrained spacing and proposed inverter in storage beside the pottery sink."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "alder-house",
+          "alder-studio"
+        ],
+        [
+          "linden-solar",
+          "quarry-solar"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf24-i07",
+          "reason": "Both Alder Walk jobs involve an inverter and a cupboard/storage unit; no building, room or job selects one."
+        },
+        {
+          "id": "mf24-i15",
+          "reason": "A smaller array and revised assessment do not identify an address or job."
+        }
+      ],
+      "issues": []
+    }
+  ]
+}

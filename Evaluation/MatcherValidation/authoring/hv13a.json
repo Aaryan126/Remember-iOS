@@ -1,0 +1,227 @@
+{
+  "id": "hv13a",
+  "split": "calibration",
+  "storyFamily": "hv13",
+  "templateFamily": "hv13",
+  "threads": [
+    "relay-entries",
+    "relay-deck",
+    "home-router"
+  ],
+  "threadDescriptions": {
+    "relay-entries": "Submit accurate swimmer names and running order for the junior medley relay.",
+    "relay-deck": "Coordinate marshalling, lane access and on-deck staff for the junior relay session.",
+    "home-router": "Diagnose and replace the unreliable home wireless router."
+  },
+  "relatedThreads": [
+    [
+      "relay-entries",
+      "relay-deck"
+    ]
+  ],
+  "challenges": [
+    "shared_roster",
+    "correction",
+    "bridge",
+    "uncertainty"
+  ],
+  "items": [
+    {
+      "id": "hv13a-i01",
+      "text": "Junior medley entry draft: backstroke Nia, breaststroke Dev, butterfly Cal, freestyle Ruth. Need all four birth years before submitting.",
+      "modality": "note",
+      "memberships": [
+        "relay-entries"
+      ],
+      "rationale": "Defines team entry and stroke order."
+    },
+    {
+      "id": "hv13a-i02",
+      "text": "Home router drops both bands after twenty minutes. Modem lights stay steady; save the router log before restarting.",
+      "modality": "video",
+      "memberships": [
+        "home-router"
+      ],
+      "rationale": "Begins home network diagnosis."
+    },
+    {
+      "id": "hv13a-i03",
+      "text": "Relay deck plan: teams assemble by the shallow-end benches, then the marshal calls them to lane gates. Parents stay behind the barrier.",
+      "modality": "file",
+      "memberships": [
+        "relay-deck"
+      ],
+      "rationale": "Defines meet marshalling flow."
+    },
+    {
+      "id": "hv13a-i04",
+      "text": "Dev's parent confirmed birth year and surname spelling: Devan, no second n. Amend the junior medley form.",
+      "modality": "voice",
+      "memberships": [
+        "relay-entries"
+      ],
+      "rationale": "Completes identifying information for submitted swimmer."
+    },
+    {
+      "id": "hv13a-i05",
+      "text": "Deck volunteer Ellen can cover gates 1–3. Need one more person for 4–6 during junior relays.",
+      "modality": "note",
+      "memberships": [
+        "relay-deck"
+      ],
+      "rationale": "Assigns relay-session staff."
+    },
+    {
+      "id": "hv13a-i06",
+      "text": "Relay entry confirmation shows Ruth in butterfly. That's wrong: Cal swims butterfly, Ruth freestyle. Request correction before the entry deadline.",
+      "modality": "image",
+      "memberships": [
+        "relay-entries"
+      ],
+      "rationale": "Identifies error in recorded stroke assignment."
+    },
+    {
+      "id": "hv13a-i07",
+      "text": "Router log repeats overheating warning with nothing stacked above it. Supplier agreed to replacement under the existing warranty.",
+      "modality": "file",
+      "memberships": [
+        "home-router"
+      ],
+      "rationale": "Advances replacement of faulty home router."
+    },
+    {
+      "id": "hv13a-i08",
+      "text": "'Cal / 4 / by the bench' scribbled on a wet towel label.",
+      "modality": "image",
+      "memberships": [],
+      "rationale": "Name, number and location lack enough purpose to choose roster or deck work."
+    },
+    {
+      "id": "hv13a-i09",
+      "text": "Relay secretary corrected Cal and Ruth's strokes. The accepted order is now Nia, Dev, Cal, Ruth; save this version over the draft only on the print queue, not in the archive.",
+      "modality": "note",
+      "memberships": [
+        "relay-entries"
+      ],
+      "rationale": "Confirms corrected relay entry while preserving draft provenance."
+    },
+    {
+      "id": "hv13a-i10",
+      "text": "Our junior medley team drew lane 5. Update their accepted entry sheet with that assignment and give the 4–6 gate marshal the named stroke order, marking Ruth as the final swimmer so the team is called in sequence.",
+      "modality": "voice",
+      "memberships": [
+        "relay-entries",
+        "relay-deck"
+      ],
+      "rationale": "Updates official team sheet and actionable deck marshalling roster."
+    },
+    {
+      "id": "hv13a-i11",
+      "text": "New router arrived. Use the old network name so the printer can reconnect, but make a fresh admin password.",
+      "modality": "note",
+      "memberships": [
+        "home-router"
+      ],
+      "rationale": "Plans replacement-router setup without containing credentials."
+    },
+    {
+      "id": "hv13a-i12",
+      "text": "Relay start demonstration: gate marshal counts four swimmers, checks wristbands, then points them along the marked route. No shortcut across timing cables.",
+      "modality": "video",
+      "memberships": [
+        "relay-deck"
+      ],
+      "rationale": "Trains relay deck staff."
+    },
+    {
+      "id": "hv13a-i13",
+      "text": "Nia's family name has an accent missing on the programme proof. Ask entries desk to fix the junior medley team line.",
+      "modality": "file",
+      "memberships": [
+        "relay-entries"
+      ],
+      "rationale": "Corrects roster spelling."
+    },
+    {
+      "id": "hv13a-i14",
+      "text": "Ellen swapped shifts; Jo covers gates 1–3 for the relay session. Revised marshal list on the clipboard.",
+      "modality": "note",
+      "memberships": [
+        "relay-deck"
+      ],
+      "rationale": "Revises staffing assignment."
+    },
+    {
+      "id": "hv13a-i15",
+      "text": "Programme proof now spells all four relay surnames correctly, including Nia's accent. Parent checks complete.",
+      "modality": "image",
+      "memberships": [
+        "relay-entries"
+      ],
+      "rationale": "Verifies final names on team entry."
+    },
+    {
+      "id": "hv13a-i16",
+      "text": "Six? No, leave the old one.",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "No reliable task reference."
+    },
+    {
+      "id": "hv13a-i17",
+      "text": "Relay benches wet after warm-up. Put towels on the waiting area and check the barrier gap stays clear for the marshal.",
+      "modality": "image",
+      "memberships": [
+        "relay-deck"
+      ],
+      "rationale": "Prepares team marshalling area."
+    },
+    {
+      "id": "hv13a-i18",
+      "text": "Replacement router ran all evening without drops. Printer and laptop both rejoined; send the old unit back with supplier label.",
+      "modality": "note",
+      "memberships": [
+        "home-router"
+      ],
+      "rationale": "Verifies replacement and closes return."
+    },
+    {
+      "id": "hv13a-i19",
+      "text": "Relay entry desk asked for reserve swimmer details even though the four starters are unchanged. Add Ivo as reserve with his birth year.",
+      "modality": "note",
+      "memberships": [
+        "relay-entries"
+      ],
+      "rationale": "Adds reserve to relay registration."
+    },
+    {
+      "id": "hv13a-i20",
+      "text": "Junior relay marshal debrief: lane 5 team reached the gate in correct order, but the waiting benches need a larger sign next time.",
+      "modality": "voice",
+      "memberships": [
+        "relay-deck"
+      ],
+      "rationale": "Records relay-session logistics outcome."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv13a-i10",
+      "threads": [
+        "relay-entries",
+        "relay-deck"
+      ]
+    },
+    "revision": {
+      "earlier": "hv13a-i06",
+      "later": "hv13a-i09",
+      "thread": "relay-entries"
+    },
+    "rename": null,
+    "undo": {
+      "item": "hv13a-i19",
+      "wrongThread": "relay-deck",
+      "reason": "Hypothetical correction: adding reserve identity is entry administration and gives no marshalling instruction."
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "id": "hv19a",
+  "split": "evaluation",
+  "storyFamily": "hv19",
+  "templateFamily": "hv19",
+  "threads": [
+    "globe-loan",
+    "globe-crate",
+    "mask-return",
+    "archive-air",
+    "choir-score"
+  ],
+  "threadDescriptions": {
+    "globe-loan": "Agree and document the celestial globe loan to the Bay Museum exhibition.",
+    "globe-crate": "Design the globe's protective crate and arrange its outward transport.",
+    "mask-return": "Receive and reconcile a carved mask returning from an earlier loan.",
+    "archive-air": "Repair humidity control in the museum paper archive.",
+    "choir-score": "Prepare marked scores for a community choir rehearsal."
+  },
+  "relatedThreads": [
+    [
+      "globe-loan",
+      "globe-crate"
+    ],
+    [
+      "globe-crate",
+      "mask-return"
+    ]
+  ],
+  "challenges": [
+    "two_object_loans",
+    "contract_vs_logistics",
+    "bridge",
+    "revision",
+    "long_note"
+  ],
+  "items": [
+    {
+      "id": "hv19a-i01",
+      "text": "Bay Museum requests the celestial globe for Navigating at Night, four months from June. Loan committee needs their case specification and light-level plan before approval.",
+      "modality": "file",
+      "memberships": [
+        "globe-loan"
+      ],
+      "rationale": "Defines globe-loan authorization requirements."
+    },
+    {
+      "id": "hv19a-i02",
+      "text": "Returning mask from Ash Gallery due next Wednesday. Compare carved edge with the outgoing condition photos before signing receipt.",
+      "modality": "note",
+      "memberships": [
+        "mask-return"
+      ],
+      "rationale": "Begins return intake for a different object."
+    },
+    {
+      "id": "hv19a-i03",
+      "text": "Globe crate sketch: suspended inner cradle, no pressure on meridian ring. Outside width estimate 82 cm including foam and handles.",
+      "modality": "image",
+      "memberships": [
+        "globe-crate"
+      ],
+      "rationale": "Designs protective shipping crate."
+    },
+    {
+      "id": "hv19a-i04",
+      "text": "Please check the ring before signing. Message forwarded without attachment or sender context.",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "Object and document purpose are unclear from this isolated request."
+    },
+    {
+      "id": "hv19a-i05",
+      "text": "Paper archive humidity climbs whenever the supply fan stops. Technician wants a week of readings from the independent logger.",
+      "modality": "note",
+      "memberships": [
+        "archive-air"
+      ],
+      "rationale": "Diagnoses archive environmental system."
+    },
+    {
+      "id": "hv19a-i06",
+      "text": "Choir altos: pencilled breath after 'water', not before it. Make six copies of the marked score for Monday rehearsal.",
+      "modality": "image",
+      "memberships": [
+        "choir-score"
+      ],
+      "rationale": "Prepares musical rehearsal material."
+    },
+    {
+      "id": "hv19a-i07",
+      "text": "Bay sent the globe case drawing with a supported brass base and controlled lights. Committee approved the loan subject to the signed indemnity schedule.",
+      "modality": "file",
+      "memberships": [
+        "globe-loan"
+      ],
+      "rationale": "Advances formal globe-loan approval."
+    },
+    {
+      "id": "hv19a-i08",
+      "text": "Crate maker measured globe on its base: outside width must be 91 cm, replacing the 82 cm sketch. Larger handles included in the new figure; check the loading-door opening.",
+      "modality": "voice",
+      "memberships": [
+        "globe-crate"
+      ],
+      "rationale": "Corrects crate dimensions after measurement."
+    },
+    {
+      "id": "hv19a-i09",
+      "text": "Ash mask return condition sheet: old chip beside left eye unchanged, but new scrape on the underside of the stand. Photograph before moving it off the unpacking table.",
+      "modality": "image",
+      "memberships": [
+        "mask-return"
+      ],
+      "rationale": "Records return condition discrepancy."
+    },
+    {
+      "id": "hv19a-i10",
+      "text": "Courier route sheet has globe outward collection and Ash mask return on the same vehicle. Mask paperwork stays with receiving registrar; globe crate can load only after the return is unloaded.",
+      "modality": "note",
+      "memberships": [
+        "globe-crate",
+        "mask-return"
+      ],
+      "rationale": "Gives concrete sequencing and paperwork handling for both objects' transport/intake."
+    },
+    {
+      "id": "hv19a-i11",
+      "text": "Archive logger shows peaks at fan stoppages, not when the door opens. Service company bringing a replacement relay on Thursday.",
+      "modality": "file",
+      "memberships": [
+        "archive-air"
+      ],
+      "rationale": "Uses diagnostic evidence to schedule repair."
+    },
+    {
+      "id": "hv19a-i12",
+      "text": "Globe dispatch review with Bay: approve the loan schedule with the revised packed dimensions, and attach the signed case/light conditions to the agreement. Transport team must use a liftgate van because the completed 91 cm crate cannot go through the smaller side door. The host registrar will receive the sealed crate at the loading bay and send the seal photograph before their crew opens it. Committee approval alone is not our dispatch release; release comes after the crate maker confirms the cradle holds the base without touching the meridian ring. Pack a copy of the agreed handling diagram in the outer document pocket so nobody needs to break the seal to find it. Bay's registrar has checked the revised loan schedule and will return the signature page after their facilities team confirms the liftgate arrival slot.",
+      "modality": "note",
+      "memberships": [
+        "globe-loan",
+        "globe-crate"
+      ],
+      "rationale": "Substantive agreement amendments and detailed crate/transport release instructions."
+    },
+    {
+      "id": "hv19a-i13",
+      "text": "Choir director changed the alto breath: take it before 'water' after all, together with tenors. Mark the correction on all six rehearsal copies.",
+      "modality": "voice",
+      "memberships": [
+        "choir-score"
+      ],
+      "rationale": "Corrects prior score annotation."
+    },
+    {
+      "id": "hv19a-i14",
+      "text": "Ash Gallery agrees the mask stand scrape is new. Registrar will retain the comparison photos and record the accepted repair contribution against this return.",
+      "modality": "file",
+      "memberships": [
+        "mask-return"
+      ],
+      "rationale": "Resolves mask return condition discrepancy."
+    },
+    {
+      "id": "hv19a-i15",
+      "text": "Globe cradle test filmed with dummy load: base stays level through the ramp angle, meridian ring area remains clear. Crate maker signed release sheet.",
+      "modality": "video",
+      "memberships": [
+        "globe-crate"
+      ],
+      "rationale": "Verifies protective crate readiness."
+    },
+    {
+      "id": "hv19a-i16",
+      "text": "Bay globe agreement signed by both registrars. Loan dates remain June through September; exhibition credit line now includes the donor family.",
+      "modality": "note",
+      "memberships": [
+        "globe-loan"
+      ],
+      "rationale": "Finalizes loan agreement and credit."
+    },
+    {
+      "id": "hv19a-i17",
+      "text": "New archive relay fitted. Supply fan ran overnight and the paper-room logger stayed inside the set band; keep logging through Monday.",
+      "modality": "image",
+      "memberships": [
+        "archive-air"
+      ],
+      "rationale": "Tests archive-system repair."
+    },
+    {
+      "id": "hv19a-i18",
+      "text": "Globe van collected at the agreed bay. Crate seal and liftgate loading photographed; send tracking update to Bay registrar.",
+      "modality": "note",
+      "memberships": [
+        "globe-crate"
+      ],
+      "rationale": "Documents outward globe shipment."
+    },
+    {
+      "id": "hv19a-i19",
+      "text": "Mask return reconciled: receiving signature, scrape photographs and contribution agreement all filed. Move object back to its assigned store shelf.",
+      "modality": "note",
+      "memberships": [
+        "mask-return"
+      ],
+      "rationale": "Completes returned-object intake."
+    },
+    {
+      "id": "hv19a-i20",
+      "text": "Monday choir pack ready, six alto scores with the revised breath mark. Keep one crossed-out original so I remember which instruction changed.",
+      "modality": "file",
+      "memberships": [
+        "choir-score"
+      ],
+      "rationale": "Completes rehearsal preparation and preserves correction history."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv19a-i12",
+      "threads": [
+        "globe-loan",
+        "globe-crate"
+      ]
+    },
+    "revision": {
+      "earlier": "hv19a-i03",
+      "later": "hv19a-i08",
+      "thread": "globe-crate"
+    },
+    "rename": null,
+    "undo": {
+      "item": "hv19a-i16",
+      "wrongThread": "globe-crate",
+      "reason": "Hypothetical correction: signing loan dates and donor credit is agreement work, with no crate or transport action."
+    }
+  }
+}

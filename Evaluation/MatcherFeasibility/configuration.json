@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "experiment": "minilm-feasibility-v1",
+  "stageLimit": 1,
+  "stopAfterEveryCheckpoint": true,
+  "data": {"libraries": 30, "itemsPerLibrary": 20, "splits": {"train": 18, "development": 6, "test": 6}, "language": "english", "fictionalOnly": true},
+  "model": {"name": "microsoft/MiniLM-L12-H384-uncased", "manifest": "model-manifest.json", "classes": ["same", "related", "unrelated"], "pairProbabilityReduction": "mean_both_orientations", "referenceHeadSeed": 17},
+  "baseline": {"kind": "scaled_multinomial_logistic_regression", "C": [0.1, 1, 10], "classWeight": "balanced", "maxIter": 2000, "seed": 17},
+  "retrieval": {"semanticK": 5, "lexicalK": 5, "deduplicate": true, "excludeSelf": true, "tieBreak": "source_id", "unit": "within_library_source"},
+  "training": {"seeds": [17, 29, 41], "maxEpochs": 3, "learningRate": 0.00002, "weightDecay": 0.01, "effectiveBatchSize": 16, "microbatchSize": 8, "maximumPairTokens": 512, "saveEveryOptimizerSteps": 50, "saveEachEpoch": true, "localOnly": true},
+  "selection": {"split": "development", "minimumPrecision": 0.95, "minimumAcceptedPairs": 30, "objective": "macro_library_same_context_recall"},
+  "qualityGate": {"minimumTestPrecision": 0.95, "minimumAcceptedPairs": 30, "minimumRecallGain": 0.05, "maximumPrecisionDrop": 0.01, "minimumCandidateRecallAt10": 0.90, "productionCertification": false},
+  "conversionGate": {"precision": "fp16_first", "batchSize": 1, "pairTokenLengths": [256, 512], "minimumFixturePairs": 100, "maximumProbabilityDifference": 0.01, "minimumClassAgreement": 0.99},
+  "deviceGate": {"bundleIdentifier": "SimpleStudio.Remember.MatcherProbe", "coldLoads": 10, "minimumWarmMeasurements": 100, "shortlistPairs": 10, "warmShortlistP95Seconds": 1.0, "peakProcessMemoryMB": 500, "personalVaultAccess": false},
+  "resources": {"minimumFreeGiB": 10, "paidComputeAllowed": false, "phoneStages": [4, 6]},
+  "estimatesHours": {"1": [3, 5], "2": [2, 4], "3": [3, 6], "4": [1, 3], "5": [6, 12], "6": [2, 4]}
+}

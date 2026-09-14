@@ -1,0 +1,237 @@
+{
+  "id": "hv03b",
+  "split": "train",
+  "storyFamily": "hv03",
+  "templateFamily": "hv03",
+  "threads": [
+    "island-permit",
+    "ferry-bikes",
+    "night-sky",
+    "balcony-plants"
+  ],
+  "threadDescriptions": {
+    "island-permit": "Secure the overnight camping permit and pitch at Heron Island.",
+    "ferry-bikes": "Book and prepare bicycles for ferry transport to Heron Island.",
+    "night-sky": "Prepare a sky-photography session during the island stay.",
+    "balcony-plants": "Set up watering for balcony plants while away."
+  },
+  "relatedThreads": [
+    [
+      "island-permit",
+      "ferry-bikes"
+    ],
+    [
+      "island-permit",
+      "night-sky"
+    ],
+    [
+      "ferry-bikes",
+      "night-sky"
+    ]
+  ],
+  "challenges": [
+    "shared_location",
+    "booking_revision",
+    "multimedia",
+    "bridge"
+  ],
+  "items": [
+    {
+      "id": "hv03b-i01",
+      "text": "Heron Island overnight permits opened. Request two adults at the north meadow pitch for 18 May; no fires allowed.",
+      "modality": "file",
+      "memberships": [
+        "island-permit"
+      ],
+      "rationale": "Begins island campsite reservation."
+    },
+    {
+      "id": "hv03b-i02",
+      "text": "Tom's wide bike tyres may not fit ferry rack slots. Send the ferry office a side photo before reserving cycle spaces.",
+      "modality": "image",
+      "memberships": [
+        "ferry-bikes"
+      ],
+      "rationale": "Checks bicycle transport constraints."
+    },
+    {
+      "id": "hv03b-i03",
+      "text": "Island sky session: take the small tracker and a 24 mm lens. Want the beacon at the edge of the frame, not in the middle.",
+      "modality": "note",
+      "memberships": [
+        "night-sky"
+      ],
+      "rationale": "Defines intended photography composition and gear."
+    },
+    {
+      "id": "hv03b-i04",
+      "text": "Balcony pots dried out last trip. Trial a wick from the big bucket into each herb pot before we leave.",
+      "modality": "video",
+      "memberships": [
+        "balcony-plants"
+      ],
+      "rationale": "Begins home watering setup."
+    },
+    {
+      "id": "hv03b-i05",
+      "text": "North meadow permit provisional, reference HN-28. Ranger wants arrival ferry time before assigning the pitch.",
+      "modality": "note",
+      "memberships": [
+        "island-permit"
+      ],
+      "rationale": "Updates permit requirements."
+    },
+    {
+      "id": "hv03b-i06",
+      "text": "Ferry says wide tyres go on the floor straps. Two passenger tickets and two cycles held on the 10:40 boat.",
+      "modality": "voice",
+      "memberships": [
+        "ferry-bikes"
+      ],
+      "rationale": "Reserves passenger and bicycle transport."
+    },
+    {
+      "id": "hv03b-i07",
+      "text": "Tracker batteries held charge overnight. Run another test with the cold pack; the island can be windy after sunset.",
+      "modality": "note",
+      "memberships": [
+        "night-sky"
+      ],
+      "rationale": "Tests photography power supply."
+    },
+    {
+      "id": "hv03b-i08",
+      "text": "HN? 28? pencil rubbed out below the number.",
+      "modality": "image",
+      "memberships": [],
+      "rationale": "Partial identifier alone gives inadequate purpose."
+    },
+    {
+      "id": "hv03b-i09",
+      "text": "Herb wick trial flooded the mint tray. Raise bucket to the same level as the pots, not above them.",
+      "modality": "note",
+      "memberships": [
+        "balcony-plants"
+      ],
+      "rationale": "Corrects watering setup after failure."
+    },
+    {
+      "id": "hv03b-i10",
+      "text": "Ferry timetable correction from office: 10:40 sailing cancelled for inspection. Our two bikes and passengers moved to 12:10; confirmation attached.",
+      "modality": "file",
+      "memberships": [
+        "ferry-bikes"
+      ],
+      "rationale": "Explicitly revises ferry departure."
+    },
+    {
+      "id": "hv03b-i11",
+      "text": "Permit update for HN-28: give ranger the new 12:10 ferry arrival plan and request late pitch check-in. Ferry office also needs our camping permit number added to the bicycle group booking; reply to both confirmations.",
+      "modality": "note",
+      "memberships": [
+        "island-permit",
+        "ferry-bikes"
+      ],
+      "rationale": "Actionable coordination updates both permit and transport bookings."
+    },
+    {
+      "id": "hv03b-i12",
+      "text": "Beacon test frame from last scouting visit: even the short exposure flares across the centre. Put the camera east of the post and shade the lens with the hood.",
+      "modality": "image",
+      "memberships": [
+        "night-sky"
+      ],
+      "rationale": "Develops photographic setup from test image."
+    },
+    {
+      "id": "hv03b-i13",
+      "text": "Heron north meadow permit issued for two adults, one night. Ranger marked the pitch beyond the hand pump; print the no-fire conditions.",
+      "modality": "file",
+      "memberships": [
+        "island-permit"
+      ],
+      "rationale": "Confirms camping permit and conditions."
+    },
+    {
+      "id": "hv03b-i14",
+      "text": "Ferry loading rehearsal: unclip both panniers and tie the front wheel so it cannot turn while the wide-tyre bike is strapped down.",
+      "modality": "video",
+      "memberships": [
+        "ferry-bikes"
+      ],
+      "rationale": "Prepares bikes for ferry loading."
+    },
+    {
+      "id": "hv03b-i15",
+      "text": "Watering trial day two: mint tray damp, basil upright. Bucket line dropped about one centimetre; mark the full level before departure.",
+      "modality": "image",
+      "memberships": [
+        "balcony-plants"
+      ],
+      "rationale": "Verifies adjusted watering system."
+    },
+    {
+      "id": "hv03b-i16",
+      "text": "Remember the adapter. It's on the shelf.",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "No device or thread can be identified."
+    },
+    {
+      "id": "hv03b-i17",
+      "text": "Sky forecast note for Heron outing: if haze hides the stars, make a long exposure of the beacon reflection. Pack the neutral-density filter for that fallback.",
+      "modality": "note",
+      "memberships": [
+        "night-sky"
+      ],
+      "rationale": "Photography fallback and equipment choice."
+    },
+    {
+      "id": "hv03b-i18",
+      "text": "Heron permit printout now in the dry pouch. Check out with the ranger by ten Sunday so the pitch isn't marked occupied.",
+      "modality": "note",
+      "memberships": [
+        "island-permit"
+      ],
+      "rationale": "Prepares permit paperwork and checkout."
+    },
+    {
+      "id": "hv03b-i19",
+      "text": "Ferry cycle booking shows floor straps for both bikes and the 12:10 departure. Tom has a screenshot for the ticket office.",
+      "modality": "image",
+      "memberships": [
+        "ferry-bikes"
+      ],
+      "rationale": "Verifies corrected bicycle transport."
+    },
+    {
+      "id": "hv03b-i20",
+      "text": "Tripod feet washed; lens hood and spare tracker batteries in camera pouch. Beacon composition sketch taped inside.",
+      "modality": "note",
+      "memberships": [
+        "night-sky"
+      ],
+      "rationale": "Final equipment preparation for island photography."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv03b-i11",
+      "threads": [
+        "island-permit",
+        "ferry-bikes"
+      ]
+    },
+    "revision": {
+      "earlier": "hv03b-i06",
+      "later": "hv03b-i10",
+      "thread": "ferry-bikes"
+    },
+    "rename": null,
+    "undo": {
+      "item": "hv03b-i12",
+      "wrongThread": "island-permit",
+      "reason": "Hypothetical correction: a beacon photograph is photography planning, despite being taken on the same island."
+    }
+  }
+}

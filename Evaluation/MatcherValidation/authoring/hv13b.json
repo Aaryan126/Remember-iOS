@@ -1,0 +1,241 @@
+{
+  "id": "hv13b",
+  "split": "calibration",
+  "storyFamily": "hv13",
+  "templateFamily": "hv13",
+  "threads": [
+    "timing-repair",
+    "results-release",
+    "medal-order",
+    "access-seating",
+    "club-banners",
+    "bus-hire"
+  ],
+  "threadDescriptions": {
+    "timing-repair": "Repair and verify the lane-two touchpad timing fault before the invitational.",
+    "results-release": "Check and publish the invitational race results.",
+    "medal-order": "Order and receive awards for the invitational.",
+    "access-seating": "Arrange accessible spectator seating at the swim venue.",
+    "club-banners": "Produce a new reusable club banner.",
+    "bus-hire": "Book transport for an unrelated hiking club outing."
+  },
+  "relatedThreads": [
+    [
+      "timing-repair",
+      "results-release"
+    ],
+    [
+      "results-release",
+      "medal-order"
+    ],
+    [
+      "access-seating",
+      "results-release"
+    ]
+  ],
+  "challenges": [
+    "six_threads",
+    "identifier_overlap",
+    "result_revision",
+    "bridge"
+  ],
+  "items": [
+    {
+      "id": "hv13b-i01",
+      "text": "Lane two touchpad sometimes misses a finish. Test cable continuity first; don't assume the pad itself is dead.",
+      "modality": "video",
+      "memberships": [
+        "timing-repair"
+      ],
+      "rationale": "Defines timing-equipment repair."
+    },
+    {
+      "id": "hv13b-i02",
+      "text": "Invitational awards order: 48 medals with blue ribbons. Engraving is year and meet name only, no swimmer names.",
+      "modality": "file",
+      "memberships": [
+        "medal-order"
+      ],
+      "rationale": "Starts medal procurement."
+    },
+    {
+      "id": "hv13b-i03",
+      "text": "New club banner: turquoise background, white wave, no year so we can use it next season. Need a print proof.",
+      "modality": "note",
+      "memberships": [
+        "club-banners"
+      ],
+      "rationale": "Defines reusable club banner design."
+    },
+    {
+      "id": "hv13b-i04",
+      "text": "Hiking club bus quote for 22 people to Alder Pass. Deposit due Friday; wheelchair lift not requested for this booking.",
+      "modality": "voice",
+      "memberships": [
+        "bus-hire"
+      ],
+      "rationale": "Defines unrelated hiking transport."
+    },
+    {
+      "id": "hv13b-i05",
+      "text": "Swim spectator seating: reserve four wheelchair spaces at the west gallery and adjacent companion chairs. Lift key stays at reception.",
+      "modality": "note",
+      "memberships": [
+        "access-seating"
+      ],
+      "rationale": "Plans accessible seating at meet."
+    },
+    {
+      "id": "hv13b-i06",
+      "text": "Results release checklist: verify disqualifications against referee sheets before posting the invitational PDF. Initial draft has no relay splits.",
+      "modality": "file",
+      "memberships": [
+        "results-release"
+      ],
+      "rationale": "Sets race-results publication task."
+    },
+    {
+      "id": "hv13b-i07",
+      "text": "Touchpad fault follows lane-two cable when swapped to lane four. Replace that cable; keep the pad.",
+      "modality": "note",
+      "memberships": [
+        "timing-repair"
+      ],
+      "rationale": "Diagnoses timing issue to cable."
+    },
+    {
+      "id": "hv13b-i08",
+      "text": "48 blue, Friday, confirm proof",
+      "modality": "note",
+      "memberships": [],
+      "rationale": "Could describe an order, artwork or another item; lacks task identity."
+    },
+    {
+      "id": "hv13b-i09",
+      "text": "Printer's club banner proof is too dark to show the white wave detail. Ask for a lighter turquoise sample on the actual fabric.",
+      "modality": "image",
+      "memberships": [
+        "club-banners"
+      ],
+      "rationale": "Checks banner proof."
+    },
+    {
+      "id": "hv13b-i10",
+      "text": "Invitational provisional results give heat 3 lane two a 1:08.42, but hand timers both recorded about 1:06. Flag it for referee review.",
+      "modality": "image",
+      "memberships": [
+        "results-release"
+      ],
+      "rationale": "Identifies suspicious published race time."
+    },
+    {
+      "id": "hv13b-i11",
+      "text": "Results/timing handoff: new lane-two cable passes twenty finishes, so reopen the lane for afternoon heats. For the earlier heat 3 result, use the referee-approved backup 1:06.38 in place of 1:08.42 and retain the failed automatic record in the audit attachment.",
+      "modality": "note",
+      "memberships": [
+        "timing-repair",
+        "results-release"
+      ],
+      "rationale": "Verifies equipment repair and corrects a specific race result with provenance."
+    },
+    {
+      "id": "hv13b-i12",
+      "text": "Medal supplier short of blue ribbon. Approved navy for all 48; delivery still Thursday.",
+      "modality": "voice",
+      "memberships": [
+        "medal-order"
+      ],
+      "rationale": "Revises award specification."
+    },
+    {
+      "id": "hv13b-i13",
+      "text": "West gallery ramp blocked by a stack of chairs in setup photo. Venue steward agreed to clear it and mark the four reserved wheelchair spaces.",
+      "modality": "image",
+      "memberships": [
+        "access-seating"
+      ],
+      "rationale": "Fixes accessible spectator route."
+    },
+    {
+      "id": "hv13b-i14",
+      "text": "Alder Pass hiking bus booked for 22, deposit paid. Driver pickup is library car park, not the swimming pool.",
+      "modality": "file",
+      "memberships": [
+        "bus-hire"
+      ],
+      "rationale": "Confirms hiking transport and pickup."
+    },
+    {
+      "id": "hv13b-i15",
+      "text": "Replace the suspect lane-two cable's label with 'failed continuity test' and keep it off the spare rack. New cable stayed clean for afternoon races.",
+      "modality": "voice",
+      "memberships": [
+        "timing-repair"
+      ],
+      "rationale": "Confirms repair and isolates failed equipment."
+    },
+    {
+      "id": "hv13b-i16",
+      "text": "Invitational results PDF now includes corrected heat 3 time and signed disqualification codes. Release after the final referee read-through.",
+      "modality": "note",
+      "memberships": [
+        "results-release"
+      ],
+      "rationale": "Prepares verified publication."
+    },
+    {
+      "id": "hv13b-i17",
+      "text": "Left it at reception. Could someone collect?",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "Object is unidentified despite a shared location."
+    },
+    {
+      "id": "hv13b-i18",
+      "text": "All 48 medals delivered with approved navy ribbons. Counted twelve per tray; engraving matches the invitational proof.",
+      "modality": "image",
+      "memberships": [
+        "medal-order"
+      ],
+      "rationale": "Verifies award delivery."
+    },
+    {
+      "id": "hv13b-i19",
+      "text": "Banner fabric sample approved in lighter turquoise. Print one 2-metre banner with reinforced corner eyelets.",
+      "modality": "file",
+      "memberships": [
+        "club-banners"
+      ],
+      "rationale": "Approves final reusable banner order."
+    },
+    {
+      "id": "hv13b-i20",
+      "text": "West gallery setup checked: four wheelchair bays and four companion seats, clear route from the lift. Reception has the key.",
+      "modality": "video",
+      "memberships": [
+        "access-seating"
+      ],
+      "rationale": "Verifies accessible seating arrangements."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv13b-i11",
+      "threads": [
+        "timing-repair",
+        "results-release"
+      ]
+    },
+    "revision": {
+      "earlier": "hv13b-i10",
+      "later": "hv13b-i11",
+      "thread": "results-release"
+    },
+    "rename": null,
+    "undo": {
+      "item": "hv13b-i14",
+      "wrongThread": "access-seating",
+      "reason": "Hypothetical correction: the bus record belongs to the hiking outing; its pickup clarification does not arrange swim spectator access."
+    }
+  }
+}

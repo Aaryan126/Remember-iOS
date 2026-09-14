@@ -1,0 +1,237 @@
+{
+  "id": "hv04a",
+  "split": "train",
+  "storyFamily": "hv04",
+  "templateFamily": "hv04",
+  "threads": [
+    "survey-practice",
+    "survey-booking",
+    "study-circle",
+    "dental-visit"
+  ],
+  "threadDescriptions": {
+    "survey-practice": "Improve traverse-adjustment skills for the surveying professional exam.",
+    "survey-booking": "Complete exam registration and required access arrangements.",
+    "study-circle": "Organize peer study sessions and a shared question bank.",
+    "dental-visit": "Arrange and attend a routine dental appointment."
+  },
+  "relatedThreads": [
+    [
+      "survey-practice",
+      "survey-booking"
+    ],
+    [
+      "survey-practice",
+      "study-circle"
+    ],
+    [
+      "survey-booking",
+      "study-circle"
+    ]
+  ],
+  "challenges": [
+    "related_learning_tasks",
+    "deadline_collision",
+    "correction",
+    "bridge"
+  ],
+  "items": [
+    {
+      "id": "hv04a-i01",
+      "text": "Traverse practice plan: work six closed-loop questions this week, then redo any closure errors without looking at the worked answers.",
+      "modality": "note",
+      "memberships": [
+        "survey-practice"
+      ],
+      "rationale": "Sets subject-specific practice objective."
+    },
+    {
+      "id": "hv04a-i02",
+      "text": "Surveying exam portal: registration incomplete until photo ID and access-arrangement form are uploaded. Deadline the 14th.",
+      "modality": "file",
+      "memberships": [
+        "survey-booking"
+      ],
+      "rationale": "Defines exam registration requirements."
+    },
+    {
+      "id": "hv04a-i03",
+      "text": "Dental receptionist offered the 14th at 09:00 for check-up. Ask whether that includes cleaning.",
+      "modality": "voice",
+      "memberships": [
+        "dental-visit"
+      ],
+      "rationale": "Arranges unrelated dental visit with overlapping date."
+    },
+    {
+      "id": "hv04a-i04",
+      "text": "Study circle: Mei and Rowan can meet Wednesdays. Reserve the quiet room and give everyone two questions to contribute.",
+      "modality": "note",
+      "memberships": [
+        "study-circle"
+      ],
+      "rationale": "Organizes recurring peer group."
+    },
+    {
+      "id": "hv04a-i05",
+      "text": "Loop exercise 4: I keep applying the eastings correction to the northings column. Circle the column labels before calculating.",
+      "modality": "image",
+      "memberships": [
+        "survey-practice"
+      ],
+      "rationale": "Diagnoses practice mistake."
+    },
+    {
+      "id": "hv04a-i06",
+      "text": "Exam access form sent with evidence. Portal still says pending; save the confirmation number and check Friday.",
+      "modality": "note",
+      "memberships": [
+        "survey-booking"
+      ],
+      "rationale": "Tracks registration accommodation request."
+    },
+    {
+      "id": "hv04a-i07",
+      "text": "Wednesday room booking needs a group name. Use 'Survey circle' and book ninety minutes, no projector.",
+      "modality": "file",
+      "memberships": [
+        "study-circle"
+      ],
+      "rationale": "Reserves study-group facility."
+    },
+    {
+      "id": "hv04a-i08",
+      "text": "'14, bring the form' on a sticky note without letterhead.",
+      "modality": "image",
+      "memberships": [],
+      "rationale": "Date and form reference do not resolve the appointment or registration."
+    },
+    {
+      "id": "hv04a-i09",
+      "text": "Correction to my traverse formula card: distribute angular misclosure evenly across angles here, not proportional to line length. My previous card mixed two different adjustment steps.",
+      "modality": "voice",
+      "memberships": [
+        "survey-practice"
+      ],
+      "rationale": "Corrects a specific previously used study method."
+    },
+    {
+      "id": "hv04a-i10",
+      "text": "Dentist confirmed the 14th appointment includes cleaning. Appointment card says arrive ten minutes early for updated history form.",
+      "modality": "file",
+      "memberships": [
+        "dental-visit"
+      ],
+      "rationale": "Confirms dental appointment details."
+    },
+    {
+      "id": "hv04a-i11",
+      "text": "Rowan's proposed study questions duplicate Mei's. Keep Mei's two and ask Rowan for instrument-error problems before Wednesday.",
+      "modality": "note",
+      "memberships": [
+        "study-circle"
+      ],
+      "rationale": "Curates group question contributions."
+    },
+    {
+      "id": "hv04a-i12",
+      "text": "Bring my corrected angular-misclosure card to the Survey circle and run a ten-minute worked example. Add the six traverse questions I practised to the shared bank, with the eastings/northings mistake highlighted in the answer notes.",
+      "modality": "note",
+      "memberships": [
+        "survey-practice",
+        "study-circle"
+      ],
+      "rationale": "Uses personal practice findings and concretely updates group session and bank."
+    },
+    {
+      "id": "hv04a-i13",
+      "text": "Exam centre approved a low-distraction seat. Registration is complete once I pay the remaining fee by Monday.",
+      "modality": "voice",
+      "memberships": [
+        "survey-booking"
+      ],
+      "rationale": "Updates exam registration status and next step."
+    },
+    {
+      "id": "hv04a-i14",
+      "text": "Timed traverse attempt: 42 minutes, closure within tolerance. Still wasted five minutes copying coordinates twice.",
+      "modality": "image",
+      "memberships": [
+        "survey-practice"
+      ],
+      "rationale": "Measures practice performance."
+    },
+    {
+      "id": "hv04a-i15",
+      "text": "Quiet-room staff moved our Survey circle to upstairs room 2 for this Wednesday only. Send the room number with the question sheet.",
+      "modality": "note",
+      "memberships": [
+        "study-circle"
+      ],
+      "rationale": "Updates study meeting logistics."
+    },
+    {
+      "id": "hv04a-i16",
+      "text": "Portal receipt: exam fee paid, low-distraction seat noted, candidate entry saved offline.",
+      "modality": "file",
+      "memberships": [
+        "survey-booking"
+      ],
+      "rationale": "Completes exam booking."
+    },
+    {
+      "id": "hv04a-i17",
+      "text": "Too early. move to next week?",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "No identifiable event."
+    },
+    {
+      "id": "hv04a-i18",
+      "text": "Dental visit done. Next routine check-up card filed; buy the smaller brush heads recommended during cleaning.",
+      "modality": "note",
+      "memberships": [
+        "dental-visit"
+      ],
+      "rationale": "Follow-up to dental appointment."
+    },
+    {
+      "id": "hv04a-i19",
+      "text": "I redid loop exercise 4 from blank paper. No swapped columns this time; annotate the old wrong solution rather than deleting it.",
+      "modality": "note",
+      "memberships": [
+        "survey-practice"
+      ],
+      "rationale": "Tracks improvement and preserves earlier practice provenance."
+    },
+    {
+      "id": "hv04a-i20",
+      "text": "Survey circle attendance five. The short worked example fit; leave more time for everyone's instrument-error answers next meeting.",
+      "modality": "voice",
+      "memberships": [
+        "study-circle"
+      ],
+      "rationale": "Reflects on completed peer session."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv04a-i12",
+      "threads": [
+        "survey-practice",
+        "study-circle"
+      ]
+    },
+    "revision": {
+      "earlier": "hv04a-i05",
+      "later": "hv04a-i19",
+      "thread": "survey-practice"
+    },
+    "rename": null,
+    "undo": {
+      "item": "hv04a-i08",
+      "wrongThread": "survey-booking",
+      "reason": "Hypothetical correction: date 14 and an unnamed form also fit the dental visit, so the source remains uncertain."
+    }
+  }
+}

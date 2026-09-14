@@ -1,0 +1,21 @@
+{
+  "artifacts": {
+    "pilot-audit.json": "a7a2bc1127bbb038d0a9b6f914d0b890e6d78d8d5acd0ba5ec2b5e884f1c360c",
+    "pilot-gold.json": "9a260a44941ce70bf9e01a0414180e0c4c7a692f6fca1eed9247bf94e9d57705",
+    "pilot-inputs.json": "909b80fcf56ff7938195ae401806e4306383428de6741d7142fb2969e2d94653"
+  },
+  "benchmarkComplete": false,
+  "checkpoint": "P0",
+  "next": "P1: author, review and freeze full split-separated benchmark",
+  "sources": {
+    "Evaluation/MatcherValidation/PLAN.md": "27d94fbce737b078575d4d9455984a7be45b160996867b31c68bfcbf4c4c8651",
+    "Evaluation/MatcherValidation/contract.json": "2dc12b8d6ae7daacab7329f4e7678d25866663df77b73af24b88f5de412e2053",
+    "Evaluation/MatcherValidation/pilot-review.md": "00535bf82b2271928730aa596f109cd93174ef6179e7585c421d2fffe07f06ff",
+    "Evaluation/MatcherValidation/pilot.json": "64b36e4cb88202ac2caabd988e5c62ce46bfc22214da6d21b5a041ac8d9c4a35",
+    "scripts/matcher-validation/prepare.py": "0fe380b0403d4f187fee050cb19f88f7011944ba318915a3c3928ac14808d4be",
+    "scripts/matcher-validation/test_validation.py": "7a78d3faec8f746c3702d8a04e8d07ad6a8e29aa2f05b9ec50f73458b0480355",
+    "scripts/matcher-validation/validation_policy.py": "3619b4492422f93e96f42378b353fd157e858b5a8d9a2440438ac00cbdd06991"
+  },
+  "stopForReview": true,
+  "trainingStarted": false
+}

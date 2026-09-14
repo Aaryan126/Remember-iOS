@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "reviewer-a",
+  "model": "unknown",
+  "blindToAuthorLabels": true,
+  "blindToPredictions": true,
+  "libraries": [
+    {
+      "id": "mf19",
+      "groups": [
+        {"id":"quarry-finch","members":["mf19-i01","mf19-i06","mf19-i07","mf19-i11","mf19-i16","mf19-i19"],"evidence":"AQ-41, seven-bolt Copper Finch behind the split alder; fifth-hanger correction and Mara's photographs continue the same inspection."},
+        {"id":"ridge-finch","members":["mf19-i02","mf19-i10","mf19-i15","mf19-i16","mf19-i20"],"evidence":"GR-09 is the unbolted Glass Ridge Copper Finch reached by the eastern saddle, with the second-ledge flake."},
+        {"id":"tin-lark","members":["mf19-i03","mf19-i07","mf19-i08","mf19-i14","mf19-i18"],"evidence":"AQ-42 identifies Tin Lark's two-ring station, Tessa's purple-bag photos, and the corrected drainage-notch drawing."},
+        {"id":"moon-ladder","members":["mf19-i05","mf19-i09","mf19-i12","mf19-i17"],"evidence":"PH-12 concerns the orange panel-C indoor line and replacement third foothold awaiting manager sign-off."}
+      ],
+      "relatedGroupPairs": [["quarry-finch","tin-lark"],["quarry-finch","ridge-finch"]],
+      "ambiguous": [
+        {"id":"mf19-i04","reason":"Finch and a wider photograph cannot distinguish the two Copper Finch surveys."},
+        {"id":"mf19-i13","reason":"An unnamed corrected sketch and person with pictures lack a route or distinguishing feature; multiple inspections have amended drawings."}
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf20",
+      "groups": [
+        {"id":"orchard-french","members":["mf20-i01","mf20-i02","mf20-i07","mf20-i15","mf20-i19"],"evidence":"LO-FR, Jules, the full-game French glossary and formal vendor address identify the French release."},
+        {"id":"orchard-spanish","members":["mf20-i02","mf20-i03","mf20-i08","mf20-i10","mf20-i12","mf20-i17"],"evidence":"LO-ES issue 18 tracks the Spanish demo greenhouse grafting button and small-window width fix."},
+        {"id":"quiet-german","members":["mf20-i04","mf20-i09","mf20-i14","mf20-i18"],"evidence":"QE-DE concerns The Quiet Engine's German boiler valve, tooltip arrows, and corrected subtitle asset."},
+        {"id":"ferry-spanish","members":["mf20-i06","mf20-i10","mf20-i11","mf20-i16","mf20-i20"],"evidence":"SF-ES is Stone Ferry's Spanish kiosk destination and passenger-ticket caption work."}
+      ],
+      "relatedGroupPairs": [["orchard-french","orchard-spanish"],["orchard-spanish","ferry-spanish"]],
+      "ambiguous": [
+        {"id":"mf20-i05","reason":"Changed wording and a next package do not identify a game or locale."},
+        {"id":"mf20-i13","reason":"Orchard and clipping at narrow width fit either the game demo or Stone Ferry's Orchard destination."}
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf21",
+      "groups": [
+        {"id":"relief-map","members":["mf21-i01","mf21-i06","mf21-i07","mf21-i11","mf21-i17"],"evidence":"MC-93 is Mount Vale's plaster relief with a lifted northeast corner and a side-profile examination."},
+        {"id":"wall-chart","members":["mf21-i02","mf21-i07","mf21-i08","mf21-i12","mf21-i16","mf21-i18"],"evidence":"MC-71 is the 1892 Eastmere wall chart with hanging rod, red backing stamp, and corrected legend-tear measurement."},
+        {"id":"pocket-map","members":["mf21-i04","mf21-i10","mf21-i15","mf21-i16","mf21-i20"],"evidence":"MC-72 is the 1910 Eastmere pocket map in a blue case with a cracked central fold and corrected North Pier label."},
+        {"id":"drainage-atlas","members":["mf21-i05","mf21-i09","mf21-i13","mf21-i19"],"evidence":"MC-88 is the Briar drainage atlas, plate seven's tide mark, cradle, and associated tracing."}
+      ],
+      "relatedGroupPairs": [["wall-chart","relief-map"],["wall-chart","pocket-map"]],
+      "ambiguous": [
+        {"id":"mf21-i03","reason":"Eastmere and damaged lettering do not select the wall chart versus pocket map; the atlas also uses Eastmere."},
+        {"id":"mf21-i14","reason":"Orientation and support are unspecified and concern multiple objects in this library."}
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf22",
+      "groups": [
+        {"id":"adult-lantern","members":["mf22-i02","mf22-i06","mf22-i07","mf22-i11","mf22-i14","mf22-i17"],"evidence":"Omar's River Steps adults perform the evening Lantern Set with kitchen-side entry and black trunk; finale-count changes retain the production."},
+        {"id":"turning-home","members":["mf22-i03","mf22-i10","mf22-i14","mf22-i15","mf22-i19"],"evidence":"Dev's Cedar Wheels Turning Home at Linden Court uses facing lines and the central fabric lantern."},
+        {"id":"youth-lantern","members":["mf22-i04","mf22-i06","mf22-i09","mf22-i16","mf22-i20"],"evidence":"Nia's River Steps youth matinee uses the garden door, red case, and diagonal corrected from twelve to eleven dancers."},
+        {"id":"tide-waltz","members":["mf22-i05","mf22-i08","mf22-i13","mf22-i18"],"evidence":"Bea's Harbor Circle Tide Waltz at Dockside uses blue chair markers and a seated opening with revised rise timing."}
+      ],
+      "relatedGroupPairs": [["adult-lantern","youth-lantern"],["adult-lantern","turning-home"]],
+      "ambiguous": [
+        {"id":"mf22-i01","reason":"Lantern Set opening count could refer to either youth or adult production."},
+        {"id":"mf22-i12","reason":"Spare marker tape and tomorrow's run lack a production-specific anchor."}
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf23",
+      "groups": [
+        {"id":"roof-cedar","members":["mf23-i01","mf23-i05","mf23-i06","mf23-i11","mf23-i16"],"evidence":"MR-C identifies unpainted Mill Roof Cedar beside the west skylight and its interrupted landing-board count."},
+        {"id":"meadow-birch","members":["mf23-i02","mf23-i10","mf23-i13","mf23-i19"],"evidence":"ML-B identifies the blue Meadow Lane Birch and moisture images with a corrected corner orientation."},
+        {"id":"orchard-cedar","members":["mf23-i03","mf23-i05","mf23-i07","mf23-i12","mf23-i15","mf23-i18"],"evidence":"OG-C is green Orchard Gate Cedar by the rain barrel; entrance-side numbering corrects the brood photo to frame four."},
+        {"id":"orchard-willow","members":["mf23-i04","mf23-i09","mf23-i14","mf23-i15","mf23-i20"],"evidence":"OG-W is yellow Willow by the gatepost and its repeated assembled-feeder weights."}
+      ],
+      "relatedGroupPairs": [["roof-cedar","orchard-cedar"],["orchard-cedar","orchard-willow"]],
+      "ambiguous": [
+        {"id":"mf23-i08","reason":"Cedar and taking a camera do not distinguish the orchard and rooftop colonies."},
+        {"id":"mf23-i17","reason":"Morning visit and updated sheet identify no colony or observation task."}
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf24",
+      "groups": [
+        {"id":"alder-house","members":["mf24-i01","mf24-i04","mf24-i08","mf24-i12","mf24-i18"],"evidence":"AW-H concerns the main house's east tiled roof and utility-room cupboard cable route at 14 Alder Walk."},
+        {"id":"alder-studio","members":["mf24-i01","mf24-i05","mf24-i10","mf24-i14","mf24-i19"],"evidence":"AW-S concerns the detached flat-roof studio, low vent, and cupboard next to its pottery sink."},
+        {"id":"linden-solar","members":["mf24-i02","mf24-i06","mf24-i11","mf24-i13","mf24-i17"],"evidence":"LL-22 is the Linden Lane west-roof solar quote with pear-tree shade and timed photos."},
+        {"id":"quarry-solar","members":["mf24-i03","mf24-i09","mf24-i13","mf24-i16","mf24-i20"],"evidence":"QC-8 is Quarry Close's slate-roof layout with chimney shadow and corrected roof orientation."}
+      ],
+      "relatedGroupPairs": [["alder-house","alder-studio"],["linden-solar","quarry-solar"]],
+      "ambiguous": [
+        {"id":"mf24-i07","reason":"Both Alder Walk jobs involve an inverter cupboard; no building or room distinguishes them."},
+        {"id":"mf24-i15","reason":"The smaller array and revised assessment could concern multiple solar quotes."}
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf25",
+      "groups": [
+        {"id":"cove-deployment","members":["mf25-i01","mf25-i07","mf25-i08","mf25-i17"],"evidence":"Kelp Cove overnight passive logging, mount and anchor work, and deployment levels requiring H8 calibration correction form one deployment."},
+        {"id":"tank-calibration","members":["mf25-i02","mf25-i07","mf25-i12","mf25-i16"],"evidence":"Reference-tank gain/sensitivity sweeps, H8 speaker remounting, and temperature records continue the calibration work."},
+        {"id":"echotag","members":["mf25-i03","mf25-i09","mf25-i14","mf25-i19"],"evidence":"EchoTag maintains reviewed event names and resolves audio-label disagreements; selected clips feed QuietWater."},
+        {"id":"harbor-pulse","members":["mf25-i05","mf25-i10","mf25-i15","mf25-i20"],"evidence":"Harbor Pulse's east-pier active transmitted-sweep trials track receiver positions and reflection delays."},
+        {"id":"quietwater","members":["mf25-i06","mf25-i11","mf25-i14","mf25-i18"],"evidence":"QuietWater is the visitor listening installation with loop order, accessible captions, and headphone maintenance."}
+      ],
+      "relatedGroupPairs": [["cove-deployment","tank-calibration"],["echotag","quietwater"]],
+      "ambiguous": [
+        {"id":"mf25-i04","reason":"Listening session, samples, and revised notes could describe annotation or the visitor installation, with no named project."},
+        {"id":"mf25-i13","reason":"A cleaner second trace and original settings could refer to tank calibration or active acoustic trials."}
+      ],
+      "issues": ["mf25-i17 names an eastern anchor while mf25-i01 describes a western logger. Cove deployment is the only supported deployment context, so i17 is retained there; direction alone does not establish another project or independently supported context."]
+    },
+    {
+      "id": "mf26",
+      "groups": [
+        {"id":"fenwick-operations","members":["mf26-i01","mf26-i07","mf26-i09","mf26-i16"],"evidence":"Fenwick Junction operator cards continue layout running, goods-loop feed repairs, and a borrowed opening-demo railcar."},
+        {"id":"copper-scenery","members":["mf26-i02","mf26-i08","mf26-i13","mf26-i20"],"evidence":"Copper Ridge scenery preparation and transport include quarry-wall packing, bridge protection, and the embankment finish."},
+        {"id":"wiring-workshop","members":["mf26-i03","mf26-i10","mf26-i14","mf26-i18"],"evidence":"The beginner turnout-wiring teaching bench needs point motors, a demonstration circuit, diagram, and audience space."},
+        {"id":"exhibition-access","members":["mf26-i04","mf26-i11","mf26-i14","mf26-i19"],"evidence":"Exhibition stewards manage queues, access aisles, ticket desk and step-free entrance, including workshop waiting-line placement."},
+        {"id":"stock-loans","members":["mf26-i05","mf26-i07","mf26-i12","mf26-i17"],"evidence":"The lender desk tracks borrowed-stock condition, individual loan numbers, signed receipts, and returns including the silver railcar."}
+      ],
+      "relatedGroupPairs": [["fenwick-operations","stock-loans"],["wiring-workshop","exhibition-access"]],
+      "ambiguous": [
+        {"id":"mf26-i06","reason":"The green one is not identified as rolling stock or another object; a color alone cannot securely identify the loan task."},
+        {"id":"mf26-i15","reason":"Updated diagram, clearance and gap could involve layout, scenery packing, or exhibition access."}
+      ],
+      "issues": ["The exhibition appears in Copper Ridge's transport notes and Fenwick's opening demonstration, but the sources do not establish a specific shared dependency with entrance/access management; no extra group relationship is inferred from general event participation."]
+    },
+    {
+      "id": "mf27",
+      "groups": [
+        {"id":"glass-fulfilment","members":["mf27-i01","mf27-i07","mf27-i10","mf27-i14"],"evidence":"Glass Orchard issue four print/subscriber fulfilment tracks replacement reserves, postage and dispatch credits."},
+        {"id":"counterlight","members":["mf27-i02","mf27-i08","mf27-i13","mf27-i18"],"evidence":"Counterlight cooperative consignment accounting distinguishes sales, returns and donated copies, including Ash Window Books."},
+        {"id":"screendoor","members":["mf27-i03","mf27-i07","mf27-i12","mf27-i15"],"evidence":"ScreenDoor produces the accessible edition with image descriptions, reading order, keyboard navigation and repaired headings."},
+        {"id":"night-fold","members":["mf27-i04","mf27-i09","mf27-i17","mf27-i20"],"evidence":"Night Fold's stall work covers its pillar-backed table, shifts, cash tally and bundle price cards."},
+        {"id":"pocket-shelf","members":["mf27-i06","mf27-i11","mf27-i13","mf27-i19"],"evidence":"Pocket Shelf is a touring lending collection with removable sleeves, host-library dates, and an incoming donated bundle."}
+      ],
+      "relatedGroupPairs": [["glass-fulfilment","screendoor"],["counterlight","pocket-shelf"]],
+      "ambiguous": [
+        {"id":"mf27-i05","reason":"Remaining copies and an amended sheet could refer to subscriber dispatch, retail stock or lending circulation."},
+        {"id":"mf27-i16","reason":"Unidentified stock counts, promises and damage do not anchor a particular ledger or delivery."}
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf28",
+      "groups": [
+        {"id":"cup-fixtures","members":["mf28-i01","mf28-i07","mf28-i08","mf28-i15"],"evidence":"Cedar Cup court/results desk manages score correction, warmup and tipoff schedule updates."},
+        {"id":"chair-service","members":["mf28-i02","mf28-i09","mf28-i13","mf28-i18"],"evidence":"The equipment service bay handles chair repair cards, mechanic checks, removed parts and newcomer loan-chair rolling checks."},
+        {"id":"cup-shuttle","members":["mf28-i03","mf28-i07","mf28-i10","mf28-i17"],"evidence":"Cedar Cup shuttle dispatch manages secured chair capacity, hotel pickups, manifest changes and loading-bay access."},
+        {"id":"cup-officials","members":["mf28-i04","mf28-i11","mf28-i16","mf28-i20"],"evidence":"Cedar Cup referee coordination covers briefing scenarios, crew assignments and corrected example materials."},
+        {"id":"open-hoops","members":["mf28-i06","mf28-i12","mf28-i13","mf28-i19"],"evidence":"Open Hoops newcomer coaching continues introductory passing/turning drills, group readiness and explanation access."}
+      ],
+      "relatedGroupPairs": [["cup-fixtures","cup-shuttle"],["chair-service","open-hoops"]],
+      "ambiguous": [
+        {"id":"mf28-i05","reason":"Second group, checks and desk are unnamed and fit several operational tasks."},
+        {"id":"mf28-i14","reason":"An unspecified spare beside a door lacks an object or operational owner."}
+      ],
+      "issues": ["Cedar Cup is a common event across fixtures, transport, officials and some service records. Groups use the separately evidenced operational tasks; common event membership alone is not treated as an explicit relationship. mf28-i11 references game assignment but expressly leaves game order unchanged, so it remains in officials coordination only."]
+    },
+    {
+      "id": "mf29",
+      "groups": [
+        {"id":"frost-finch","members":["mf29-i01","mf29-i07","mf29-i09","mf29-i15"],"evidence":"Frost Finch maps cabinet temperature by probe position and load, correcting probe seven's gasket contact."},
+        {"id":"seal-sparrow","members":["mf29-i02","mf29-i08","mf29-i13","mf29-i19"],"evidence":"Seal Sparrow compares pouch seams and moisture ingress; affected barcodes create a joint custody-label test."},
+        {"id":"wake-wren","members":["mf29-i03","mf29-i07","mf29-i12","mf29-i16"],"evidence":"Wake Wren follows thawed seed germination and corrected normal-seedling counts, linked to Frost Finch storage positions."},
+        {"id":"hold-heron","members":["mf29-i04","mf29-i11","mf29-i17","mf29-i20"],"evidence":"Hold Heron tests outage backup endurance, restart delay and distinction between power duration and temperature-limit duration."},
+        {"id":"trace-tern","members":["mf29-i06","mf29-i10","mf29-i13","mf29-i18"],"evidence":"Trace Tern qualifies labels, unreadable/mismatch handling and custody handoff records, including exposed pouch barcodes."}
+      ],
+      "relatedGroupPairs": [["frost-finch","wake-wren"],["seal-sparrow","trace-tern"]],
+      "ambiguous": [
+        {"id":"mf29-i05","reason":"Second batch, changed readings and an acceptance limit do not identify a named trial."},
+        {"id":"mf29-i14","reason":"Unspecified sensor placement and setup could concern different measurement trials; no project or apparatus identifies it."}
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf30",
+      "groups": [
+        {"id":"harbor-fabrication","members":["mf30-i01","mf30-i07","mf30-i09","mf30-i18"],"evidence":"Hands on Harbor full-size relief fabrication iterates quay edges, inlet depth/width, coating and insert fit."},
+        {"id":"harbor-audio","members":["mf30-i02","mf30-i08","mf30-i13","mf30-i17"],"evidence":"Hands on Harbor audio editing revises tactile directions, names the quay ridge and adjusts instruction timing."},
+        {"id":"touch-routes","members":["mf30-i03","mf30-i10","mf30-i14","mf30-i20"],"evidence":"Touch Routes is the school-loan tile kit with teacher cards, classroom dispatch and corrected four-tile inventory."},
+        {"id":"harbor-study","members":["mf30-i04","mf30-i11","mf30-i13","mf30-i19"],"evidence":"Hands on Harbor visitor study measures independent navigation, avoids leading questions and retests revised audio."},
+        {"id":"harbor-care","members":["mf30-i05","mf30-i07","mf30-i12","mf30-i15"],"evidence":"Hands on Harbor care trials compare coating wear, wipe formulations and equalized cleaning contact time."}
+      ],
+      "relatedGroupPairs": [["harbor-fabrication","harbor-care"],["harbor-audio","harbor-study"]],
+      "ambiguous": [
+        {"id":"mf30-i06","reason":"Lower edge, wording and next session suggest several Harbor tasks but do not establish exactly which workstream(s) the comment addresses."},
+        {"id":"mf30-i16","reason":"New version, fresh group and copies could refer to relief prototypes or classroom materials, without a distinguishing project anchor."}
+      ],
+      "issues": ["Four workstreams explicitly share the continuing Hands on Harbor project name. I use the separately evidenced fabrication, audio, study and care tasks as contexts, with only the documented coating handoff and audio retest as related pairs. The contract permits project or task contexts without defining which granularity takes precedence, so an umbrella-project reading would produce different pair labels despite equally literal source evidence."]
+    }
+  ]
+}

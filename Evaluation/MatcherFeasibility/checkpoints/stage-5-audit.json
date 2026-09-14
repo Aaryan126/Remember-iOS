@@ -1,0 +1,85 @@
+{
+  "at": "2026-09-11T07:49:29.826887+00:00",
+  "audited": true,
+  "stage5": {
+    "verified": true,
+    "complete": true,
+    "files": 10374,
+    "externalFiles": 96,
+    "completeSHA256": "316a288748307c4e1c8d4c4138e185c334ee42ed7573147be389cb577f954731"
+  },
+  "auditorSHA256": "9c7cc95e144da770c950e6347d1b7b0a31cb374a0069c3c72a52c6c3fd4a2fe8",
+  "developmentThresholdsIndependentlyRecomputed": 9,
+  "developmentEvaluations": [
+    {
+      "seed": 17,
+      "epoch": 1,
+      "qualifies": false,
+      "independentRank": null
+    },
+    {
+      "seed": 17,
+      "epoch": 2,
+      "qualifies": false,
+      "independentRank": null
+    },
+    {
+      "seed": 17,
+      "epoch": 3,
+      "qualifies": false,
+      "independentRank": null
+    },
+    {
+      "seed": 29,
+      "epoch": 1,
+      "qualifies": false,
+      "independentRank": null
+    },
+    {
+      "seed": 29,
+      "epoch": 2,
+      "qualifies": false,
+      "independentRank": null
+    },
+    {
+      "seed": 29,
+      "epoch": 3,
+      "qualifies": false,
+      "independentRank": null
+    },
+    {
+      "seed": 41,
+      "epoch": 1,
+      "qualifies": false,
+      "independentRank": null
+    },
+    {
+      "seed": 41,
+      "epoch": 2,
+      "qualifies": false,
+      "independentRank": null
+    },
+    {
+      "seed": 41,
+      "epoch": 3,
+      "qualifies": false,
+      "independentRank": null
+    }
+  ],
+  "trainingPairsByClass": {
+    "unrelated": 1712,
+    "same": 903,
+    "related": 212,
+    "uncertain": 593
+  },
+  "testResultsOpened": false,
+  "qualityPassed": false,
+  "recoveryFilesRetained": 76,
+  "authorizedRecoveryFilesRotated": 0,
+  "livePauseRestoredAtStep": 2,
+  "testDrivenTuningPerformed": false,
+  "limitations": [
+    "Source/metric/integrity audit, not an independent human validation of synthetic labels.",
+    "MPS continuation was exercised; exact bitwise training replay is not claimed."
+  ]
+}

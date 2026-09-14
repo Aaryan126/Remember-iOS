@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "experiment": "hybrid-validation-v1",
+  "status": "prospective-preparation-not-a-model-result",
+  "minimumPrecision": 0.95,
+  "maximumPrecisionDrop": 0.01,
+  "minimumMacroRecallGain": 0.05,
+  "minimumAcceptedKnown": 30,
+  "seeds": [17, 29, 41],
+  "requiredSplits": {"train": 24, "calibration": 12, "evaluation": 12},
+  "itemsPerLibrary": 20,
+  "librariesPerStoryFamily": 2,
+  "nearDuplicateJaccard": 0.85,
+  "newStorageCapGiB": 4,
+  "freeSpaceReserveGiB": 10,
+  "pilotMayQualify": false,
+  "openOldFinalTest": false,
+  "phoneOrProductionChanges": false
+}

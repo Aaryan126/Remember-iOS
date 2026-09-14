@@ -1,0 +1,1724 @@
+{
+  "schemaVersion": 1,
+  "libraries": [
+    {
+      "id": "mf19",
+      "split": "development",
+      "domain": "climbing route inspections",
+      "templateFamily": "field-notebook-and-anchor-register",
+      "contexts": [
+        {
+          "id": "mf19-c1",
+          "description": "Reinspect Copper Finch, the bolted route in Alder Quarry's west bay, under work order AQ-41."
+        },
+        {
+          "id": "mf19-c2",
+          "description": "Reinspect Tin Lark, the neighboring bolted route in Alder Quarry's west bay, under work order AQ-42."
+        },
+        {
+          "id": "mf19-c3",
+          "description": "Survey the trad route Copper Finch at Glass Ridge under work order GR-09."
+        },
+        {
+          "id": "mf19-c4",
+          "description": "Inspect the indoor training route Moon Ladder at Plover Hall under work order PH-12."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf19-c1",
+          "mf19-c2"
+        ],
+        [
+          "mf19-c1",
+          "mf19-c3"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf19-i01",
+          "text": "Field book, AQ-41: Copper Finch starts behind the split alder in the quarry's west bay. Count seven bolts before the chain station. The pale streak below bolt four gives us a repeatable photo reference; Mara has the initial pictures.",
+          "memberships": [
+            "mf19-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Reinspect Copper Finch, the bolted route in Alder Quarry's west bay, under work order AQ-41.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf19-i02",
+          "text": "GR-09 covers Copper Finch on Glass Ridge, a natural-protection route reached from the eastern saddle. Its key inspection feature is a detached-looking flake at the second ledge; there are no installed bolts on this line.",
+          "memberships": [
+            "mf19-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Survey the trad route Copper Finch at Glass Ridge under work order GR-09.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf19-i03",
+          "text": "AQ-42 / Tin Lark: left of the quarry Finch, starting at the square drainage notch. Five bolts lead to two rings. For this inspection Tessa is tracking the right ring's movement, not the hangers along the climb.",
+          "memberships": [
+            "mf19-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Reinspect Tin Lark, the neighboring bolted route in Alder Quarry's west bay, under work order AQ-42.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf19-i04",
+          "text": "Loose pocket note: 'Finch — return for a wider photograph before the next review.' No venue, feature, work-order number, or photographer appears on the paper.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it.",
+          "tags": [
+            "insufficient-evidence",
+            "shared-term"
+          ]
+        },
+        {
+          "id": "mf19-i05",
+          "text": "PH-12 opening check at Plover Hall. Moon Ladder is the orange indoor training line on panel C; the rotating foothold is the third orange hold from the floor. The wall manager has the panel diagram.",
+          "memberships": [
+            "mf19-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Inspect the indoor training route Moon Ladder at Plover Hall under work order PH-12.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf19-i06",
+          "text": "AQ-41 correction. Yesterday's sketch numbered the suspect hanger as four. Counting from the ground makes it five; the pale streak remains below the actual fourth bolt. Replace the sketch, then repeat that close photograph before deciding what work the route needs.",
+          "memberships": [
+            "mf19-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Reinspect Copper Finch, the bolted route in Alder Quarry's west bay, under work order AQ-41.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf19-i07",
+          "text": "Alder Quarry west-bay visit plan: inspect Copper Finch under AQ-41 first, then Tin Lark under AQ-42. They share the approach closure and camera tripod. The Finch's hanger close-up and the Lark's ring-station panorama are separate deliverables for that one visit.",
+          "memberships": [
+            "mf19-c1",
+            "mf19-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly schedules both named quarry route inspections and their shared logistics.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf19-i08",
+          "text": "Tin Lark return sheet: the right ring moved when unloaded; the left did not. Tessa put a purple tie on the camera bag so these photos can be matched to AQ-42. Obtain a second view of both rings together.",
+          "memberships": [
+            "mf19-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Reinspect Tin Lark, the neighboring bolted route in Alder Quarry's west bay, under work order AQ-42.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf19-i09",
+          "text": "Moon Ladder maintenance slip: panel C's third foothold has been replaced, but the opening checklist remains unsigned until the manager tests it. Add the old hold's photograph to PH-12 so its position can be reconstructed.",
+          "memberships": [
+            "mf19-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Inspect the indoor training route Moon Ladder at Plover Hall under work order PH-12.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf19-i10",
+          "text": "Glass Ridge Finch, voice memo: approaching from the saddle, the flake makes a hollow sound near its lower edge. That is an observation for the specialist, not a clearance decision. Photograph the whole second ledge before another close-up.",
+          "memberships": [
+            "mf19-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Survey the trad route Copper Finch at Glass Ridge under work order GR-09.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf19-i11",
+          "text": "The quarry Finch file needs the fifth hanger photo retaken.",
+          "memberships": [
+            "mf19-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Reinspect Copper Finch, the bolted route in Alder Quarry's west bay, under work order AQ-41.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf19-i12",
+          "text": "The orange line on panel C still awaits manager sign-off.",
+          "memberships": [
+            "mf19-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Inspect the indoor training route Moon Ladder at Plover Hall under work order PH-12.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf19-i13",
+          "text": "Unattached voice fragment: 'The corrected sketch still needs signing; ask the person with the pictures.' The recording contains no route name or location.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project.",
+          "tags": [
+            "insufficient-evidence"
+          ]
+        },
+        {
+          "id": "mf19-i14",
+          "text": "Purple-bag pictures received; AQ-42 still lacks the wide station shot.",
+          "memberships": [
+            "mf19-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Reinspect Tin Lark, the neighboring bolted route in Alder Quarry's west bay, under work order AQ-42.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf19-i15",
+          "text": "The eastern-saddle flake photos now sit in GR-09's pending folder.",
+          "memberships": [
+            "mf19-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Survey the trad route Copper Finch at Glass Ridge under work order GR-09.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf19-i16",
+          "text": "Index repair: both the Alder Quarry and Glass Ridge surveys are titled Copper Finch. Add AQ-41 to the seven-bolt quarry folder and GR-09 to the eastern-saddle flake folder. The duplicate name caused a photograph to land in the wrong survey.",
+          "memberships": [
+            "mf19-c1",
+            "mf19-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Directly concerns distinguishing and repairing the two same-named route inspection records.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf19-i17",
+          "text": "Plover Hall correction: the replacement foothold is orange, like the rest of Moon Ladder. 'Yellow' in my purchase note describes the supplier's packet, not a route-color change. PH-12 should continue using the orange line in the location field.",
+          "memberships": [
+            "mf19-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Inspect the indoor training route Moon Ladder at Plover Hall under work order PH-12.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf19-i18",
+          "text": "Revised Tin Lark sketch at Alder Quarry: drainage notch is triangular, not square. The start has not moved; our drawing was careless. Tessa confirmed the two-ring station in the earlier pictures, so retain those observations and amend only the approach annotation.",
+          "memberships": [
+            "mf19-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Reinspect Tin Lark, the neighboring bolted route in Alder Quarry's west bay, under work order AQ-42.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf19-i19",
+          "text": "Mara's upload finally includes the straight-on close-up, but the oblique view catches a shadow across the metal and cannot establish whether the dark line is a surface mark. The images belong to the seven-bolt line behind the split alder. I marked the inspection incomplete and wrote a return visit into AQ-41. Nobody has signed the clearance box. We should compare the new photograph with the first visit using the pale streak as the locator, because the corrected numbering alone will be easy to misread.",
+          "memberships": [
+            "mf19-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Reinspect Copper Finch, the bolted route in Alder Quarry's west bay, under work order AQ-41.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf19-i20",
+          "text": "Correction to GR-09 field transcription: the ledge is roughly waist high above our stance, not a waist wide. The audio says 'high'. This does not revise the route description or remove the outstanding assessment of the flake on the ridge Finch.",
+          "memberships": [
+            "mf19-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Survey the trad route Copper Finch at Glass Ridge under work order GR-09.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf20",
+      "split": "development",
+      "domain": "indie game localization",
+      "templateFamily": "string-bugs-and-release-chat",
+      "contexts": [
+        {
+          "id": "mf20-c1",
+          "description": "Localize Lantern Orchard's Spanish demo, tracked as LO-ES, including its greenhouse tutorial."
+        },
+        {
+          "id": "mf20-c2",
+          "description": "Localize Lantern Orchard's French full release, tracked as LO-FR, including its greenhouse tutorial."
+        },
+        {
+          "id": "mf20-c3",
+          "description": "Localize Stone Ferry's Spanish release, tracked as SF-ES, including its ticket kiosk."
+        },
+        {
+          "id": "mf20-c4",
+          "description": "Localize The Quiet Engine's German release, tracked as QE-DE, including its boiler puzzle."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf20-c1",
+          "mf20-c2"
+        ],
+        [
+          "mf20-c1",
+          "mf20-c3"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf20-i01",
+          "text": "French release correction: the greenhouse string we marked as missing is present in the full-game bundle. Its identifier changed from guide_seed_3 to guide_graft_3. Jules verified the French line; update the lookup in the LO-FR checklist.",
+          "memberships": [
+            "mf20-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize Lantern Orchard's French full release, tracked as LO-FR, including its greenhouse tutorial.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf20-i02",
+          "text": "Lantern Orchard localization sync: LO-ES demo and LO-FR full release both consume the greenhouse button layout. The UI width correction should be checked with the Spanish short label and the French longer label before the shared screen prefab is accepted.",
+          "memberships": [
+            "mf20-c1",
+            "mf20-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Names both language projects and a common layout dependency.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf20-i03",
+          "text": "LO-ES issue 18: the Lantern Orchard demo teaches grafting in the greenhouse. Our Spanish glossary uses 'brote' for the new shoot. The tutorial button gets only twelve visible characters at the smallest supported window.",
+          "memberships": [
+            "mf20-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize Lantern Orchard's Spanish demo, tracked as LO-ES, including its greenhouse tutorial.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf20-i04",
+          "text": "QE-DE puzzle note: The Quiet Engine's German boiler clues refer to a valve called Lantern. The name is etched on the mechanism, so the glossary treats it as a label rather than an instruction to light something.",
+          "memberships": [
+            "mf20-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize The Quiet Engine's German release, tracked as QE-DE, including its boiler puzzle.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf20-i05",
+          "text": "Unlinked reminder: 'The wording changed; check the next package before approval.' The pasted note has no game title, language, speaker, or issue number.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project.",
+          "tags": [
+            "insufficient-evidence"
+          ]
+        },
+        {
+          "id": "mf20-i06",
+          "text": "SF-ES ticket: Stone Ferry's Spanish kiosk truncates the destination 'Orchard'. It is a station name inside this ferry game. The kiosk has a separate narrow-font setting that the dialogue boxes do not use.",
+          "memberships": [
+            "mf20-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize Stone Ferry's Spanish release, tracked as SF-ES, including its ticket kiosk.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf20-i07",
+          "text": "Jules settled the winter-market address in LO-FR: use the formal form throughout the vendor exchange. The greenhouse guide remains informal. Both speakers appear in Lantern Orchard's French release, so note the speaker distinction in the glossary.",
+          "memberships": [
+            "mf20-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize Lantern Orchard's French full release, tracked as LO-FR, including its greenhouse tutorial.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf20-i08",
+          "text": "Spanish demo correction for Lantern Orchard: issue 18 was filed against the dialogue bubble, but the clipped string belongs to the greenhouse button. Keep the approved translation; first try the UI team's width fix in LO-ES.",
+          "memberships": [
+            "mf20-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize Lantern Orchard's Spanish demo, tracked as LO-ES, including its greenhouse tutorial.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf20-i09",
+          "text": "The German boiler screen in The Quiet Engine shows the Lantern label correctly, but its tooltip swaps inlet and outlet. I linked the scene capture to QE-DE and asked the translator to compare both arrows before revising the sentence.",
+          "memberships": [
+            "mf20-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize The Quiet Engine's German release, tracked as QE-DE, including its boiler puzzle.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf20-i10",
+          "text": "Spanish terminology office hours will cover LO-ES's grafting vocabulary and SF-ES's passenger-ticket correction. They are two game deliveries with one language reviewer. Send the Lantern Orchard greenhouse screenshot and the Stone Ferry kiosk screenshot in the same agenda.",
+          "memberships": [
+            "mf20-c1",
+            "mf20-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly coordinates review work for both Spanish game localizations.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf20-i11",
+          "text": "Stone Ferry Spanish screenshot review: switching the kiosk to the approved narrow font restores the whole destination. The remaining ticket-printer caption still overlaps the coin icon. Track that caption under SF-ES, not the font change.",
+          "memberships": [
+            "mf20-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize Stone Ferry's Spanish release, tracked as SF-ES, including its ticket kiosk.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf20-i12",
+          "text": "LO-ES greenhouse button fits now; capture the small-window screenshot tomorrow.",
+          "memberships": [
+            "mf20-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Localize Lantern Orchard's Spanish demo, tracked as LO-ES, including its greenhouse tutorial.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf20-i13",
+          "text": "Paste from an unlabeled chat: 'Orchard still clips at narrow width; translation is approved.' No game title, locale, string identifier, or screenshot accompanies the message.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it.",
+          "tags": [
+            "insufficient-evidence",
+            "shared-term"
+          ]
+        },
+        {
+          "id": "mf20-i14",
+          "text": "QE-DE valve tooltip approved; the German audio subtitle remains stale.",
+          "memberships": [
+            "mf20-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Localize The Quiet Engine's German release, tracked as QE-DE, including its boiler puzzle.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf20-i15",
+          "text": "LO-FR vendor review reopened: one informal reply survived yesterday's pass.",
+          "memberships": [
+            "mf20-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Localize Lantern Orchard's French full release, tracked as LO-FR, including its greenhouse tutorial.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf20-i16",
+          "text": "The ferry kiosk coin-icon overlap survives in today's SF-ES build.",
+          "memberships": [
+            "mf20-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Localize Stone Ferry's Spanish release, tracked as SF-ES, including its ticket kiosk.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf20-i17",
+          "text": "Chat recap for the twelve-character grafting button: the wider control fits in the small-window build, though its focus border still touches the neighboring seed icon. That observation is about Lantern Orchard's Spanish demo. The translator has already approved the word, and changing it again would disguise a layout bug. I reopened issue 18 for the UI owner and attached the exact window dimensions, along with the new screenshot showing the full button text. The screenshot should stay with the LO-ES build report.",
+          "memberships": [
+            "mf20-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize Lantern Orchard's Spanish demo, tracked as LO-ES, including its greenhouse tutorial.",
+          "tags": [
+            "project-anchor",
+            "long-form",
+            "late-clue"
+          ]
+        },
+        {
+          "id": "mf20-i18",
+          "text": "Release-chat correction for The Quiet Engine: the stale German line is a subtitle asset, not voice audio. No recording session is needed. Rebuild the subtitle bundle for QE-DE and replay the boiler sequence with captions enabled.",
+          "memberships": [
+            "mf20-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize The Quiet Engine's German release, tracked as QE-DE, including its boiler puzzle.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf20-i19",
+          "text": "LO-FR release sheet: Lantern Orchard's French full game includes the greenhouse tutorial and the winter market. Jules owns the French glossary; the first review question is whether the market vendor addresses the player formally.",
+          "memberships": [
+            "mf20-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize Lantern Orchard's French full release, tracked as LO-FR, including its greenhouse tutorial.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf20-i20",
+          "text": "Correction to the SF-ES glossary request: 'boarding pass' refers to a passenger ticket, not the kiosk's maintenance card. The scene screenshot shows the player buying a river crossing. Ask for the passenger term throughout that exchange.",
+          "memberships": [
+            "mf20-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Localize Stone Ferry's Spanish release, tracked as SF-ES, including its ticket kiosk.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf21",
+      "split": "development",
+      "domain": "restoration of maps",
+      "templateFamily": "conservation-treatment-journal",
+      "contexts": [
+        {
+          "id": "mf21-c1",
+          "description": "Restore the 1892 fictional Eastmere harbor wall chart, accession MC-71, with its torn soundings legend."
+        },
+        {
+          "id": "mf21-c2",
+          "description": "Restore the 1910 fictional Eastmere harbor pocket map, accession MC-72, with its cracked central fold."
+        },
+        {
+          "id": "mf21-c3",
+          "description": "Restore the fictional Briar County drainage atlas, accession MC-88, focused on plate seven."
+        },
+        {
+          "id": "mf21-c4",
+          "description": "Restore the fictional Mount Vale school relief map, accession MC-93, with a lifted plaster corner."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf21-c1",
+          "mf21-c2"
+        ],
+        [
+          "mf21-c1",
+          "mf21-c4"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf21-i01",
+          "text": "MC-93 is Mount Vale School's relief map, a plaster terrain model on a wooden base. Its northeast corner is lifted, and the painted harbor bears the same generic soundings key used in several teaching aids.",
+          "memberships": [
+            "mf21-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the fictional Mount Vale school relief map, accession MC-93, with a lifted plaster corner.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf21-i02",
+          "text": "MC-71 intake: Eastmere harbor wall chart, dated 1892. A tear crosses the soundings legend at lower right. The backing carries a red inventory stamp, and the hanging rod remains attached along the upper edge.",
+          "memberships": [
+            "mf21-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the 1892 fictional Eastmere harbor wall chart, accession MC-71, with its torn soundings legend.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf21-i03",
+          "text": "Uncaptioned desk slip: 'Eastmere needs another close photograph of the damaged lettering.' Neither an accession number nor the object's format is supplied.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it.",
+          "tags": [
+            "insufficient-evidence",
+            "shared-term"
+          ]
+        },
+        {
+          "id": "mf21-i04",
+          "text": "MC-72 intake: Eastmere harbor pocket map, dated 1910, folded into a blue cloth case. The central fold has cracked through two harbor labels. Unlike the wall format, this object has no hanging rod.",
+          "memberships": [
+            "mf21-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the 1910 fictional Eastmere harbor pocket map, accession MC-72, with its cracked central fold.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf21-i05",
+          "text": "MC-88, Briar County drainage atlas: plate seven has a brown tide mark across its marsh legend. The map uses 'Eastmere' for an inland drainage district; its bound atlas format and plate number identify the object.",
+          "memberships": [
+            "mf21-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the fictional Briar County drainage atlas, accession MC-88, focused on plate seven.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf21-i06",
+          "text": "Mount Vale relief map examination: the lifted plaster corner has a fine crack toward the mountain ridge. Support blocks are under the wooden base, not touching the paint. Add a side-profile image to MC-93 before discussing an adhesive.",
+          "memberships": [
+            "mf21-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the fictional Mount Vale school relief map, accession MC-93, with a lifted plaster corner.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf21-i07",
+          "text": "The imaging session pairs MC-71's flat soundings legend with MC-93's raised, painted harbor key. Use the same color target for the Eastmere wall chart and Mount Vale relief map, then take an additional side view for the plaster object.",
+          "memberships": [
+            "mf21-c1",
+            "mf21-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicit imaging coordination names both accession projects and their different physical forms.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf21-i08",
+          "text": "The wall chart's soundings-legend tear measures 34 millimeters after flattening the curled edge. My initial 43 millimeters included a crease. Amend the MC-71 condition diagram; no treatment decision follows from the corrected length alone.",
+          "memberships": [
+            "mf21-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the 1892 fictional Eastmere harbor wall chart, accession MC-71, with its torn soundings legend.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf21-i09",
+          "text": "Plate seven's tide mark is visible in both normal and transmitted-light photographs. The Briar atlas binding stays closed outside the cradle. No wet treatment has been authorized; MC-88 currently records examination and sample planning only.",
+          "memberships": [
+            "mf21-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the fictional Briar County drainage atlas, accession MC-88, focused on plate seven.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf21-i10",
+          "text": "Pocket Eastmere map update: the blue case is stable enough for photography. The brittle central fold still needs support during opening. Put the unfolded view and the closed-case view together in MC-72's condition record.",
+          "memberships": [
+            "mf21-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the 1910 fictional Eastmere harbor pocket map, accession MC-72, with its cracked central fold.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf21-i11",
+          "text": "MC-93 corner profile uploaded; no adhesive treatment has begun yet.",
+          "memberships": [
+            "mf21-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Restore the fictional Mount Vale school relief map, accession MC-93, with a lifted plaster corner.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf21-i12",
+          "text": "MC-71 legend repair tissue sample awaits the conservator's review.",
+          "memberships": [
+            "mf21-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Restore the 1892 fictional Eastmere harbor wall chart, accession MC-71, with its torn soundings legend.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf21-i13",
+          "text": "MC-88 plate-seven cradle angle reduced; the gutter now rests comfortably.",
+          "memberships": [
+            "mf21-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Restore the fictional Briar County drainage atlas, accession MC-88, focused on plate seven.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf21-i14",
+          "text": "Scrap tucked under a ruler: 'Correct orientation before approving support.' There is no object name, diagram, or accompanying accession label.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project.",
+          "tags": [
+            "insufficient-evidence"
+          ]
+        },
+        {
+          "id": "mf21-i15",
+          "text": "The blue-case harbor map remains on the folding support.",
+          "memberships": [
+            "mf21-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Restore the 1910 fictional Eastmere harbor pocket map, accession MC-72, with its cracked central fold.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf21-i16",
+          "text": "Eastmere display planning joins MC-71, the 1892 wall chart, and MC-72, the 1910 pocket map. Photograph the same North Pier area on both for the exhibition comparison, while retaining each object's own treatment record and accession label.",
+          "memberships": [
+            "mf21-c1",
+            "mf21-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Requests work on both Eastmere map restoration objects for a shared display.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf21-i17",
+          "text": "School relief map correction: our first photograph was rotated, so the lifted corner was labeled southeast. The compass rose on MC-93 establishes northeast. Update the orientation arrows without changing the recorded crack outline.",
+          "memberships": [
+            "mf21-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the fictional Mount Vale school relief map, accession MC-93, with a lifted plaster corner.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf21-i18",
+          "text": "Treatment journal, wall-sized Eastmere chart: the tissue trial is still on the sample sheet, not on the object. The red stamp on the backing remains visible in our photographs, and the upper hanging rod is supported on foam for the inspection. I added raking-light images of the lower-right legend because the curl made the original condition drawing hard to interpret. Those images belong to accession MC-71. The next review should consider the corrected tear measurement and the trial's appearance together before approving a repair.",
+          "memberships": [
+            "mf21-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the 1892 fictional Eastmere harbor wall chart, accession MC-71, with its torn soundings legend.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf21-i19",
+          "text": "Briar drainage atlas correction: the loose sheet beside plate seven is a later tracing, not plate eight. Photograph its watermark separately and update MC-88's component list. The tide-mark observation on the bound seventh plate remains unchanged.",
+          "memberships": [
+            "mf21-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the fictional Briar County drainage atlas, accession MC-88, focused on plate seven.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf21-i20",
+          "text": "Correction for MC-72: the crack crosses the North Pier label and the Ferry Steps label, not South Pier. My handwritten N looked like an S. Revise the diagram for the 1910 pocket map before the support design is finalized.",
+          "memberships": [
+            "mf21-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Restore the 1910 fictional Eastmere harbor pocket map, accession MC-72, with its cracked central fold.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf22",
+      "split": "development",
+      "domain": "community dance showcases",
+      "templateFamily": "rehearsal-calls-and-production-messages",
+      "contexts": [
+        {
+          "id": "mf22-c1",
+          "description": "Produce River Steps youth group's Lantern Set for the Saturday matinee at Juniper Hall."
+        },
+        {
+          "id": "mf22-c2",
+          "description": "Produce River Steps adult group's Lantern Set for the Saturday evening at Juniper Hall."
+        },
+        {
+          "id": "mf22-c3",
+          "description": "Produce the Harbor Circle seniors' Tide Waltz showcase at Dockside Pavilion."
+        },
+        {
+          "id": "mf22-c4",
+          "description": "Produce the Cedar Wheels inclusive group's Turning Home showcase at Linden Court."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf22-c1",
+          "mf22-c2"
+        ],
+        [
+          "mf22-c2",
+          "mf22-c4"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf22-i01",
+          "text": "Message forwarded without a sender: 'Lantern Set needs the opening count checked again.' The text has no cast group, show time, or leader.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it.",
+          "tags": [
+            "insufficient-evidence",
+            "shared-term"
+          ]
+        },
+        {
+          "id": "mf22-i02",
+          "text": "Evening call, Juniper Hall: River Steps adults perform Lantern Set at seven. Omar leads eight dancers; their opening is a circle from the kitchen-side door. Lantern props are stored in the group's black trunk.",
+          "memberships": [
+            "mf22-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce River Steps adult group's Lantern Set for the Saturday evening at Juniper Hall.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf22-i03",
+          "text": "Linden Court access rehearsal: Cedar Wheels present Turning Home. Four wheelchair dancers and four standing dancers start in two facing lines. Dev coordinates the wide turn around the central lantern prop.",
+          "memberships": [
+            "mf22-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce the Cedar Wheels inclusive group's Turning Home showcase at Linden Court.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf22-i04",
+          "text": "Matinee call, Juniper Hall: River Steps youth present Lantern Set at two. Nia leads twelve dancers, and the opening diagonal enters from the garden-side door. The scarf basket travels with the youth group's red case.",
+          "memberships": [
+            "mf22-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce River Steps youth group's Lantern Set for the Saturday matinee at Juniper Hall.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf22-i05",
+          "text": "Dockside Pavilion rehearsal: Harbor Circle seniors dance Tide Waltz with a seated opening and a supported rise on the second musical phrase. Bea coordinates the six performers and brings the blue chair markers.",
+          "memberships": [
+            "mf22-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce the Harbor Circle seniors' Tide Waltz showcase at Dockside Pavilion.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf22-i06",
+          "text": "Juniper Hall handover: River Steps youth's matinee Lantern Set ends before the adults' evening Lantern Set spacing call. Nia will leave the music stand for Omar. The red youth case exits through the garden door while the adult black trunk enters by the kitchen.",
+          "memberships": [
+            "mf22-c1",
+            "mf22-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Coordinates the shared venue handover between both River Steps showcases.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf22-i07",
+          "text": "Omar wants the adult Lantern Set circle to open earlier so the rear pair can see the audience. Try it during the seven o'clock show's spacing call. The kitchen-side entry stays, and the black trunk should wait backstage.",
+          "memberships": [
+            "mf22-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce River Steps adult group's Lantern Set for the Saturday evening at Juniper Hall.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf22-i08",
+          "text": "Bea's Tide Waltz note: the blue chair markers are too close to the pavilion pillar. Shift the entire seated opening one marked tile toward the water-side windows, then confirm every performer is comfortable with the revised path.",
+          "memberships": [
+            "mf22-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce the Harbor Circle seniors' Tide Waltz showcase at Dockside Pavilion.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf22-i09",
+          "text": "Nia's matinee correction: there are eleven dancers after a withdrawal, not twelve. Leave the garden-side entry and the music unchanged; shorten the opening diagonal by one place. This updates River Steps youth's Lantern Set blocking.",
+          "memberships": [
+            "mf22-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce River Steps youth group's Lantern Set for the Saturday matinee at Juniper Hall.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf22-i10",
+          "text": "Turning Home at Linden Court: Dev measured the taped turning area with the actual chairs and requested a wider gap beside the central lantern. Reposition the prop mark before the next run, then check the approach from both facing lines.",
+          "memberships": [
+            "mf22-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce the Cedar Wheels inclusive group's Turning Home showcase at Linden Court.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf22-i11",
+          "text": "Adult black trunk delivered; Omar's evening spacing call remains outstanding.",
+          "memberships": [
+            "mf22-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Produce River Steps adult group's Lantern Set for the Saturday evening at Juniper Hall.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf22-i12",
+          "text": "Backstage scrap: 'Bring the spare marker tape for tomorrow's run.' No hall, performer, dance title, or coordinator is named.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project.",
+          "tags": [
+            "insufficient-evidence"
+          ]
+        },
+        {
+          "id": "mf22-i13",
+          "text": "Dockside blue markers moved; Bea will check the rise tomorrow.",
+          "memberships": [
+            "mf22-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Produce the Harbor Circle seniors' Tide Waltz showcase at Dockside Pavilion.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf22-i14",
+          "text": "Omar and Dev agreed to share the spare fabric lantern: River Steps adults can use it at Juniper Hall in the evening after Cedar Wheels finish Turning Home at Linden Court. Confirm collection time on both production sheets before arranging transport.",
+          "memberships": [
+            "mf22-c2",
+            "mf22-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Links the adult Lantern Set and Turning Home through an explicit shared prop transfer.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf22-i15",
+          "text": "Cedar Wheels lantern mark shifted; Dev's full-group run is pending.",
+          "memberships": [
+            "mf22-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Produce the Cedar Wheels inclusive group's Turning Home showcase at Linden Court.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf22-i16",
+          "text": "Youth red case packed; Nia still needs the matinee cue sheet.",
+          "memberships": [
+            "mf22-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Produce River Steps youth group's Lantern Set for the Saturday matinee at Juniper Hall.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf22-i17",
+          "text": "Correction for River Steps adults: the seven o'clock Lantern Set has nine dancers because the understudy joins the finale. Omar updated the circle diagram. Only the finale count changes; the opening still begins with eight.",
+          "memberships": [
+            "mf22-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce River Steps adult group's Lantern Set for the Saturday evening at Juniper Hall.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf22-i18",
+          "text": "Tide Waltz correction from Harbor Circle: the rise starts on phrase three, after a repeated introduction. The earlier sheet counted the repeat as part of phrase one. Bea has annotated the score for the Dockside showcase.",
+          "memberships": [
+            "mf22-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce the Harbor Circle seniors' Tide Waltz showcase at Dockside Pavilion.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf22-i19",
+          "text": "Turning Home correction: the central lantern is a lightweight fabric prop, not a working lamp. The equipment list imported the wrong description. Update Cedar Wheels' Linden Court sheet so the setup team brings the fabric piece.",
+          "memberships": [
+            "mf22-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce the Cedar Wheels inclusive group's Turning Home showcase at Linden Court.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf22-i20",
+          "text": "Rehearsal notes for the two o'clock Lantern Set: the shortened diagonal now clears the front row of chairs, but the youngest dancer loses the pause before the scarf lift. Nia wants another quiet run with the count spoken aloud. The garden-side entrance worked, and the red case has all eleven scarves. I have put these notes in the River Steps youth matinee folder so the next volunteer can find the corrected cast count alongside the blocking drawing. We have not changed the recorded music or the final pose.",
+          "memberships": [
+            "mf22-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Produce River Steps youth group's Lantern Set for the Saturday matinee at Juniper Hall.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf23",
+      "split": "development",
+      "domain": "beekeeping hives",
+      "templateFamily": "apiary-visits-and-colony-log",
+      "contexts": [
+        {
+          "id": "mf23-c1",
+          "description": "Monitor Cedar hive in the fictional Orchard Gate apiary, recorded as OG-C."
+        },
+        {
+          "id": "mf23-c2",
+          "description": "Monitor Willow hive in the fictional Orchard Gate apiary, recorded as OG-W."
+        },
+        {
+          "id": "mf23-c3",
+          "description": "Monitor Cedar hive in the fictional Mill Roof apiary, recorded as MR-C."
+        },
+        {
+          "id": "mf23-c4",
+          "description": "Monitor Birch hive in the fictional Meadow Lane apiary, recorded as ML-B."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf23-c1",
+          "mf23-c2"
+        ],
+        [
+          "mf23-c1",
+          "mf23-c3"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf23-i01",
+          "text": "MR-C visit: Cedar on Mill Roof is the unpainted hive beside the west skylight. We are recording landing-board traffic after a screen adjustment. The rooftop log has no brood-frame photography planned this week.",
+          "memberships": [
+            "mf23-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Cedar hive in the fictional Mill Roof apiary, recorded as MR-C.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf23-i02",
+          "text": "ML-B visit: Birch at Meadow Lane is the blue hive beside the stone bench. The ongoing task is a sequence of exterior moisture observations beneath the cover. Label each image with ML-B and the corner photographed.",
+          "memberships": [
+            "mf23-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Birch hive in the fictional Meadow Lane apiary, recorded as ML-B.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf23-i03",
+          "text": "OG-C visit: Cedar at Orchard Gate is the green hive beside the rain barrel. We photographed the brood pattern on frame three and saw the marked queen. The frame map is clipped inside the Orchard Gate inspection book.",
+          "memberships": [
+            "mf23-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Cedar hive in the fictional Orchard Gate apiary, recorded as OG-C.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf23-i04",
+          "text": "OG-W visit: Willow at Orchard Gate is the yellow hive beside the gatepost. A feeder sits above the upper box. Weigh that feeder before and after the next check and record the figures on the Willow sheet.",
+          "memberships": [
+            "mf23-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Willow hive in the fictional Orchard Gate apiary, recorded as OG-W.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf23-i05",
+          "text": "Cedar record cleanup: prefix the Orchard Gate brood photographs with OG-C and the Mill Roof landing-board counts with MR-C. Both colonies share the name Cedar, which caused an observer to attach the rooftop weather note to the orchard frame map.",
+          "memberships": [
+            "mf23-c1",
+            "mf23-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Addresses an explicit record collision involving both Cedar colonies.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf23-i06",
+          "text": "Mill Roof Cedar traffic count: wind drove the observers off the west side before the second interval. Save the first interval as incomplete, with its weather note. MR-C needs another observation under conditions that allow a full count.",
+          "memberships": [
+            "mf23-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Cedar hive in the fictional Mill Roof apiary, recorded as MR-C.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf23-i07",
+          "text": "Orchard Gate Cedar correction: the brood photograph is frame four when counted from the entrance side. Yesterday I counted from the rear. Amend OG-C's map so the next visit compares the same comb surface.",
+          "memberships": [
+            "mf23-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Cedar hive in the fictional Orchard Gate apiary, recorded as OG-C.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf23-i08",
+          "text": "Unlabeled notebook corner: 'Cedar check postponed; take the camera next time.' No apiary, hive color, observation type, or record code accompanies it.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it.",
+          "tags": [
+            "insufficient-evidence",
+            "shared-term"
+          ]
+        },
+        {
+          "id": "mf23-i09",
+          "text": "Willow feeder log, Orchard Gate: the lid was included in the first weight and excluded in the second. Those two figures cannot show consumption. Repeat using the same assembled feeder for OG-W and annotate the flawed pair.",
+          "memberships": [
+            "mf23-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Willow hive in the fictional Orchard Gate apiary, recorded as OG-W.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf23-i10",
+          "text": "Meadow Lane Birch: droplets appeared beneath the northeast corner of the cover during the morning look. Photograph that corner again at the next scheduled visit and record the weather; one image alone does not establish the cause.",
+          "memberships": [
+            "mf23-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Birch hive in the fictional Meadow Lane apiary, recorded as ML-B.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf23-i11",
+          "text": "West-skylight Cedar traffic sheet rescheduled after wind interrupted the count.",
+          "memberships": [
+            "mf23-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Monitor Cedar hive in the fictional Mill Roof apiary, recorded as MR-C.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf23-i12",
+          "text": "Green hive by barrel: OG-C frame-four comparison photograph still pending.",
+          "memberships": [
+            "mf23-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Monitor Cedar hive in the fictional Orchard Gate apiary, recorded as OG-C.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf23-i13",
+          "text": "Blue hive moisture image received; ML-B weather field remains blank.",
+          "memberships": [
+            "mf23-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Monitor Birch hive in the fictional Meadow Lane apiary, recorded as ML-B.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf23-i14",
+          "text": "Yellow hive's assembled feeder weighed; OG-W comparison is due next visit.",
+          "memberships": [
+            "mf23-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Monitor Willow hive in the fictional Orchard Gate apiary, recorded as OG-W.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf23-i15",
+          "text": "Orchard Gate visit list covers Cedar OG-C and Willow OG-W. Bring the camera for Cedar's corrected frame-four comparison and the scale for Willow's assembled feeder. Both colonies are inside the same locked gate, so arrange one access slot.",
+          "memberships": [
+            "mf23-c1",
+            "mf23-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly combines tasks for both Orchard Gate hive monitoring projects.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf23-i16",
+          "text": "MR-C caption correction: the screen adjustment was at the landing board, not the skylight. The hive remains beside the west skylight. Fix the rooftop log heading so the next observer looks at the hive entrance.",
+          "memberships": [
+            "mf23-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Cedar hive in the fictional Mill Roof apiary, recorded as MR-C.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf23-i17",
+          "text": "Text saved without its conversation: 'Next visit moved to morning; bring the updated sheet.' There is no colony, place, observation type, or date in the fragment.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project.",
+          "tags": [
+            "insufficient-evidence"
+          ]
+        },
+        {
+          "id": "mf23-i18",
+          "text": "Inspection journal for Cedar beside the Orchard Gate rain barrel: the next photograph should use the entrance-side numbering written on the revised map. A different frame would make the before-and-after comparison misleading. The marked queen was visible during the earlier visit, and the original image is still useful once its caption is corrected. I have not inferred a trend from one photograph. Put the new observation, weather note, and time of visit on the OG-C sheet, because the image filename alone says only Cedar and could be mistaken for another apiary's record.",
+          "memberships": [
+            "mf23-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Cedar hive in the fictional Orchard Gate apiary, recorded as OG-C.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf23-i19",
+          "text": "Birch log correction: the damp corner is northwest, using the entrance as south on the site sketch. The earlier northeast label came from a mirrored phone preview. Amend ML-B's image caption and retain the original photograph.",
+          "memberships": [
+            "mf23-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Birch hive in the fictional Meadow Lane apiary, recorded as ML-B.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf23-i20",
+          "text": "OG-W correction: the feeder is above the lower box because Willow currently has only one box. The phrase 'upper box' came from an old form. The gatepost location and the feeder-weight procedure still identify this colony.",
+          "memberships": [
+            "mf23-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Monitor Willow hive in the fictional Orchard Gate apiary, recorded as OG-W.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf24",
+      "split": "development",
+      "domain": "household solar retrofit",
+      "templateFamily": "homeowner-quotes-and-installation-punchlist",
+      "contexts": [
+        {
+          "id": "mf24-c1",
+          "description": "Plan a solar retrofit on the main house at fictional 14 Alder Walk, job AW-H, including the east roof."
+        },
+        {
+          "id": "mf24-c2",
+          "description": "Plan a separate solar retrofit on the detached studio at fictional 14 Alder Walk, job AW-S, including its flat roof."
+        },
+        {
+          "id": "mf24-c3",
+          "description": "Plan a solar retrofit at fictional 8 Quarry Close, job QC-8, including a slate-roof layout."
+        },
+        {
+          "id": "mf24-c4",
+          "description": "Plan a solar retrofit at fictional 22 Linden Lane, job LL-22, including a west-roof shade review."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf24-c1",
+          "mf24-c2"
+        ],
+        [
+          "mf24-c3",
+          "mf24-c4"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf24-i01",
+          "text": "The installer can survey AW-H's main-house utility cupboard and AW-S's studio pottery-sink area during one appointment at 14 Alder Walk. Request two revised drawings: one for the east tiled roof job and one for the detached flat-roof studio.",
+          "memberships": [
+            "mf24-c1",
+            "mf24-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly coordinates the two Alder Walk retrofit projects at their shared address.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf24-i02",
+          "text": "LL-22 planning at 22 Linden Lane: the west-facing roof is partly shaded by a neighbor's tall pear tree. We asked for a shade review before choosing between the two array sizes on the household's preliminary quote.",
+          "memberships": [
+            "mf24-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a solar retrofit at fictional 22 Linden Lane, job LL-22, including a west-roof shade review.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf24-i03",
+          "text": "QC-8 survey at 8 Quarry Close: the household wants a solar layout that works with the slate roof. The installer has proposed a smaller array near the chimney and requested closer photographs of the existing slates.",
+          "memberships": [
+            "mf24-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a solar retrofit at fictional 8 Quarry Close, job QC-8, including a slate-roof layout.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf24-i04",
+          "text": "AW-H quote notes: the main house at 14 Alder Walk has an east-facing tiled roof. The proposed cable route reaches an inverter position in the utility-room cupboard. I asked the installer to verify that route before revising the equipment allowance.",
+          "memberships": [
+            "mf24-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a solar retrofit on the main house at fictional 14 Alder Walk, job AW-H, including the east roof.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf24-i05",
+          "text": "AW-S planning note: the detached studio at 14 Alder Walk has a flat roof and its own proposed inverter position by the pottery sink. The roof sketch shows a low vent that constrains the first layout.",
+          "memberships": [
+            "mf24-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a separate solar retrofit on the detached studio at fictional 14 Alder Walk, job AW-S, including its flat roof.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf24-i06",
+          "text": "Linden Lane shade follow-up: the afternoon photo shows the pear tree shadow reaching the lower proposed row. Add the capture date and time to LL-22's review packet. We still need the installer's assessment of the two array options.",
+          "memberships": [
+            "mf24-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a solar retrofit at fictional 22 Linden Lane, job LL-22, including a west-roof shade review.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf24-i07",
+          "text": "Saved reminder: 'Alder Walk inverter cupboard needs another look before accepting the quote.' It names neither the building nor the room, and has no job reference.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it.",
+          "tags": [
+            "insufficient-evidence",
+            "shared-term"
+          ]
+        },
+        {
+          "id": "mf24-i08",
+          "text": "Main-house Alder Walk correction: the cupboard is in the utility room, not the kitchen. AW-H's survey sketch had copied a room label from an old floor plan. The east tiled roof is still the array location being reviewed.",
+          "memberships": [
+            "mf24-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a solar retrofit on the main house at fictional 14 Alder Walk, job AW-H, including the east roof.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf24-i09",
+          "text": "Quarry Close follow-up: the chimney shadow crosses the proposed upper row in the morning photograph. Send the image with its capture time to the installer for QC-8's layout review. The photograph alone does not establish annual output.",
+          "memberships": [
+            "mf24-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a solar retrofit at fictional 8 Quarry Close, job QC-8, including a slate-roof layout.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf24-i10",
+          "text": "Studio flat-roof survey: the low vent is farther from the rear parapet than the draft drawing showed. The installer will revise panel spacing for AW-S. The proposed inverter position remains beside the pottery sink pending their assessment.",
+          "memberships": [
+            "mf24-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a separate solar retrofit on the detached studio at fictional 14 Alder Walk, job AW-S, including its flat roof.",
+          "tags": [
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf24-i11",
+          "text": "LL-22 pear-tree photo timestamp added; the shade assessment is pending.",
+          "memberships": [
+            "mf24-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Plan a solar retrofit at fictional 22 Linden Lane, job LL-22, including a west-roof shade review.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf24-i12",
+          "text": "AW-H utility cupboard measured; installer still owes the revised route sketch.",
+          "memberships": [
+            "mf24-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Plan a solar retrofit on the main house at fictional 14 Alder Walk, job AW-H, including the east roof.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf24-i13",
+          "text": "Our neighborhood quote clinic will compare QC-8's chimney-shadow review with LL-22's pear-tree shade review. Bring the timed Quarry Close roof image and Linden Lane tree image so the installer can explain each household's outstanding layout question.",
+          "memberships": [
+            "mf24-c3",
+            "mf24-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Explicitly connects the two household retrofit reviews through a joint quote clinic.",
+          "tags": [
+            "bridge",
+            "related-distinct"
+          ]
+        },
+        {
+          "id": "mf24-i14",
+          "text": "AW-S vent measurement corrected; revised studio panel arrangement has not arrived.",
+          "memberships": [
+            "mf24-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Plan a separate solar retrofit on the detached studio at fictional 14 Alder Walk, job AW-S, including its flat roof.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf24-i15",
+          "text": "Loose quote annotation: 'Use the smaller array if the revised assessment supports it.' No address, roof description, installer name, or job number is present.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project.",
+          "tags": [
+            "insufficient-evidence"
+          ]
+        },
+        {
+          "id": "mf24-i16",
+          "text": "QC-8 slate close-ups sent; the chimney layout review remains open.",
+          "memberships": [
+            "mf24-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The named record, distinctive location, or project-specific shorthand resolves to Plan a solar retrofit at fictional 8 Quarry Close, job QC-8, including a slate-roof layout.",
+          "tags": [
+            "sparse",
+            "context-paraphrase"
+          ]
+        },
+        {
+          "id": "mf24-i17",
+          "text": "Correction to the Linden Lane call notes: the neighbor offered to share older tree photographs, not to prune the pear tree. LL-22's plan must use the existing shade conditions until actual changes are confirmed.",
+          "memberships": [
+            "mf24-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a solar retrofit at fictional 22 Linden Lane, job LL-22, including a west-roof shade review.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf24-i18",
+          "text": "Homeowner log for the east roof at 14 Alder Walk: the installer visited the utility-room cupboard and took measurements, but the revised cable route has not arrived. The current quote still carries the old room label. I have filed the measurement email with AW-H and asked for a drawing that matches the actual room before we compare allowances. The roof photographs are complete enough for the present layout review; that does not resolve the indoor route. The next update should tell us whether the new drawing changes any of the quoted work.",
+          "memberships": [
+            "mf24-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a solar retrofit on the main house at fictional 14 Alder Walk, job AW-H, including the east roof.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf24-i19",
+          "text": "Correction to the detached studio quote: 'sink cupboard' means the storage unit next to the pottery sink, not below it. Ask the installer to specify the assessed inverter position clearly on AW-S's drawing before the quote is accepted.",
+          "memberships": [
+            "mf24-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a separate solar retrofit on the detached studio at fictional 14 Alder Walk, job AW-S, including its flat roof.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        },
+        {
+          "id": "mf24-i20",
+          "text": "Quarry Close quote correction: the roof photograph labeled west was taken facing west from the garden; it shows the east roof slope. The installer confirmed the compass annotation needs fixing before QC-8's estimate is revised.",
+          "memberships": [
+            "mf24-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The note explicitly identifies Plan a solar retrofit at fictional 8 Quarry Close, job QC-8, including a slate-roof layout.",
+          "tags": [
+            "revision",
+            "project-anchor"
+          ]
+        }
+      ]
+    }
+  ]
+}

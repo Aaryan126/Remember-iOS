@@ -1,0 +1,4996 @@
+{
+  "schemaVersion": 1,
+  "libraries": [
+    {
+      "id": "mf01",
+      "split": "train",
+      "domain": "bakery equipment",
+      "templateFamily": "maintenance tickets and shift-margin annotations",
+      "contexts": [
+        {
+          "id": "mf01-c1",
+          "description": "Replace the door gasket on the Hearth oven at Tern Bakery."
+        },
+        {
+          "id": "mf01-c2",
+          "description": "Replace the steam nozzle on the Loft oven, sharing a supplier shipment with Hearth."
+        },
+        {
+          "id": "mf01-c3",
+          "description": "Investigate calibration drift in the bench dough scale."
+        },
+        {
+          "id": "mf01-c4",
+          "description": "Fit quieter casters to the overnight flour trolley."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf01-c1",
+          "mf01-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf01-i01",
+          "text": "Shift handover, Hearth: I blamed the latch because the paper strip slipped out beside it. After cleaning the channel, the strip grips everywhere except the bottom corner, where the braid has gone shiny and flat. We can replace the gasket after the bun trays come out. Leave the hinge position alone for now. I tucked the groove measurements into H17; check the replacement cold before recording the oven as ready for the next bake.",
+          "memberships": [
+            "mf01-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Hearth's gasket and H17 continue the door repair.",
+          "tags": [
+            "long",
+            "diagnostic"
+          ]
+        },
+        {
+          "id": "mf01-i02",
+          "text": "Margin note beside Q4: battery replaced; zero still wanders.",
+          "memberships": [
+            "mf01-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Q4 identifies the scale fault.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf01-i03",
+          "text": "Downtime board assigns one bench to Hearth's door seal and another to Loft's steam insert. Record both H17 and L22 test results before reopening the ovens.",
+          "memberships": [
+            "mf01-c1",
+            "mf01-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The board coordinates installation and tests for both repairs.",
+          "tags": [
+            "bridge",
+            "schedule"
+          ]
+        },
+        {
+          "id": "mf01-i04",
+          "text": "L22 / Loft oven. Steam jets sideways from the nozzle. Replace the outlet insert; Hearth's gasket order uses the same parts supplier.",
+          "memberships": [
+            "mf01-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "L22 is a Loft nozzle repair explicitly sharing Hearth's supplier.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf01-i05",
+          "text": "Amend Q4 log: final reading was 6 g, not 9 g. A flour streak crossed the handwritten six.",
+          "memberships": [
+            "mf01-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Q4 corrects a scale reading.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf01-i06",
+          "text": "The replacement part arrived in a brown sleeve. I left it beside the service folder; confirm the dimensions before Friday.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "No ticket, oven, or part type identifies the equipment job.",
+          "tags": [
+            "ambiguous",
+            "missing-reference"
+          ]
+        },
+        {
+          "id": "mf01-i07",
+          "text": "Supplier reply on L22: brass insert delayed until Thursday. The steam hose is available, but we did not order a hose.",
+          "memberships": [
+            "mf01-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "L22 and the insert continue nozzle replacement.",
+          "tags": [
+            "update"
+          ]
+        },
+        {
+          "id": "mf01-i08",
+          "text": "Trolley C8 wakes the upstairs tenant on the tile seam. Trial rubber casters under the flour rack, retaining its mounting plates.",
+          "memberships": [
+            "mf01-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "C8 anchors the flour trolley caster replacement.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf01-i09",
+          "text": "That measurement was wrong. Use the smaller one on the revised slip, and tell the supplier before dispatch.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The unspecified measurement could concern several equipment jobs.",
+          "tags": [
+            "ambiguous",
+            "correction-without-target"
+          ]
+        },
+        {
+          "id": "mf01-i10",
+          "text": "Loft steam outlet: revised fitting slot is Friday before breakfast.",
+          "memberships": [
+            "mf01-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Loft's steam outlet identifies the nozzle repair.",
+          "tags": [
+            "revision",
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf01-i11",
+          "text": "C8 wheel trial: soft tread is quiet but catches crumbs. Add a brush to the cleaning kit.",
+          "memberships": [
+            "mf01-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "C8's tread trial continues the caster work.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf01-i12",
+          "text": "Ticket H17: Hearth's lower door corner leaks heat. Order the woven gasket, measure the groove, and photograph the latch before dismantling.",
+          "memberships": [
+            "mf01-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "H17 names Hearth and its leaking door gasket.",
+          "tags": [
+            "anchor",
+            "repair"
+          ]
+        },
+        {
+          "id": "mf01-i13",
+          "text": "Post-fit note, L22: mist reaches the rear tray. Retain the removed insert in the fault bag until two test bakes finish.",
+          "memberships": [
+            "mf01-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "L22's post-fit steam test continues the nozzle job.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf01-i14",
+          "text": "Use 60 mm wheels for C8; the 75 mm sample catches the shelf bracket. This replaces my earlier size request.",
+          "memberships": [
+            "mf01-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "C8 revises the trolley caster diameter.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf01-i15",
+          "text": "H17 correction in red: the groove is 11 mm, not 14. The first reading included the old seal's swollen lip.",
+          "memberships": [
+            "mf01-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "H17 carries a corrected gasket measurement.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf01-i16",
+          "text": "Scale Q4 drifts upward with an empty bowl. Record three empty readings before changing calibration.",
+          "memberships": [
+            "mf01-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Q4 and its empty-bowl drift anchor scale investigation.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf01-i17",
+          "text": "Flour rack rolls quietly now. C8 needs one loaded run across the troublesome tile joint before sign-off.",
+          "memberships": [
+            "mf01-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "C8's loaded rolling check continues the trolley project.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf01-i18",
+          "text": "Lower door seal arrived; H17 can move to fitting.",
+          "memberships": [
+            "mf01-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "H17 and lower door seal identify the repair.",
+          "tags": [
+            "sparse",
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf01-i19",
+          "text": "Q4: test weight was dusty. Cleaned it, repeated the series, and still saw the zero climb.",
+          "memberships": [
+            "mf01-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Q4 connects the measurements to the scale fault.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf01-i20",
+          "text": "Receiving slip: Hearth gasket H17 and Loft nozzle L22 are in one supplier carton. Count each part against its ticket before closing either repair.",
+          "memberships": [
+            "mf01-c1",
+            "mf01-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The receiving action explicitly covers both named oven repairs.",
+          "tags": [
+            "bridge",
+            "shared-shipment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf02",
+      "split": "train",
+      "domain": "garden irrigation",
+      "templateFamily": "allotment field diary and watering sketches",
+      "contexts": [
+        {
+          "id": "mf02-c1",
+          "description": "Repair the east bean bed's drip loop."
+        },
+        {
+          "id": "mf02-c2",
+          "description": "Install a west squash irrigation loop sharing the beans' water barrel."
+        },
+        {
+          "id": "mf02-c3",
+          "description": "Test moisture retention in glasshouse seedling trays."
+        },
+        {
+          "id": "mf02-c4",
+          "description": "Rebuild the public tool shed's hand pump."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf02-c1",
+          "mf02-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf02-i01",
+          "text": "Squash loop W-S now needs six elbows; I forgot the stump detour in the first list.",
+          "memberships": [
+            "mf02-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "W-S revises its elbow requirement.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf02-i02",
+          "text": "Pump P2: cup split at the seam; replacement soaked overnight and slides into the bore.",
+          "memberships": [
+            "mf02-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "P2's cup replacement continues pump rebuilding.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf02-i03",
+          "text": "Dawn walk: east beans have a dry middle row. Marked their drip loop E-B with a blue stake; two emitters spit rather than drip.",
+          "memberships": [
+            "mf02-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "East beans and E-B identify emitter repair.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf02-i04",
+          "text": "Far mound reached. W-S is pegged down but awaits its tap.",
+          "memberships": [
+            "mf02-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "W-S continues the squash installation.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf02-i05",
+          "text": "P2 handle bolt is 8 mm, correcting the 10 mm note pencilled on the shed door.",
+          "memberships": [
+            "mf02-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "P2 revises its bolt measurement.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf02-i06",
+          "text": "E-B sketch revision: blocked emitter is at stake six, not five. I counted from the gate, matching the original drawing.",
+          "memberships": [
+            "mf02-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "E-B corrects a location in the bean-loop repair.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf02-i07",
+          "text": "Glasshouse trial G-T: compare coir and leaf-mould mixes in six seedling trays, weighing each before the morning mist.",
+          "memberships": [
+            "mf02-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "G-T anchors the moisture experiment.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf02-i08",
+          "text": "Water from P2 smells of the soak bucket. Flush the rebuilt shed pump before returning it to use.",
+          "memberships": [
+            "mf02-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "P2 and rebuilt shed pump identify the same project.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf02-i09",
+          "text": "Blue stake, E-B: flushed twice; middle row finally damp.",
+          "memberships": [
+            "mf02-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "E-B links this short result to the bean loop.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf02-i10",
+          "text": "G-T day three: leaf-mould looks drier, yet its tray lost less mass. Appearance alone is misleading.",
+          "memberships": [
+            "mf02-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "G-T's mass observation belongs to moisture testing.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf02-i11",
+          "text": "Barrel sketch: east beans E-B need repaired emitters checked while west squash W-S gets its tap. Mark both outlet positions before drilling.",
+          "memberships": [
+            "mf02-c1",
+            "mf02-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The sketch directs work on both loops at their shared barrel.",
+          "tags": [
+            "bridge",
+            "shared-resource"
+          ]
+        },
+        {
+          "id": "mf02-i12",
+          "text": "I returned after the barrel settled because the first flush looked convincing without wetting the root zone. At the east bean loop's blue stake, the middle row was still pale beneath the surface. Removing the second suspect emitter released a clot of grit. I washed both inserts in a bowl, reassembled E-B, and watched a complete slow cycle. Next visit should check that same middle row before burying any exposed tubing. Surface colour alone led us astray on the first visit.",
+          "memberships": [
+            "mf02-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Blue stake, east beans, and E-B tie the diagnostic diary to the repair.",
+          "tags": [
+            "long",
+            "diagnostic"
+          ]
+        },
+        {
+          "id": "mf02-i13",
+          "text": "Cross out 240 on tray G-T4; tare label says 204.",
+          "memberships": [
+            "mf02-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "G-T tray identifier anchors the tare correction.",
+          "tags": [
+            "revision",
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf02-i14",
+          "text": "Sunday diary: check E-B pressure before filling W-S for its first test, then repeat the bean check with both taps open to measure the squash loop's effect.",
+          "memberships": [
+            "mf02-c1",
+            "mf02-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The sequence combines E-B verification with W-S commissioning.",
+          "tags": [
+            "bridge",
+            "dependency"
+          ]
+        },
+        {
+          "id": "mf02-i15",
+          "text": "West squash layout: peg fresh loop W-S around the mounds. It will draw from the east bean loop's rain barrel through a new outlet tap.",
+          "memberships": [
+            "mf02-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "W-S is a separate installation explicitly sharing the bean loop's barrel.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf02-i16",
+          "text": "Glasshouse moisture notebook: repeat G-T with the same mist volume, rotating tray positions to counter the door draft.",
+          "memberships": [
+            "mf02-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "G-T specifies follow-up to the tray comparison.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf02-i17",
+          "text": "The watering test still looks wrong. Check the outlet, but first find which bed the unlabelled drawing was meant to show.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both irrigation loops have outlets; the bed and drawing identity are explicitly missing.",
+          "tags": [
+            "ambiguous",
+            "missing-location"
+          ]
+        },
+        {
+          "id": "mf02-i18",
+          "text": "W-S shopping scribble: four elbows, one tap, enough tube for the far mound. The donated coil stops a metre short.",
+          "memberships": [
+            "mf02-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "W-S identifies squash installation materials.",
+          "tags": [
+            "materials"
+          ]
+        },
+        {
+          "id": "mf02-i19",
+          "text": "Shed pump P2 will not hold prime. Remove the leather cup over a basin so pieces cannot fall into the gravel.",
+          "memberships": [
+            "mf02-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "P2 anchors the hand-pump rebuild.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf02-i20",
+          "text": "Buy the smaller connector; the drawing in my pocket has yesterday's measurements. I left its heading blank.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "No pump or loop identifier grounds the connector correction.",
+          "tags": [
+            "ambiguous",
+            "underspecified"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf03",
+      "split": "train",
+      "domain": "amateur theatre costumes",
+      "templateFamily": "wardrobe fitting cards and dresser messages",
+      "contexts": [
+        {
+          "id": "mf03-c1",
+          "description": "Build the captain's storm coat for Salt Lantern."
+        },
+        {
+          "id": "mf03-c2",
+          "description": "Alter Salt Lantern's messenger rain cape using captain-coat offcuts."
+        },
+        {
+          "id": "mf03-c3",
+          "description": "Restore a donated velvet waistcoat for the archive."
+        },
+        {
+          "id": "mf03-c4",
+          "description": "Prepare washable aprons for the children's backstage workshop."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf03-c1",
+          "mf03-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf03-i01",
+          "text": "V9 sample: narrow tape distorts velvet less than the wide strip. Retain the comparison piece in the archive envelope.",
+          "memberships": [
+            "mf03-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "V9's reinforcement test belongs to restoration.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf03-i02",
+          "text": "Salt Lantern cutting allocation: finish captain coat SL-C's pleat before trimming the remaining cloth; reserve usable scraps for messenger cape SL-M's hood patch.",
+          "memberships": [
+            "mf03-c1",
+            "mf03-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The allocation connects work on the coat and cape through shared cloth.",
+          "tags": [
+            "bridge",
+            "material-dependency"
+          ]
+        },
+        {
+          "id": "mf03-i03",
+          "text": "Dresser's voice memo: the captain can lift the lantern now, which was the point of opening the back pleat. But watch his storm coat when he turns toward the harbour flat: the loosened fabric catches his belt clasp. Bring SL-C back to the fitting rail and chalk the catch point. Move the clasp loop first, then try the whole turn under the same layered shirt. We should not remove the regained shoulder room just to make the coat look neater on its hanger.",
+          "memberships": [
+            "mf03-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "SL-C and the captain's evolving movement fit continue the coat project.",
+          "tags": [
+            "long",
+            "movement-test"
+          ]
+        },
+        {
+          "id": "mf03-i04",
+          "text": "Correction, V9: label reads 'plum', not 'blue'; faded ink fooled me under the lamp.",
+          "memberships": [
+            "mf03-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "V9 corrects an archive label transcription.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf03-i05",
+          "text": "Rain-costume check: bring SL-C and SL-M under harbour lights. Watch the captain's clasp on the turn and the messenger's hood glare on the run; record each result.",
+          "memberships": [
+            "mf03-c1",
+            "mf03-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Both costume projects receive specific fitting or lighting checks.",
+          "tags": [
+            "bridge",
+            "shared-review"
+          ]
+        },
+        {
+          "id": "mf03-i06",
+          "text": "SL-M / messenger cape: shorten the hem above the running boots. Patch its hood with captain storm-coat offcuts so the rain fabrics look related onstage.",
+          "memberships": [
+            "mf03-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "SL-M anchors the cape and explicitly relates its cloth to the coat.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf03-i07",
+          "text": "Old velvet waistcoat leaves the table once V9's supported seam is photographed flat and on the padded hanger.",
+          "memberships": [
+            "mf03-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "V9 identifies completion photographs for restoration.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf03-i08",
+          "text": "The rain fabric catches the light oddly. Bring the garment to the next fitting; this scrap does not say whose costume it is.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both Salt Lantern rain garments are being fitted, and the garment is explicitly unidentified.",
+          "tags": [
+            "ambiguous",
+            "missing-garment"
+          ]
+        },
+        {
+          "id": "mf03-i09",
+          "text": "For SL-M, use the rough side of the hood patch outward. The shiny side flashes during the messenger's entrance.",
+          "memberships": [
+            "mf03-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "SL-M's hood patch continues the cape alteration.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf03-i10",
+          "text": "Workshop apron batch WA: twelve cotton aprons for the children's backstage session; neck loops must adjust without knots.",
+          "memberships": [
+            "mf03-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "WA anchors the workshop apron batch.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf03-i11",
+          "text": "I changed the measurement on the card, but the old tape strip is still stuck to the mirror.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "No card or costume identifies the revision.",
+          "tags": [
+            "ambiguous",
+            "missing-reference"
+          ]
+        },
+        {
+          "id": "mf03-i12",
+          "text": "Messenger cape SL-M: final hem is 92 cm, replacing the 96 cm on the fitting card.",
+          "memberships": [
+            "mf03-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "SL-M revises the cape hem.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf03-i13",
+          "text": "WA wash test: sample shrank at the pocket. Prewash pocket cloth before cutting the remaining eleven.",
+          "memberships": [
+            "mf03-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "WA's shrinkage test continues apron preparation.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf03-i14",
+          "text": "Fitting card SL-C: Salt Lantern captain's storm coat pulls when the actor raises the lantern. Release the back pleat before adjusting sleeves.",
+          "memberships": [
+            "mf03-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "SL-C anchors the captain's coat fitting.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf03-i15",
+          "text": "SL-M waits on the short rail; hood done, hem basted.",
+          "memberships": [
+            "mf03-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "SL-M identifies the cape status.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf03-i16",
+          "text": "WA count amended to fourteen after two workshop helpers joined.",
+          "memberships": [
+            "mf03-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "WA revises the apron count.",
+          "tags": [
+            "revision",
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf03-i17",
+          "text": "SL-C update: back pleat needs 3 cm release, not the 5 cm pinned at the rushed first fitting.",
+          "memberships": [
+            "mf03-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "SL-C corrects the coat alteration.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf03-i18",
+          "text": "Archive V9: donated plum velvet waistcoat has powdery seam allowances. Photograph the lining label before adding support tape.",
+          "memberships": [
+            "mf03-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "V9 anchors archive waistcoat restoration.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf03-i19",
+          "text": "Backstage workshop rail: adjustable aprons ready except two pockets. Mark unfinished pieces WA so helpers do not distribute them.",
+          "memberships": [
+            "mf03-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "WA and workshop distribution continue the apron batch.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf03-i20",
+          "text": "Captain's storm coat, SL-C: lantern lift now clears comfortably.",
+          "memberships": [
+            "mf03-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "SL-C and movement check identify the coat.",
+          "tags": [
+            "sparse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf04",
+      "split": "train",
+      "domain": "bicycle workshop",
+      "templateFamily": "service job cards and parts-bin slips",
+      "contexts": [
+        {
+          "id": "mf04-c1",
+          "description": "Rebuild the orange delivery bicycle's rear wheel."
+        },
+        {
+          "id": "mf04-c2",
+          "description": "Upgrade the blue commuter wheel using the delivery wheel's spoke specification."
+        },
+        {
+          "id": "mf04-c3",
+          "description": "Repair the green balance bike's steering."
+        },
+        {
+          "id": "mf04-c4",
+          "description": "Install a wall rack for workshop loan helmets."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf04-c1",
+          "mf04-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf04-i01",
+          "text": "Facility card H-R: mount loan-helmet rack beside the desk. Space hooks so straps do not tangle.",
+          "memberships": [
+            "mf04-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "H-R anchors helmet rack installation.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf04-i02",
+          "text": "The parts tray has the replacement now. I measured it again, but did not copy the job number.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Neither replacement part nor job is identified.",
+          "tags": [
+            "ambiguous",
+            "missing-job"
+          ]
+        },
+        {
+          "id": "mf04-i03",
+          "text": "B14 pickup revised to Monday after the commuter's spoke parcel missed collection.",
+          "memberships": [
+            "mf04-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "B14 updates pickup for the commuter job.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf04-i04",
+          "text": "H-R survey found hollow board behind the first bracket position. Move it onto the marked stud.",
+          "memberships": [
+            "mf04-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "H-R continues rack mounting work.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf04-i05",
+          "text": "Job O31: orange delivery bike, rear rim cracked beside a nipple. Rebuild on the replacement rim using the original hub.",
+          "memberships": [
+            "mf04-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "O31 anchors the orange rear-wheel rebuild.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf04-i06",
+          "text": "Blue commuter B14: fresh spokes seated, final tension pending.",
+          "memberships": [
+            "mf04-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "B14 identifies the commuter wheel conversion.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf04-i07",
+          "text": "Rack H-R spacing amended from 18 to 22 cm after testing winter helmets.",
+          "memberships": [
+            "mf04-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "H-R revises the rack layout.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf04-i08",
+          "text": "O31 spoke correction: drive side is 286 mm, not 288. Rechecked flange offset with the hub out.",
+          "memberships": [
+            "mf04-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "O31 updates the rebuild's spoke measurement.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf04-i09",
+          "text": "Green balance bike G6: steering binds at full left lock. Loosen the overtight headset before replacing parts.",
+          "memberships": [
+            "mf04-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "G6 anchors steering repair.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf04-i10",
+          "text": "Loan helmets remain in cartons; H-R awaits its second bracket.",
+          "memberships": [
+            "mf04-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "H-R identifies unfinished rack installation.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf04-i11",
+          "text": "Orange rear wheel O31: tension even; tyre still off.",
+          "memberships": [
+            "mf04-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "O31 and rear wheel identify rebuild progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf04-i12",
+          "text": "G6 turns smoothly after adjustment, but its dust cap rubs. A thin spacer is in the green tray.",
+          "memberships": [
+            "mf04-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "G6 connects the spacer to steering repair.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf04-i13",
+          "text": "Shared spoke order: reserve O31's drive-side set for the orange delivery rebuild and B14's quantities for the blue commuter upgrade. Both use the agreed specification.",
+          "memberships": [
+            "mf04-c1",
+            "mf04-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The order allocates parts to both named wheel jobs.",
+          "tags": [
+            "bridge",
+            "shared-order"
+          ]
+        },
+        {
+          "id": "mf04-i14",
+          "text": "Bench card O31: the old rim looked straight until unloaded, when the crack opened enough to catch a fingernail. The orange delivery bike's hub bearings feel smooth, so the rebuild still uses that hub. I laced the new rim and brought the spokes up gradually, but stopped before final stress relief because one replacement nipple was rough. Swap that nipple, check lateral runout again, then fit the tyre and try the wheel with delivery bags loaded. A bare-wheel spin will not reveal how it behaves on the usual rounds.",
+          "memberships": [
+            "mf04-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "O31, cracked rim, and reused hub continue the delivery wheel rebuild.",
+          "tags": [
+            "long",
+            "service-sequence"
+          ]
+        },
+        {
+          "id": "mf04-i15",
+          "text": "G6 correction: spacer is 2 mm; the 3 mm sample leaves insufficient thread engagement.",
+          "memberships": [
+            "mf04-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "G6 revises the steering spacer dimension.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf04-i16",
+          "text": "Wheel afternoon: finish orange delivery O31's stress test, then use its tension record as the reference for bringing blue commuter B14 up to target.",
+          "memberships": [
+            "mf04-c1",
+            "mf04-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "O31's result is explicitly used in B14's separate build.",
+          "tags": [
+            "bridge",
+            "reference-transfer"
+          ]
+        },
+        {
+          "id": "mf04-i17",
+          "text": "Job B14: blue commuter needs a stronger rear wheel. Copy orange delivery job O31's spoke specification while retaining the commuter's existing rim.",
+          "memberships": [
+            "mf04-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "B14 is a distinct upgrade explicitly borrowing O31's spoke specification.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf04-i18",
+          "text": "Green balance bike ready for floor check. Sign G6 after the fork falls freely both ways.",
+          "memberships": [
+            "mf04-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "G6 identifies the balance-bike repair check.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf04-i19",
+          "text": "Rear wheel is ready except for final tension. The bike is by the stand; I forgot to replace its job tag.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both wheel projects need tension checks and the identifying tag is absent.",
+          "tags": [
+            "ambiguous",
+            "overlapping-evidence"
+          ]
+        },
+        {
+          "id": "mf04-i20",
+          "text": "B14 parts slip: commuter spokes sorted; existing rim cleaned and passed eyelet inspection.",
+          "memberships": [
+            "mf04-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "B14 and retained rim identify the commuter upgrade.",
+          "tags": [
+            "followup"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf05",
+      "split": "train",
+      "domain": "tabletop game design",
+      "templateFamily": "playtest transcripts and rule-change ledger",
+      "contexts": [
+        {
+          "id": "mf05-c1",
+          "description": "Balance Glass Harbour's core freight auction."
+        },
+        {
+          "id": "mf05-c2",
+          "description": "Design Glass Harbour's tugboat expansion using its auction economy."
+        },
+        {
+          "id": "mf05-c3",
+          "description": "Develop the standalone cooperative orchard game Last Pear."
+        },
+        {
+          "id": "mf05-c4",
+          "description": "Redesign the folding insert for the prototype carrying box."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf05-c1",
+          "mf05-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf05-i01",
+          "text": "BX ready for a packed-box shake after its tab glue dries.",
+          "memberships": [
+            "mf05-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "BX identifies the insert's next test.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf05-i02",
+          "text": "A / core freight: five-coin start produced two contested auctions.",
+          "memberships": [
+            "mf05-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "A and core freight identify auction balancing.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf05-i03",
+          "text": "LP table quote: 'I thought my basket could spoil safely because hers was full.' Put the shared spoil counter beside the weather deck.",
+          "memberships": [
+            "mf05-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "LP's shared counter belongs to orchard-game development.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf05-i04",
+          "text": "Economy review: run Glass Harbour auction A with five coins, then add tugboat expansion T without replenishing cash. Record freight bids and tow purchases on the session sheet.",
+          "memberships": [
+            "mf05-c1",
+            "mf05-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The session jointly evaluates the core auction and expansion economy.",
+          "tags": [
+            "bridge",
+            "combined-playtest"
+          ]
+        },
+        {
+          "id": "mf05-i05",
+          "text": "Glass Harbour session A transcript: 'Buying the first crate felt like losing because then I had nothing for the dock fee.' We replayed the freight order with the larger starting purse and got more bidding without changing the fee. I cannot tell whether the last player still has a disadvantage; an experienced bidder occupied that seat in the second run. Keep the next freight deck order fixed, rotate seats, and record unspent coins each round. That should isolate the starting cash change before we rewrite the auction itself.",
+          "memberships": [
+            "mf05-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Session A, freight bids, and starting cash continue core auction balancing.",
+          "tags": [
+            "long",
+            "experiment"
+          ]
+        },
+        {
+          "id": "mf05-i06",
+          "text": "LP amendment: loss threshold is four spoiled baskets for the small deck; three remains the large-deck trial.",
+          "memberships": [
+            "mf05-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "LP revises an orchard-game threshold.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf05-i07",
+          "text": "T's permit price waits on A's starting-purse decision. Bring the auction ledger and tugboat draft to Thursday's review, including unspent-coin totals from each.",
+          "memberships": [
+            "mf05-c1",
+            "mf05-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The price review requires records and decisions from both projects.",
+          "tags": [
+            "bridge",
+            "dependency"
+          ]
+        },
+        {
+          "id": "mf05-i08",
+          "text": "Tugboat expansion T: buy tow permits after Glass Harbour's freight auction. Reuse the core coin supply rather than introducing another currency.",
+          "memberships": [
+            "mf05-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "T anchors expansion design and explicitly shares the core economy.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf05-i09",
+          "text": "Last Pear: weather-deck reminder worked. LP players explained the common loss before their second turn.",
+          "memberships": [
+            "mf05-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "LP continues the orchard game's shared-loss design.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf05-i10",
+          "text": "The next table should try a different limit. I wrote down both three and four, but forgot which rule we were discussing.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Neither game nor rule identifies which proposed limit is intended.",
+          "tags": [
+            "ambiguous",
+            "unlabeled-number"
+          ]
+        },
+        {
+          "id": "mf05-i11",
+          "text": "T session: players hoard tow permits because the rescue bonus looks generous. Pay only when a stalled vessel actually moves.",
+          "memberships": [
+            "mf05-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "T's permit incentive belongs to tugboat design.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf05-i12",
+          "text": "Carry-box insert BX: folded walls collapse beneath wooden tokens. Prototype a double fold along the long compartment.",
+          "memberships": [
+            "mf05-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "BX anchors carrying-box insert redesign.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf05-i13",
+          "text": "The latest rule needs a clearer example. Bring the marked cards, whichever packet we used at the last table.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "No game, rule, or packet identifies the design context.",
+          "tags": [
+            "ambiguous",
+            "missing-game"
+          ]
+        },
+        {
+          "id": "mf05-i14",
+          "text": "T erratum: a tug tows one vessel per round, not two. The example diagram already shows the intended limit.",
+          "memberships": [
+            "mf05-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "T corrects an expansion rule.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf05-i15",
+          "text": "BX drop check: double fold survives, but the small divider pops out. Add a locking tab.",
+          "memberships": [
+            "mf05-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "BX continues insert durability work.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf05-i16",
+          "text": "Glass Harbour core, auction log A: opening bids leave no coins for shipping. Test a four-coin starting purse with freight cards unchanged.",
+          "memberships": [
+            "mf05-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Auction A anchors core economy balancing.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf05-i17",
+          "text": "Tugboat T prototype: replace rescue-bonus text on six permit cards.",
+          "memberships": [
+            "mf05-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "T identifies the expansion card revision.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf05-i18",
+          "text": "BX width corrected to 214 mm internal; 224 included the outer cardboard shell.",
+          "memberships": [
+            "mf05-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "BX revises the insert dimension.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf05-i19",
+          "text": "Ledger A correction: starting purse should be five coins; four was the control, copied into the proposal by mistake.",
+          "memberships": [
+            "mf05-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "A corrects the auction trial condition.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf05-i20",
+          "text": "Last Pear LP: cooperative orchard game needs a clearer shared-loss condition. Trial ending when three baskets spoil.",
+          "memberships": [
+            "mf05-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "LP anchors the orchard game.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf06",
+      "split": "train",
+      "domain": "pet fostering",
+      "templateFamily": "foster handover chats and supply cards",
+      "contexts": [
+        {
+          "id": "mf06-c1",
+          "description": "Prepare foster cat Bramble's downstairs settling room."
+        },
+        {
+          "id": "mf06-c2",
+          "description": "Prepare Nori's upstairs settling room using Bramble's checklist."
+        },
+        {
+          "id": "mf06-c3",
+          "description": "Coordinate two foster rabbits' transport to a weekend home."
+        },
+        {
+          "id": "mf06-c4",
+          "description": "Mend and inventory washable bedding for the foster cupboard."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf06-c1",
+          "mf06-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf06-i01",
+          "text": "The quiet room still needs a sign. Leave it outside so visitors can read it before entering.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both room projects use signs and no room is identified.",
+          "tags": [
+            "ambiguous",
+            "shared-feature"
+          ]
+        },
+        {
+          "id": "mf06-i02",
+          "text": "NR prep chat: fireplace guard fitted; move the covered bed because the upstairs radiator clicks against its frame.",
+          "memberships": [
+            "mf06-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "NR continues Nori's room preparation.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf06-i03",
+          "text": "Bedding cupboard BC: mend the blue fleece stack and count usable washable pads before ordering replacements.",
+          "memberships": [
+            "mf06-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "BC anchors bedding repair and inventory.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf06-i04",
+          "text": "The supplies are packed, but the revised count is on another slip. Confirm it before leaving.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Neither supplies nor destination identify the ongoing task.",
+          "tags": [
+            "ambiguous",
+            "missing-target"
+          ]
+        },
+        {
+          "id": "mf06-i05",
+          "text": "Nori NR revision: smaller bed fits the alcove; the large one on the first list blocks the outlet.",
+          "memberships": [
+            "mf06-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "NR revises the bed selection.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf06-i06",
+          "text": "BC repair note: two fleeces have torn binding and sound centres. Rebind those; put the fraying pad in the rag bag.",
+          "memberships": [
+            "mf06-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "BC continues bedding condition work.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf06-i07",
+          "text": "Bramble room card BR: block the gap behind the low cabinet. Place the covered bed where opening the door will not expose it.",
+          "memberships": [
+            "mf06-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "BR anchors Bramble's room preparation.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf06-i08",
+          "text": "NR upstairs sign printed; the alcove bed still needs unpacking.",
+          "memberships": [
+            "mf06-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "NR identifies Nori's room status.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf06-i09",
+          "text": "BC total amended from eighteen to sixteen usable pads; two appeared on both folded and wash lists.",
+          "memberships": [
+            "mf06-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "BC corrects the bedding count.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf06-i10",
+          "text": "BR correction: water bowl belongs on the window wall, not beside the bed; the first sketch leaves too little walking space.",
+          "memberships": [
+            "mf06-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "BR revises Bramble's layout.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf06-i11",
+          "text": "Rabbit transport RT: book the estate car for Saturday's move of Pip and Thistle to their weekend foster home. Both carriers must sit level.",
+          "memberships": [
+            "mf06-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "RT anchors weekend rabbit transport.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf06-i12",
+          "text": "Supply cupboard BC: blue fleece binding finished; pad order awaits the corrected inventory count.",
+          "memberships": [
+            "mf06-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "BC links finished mending to inventory.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf06-i13",
+          "text": "Bramble's cabinet gap is blocked. BR still needs its sign.",
+          "memberships": [
+            "mf06-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "BR and cabinet gap identify Bramble's room.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf06-i14",
+          "text": "RT driver note: boot slopes, so place carriers on the flat rear seat with the approved cupboard restraints.",
+          "memberships": [
+            "mf06-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "RT continues rabbit carrier arrangements.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf06-i15",
+          "text": "Room visit: finish Bramble BR's door-screen check downstairs, then test Nori NR's fireplace guard upstairs. Bring two adapted checklists and mark the room name on each.",
+          "memberships": [
+            "mf06-c1",
+            "mf06-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The visit performs named checks for both settling rooms.",
+          "tags": [
+            "bridge",
+            "shared-checklist"
+          ]
+        },
+        {
+          "id": "mf06-i16",
+          "text": "Handover chat, Bramble BR: I sat on the floor to see what arrival would look like. From bed height the open door points straight at the basket, although the overhead sketch looked sheltered. I turned the covered bed toward the cabinet and kept a clear path to the water on the window wall. The cabinet gap is blocked now. Check that the cardboard screen stays upright when the door swings, then put the quiet-room sign outside. Those are the last preparation jobs before Bramble arrives.",
+          "memberships": [
+            "mf06-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "BR, Bramble, and revised room layout continue this preparation task.",
+          "tags": [
+            "long",
+            "handover"
+          ]
+        },
+        {
+          "id": "mf06-i17",
+          "text": "RT pickup now 09:30, replacing 08:45 after the weekend home changed its handover slot.",
+          "memberships": [
+            "mf06-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "RT revises rabbit transport time.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf06-i18",
+          "text": "Delivery covers BR's door screen and NR's smaller bed. Put Bramble's item downstairs and Nori's upstairs, then update both room-readiness cards.",
+          "memberships": [
+            "mf06-c1",
+            "mf06-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The delivery and updates serve both explicit room projects.",
+          "tags": [
+            "bridge",
+            "shared-delivery"
+          ]
+        },
+        {
+          "id": "mf06-i19",
+          "text": "Nori room NR: adapt Bramble BR's checklist for the upstairs spare room. No cabinet here, but the open fireplace needs a fitted guard.",
+          "memberships": [
+            "mf06-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "NR explicitly borrows BR's checklist for a different settling room.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf06-i20",
+          "text": "Pip and Thistle's RT carrier labels sit beside the car booking.",
+          "memberships": [
+            "mf06-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "RT and rabbit names identify the transport project.",
+          "tags": [
+            "sparse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf07",
+      "split": "train",
+      "domain": "apartment insulation",
+      "templateFamily": "renovation email excerpts and room-measurement marginalia",
+      "contexts": [
+        {
+          "id": "mf07-c1",
+          "description": "Reduce drafts around the north loft window."
+        },
+        {
+          "id": "mf07-c2",
+          "description": "Fit secondary glazing to the study window through the loft-window supplier quote."
+        },
+        {
+          "id": "mf07-c3",
+          "description": "Insulate the apartment's hot-water cylinder cupboard."
+        },
+        {
+          "id": "mf07-c4",
+          "description": "Add acoustic underlay beneath the bedroom rug."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf07-c1",
+          "mf07-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf07-i01",
+          "text": "Loft measurement correction: opening width is 81 cm; the earlier 84 included the trim. I have crossed it out on the north-window sketch.",
+          "memberships": [
+            "mf07-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The north-window sketch corrects the loft opening measurement.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf07-i02",
+          "text": "Cylinder cupboard note: fit a jacket around the hot-water cylinder after measuring the accessible gap, without covering its controls or vent.",
+          "memberships": [
+            "mf07-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The cylinder jacket anchors cupboard insulation.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf07-i03",
+          "text": "Bedroom rug corners lie flat over the new grippy underlay.",
+          "memberships": [
+            "mf07-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Bedroom rug and grippy underlay identify installation progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf07-i04",
+          "text": "North loft sash: paper-strip test now grips along the hinge edge.",
+          "memberships": [
+            "mf07-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "North loft sash identifies draft-repair progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf07-i05",
+          "text": "Cupboard sketch: the cylinder's left clearance is tighter than its right. Choose the jacket with separate fastening straps.",
+          "memberships": [
+            "mf07-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Cylinder clearance and jacket straps continue insulation planning.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf07-i06",
+          "text": "Quote review: north loft work needs sash seals plus hinge labour; study work needs a removable inner pane. Ask the shared supplier to show those two totals before approving the window visit.",
+          "memberships": [
+            "mf07-c1",
+            "mf07-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The quote review explicitly handles both window projects and their different work.",
+          "tags": [
+            "bridge",
+            "shared-quote"
+          ]
+        },
+        {
+          "id": "mf07-i07",
+          "text": "Email to the installer, draft saved: I spent last evening checking the north loft window with the curtain drawn back. The cold line follows the opening sash and is strongest beside the upper hinge. The central pane feels cool too, but that is not where the moving air comes through. Please price the compressible seal and hinge adjustment we discussed, using the corrected opening measurement on the sketch. I can clear the loft desk on Tuesday. After fitting, I want to repeat the paper-strip check at the same four points before replacing the curtain.",
+          "memberships": [
+            "mf07-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The north loft sash, seal, hinge, and corrected sketch continue the draft repair.",
+          "tags": [
+            "long",
+            "late-clue"
+          ]
+        },
+        {
+          "id": "mf07-i08",
+          "text": "Cylinder jacket correction: height available is 103 cm, not 113; a shelf support interrupts the top space.",
+          "memberships": [
+            "mf07-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The jacket's revised clearance belongs to cylinder insulation.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf07-i09",
+          "text": "Installer access email: clear the loft desk for the north sash repair and move the study chair for inner-panel measuring. Both window appointments use Tuesday's lift booking.",
+          "memberships": [
+            "mf07-c1",
+            "mf07-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The access plan coordinates work for both named window projects.",
+          "tags": [
+            "bridge",
+            "shared-access"
+          ]
+        },
+        {
+          "id": "mf07-i10",
+          "text": "Subject: study glazing quote. Add a removable inner panel for the study window to the north loft repair supplier's quote. Study condensation is the concern here.",
+          "memberships": [
+            "mf07-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Study panel is a separate retrofit explicitly sharing the loft repair's supplier quote.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf07-i11",
+          "text": "Hot-water cupboard jacket delivered. Check the control opening against the cylinder before fastening its straps.",
+          "memberships": [
+            "mf07-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The delivered jacket continues the cylinder project.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf07-i12",
+          "text": "The window measurements need checking before the supplier cuts the new piece. The room name has torn off this slip.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both window projects use the supplier and measurements; the room label is missing.",
+          "tags": [
+            "ambiguous",
+            "shared-supplier"
+          ]
+        },
+        {
+          "id": "mf07-i13",
+          "text": "Study panel email: supplier proposes magnetic edging so we can remove the inner pane to clean the trapped space.",
+          "memberships": [
+            "mf07-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Study inner pane and magnetic edging identify secondary glazing.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf07-i14",
+          "text": "Bedroom rug trial: add dense acoustic underlay to soften footfall heard downstairs. Start with the rectangle beside the bed.",
+          "memberships": [
+            "mf07-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Bedroom rug and footfall identify the underlay project.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf07-i15",
+          "text": "The sample fits at one end but not the other. Compare it with the revised sketch before ordering the full size.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Neither material nor room links the sample to a specific apartment project.",
+          "tags": [
+            "ambiguous",
+            "underspecified"
+          ]
+        },
+        {
+          "id": "mf07-i16",
+          "text": "Revision to study order: clear panel, not the frosted finish listed in the first quotation; the reading desk needs the light.",
+          "memberships": [
+            "mf07-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Study order revises the secondary glazing finish.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf07-i17",
+          "text": "Underlay sample beneath the bedroom rug is quiet but slides. Ask for a grippy backing before ordering the full piece.",
+          "memberships": [
+            "mf07-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Bedroom rug sample continues acoustic underlay selection.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf07-i18",
+          "text": "Subject: north loft window. Cold air comes around the opening sash, not through the glass. Ask for compressible seals and a hinge adjustment.",
+          "memberships": [
+            "mf07-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "North loft window and sash drafts anchor this repair.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf07-i19",
+          "text": "Study glazing: magnetic sample sticks firmly; full pane uncut.",
+          "memberships": [
+            "mf07-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Study glazing and magnetic sample continue the panel installation.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf07-i20",
+          "text": "Bedroom underlay size amended to 180 by 240; the first measurement included rug fringe.",
+          "memberships": [
+            "mf07-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Bedroom underlay dimensions revise the rug project.",
+          "tags": [
+            "revision"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf08",
+      "split": "train",
+      "domain": "community pottery kiln",
+      "templateFamily": "firing-book observations and cone-packet annotations",
+      "contexts": [
+        {
+          "id": "mf08-c1",
+          "description": "Tune the community kiln's amber-glaze firing schedule."
+        },
+        {
+          "id": "mf08-c2",
+          "description": "Develop a celadon test firing using the amber schedule's cooling segment."
+        },
+        {
+          "id": "mf08-c3",
+          "description": "Replace damaged kiln shelf supports."
+        },
+        {
+          "id": "mf08-c4",
+          "description": "Organize the studio's reclaim-clay drying boards."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf08-c1",
+          "mf08-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf08-i01",
+          "text": "Celadon trial, run Willow: borrow the cooling segment from amber run Aster, then compare pale-green tiles with and without the short intermediate soak.",
+          "memberships": [
+            "mf08-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Willow is a celadon experiment explicitly reusing Aster's cooling segment.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf08-i02",
+          "text": "Kiln post tray: four new short supports sit flat and are marked.",
+          "memberships": [
+            "mf08-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The four replacement short supports continue the hardware task.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf08-i03",
+          "text": "The test tiles came out uneven. Repeat a pair in different positions, using the same settings once we recover their glaze labels.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both firing experiments use test tiles; the glaze labels needed to distinguish them are missing.",
+          "tags": [
+            "ambiguous",
+            "missing-run"
+          ]
+        },
+        {
+          "id": "mf08-i04",
+          "text": "Willow cone packet: pale-green tile beside the door came out cloudier. Add a tile at the rear for the next celadon comparison.",
+          "memberships": [
+            "mf08-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Willow and celadon tiles continue the firing test.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf08-i05",
+          "text": "Reclaim corner: make slatted drying boards for the studio's wet clay, sized to fit over the sink without blocking the tap.",
+          "memberships": [
+            "mf08-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Drying boards and reclaim clay anchor this studio project.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf08-i06",
+          "text": "A number on this firing slip was copied incorrectly. The run name is missing, so match it to the notebook before filing.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both firing projects have records, but the slip provides no run or quantity.",
+          "tags": [
+            "ambiguous",
+            "unidentified-correction"
+          ]
+        },
+        {
+          "id": "mf08-i07",
+          "text": "Willow label amendment: rear tile is C7, not C1. The tiny crossbar disappeared beneath kiln wash.",
+          "memberships": [
+            "mf08-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Willow corrects a celadon test-tile label.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf08-i08",
+          "text": "Reclaim board trial: narrow slats sag beneath wet clay. Add a central crosspiece to the sink-sized prototype.",
+          "memberships": [
+            "mf08-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Reclaim board construction continues the drying-board project.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf08-i09",
+          "text": "Firing book, amber cups / run Aster: pinholes cluster on shoulders. Keep the glaze recipe fixed and trial a longer hold at peak.",
+          "memberships": [
+            "mf08-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Amber cups and run Aster anchor firing-schedule tuning.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf08-i10",
+          "text": "Celadon Willow: rear comparison tile glazed; firing slot pending.",
+          "memberships": [
+            "mf08-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Willow identifies the celadon firing preparation.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf08-i11",
+          "text": "Drying-board sketch correction: sink span is 58 cm, not 68. Measured between ledges this time.",
+          "memberships": [
+            "mf08-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Drying-board dimensions revise the reclaim project.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf08-i12",
+          "text": "Aster correction: peak hold was twelve minutes, not twenty; the controller photo resolves my smudged notebook entry.",
+          "memberships": [
+            "mf08-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Aster revises an amber firing record.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf08-i13",
+          "text": "Shelf-support inspection: three short posts in the community kiln have chipped rims. Mark them with chalk and measure replacements while cold.",
+          "memberships": [
+            "mf08-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Chipped support posts anchor the kiln hardware replacement.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf08-i14",
+          "text": "Reclaim corner boards sanded; waiting for the crosspiece glue to cure before loading wet clay.",
+          "memberships": [
+            "mf08-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Reclaim boards continue the clay-drying setup.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf08-i15",
+          "text": "Amber Aster shoulder tiles: fewer pinholes after the longer hold.",
+          "memberships": [
+            "mf08-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Amber Aster identifies the firing experiment result.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf08-i16",
+          "text": "Post tray note: replacement short supports rock on the flat board. One base needs inspection before it goes into the kiln.",
+          "memberships": [
+            "mf08-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Replacement support posts continue the hardware job.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf08-i17",
+          "text": "Schedule notebook: copy Aster's amber cooling segment into Willow's celadon draft, then annotate the proposed Willow soak beside the unchanged Aster values for the firing review.",
+          "memberships": [
+            "mf08-c1",
+            "mf08-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The notebook action explicitly transfers and compares settings for both firing projects.",
+          "tags": [
+            "bridge",
+            "shared-schedule"
+          ]
+        },
+        {
+          "id": "mf08-i18",
+          "text": "Aster unloading observation: the top shelf cups show the pinholes most clearly, especially where the amber glaze crosses the rounded shoulder. Flat test tiles made the first run look better than it was. For the next firing I want both tiles and two matching cups on each shelf, with the same glaze thickness recorded before loading. Keep the longer peak hold, but avoid changing the cooling segment yet. If the pinholes differ by shelf again, photograph the witnesses alongside the pots before anyone carries the amber batch to the sales table.",
+          "memberships": [
+            "mf08-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Aster and amber pinhole testing continue the schedule experiment.",
+          "tags": [
+            "long",
+            "experimental-control"
+          ]
+        },
+        {
+          "id": "mf08-i19",
+          "text": "Support count corrected to four chipped short posts; one had been hiding under the kiln shelf cart.",
+          "memberships": [
+            "mf08-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "The corrected chipped-post count belongs to support replacement.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf08-i20",
+          "text": "Kiln meeting tray: bring Aster's amber shoulder cups and Willow's pale-green tiles. We need both sets beside their witnesses before deciding whether the shared cooling segment is worth retaining.",
+          "memberships": [
+            "mf08-c1",
+            "mf08-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The review requires artifacts and a cooling decision for both named experiments.",
+          "tags": [
+            "bridge",
+            "joint-review"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf09",
+      "split": "train",
+      "domain": "trail signage",
+      "templateFamily": "route survey waypoints and volunteer paint-day notes",
+      "contexts": [
+        {
+          "id": "mf09-c1",
+          "description": "Replace faded direction signs on the Alder loop."
+        },
+        {
+          "id": "mf09-c2",
+          "description": "Install new direction signs on the Birch spur using Alder's arrow artwork."
+        },
+        {
+          "id": "mf09-c3",
+          "description": "Repair the footbridge handrail on the Moss path."
+        },
+        {
+          "id": "mf09-c4",
+          "description": "Build a trailhead boot-cleaning station."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf09-c1",
+          "mf09-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf09-i01",
+          "text": "Birch lower-junction panel painted; upper-junction blank still drying.",
+          "memberships": [
+            "mf09-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Birch junction panels identify installation progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf09-i02",
+          "text": "Boot-brush order revised to two heads; one is too narrow for the broad boots used in the trial.",
+          "memberships": [
+            "mf09-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Boot-brush quantity revises the cleaning station.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf09-i03",
+          "text": "Alder paint list correction: four panels need replacement, not three; the return arrow beyond bend 4 was missed on the first walk.",
+          "memberships": [
+            "mf09-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Alder's revised panel count updates the sign replacement.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf09-i04",
+          "text": "Moss path bridge: eastern handrail wobbles where the lower bolt enters its post. Inspect that joint before planning a full rail replacement.",
+          "memberships": [
+            "mf09-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Moss bridge handrail anchors structural repair.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf09-i05",
+          "text": "Trailhead cleaning frame anchored; brush heads will fit after the paint cures.",
+          "memberships": [
+            "mf09-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Trailhead frame and brush heads identify boot station progress.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf09-i06",
+          "text": "Alder bend 4: new arrow readable from both approaches.",
+          "memberships": [
+            "mf09-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Alder bend 4 identifies the replacement-sign check.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf09-i07",
+          "text": "Moss bridge inspection found a sound rail and enlarged bolt hole. Fit the agreed repair plate at the eastern post.",
+          "memberships": [
+            "mf09-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Moss bridge's repair plate continues handrail work.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf09-i08",
+          "text": "Paint day: cut Alder's four replacement panels and Birch's two new junction panels from the shared sheet. Print the common arrow artwork once, then add each route's lettering.",
+          "memberships": [
+            "mf09-c1",
+            "mf09-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The materials and artwork task directly serves both signage projects.",
+          "tags": [
+            "bridge",
+            "shared-artwork"
+          ]
+        },
+        {
+          "id": "mf09-i09",
+          "text": "Volunteer walk notes: from the uphill approach, the Alder loop arrow at bend 4 is visible well before the fork. From below, the tall grass hides its lower half until walkers are almost level with it. The new lettering has enough contrast; moving the post would mean drilling new holes into a sound base. Trim the small patch of grass first and repeat the walk with someone who has not memorized the route. Check the other three replacement panels on the same round, and take photographs from a walker's eye height rather than directly in front of each sign.",
+          "memberships": [
+            "mf09-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Alder bend 4 and the other replacement panels continue the faded-sign project.",
+          "tags": [
+            "long",
+            "field-check"
+          ]
+        },
+        {
+          "id": "mf09-i10",
+          "text": "Moss handrail hardware correction: plate needs four holes, not two, matching the approved sketch.",
+          "memberships": [
+            "mf09-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Moss handrail revises repair plate preparation.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf09-i11",
+          "text": "Route review walk covers Alder bend 4's sight line and Birch's lower-junction distance label. Carry both sign lists so the shared arrow style can be checked in place.",
+          "memberships": [
+            "mf09-c1",
+            "mf09-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The walk performs named checks for both route sign projects.",
+          "tags": [
+            "bridge",
+            "joint-survey"
+          ]
+        },
+        {
+          "id": "mf09-i12",
+          "text": "Birch spur survey: add arrows at its two new junctions. Reuse the Alder loop arrow artwork, with Birch's destination names and distances.",
+          "memberships": [
+            "mf09-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Birch signs are a separate installation explicitly reusing Alder artwork.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf09-i13",
+          "text": "Eastern handrail on Moss bridge holds firm; photograph the repaired joint.",
+          "memberships": [
+            "mf09-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Moss bridge identifies the completed handrail check.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf09-i14",
+          "text": "The new arrow panel needs a visibility check from both directions. Someone removed the route name from this paint-day slip.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both signage projects make arrow panels, and the route identifier is missing.",
+          "tags": [
+            "ambiguous",
+            "mixed-clues"
+          ]
+        },
+        {
+          "id": "mf09-i15",
+          "text": "Birch layout note: the long 'Quarry View' destination wraps awkwardly; widen the new spur panel rather than shrinking every letter.",
+          "memberships": [
+            "mf09-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Birch destination panel continues spur signage design.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf09-i16",
+          "text": "Trailhead boot station: trial a fixed brush beside the gravel apron so mud stays outside the information shelter.",
+          "memberships": [
+            "mf09-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Trailhead brush station anchors this installation.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf09-i17",
+          "text": "We need the revised count before collecting the painted pieces. The first list is in someone's bag.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "No route or object identifies which count or painted pieces are intended.",
+          "tags": [
+            "ambiguous",
+            "missing-object"
+          ]
+        },
+        {
+          "id": "mf09-i18",
+          "text": "Birch distance correction: Quarry View is 0.8 km from the lower junction; 1.1 was measured from the gate.",
+          "memberships": [
+            "mf09-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Birch's corrected destination distance updates the sign content.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf09-i19",
+          "text": "Boot-station mockup catches long laces on its bracket. Round the bracket edge and retest with walking boots.",
+          "memberships": [
+            "mf09-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Boot-station bracket continues installation refinement.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf09-i20",
+          "text": "Alder loop survey, bend 4: direction arrow has faded to a white patch. Replace the three sun-facing signs using the old mounting holes.",
+          "memberships": [
+            "mf09-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Alder loop and faded signs anchor replacement.",
+          "tags": [
+            "anchor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf10",
+      "split": "train",
+      "domain": "home fermentation",
+      "templateFamily": "jar labels and tasting diary fragments",
+      "contexts": [
+        {
+          "id": "mf10-c1",
+          "description": "Compare two salt levels in a red-cabbage ferment called Ruby."
+        },
+        {
+          "id": "mf10-c2",
+          "description": "Develop a carrot ferment called Sun using Ruby's tasting schedule."
+        },
+        {
+          "id": "mf10-c3",
+          "description": "Maintain a rye sourdough starter called Pebble."
+        },
+        {
+          "id": "mf10-c4",
+          "description": "Build a shaded shelf for fermentation jars."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf10-c1",
+          "mf10-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf10-i01",
+          "text": "Pebble correction: evening feed was at 19:00, not 21:00; the kitchen timer photo has the right time.",
+          "memberships": [
+            "mf10-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Pebble revises the starter feeding log.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf10-i02",
+          "text": "Label audit before tasting: verify Ruby B's corrected fill weight and Sun's triangle-marked dill jar. These are the two entries that changed on the shared fermentation diary page.",
+          "memberships": [
+            "mf10-c1",
+            "mf10-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The audit explicitly checks a correction from each experiment.",
+          "tags": [
+            "bridge",
+            "joint-audit"
+          ]
+        },
+        {
+          "id": "mf10-i03",
+          "text": "Sun / carrot sticks: use Ruby's cabbage tasting dates as the diary schedule. Test one jar with dill and one plain, marking the lid shapes as well as colours.",
+          "memberships": [
+            "mf10-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Sun is a separate carrot comparison explicitly borrowing Ruby's schedule.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf10-i04",
+          "text": "Rye starter Pebble rose past the band before breakfast again.",
+          "memberships": [
+            "mf10-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Pebble and rise band identify starter maintenance.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf10-i05",
+          "text": "The jar with the darker lid tastes sharper today. I cannot find the page that says what its mark means.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Multiple ferment jars have labels; neither contents nor experiment is identified.",
+          "tags": [
+            "ambiguous",
+            "lost-label"
+          ]
+        },
+        {
+          "id": "mf10-i06",
+          "text": "Sun tasting slip: plain carrot jar has the cleaner aroma; dill jar still has a firmer bite. Keep these as observations, not a final winner.",
+          "memberships": [
+            "mf10-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Sun's two carrot jars continue its flavour trial.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf10-i07",
+          "text": "Shelf plan: shade the fermentation jars from the bright kitchen window with a ventilated backboard and a shallow retaining lip.",
+          "memberships": [
+            "mf10-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "The shaded jar shelf anchors a furnishing project.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf10-i08",
+          "text": "Retake the jar photographs in even light before writing the tasting comparison. Match the pictures to the labels first.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both ferment experiments use photographs and labelled jars; no experiment is named.",
+          "tags": [
+            "ambiguous",
+            "missing-subject"
+          ]
+        },
+        {
+          "id": "mf10-i09",
+          "text": "Sun label revision: dill jar has the triangular lid mark; I reversed triangle and circle in yesterday's diary.",
+          "memberships": [
+            "mf10-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Sun corrects the carrot jars' labels.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf10-i10",
+          "text": "Shaded-shelf mockup: retaining lip hides the lowest jar labels. Lower the lip before cutting the final board.",
+          "memberships": [
+            "mf10-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Shelf lip and labels continue shelf construction.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf10-i11",
+          "text": "Ruby / red cabbage: compare the two labelled salt levels using equal jar fill weights. Photograph each surface before the first tasting day.",
+          "memberships": [
+            "mf10-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Ruby and cabbage salt comparison anchor the experiment.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf10-i12",
+          "text": "Sun carrot photographs retaken; triangular lid mark is now visible.",
+          "memberships": [
+            "mf10-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Sun and the lid mark identify carrot-trial documentation.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf10-i13",
+          "text": "Shelf depth corrected to 24 cm; the 28 cm sketch would obstruct the window handle.",
+          "memberships": [
+            "mf10-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Shelf dimensions revise the furnishing project.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf10-i14",
+          "text": "Ruby label correction: jar B holds 420 g of cabbage, not 470; the latter included the empty jar lid.",
+          "memberships": [
+            "mf10-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Ruby corrects a trial jar measurement.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf10-i15",
+          "text": "Pebble rye starter: track rise marks after evening feeds for a week; the latest feed peaked while I was asleep.",
+          "memberships": [
+            "mf10-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Pebble anchors the starter maintenance log.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf10-i16",
+          "text": "Kitchen jar shelf sanded; the ventilated backboard still needs fixing.",
+          "memberships": [
+            "mf10-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Jar shelf and backboard identify construction progress.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf10-i17",
+          "text": "Ruby day six: both cabbage jars still crisp; B tangier.",
+          "memberships": [
+            "mf10-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Ruby and cabbage jars identify the tasting comparison.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf10-i18",
+          "text": "Pebble jar note: lower starting line made the overnight rise easier to read. Keep the elastic band at that line.",
+          "memberships": [
+            "mf10-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Pebble's rise tracking belongs to starter maintenance.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf10-i19",
+          "text": "Tasting calendar: Ruby cabbage and Sun carrots share Sunday and Wednesday diary slots. Lay out fresh spoons for both experiments and enter each jar's observations on its own line.",
+          "memberships": [
+            "mf10-c1",
+            "mf10-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The calendar actively schedules observations for both named experiments.",
+          "tags": [
+            "bridge",
+            "shared-schedule"
+          ]
+        },
+        {
+          "id": "mf10-i20",
+          "text": "Tasting diary, Ruby: I expected the two cabbage jars to differ mainly in crunch, but today the sharper difference was how long the sour taste lingered. I tasted from plain spoons and wrote the first impression before looking at which salt label belonged to which jar. Both still have a crisp bite. Leave the fill weights and the next tasting day as planned; changing the schedule halfway through would make my earlier notes less useful. I also need to photograph the surface in consistent light, because yesterday's warm lamp made jar B appear a different colour.",
+          "memberships": [
+            "mf10-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Ruby, cabbage, salt labels, and fixed tasting schedule continue the comparison.",
+          "tags": [
+            "long",
+            "observation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf11",
+      "split": "train",
+      "domain": "local choir rehearsals",
+      "templateFamily": "rehearsal-bar annotations and conductor audio transcripts",
+      "contexts": [
+        {
+          "id": "mf11-c1",
+          "description": "Prepare the choir's Winter Window concert opening set."
+        },
+        {
+          "id": "mf11-c2",
+          "description": "Prepare the Lantern Walk outdoor singing set using Winter Window's breathing exercise."
+        },
+        {
+          "id": "mf11-c3",
+          "description": "Record pronunciation guide tracks for an archival song collection."
+        },
+        {
+          "id": "mf11-c4",
+          "description": "Replace the choir room's damaged music-folder shelves."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf11-c1",
+          "mf11-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf11-i01",
+          "text": "Folder shelf trial: thicker board fits, but the central support obscures one label holder. Move that holder to the front lip.",
+          "memberships": [
+            "mf11-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Folder shelf and support continue replacement work.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf11-i02",
+          "text": "Winter Window opening set: altos enter late after bar 18. Rehearse the shared breath through the rest before returning to full tempo.",
+          "memberships": [
+            "mf11-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Winter Window and opening-set entry anchor concert preparation.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf11-i03",
+          "text": "Lantern Walk arc worked; the last row saw every entrance.",
+          "memberships": [
+            "mf11-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Lantern Walk and arc staging identify rehearsal progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf11-i04",
+          "text": "Choir shelf span corrected to 76 cm; 79 measured the outside of the side panels.",
+          "memberships": [
+            "mf11-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Choir shelf dimension revises the replacement project.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf11-i05",
+          "text": "Opening-set pencil correction: difficult entry is bar 19, not 18; the pickup belongs to the preceding measure in this edition.",
+          "memberships": [
+            "mf11-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The opening set's corrected bar number continues Winter Window preparation.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf11-i06",
+          "text": "Archive pronunciation project: record spoken guide tracks for the Meadow Book songs, one verse per file with an audible verse number.",
+          "memberships": [
+            "mf11-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Meadow Book pronunciation tracks anchor the recording project.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf11-i07",
+          "text": "Music folders can return when the replacement lower shelf's finish dries.",
+          "memberships": [
+            "mf11-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Replacement shelf and music folders identify the room repair.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf11-i08",
+          "text": "Winter Window altos: shared breath fixed the late entry today.",
+          "memberships": [
+            "mf11-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Winter Window and shared-breath entry identify rehearsal progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf11-i09",
+          "text": "Meadow Book recording note: verse three's final consonant clipped. Retake the spoken line with more silence before stopping.",
+          "memberships": [
+            "mf11-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Meadow Book's spoken retake continues guide-track recording.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf11-i10",
+          "text": "Warm-up plan: lead Winter Window's shared-breath drill, check its alto entry, then repeat the exercise with Lantern Walk's street-corner cues. Mark separate results for the concert and outdoor sets.",
+          "memberships": [
+            "mf11-c1",
+            "mf11-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The rehearsal directly works on both named performance sets.",
+          "tags": [
+            "bridge",
+            "shared-exercise"
+          ]
+        },
+        {
+          "id": "mf11-i11",
+          "text": "Conductor transcript, Winter Window opener: the altos have the notes, so another slow note-learning pass will not solve what we heard. They watch the page through the rest and miss the preparation for their entry. Ask everyone to look up on the shared breath, sing just the landing chord, then restore the preceding phrase. When we put the whole opening set back together, record the entry once from the back of the room. The piano beside the singers masks the delay more than it does for someone sitting where the audience will be.",
+          "memberships": [
+            "mf11-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Winter Window opener, alto entry, and shared breath continue concert-set preparation.",
+          "tags": [
+            "long",
+            "rehearsal-method"
+          ]
+        },
+        {
+          "id": "mf11-i12",
+          "text": "Meadow Book file correction: track labelled verse five is verse four; the spoken number at its start is accurate.",
+          "memberships": [
+            "mf11-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Meadow Book corrects a pronunciation file label.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf11-i13",
+          "text": "Choir committee note: Winter Window's opening-set rehearsal and Lantern Walk's arc trial both need the main room Thursday. Divide the booking so each group gets its planned run-through.",
+          "memberships": [
+            "mf11-c1",
+            "mf11-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The booking coordinates two explicit performance-preparation tasks.",
+          "tags": [
+            "bridge",
+            "shared-room"
+          ]
+        },
+        {
+          "id": "mf11-i14",
+          "text": "Lantern Walk outdoor set: reuse Winter Window's shared-breath exercise, then practice the street-corner entrances without piano support.",
+          "memberships": [
+            "mf11-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Lantern Walk is a separate outdoor event explicitly using the concert exercise.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf11-i15",
+          "text": "Spoken Meadow Book guides exported; check the verse labels once more.",
+          "memberships": [
+            "mf11-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Spoken guides and verse labels identify the archive recording task.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf11-i16",
+          "text": "The entrance is late again after the silent beat. Try watching the leader instead of the page.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both performance projects involve entrance cues and no set is named.",
+          "tags": [
+            "ambiguous",
+            "shared-problem"
+          ]
+        },
+        {
+          "id": "mf11-i17",
+          "text": "Lantern Walk run-through: the corner cue disappears when singers stand in one long line. Trial a shallow arc around the leader.",
+          "memberships": [
+            "mf11-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Lantern Walk staging continues outdoor-set preparation.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf11-i18",
+          "text": "Choir-room shelves: replace the sagging lower boards that hold music folders. Measure with the folders removed so the bow does not distort the span.",
+          "memberships": [
+            "mf11-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Music-folder shelf replacement anchors the room repair.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf11-i19",
+          "text": "The set needs another run-through with the corrected cues. This photocopy is missing its heading; recover that before putting it on the rehearsal stand.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both performance sets have cues and rehearsals, but the sheet's event heading is missing.",
+          "tags": [
+            "ambiguous",
+            "missing-event"
+          ]
+        },
+        {
+          "id": "mf11-i20",
+          "text": "Lantern Walk order revised: place the short round second, ahead of the long refrain, to suit the walk between stops.",
+          "memberships": [
+            "mf11-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Lantern Walk revises its performance sequence.",
+          "tags": [
+            "revision"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf12",
+      "split": "train",
+      "domain": "aquarium maintenance",
+      "templateFamily": "tank-side parameter cards and weekend care log",
+      "contexts": [
+        {
+          "id": "mf12-c1",
+          "description": "Stabilize flow in the planted display tank's canister filter."
+        },
+        {
+          "id": "mf12-c2",
+          "description": "Set up a shrimp nursery tank with media transferred from the display filter."
+        },
+        {
+          "id": "mf12-c3",
+          "description": "Remove mineral scale from an empty spare aquarium."
+        },
+        {
+          "id": "mf12-c4",
+          "description": "Build a splash-resistant cabinet for aquarium supplies."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf12-c1",
+          "mf12-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf12-i01",
+          "text": "Media-transfer day: log the display canister's flow before removing the pouch, then log the shrimp nursery's circulation after fitting it. Attach both readings to the transfer record.",
+          "memberships": [
+            "mf12-c1",
+            "mf12-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The transfer workflow explicitly measures both filter-maintenance and nursery-setup systems.",
+          "tags": [
+            "bridge",
+            "material-transfer"
+          ]
+        },
+        {
+          "id": "mf12-i02",
+          "text": "Weekend care log: the display tank's outlet stream is back at the tape mark after cleaning the intake sponge. I nearly opened the whole canister, but checked the visible intake first and found the obstruction there. Record another bucket-fill comparison before touching the internal baskets. If the flow falls again, note whether loose plant fragments are collecting on the sponge after trimming. The cabinet card still carries the corrected fill time, so copy that value rather than the wet notebook page with the reversed digits.",
+          "memberships": [
+            "mf12-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Display canister, intake sponge, and corrected flow time continue filter maintenance.",
+          "tags": [
+            "long",
+            "diagnostic"
+          ]
+        },
+        {
+          "id": "mf12-i03",
+          "text": "Spare aquarium label amended: the marked panel is the back, not the base; rotate the sketch accordingly.",
+          "memberships": [
+            "mf12-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Spare aquarium corrects cleaning-sketch orientation.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf12-i04",
+          "text": "Weekend check sheet pairs display intake inspection with nursery pouch inspection. Note any flow change in the display and whether the nursery's gentle elbow remains correctly seated.",
+          "memberships": [
+            "mf12-c1",
+            "mf12-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The sheet gives separate concrete checks for both tank projects.",
+          "tags": [
+            "bridge",
+            "shared-check"
+          ]
+        },
+        {
+          "id": "mf12-i05",
+          "text": "Shrimp nursery setup: seed its small filter with a measured pouch of media from the planted display canister. Record the transfer on the nursery card.",
+          "memberships": [
+            "mf12-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Nursery setup explicitly receives media from the display filter.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf12-i06",
+          "text": "Empty spare's mineral line gone; rinse and inspect the corners.",
+          "memberships": [
+            "mf12-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Empty spare and mineral line identify cleaning completion.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf12-i07",
+          "text": "The outlet is weaker today. Check the filter before changing the layout; I forgot which tank this reading came from.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both tank projects have filters and the tank is explicitly missing.",
+          "tags": [
+            "ambiguous",
+            "missing-tank"
+          ]
+        },
+        {
+          "id": "mf12-i08",
+          "text": "Nursery card: pouch is in the small filter and the bare tank is circulating. Keep logging observations before introducing any shrimp.",
+          "memberships": [
+            "mf12-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Nursery pouch and small filter continue tank setup.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf12-i09",
+          "text": "Supply cabinet build: fit a raised plinth and washable door fronts so splashes do not soak the aquarium food and spare tools.",
+          "memberships": [
+            "mf12-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Cabinet plinth and doors anchor supply storage construction.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf12-i10",
+          "text": "The corrected number belongs on a fresh tank card. Find the card heading before copying it; the quantity has no units on this scrap.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Neither tank nor measured quantity is supplied, leaving the correction ungrounded.",
+          "tags": [
+            "ambiguous",
+            "missing-quantity"
+          ]
+        },
+        {
+          "id": "mf12-i11",
+          "text": "Nursery equipment correction: use the gentle outlet elbow, not the spray bar shown in the first layout.",
+          "memberships": [
+            "mf12-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Nursery revises its filter outlet setup.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf12-i12",
+          "text": "Cabinet mockup: food tubs fit above the plinth, but long tongs hit the door. Add a shallow side hook.",
+          "memberships": [
+            "mf12-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Supply cabinet and tongs continue storage design.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf12-i13",
+          "text": "Display tank flow card: canister output has fallen since the intake sponge clogged. Clean the sponge and mark the outlet stream position for comparison.",
+          "memberships": [
+            "mf12-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Display canister flow anchors filter maintenance.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf12-i14",
+          "text": "Shrimp nursery circulation gentle now; transfer pouch remains in place.",
+          "memberships": [
+            "mf12-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Nursery and transfer pouch identify setup progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf12-i15",
+          "text": "Supply cabinet width corrected to 42 cm; the first drawing ignored the wall pipe.",
+          "memberships": [
+            "mf12-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Cabinet width revision belongs to storage construction.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf12-i16",
+          "text": "Display flow log correction: bucket fill took 48 seconds, not 84; transposed the digits while drying my hands.",
+          "memberships": [
+            "mf12-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Display flow log revises the filter performance record.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf12-i17",
+          "text": "Empty spare aquarium: remove the white mineral line before storing it. Test the cleaning pad on an inconspicuous patch of glass first.",
+          "memberships": [
+            "mf12-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Empty spare aquarium and mineral line anchor cleaning.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf12-i18",
+          "text": "Washable cabinet doors fitted; side hook for the tongs still loose.",
+          "memberships": [
+            "mf12-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Cabinet doors and tongs hook identify finishing work.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf12-i19",
+          "text": "Display canister: cleaned sponge restored the stream to its mark.",
+          "memberships": [
+            "mf12-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Display canister and stream mark identify flow stabilization.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf12-i20",
+          "text": "Spare-glass trial: soft pad removes the mineral haze without visible scratches under side lighting. Continue a small section at a time.",
+          "memberships": [
+            "mf12-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Spare glass and mineral haze continue the cleaning task.",
+          "tags": [
+            "followup"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf13",
+      "split": "train",
+      "domain": "school robotics",
+      "templateFamily": "student engineering notebook and bug-report comments",
+      "contexts": [
+        {
+          "id": "mf13-c1",
+          "description": "Fix the line-following behaviour of the school's Cedar robot."
+        },
+        {
+          "id": "mf13-c2",
+          "description": "Build a delivery attachment for the Birch robot using Cedar's sensor mount pattern."
+        },
+        {
+          "id": "mf13-c3",
+          "description": "Prepare the robotics club's battery inventory."
+        },
+        {
+          "id": "mf13-c4",
+          "description": "Design a paper robot maze for the open-day activity."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf13-c1",
+          "mf13-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf13-i01",
+          "text": "The drawing has the old number. Bring the revised sheet before we cut any more pieces.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "No robot, dimension, or object identifies the drawing.",
+          "tags": [
+            "ambiguous",
+            "missing-drawing"
+          ]
+        },
+        {
+          "id": "mf13-i02",
+          "text": "Birch attachment correction: tray width is 16 cm, not 18; the larger cutout catches the wheel guard.",
+          "memberships": [
+            "mf13-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Birch corrects its attachment dimensions.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf13-i03",
+          "text": "Maze table trial: visitors confuse the goal square with an obstacle. Add a flag symbol to the paper grid's goal.",
+          "memberships": [
+            "mf13-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Open-day paper maze's goal symbol continues activity design.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf13-i04",
+          "text": "Bug LF-8, Cedar: robot overshoots the black line on tight bends. Log left and right sensor readings while rolling the chassis slowly through the corner.",
+          "memberships": [
+            "mf13-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "LF-8 and Cedar's corner error anchor line-following work.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf13-i05",
+          "text": "Birch parcel tray clears both wheels; retaining edge still untested.",
+          "memberships": [
+            "mf13-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Birch tray identifies attachment progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf13-i06",
+          "text": "Paper maze correction: print a six-by-six grid, not seven-by-seven; the arrow cards fit the smaller layout better.",
+          "memberships": [
+            "mf13-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Paper maze revises its grid dimensions.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf13-i07",
+          "text": "LF-8 correction: the low threshold is 320, not 230. We swapped the numbers while copying the serial log.",
+          "memberships": [
+            "mf13-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "LF-8 revises the sensor threshold record.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf13-i08",
+          "text": "Battery inventory BI: count rechargeable packs in the robotics cupboard and label their connector types before the club's next loan session.",
+          "memberships": [
+            "mf13-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "BI anchors battery inventory.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf13-i09",
+          "text": "Open-day arrow-card maze printed; reset instruction now visible at the start.",
+          "memberships": [
+            "mf13-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Open-day maze identifies the completed activity prototype.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf13-i10",
+          "text": "Cedar LF-8: slow corner pass now stays over the line.",
+          "memberships": [
+            "mf13-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "LF-8 identifies line-following progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf13-i11",
+          "text": "BI cupboard check found two packs without legible connector labels. Set them aside from the loan-ready stock pending identification.",
+          "memberships": [
+            "mf13-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "BI and unlabelled packs continue inventory work.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf13-i12",
+          "text": "Fabrication note: measure Cedar's revised sensor bracket after LF-8's slow pass, then transfer that hole pattern to Birch's parcel-tray drawing before cutting its mount.",
+          "memberships": [
+            "mf13-c1",
+            "mf13-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The fabrication action uses Cedar's revised mount in Birch's attachment design.",
+          "tags": [
+            "bridge",
+            "shared-design"
+          ]
+        },
+        {
+          "id": "mf13-i13",
+          "text": "Student notebook, Cedar LF-8: we thought the steering code was late because the robot kept drifting wide at the painted corner. Pushing the chassis by hand showed that the right sensor stopped seeing the line before the left one reached it. We moved the sensor bracket slightly forward and repeated the slow pass with the motors disabled. The readings look less abrupt now. Save that log alongside the corrected threshold, then run the powered trial at the previous speed. Changing speed and bracket position together would leave us unsure which adjustment helped.",
+          "memberships": [
+            "mf13-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Cedar LF-8, sensor bracket, and threshold continue the line-following fix.",
+          "tags": [
+            "long",
+            "diagnostic"
+          ]
+        },
+        {
+          "id": "mf13-i14",
+          "text": "BI count revised from twelve to ten loan-ready packs; the two unlabeled ones were included in the first total.",
+          "memberships": [
+            "mf13-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "BI corrects the battery inventory count.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf13-i15",
+          "text": "Club demo schedule: run Cedar's line-following corner check, then Birch's loaded delivery turn on the same cleared floor. Capture the sensor fix and tray test as separate notebook entries.",
+          "memberships": [
+            "mf13-c1",
+            "mf13-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The schedule performs specific tests for both robot projects.",
+          "tags": [
+            "bridge",
+            "shared-space"
+          ]
+        },
+        {
+          "id": "mf13-i16",
+          "text": "Birch delivery attachment: copy Cedar's sensor-mount hole pattern for the parcel tray bracket. The tray must clear Birch's front wheels when loaded.",
+          "memberships": [
+            "mf13-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Birch attachment explicitly reuses Cedar's mount pattern but serves a different robot task.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf13-i17",
+          "text": "Robotics cupboard BI sheet updated; connector labels await a final check.",
+          "memberships": [
+            "mf13-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "BI identifies inventory completion work.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf13-i18",
+          "text": "It veers during the turn again. Check the bracket position before adjusting anything; the robot name is missing from this trial sheet.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both robot projects have bracket and turning tests, with no robot identifier supplied.",
+          "tags": [
+            "ambiguous",
+            "overlapping-hardware"
+          ]
+        },
+        {
+          "id": "mf13-i19",
+          "text": "Birch tray issue: parcel shifts on the turn and tips the bracket. Add a low retaining edge before repeating the loaded run.",
+          "memberships": [
+            "mf13-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Birch tray and bracket continue attachment development.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf13-i20",
+          "text": "Open-day maze draft: a paper grid for visitors to guide a pretend robot using arrow cards. Leave space for a reset instruction near the start.",
+          "memberships": [
+            "mf13-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Paper maze and open-day activity anchor instructional design.",
+          "tags": [
+            "anchor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf14",
+      "split": "train",
+      "domain": "neighborhood compost",
+      "templateFamily": "volunteer rota slips and bin-turning log",
+      "contexts": [
+        {
+          "id": "mf14-c1",
+          "description": "Improve aeration in the Maple compost bay."
+        },
+        {
+          "id": "mf14-c2",
+          "description": "Start the Willow compost bay using mature material from Maple."
+        },
+        {
+          "id": "mf14-c3",
+          "description": "Arrange kitchen-scrap collection buckets for the apartment courtyard."
+        },
+        {
+          "id": "mf14-c4",
+          "description": "Repair the community garden's leaf-sieve frame."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf14-c1",
+          "mf14-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf14-i01",
+          "text": "Maple centre opens up now; coarse stems still visible.",
+          "memberships": [
+            "mf14-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Maple and coarse stems identify aeration progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf14-i02",
+          "text": "Bucket rota note: west-door label faded in the rain. Replace it with a covered label showing the same pickup day.",
+          "memberships": [
+            "mf14-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "West-door bucket label continues courtyard collection setup.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf14-i03",
+          "text": "Bay visit rota: check Maple's central aeration before taking its mature bucket to Willow, then record where that starter material enters Willow's new layers.",
+          "memberships": [
+            "mf14-c1",
+            "mf14-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The visit explicitly checks Maple and transfers material into Willow's startup.",
+          "tags": [
+            "bridge",
+            "material-transfer"
+          ]
+        },
+        {
+          "id": "mf14-i04",
+          "text": "Volunteer note after turning Maple: the outside looked crumbly enough that I almost skipped the middle, but the fork brought up a heavy compressed block from there. We teased it apart on the tarp and mixed the coarse stems through the wet layer rather than putting them only on top. The bay now has more open texture from front to back. Please check the same central section on the next turn and record how easily the fork passes through it. A photograph of the dry outer face would make this aeration trial look finished too soon.",
+          "memberships": [
+            "mf14-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Maple's wet centre and stem mixing continue the aeration trial.",
+          "tags": [
+            "long",
+            "field-observation"
+          ]
+        },
+        {
+          "id": "mf14-i05",
+          "text": "Courtyard rota correction: west pickup is Thursday, replacing Wednesday after the volunteer swap.",
+          "memberships": [
+            "mf14-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Courtyard pickup schedule revises the collection project.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf14-i06",
+          "text": "Compost meeting: compare Maple's open-centre notes with Willow's broken leaf-mat notes. Plan the next turning slot for each bay, using the same volunteer crew.",
+          "memberships": [
+            "mf14-c1",
+            "mf14-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The meeting schedules concrete follow-up for both bay projects.",
+          "tags": [
+            "bridge",
+            "shared-crew"
+          ]
+        },
+        {
+          "id": "mf14-i07",
+          "text": "Willow startup card: build the new compost bay in thin layers and seed it with one bucket of mature material from Maple. Mark the transfer on both bay cards.",
+          "memberships": [
+            "mf14-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Willow is a new bay explicitly receiving Maple material.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf14-i08",
+          "text": "East and west scrap buckets labelled; courtyard pickup cards distributed.",
+          "memberships": [
+            "mf14-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Courtyard buckets identify collection readiness.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf14-i09",
+          "text": "The middle layer is too compact. Break it up before adding more material on top.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both bays have compact-layer problems and neither is named.",
+          "tags": [
+            "ambiguous",
+            "shared-condition"
+          ]
+        },
+        {
+          "id": "mf14-i10",
+          "text": "Willow layer check: dry leaves formed a solid mat. Break up that band before adding the next kitchen-scrap layer.",
+          "memberships": [
+            "mf14-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Willow's layered startup continues new-bay preparation.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf14-i11",
+          "text": "Leaf-sieve repair: garden frame twists when shaken. Add a diagonal brace to the wooden square before replacing the sound mesh.",
+          "memberships": [
+            "mf14-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Leaf-sieve frame anchors equipment repair.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf14-i12",
+          "text": "The rain made the numbers unreadable. Copy the corrected total onto a fresh card before the next visit.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "No bay, rota, or measurement grounds the damaged-card correction.",
+          "tags": [
+            "ambiguous",
+            "unreadable-record"
+          ]
+        },
+        {
+          "id": "mf14-i13",
+          "text": "Willow card correction: starting depth was 35 cm, not 53; digits reversed on the rain-smudged sheet.",
+          "memberships": [
+            "mf14-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Willow revises its startup depth record.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf14-i14",
+          "text": "Sieve bench note: diagonal brace steadies the frame, but one corner screw protrudes. Use a shorter screw there.",
+          "memberships": [
+            "mf14-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Sieve brace and corner screw continue frame repair.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf14-i15",
+          "text": "Maple turning log: the middle of the compost bay is dense and wet. Add coarse stems during the next turn and note whether the layers loosen.",
+          "memberships": [
+            "mf14-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Maple and dense compost anchor the aeration work.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf14-i16",
+          "text": "Willow's leaf mat broken; new bay ready for another layer.",
+          "memberships": [
+            "mf14-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Willow identifies startup progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf14-i17",
+          "text": "Leaf-sieve brace correction: cut length is 71 cm, not 74; the joints sit inside the frame corners.",
+          "memberships": [
+            "mf14-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Leaf-sieve revises the brace dimension.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf14-i18",
+          "text": "Maple correction: add two baskets of coarse stems, not four; the first tally included stems already mixed into the base.",
+          "memberships": [
+            "mf14-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Maple revises the aeration addition.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf14-i19",
+          "text": "Courtyard bucket rota: place sealed scrap-collection buckets at the east and west apartment doors, then alternate pickup days so no landing gets skipped.",
+          "memberships": [
+            "mf14-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Courtyard collection buckets anchor the pickup project.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf14-i20",
+          "text": "Garden sieve frame holds square; shake a load of dry leaves before returning it.",
+          "memberships": [
+            "mf14-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Sieve frame identifies the repair test.",
+          "tags": [
+            "paraphrase"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf15",
+      "split": "train",
+      "domain": "family recipe booklet",
+      "templateFamily": "editorial queries and proof-page annotations",
+      "contexts": [
+        {
+          "id": "mf15-c1",
+          "description": "Edit the summer chapter of a fictional family recipe booklet."
+        },
+        {
+          "id": "mf15-c2",
+          "description": "Edit the winter chapter using the summer chapter's ingredient notation."
+        },
+        {
+          "id": "mf15-c3",
+          "description": "Design the booklet's illustrated cover."
+        },
+        {
+          "id": "mf15-c4",
+          "description": "Organize a tasting lunch to choose a new picnic menu."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf15-c1",
+          "mf15-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf15-i01",
+          "text": "Winter lentil-bake proof: ingredient weights are consistent now, but the oven sentence still refers to a missing covered stage.",
+          "memberships": [
+            "mf15-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Winter chapter's lentil bake continues proof editing.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf15-i02",
+          "text": "Picnic-menu lunch plan: ask six tasters to compare bean wraps and pear sandwiches, noting portability as well as flavour.",
+          "memberships": [
+            "mf15-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Tasting lunch and picnic options anchor menu selection.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf15-i03",
+          "text": "The quantity on this proof page is outdated. Find the recipe heading before copying the correction into the ingredient list.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both chapter projects revise recipe quantities; the recipe and chapter are absent.",
+          "tags": [
+            "ambiguous",
+            "missing-page"
+          ]
+        },
+        {
+          "id": "mf15-i04",
+          "text": "Winter proof correction: covered stage lasts 25 minutes, replacing the 15 copied from an earlier draft.",
+          "memberships": [
+            "mf15-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Winter revises a recipe timing.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf15-i05",
+          "text": "Lunch feedback form: add a box for filling leakage; the bean wrap tasted good but was awkward to carry.",
+          "memberships": [
+            "mf15-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Lunch comparison criteria continue picnic-menu selection.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf15-i06",
+          "text": "Summer chapter proof: cucumber soup lists mint in the method but not the ingredients. Add the measured amount and use grams throughout the chapter.",
+          "memberships": [
+            "mf15-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Summer chapter and cucumber soup anchor chapter editing.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf15-i07",
+          "text": "Winter lentil bake: covered stage restored to the method.",
+          "memberships": [
+            "mf15-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Winter lentil bake identifies chapter revision progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf15-i08",
+          "text": "Picnic lunch headcount revised to eight after two tasters joined. Keep equal portions of both menu candidates.",
+          "memberships": [
+            "mf15-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Picnic lunch revises tasting quantity.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf15-i09",
+          "text": "Summer proof correction: mint is 8 g, not 18; the leading stroke belongs to the annotation arrow.",
+          "memberships": [
+            "mf15-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Summer chapter revises an ingredient amount.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf15-i10",
+          "text": "Cover brief: draw a bowl beside a folded cloth for the family recipe booklet. Leave clear space above it for the title.",
+          "memberships": [
+            "mf15-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Illustrated booklet cover anchors visual design.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf15-i11",
+          "text": "Tasting lunch baskets labelled; portability forms ready beside the wraps.",
+          "memberships": [
+            "mf15-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Tasting lunch and forms identify menu-evaluation preparation.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf15-i12",
+          "text": "Summer cucumber soup: ingredient list and method now agree.",
+          "memberships": [
+            "mf15-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Summer cucumber soup identifies proofing progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf15-i13",
+          "text": "Cover sketch feedback: bowl rim crowds the title. Lower the drawing and lighten the cloth pattern so the lettering reads at thumbnail size.",
+          "memberships": [
+            "mf15-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Cover composition continues illustration design.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf15-i14",
+          "text": "Style-sheet review: compare summer's corrected cucumber-soup ingredient line with winter's lentil-bake weights. Apply the shared gram notation consistently before either chapter goes to the next proof.",
+          "memberships": [
+            "mf15-c1",
+            "mf15-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The review explicitly edits notation in both chapter projects.",
+          "tags": [
+            "bridge",
+            "shared-style"
+          ]
+        },
+        {
+          "id": "mf15-i15",
+          "text": "Editorial query, summer chapter: the cucumber soup paragraph says to reserve a little mint, but readers cannot tell whether that comes from the listed amount or is an extra garnish. I have changed the sentence to reserve part of the measured mint before blending. Please read the ingredient list and method together on the next proof, because fixing just the number left that ambiguity intact. Check the other summer recipes for the same pattern while this page is open. The margin now has room for the short serving note that was squeezed beneath the illustration.",
+          "memberships": [
+            "mf15-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Summer chapter, cucumber soup, and ingredient-method reconciliation continue its editing.",
+          "tags": [
+            "long",
+            "editorial-reasoning"
+          ]
+        },
+        {
+          "id": "mf15-i16",
+          "text": "Cover colour note revised: use muted teal, not the saturated blue shown on the first sketch.",
+          "memberships": [
+            "mf15-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Cover palette revision belongs to illustration design.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf15-i17",
+          "text": "Proof packet contents: summer pages with the reserved-mint sentence and winter pages with the restored covered stage. Read both for ingredient-method agreement during the same editorial session.",
+          "memberships": [
+            "mf15-c1",
+            "mf15-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The packet directs a concrete review of both chapter revisions.",
+          "tags": [
+            "bridge",
+            "joint-proof"
+          ]
+        },
+        {
+          "id": "mf15-i18",
+          "text": "Winter chapter query: adopt the summer chapter's gram notation for ingredients. The lentil bake currently mixes spoonfuls with an unlabelled weight.",
+          "memberships": [
+            "mf15-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Winter chapter is explicitly related through summer's notation convention.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf15-i19",
+          "text": "Booklet cover proof: lowered bowl leaves the title comfortably clear.",
+          "memberships": [
+            "mf15-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Cover and title layout identify design progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf15-i20",
+          "text": "The ingredient amount and the method still disagree. Mark the correction in the margin before the next proof.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both chapters involve ingredient-method agreement without a named recipe.",
+          "tags": [
+            "ambiguous",
+            "missing-recipe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf16",
+      "split": "train",
+      "domain": "amateur observatory",
+      "templateFamily": "night logbook and instrument checkout entries",
+      "contexts": [
+        {
+          "id": "mf16-c1",
+          "description": "Align the small observatory's rooftop reflector mount."
+        },
+        {
+          "id": "mf16-c2",
+          "description": "Prepare courtyard binocular observing sessions using the reflector team's sky chart."
+        },
+        {
+          "id": "mf16-c3",
+          "description": "Repair the observatory's sliding roof weather strip."
+        },
+        {
+          "id": "mf16-c4",
+          "description": "Create an archive index for hand-drawn lunar sketches."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf16-c1",
+          "mf16-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf16-i01",
+          "text": "Roof maintenance entry: sliding roof weather strip has split near the west corner. Measure the channel and replace the brittle length.",
+          "memberships": [
+            "mf16-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Weather strip and sliding roof anchor roof repair.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf16-i02",
+          "text": "Hand-drawn lunar archive indexed; unknown-date pages flagged for later review.",
+          "memberships": [
+            "mf16-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Lunar archive and date fields identify indexing progress.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf16-i03",
+          "text": "Rooftop reflector: ten-minute hold steadier after reference-mark adjustment.",
+          "memberships": [
+            "mf16-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Rooftop reflector hold identifies alignment progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf16-i04",
+          "text": "Roof-strip trial: replacement seals the west corner, but catches the latch guide. Trim the end to the marked stop line.",
+          "memberships": [
+            "mf16-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Roof strip and latch guide continue weather-strip fitting.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf16-i05",
+          "text": "Chart preparation: update the reflector mount's large-label sky chart after the rooftop check, then print its courtyard edition with the binocular team's higher target choices marked.",
+          "memberships": [
+            "mf16-c1",
+            "mf16-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The chart workflow uses reflector work and prepares the binocular session's version.",
+          "tags": [
+            "bridge",
+            "shared-chart"
+          ]
+        },
+        {
+          "id": "mf16-i06",
+          "text": "Night log, rooftop reflector, after the clouds cleared: the first star seemed to drift less after we adjusted the reference mark, but our second check started from a different side of the mount. That changes the comparison. I wrote down which side held the tube and where the counterweight sat, then returned to the original orientation for another ten-minute hold. The trace looked tighter there too. Before we claim the alignment is settled, repeat that original setup on the next clear session with the same eyepiece and a similar target height. Leave the tracking-rate setting as recorded; we have not demonstrated that it caused the earlier drift. The corrected reference-mark offset is on the front of this page, with the old number crossed through. I also sketched the roof edge behind the target because the first observation ended close to that obstruction, and the next observer needs to know why we stopped rather than assuming the equipment failed. The chart clipped to the mount is the version with the large northern labels.",
+          "memberships": [
+            "mf16-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "The rooftop reflector, reference-mark correction, and controlled star holds all continue mount alignment.",
+          "tags": [
+            "long",
+            "experimental-control"
+          ]
+        },
+        {
+          "id": "mf16-i07",
+          "text": "Weather-strip order correction: channel takes 9 mm profile, not 12; the wider sample buckles in the groove.",
+          "memberships": [
+            "mf16-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Weather-strip profile revision belongs to roof repair.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf16-i08",
+          "text": "Clear-night rota assigns one observer to the rooftop reflector's repeat hold and another to the courtyard binocular rehearsal. Swap the chart clipboard after each team records its results.",
+          "memberships": [
+            "mf16-c1",
+            "mf16-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The rota coordinates explicit checks for both observing projects.",
+          "tags": [
+            "bridge",
+            "shared-session"
+          ]
+        },
+        {
+          "id": "mf16-i09",
+          "text": "Courtyard binocular session plan: use the reflector team's large-label sky chart for newcomers, but choose targets visible above the courtyard wall without a mount.",
+          "memberships": [
+            "mf16-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Courtyard sessions explicitly reuse the reflector team's chart for a distinct activity.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf16-i10",
+          "text": "Sliding roof closes smoothly with the trimmed west weather strip.",
+          "memberships": [
+            "mf16-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Roof and trimmed weather strip identify repair progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf16-i11",
+          "text": "The target disappears behind the edge from this position. Choose a higher one before repeating the check.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both observing projects discuss obstructed targets; no location or instrument is named.",
+          "tags": [
+            "ambiguous",
+            "shared-obstruction"
+          ]
+        },
+        {
+          "id": "mf16-i12",
+          "text": "Binocular courtyard rehearsal: two targets disappear behind the wall from the seated position. Replace them with higher targets on the handout.",
+          "memberships": [
+            "mf16-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Courtyard binocular target visibility continues session preparation.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf16-i13",
+          "text": "Lunar-sketch archive: index the hand-drawn pages by observation date and feature name. Give undated sketches a visible unknown-date field.",
+          "memberships": [
+            "mf16-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Lunar-sketch indexing anchors the archive project.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf16-i14",
+          "text": "The number on the page is wrong, but the handwritten mark beside it is correct. Copy that version into the record.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "No measurement or record type identifies this correction.",
+          "tags": [
+            "ambiguous",
+            "missing-record"
+          ]
+        },
+        {
+          "id": "mf16-i15",
+          "text": "Courtyard session correction: start at 20:15, not 20:45; the handout copied the rooftop team's older gathering time.",
+          "memberships": [
+            "mf16-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Courtyard revises its own session start time.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf16-i16",
+          "text": "Archive indexing note: two lunar pages show the same crater from different nights. Retain both and add their distinct date inscriptions.",
+          "memberships": [
+            "mf16-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Lunar pages and date inscriptions continue archive indexing.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf16-i17",
+          "text": "Night log, rooftop reflector: mount alignment drifts during a ten-minute star hold. Check the polar reference mark before adjusting the tracking rate.",
+          "memberships": [
+            "mf16-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Rooftop reflector and drifting hold anchor mount alignment.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf16-i18",
+          "text": "Binocular handouts ready; courtyard's seated viewing positions marked.",
+          "memberships": [
+            "mf16-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Courtyard binocular setup identifies session progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf16-i19",
+          "text": "Lunar index correction: the sketch marked 14 belongs to the page number, not the night of observation.",
+          "memberships": [
+            "mf16-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Lunar index corrects interpretation of a handwritten number.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf16-i20",
+          "text": "Reflector alignment correction: reference mark offset is 0.6 degrees, not 6; the decimal was lost beneath a pencil smear.",
+          "memberships": [
+            "mf16-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Reflector revises its alignment measurement.",
+          "tags": [
+            "revision"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf17",
+      "split": "train",
+      "domain": "home sewing alterations",
+      "templateFamily": "fitting receipts and seam-ripper work notes",
+      "contexts": [
+        {
+          "id": "mf17-c1",
+          "description": "Shorten a green linen pair of trousers for a fictional neighbour."
+        },
+        {
+          "id": "mf17-c2",
+          "description": "Alter a matching green linen jacket using the trouser hem offcuts."
+        },
+        {
+          "id": "mf17-c3",
+          "description": "Replace the zip in a canvas cushion cover."
+        },
+        {
+          "id": "mf17-c4",
+          "description": "Make fabric sleeves for reusable shopping-bag handles."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf17-c1",
+          "mf17-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf17-i01",
+          "text": "Canvas cushion zip closes fully; inner seam still needs finishing.",
+          "memberships": [
+            "mf17-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Canvas cushion zip identifies repair progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf17-i02",
+          "text": "The green linen still puckers beside the new seam. Press a sample before unpicking the whole section.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both garment projects use green linen and new seams; the garment is missing.",
+          "tags": [
+            "ambiguous",
+            "shared-material"
+          ]
+        },
+        {
+          "id": "mf17-i03",
+          "text": "Green jacket work note: pocket patch fits, but its seam catches a hand sliding inside. Turn the allowance away from the opening.",
+          "memberships": [
+            "mf17-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Green jacket pocket patch continues alteration.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf17-i04",
+          "text": "Bag-handle sleeve batch: make soft fabric wraps for the reusable shopping bags so narrow straps do not dig into hands.",
+          "memberships": [
+            "mf17-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Fabric shopping-bag wraps anchor sleeve making.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf17-i05",
+          "text": "The amount on the receipt changed after unpicking. Please use the fresh measurement before cutting the replacement.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Several sewing jobs involve revised measurements; no item is specified.",
+          "tags": [
+            "ambiguous",
+            "missing-item"
+          ]
+        },
+        {
+          "id": "mf17-i06",
+          "text": "Jacket receipt revision: pocket patch needs 7 cm width, replacing the 5 cm estimate made before unpicking.",
+          "memberships": [
+            "mf17-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Jacket patch dimension revises the repair.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf17-i07",
+          "text": "Handle-wrap sample slips sideways under a heavy bag. Add a short fastening strip inside the fabric sleeve.",
+          "memberships": [
+            "mf17-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Handle-wrap prototype continues sleeve design.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf17-i08",
+          "text": "Fitting receipt: green linen trousers need shorter legs without losing the rolled-hem look. Mark each leg while the neighbour wears the intended shoes.",
+          "memberships": [
+            "mf17-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Green linen trousers and hem alteration anchor the project.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf17-i09",
+          "text": "Green linen jacket pocket basted; hand-entry check still pending.",
+          "memberships": [
+            "mf17-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Green jacket pocket identifies alteration progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf17-i10",
+          "text": "Bag sleeve count corrected to eight wraps; I counted bags rather than paired handles on the first list.",
+          "memberships": [
+            "mf17-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Bag sleeve count revises the batch.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf17-i11",
+          "text": "Trouser receipt correction: remove 4 cm from the left leg, not 6; the temporary cuff doubled over during measuring.",
+          "memberships": [
+            "mf17-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Trouser leg measurement revises the shortening job.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf17-i12",
+          "text": "Canvas cushion cover: replace the broken side zip while retaining the piping. Unpick from the inner seam to avoid pulling the visible edge.",
+          "memberships": [
+            "mf17-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Canvas cushion and broken zip anchor repair.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf17-i13",
+          "text": "Reusable-bag wraps cut; fastening strips laid beside the eight sleeves.",
+          "memberships": [
+            "mf17-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Bag wraps and sleeves identify batch progress.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf17-i14",
+          "text": "Green linen trousers: left leg marked, right hem still pinned.",
+          "memberships": [
+            "mf17-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Green trousers and leg hems identify alteration progress.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf17-i15",
+          "text": "Cushion zip note: new slider runs smoothly until the final corner. The piping cord crowds that end of the seam.",
+          "memberships": [
+            "mf17-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Cushion zip and piping continue replacement work.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf17-i16",
+          "text": "Green linen cutting session: complete the trouser hem measurements before cutting, then set aside the sound offcuts needed for the matching jacket's wider pocket patch.",
+          "memberships": [
+            "mf17-c1",
+            "mf17-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The session links the trouser alteration and jacket repair through usable offcuts.",
+          "tags": [
+            "bridge",
+            "material-dependency"
+          ]
+        },
+        {
+          "id": "mf17-i17",
+          "text": "Seam-ripper note, green linen trousers: the rolled hem looked even on the table, but the left leg sat lower when the neighbour stood in the intended shoes. I had measured over a temporary cuff that folded twice, so the first amount to remove was too large. The corrected figure is on the fitting receipt. Open only enough stitching to flatten the fold, press it gently, and mark the new line with the leg hanging freely before cutting. The right leg has its own pins and should be measured rather than copied automatically. Save the clean offcut in the envelope marked green linen, because the fabric is narrow enough that little usable pieces are easy to lose among the scraps. After basting both hems, ask for a few steps across the room and a seated check; the wrinkle at the knee made the standing front view look shorter than the side view.",
+          "memberships": [
+            "mf17-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Green linen trousers, corrected cuff measurement, and leg-specific fitting continue shortening.",
+          "tags": [
+            "long",
+            "fitting-observation"
+          ]
+        },
+        {
+          "id": "mf17-i18",
+          "text": "Canvas cover correction: zip length is 38 cm, not 40; the extra measurement was the closed fabric end.",
+          "memberships": [
+            "mf17-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Canvas cover revises replacement zip size.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf17-i19",
+          "text": "Return fitting receipt covers green trousers' walking check and the matching jacket's pocket-entry check. Bring both pieces so the neighbour can try the finished alterations together.",
+          "memberships": [
+            "mf17-c1",
+            "mf17-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The fitting explicitly verifies each of the two garment projects.",
+          "tags": [
+            "bridge",
+            "joint-fitting"
+          ]
+        },
+        {
+          "id": "mf17-i20",
+          "text": "Matching green linen jacket: repair the worn inner pocket edge with cloth saved from the trouser hems. Keep the repair flat so the pocket still closes.",
+          "memberships": [
+            "mf17-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Jacket repair explicitly uses the matching trousers' offcuts.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mf18",
+      "split": "train",
+      "domain": "sailing club logistics",
+      "templateFamily": "launch-day manifests and dock-coordinator radio notes",
+      "contexts": [
+        {
+          "id": "mf18-c1",
+          "description": "Plan launch-day logistics for the youth dinghy practice."
+        },
+        {
+          "id": "mf18-c2",
+          "description": "Arrange the adult beginner dinghy session sharing the youth launch ramp."
+        },
+        {
+          "id": "mf18-c3",
+          "description": "Inventory and relabel the club's loan buoyancy aids."
+        },
+        {
+          "id": "mf18-c4",
+          "description": "Schedule maintenance access for the floating dock's hinge plates."
+        }
+      ],
+      "relatedContextPairs": [
+        [
+          "mf18-c1",
+          "mf18-c2"
+        ]
+      ],
+      "items": [
+        {
+          "id": "mf18-i01",
+          "text": "Dock maintenance slot corrected to Tuesday afternoon, not morning; the access booking was copied from an earlier draft.",
+          "memberships": [
+            "mf18-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Dock maintenance revises access timing.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf18-i02",
+          "text": "Youth manifest correction: six dinghies, not eight; two crews will rotate ashore rather than launch their own boats.",
+          "memberships": [
+            "mf18-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Youth launch count revises practice logistics.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf18-i03",
+          "text": "Loan buoyancy-aid inventory: sort club stock by the printed size ranges and replace unreadable loan numbers before updating the checkout sheet.",
+          "memberships": [
+            "mf18-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Buoyancy-aid stock and loan labels anchor inventory.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf18-i04",
+          "text": "Floating dock joint sketch printed; western access route now clear.",
+          "memberships": [
+            "mf18-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Dock joints and access identify maintenance preparation.",
+          "tags": [
+            "paraphrase"
+          ]
+        },
+        {
+          "id": "mf18-i05",
+          "text": "Youth practice trolleys staged; east-ramp marshal has the revised list.",
+          "memberships": [
+            "mf18-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Youth practice and marshal identify launch preparation.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf18-i06",
+          "text": "Aid inventory note: three loan numbers are duplicated. Set those pieces aside until their labels and checkout entries agree.",
+          "memberships": [
+            "mf18-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Buoyancy-aid loan numbers continue inventory correction.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf18-i07",
+          "text": "East-ramp handover: youth practice marshal clears the six launched boats' trolleys from the turn, then passes the return-lane sheet to the adult beginner coordinator for the four-boat session.",
+          "memberships": [
+            "mf18-c1",
+            "mf18-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The handover directly coordinates launch logistics for both named sessions.",
+          "tags": [
+            "bridge",
+            "shared-ramp"
+          ]
+        },
+        {
+          "id": "mf18-i08",
+          "text": "Dock coordinator radio note transcribed after the youth practice rehearsal: the first pair reached the water smoothly, but their empty trolleys blocked the next pair at the narrow turn. We need the marshal to direct each empty trolley into the marked return lane before calling another pair forward. The corrected manifest has six dinghies, so the rehearsal should use that count rather than the original eight. Walk the full sequence once with volunteers standing in for crews and note where a waiting group can stand without covering the ramp entrance. Keep the shore-rotation crews on the list even though their boats are not launching; otherwise the headcount looks smaller than the group actually present. At the end, photograph the trolley positions and clip the picture to the marshal's sheet so the next volunteer does not have to reconstruct the arrangement from a hurried radio description.",
+          "memberships": [
+            "mf18-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Youth practice, six dinghies, marshal, and trolley routing continue launch logistics.",
+          "tags": [
+            "long",
+            "operational-sequence"
+          ]
+        },
+        {
+          "id": "mf18-i09",
+          "text": "Buoyancy-aid count corrected to thirty-two; two pieces on the drying rail were counted twice.",
+          "memberships": [
+            "mf18-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Buoyancy-aid count revision belongs to inventory.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf18-i10",
+          "text": "Launch board update: show youth practice's revised six-dinghy count above the adult beginners' 11:20 slot. Check both against the ramp booking before posting the board.",
+          "memberships": [
+            "mf18-c1",
+            "mf18-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "The board incorporates and verifies a change from each session.",
+          "tags": [
+            "bridge",
+            "joint-schedule"
+          ]
+        },
+        {
+          "id": "mf18-i11",
+          "text": "Adult beginner session: reserve the east ramp after youth practice launches. Use the youth marshal's return-lane arrangement for our four dinghy trolleys.",
+          "memberships": [
+            "mf18-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Adult session explicitly shares the youth ramp and trolley arrangement.",
+          "tags": [
+            "anchor",
+            "related-negative"
+          ]
+        },
+        {
+          "id": "mf18-i12",
+          "text": "Loan-aid labels legible now; checkout sheet needs its duplicate-number check.",
+          "memberships": [
+            "mf18-c3"
+          ],
+          "ambiguous": false,
+          "rationale": "Loan-aid labels identify inventory completion work.",
+          "tags": [
+            "sparse"
+          ]
+        },
+        {
+          "id": "mf18-i13",
+          "text": "The trolleys are blocking the narrow turn again. Ask the marshal to clear the return lane before calling the next pair.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "Both launch sessions use the ramp and return-lane arrangement; no session is named.",
+          "tags": [
+            "ambiguous",
+            "shared-layout"
+          ]
+        },
+        {
+          "id": "mf18-i14",
+          "text": "Adult beginner dock note: brief crews beside the sail racks before moving trolleys toward the east ramp, where waiting space is limited.",
+          "memberships": [
+            "mf18-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Adult session briefing location continues launch logistics.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf18-i15",
+          "text": "Floating dock maintenance booking: inspect worn hinge plates during the reserved access window. Mark each suspect joint on the dock sketch beforehand.",
+          "memberships": [
+            "mf18-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Dock hinge plates and access booking anchor maintenance logistics.",
+          "tags": [
+            "anchor",
+            "unrelated-negative"
+          ]
+        },
+        {
+          "id": "mf18-i16",
+          "text": "The launch time on the board is old. I have the corrected slot but forgot which session this slip belongs to.",
+          "memberships": [],
+          "ambiguous": true,
+          "rationale": "The missing session prevents assigning the timing correction.",
+          "tags": [
+            "ambiguous",
+            "missing-session"
+          ]
+        },
+        {
+          "id": "mf18-i17",
+          "text": "Adult launch slot revised to 11:20, replacing 11:00 after the instructor's briefing was extended.",
+          "memberships": [
+            "mf18-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Adult session revises its launch time.",
+          "tags": [
+            "revision"
+          ]
+        },
+        {
+          "id": "mf18-i18",
+          "text": "Hinge-plate access note: move the storage dinghy clear of the western joint before the maintenance crew brings its tools.",
+          "memberships": [
+            "mf18-c4"
+          ],
+          "ambiguous": false,
+          "rationale": "Western hinge joint continues dock maintenance access planning.",
+          "tags": [
+            "followup"
+          ]
+        },
+        {
+          "id": "mf18-i19",
+          "text": "Youth practice launch manifest: eight dinghies use the east ramp in pairs. Place the trolley marshal at the narrow turn before the pontoon.",
+          "memberships": [
+            "mf18-c1"
+          ],
+          "ambiguous": false,
+          "rationale": "Youth practice and east-ramp dinghies anchor launch planning.",
+          "tags": [
+            "anchor"
+          ]
+        },
+        {
+          "id": "mf18-i20",
+          "text": "Adult beginners' four trolleys labelled; sail-rack briefing board ready.",
+          "memberships": [
+            "mf18-c2"
+          ],
+          "ambiguous": false,
+          "rationale": "Adult session and four trolleys identify preparation.",
+          "tags": [
+            "sparse"
+          ]
+        }
+      ]
+    }
+  ]
+}

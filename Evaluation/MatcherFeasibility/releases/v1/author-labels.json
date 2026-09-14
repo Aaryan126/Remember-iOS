@@ -1,0 +1,2117 @@
+{
+  "schemaVersion": 1,
+  "libraries": [
+    {
+      "id": "mf01",
+      "groups": [
+        {
+          "id": "mf01-c1",
+          "members": [
+            "mf01-i01",
+            "mf01-i03",
+            "mf01-i12",
+            "mf01-i15",
+            "mf01-i18",
+            "mf01-i20"
+          ],
+          "evidence": "Replace the door gasket on the Hearth oven at Tern Bakery."
+        },
+        {
+          "id": "mf01-c2",
+          "members": [
+            "mf01-i03",
+            "mf01-i04",
+            "mf01-i07",
+            "mf01-i10",
+            "mf01-i13",
+            "mf01-i20"
+          ],
+          "evidence": "Replace the steam nozzle on the Loft oven, sharing a supplier shipment with Hearth."
+        },
+        {
+          "id": "mf01-c3",
+          "members": [
+            "mf01-i02",
+            "mf01-i05",
+            "mf01-i16",
+            "mf01-i19"
+          ],
+          "evidence": "Investigate calibration drift in the bench dough scale."
+        },
+        {
+          "id": "mf01-c4",
+          "members": [
+            "mf01-i08",
+            "mf01-i11",
+            "mf01-i14",
+            "mf01-i17"
+          ],
+          "evidence": "Fit quieter casters to the overnight flour trolley."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf01-c1",
+          "mf01-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf01-i06",
+          "reason": "No ticket, oven, or part type identifies the equipment job."
+        },
+        {
+          "id": "mf01-i09",
+          "reason": "The unspecified measurement could concern several equipment jobs."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf02",
+      "groups": [
+        {
+          "id": "mf02-c1",
+          "members": [
+            "mf02-i03",
+            "mf02-i06",
+            "mf02-i09",
+            "mf02-i11",
+            "mf02-i12",
+            "mf02-i14"
+          ],
+          "evidence": "Repair the east bean bed's drip loop."
+        },
+        {
+          "id": "mf02-c2",
+          "members": [
+            "mf02-i01",
+            "mf02-i04",
+            "mf02-i11",
+            "mf02-i14",
+            "mf02-i15",
+            "mf02-i18"
+          ],
+          "evidence": "Install a west squash irrigation loop sharing the beans' water barrel."
+        },
+        {
+          "id": "mf02-c3",
+          "members": [
+            "mf02-i07",
+            "mf02-i10",
+            "mf02-i13",
+            "mf02-i16"
+          ],
+          "evidence": "Test moisture retention in glasshouse seedling trays."
+        },
+        {
+          "id": "mf02-c4",
+          "members": [
+            "mf02-i02",
+            "mf02-i05",
+            "mf02-i08",
+            "mf02-i19"
+          ],
+          "evidence": "Rebuild the public tool shed's hand pump."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf02-c1",
+          "mf02-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf02-i17",
+          "reason": "Both irrigation loops have outlets; the bed and drawing identity are explicitly missing."
+        },
+        {
+          "id": "mf02-i20",
+          "reason": "No pump or loop identifier grounds the connector correction."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf03",
+      "groups": [
+        {
+          "id": "mf03-c1",
+          "members": [
+            "mf03-i02",
+            "mf03-i03",
+            "mf03-i05",
+            "mf03-i14",
+            "mf03-i17",
+            "mf03-i20"
+          ],
+          "evidence": "Build the captain's storm coat for Salt Lantern."
+        },
+        {
+          "id": "mf03-c2",
+          "members": [
+            "mf03-i02",
+            "mf03-i05",
+            "mf03-i06",
+            "mf03-i09",
+            "mf03-i12",
+            "mf03-i15"
+          ],
+          "evidence": "Alter Salt Lantern's messenger rain cape using captain-coat offcuts."
+        },
+        {
+          "id": "mf03-c3",
+          "members": [
+            "mf03-i01",
+            "mf03-i04",
+            "mf03-i07",
+            "mf03-i18"
+          ],
+          "evidence": "Restore a donated velvet waistcoat for the archive."
+        },
+        {
+          "id": "mf03-c4",
+          "members": [
+            "mf03-i10",
+            "mf03-i13",
+            "mf03-i16",
+            "mf03-i19"
+          ],
+          "evidence": "Prepare washable aprons for the children's backstage workshop."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf03-c1",
+          "mf03-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf03-i08",
+          "reason": "Both Salt Lantern rain garments are being fitted, and the garment is explicitly unidentified."
+        },
+        {
+          "id": "mf03-i11",
+          "reason": "No card or costume identifies the revision."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf04",
+      "groups": [
+        {
+          "id": "mf04-c1",
+          "members": [
+            "mf04-i05",
+            "mf04-i08",
+            "mf04-i11",
+            "mf04-i13",
+            "mf04-i14",
+            "mf04-i16"
+          ],
+          "evidence": "Rebuild the orange delivery bicycle's rear wheel."
+        },
+        {
+          "id": "mf04-c2",
+          "members": [
+            "mf04-i03",
+            "mf04-i06",
+            "mf04-i13",
+            "mf04-i16",
+            "mf04-i17",
+            "mf04-i20"
+          ],
+          "evidence": "Upgrade the blue commuter wheel using the delivery wheel's spoke specification."
+        },
+        {
+          "id": "mf04-c3",
+          "members": [
+            "mf04-i09",
+            "mf04-i12",
+            "mf04-i15",
+            "mf04-i18"
+          ],
+          "evidence": "Repair the green balance bike's steering."
+        },
+        {
+          "id": "mf04-c4",
+          "members": [
+            "mf04-i01",
+            "mf04-i04",
+            "mf04-i07",
+            "mf04-i10"
+          ],
+          "evidence": "Install a wall rack for workshop loan helmets."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf04-c1",
+          "mf04-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf04-i02",
+          "reason": "Neither replacement part nor job is identified."
+        },
+        {
+          "id": "mf04-i19",
+          "reason": "Both wheel projects need tension checks and the identifying tag is absent."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf05",
+      "groups": [
+        {
+          "id": "mf05-c1",
+          "members": [
+            "mf05-i02",
+            "mf05-i04",
+            "mf05-i05",
+            "mf05-i07",
+            "mf05-i16",
+            "mf05-i19"
+          ],
+          "evidence": "Balance Glass Harbour's core freight auction."
+        },
+        {
+          "id": "mf05-c2",
+          "members": [
+            "mf05-i04",
+            "mf05-i07",
+            "mf05-i08",
+            "mf05-i11",
+            "mf05-i14",
+            "mf05-i17"
+          ],
+          "evidence": "Design Glass Harbour's tugboat expansion using its auction economy."
+        },
+        {
+          "id": "mf05-c3",
+          "members": [
+            "mf05-i03",
+            "mf05-i06",
+            "mf05-i09",
+            "mf05-i20"
+          ],
+          "evidence": "Develop the standalone cooperative orchard game Last Pear."
+        },
+        {
+          "id": "mf05-c4",
+          "members": [
+            "mf05-i01",
+            "mf05-i12",
+            "mf05-i15",
+            "mf05-i18"
+          ],
+          "evidence": "Redesign the folding insert for the prototype carrying box."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf05-c1",
+          "mf05-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf05-i10",
+          "reason": "Neither game nor rule identifies which proposed limit is intended."
+        },
+        {
+          "id": "mf05-i13",
+          "reason": "No game, rule, or packet identifies the design context."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf06",
+      "groups": [
+        {
+          "id": "mf06-c1",
+          "members": [
+            "mf06-i07",
+            "mf06-i10",
+            "mf06-i13",
+            "mf06-i15",
+            "mf06-i16",
+            "mf06-i18"
+          ],
+          "evidence": "Prepare foster cat Bramble's downstairs settling room."
+        },
+        {
+          "id": "mf06-c2",
+          "members": [
+            "mf06-i02",
+            "mf06-i05",
+            "mf06-i08",
+            "mf06-i15",
+            "mf06-i18",
+            "mf06-i19"
+          ],
+          "evidence": "Prepare Nori's upstairs settling room using Bramble's checklist."
+        },
+        {
+          "id": "mf06-c3",
+          "members": [
+            "mf06-i11",
+            "mf06-i14",
+            "mf06-i17",
+            "mf06-i20"
+          ],
+          "evidence": "Coordinate two foster rabbits' transport to a weekend home."
+        },
+        {
+          "id": "mf06-c4",
+          "members": [
+            "mf06-i03",
+            "mf06-i06",
+            "mf06-i09",
+            "mf06-i12"
+          ],
+          "evidence": "Mend and inventory washable bedding for the foster cupboard."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf06-c1",
+          "mf06-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf06-i01",
+          "reason": "Both room projects use signs and no room is identified."
+        },
+        {
+          "id": "mf06-i04",
+          "reason": "Neither supplies nor destination identify the ongoing task."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf07",
+      "groups": [
+        {
+          "id": "mf07-c1",
+          "members": [
+            "mf07-i01",
+            "mf07-i04",
+            "mf07-i06",
+            "mf07-i07",
+            "mf07-i09",
+            "mf07-i18"
+          ],
+          "evidence": "Reduce drafts around the north loft window."
+        },
+        {
+          "id": "mf07-c2",
+          "members": [
+            "mf07-i06",
+            "mf07-i09",
+            "mf07-i10",
+            "mf07-i13",
+            "mf07-i16",
+            "mf07-i19"
+          ],
+          "evidence": "Fit secondary glazing to the study window through the loft-window supplier quote."
+        },
+        {
+          "id": "mf07-c3",
+          "members": [
+            "mf07-i02",
+            "mf07-i05",
+            "mf07-i08",
+            "mf07-i11"
+          ],
+          "evidence": "Insulate the apartment's hot-water cylinder cupboard."
+        },
+        {
+          "id": "mf07-c4",
+          "members": [
+            "mf07-i03",
+            "mf07-i14",
+            "mf07-i17",
+            "mf07-i20"
+          ],
+          "evidence": "Add acoustic underlay beneath the bedroom rug."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf07-c1",
+          "mf07-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf07-i12",
+          "reason": "Both window projects use the supplier and measurements; the room label is missing."
+        },
+        {
+          "id": "mf07-i15",
+          "reason": "Neither material nor room links the sample to a specific apartment project."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf08",
+      "groups": [
+        {
+          "id": "mf08-c1",
+          "members": [
+            "mf08-i09",
+            "mf08-i12",
+            "mf08-i15",
+            "mf08-i17",
+            "mf08-i18",
+            "mf08-i20"
+          ],
+          "evidence": "Tune the community kiln's amber-glaze firing schedule."
+        },
+        {
+          "id": "mf08-c2",
+          "members": [
+            "mf08-i01",
+            "mf08-i04",
+            "mf08-i07",
+            "mf08-i10",
+            "mf08-i17",
+            "mf08-i20"
+          ],
+          "evidence": "Develop a celadon test firing using the amber schedule's cooling segment."
+        },
+        {
+          "id": "mf08-c3",
+          "members": [
+            "mf08-i02",
+            "mf08-i13",
+            "mf08-i16",
+            "mf08-i19"
+          ],
+          "evidence": "Replace damaged kiln shelf supports."
+        },
+        {
+          "id": "mf08-c4",
+          "members": [
+            "mf08-i05",
+            "mf08-i08",
+            "mf08-i11",
+            "mf08-i14"
+          ],
+          "evidence": "Organize the studio's reclaim-clay drying boards."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf08-c1",
+          "mf08-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf08-i03",
+          "reason": "Both firing experiments use test tiles; the glaze labels needed to distinguish them are missing."
+        },
+        {
+          "id": "mf08-i06",
+          "reason": "Both firing projects have records, but the slip provides no run or quantity."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf09",
+      "groups": [
+        {
+          "id": "mf09-c1",
+          "members": [
+            "mf09-i03",
+            "mf09-i06",
+            "mf09-i08",
+            "mf09-i09",
+            "mf09-i11",
+            "mf09-i20"
+          ],
+          "evidence": "Replace faded direction signs on the Alder loop."
+        },
+        {
+          "id": "mf09-c2",
+          "members": [
+            "mf09-i01",
+            "mf09-i08",
+            "mf09-i11",
+            "mf09-i12",
+            "mf09-i15",
+            "mf09-i18"
+          ],
+          "evidence": "Install new direction signs on the Birch spur using Alder's arrow artwork."
+        },
+        {
+          "id": "mf09-c3",
+          "members": [
+            "mf09-i04",
+            "mf09-i07",
+            "mf09-i10",
+            "mf09-i13"
+          ],
+          "evidence": "Repair the footbridge handrail on the Moss path."
+        },
+        {
+          "id": "mf09-c4",
+          "members": [
+            "mf09-i02",
+            "mf09-i05",
+            "mf09-i16",
+            "mf09-i19"
+          ],
+          "evidence": "Build a trailhead boot-cleaning station."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf09-c1",
+          "mf09-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf09-i14",
+          "reason": "Both signage projects make arrow panels, and the route identifier is missing."
+        },
+        {
+          "id": "mf09-i17",
+          "reason": "No route or object identifies which count or painted pieces are intended."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf10",
+      "groups": [
+        {
+          "id": "mf10-c1",
+          "members": [
+            "mf10-i02",
+            "mf10-i11",
+            "mf10-i14",
+            "mf10-i17",
+            "mf10-i19",
+            "mf10-i20"
+          ],
+          "evidence": "Compare two salt levels in a red-cabbage ferment called Ruby."
+        },
+        {
+          "id": "mf10-c2",
+          "members": [
+            "mf10-i02",
+            "mf10-i03",
+            "mf10-i06",
+            "mf10-i09",
+            "mf10-i12",
+            "mf10-i19"
+          ],
+          "evidence": "Develop a carrot ferment called Sun using Ruby's tasting schedule."
+        },
+        {
+          "id": "mf10-c3",
+          "members": [
+            "mf10-i01",
+            "mf10-i04",
+            "mf10-i15",
+            "mf10-i18"
+          ],
+          "evidence": "Maintain a rye sourdough starter called Pebble."
+        },
+        {
+          "id": "mf10-c4",
+          "members": [
+            "mf10-i07",
+            "mf10-i10",
+            "mf10-i13",
+            "mf10-i16"
+          ],
+          "evidence": "Build a shaded shelf for fermentation jars."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf10-c1",
+          "mf10-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf10-i05",
+          "reason": "Multiple ferment jars have labels; neither contents nor experiment is identified."
+        },
+        {
+          "id": "mf10-i08",
+          "reason": "Both ferment experiments use photographs and labelled jars; no experiment is named."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf11",
+      "groups": [
+        {
+          "id": "mf11-c1",
+          "members": [
+            "mf11-i02",
+            "mf11-i05",
+            "mf11-i08",
+            "mf11-i10",
+            "mf11-i11",
+            "mf11-i13"
+          ],
+          "evidence": "Prepare the choir's Winter Window concert opening set."
+        },
+        {
+          "id": "mf11-c2",
+          "members": [
+            "mf11-i03",
+            "mf11-i10",
+            "mf11-i13",
+            "mf11-i14",
+            "mf11-i17",
+            "mf11-i20"
+          ],
+          "evidence": "Prepare the Lantern Walk outdoor singing set using Winter Window's breathing exercise."
+        },
+        {
+          "id": "mf11-c3",
+          "members": [
+            "mf11-i06",
+            "mf11-i09",
+            "mf11-i12",
+            "mf11-i15"
+          ],
+          "evidence": "Record pronunciation guide tracks for an archival song collection."
+        },
+        {
+          "id": "mf11-c4",
+          "members": [
+            "mf11-i01",
+            "mf11-i04",
+            "mf11-i07",
+            "mf11-i18"
+          ],
+          "evidence": "Replace the choir room's damaged music-folder shelves."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf11-c1",
+          "mf11-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf11-i16",
+          "reason": "Both performance projects involve entrance cues and no set is named."
+        },
+        {
+          "id": "mf11-i19",
+          "reason": "Both performance sets have cues and rehearsals, but the sheet's event heading is missing."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf12",
+      "groups": [
+        {
+          "id": "mf12-c1",
+          "members": [
+            "mf12-i01",
+            "mf12-i02",
+            "mf12-i04",
+            "mf12-i13",
+            "mf12-i16",
+            "mf12-i19"
+          ],
+          "evidence": "Stabilize flow in the planted display tank's canister filter."
+        },
+        {
+          "id": "mf12-c2",
+          "members": [
+            "mf12-i01",
+            "mf12-i04",
+            "mf12-i05",
+            "mf12-i08",
+            "mf12-i11",
+            "mf12-i14"
+          ],
+          "evidence": "Set up a shrimp nursery tank with media transferred from the display filter."
+        },
+        {
+          "id": "mf12-c3",
+          "members": [
+            "mf12-i03",
+            "mf12-i06",
+            "mf12-i17",
+            "mf12-i20"
+          ],
+          "evidence": "Remove mineral scale from an empty spare aquarium."
+        },
+        {
+          "id": "mf12-c4",
+          "members": [
+            "mf12-i09",
+            "mf12-i12",
+            "mf12-i15",
+            "mf12-i18"
+          ],
+          "evidence": "Build a splash-resistant cabinet for aquarium supplies."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf12-c1",
+          "mf12-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf12-i07",
+          "reason": "Both tank projects have filters and the tank is explicitly missing."
+        },
+        {
+          "id": "mf12-i10",
+          "reason": "Neither tank nor measured quantity is supplied, leaving the correction ungrounded."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf13",
+      "groups": [
+        {
+          "id": "mf13-c1",
+          "members": [
+            "mf13-i04",
+            "mf13-i07",
+            "mf13-i10",
+            "mf13-i12",
+            "mf13-i13",
+            "mf13-i15"
+          ],
+          "evidence": "Fix the line-following behaviour of the school's Cedar robot."
+        },
+        {
+          "id": "mf13-c2",
+          "members": [
+            "mf13-i02",
+            "mf13-i05",
+            "mf13-i12",
+            "mf13-i15",
+            "mf13-i16",
+            "mf13-i19"
+          ],
+          "evidence": "Build a delivery attachment for the Birch robot using Cedar's sensor mount pattern."
+        },
+        {
+          "id": "mf13-c3",
+          "members": [
+            "mf13-i08",
+            "mf13-i11",
+            "mf13-i14",
+            "mf13-i17"
+          ],
+          "evidence": "Prepare the robotics club's battery inventory."
+        },
+        {
+          "id": "mf13-c4",
+          "members": [
+            "mf13-i03",
+            "mf13-i06",
+            "mf13-i09",
+            "mf13-i20"
+          ],
+          "evidence": "Design a paper robot maze for the open-day activity."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf13-c1",
+          "mf13-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf13-i01",
+          "reason": "No robot, dimension, or object identifies the drawing."
+        },
+        {
+          "id": "mf13-i18",
+          "reason": "Both robot projects have bracket and turning tests, with no robot identifier supplied."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf14",
+      "groups": [
+        {
+          "id": "mf14-c1",
+          "members": [
+            "mf14-i01",
+            "mf14-i03",
+            "mf14-i04",
+            "mf14-i06",
+            "mf14-i15",
+            "mf14-i18"
+          ],
+          "evidence": "Improve aeration in the Maple compost bay."
+        },
+        {
+          "id": "mf14-c2",
+          "members": [
+            "mf14-i03",
+            "mf14-i06",
+            "mf14-i07",
+            "mf14-i10",
+            "mf14-i13",
+            "mf14-i16"
+          ],
+          "evidence": "Start the Willow compost bay using mature material from Maple."
+        },
+        {
+          "id": "mf14-c3",
+          "members": [
+            "mf14-i02",
+            "mf14-i05",
+            "mf14-i08",
+            "mf14-i19"
+          ],
+          "evidence": "Arrange kitchen-scrap collection buckets for the apartment courtyard."
+        },
+        {
+          "id": "mf14-c4",
+          "members": [
+            "mf14-i11",
+            "mf14-i14",
+            "mf14-i17",
+            "mf14-i20"
+          ],
+          "evidence": "Repair the community garden's leaf-sieve frame."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf14-c1",
+          "mf14-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf14-i09",
+          "reason": "Both bays have compact-layer problems and neither is named."
+        },
+        {
+          "id": "mf14-i12",
+          "reason": "No bay, rota, or measurement grounds the damaged-card correction."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf15",
+      "groups": [
+        {
+          "id": "mf15-c1",
+          "members": [
+            "mf15-i06",
+            "mf15-i09",
+            "mf15-i12",
+            "mf15-i14",
+            "mf15-i15",
+            "mf15-i17"
+          ],
+          "evidence": "Edit the summer chapter of a fictional family recipe booklet."
+        },
+        {
+          "id": "mf15-c2",
+          "members": [
+            "mf15-i01",
+            "mf15-i04",
+            "mf15-i07",
+            "mf15-i14",
+            "mf15-i17",
+            "mf15-i18"
+          ],
+          "evidence": "Edit the winter chapter using the summer chapter's ingredient notation."
+        },
+        {
+          "id": "mf15-c3",
+          "members": [
+            "mf15-i10",
+            "mf15-i13",
+            "mf15-i16",
+            "mf15-i19"
+          ],
+          "evidence": "Design the booklet's illustrated cover."
+        },
+        {
+          "id": "mf15-c4",
+          "members": [
+            "mf15-i02",
+            "mf15-i05",
+            "mf15-i08",
+            "mf15-i11"
+          ],
+          "evidence": "Organize a tasting lunch to choose a new picnic menu."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf15-c1",
+          "mf15-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf15-i03",
+          "reason": "Both chapter projects revise recipe quantities; the recipe and chapter are absent."
+        },
+        {
+          "id": "mf15-i20",
+          "reason": "Both chapters involve ingredient-method agreement without a named recipe."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf16",
+      "groups": [
+        {
+          "id": "mf16-c1",
+          "members": [
+            "mf16-i03",
+            "mf16-i05",
+            "mf16-i06",
+            "mf16-i08",
+            "mf16-i17",
+            "mf16-i20"
+          ],
+          "evidence": "Align the small observatory's rooftop reflector mount."
+        },
+        {
+          "id": "mf16-c2",
+          "members": [
+            "mf16-i05",
+            "mf16-i08",
+            "mf16-i09",
+            "mf16-i12",
+            "mf16-i15",
+            "mf16-i18"
+          ],
+          "evidence": "Prepare courtyard binocular observing sessions using the reflector team's sky chart."
+        },
+        {
+          "id": "mf16-c3",
+          "members": [
+            "mf16-i01",
+            "mf16-i04",
+            "mf16-i07",
+            "mf16-i10"
+          ],
+          "evidence": "Repair the observatory's sliding roof weather strip."
+        },
+        {
+          "id": "mf16-c4",
+          "members": [
+            "mf16-i02",
+            "mf16-i13",
+            "mf16-i16",
+            "mf16-i19"
+          ],
+          "evidence": "Create an archive index for hand-drawn lunar sketches."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf16-c1",
+          "mf16-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf16-i11",
+          "reason": "Both observing projects discuss obstructed targets; no location or instrument is named."
+        },
+        {
+          "id": "mf16-i14",
+          "reason": "No measurement or record type identifies this correction."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf17",
+      "groups": [
+        {
+          "id": "mf17-c1",
+          "members": [
+            "mf17-i08",
+            "mf17-i11",
+            "mf17-i14",
+            "mf17-i16",
+            "mf17-i17",
+            "mf17-i19"
+          ],
+          "evidence": "Shorten a green linen pair of trousers for a fictional neighbour."
+        },
+        {
+          "id": "mf17-c2",
+          "members": [
+            "mf17-i03",
+            "mf17-i06",
+            "mf17-i09",
+            "mf17-i16",
+            "mf17-i19",
+            "mf17-i20"
+          ],
+          "evidence": "Alter a matching green linen jacket using the trouser hem offcuts."
+        },
+        {
+          "id": "mf17-c3",
+          "members": [
+            "mf17-i01",
+            "mf17-i12",
+            "mf17-i15",
+            "mf17-i18"
+          ],
+          "evidence": "Replace the zip in a canvas cushion cover."
+        },
+        {
+          "id": "mf17-c4",
+          "members": [
+            "mf17-i04",
+            "mf17-i07",
+            "mf17-i10",
+            "mf17-i13"
+          ],
+          "evidence": "Make fabric sleeves for reusable shopping-bag handles."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf17-c1",
+          "mf17-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf17-i02",
+          "reason": "Both garment projects use green linen and new seams; the garment is missing."
+        },
+        {
+          "id": "mf17-i05",
+          "reason": "Several sewing jobs involve revised measurements; no item is specified."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf18",
+      "groups": [
+        {
+          "id": "mf18-c1",
+          "members": [
+            "mf18-i02",
+            "mf18-i05",
+            "mf18-i07",
+            "mf18-i08",
+            "mf18-i10",
+            "mf18-i19"
+          ],
+          "evidence": "Plan launch-day logistics for the youth dinghy practice."
+        },
+        {
+          "id": "mf18-c2",
+          "members": [
+            "mf18-i07",
+            "mf18-i10",
+            "mf18-i11",
+            "mf18-i14",
+            "mf18-i17",
+            "mf18-i20"
+          ],
+          "evidence": "Arrange the adult beginner dinghy session sharing the youth launch ramp."
+        },
+        {
+          "id": "mf18-c3",
+          "members": [
+            "mf18-i03",
+            "mf18-i06",
+            "mf18-i09",
+            "mf18-i12"
+          ],
+          "evidence": "Inventory and relabel the club's loan buoyancy aids."
+        },
+        {
+          "id": "mf18-c4",
+          "members": [
+            "mf18-i01",
+            "mf18-i04",
+            "mf18-i15",
+            "mf18-i18"
+          ],
+          "evidence": "Schedule maintenance access for the floating dock's hinge plates."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf18-c1",
+          "mf18-c2"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf18-i13",
+          "reason": "Both launch sessions use the ramp and return-lane arrangement; no session is named."
+        },
+        {
+          "id": "mf18-i16",
+          "reason": "The missing session prevents assigning the timing correction."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf19",
+      "groups": [
+        {
+          "id": "mf19-c1",
+          "members": [
+            "mf19-i01",
+            "mf19-i06",
+            "mf19-i07",
+            "mf19-i11",
+            "mf19-i16",
+            "mf19-i19"
+          ],
+          "evidence": "Reinspect Copper Finch, the bolted route in Alder Quarry's west bay, under work order AQ-41."
+        },
+        {
+          "id": "mf19-c2",
+          "members": [
+            "mf19-i03",
+            "mf19-i07",
+            "mf19-i08",
+            "mf19-i14",
+            "mf19-i18"
+          ],
+          "evidence": "Reinspect Tin Lark, the neighboring bolted route in Alder Quarry's west bay, under work order AQ-42."
+        },
+        {
+          "id": "mf19-c3",
+          "members": [
+            "mf19-i02",
+            "mf19-i10",
+            "mf19-i15",
+            "mf19-i16",
+            "mf19-i20"
+          ],
+          "evidence": "Survey the trad route Copper Finch at Glass Ridge under work order GR-09."
+        },
+        {
+          "id": "mf19-c4",
+          "members": [
+            "mf19-i05",
+            "mf19-i09",
+            "mf19-i12",
+            "mf19-i17"
+          ],
+          "evidence": "Inspect the indoor training route Moon Ladder at Plover Hall under work order PH-12."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf19-c1",
+          "mf19-c2"
+        ],
+        [
+          "mf19-c1",
+          "mf19-c3"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf19-i04",
+          "reason": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it."
+        },
+        {
+          "id": "mf19-i13",
+          "reason": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf20",
+      "groups": [
+        {
+          "id": "mf20-c1",
+          "members": [
+            "mf20-i02",
+            "mf20-i03",
+            "mf20-i08",
+            "mf20-i10",
+            "mf20-i12",
+            "mf20-i17"
+          ],
+          "evidence": "Localize Lantern Orchard's Spanish demo, tracked as LO-ES, including its greenhouse tutorial."
+        },
+        {
+          "id": "mf20-c2",
+          "members": [
+            "mf20-i01",
+            "mf20-i02",
+            "mf20-i07",
+            "mf20-i15",
+            "mf20-i19"
+          ],
+          "evidence": "Localize Lantern Orchard's French full release, tracked as LO-FR, including its greenhouse tutorial."
+        },
+        {
+          "id": "mf20-c3",
+          "members": [
+            "mf20-i06",
+            "mf20-i10",
+            "mf20-i11",
+            "mf20-i16",
+            "mf20-i20"
+          ],
+          "evidence": "Localize Stone Ferry's Spanish release, tracked as SF-ES, including its ticket kiosk."
+        },
+        {
+          "id": "mf20-c4",
+          "members": [
+            "mf20-i04",
+            "mf20-i09",
+            "mf20-i14",
+            "mf20-i18"
+          ],
+          "evidence": "Localize The Quiet Engine's German release, tracked as QE-DE, including its boiler puzzle."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf20-c1",
+          "mf20-c2"
+        ],
+        [
+          "mf20-c1",
+          "mf20-c3"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf20-i05",
+          "reason": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project."
+        },
+        {
+          "id": "mf20-i13",
+          "reason": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf21",
+      "groups": [
+        {
+          "id": "mf21-c1",
+          "members": [
+            "mf21-i02",
+            "mf21-i07",
+            "mf21-i08",
+            "mf21-i12",
+            "mf21-i16",
+            "mf21-i18"
+          ],
+          "evidence": "Restore the 1892 fictional Eastmere harbor wall chart, accession MC-71, with its torn soundings legend."
+        },
+        {
+          "id": "mf21-c2",
+          "members": [
+            "mf21-i04",
+            "mf21-i10",
+            "mf21-i15",
+            "mf21-i16",
+            "mf21-i20"
+          ],
+          "evidence": "Restore the 1910 fictional Eastmere harbor pocket map, accession MC-72, with its cracked central fold."
+        },
+        {
+          "id": "mf21-c3",
+          "members": [
+            "mf21-i05",
+            "mf21-i09",
+            "mf21-i13",
+            "mf21-i19"
+          ],
+          "evidence": "Restore the fictional Briar County drainage atlas, accession MC-88, focused on plate seven."
+        },
+        {
+          "id": "mf21-c4",
+          "members": [
+            "mf21-i01",
+            "mf21-i06",
+            "mf21-i07",
+            "mf21-i11",
+            "mf21-i17"
+          ],
+          "evidence": "Restore the fictional Mount Vale school relief map, accession MC-93, with a lifted plaster corner."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf21-c1",
+          "mf21-c2"
+        ],
+        [
+          "mf21-c1",
+          "mf21-c4"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf21-i03",
+          "reason": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it."
+        },
+        {
+          "id": "mf21-i14",
+          "reason": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf22",
+      "groups": [
+        {
+          "id": "mf22-c1",
+          "members": [
+            "mf22-i04",
+            "mf22-i06",
+            "mf22-i09",
+            "mf22-i16",
+            "mf22-i20"
+          ],
+          "evidence": "Produce River Steps youth group's Lantern Set for the Saturday matinee at Juniper Hall."
+        },
+        {
+          "id": "mf22-c2",
+          "members": [
+            "mf22-i02",
+            "mf22-i06",
+            "mf22-i07",
+            "mf22-i11",
+            "mf22-i14",
+            "mf22-i17"
+          ],
+          "evidence": "Produce River Steps adult group's Lantern Set for the Saturday evening at Juniper Hall."
+        },
+        {
+          "id": "mf22-c3",
+          "members": [
+            "mf22-i05",
+            "mf22-i08",
+            "mf22-i13",
+            "mf22-i18"
+          ],
+          "evidence": "Produce the Harbor Circle seniors' Tide Waltz showcase at Dockside Pavilion."
+        },
+        {
+          "id": "mf22-c4",
+          "members": [
+            "mf22-i03",
+            "mf22-i10",
+            "mf22-i14",
+            "mf22-i15",
+            "mf22-i19"
+          ],
+          "evidence": "Produce the Cedar Wheels inclusive group's Turning Home showcase at Linden Court."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf22-c1",
+          "mf22-c2"
+        ],
+        [
+          "mf22-c2",
+          "mf22-c4"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf22-i01",
+          "reason": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it."
+        },
+        {
+          "id": "mf22-i12",
+          "reason": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf23",
+      "groups": [
+        {
+          "id": "mf23-c1",
+          "members": [
+            "mf23-i03",
+            "mf23-i05",
+            "mf23-i07",
+            "mf23-i12",
+            "mf23-i15",
+            "mf23-i18"
+          ],
+          "evidence": "Monitor Cedar hive in the fictional Orchard Gate apiary, recorded as OG-C."
+        },
+        {
+          "id": "mf23-c2",
+          "members": [
+            "mf23-i04",
+            "mf23-i09",
+            "mf23-i14",
+            "mf23-i15",
+            "mf23-i20"
+          ],
+          "evidence": "Monitor Willow hive in the fictional Orchard Gate apiary, recorded as OG-W."
+        },
+        {
+          "id": "mf23-c3",
+          "members": [
+            "mf23-i01",
+            "mf23-i05",
+            "mf23-i06",
+            "mf23-i11",
+            "mf23-i16"
+          ],
+          "evidence": "Monitor Cedar hive in the fictional Mill Roof apiary, recorded as MR-C."
+        },
+        {
+          "id": "mf23-c4",
+          "members": [
+            "mf23-i02",
+            "mf23-i10",
+            "mf23-i13",
+            "mf23-i19"
+          ],
+          "evidence": "Monitor Birch hive in the fictional Meadow Lane apiary, recorded as ML-B."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf23-c1",
+          "mf23-c2"
+        ],
+        [
+          "mf23-c1",
+          "mf23-c3"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf23-i08",
+          "reason": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it."
+        },
+        {
+          "id": "mf23-i17",
+          "reason": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf24",
+      "groups": [
+        {
+          "id": "mf24-c1",
+          "members": [
+            "mf24-i01",
+            "mf24-i04",
+            "mf24-i08",
+            "mf24-i12",
+            "mf24-i18"
+          ],
+          "evidence": "Plan a solar retrofit on the main house at fictional 14 Alder Walk, job AW-H, including the east roof."
+        },
+        {
+          "id": "mf24-c2",
+          "members": [
+            "mf24-i01",
+            "mf24-i05",
+            "mf24-i10",
+            "mf24-i14",
+            "mf24-i19"
+          ],
+          "evidence": "Plan a separate solar retrofit on the detached studio at fictional 14 Alder Walk, job AW-S, including its flat roof."
+        },
+        {
+          "id": "mf24-c3",
+          "members": [
+            "mf24-i03",
+            "mf24-i09",
+            "mf24-i13",
+            "mf24-i16",
+            "mf24-i20"
+          ],
+          "evidence": "Plan a solar retrofit at fictional 8 Quarry Close, job QC-8, including a slate-roof layout."
+        },
+        {
+          "id": "mf24-c4",
+          "members": [
+            "mf24-i02",
+            "mf24-i06",
+            "mf24-i11",
+            "mf24-i13",
+            "mf24-i17"
+          ],
+          "evidence": "Plan a solar retrofit at fictional 22 Linden Lane, job LL-22, including a west-roof shade review."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf24-c1",
+          "mf24-c2"
+        ],
+        [
+          "mf24-c3",
+          "mf24-c4"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf24-i07",
+          "reason": "The fragment supplies a shared name or topic but lacks the differentiating project evidence needed to resolve it."
+        },
+        {
+          "id": "mf24-i15",
+          "reason": "The fragment lacks a project anchor and can plausibly concern more than one ongoing project."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf25",
+      "groups": [
+        {
+          "id": "mf25-c1",
+          "members": [
+            "mf25-i01",
+            "mf25-i07",
+            "mf25-i08",
+            "mf25-i17"
+          ],
+          "evidence": "Kelp Cove passive hydrophone deployment measuring nightly vessel and biological sound."
+        },
+        {
+          "id": "mf25-c2",
+          "members": [
+            "mf25-i02",
+            "mf25-i07",
+            "mf25-i12",
+            "mf25-i16"
+          ],
+          "evidence": "Indoor reference-tank calibration of the study's hydrophones and recorder gain."
+        },
+        {
+          "id": "mf25-c3",
+          "members": [
+            "mf25-i03",
+            "mf25-i09",
+            "mf25-i14",
+            "mf25-i19"
+          ],
+          "evidence": "EchoTag annotation guide and review of sound-event labels in field recordings."
+        },
+        {
+          "id": "mf25-c4",
+          "members": [
+            "mf25-i05",
+            "mf25-i10",
+            "mf25-i15",
+            "mf25-i20"
+          ],
+          "evidence": "Harbor Pulse active-source trial measuring reflections beneath the east pier."
+        },
+        {
+          "id": "mf25-c5",
+          "members": [
+            "mf25-i06",
+            "mf25-i11",
+            "mf25-i14",
+            "mf25-i18"
+          ],
+          "evidence": "QuietWater public listening installation translating recordings for gallery visitors."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf25-c1",
+          "mf25-c2"
+        ],
+        [
+          "mf25-c1",
+          "mf25-c3"
+        ],
+        [
+          "mf25-c1",
+          "mf25-c4"
+        ],
+        [
+          "mf25-c3",
+          "mf25-c5"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf25-i04",
+          "reason": "Neither the session nor samples identify field review, tank work, or the public installation."
+        },
+        {
+          "id": "mf25-i13",
+          "reason": "Generic traces and settings fit several measurement contexts without a distinguishing reference."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf26",
+      "groups": [
+        {
+          "id": "mf26-c1",
+          "members": [
+            "mf26-i01",
+            "mf26-i07",
+            "mf26-i09",
+            "mf26-i16"
+          ],
+          "evidence": "Fenwick Junction exhibition layout operations and electrical reliability."
+        },
+        {
+          "id": "mf26-c2",
+          "members": [
+            "mf26-i02",
+            "mf26-i08",
+            "mf26-i13",
+            "mf26-i20"
+          ],
+          "evidence": "Copper Ridge exhibition layout scenery restoration and packing."
+        },
+        {
+          "id": "mf26-c3",
+          "members": [
+            "mf26-i04",
+            "mf26-i11",
+            "mf26-i14",
+            "mf26-i19"
+          ],
+          "evidence": "Rail model exhibition visitor access, entry, and floor circulation."
+        },
+        {
+          "id": "mf26-c4",
+          "members": [
+            "mf26-i03",
+            "mf26-i10",
+            "mf26-i14",
+            "mf26-i18"
+          ],
+          "evidence": "Beginner turnout-wiring workshop at the exhibition's teaching bench."
+        },
+        {
+          "id": "mf26-c5",
+          "members": [
+            "mf26-i05",
+            "mf26-i07",
+            "mf26-i12",
+            "mf26-i17"
+          ],
+          "evidence": "Borrowed rolling-stock inventory, condition records, and lender returns."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf26-c1",
+          "mf26-c2"
+        ],
+        [
+          "mf26-c1",
+          "mf26-c4"
+        ],
+        [
+          "mf26-c3",
+          "mf26-c4"
+        ],
+        [
+          "mf26-c1",
+          "mf26-c5"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf26-i06",
+          "reason": "The object and folder are unnamed; color and deadline cannot establish a context."
+        },
+        {
+          "id": "mf26-i15",
+          "reason": "No layout, aisle, packing object, or bench is identified."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf27",
+      "groups": [
+        {
+          "id": "mf27-c1",
+          "members": [
+            "mf27-i01",
+            "mf27-i07",
+            "mf27-i10",
+            "mf27-i14"
+          ],
+          "evidence": "Glass Orchard issue four print-run fulfilment and direct subscriber mail."
+        },
+        {
+          "id": "mf27-c2",
+          "members": [
+            "mf27-i02",
+            "mf27-i08",
+            "mf27-i13",
+            "mf27-i18"
+          ],
+          "evidence": "Counterlight cooperative's ongoing bookshop consignment accounts and returns."
+        },
+        {
+          "id": "mf27-c3",
+          "members": [
+            "mf27-i04",
+            "mf27-i09",
+            "mf27-i17",
+            "mf27-i20"
+          ],
+          "evidence": "Night Fold fair stall logistics and in-person zine sales."
+        },
+        {
+          "id": "mf27-c4",
+          "members": [
+            "mf27-i03",
+            "mf27-i07",
+            "mf27-i12",
+            "mf27-i15"
+          ],
+          "evidence": "Accessible digital editions for ScreenDoor zine readers."
+        },
+        {
+          "id": "mf27-c5",
+          "members": [
+            "mf27-i06",
+            "mf27-i11",
+            "mf27-i13",
+            "mf27-i19"
+          ],
+          "evidence": "Travelling Pocket Shelf lending collection and host-library circulation."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf27-c1",
+          "mf27-c2"
+        ],
+        [
+          "mf27-c1",
+          "mf27-c3"
+        ],
+        [
+          "mf27-c1",
+          "mf27-c4"
+        ],
+        [
+          "mf27-c2",
+          "mf27-c5"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf27-i05",
+          "reason": "Copies and an amended sheet could concern several distribution channels."
+        },
+        {
+          "id": "mf27-i16",
+          "reason": "The ledger lacks title, outlet, host, or event evidence and fits multiple inventories."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf28",
+      "groups": [
+        {
+          "id": "mf28-c1",
+          "members": [
+            "mf28-i01",
+            "mf28-i07",
+            "mf28-i08",
+            "mf28-i15"
+          ],
+          "evidence": "Cedar Cup fixtures, court allocation, and results administration."
+        },
+        {
+          "id": "mf28-c2",
+          "members": [
+            "mf28-i02",
+            "mf28-i09",
+            "mf28-i13",
+            "mf28-i18"
+          ],
+          "evidence": "Cedar Cup equipment service bay for sports-chair checks and repairs."
+        },
+        {
+          "id": "mf28-c3",
+          "members": [
+            "mf28-i03",
+            "mf28-i07",
+            "mf28-i10",
+            "mf28-i17"
+          ],
+          "evidence": "Cedar Cup shuttle vehicles, team pickup, and accessible transport."
+        },
+        {
+          "id": "mf28-c4",
+          "members": [
+            "mf28-i04",
+            "mf28-i11",
+            "mf28-i16",
+            "mf28-i20"
+          ],
+          "evidence": "Cedar Cup referee briefings, rule scenarios, and officiating assignments."
+        },
+        {
+          "id": "mf28-c5",
+          "members": [
+            "mf28-i06",
+            "mf28-i12",
+            "mf28-i13",
+            "mf28-i19"
+          ],
+          "evidence": "Open Hoops introductory wheelchair basketball sessions for local newcomers during tournament week."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf28-c1",
+          "mf28-c3"
+        ],
+        [
+          "mf28-c1",
+          "mf28-c4"
+        ],
+        [
+          "mf28-c2",
+          "mf28-c5"
+        ],
+        [
+          "mf28-c3",
+          "mf28-c5"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf28-i05",
+          "reason": "Neither group, checks, nor desk is identified; several tournament operations fit."
+        },
+        {
+          "id": "mf28-i14",
+          "reason": "A spare near a door could be equipment or transport material; no project is recoverable."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf29",
+      "groups": [
+        {
+          "id": "mf29-c1",
+          "members": [
+            "mf29-i01",
+            "mf29-i07",
+            "mf29-i09",
+            "mf29-i15"
+          ],
+          "evidence": "Frost Finch cabinet temperature-mapping trial under different shelf loads."
+        },
+        {
+          "id": "mf29-c2",
+          "members": [
+            "mf29-i02",
+            "mf29-i08",
+            "mf29-i13",
+            "mf29-i19"
+          ],
+          "evidence": "Seal Sparrow pouch-seal and moisture-ingress trial for seed packaging."
+        },
+        {
+          "id": "mf29-c3",
+          "members": [
+            "mf29-i03",
+            "mf29-i07",
+            "mf29-i12",
+            "mf29-i16"
+          ],
+          "evidence": "Wake Wren germination follow-up of frozen seed lots after thawing."
+        },
+        {
+          "id": "mf29-c4",
+          "members": [
+            "mf29-i04",
+            "mf29-i11",
+            "mf29-i17",
+            "mf29-i20"
+          ],
+          "evidence": "Hold Heron backup-power endurance drill for freezer operation."
+        },
+        {
+          "id": "mf29-c5",
+          "members": [
+            "mf29-i06",
+            "mf29-i10",
+            "mf29-i13",
+            "mf29-i18"
+          ],
+          "evidence": "Trace Tern sample labels and chain-of-custody workflow qualification."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf29-c1",
+          "mf29-c4"
+        ],
+        [
+          "mf29-c1",
+          "mf29-c3"
+        ],
+        [
+          "mf29-c2",
+          "mf29-c3"
+        ],
+        [
+          "mf29-c2",
+          "mf29-c5"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf29-i05",
+          "reason": "The batch, change, readings, and limit have no identifying trial details."
+        },
+        {
+          "id": "mf29-i14",
+          "reason": "No apparatus or trial is named, and sensor relocation fits several experiments."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "mf30",
+      "groups": [
+        {
+          "id": "mf30-c1",
+          "members": [
+            "mf30-i01",
+            "mf30-i07",
+            "mf30-i09",
+            "mf30-i18"
+          ],
+          "evidence": "Hands on Harbor tactile exhibit relief-map fabrication and physical prototype revisions."
+        },
+        {
+          "id": "mf30-c2",
+          "members": [
+            "mf30-i02",
+            "mf30-i08",
+            "mf30-i13",
+            "mf30-i17"
+          ],
+          "evidence": "Hands on Harbor audio description and wayfinding script production."
+        },
+        {
+          "id": "mf30-c3",
+          "members": [
+            "mf30-i04",
+            "mf30-i11",
+            "mf30-i13",
+            "mf30-i19"
+          ],
+          "evidence": "Hands on Harbor facilitated visitor testing and observation analysis."
+        },
+        {
+          "id": "mf30-c4",
+          "members": [
+            "mf30-i05",
+            "mf30-i07",
+            "mf30-i12",
+            "mf30-i15"
+          ],
+          "evidence": "Hands on Harbor cleaning, surface wear, and handling-care trials."
+        },
+        {
+          "id": "mf30-c5",
+          "members": [
+            "mf30-i03",
+            "mf30-i10",
+            "mf30-i14",
+            "mf30-i20"
+          ],
+          "evidence": "Touch Routes travelling school-loan kit with smaller tactile reproductions and teaching materials."
+        }
+      ],
+      "relatedGroupPairs": [
+        [
+          "mf30-c1",
+          "mf30-c2"
+        ],
+        [
+          "mf30-c1",
+          "mf30-c4"
+        ],
+        [
+          "mf30-c2",
+          "mf30-c3"
+        ],
+        [
+          "mf30-c1",
+          "mf30-c5"
+        ]
+      ],
+      "ambiguous": [
+        {
+          "id": "mf30-i06",
+          "reason": "The object and session are unspecified; fabrication, scripts, visitor testing, and school materials are all plausible."
+        },
+        {
+          "id": "mf30-i16",
+          "reason": "No version, group, or copies are identified; multiple prototype and testing streams fit."
+        }
+      ],
+      "issues": []
+    }
+  ]
+}

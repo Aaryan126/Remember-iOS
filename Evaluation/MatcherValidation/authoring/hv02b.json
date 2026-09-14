@@ -1,0 +1,228 @@
+{
+  "id": "hv02b",
+  "split": "train",
+  "storyFamily": "hv02",
+  "templateFamily": "hv02",
+  "threads": [
+    "mandolin-top",
+    "finish-samples",
+    "quartet-stands"
+  ],
+  "threadDescriptions": {
+    "mandolin-top": "Stabilize the cracked top of the museum's mandolin for display.",
+    "finish-samples": "Develop and document a reversible colour-match finish for the mandolin repair.",
+    "quartet-stands": "Make four collapsible music stands for the town quartet."
+  },
+  "relatedThreads": [
+    [
+      "mandolin-top",
+      "finish-samples"
+    ]
+  ],
+  "challenges": [
+    "material_overlap",
+    "objective_boundary",
+    "long_note",
+    "revision",
+    "bridge"
+  ],
+  "items": [
+    {
+      "id": "hv02b-i01",
+      "text": "Museum mandolin has a split beside the treble foot. Strings are off; curator wants stability for display, no promise that it will be playable.",
+      "modality": "file",
+      "memberships": [
+        "mandolin-top"
+      ],
+      "rationale": "Defines structural restoration and its objective."
+    },
+    {
+      "id": "hv02b-i02",
+      "text": "Four folding stands for the quartet. Prototype must fit inside the old bus locker, maximum folded length 62 cm.",
+      "modality": "note",
+      "memberships": [
+        "quartet-stands"
+      ],
+      "rationale": "Defines unrelated stand construction."
+    },
+    {
+      "id": "hv02b-i03",
+      "text": "Start finish tests for museum mandolin on offcuts. Amber wash over isolation layer; record the mix so the touch-up can later be removed.",
+      "modality": "note",
+      "memberships": [
+        "finish-samples"
+      ],
+      "rationale": "Begins documented surface-treatment tests."
+    },
+    {
+      "id": "hv02b-i04",
+      "text": "Close view under mandolin top: one loose brace stops just before the crack. Pencil marks show where the two cleats may sit.",
+      "modality": "video",
+      "memberships": [
+        "mandolin-top"
+      ],
+      "rationale": "Shows structural findings and cleat plan."
+    },
+    {
+      "id": "hv02b-i05",
+      "text": "stand hinge squeaks / drill jig hole wandering / try hand reamer",
+      "modality": "voice",
+      "memberships": [
+        "quartet-stands"
+      ],
+      "rationale": "Fragment contains specific stand construction context."
+    },
+    {
+      "id": "hv02b-i06",
+      "text": "Finish card: mix amber 3, clear 7. Under cool light it looks too orange next to the mandolin's worn edge.",
+      "modality": "image",
+      "memberships": [
+        "finish-samples"
+      ],
+      "rationale": "Evaluates a colour-match sample."
+    },
+    {
+      "id": "hv02b-i07",
+      "text": "Curator approved two small cleats on the mandolin split, keeping the stamped date visible. Photograph the stamp before installation.",
+      "modality": "file",
+      "memberships": [
+        "mandolin-top"
+      ],
+      "rationale": "Approves structural method and documentation."
+    },
+    {
+      "id": "hv02b-i08",
+      "text": "62? lid won't shut",
+      "modality": "note",
+      "memberships": [],
+      "rationale": "A dimension alone lacks a secure object reference."
+    },
+    {
+      "id": "hv02b-i09",
+      "text": "Quartet bus locker was measured with the lid open. Correct folded-stand limit to 58 cm, replacing the earlier 62; shorten the lower rail drawing.",
+      "modality": "voice",
+      "memberships": [
+        "quartet-stands"
+      ],
+      "rationale": "Explicit dimensional correction to stand requirement."
+    },
+    {
+      "id": "hv02b-i10",
+      "text": "Mandolin repair test: the amber 3/clear 7 sample obscures grain under exhibition lighting. Retire that recipe; the new card is amber 1/clear 9 over the same isolation layer.",
+      "modality": "note",
+      "memberships": [
+        "finish-samples"
+      ],
+      "rationale": "Revises the failed finish formulation."
+    },
+    {
+      "id": "hv02b-i11",
+      "text": "Cleats glued and clamp pressure released. Mandolin seam stays shut with no string load; do not add tension just to prove a display repair.",
+      "modality": "image",
+      "memberships": [
+        "mandolin-top"
+      ],
+      "rationale": "Reports structural repair outcome."
+    },
+    {
+      "id": "hv02b-i12",
+      "text": "Finish notebook page for the mandolin: one-to-nine mix stays translucent after drying. Removal test lifts it without disturbing the isolation coat.",
+      "modality": "file",
+      "memberships": [
+        "finish-samples"
+      ],
+      "rationale": "Verifies appearance and reversibility."
+    },
+    {
+      "id": "hv02b-i13",
+      "text": "Quartet stand prototype folds to 57.5 cm now. Bass player tried opening it one-handed; add a thumb notch in the latch.",
+      "modality": "video",
+      "memberships": [
+        "quartet-stands"
+      ],
+      "rationale": "Tests revised stand prototype."
+    },
+    {
+      "id": "hv02b-i14",
+      "text": "Joint review with curator: mandolin seam is stable with two cleats; coat only the pale exposed line using the one-to-nine amber trial. Add both the cleat positions and finish-removal method to the conservation record. We looked at the top first under the bench lamp and then under the warmer exhibition lamp. The repaired line is more noticeable under the bench lamp, but the curator prefers that to covering the surrounding original surface. Leave the little dark scratch beside the treble foot alone; it appears in the oldest photograph and is not part of this damage. Before applying colour, photograph the closed seam with a scale and mark the two cleats on a separate underside sketch. Attach the approved offcut sample number and isolation-coat notes so a future conservator can distinguish our touch-up from the original finish.",
+      "modality": "note",
+      "memberships": [
+        "mandolin-top",
+        "finish-samples"
+      ],
+      "rationale": "Combines structural documentation with selected finish application and removal procedure."
+    },
+    {
+      "id": "hv02b-i15",
+      "text": "Under magnification the mandolin cleats have no squeezed-out glue near the stamp. Conservation photo accepted.",
+      "modality": "image",
+      "memberships": [
+        "mandolin-top"
+      ],
+      "rationale": "Checks and records structural repair."
+    },
+    {
+      "id": "hv02b-i16",
+      "text": "Tin labelled 'clear' has no mixing date. Don't use until identified.",
+      "modality": "image",
+      "memberships": [],
+      "rationale": "Insufficient connection to any specific finish or construction work."
+    },
+    {
+      "id": "hv02b-i17",
+      "text": "Quartet rails cut as a set of four. One knot at the hinge line: remake that rail before assembling the remaining stands.",
+      "modality": "note",
+      "memberships": [
+        "quartet-stands"
+      ],
+      "rationale": "Production step for stand order."
+    },
+    {
+      "id": "hv02b-i18",
+      "text": "Dry mandolin touch-up viewed from normal gallery distance. Curator says the pale line no longer distracts; store the approved sample card with recipe.",
+      "modality": "voice",
+      "memberships": [
+        "finish-samples"
+      ],
+      "rationale": "Approves finish appearance and preserves recipe."
+    },
+    {
+      "id": "hv02b-i19",
+      "text": "Museum signed off the mandolin's stable display condition. Foam support must carry the neck; repaired top should bear no mounting weight.",
+      "modality": "file",
+      "memberships": [
+        "mandolin-top"
+      ],
+      "rationale": "Closes restoration with display constraints."
+    },
+    {
+      "id": "hv02b-i20",
+      "text": "All four quartet stands fit the locker and open with the new thumb notch. Write the hinge oiling note on their care sheet.",
+      "modality": "note",
+      "memberships": [
+        "quartet-stands"
+      ],
+      "rationale": "Completes stands and care instructions."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv02b-i14",
+      "threads": [
+        "mandolin-top",
+        "finish-samples"
+      ]
+    },
+    "revision": {
+      "earlier": "hv02b-i02",
+      "later": "hv02b-i09",
+      "thread": "quartet-stands"
+    },
+    "rename": null,
+    "undo": {
+      "item": "hv02b-i12",
+      "wrongThread": "mandolin-top",
+      "reason": "Hypothetical correction: sample removal testing develops the finish; it does not perform structural stabilization."
+    }
+  }
+}

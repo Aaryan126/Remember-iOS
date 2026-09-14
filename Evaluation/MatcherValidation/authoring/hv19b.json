@@ -1,0 +1,242 @@
+{
+  "id": "hv19b",
+  "split": "evaluation",
+  "storyFamily": "hv19",
+  "templateFamily": "hv19",
+  "threads": [
+    "textile-survey",
+    "textile-tour",
+    "courier-rota",
+    "garden-fence"
+  ],
+  "threadDescriptions": {
+    "textile-survey": "Document condition and suitable display duration of a touring embroidered hanging.",
+    "textile-tour": "Negotiate and maintain the hanging's venue itinerary and loan dates.",
+    "courier-rota": "Schedule trained couriers and travel cover for the textile tour.",
+    "garden-fence": "Replace a damaged fence at home."
+  },
+  "relatedThreads": [
+    [
+      "textile-survey",
+      "textile-tour"
+    ],
+    [
+      "textile-tour",
+      "courier-rota"
+    ],
+    [
+      "textile-survey",
+      "courier-rota"
+    ]
+  ],
+  "challenges": [
+    "tour_chain",
+    "condition_constraints",
+    "multiple_bridges",
+    "rename",
+    "uncertain_fragments"
+  ],
+  "items": [
+    {
+      "id": "hv19b-i01",
+      "text": "Loose slip from tote: 'third one too weak; move it' with a smudged arrow.",
+      "modality": "image",
+      "memberships": [],
+      "rationale": "No identifiable object or purpose."
+    },
+    {
+      "id": "hv19b-i02",
+      "text": "Embroidered hanging survey: fading strongest along top third, two weak stitches at lower sleeve. Compare against last year's colour target photographs.",
+      "modality": "image",
+      "memberships": [
+        "textile-survey"
+      ],
+      "rationale": "Defines textile condition survey."
+    },
+    {
+      "id": "hv19b-i03",
+      "text": "Home fence blew over at the corner. Save the undamaged gate; price three replacement panels and two posts.",
+      "modality": "voice",
+      "memberships": [
+        "garden-fence"
+      ],
+      "rationale": "Starts unrelated fence repair."
+    },
+    {
+      "id": "hv19b-i04",
+      "text": "Hanging tour draft: Bell House in March, Estuary Rooms in April, Hill Centre in May. Each venue wants a full calendar month.",
+      "modality": "file",
+      "memberships": [
+        "textile-tour"
+      ],
+      "rationale": "Defines tour itinerary negotiations."
+    },
+    {
+      "id": "hv19b-i05",
+      "text": "Textile courier coverage: Sal available March only; Mina can do April and May if dates avoid her course. Need someone trained to supervise unrolling.",
+      "modality": "note",
+      "memberships": [
+        "courier-rota"
+      ],
+      "rationale": "Plans trained staffing for tour moves."
+    },
+    {
+      "id": "hv19b-i06",
+      "text": "Survey under raking light shows lower sleeve stitches hold at rest but pull when hanging vertically. Recommend a sloped support board instead of free hanging.",
+      "modality": "video",
+      "memberships": [
+        "textile-survey"
+      ],
+      "rationale": "Updates display recommendation from condition evidence."
+    },
+    {
+      "id": "hv19b-i07",
+      "text": "Bell House can build the sloped support. Their conservator asks us to send the exact board angle with the condition report.",
+      "modality": "note",
+      "memberships": [
+        "textile-survey"
+      ],
+      "rationale": "Develops condition-based display specification."
+    },
+    {
+      "id": "hv19b-i08",
+      "text": "Tour revision: Hill Centre cannot control daylight, so remove its May slot. Bell House remains March; Estuary Rooms gets April plus the first week of May.",
+      "modality": "voice",
+      "memberships": [
+        "textile-tour"
+      ],
+      "rationale": "Revises initial itinerary and duration."
+    },
+    {
+      "id": "hv19b-i09",
+      "text": "Mina's course moved to 3 May. She can take the hanging to Estuary in April but cannot supervise its return on 7 May; seek return cover.",
+      "modality": "note",
+      "memberships": [
+        "courier-rota"
+      ],
+      "rationale": "Updates courier availability."
+    },
+    {
+      "id": "hv19b-i10",
+      "text": "'Mina / 7 / angle?' heard over station announcement.",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "Ambiguous fragment cannot establish staffing or survey purpose."
+    },
+    {
+      "id": "hv19b-i11",
+      "text": "Fence supplier quote is for four panels by mistake. We need three; gate stays. Revised dimensions marked on corner sketch.",
+      "modality": "image",
+      "memberships": [
+        "garden-fence"
+      ],
+      "rationale": "Corrects home fence order quantity."
+    },
+    {
+      "id": "hv19b-i12",
+      "text": "Tour renamed from 'Three rooms' to 'Stitched journeys' after dropping Hill Centre. Keep existing Bell House and Estuary agreements under the new project heading.",
+      "modality": "note",
+      "memberships": [
+        "textile-tour"
+      ],
+      "rationale": "Explicit rename of same amended textile tour."
+    },
+    {
+      "id": "hv19b-i13",
+      "text": "Textile support trial passed at 20 degrees from vertical. Record the lower sleeve's weak stitches on the courier condition diagram so any change during unpacking can be compared to today's survey.",
+      "modality": "file",
+      "memberships": [
+        "textile-survey"
+      ],
+      "rationale": "Records tested support and condition baseline; merely references courier use."
+    },
+    {
+      "id": "hv19b-i14",
+      "text": "Stitched journeys return plan: shorten Estuary display to 5 May, when trained courier Arun is free. Amend the venue loan end date and book Arun's return train for the next morning, allowing daylight for the unpacking inspection at our store.",
+      "modality": "note",
+      "memberships": [
+        "textile-tour",
+        "courier-rota"
+      ],
+      "rationale": "Changes tour loan dates and schedules a specific courier journey."
+    },
+    {
+      "id": "hv19b-i15",
+      "text": "Arun confirmed return travel and received unrolling training sign-off. Mina still handles the April outward move.",
+      "modality": "file",
+      "memberships": [
+        "courier-rota"
+      ],
+      "rationale": "Confirms courier responsibilities and qualifications."
+    },
+    {
+      "id": "hv19b-i16",
+      "text": "Home fence posts now set. Test gate swing after hanging the three panels; neighbour asked us to keep the old latch height.",
+      "modality": "video",
+      "memberships": [
+        "garden-fence"
+      ],
+      "rationale": "Advances household fence installation."
+    },
+    {
+      "id": "hv19b-i17",
+      "text": "Condition review limits the embroidered hanging to nine weeks of display at the agreed light level. Annotate the survey report with that cap and reduce Bell House's opening by one week so the revised two-venue tour fits within it; send both venues the amended dates.",
+      "modality": "note",
+      "memberships": [
+        "textile-survey",
+        "textile-tour"
+      ],
+      "rationale": "Applies a new conservation finding to both report and concrete itinerary change."
+    },
+    {
+      "id": "hv19b-i18",
+      "text": "Bell House countersigned its shortened dates; Estuary's 5 May close remains. Final Stitched journeys itinerary filed with both agreements.",
+      "modality": "file",
+      "memberships": [
+        "textile-tour"
+      ],
+      "rationale": "Confirms amended tour agreements."
+    },
+    {
+      "id": "hv19b-i19",
+      "text": "Keep it flat until Monday. No image attached.",
+      "modality": "note",
+      "memberships": [],
+      "rationale": "Could concern textile handling or another object; insufficient identifying evidence."
+    },
+    {
+      "id": "hv19b-i20",
+      "text": "Textile baseline photographs complete with colour target, sleeve detail and 20-degree support view. Use these for the next condition comparison.",
+      "modality": "image",
+      "memberships": [
+        "textile-survey"
+      ],
+      "rationale": "Completes survey documentation for future comparisons."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv19b-i14",
+      "threads": [
+        "textile-tour",
+        "courier-rota"
+      ]
+    },
+    "revision": {
+      "earlier": "hv19b-i04",
+      "later": "hv19b-i08",
+      "thread": "textile-tour"
+    },
+    "rename": {
+      "thread": "textile-tour",
+      "from": "Three rooms",
+      "to": "Stitched journeys",
+      "evidenceItem": "hv19b-i12"
+    },
+    "undo": {
+      "item": "hv19b-i13",
+      "wrongThread": "courier-rota",
+      "reason": "Hypothetical correction: a condition diagram intended for couriers does not schedule staff or travel cover."
+    }
+  }
+}

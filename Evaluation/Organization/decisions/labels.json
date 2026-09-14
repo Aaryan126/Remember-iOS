@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "id": "case01",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l01-i15",
+          "l01-i26",
+          "l01-i06",
+          "l01-i17"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l01-i15",
+        "l01-i26",
+        "l01-i06",
+        "l01-i17"
+      ]
+    },
+    {
+      "id": "case02",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l01-i01",
+          "l01-i24"
+        ],
+        [
+          "l01-i15",
+          "l01-i26"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l01-i01",
+          "l01-i24"
+        ],
+        [
+          "l01-i15",
+          "l01-i26"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l01-i01",
+        "l01-i24",
+        "l01-i15",
+        "l01-i26"
+      ]
+    },
+    {
+      "id": "case03",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l02-i07",
+          "l02-i18",
+          "l02-i05",
+          "l02-i22"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l02-i07",
+        "l02-i18",
+        "l02-i05",
+        "l02-i22"
+      ]
+    },
+    {
+      "id": "case04",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l02-i07",
+          "l02-i18"
+        ],
+        [
+          "l02-i10",
+          "l02-i08"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l02-i07",
+          "l02-i18"
+        ],
+        [
+          "l02-i10",
+          "l02-i08"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l02-i07",
+        "l02-i18",
+        "l02-i10",
+        "l02-i08"
+      ]
+    },
+    {
+      "id": "case05",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l03-i22",
+          "l03-i15",
+          "l03-i16",
+          "l03-i11"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l03-i22",
+        "l03-i15",
+        "l03-i16",
+        "l03-i11"
+      ]
+    },
+    {
+      "id": "case06",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l03-i17",
+          "l03-i01"
+        ],
+        [
+          "l03-i20",
+          "l03-i13"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l03-i17",
+          "l03-i01"
+        ],
+        [
+          "l03-i20",
+          "l03-i13"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l03-i17",
+        "l03-i01",
+        "l03-i20",
+        "l03-i13"
+      ]
+    },
+    {
+      "id": "case07",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l04-i09",
+          "l04-i08",
+          "l04-i11",
+          "l04-i17"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l04-i09",
+        "l04-i08",
+        "l04-i11",
+        "l04-i17"
+      ]
+    },
+    {
+      "id": "case08",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l04-i06",
+          "l04-i30"
+        ],
+        [
+          "l04-i09",
+          "l04-i08"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l04-i06",
+          "l04-i30"
+        ],
+        [
+          "l04-i09",
+          "l04-i08"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l04-i06",
+        "l04-i30",
+        "l04-i09",
+        "l04-i08"
+      ]
+    },
+    {
+      "id": "case09",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l05-i09",
+          "l05-i18",
+          "l05-i12",
+          "l05-i17"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l05-i09",
+        "l05-i18",
+        "l05-i12",
+        "l05-i17"
+      ]
+    },
+    {
+      "id": "case10",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l05-i09",
+          "l05-i18"
+        ],
+        [
+          "l05-i13",
+          "l05-i23"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l05-i09",
+          "l05-i18"
+        ],
+        [
+          "l05-i13",
+          "l05-i23"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l05-i09",
+        "l05-i18",
+        "l05-i13",
+        "l05-i23"
+      ]
+    },
+    {
+      "id": "case11",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l06-i02",
+          "l06-i17",
+          "l06-i21",
+          "l06-i25"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l06-i02",
+        "l06-i17",
+        "l06-i21",
+        "l06-i25"
+      ]
+    },
+    {
+      "id": "case12",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l06-i02",
+          "l06-i17"
+        ],
+        [
+          "l06-i10",
+          "l06-i18"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l06-i02",
+          "l06-i17"
+        ],
+        [
+          "l06-i10",
+          "l06-i18"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l06-i02",
+        "l06-i17",
+        "l06-i10",
+        "l06-i18"
+      ]
+    },
+    {
+      "id": "case13",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l07-i18",
+          "l07-i12",
+          "l07-i24",
+          "l07-i07"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l07-i18",
+        "l07-i12",
+        "l07-i24",
+        "l07-i07"
+      ]
+    },
+    {
+      "id": "case14",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l07-i05",
+          "l07-i17"
+        ],
+        [
+          "l07-i08",
+          "l07-i03"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l07-i05",
+          "l07-i17"
+        ],
+        [
+          "l07-i08",
+          "l07-i03"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l07-i05",
+        "l07-i17",
+        "l07-i08",
+        "l07-i03"
+      ]
+    },
+    {
+      "id": "case15",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l08-i05",
+          "l08-i15",
+          "l08-i25",
+          "l08-i27"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l08-i05",
+        "l08-i15",
+        "l08-i25",
+        "l08-i27"
+      ]
+    },
+    {
+      "id": "case16",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l08-i05",
+          "l08-i15"
+        ],
+        [
+          "l08-i06",
+          "l08-i12"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l08-i05",
+          "l08-i15"
+        ],
+        [
+          "l08-i06",
+          "l08-i12"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l08-i05",
+        "l08-i15",
+        "l08-i06",
+        "l08-i12"
+      ]
+    },
+    {
+      "id": "case17",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l09-i08",
+          "l09-i16",
+          "l09-i02",
+          "l09-i18"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l09-i08",
+        "l09-i16",
+        "l09-i02",
+        "l09-i18"
+      ]
+    },
+    {
+      "id": "case18",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l09-i08",
+          "l09-i16"
+        ],
+        [
+          "l09-i09",
+          "l09-i04"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l09-i08",
+          "l09-i16"
+        ],
+        [
+          "l09-i09",
+          "l09-i04"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l09-i08",
+        "l09-i16",
+        "l09-i09",
+        "l09-i04"
+      ]
+    },
+    {
+      "id": "case19",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l10-i09",
+          "l10-i12",
+          "l10-i04",
+          "l10-i24"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l10-i09",
+        "l10-i12",
+        "l10-i04",
+        "l10-i24"
+      ]
+    },
+    {
+      "id": "case20",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l10-i01",
+          "l10-i19"
+        ],
+        [
+          "l10-i07",
+          "l10-i29"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l10-i01",
+          "l10-i19"
+        ],
+        [
+          "l10-i07",
+          "l10-i29"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l10-i01",
+        "l10-i19",
+        "l10-i07",
+        "l10-i29"
+      ]
+    },
+    {
+      "id": "case21",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l11-i05",
+          "l11-i01",
+          "l11-i27",
+          "l11-i13"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l11-i05",
+        "l11-i01",
+        "l11-i27",
+        "l11-i13"
+      ]
+    },
+    {
+      "id": "case22",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l11-i05",
+          "l11-i01"
+        ],
+        [
+          "l11-i08",
+          "l11-i26"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l11-i05",
+          "l11-i01"
+        ],
+        [
+          "l11-i08",
+          "l11-i26"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l11-i05",
+        "l11-i01",
+        "l11-i08",
+        "l11-i26"
+      ]
+    },
+    {
+      "id": "case23",
+      "kind": "merge",
+      "expectedGroups": [
+        [
+          "l12-i07",
+          "l12-i11",
+          "l12-i28",
+          "l12-i20"
+        ]
+      ],
+      "acceptableProposals": [],
+      "mustPreserveMemberships": false,
+      "evidenceIDs": [
+        "l12-i07",
+        "l12-i11",
+        "l12-i28",
+        "l12-i20"
+      ]
+    },
+    {
+      "id": "case24",
+      "kind": "split",
+      "expectedGroups": [
+        [
+          "l12-i01",
+          "l12-i22"
+        ],
+        [
+          "l12-i07",
+          "l12-i11"
+        ]
+      ],
+      "acceptableProposals": [
+        [
+          "l12-i01",
+          "l12-i22"
+        ],
+        [
+          "l12-i07",
+          "l12-i11"
+        ]
+      ],
+      "mustPreserveMemberships": true,
+      "evidenceIDs": [
+        "l12-i01",
+        "l12-i22",
+        "l12-i07",
+        "l12-i11"
+      ]
+    }
+  ]
+}

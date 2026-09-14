@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "suite": "organization-history-integrity-v1",
+  "implementation": "Remember/RememberTests/OrganizationHistoryBenchmarkTests.swift",
+  "label_policy": "Command-side state expectations are independent of production replay. These scripted cases evaluate integrity, not model semantic decisions. Development/held-out designations identify scenario families, not a hidden quality test.",
+  "defaults": {
+    "fixture_memories": 4,
+    "fixture_ids": "00000000-0000-0000-0000-{zero-padded index}",
+    "created_at_epoch": 1800000000,
+    "database": "unique disposable local SQLite database per case",
+    "cloud": false
+  },
+  "invariants": [
+    "expected memberships, active threads, user pins and archive state match command-side model",
+    "memory titles and source filenames match commands",
+    "prior event IDs, sequence, timestamp, kind, origin, memory ID and payload remain unchanged",
+    "event IDs are unique; source, correction and citation references point backward to existing events",
+    "visible database memories and replayed archive state agree",
+    "reopening does not duplicate history or lose state"
+  ],
+  "scenarios": [
+    {"id":"duplicateCapture","split":"development","steps":["capture four originals","repeat first capture"],"expected":"No duplicate memory or capture event."},
+    {"id":"revisionChain","split":"development","steps":["capture","revise first memory four times","check after each revision"],"expected":"Each revision cites its previous source; prior payloads remain immutable."},
+    {"id":"metadataThenRevision","split":"development","steps":["capture","edit metadata","revise original"],"expected":"Source revision links skip metadata and preserve capture."},
+    {"id":"memoryArchiveRestore","split":"development","steps":["capture","archive","archive again","restore"],"expected":"Archive is idempotent and restoration preserves memberships."},
+    {"id":"sharedThreadArchive","split":"development","steps":["capture","assign first memory to two threads","archive one thread"],"expected":"Shared memory and other memberships remain visible."},
+    {"id":"threadRestore","split":"development","steps":["capture","assign shared membership","archive thread","restore thread"],"expected":"Thread restoration does not alter memories or pins."},
+    {"id":"invalidRename","split":"development","steps":["capture","attempt empty rename","archive thread","attempt archived-thread rename"],"expected":"Invalid corrections are rejected without appending history."},
+    {"id":"renameUndo","split":"development","steps":["capture","rename first thread","rename unrelated thread","undo first rename"],"expected":"Unrelated correction is preserved."},
+    {"id":"staleRenameUndo","split":"development","steps":["capture","rename twice","undo first rename"],"expected":"Stale undo rejected and latest title retained."},
+    {"id":"placementUndo","split":"development","steps":["capture","assign first memory to second thread","undo placement"],"expected":"Prior membership restored and explicit correction remains pinned."},
+    {"id":"stalePlacementUndo","split":"development","steps":["capture","assign to second thread","assign to third thread","undo first assignment"],"expected":"Stale undo cannot overwrite newer placement."},
+    {"id":"mergeUndo","split":"development","steps":["capture","append fixture merge decision","undo merge","repeat undo"],"expected":"Parents and memberships restored; pair blocked; repeated undo rejected."},
+    {"id":"mergeUndoPreservesCorrection","split":"heldout","steps":["capture","append fixture merge","rename unrelated thread","undo merge"],"expected":"Merge lineage intact and unrelated title retained."},
+    {"id":"splitProposal","split":"heldout","steps":["capture","combine two memberships","append fixture split proposal"],"expected":"Proposal alone does not move memories."},
+    {"id":"splitDismiss","split":"heldout","steps":["capture","combine two memberships","append fixture split proposal","dismiss"],"expected":"No memberships changed by dismissal."},
+    {"id":"splitAccept","split":"heldout","steps":["capture","combine two memberships","append fixture split proposal","accept"],"expected":"Specified memory moves to separate branch."},
+    {"id":"splitUndo","split":"heldout","steps":["capture","combine two memberships","append fixture split proposal","accept","undo"],"expected":"Previous membership restored and branch history retained."},
+    {"id":"splitStaleArchive","split":"heldout","steps":["capture","combine two memberships","append fixture split proposal","archive affected memory","accept"],"expected":"Archived-memory split rejected."},
+    {"id":"splitStaleMembership","split":"heldout","steps":["capture","combine two memberships","append fixture split proposal","move affected memory elsewhere","accept"],"expected":"Stale split cannot override correction."},
+    {"id":"splitDoubleResolve","split":"heldout","steps":["capture","combine two memberships","append fixture split proposal","accept","accept again"],"expected":"Second resolution rejected without duplicate event."},
+    {"id":"staleSequence","split":"heldout","steps":["capture","read decision sequence","rename thread","append obsolete decision"],"expected":"Optimistic sequence guard rejects stale decision."},
+    {"id":"restart","split":"heldout","steps":["capture","share membership","revise unrelated memory","archive thread","reopen database"],"expected":"All expected state and original event payloads survive restart."},
+    {"id":"unavailableEmbedding","split":"heldout","steps":["capture","index one item","synchronize unavailable provider","synchronize again"],"expected":"Named singleton retained; no immediate repeated placement."},
+    {"id":"cancellationAndPolicyRefresh","split":"heldout","steps":["capture","index one item","cancel embedding","append old-policy fixture placement","synchronize unavailable provider twice"],"expected":"Cancellation appends no organization event; old policy refreshes once."}
+  ],
+  "state_machine": {
+    "seeds": {"first":1,"last":100},
+    "steps_per_seed":50,
+    "setup_memories":8,
+    "rng":"64-bit LCG; high32 bits; multiplier6364136223846793005; increment1442695040888963407",
+    "commands":["repeat capture","archive memory","restore memory","assign one thread","assign shared threads","revise original","archive or restore thread","rename and reopen"],
+    "checkpoint":"after setup and every command",
+    "note":"A generated command can contain restore prerequisites. Fifty is the number of generated commands, not database writes. Merge/split/cancellation are covered in explicit cases, not randomized model operations."
+  },
+  "limitations":[
+    "Fixture merge and split proposals isolate correction integrity; they do not assess automatic proposal semantics.",
+    "Original filenames/revision references are checked; media file content restoration is not exercised because the current restoration API uses the personal app's default library path.",
+    "Recap generation is not invoked, avoiding live local language-model calls; generic citation integrity is asserted when citations exist.",
+    "Unavailable retries are immediate; this suite does not certify wall-clock backoff timing or the daily batch scheduler."
+  ]
+}

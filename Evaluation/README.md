@@ -1,6 +1,6 @@
 # Remember grounded-answer evaluation
 
-This provider-independent harness measures retrieval, long-memory and long-document questions, literal citation support, hallucination rejection, prompt-injection resistance, and abstention. It does not cover the removed Project feature and never uses a hosted judge to grade its own output.
+This provider-independent harness measures retrieval, long-memory and long-document questions, literal citation support, hallucination rejection, prompt-injection resistance, and abstention. It does not cover Project organization and never uses a hosted judge to grade its own output. The separate [organization and provenance benchmark](Organization/README.md) covers thread grouping, relationships, and history integrity.
 
 ## Fixtures
 

@@ -1,0 +1,1356 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "adversarial-auditor-and-adjudicator",
+  "role": "source-grounded adjudication",
+  "modelIdentity": "unknown",
+  "blindToPredictions": true,
+  "productionCodeRead": false,
+  "authorLabelsRead": false,
+  "provenance": {
+    "baseInputsSHA256": "c5f61a5b168d2f70f66bb7a622ecabff509a1babe63e54c9abbf8efb7f45e97a",
+    "inputsSHA256": "189b78c63aadf04ac31eb18e08d7536552b6354f3eb4642a831d38dc27fbef9f",
+    "amendmentsSHA256": "993a6aaa45477f510399f80088bb85d0018448958989c5731deccfcad1e4002e",
+    "originalReviewASHA256": "b05f15f2be1813993316f7aa4e3ece30d198365e9053c25ed7a0fadb213366d4",
+    "originalReviewBSHA256": "03c828daf9b9aa4e10d3558d6b29c868993a6c5716a7b31ae558afc03e3e4eac",
+    "finalReviewASHA256": "3620ff3cfdaf2fcf24dce2cefc1c521e412d09c3a5328415362074658dc2a848",
+    "finalReviewBSHA256": "ff8d906f356c97875ad90d6056160c0ca1a4ce5bf6b6531d8d7d69e7a68456e4",
+    "originalAdversarialAuditSHA256": "1982c54fee286c005d071fe5e90f48ab3f547eabe3dbc46a73883886c713f8de"
+  },
+  "pipelineFreezeReady": true,
+  "freezeReadyScope": "All 360 final items covered by both independent reviews; all 24 replacement texts and their labels independently checked by the adjudicator. This is review readiness only, not proof that a pipeline/scorer freeze or runtime execution has occurred.",
+  "reviewCoverage": {
+    "reviewerA": 360,
+    "reviewerB": 360,
+    "amendmentsPerReviewer": 24,
+    "amendmentsAdjudicated": 24,
+    "sourceChangesVerified": 24
+  },
+  "originalComparison": {
+    "comparisonMethod": "Thread labels canonicalized to their sorted member-ID sets. Compare item memberships, item-pair shared-membership multiplicity, and undirected relationship booleans. Relationship evidence wording is not itself a disagreement.",
+    "itemCount": 360,
+    "pairsCompared": 5220,
+    "pairDisagreements": 0,
+    "sharedMembershipMultiplicityDisagreements": 0,
+    "membershipDisagreementItems": [],
+    "relationshipEdgesCompared": 432,
+    "relationshipDisagreements": 0,
+    "ambiguityDisagreementItems": [
+      "l11-i02"
+    ],
+    "libraries": [
+      {
+        "id": "l01",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l01-i04",
+          "l01-i09",
+          "l01-i23"
+        ],
+        "overlappingItemsB": [
+          "l01-i04",
+          "l01-i09",
+          "l01-i23"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l02",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l02-i15",
+          "l02-i16",
+          "l02-i27"
+        ],
+        "overlappingItemsB": [
+          "l02-i15",
+          "l02-i16",
+          "l02-i27"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l03",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l03-i08",
+          "l03-i18",
+          "l03-i19"
+        ],
+        "overlappingItemsB": [
+          "l03-i08",
+          "l03-i18",
+          "l03-i19"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l04",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l04-i05",
+          "l04-i18",
+          "l04-i21"
+        ],
+        "overlappingItemsB": [
+          "l04-i05",
+          "l04-i18",
+          "l04-i21"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l05",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l05-i07",
+          "l05-i24",
+          "l05-i26"
+        ],
+        "overlappingItemsB": [
+          "l05-i07",
+          "l05-i24",
+          "l05-i26"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l06",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l06-i13",
+          "l06-i19",
+          "l06-i29"
+        ],
+        "overlappingItemsB": [
+          "l06-i13",
+          "l06-i19",
+          "l06-i29"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l07",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l07-i04",
+          "l07-i19",
+          "l07-i25"
+        ],
+        "overlappingItemsB": [
+          "l07-i04",
+          "l07-i19",
+          "l07-i25"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l08",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l08-i01",
+          "l08-i16",
+          "l08-i24"
+        ],
+        "overlappingItemsB": [
+          "l08-i01",
+          "l08-i16",
+          "l08-i24"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l09",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l09-i10",
+          "l09-i11",
+          "l09-i22"
+        ],
+        "overlappingItemsB": [
+          "l09-i10",
+          "l09-i11",
+          "l09-i22"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l10",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l10-i05",
+          "l10-i17",
+          "l10-i26"
+        ],
+        "overlappingItemsB": [
+          "l10-i05",
+          "l10-i17",
+          "l10-i26"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l11",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l11-i06",
+          "l11-i20",
+          "l11-i23"
+        ],
+        "overlappingItemsB": [
+          "l11-i06",
+          "l11-i20",
+          "l11-i23"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [
+          "l11-i02"
+        ],
+        "ambiguousA": [],
+        "ambiguousB": [
+          "l11-i02"
+        ]
+      },
+      {
+        "id": "l12",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l12-i02",
+          "l12-i10",
+          "l12-i14"
+        ],
+        "overlappingItemsB": [
+          "l12-i02",
+          "l12-i10",
+          "l12-i14"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      }
+    ]
+  },
+  "finalComparison": {
+    "comparisonMethod": "Thread labels canonicalized to their sorted member-ID sets. Compare item memberships, item-pair shared-membership multiplicity, and undirected relationship booleans. Relationship evidence wording is not itself a disagreement.",
+    "itemCount": 360,
+    "pairsCompared": 5220,
+    "pairDisagreements": 0,
+    "sharedMembershipMultiplicityDisagreements": 0,
+    "membershipDisagreementItems": [],
+    "relationshipEdgesCompared": 432,
+    "relationshipDisagreements": 0,
+    "ambiguityDisagreementItems": [],
+    "libraries": [
+      {
+        "id": "l01",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l01-i04",
+          "l01-i09",
+          "l01-i23"
+        ],
+        "overlappingItemsB": [
+          "l01-i04",
+          "l01-i09",
+          "l01-i23"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l02",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l02-i15",
+          "l02-i16",
+          "l02-i27"
+        ],
+        "overlappingItemsB": [
+          "l02-i15",
+          "l02-i16",
+          "l02-i27"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l03",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l03-i08",
+          "l03-i18",
+          "l03-i19"
+        ],
+        "overlappingItemsB": [
+          "l03-i08",
+          "l03-i18",
+          "l03-i19"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l04",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l04-i05",
+          "l04-i18",
+          "l04-i21"
+        ],
+        "overlappingItemsB": [
+          "l04-i05",
+          "l04-i18",
+          "l04-i21"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l05",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l05-i07",
+          "l05-i24",
+          "l05-i26"
+        ],
+        "overlappingItemsB": [
+          "l05-i07",
+          "l05-i24",
+          "l05-i26"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l06",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l06-i13",
+          "l06-i19",
+          "l06-i29"
+        ],
+        "overlappingItemsB": [
+          "l06-i13",
+          "l06-i19",
+          "l06-i29"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l07",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l07-i04",
+          "l07-i19",
+          "l07-i25"
+        ],
+        "overlappingItemsB": [
+          "l07-i04",
+          "l07-i19",
+          "l07-i25"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l08",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l08-i01",
+          "l08-i16",
+          "l08-i24"
+        ],
+        "overlappingItemsB": [
+          "l08-i01",
+          "l08-i16",
+          "l08-i24"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l09",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l09-i10",
+          "l09-i11",
+          "l09-i22"
+        ],
+        "overlappingItemsB": [
+          "l09-i10",
+          "l09-i11",
+          "l09-i22"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l10",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l10-i05",
+          "l10-i17",
+          "l10-i26"
+        ],
+        "overlappingItemsB": [
+          "l10-i05",
+          "l10-i17",
+          "l10-i26"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l11",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l11-i06",
+          "l11-i20",
+          "l11-i23"
+        ],
+        "overlappingItemsB": [
+          "l11-i06",
+          "l11-i20",
+          "l11-i23"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      },
+      {
+        "id": "l12",
+        "itemCount": 30,
+        "groupCountA": 9,
+        "groupCountB": 9,
+        "pairsCompared": 435,
+        "pairDisagreements": 0,
+        "sharedMembershipMultiplicityDisagreements": 0,
+        "membershipDisagreementItems": [],
+        "overlappingItemsA": [
+          "l12-i02",
+          "l12-i10",
+          "l12-i14"
+        ],
+        "overlappingItemsB": [
+          "l12-i02",
+          "l12-i10",
+          "l12-i14"
+        ],
+        "relationshipEdgesA": 36,
+        "relationshipEdgesB": 36,
+        "relationshipDisagreements": 0,
+        "ambiguityDisagreementItems": [],
+        "ambiguousA": [],
+        "ambiguousB": []
+      }
+    ]
+  },
+  "decisions": [
+    {
+      "id": "l11-i02",
+      "originalReviewA": [
+        "faro-soup-supper"
+      ],
+      "originalReviewB": [
+        "faro-soup-supper"
+      ],
+      "originalAmbiguousA": false,
+      "originalAmbiguousB": true,
+      "originalAssessment": "The unnamed menu meeting plausibly fits Faro ingredient signage or Piedra menu redesign. Faro was provisional, not established with certainty. Preserve the original ambiguity disagreement.",
+      "finalMemberships": [
+        "piedra-lunch-redesign"
+      ],
+      "ambiguous": false,
+      "permittedAlternatives": [],
+      "evidence": [
+        "l11-i02",
+        "l11-i19",
+        "l11-i22",
+        "l11-i30"
+      ],
+      "rationale": "Replacement explicitly names the Piedra menu meeting, lunch orders, preparation sequence and the base shared by both dishes. These identify the lunch redesign and do not describe the Faro soup event.",
+      "interpretation": "This amendment changes source identity evidence and changes its correct membership. It is not merely a longer paraphrase, and final agreement must not be presented as validation of the old Faro label."
+    }
+  ],
+  "amendmentAudit": [
+    {
+      "id": "l01-i01",
+      "libraryID": "l01",
+      "format": "sparse",
+      "wordCount": 10,
+      "judgment": "source-supported",
+      "memberships": [
+        "elm-permit"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l01-i01",
+        "l01-i24"
+      ],
+      "sourceGroundedRationale": "Elm steps permit and east-curb inlet/overflow identify the permit task; the Thursday inlet revision in l01-i24 confirms continuity.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l01-i02",
+      "libraryID": "l01",
+      "format": "long",
+      "wordCount": 198,
+      "judgment": "source-supported",
+      "memberships": [
+        "orchard-crossing"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l01-i02",
+        "l01-i28",
+        "l01-i08",
+        "l01-i05"
+      ],
+      "sourceGroundedRationale": "Explicitly names the Orchard crossing report and requests weekday grocer-delivery observations from the agreed seated sightline.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l02-i01",
+      "libraryID": "l02",
+      "format": "sparse",
+      "wordCount": 9,
+      "judgment": "source-supported",
+      "memberships": [
+        "indigo-report"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l02-i01",
+        "l02-i12",
+        "l02-i26"
+      ],
+      "sourceGroundedRationale": "Swatches with different dipping histories and the same shade match the drying-versus-dip comparison in l02-i12.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l02-i02",
+      "libraryID": "l02",
+      "format": "long",
+      "wordCount": 204,
+      "judgment": "source-supported",
+      "memberships": [
+        "kettle-controls"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l02-i02",
+        "l02-i19",
+        "l02-i29"
+      ],
+      "sourceGroundedRationale": "Names kettle controls, a 35-credit prototype budget, temperature selection and feedback; the speaker and cardboard serve that control test.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l03-i01",
+      "libraryID": "l03",
+      "format": "sparse",
+      "wordCount": 9,
+      "judgment": "source-supported",
+      "memberships": [
+        "mere-island-overnight"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l03-i01",
+        "l03-i17"
+      ],
+      "sourceGroundedRationale": "Island bunkhouse keys at the pier kiosk match the west bunkhouse and passenger ferry overnight plan in l03-i17.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l03-i02",
+      "libraryID": "l03",
+      "format": "long",
+      "wordCount": 199,
+      "judgment": "source-supported",
+      "memberships": [
+        "mainland-estuary-day"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l03-i02",
+        "l03-i20",
+        "l03-i13"
+      ],
+      "sourceGroundedRationale": "Estuary Tuesday, same-day return, riverside bus, scope and packed lunch match the mainland visit in l03-i20.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l04-i02",
+      "libraryID": "l04",
+      "format": "sparse",
+      "wordCount": 9,
+      "judgment": "source-supported",
+      "memberships": [
+        "lantern-listening"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l04-i02",
+        "l04-i28",
+        "l04-i27"
+      ],
+      "sourceGroundedRationale": "Explicit Lantern name, trio fee, refreshments and battery lights identify the listening evening described in l04-i28.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l04-i03",
+      "libraryID": "l04",
+      "format": "long",
+      "wordCount": 213,
+      "judgment": "source-supported",
+      "memberships": [
+        "orchard-audio"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l04-i03",
+        "l04-i19",
+        "l04-i10"
+      ],
+      "sourceGroundedRationale": "Names the Orchard Voices edit log and the market-bell transition to the stallholder recollection; this is the episode opening edit.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l05-i01",
+      "libraryID": "l05",
+      "format": "sparse",
+      "wordCount": 9,
+      "judgment": "source-supported",
+      "memberships": [
+        "drift-shift-swaps"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l05-i01",
+        "l05-i28",
+        "l05-i02"
+      ],
+      "sourceGroundedRationale": "Explicitly names Drift and changes the volunteer venue/group after the library room failed; the continuing trial remains identifiable.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l05-i04",
+      "libraryID": "l05",
+      "format": "long",
+      "wordCount": 204,
+      "judgment": "source-supported",
+      "memberships": [
+        "pebble-reading-extension"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l05-i04",
+        "l05-i21",
+        "l05-i15"
+      ],
+      "sourceGroundedRationale": "Reading extension title editing, popup draft loss and the saved article queue identify the browser experiment in l05-i21.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l06-i01",
+      "libraryID": "l06",
+      "format": "sparse",
+      "wordCount": 10,
+      "judgment": "source-supported",
+      "memberships": [
+        "copper-automaton-loan"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l06-i01",
+        "l06-i09",
+        "l06-i10",
+        "l06-i24"
+      ],
+      "sourceGroundedRationale": "Copper bird crate and a visible tip indicator match the automaton transport support and packing checklist in l06-i09 and l06-i10.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l06-i02",
+      "libraryID": "l06",
+      "format": "long",
+      "wordCount": 213,
+      "judgment": "source-supported",
+      "memberships": [
+        "dock-ledger-digitization"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l06-i02",
+        "l06-i17",
+        "l06-i21",
+        "l06-i25"
+      ],
+      "sourceGroundedRationale": "Names the dock ledger batch, six brittle blue-covered volumes, cradle support and capture of folded inserts.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l07-i02",
+      "libraryID": "l07",
+      "format": "sparse",
+      "wordCount": 10,
+      "judgment": "source-supported",
+      "memberships": [
+        "stone-tank-irrigation"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l07-i02",
+        "l07-i27",
+        "l07-i16"
+      ],
+      "sourceGroundedRationale": "Half-closed valve, far drip line and repeated catch match the irrigation setup error retained in l07-i16.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l07-i03",
+      "libraryID": "l07",
+      "format": "long",
+      "wordCount": 214,
+      "judgment": "source-supported",
+      "memberships": [
+        "east-barley-depth"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l07-i03",
+        "l07-i08",
+        "l07-i19",
+        "l07-i23"
+      ],
+      "sourceGroundedRationale": "Explicit east barley strips and shallow-versus-deep treatment assignment identify the depth trial; uncertain strip labeling does not obscure project identity.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l08-i02",
+      "libraryID": "l08",
+      "format": "sparse",
+      "wordCount": 9,
+      "judgment": "source-supported",
+      "memberships": [
+        "east-channel-fog-signal"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l08-i02",
+        "l08-i17",
+        "l08-i01"
+      ],
+      "sourceGroundedRationale": "Horn trial, outer listening station and first pulse match the east-channel listening trial in l08-i17.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l08-i03",
+      "libraryID": "l08",
+      "format": "long",
+      "wordCount": 215,
+      "judgment": "source-supported",
+      "memberships": [
+        "harbor-seal-ramp"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l08-i03",
+        "l08-i09",
+        "l08-i21",
+        "l08-i30"
+      ],
+      "sourceGroundedRationale": "Names Harbor Seal passenger-ramp bushings and a quote based on the wrong vessel drawing; dimensions and refit sequence keep this in the ramp task.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l09-i01",
+      "libraryID": "l09",
+      "format": "sparse",
+      "wordCount": 10,
+      "judgment": "source-supported",
+      "memberships": [
+        "harbor-fencing-course"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l09-i01",
+        "l09-i21",
+        "l09-i27"
+      ],
+      "sourceGroundedRationale": "Novice footwork, floor tape and visible signals match the fencing course in l09-i21; a hall change preserves the course identity.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l09-i02",
+      "libraryID": "l09",
+      "format": "long",
+      "wordCount": 210,
+      "judgment": "source-supported",
+      "memberships": [
+        "slate-pool-confidence"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l09-i02",
+        "l09-i08",
+        "l09-i16",
+        "l09-i18"
+      ],
+      "sourceGroundedRationale": "Explicit Slate Pool opening weeks, instructors at the wall and entry steps identify the confidence series.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l10-i01",
+      "libraryID": "l10",
+      "format": "sparse",
+      "wordCount": 9,
+      "judgment": "source-supported",
+      "memberships": [
+        "lumen-finder-alignment"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l10-i01",
+        "l10-i11",
+        "l10-i19",
+        "l10-i05"
+      ],
+      "sourceGroundedRationale": "Finder daytime distant-target and dusk-star checks match the finder worksheet and repeated daylight check in l10-i11 and l10-i19.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l10-i02",
+      "libraryID": "l10",
+      "format": "long",
+      "wordCount": 207,
+      "judgment": "source-supported",
+      "memberships": [
+        "cobalt-calibration"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l10-i02",
+        "l10-i14",
+        "l10-i25"
+      ],
+      "sourceGroundedRationale": "Names Cobalt, lamp/socket compatibility, wavelength exposures and calibration review; the quotation supports that calibration preparation.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l11-i01",
+      "libraryID": "l11",
+      "format": "sparse",
+      "wordCount": 10,
+      "judgment": "source-supported",
+      "memberships": [
+        "faro-soup-supper"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l11-i01",
+        "l11-i05",
+        "l11-i13"
+      ],
+      "sourceGroundedRationale": "Faro and insulated-pot capacity for portions explicitly identify the soup supper described in l11-i05.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l11-i02",
+      "libraryID": "l11",
+      "format": "long",
+      "wordCount": 210,
+      "judgment": "source-supported",
+      "memberships": [
+        "piedra-lunch-redesign"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l11-i02",
+        "l11-i19",
+        "l11-i22",
+        "l11-i30"
+      ],
+      "sourceGroundedRationale": "Now explicitly names Piedra menu review, lunch orders and a base shared by two dishes, matching l11-i19. Assign Piedra only; this amended source does not mention the Faro supper.",
+      "decision": "Move to Piedra based on newly explicit lunch-menu identity; original source ambiguity is not erased."
+    },
+    {
+      "id": "l12-i01",
+      "libraryID": "l12",
+      "format": "sparse",
+      "wordCount": 9,
+      "judgment": "source-supported",
+      "memberships": [
+        "moraine-pottery-survey"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l12-i01",
+        "l12-i22",
+        "l12-i23"
+      ],
+      "sourceGroundedRationale": "Moraine, equally spaced transects and ground cover match the ridge pottery visibility comparison in l12-i22 and l12-i23.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    },
+    {
+      "id": "l12-i03",
+      "libraryID": "l12",
+      "format": "long",
+      "wordCount": 212,
+      "judgment": "source-supported",
+      "memberships": [
+        "ardoise-sediment-archive"
+      ],
+      "ambiguous": false,
+      "reviewers": [
+        "reviewer-a",
+        "reviewer-b"
+      ],
+      "evidence": [
+        "l12-i03",
+        "l12-i27",
+        "l12-i05",
+        "l12-i09",
+        "l12-i15"
+      ],
+      "sourceGroundedRationale": "Explicit Ardoise boxes, original bag labels, collection dates and a repeated shelf-side checklist identify the sediment archive review.",
+      "decision": "Retain continuing-context membership; amended source supports identity through its own text and the listed context sources."
+    }
+  ],
+  "adversarialCoverage": {
+    "originalBaseSampleSize": 72,
+    "originalSampleIds": [
+      "l01-i16",
+      "l01-i24",
+      "l01-i11",
+      "l01-i10",
+      "l01-i05",
+      "l01-i22",
+      "l02-i19",
+      "l02-i12",
+      "l02-i16",
+      "l02-i11",
+      "l02-i15",
+      "l02-i06",
+      "l03-i30",
+      "l03-i06",
+      "l03-i18",
+      "l03-i08",
+      "l03-i01",
+      "l03-i15",
+      "l04-i25",
+      "l04-i03",
+      "l04-i10",
+      "l04-i27",
+      "l04-i08",
+      "l04-i04",
+      "l05-i17",
+      "l05-i21",
+      "l05-i03",
+      "l05-i26",
+      "l05-i15",
+      "l05-i02",
+      "l06-i05",
+      "l06-i27",
+      "l06-i15",
+      "l06-i23",
+      "l06-i11",
+      "l06-i29",
+      "l07-i21",
+      "l07-i23",
+      "l07-i05",
+      "l07-i30",
+      "l07-i12",
+      "l07-i24",
+      "l08-i01",
+      "l08-i05",
+      "l08-i18",
+      "l08-i23",
+      "l08-i17",
+      "l08-i21",
+      "l09-i09",
+      "l09-i07",
+      "l09-i02",
+      "l09-i24",
+      "l09-i18",
+      "l09-i14",
+      "l10-i10",
+      "l10-i27",
+      "l10-i22",
+      "l10-i07",
+      "l10-i16",
+      "l10-i06",
+      "l11-i15",
+      "l11-i16",
+      "l11-i12",
+      "l11-i03",
+      "l11-i04",
+      "l11-i29",
+      "l12-i19",
+      "l12-i02",
+      "l12-i08",
+      "l12-i27",
+      "l12-i04",
+      "l12-i13"
+    ],
+    "originalAuditPreserved": true,
+    "finalVersionAmendmentsAudited": 24,
+    "amendedItemsInOriginalSample": [
+      "l03-i01",
+      "l04-i03",
+      "l09-i02"
+    ],
+    "unchangedOriginalSampleItems": 69,
+    "distinctItemIdsAcrossPhases": 93,
+    "note": "The original deterministic 20% audit applies to the base-input SHA. Final text for every amended sampled ID was rechecked in the 24-item delta audit. These phases are not 96 independent random observations and do not constitute a fresh blind 20% audit of final inputs."
+  },
+  "finalFormatCoverage": {
+    "minWhitespaceWords": 9,
+    "maxWhitespaceWords": 215,
+    "sparseItems": 12,
+    "longItems": 12,
+    "unchangedUniformShortItems": 336,
+    "textOnlyItems": 360,
+    "oneParagraphItems": 360
+  },
+  "limitations": [
+    "Agent-reviewed, not human-validated; shared model families, common contract and synthetic authoring can produce correlated consensus errors.",
+    "Length amendments provide 12 short fragments and 12 roughly 200-word notes, but 336 items retain the original 27–37-word format. They do not test genuinely long documents, extraction truncation, missing data, or multi-paragraph evidence.",
+    "All items remain text-only. Mentions of media do not provide media extraction coverage.",
+    "Every library has six continuing contexts, three singleton contexts and three dual-context sources. This repeated structural template remains a shortcut risk.",
+    "Explicit separate-project language, announced duplicates, corrective reminders and personal metaphors recur across development and heldout. Domain changes do not certify family or stylistic independence.",
+    "Final zero ambiguity partly reflects an amendment that supplied the disputed identity explicitly. It does not demonstrate detection of naturally unresolved ambiguity.",
+    "Full-library adjudication may use future context. These labels are not independent prefix-time judgments for temporal checkpoints.",
+    "Relationship false labels mean absence of a supplied supported connection, not evidence that contexts could never be related.",
+    "No application behavior, predicted groups, scoring results or tuning thresholds were inspected; no claim of benchmark performance is made."
+  ]
+}

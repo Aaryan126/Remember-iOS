@@ -1,0 +1,244 @@
+{
+  "id": "hv14b",
+  "split": "calibration",
+  "storyFamily": "hv14",
+  "templateFamily": "hv14",
+  "threads": [
+    "pastry-count",
+    "allergen-cards",
+    "catering-coffee",
+    "window-film",
+    "bin-contract"
+  ],
+  "threadDescriptions": {
+    "pastry-count": "Control daily pastry ordering and waste at the café.",
+    "allergen-cards": "Correct and replace counter allergen cards for the pastries.",
+    "catering-coffee": "Prepare and deliver coffee service for the archive's breakfast meeting.",
+    "window-film": "Install glare-reducing film on the café's west window.",
+    "bin-contract": "Change the café's waste-collection schedule and contract."
+  },
+  "relatedThreads": [
+    [
+      "pastry-count",
+      "allergen-cards"
+    ],
+    [
+      "pastry-count",
+      "bin-contract"
+    ],
+    [
+      "catering-coffee",
+      "pastry-count"
+    ]
+  ],
+  "challenges": [
+    "supplier_reference",
+    "objective_boundary",
+    "rename",
+    "bridge"
+  ],
+  "items": [
+    {
+      "id": "hv14b-i01",
+      "text": "Bakery tally: ordered 18 pear twists, sold 11, staff ate 2, five left. Reduce tomorrow's order to fourteen and track waste separately.",
+      "modality": "note",
+      "memberships": [
+        "pastry-count"
+      ],
+      "rationale": "Sets daily pastry quantities from sales and waste."
+    },
+    {
+      "id": "hv14b-i02",
+      "text": "Archive breakfast coffee order: thirty cups at 08:15 Tuesday, filter only. They supply cups, we bring urn and stirrers.",
+      "modality": "file",
+      "memberships": [
+        "catering-coffee"
+      ],
+      "rationale": "Defines external coffee catering."
+    },
+    {
+      "id": "hv14b-i03",
+      "text": "Counter allergen card for pear twist says dairy only. Bakery recipe sheet also lists wheat and egg; confirm before reprinting.",
+      "modality": "image",
+      "memberships": [
+        "allergen-cards"
+      ],
+      "rationale": "Identifies incomplete pastry allergen information."
+    },
+    {
+      "id": "hv14b-i04",
+      "text": "West window glare hits the espresso screen after three. Film sample A makes the room grey; test the clear UV sample instead.",
+      "modality": "video",
+      "memberships": [
+        "window-film"
+      ],
+      "rationale": "Trials café window film."
+    },
+    {
+      "id": "hv14b-i05",
+      "text": "Waste collector quote for twice-weekly food bin instead of weekly. Ask whether the smaller wheelie bin changes the minimum term.",
+      "modality": "voice",
+      "memberships": [
+        "bin-contract"
+      ],
+      "rationale": "Begins collection contract change."
+    },
+    {
+      "id": "hv14b-i06",
+      "text": "Pear twist order sent at fourteen. Add a column for unsold pieces that can still be donated; they are not all waste.",
+      "modality": "note",
+      "memberships": [
+        "pastry-count"
+      ],
+      "rationale": "Refines pastry inventory disposition tracking."
+    },
+    {
+      "id": "hv14b-i07",
+      "text": "Bakery clarified the pear-twist wash uses milk, no egg. Correct my card draft: wheat and milk; retain their signed ingredient sheet as evidence.",
+      "modality": "file",
+      "memberships": [
+        "allergen-cards"
+      ],
+      "rationale": "Explicitly corrects allergen draft after supplier verification."
+    },
+    {
+      "id": "hv14b-i08",
+      "text": "Breakfast urn trial holds coffee above our service target for ninety minutes. Preheat with hot water, empty, then fill just before leaving for the archive.",
+      "modality": "voice",
+      "memberships": [
+        "catering-coffee"
+      ],
+      "rationale": "Tests catering equipment and preparation."
+    },
+    {
+      "id": "hv14b-i09",
+      "text": "A clear one, not fourteen. check supplier.",
+      "modality": "note",
+      "memberships": [],
+      "rationale": "Generic terms could refer to several supplier tasks."
+    },
+    {
+      "id": "hv14b-i10",
+      "text": "Bin contract name on quote is 'Extra uplift'. Rename our admin folder to 'Food bin schedule'; still the same twice-weekly food-waste proposal.",
+      "modality": "note",
+      "memberships": [
+        "bin-contract"
+      ],
+      "rationale": "Explicitly renames waste scheduling record."
+    },
+    {
+      "id": "hv14b-i11",
+      "text": "Pastry supply changed for Friday: bakery replaces pear twists with apple pockets. Order ten pockets instead of fourteen twists, and replace the counter allergen card with the supplier's wheat/milk/almond declaration before displaying them.",
+      "modality": "note",
+      "memberships": [
+        "pastry-count",
+        "allergen-cards"
+      ],
+      "rationale": "Changes purchase quantity and concrete allergen signage for replacement product."
+    },
+    {
+      "id": "hv14b-i12",
+      "text": "Window installer measured west pane twice: 132 by 186 cm inside the seals. Approved clear film sample after viewing at three o'clock.",
+      "modality": "image",
+      "memberships": [
+        "window-film"
+      ],
+      "rationale": "Confirms film measurements and selection."
+    },
+    {
+      "id": "hv14b-i13",
+      "text": "Archive host revised headcount to twenty-four. Coffee delivery stays 08:15; reduce brewed volume and send the revised catering total.",
+      "modality": "file",
+      "memberships": [
+        "catering-coffee"
+      ],
+      "rationale": "Revises catering volume and charge."
+    },
+    {
+      "id": "hv14b-i14",
+      "text": "Apple pocket allergen card proof: wheat, milk, almond in bold, product name above. Keep pear-twist card in the retired folder so it isn't put back accidentally.",
+      "modality": "image",
+      "memberships": [
+        "allergen-cards"
+      ],
+      "rationale": "Verifies replacement counter label and archives old one."
+    },
+    {
+      "id": "hv14b-i15",
+      "text": "Food bin schedule accepted: Tuesday and Friday collections, smaller bin, month-to-month. First Tuesday pickup starts next week.",
+      "modality": "file",
+      "memberships": [
+        "bin-contract"
+      ],
+      "rationale": "Finalizes waste collection terms."
+    },
+    {
+      "id": "hv14b-i16",
+      "text": "Friday pastry close: ten apple pockets in, eight sold, two donated; zero discarded. Keep Monday order at ten pending another day's sales.",
+      "modality": "note",
+      "memberships": [
+        "pastry-count"
+      ],
+      "rationale": "Tracks replacement pastry stock outcome."
+    },
+    {
+      "id": "hv14b-i17",
+      "text": "On the counter, by the old sheet. Ask Mina.",
+      "modality": "voice",
+      "memberships": [],
+      "rationale": "Object and purpose are unknown."
+    },
+    {
+      "id": "hv14b-i18",
+      "text": "West window film installed with a small bubble at the top. Installer says inspect after three days; screen is readable this afternoon.",
+      "modality": "video",
+      "memberships": [
+        "window-film"
+      ],
+      "rationale": "Checks installed glare treatment."
+    },
+    {
+      "id": "hv14b-i19",
+      "text": "Archive meeting coffee delivered 08:10 for twenty-four. Urn returned empty and clean; final invoice matches revised headcount.",
+      "modality": "note",
+      "memberships": [
+        "catering-coffee"
+      ],
+      "rationale": "Completes external catering."
+    },
+    {
+      "id": "hv14b-i20",
+      "text": "Counter check: apple pocket sign matches the current bakery ingredient declaration. No pear-twist labels left among today's trays.",
+      "modality": "note",
+      "memberships": [
+        "allergen-cards"
+      ],
+      "rationale": "Verifies current product allergen signage."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv14b-i11",
+      "threads": [
+        "pastry-count",
+        "allergen-cards"
+      ]
+    },
+    "revision": {
+      "earlier": "hv14b-i03",
+      "later": "hv14b-i07",
+      "thread": "allergen-cards"
+    },
+    "rename": {
+      "thread": "bin-contract",
+      "from": "Extra uplift",
+      "to": "Food bin schedule",
+      "evidenceItem": "hv14b-i10"
+    },
+    "undo": {
+      "item": "hv14b-i16",
+      "wrongThread": "bin-contract",
+      "reason": "Hypothetical correction: recording zero pastry waste manages stock; it does not alter the collection contract."
+    }
+  }
+}

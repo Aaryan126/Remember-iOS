@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "libraries": [
+    {
+      "id": "mf19",
+      "verdict": "accept",
+      "reason": "AQ-41 and GR-09 identify different route inspections despite the repeated Copper Finch name. AQ-42 and PH-12 concern different physical routes and continuing inspection records. Numbering, drawing, hold-color and transcription corrections retain those identities. The joint visit and index repair explicitly connect records without making their inspected routes one project. The two unanchored fragments remain underdetermined.",
+      "affectedItems": [],
+      "recommendedAction": "Retain the reviewed groups, direct relationships and ambiguity decisions. Do not merge the two Copper Finch inspections because their names match, or split corrections into new contexts."
+    },
+    {
+      "id": "mf20",
+      "verdict": "accept",
+      "reason": "LO-ES is a Spanish demo delivery while LO-FR is a French full-game release, with different packages, locale checklists and review ownership. These are sufficiently specific continuing deliverables to remain distinct despite sharing a game and screen prefab. QE-DE and SF-ES have distinct game identities. Each release keeps its glossary, UI and subtitle work together, consistent with the original contract. The unlabeled Orchard clipping note can refer to two actual source-supported identities.",
+      "affectedItems": [],
+      "recommendedAction": "Retain the reviewed labels. Interpret each locale/release delivery as the continuing context, rather than splitting translation, glossary and UI tasks. No source amendment is required."
+    },
+    {
+      "id": "mf21",
+      "verdict": "accept",
+      "reason": "The four accession numbers concern distinct physical objects and their continuing examination/treatment records. The wall and pocket maps differ in date, format and accession; the shared Eastmere subject and joint exhibition comparison do not erase object-level treatment identities. Each object's imaging, supports, measurement corrections and repair planning remain together.",
+      "affectedItems": [],
+      "recommendedAction": "Retain the reviewed groups and ambiguity decisions. The imaging and comparison sources support overlapping memberships and direct relationships without merging object treatment records."
+    },
+    {
+      "id": "mf22",
+      "verdict": "accept",
+      "reason": "The two Lantern Set productions are different performances with different casts, leaders, times, entrances and production sheets. Sharing a title and venue is analogous to separate trips to the same place. The other two productions have distinct companies, venues and performances. Corrections remain with the relevant production, and shared equipment handovers support explicit relationships.",
+      "affectedItems": [],
+      "recommendedAction": "Retain the reviewed labels. Do not combine youth and adult productions merely because both present Lantern Set."
+    },
+    {
+      "id": "mf23",
+      "verdict": "accept",
+      "reason": "The source identities are four different colonies, not separately labeled activities on one colony. The repeated Cedar name is disambiguated by apiary, record code, hive appearance and observation history. Cedar and Willow at Orchard Gate share an access appointment but retain separate colony records. Corrections to orientation, frame numbering and box description belong to the original colony context.",
+      "affectedItems": [],
+      "recommendedAction": "Retain the reviewed labels, including the direct administrative relationship between the two Cedar records and the direct shared-access relationship at Orchard Gate."
+    },
+    {
+      "id": "mf24",
+      "verdict": "accept",
+      "reason": "AW-H and AW-S explicitly identify separate installation jobs for distinct buildings, roof structures, inverter positions and quotes. Their shared address and survey appointment do not establish one installation project. Each job already keeps roof design, indoor routing, quote allowances and corrections together. Library-wide evidence includes the studio's sink cupboard in i19, so the cupboard-only reminder in i07 cannot safely identify the house.",
+      "affectedItems": [],
+      "recommendedAction": "Retain the reviewed labels and ambiguity decisions. Preserve the separate building/job identities; do not split either job into roof, inverter and quotation subtasks."
+    },
+    {
+      "id": "mf25",
+      "verdict": "amend_sources",
+      "reason": "The east/west wording is not contradictory: a cove deployment can have multiple moorings, and direction alone does not establish a second project. However, i17 only says Cove and the eastern anchor, while i01 introduces the western logger, leaving the deployment linkage implicit. More consequentially, the H8 tank work may be an independent continuing calibration program or a calibration subtask of the Kelp Cove deployment; i07 proves a dependency but not independent project scope. EchoTag, Harbor Pulse and QuietWater have distinct observable deliverables and no established common project identity.",
+      "affectedItems": ["mf25-i01", "mf25-i02", "mf25-i07", "mf25-i12", "mf25-i16", "mf25-i17"],
+      "recommendedAction": "For a new source version, add to i01: 'This Kelp Cove deployment uses eastern and western moorings.' Change the i17 opening to 'Kelp Cove deployment reminder'. Add to i02: 'The reference-tank program recalibrates recorders for several independent field projects on a continuing bench schedule.' Keep H8 and the transfer in i07, so the source shows a service-program result used by a separate deployment. This is a clarification of independence, not a claim supported by the existing sources. If sources remain unchanged, do not invent a second east-anchor context; record the calibration-versus-deployment granularity uncertainty instead of treating five contexts as indisputable. Re-review any amendment."
+    },
+    {
+      "id": "mf26",
+      "verdict": "amend_sources",
+      "reason": "Fenwick Junction and Copper Ridge are distinct physical layouts with continuing operations and maintenance, so exhibiting both does not merge those projects. The workshop, however, is explicitly placed on the same exhibition access plan in i14, and the lender desk is never established as a continuing service beyond this event. Treating workshop delivery, event access and event loans as independent projects therefore depends on unstated scope. The reviewers' task-based reconstruction is plausible but does not resolve the original same-event identity requirement.",
+      "affectedItems": ["mf26-i03", "mf26-i05", "mf26-i07", "mf26-i10", "mf26-i12", "mf26-i14", "mf26-i17", "mf26-i18"],
+      "recommendedAction": "For a new version preserving separate contexts, expand i03 to establish a continuing multiweek beginner turnout-wiring course at the club, with an exhibition taster as one outreach session. In i14 identify the waiting line as that course's exhibition taster; retain its dependency on the exhibition access plan. Expand i05 to establish the lender desk as the club's year-round inter-layout rolling-stock loan service, with condition and return records continuing beyond the exhibition. Existing i07 then links that independent loan service to Fenwick Junction. The two layout projects and exhibition access sources can otherwise remain. Without those amendments, explicitly adjudicate whether the workshop and desk records are event subtasks before freezing labels."
+    },
+    {
+      "id": "mf27",
+      "verdict": "revise_labels",
+      "reason": "i07 is a Glass Orchard issue-four fulfilment update announcing ScreenDoor's accessible edition, adding its link to subscriber dispatch and sending the corrected contributor credits to both print and digital editors. The natural supplied identity is one issue in two formats. ScreenDoor is not established as a different publication or independent continuing project. Splitting print fulfilment from accessible production therefore reproduces the same-project subtask error even though neither reviewer flags it.",
+      "affectedItems": ["mf27-i01", "mf27-i03", "mf27-i07", "mf27-i10", "mf27-i12", "mf27-i14", "mf27-i15"],
+      "recommendedAction": "With unchanged sources, merge Glass Orchard print fulfilment and ScreenDoor accessible-edition memberships into the Glass Orchard issue-four context; their relationship becomes shared context. Keep Counterlight, Night Fold and Pocket Shelf separate. If five independent contexts are required, create a new source version that makes ScreenDoor a different publication, for example 'ScreenDoor issue two', in i03, i12 and i15. Replace i07 with an explicit cross-publication handoff: Glass Orchard four's subscriber message links to the independently published ScreenDoor issue two; a contributor appearing in both titles supplied a name correction that each publication editor must apply to its own credits. A bare new workstream name is insufficient. Re-review the amended publication identity."
+    },
+    {
+      "id": "mf28",
+      "verdict": "revise_labels",
+      "reason": "Fixtures/results, hotel shuttles and referee preparation all explicitly serve the same Cedar Cup event. These are scheduling, transport and officiating tasks within one continuing event, not evidence of separate events or projects. i11's unchanged game order does not make referee assignments independent of the tournament. i18 additionally names a Cedar Cup service card, connecting at least that equipment repair to the event; the removed caster also plausibly continues i09. Reviewer agreement on task boundaries does not override this source evidence.",
+      "affectedItems": ["mf28-i01", "mf28-i02", "mf28-i03", "mf28-i04", "mf28-i07", "mf28-i08", "mf28-i09", "mf28-i10", "mf28-i11", "mf28-i15", "mf28-i16", "mf28-i17", "mf28-i18", "mf28-i20"],
+      "recommendedAction": "With unchanged sources, combine fixtures/results, shuttle and officials records into Cedar Cup, then re-adjudicate equipment sources individually: i18 also belongs to Cedar Cup, and its possible continuation of i09 must be resolved; do not blindly merge the entire service bay or Open Hoops. If preserving five independent contexts, retain Cedar Cup as the tournament project but amend the transport records to establish a year-round Harbor Wheels accessible-transport pilot serving multiple venues. Its Cedar Cup pickup in i07 remains a cross-project dependency. Recast officials records as a separate Elm League referee-accreditation cohort with its own training/practice sessions, replacing Cedar Cup briefing and crew-assignment references consistently in i04, i11, i16 and i20. Establish the service bay as a continuing RollReady chair-refurbishment project in i02 and replace the Cedar Cup service-card reference in i18 with its RollReady card. Retain the bay/Open Hoops handoff in i13. These are substantive source amendments, not labels to impose on the originals; re-review them."
+    },
+    {
+      "id": "mf29",
+      "verdict": "accept",
+      "reason": "Five named trials have distinct continuing objectives and observable protocols: cabinet mapping, pouch ingress, germination, outage endurance and custody qualification. The library does not establish one named project whose departments have been split. i07 links distinct temperature and germination trials; i13 links materials and custody tests. Shared seed-storage subject matter alone is not identity. Sensor and second-batch fragments lack enough information to select a trial.",
+      "affectedItems": [],
+      "recommendedAction": "Retain the reviewed labels, the two direct relationships and ambiguity decisions. Do not infer an overarching project merely from related research subjects."
+    },
+    {
+      "id": "mf30",
+      "verdict": "revise_labels",
+      "reason": "Fabrication, audio, visitor testing and cleaning all explicitly develop or assess the same Hands on Harbor relief exhibit. i07 tests the finish before approving the full-size map, and i13 revises that exhibit's audio from its visitor study. The original contract explicitly keeps different designs and meetings for one project together; these connected work products likewise share the exhibit identity. Touch Routes has separate school-loan kits and teacher materials. The original ambiguity rationale for i06 partly requires identifying a workstream, which is unnecessary once the correct project granularity is used; its lower-edge and wording references echo i02.",
+      "affectedItems": ["mf30-i01", "mf30-i02", "mf30-i04", "mf30-i05", "mf30-i06", "mf30-i07", "mf30-i08", "mf30-i09", "mf30-i11", "mf30-i12", "mf30-i13", "mf30-i15", "mf30-i16", "mf30-i17", "mf30-i18", "mf30-i19"],
+      "recommendedAction": "With unchanged sources, merge fabrication, audio, visitor study and care into Hands on Harbor, retaining Touch Routes separately. Reassess i06 at project level: lower-edge navigation and revised wording support Hands on Harbor even if the particular task is unclear; record any remaining actual alternative context explicitly. i16 still lacks an artifact identity and may remain ambiguous. If five independent contexts are required, amend sources to keep Hands on Harbor fabrication; establish Soundline as a separate tactile audio-guide publication for a different harbor map; establish RouteSense as an independent continuing multi-exhibit navigation study; and establish SurfaceLife as a continuing coatings-comparison program across multiple installations. Replace names and identity details consistently in the audio, study and care sources, not merely their headings. Rewrite i07 as SurfaceLife supplying independently tested coating results to Hands on Harbor; rewrite i13 as RouteSense testing Soundline's separate guide and returning observations to its editor. For i06/i16 either preserve genuinely cross-project underspecification after these changes or add a project identifier if intended to be assignable. Preserve the originals and obtain independent review of the new sources."
+    }
+  ],
+  "limitations": [
+    "This analysis inspected only repository AGENTS.md, the MatcherFeasibility and original Organization contracts, batch-01 projected sources, and reviewer-a/reviewer-b batch01 JSON. Authoring files, candidate labels, model predictions and training inputs were not inspected.",
+    "This is initial semantic adjudication for mf19 through mf30, not final labels, a frozen release, model evaluation, or human validation. No original source or review file was edited.",
+    "The verdict describes action required on the existing evidence. Suggested amendments are proposals for new fictional source versions and must not be treated as facts already present in the originals.",
+    "The original Organization contract supplies the requested project-identity interpretation. The MatcherFeasibility contract's project/event/task wording alone allowed both reviewers to choose finer task boundaries; their agreement is not independent evidence that those boundaries meet the intended product semantics.",
+    "Distinct project identifiers can help resolve identity but cannot by themselves establish independent scope. The proposed amendments add separate deliverables, programs or events where needed; they still require source-grounded independent re-review and pair-label regeneration.",
+    "Acceptance does not prove semantic uniqueness. In particular mf20's distinct locale/release deliveries and mf24's distinct building jobs are judged sufficiently explicit; their shared product or address alone is not used to merge them.",
+    "Relatedness is evaluated as an explicitly supported connection between independent continuing contexts. It is not transitively closed, and changing context granularity requires rebuilding pair relationships rather than retaining obsolete workstream edges.",
+    "Sparse references were evaluated using the full supplied library, without inventing unseen projects or assuming every pronoun uniquely identifies the only superficially similar item. Amending one source can change later sparse-source memberships, so validation must cover the entire amended library.",
+    "No inference, training, conversion, phone measurement, production changes or Git-state changes were performed. The later training-batch adjudication remains outside this initial analysis."
+  ]
+}

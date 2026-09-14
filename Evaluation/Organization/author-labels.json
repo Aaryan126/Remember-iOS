@@ -1,0 +1,5453 @@
+{
+  "schemaVersion": 1,
+  "libraries": [
+    {
+      "id": "l01",
+      "memberships": {
+        "l01-i01": [
+          "Elm steps rain-garden permit"
+        ],
+        "l01-i02": [
+          "Orchard crossing visibility audit"
+        ],
+        "l01-i03": [
+          "Orchard crossing visibility audit"
+        ],
+        "l01-i04": [
+          "North hall repair cafe",
+          "South court tool-lending locker"
+        ],
+        "l01-i05": [
+          "Orchard crossing visibility audit"
+        ],
+        "l01-i06": [
+          "Juniper bus-stop shade campaign"
+        ],
+        "l01-i07": [
+          "South court tool-lending locker"
+        ],
+        "l01-i08": [
+          "Orchard crossing visibility audit"
+        ],
+        "l01-i09": [
+          "Juniper bus-stop shade campaign",
+          "Orchard crossing visibility audit"
+        ],
+        "l01-i10": [
+          "isolated note 2"
+        ],
+        "l01-i11": [
+          "Juniper bus-stop shade campaign"
+        ],
+        "l01-i12": [
+          "South court tool-lending locker"
+        ],
+        "l01-i13": [
+          "North hall repair cafe"
+        ],
+        "l01-i14": [
+          "South court tool-lending locker"
+        ],
+        "l01-i15": [
+          "Juniper bus-stop shade campaign"
+        ],
+        "l01-i16": [
+          "North hall repair cafe"
+        ],
+        "l01-i17": [
+          "Juniper bus-stop shade campaign"
+        ],
+        "l01-i18": [
+          "isolated note 3"
+        ],
+        "l01-i19": [
+          "Orchard crossing visibility audit"
+        ],
+        "l01-i20": [
+          "isolated note 1"
+        ],
+        "l01-i21": [
+          "North hall repair cafe"
+        ],
+        "l01-i22": [
+          "Canal towpath rain-garden volunteer day"
+        ],
+        "l01-i23": [
+          "Elm steps rain-garden permit",
+          "Canal towpath rain-garden volunteer day"
+        ],
+        "l01-i24": [
+          "Elm steps rain-garden permit"
+        ],
+        "l01-i25": [
+          "Canal towpath rain-garden volunteer day"
+        ],
+        "l01-i26": [
+          "Juniper bus-stop shade campaign"
+        ],
+        "l01-i27": [
+          "Orchard crossing visibility audit"
+        ],
+        "l01-i28": [
+          "Orchard crossing visibility audit"
+        ],
+        "l01-i29": [
+          "Canal towpath rain-garden volunteer day"
+        ],
+        "l01-i30": [
+          "South court tool-lending locker"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "Elm steps rain-garden permit",
+          "second": "Canal towpath rain-garden volunteer day",
+          "related": true,
+          "evidence": [
+            "l01-i23"
+          ]
+        },
+        {
+          "first": "Elm steps rain-garden permit",
+          "second": "North hall repair cafe",
+          "related": false,
+          "evidence": [
+            "l01-i01",
+            "l01-i13"
+          ]
+        },
+        {
+          "first": "Elm steps rain-garden permit",
+          "second": "South court tool-lending locker",
+          "related": false,
+          "evidence": [
+            "l01-i01",
+            "l01-i07"
+          ]
+        },
+        {
+          "first": "Elm steps rain-garden permit",
+          "second": "Juniper bus-stop shade campaign",
+          "related": false,
+          "evidence": [
+            "l01-i01",
+            "l01-i06"
+          ]
+        },
+        {
+          "first": "Elm steps rain-garden permit",
+          "second": "Orchard crossing visibility audit",
+          "related": false,
+          "evidence": [
+            "l01-i01",
+            "l01-i02"
+          ]
+        },
+        {
+          "first": "Elm steps rain-garden permit",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l01-i01",
+            "l01-i20"
+          ]
+        },
+        {
+          "first": "Elm steps rain-garden permit",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l01-i01",
+            "l01-i10"
+          ]
+        },
+        {
+          "first": "Elm steps rain-garden permit",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l01-i01",
+            "l01-i18"
+          ]
+        },
+        {
+          "first": "Canal towpath rain-garden volunteer day",
+          "second": "North hall repair cafe",
+          "related": false,
+          "evidence": [
+            "l01-i22",
+            "l01-i13"
+          ]
+        },
+        {
+          "first": "Canal towpath rain-garden volunteer day",
+          "second": "South court tool-lending locker",
+          "related": false,
+          "evidence": [
+            "l01-i22",
+            "l01-i07"
+          ]
+        },
+        {
+          "first": "Canal towpath rain-garden volunteer day",
+          "second": "Juniper bus-stop shade campaign",
+          "related": false,
+          "evidence": [
+            "l01-i22",
+            "l01-i06"
+          ]
+        },
+        {
+          "first": "Canal towpath rain-garden volunteer day",
+          "second": "Orchard crossing visibility audit",
+          "related": false,
+          "evidence": [
+            "l01-i22",
+            "l01-i02"
+          ]
+        },
+        {
+          "first": "Canal towpath rain-garden volunteer day",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l01-i22",
+            "l01-i20"
+          ]
+        },
+        {
+          "first": "Canal towpath rain-garden volunteer day",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l01-i22",
+            "l01-i10"
+          ]
+        },
+        {
+          "first": "Canal towpath rain-garden volunteer day",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l01-i22",
+            "l01-i18"
+          ]
+        },
+        {
+          "first": "North hall repair cafe",
+          "second": "South court tool-lending locker",
+          "related": true,
+          "evidence": [
+            "l01-i04"
+          ]
+        },
+        {
+          "first": "North hall repair cafe",
+          "second": "Juniper bus-stop shade campaign",
+          "related": false,
+          "evidence": [
+            "l01-i13",
+            "l01-i06"
+          ]
+        },
+        {
+          "first": "North hall repair cafe",
+          "second": "Orchard crossing visibility audit",
+          "related": false,
+          "evidence": [
+            "l01-i13",
+            "l01-i02"
+          ]
+        },
+        {
+          "first": "North hall repair cafe",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l01-i13",
+            "l01-i20"
+          ]
+        },
+        {
+          "first": "North hall repair cafe",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l01-i13",
+            "l01-i10"
+          ]
+        },
+        {
+          "first": "North hall repair cafe",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l01-i13",
+            "l01-i18"
+          ]
+        },
+        {
+          "first": "South court tool-lending locker",
+          "second": "Juniper bus-stop shade campaign",
+          "related": false,
+          "evidence": [
+            "l01-i07",
+            "l01-i06"
+          ]
+        },
+        {
+          "first": "South court tool-lending locker",
+          "second": "Orchard crossing visibility audit",
+          "related": false,
+          "evidence": [
+            "l01-i07",
+            "l01-i02"
+          ]
+        },
+        {
+          "first": "South court tool-lending locker",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l01-i07",
+            "l01-i20"
+          ]
+        },
+        {
+          "first": "South court tool-lending locker",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l01-i07",
+            "l01-i10"
+          ]
+        },
+        {
+          "first": "South court tool-lending locker",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l01-i07",
+            "l01-i18"
+          ]
+        },
+        {
+          "first": "Juniper bus-stop shade campaign",
+          "second": "Orchard crossing visibility audit",
+          "related": true,
+          "evidence": [
+            "l01-i09"
+          ]
+        },
+        {
+          "first": "Juniper bus-stop shade campaign",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l01-i06",
+            "l01-i20"
+          ]
+        },
+        {
+          "first": "Juniper bus-stop shade campaign",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l01-i06",
+            "l01-i10"
+          ]
+        },
+        {
+          "first": "Juniper bus-stop shade campaign",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l01-i06",
+            "l01-i18"
+          ]
+        },
+        {
+          "first": "Orchard crossing visibility audit",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l01-i02",
+            "l01-i20"
+          ]
+        },
+        {
+          "first": "Orchard crossing visibility audit",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l01-i02",
+            "l01-i10"
+          ]
+        },
+        {
+          "first": "Orchard crossing visibility audit",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l01-i02",
+            "l01-i18"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l01-i20",
+            "l01-i10"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l01-i20",
+            "l01-i18"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l01-i10",
+            "l01-i18"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l01-i01": "Source evidence: Elm steps garden: the permit sketch must show runoff entering from the east curb.",
+        "l01-i02": "Source evidence: The road engineer wants a weekday sample as well as Saturday photographs.",
+        "l01-i03": "Source evidence: The latest van photos show an unobstructed view after the loading bay moved temporarily.",
+        "l01-i04": "Source evidence: North Hall's repair volunteers offered to demonstrate safe hand-tool checks for the South Court locker launch.",
+        "l01-i05": "Source evidence: We argued about red paint during the audit meeting, but the immediate request is moving one loading bay.",
+        "l01-i06": "Source evidence: Draft for the shelter meeting: ask for a narrow canopy that leaves wheelchair turning space.",
+        "l01-i07": "Source evidence: Budget review for the lending cabinet: 140 credits for the frame, 55 for weather seals, and 30 for spare locks.",
+        "l01-i08": "Source evidence: At the crossing opposite the grocer, the white van blocked the view for eleven minutes.",
+        "l01-i09": "Source evidence: The Juniper shade petition and Orchard crossing report both need a seated-accessibility diagram.",
+        "l01-i10": "Source evidence: The blue mug's handle feels better than the taller one's when reading at night.",
+        "l01-i11": "Source evidence: Correct the petition handout: the shade meeting is on the eighteenth, not the eighth.",
+        "l01-i12": "Source evidence: Trial return cards were unreadable after drizzle.",
+        "l01-i13": "Source evidence: Keep the handwritten lamp checklist from our North Hall session.",
+        "l01-i14": "Source evidence: The caretaker says the courtyard wall cannot support a loaded metal cabinet.",
+        "l01-i15": "Source evidence: Juniper stop shade petition should count people waiting between two and four, not total bus boardings.",
+        "l01-i16": "Source evidence: The mending corner only drew three visitors last time.",
+        "l01-i17": "Source evidence: Transport replied that a temporary fabric awning might be permitted this season.",
+        "l01-i18": "Source evidence: Finished a fictional detective story in which the missing clock was behind a pantry door.",
+        "l01-i19": "Source evidence: Duplicate reminder from my pocket notebook: grocer crossing, weekday delivery window, seated-height photographs.",
+        "l01-i20": "Source evidence: A radio interview used 'repair' to describe rebuilding trust after a disagreement.",
+        "l01-i21": "Source evidence: Repair cafe at North Hall: bring two soldering mats and reserve the table nearest ventilation.",
+        "l01-i22": "Source evidence: Receipt note: reed plugs cost 86 credits, leaving 24 for gloves.",
+        "l01-i23": "Source evidence: Compare the Elm steps inlet sketch with the canal basin's existing overflow before Thursday.",
+        "l01-i24": "Source evidence: After the rain, water pooled beside the lowest stair instead of reaching our proposed bed.",
+        "l01-i25": "Source evidence: Canal towpath planting day needs twelve pairs of gloves and a volunteer who can explain the reed plugs.",
+        "l01-i26": "Source evidence: Our first count accidentally included people waiting outside the bakery.",
+        "l01-i27": "Source evidence: Print shop quote for the visibility report is 18 credits for six bound copies.",
+        "l01-i28": "Source evidence: Orchard crossing audit starts with photographs from a seated pedestrian's height.",
+        "l01-i29": "Source evidence: The towpath coordinator changed the volunteer start from nine to ten because the gatekeeper arrives late.",
+        "l01-i30": "Source evidence: South Court locker proposal: lend hand tools through numbered compartments, with a paper borrowing card for residents without phones."
+      }
+    },
+    {
+      "id": "l02",
+      "memberships": {
+        "l02-i01": [
+          "Material studies indigo swatch report"
+        ],
+        "l02-i02": [
+          "Interaction design kettle accessibility prototype"
+        ],
+        "l02-i03": [
+          "isolated note 2"
+        ],
+        "l02-i04": [
+          "Interaction design kettle accessibility prototype"
+        ],
+        "l02-i05": [
+          "Acoustics stairwell impulse experiment"
+        ],
+        "l02-i06": [
+          "Urban history market-map essay"
+        ],
+        "l02-i07": [
+          "Acoustics stairwell impulse experiment"
+        ],
+        "l02-i08": [
+          "Probability seminar urn simulation"
+        ],
+        "l02-i09": [
+          "Topology seminar torus presentation"
+        ],
+        "l02-i10": [
+          "Probability seminar urn simulation"
+        ],
+        "l02-i11": [
+          "Topology seminar torus presentation"
+        ],
+        "l02-i12": [
+          "Material studies indigo swatch report"
+        ],
+        "l02-i13": [
+          "isolated note 3"
+        ],
+        "l02-i14": [
+          "Urban history market-map essay"
+        ],
+        "l02-i15": [
+          "Topology seminar torus presentation",
+          "Probability seminar urn simulation"
+        ],
+        "l02-i16": [
+          "Material studies indigo swatch report",
+          "Interaction design kettle accessibility prototype"
+        ],
+        "l02-i17": [
+          "Interaction design kettle accessibility prototype"
+        ],
+        "l02-i18": [
+          "Acoustics stairwell impulse experiment"
+        ],
+        "l02-i19": [
+          "Interaction design kettle accessibility prototype"
+        ],
+        "l02-i20": [
+          "Urban history market-map essay"
+        ],
+        "l02-i21": [
+          "Interaction design kettle accessibility prototype"
+        ],
+        "l02-i22": [
+          "Acoustics stairwell impulse experiment"
+        ],
+        "l02-i23": [
+          "Probability seminar urn simulation"
+        ],
+        "l02-i24": [
+          "Urban history market-map essay"
+        ],
+        "l02-i25": [
+          "isolated note 1"
+        ],
+        "l02-i26": [
+          "Material studies indigo swatch report"
+        ],
+        "l02-i27": [
+          "Acoustics stairwell impulse experiment",
+          "Interaction design kettle accessibility prototype"
+        ],
+        "l02-i28": [
+          "Interaction design kettle accessibility prototype"
+        ],
+        "l02-i29": [
+          "Interaction design kettle accessibility prototype"
+        ],
+        "l02-i30": [
+          "Urban history market-map essay"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "Topology seminar torus presentation",
+          "second": "Probability seminar urn simulation",
+          "related": true,
+          "evidence": [
+            "l02-i15"
+          ]
+        },
+        {
+          "first": "Topology seminar torus presentation",
+          "second": "Material studies indigo swatch report",
+          "related": false,
+          "evidence": [
+            "l02-i09",
+            "l02-i01"
+          ]
+        },
+        {
+          "first": "Topology seminar torus presentation",
+          "second": "Acoustics stairwell impulse experiment",
+          "related": false,
+          "evidence": [
+            "l02-i09",
+            "l02-i05"
+          ]
+        },
+        {
+          "first": "Topology seminar torus presentation",
+          "second": "Urban history market-map essay",
+          "related": false,
+          "evidence": [
+            "l02-i09",
+            "l02-i06"
+          ]
+        },
+        {
+          "first": "Topology seminar torus presentation",
+          "second": "Interaction design kettle accessibility prototype",
+          "related": false,
+          "evidence": [
+            "l02-i09",
+            "l02-i02"
+          ]
+        },
+        {
+          "first": "Topology seminar torus presentation",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l02-i09",
+            "l02-i25"
+          ]
+        },
+        {
+          "first": "Topology seminar torus presentation",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l02-i09",
+            "l02-i03"
+          ]
+        },
+        {
+          "first": "Topology seminar torus presentation",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l02-i09",
+            "l02-i13"
+          ]
+        },
+        {
+          "first": "Probability seminar urn simulation",
+          "second": "Material studies indigo swatch report",
+          "related": false,
+          "evidence": [
+            "l02-i08",
+            "l02-i01"
+          ]
+        },
+        {
+          "first": "Probability seminar urn simulation",
+          "second": "Acoustics stairwell impulse experiment",
+          "related": false,
+          "evidence": [
+            "l02-i08",
+            "l02-i05"
+          ]
+        },
+        {
+          "first": "Probability seminar urn simulation",
+          "second": "Urban history market-map essay",
+          "related": false,
+          "evidence": [
+            "l02-i08",
+            "l02-i06"
+          ]
+        },
+        {
+          "first": "Probability seminar urn simulation",
+          "second": "Interaction design kettle accessibility prototype",
+          "related": false,
+          "evidence": [
+            "l02-i08",
+            "l02-i02"
+          ]
+        },
+        {
+          "first": "Probability seminar urn simulation",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l02-i08",
+            "l02-i25"
+          ]
+        },
+        {
+          "first": "Probability seminar urn simulation",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l02-i08",
+            "l02-i03"
+          ]
+        },
+        {
+          "first": "Probability seminar urn simulation",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l02-i08",
+            "l02-i13"
+          ]
+        },
+        {
+          "first": "Material studies indigo swatch report",
+          "second": "Acoustics stairwell impulse experiment",
+          "related": false,
+          "evidence": [
+            "l02-i01",
+            "l02-i05"
+          ]
+        },
+        {
+          "first": "Material studies indigo swatch report",
+          "second": "Urban history market-map essay",
+          "related": false,
+          "evidence": [
+            "l02-i01",
+            "l02-i06"
+          ]
+        },
+        {
+          "first": "Material studies indigo swatch report",
+          "second": "Interaction design kettle accessibility prototype",
+          "related": true,
+          "evidence": [
+            "l02-i16"
+          ]
+        },
+        {
+          "first": "Material studies indigo swatch report",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l02-i01",
+            "l02-i25"
+          ]
+        },
+        {
+          "first": "Material studies indigo swatch report",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l02-i01",
+            "l02-i03"
+          ]
+        },
+        {
+          "first": "Material studies indigo swatch report",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l02-i01",
+            "l02-i13"
+          ]
+        },
+        {
+          "first": "Acoustics stairwell impulse experiment",
+          "second": "Urban history market-map essay",
+          "related": false,
+          "evidence": [
+            "l02-i05",
+            "l02-i06"
+          ]
+        },
+        {
+          "first": "Acoustics stairwell impulse experiment",
+          "second": "Interaction design kettle accessibility prototype",
+          "related": true,
+          "evidence": [
+            "l02-i27"
+          ]
+        },
+        {
+          "first": "Acoustics stairwell impulse experiment",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l02-i05",
+            "l02-i25"
+          ]
+        },
+        {
+          "first": "Acoustics stairwell impulse experiment",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l02-i05",
+            "l02-i03"
+          ]
+        },
+        {
+          "first": "Acoustics stairwell impulse experiment",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l02-i05",
+            "l02-i13"
+          ]
+        },
+        {
+          "first": "Urban history market-map essay",
+          "second": "Interaction design kettle accessibility prototype",
+          "related": false,
+          "evidence": [
+            "l02-i06",
+            "l02-i02"
+          ]
+        },
+        {
+          "first": "Urban history market-map essay",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l02-i06",
+            "l02-i25"
+          ]
+        },
+        {
+          "first": "Urban history market-map essay",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l02-i06",
+            "l02-i03"
+          ]
+        },
+        {
+          "first": "Urban history market-map essay",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l02-i06",
+            "l02-i13"
+          ]
+        },
+        {
+          "first": "Interaction design kettle accessibility prototype",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l02-i02",
+            "l02-i25"
+          ]
+        },
+        {
+          "first": "Interaction design kettle accessibility prototype",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l02-i02",
+            "l02-i03"
+          ]
+        },
+        {
+          "first": "Interaction design kettle accessibility prototype",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l02-i02",
+            "l02-i13"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l02-i25",
+            "l02-i03"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l02-i25",
+            "l02-i13"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l02-i03",
+            "l02-i13"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l02-i01": "Source evidence: My swatch discussion needs to separate bath duration from repeat dipping.",
+        "l02-i02": "Source evidence: Prototype budget is capped at 35 credits.",
+        "l02-i03": "Source evidence: Shopping note: replace the stretched strap on the laundry bag with cotton webbing.",
+        "l02-i04": "Source evidence: For Friday's kettle critique, bring the paper task cards and audio feedback samples.",
+        "l02-i05": "Source evidence: Reserve the field recorder for Wednesday morning.",
+        "l02-i06": "Source evidence: The essay bibliography needs the map sheets as primary sources and the transport chapter as background.",
+        "l02-i07": "Source evidence: Acoustics lab: record a single handclap on the second landing of the west stairwell.",
+        "l02-i08": "Source evidence: I coded sampling without replacement by accident.",
+        "l02-i09": "Source evidence: The doughnut photo is too distracting for the opening slide.",
+        "l02-i10": "Source evidence: Probability seminar task is an urn simulation with replacement.",
+        "l02-i11": "Source evidence: Topology seminar presentation: use a paper torus to explain why two familiar loops cannot both shrink to points.",
+        "l02-i12": "Source evidence: Indigo swatch report for material studies: photograph each cotton sample after drying, not straight from the bath.",
+        "l02-i13": "Source evidence: The campus duck with a white feather slept under the bicycle rack again.",
+        "l02-i14": "Source evidence: Office-hours advice: my essay has plenty of map description but no clear claim.",
+        "l02-i15": "Source evidence: Book the small tutorial room once for the torus rehearsal and urn presentation practice, with separate half-hour slots.",
+        "l02-i16": "Source evidence: The indigo report and kettle prototype both need consistent photographs under the studio lamp.",
+        "l02-i17": "Source evidence: Final reflection should explain why the kettle panel kept physical buttons despite the sleek touchscreen sketch.",
+        "l02-i18": "Source evidence: The first stairwell recording contains footsteps and a door slam after the clap.",
+        "l02-i19": "Source evidence: Interaction design assignment: prototype a kettle control panel usable with low vision.",
+        "l02-i20": "Source evidence: Urban history essay compares two fictional town market maps from 1820 and 1880.",
+        "l02-i21": "Source evidence: Copy of the critique reminder: raised ridge on temperature, distinct start shape, and spoken confirmation trial.",
+        "l02-i22": "Source evidence: The west stairwell plot suggests a slower decay at the far microphone.",
+        "l02-i23": "Source evidence: For the probability handout, label each colored line as a separate run.",
+        "l02-i24": "Source evidence: The map archive caption calls the northern lane 'Fish Row,' while the transcription says 'Firs Row.' Mention the uncertainty in a footnote instead of building the whole market argument on a possible typo.",
+        "l02-i25": "Source evidence: A classmate recommended a board game about tiny railways.",
+        "l02-i26": "Source evidence: The dye studio moved our report deadline to Friday because the drying rack was unavailable.",
+        "l02-i27": "Source evidence: Borrow the acoustics recorder to compare the kettle prototype's confirmation tones after completing the stairwell takes.",
+        "l02-i28": "Source evidence: A tester mistook the long tone for an error, contradicting our first session.",
+        "l02-i29": "Source evidence: Our foam panel has three identical round buttons, so testers cannot identify the temperature control by touch.",
+        "l02-i30": "Source evidence: A third map complicates the bridge story: carts already reached the west stalls before 1880."
+      }
+    },
+    {
+      "id": "l03",
+      "memberships": {
+        "l03-i01": [
+          "Mere island overnight birding trip"
+        ],
+        "l03-i02": [
+          "Mere mainland estuary day visit"
+        ],
+        "l03-i03": [
+          "isolated note 2"
+        ],
+        "l03-i04": [
+          "Vela rail festival visit"
+        ],
+        "l03-i05": [
+          "Linden lakeside family reunion"
+        ],
+        "l03-i06": [
+          "Vela rail festival visit"
+        ],
+        "l03-i07": [
+          "Vela rail festival visit"
+        ],
+        "l03-i08": [
+          "Sable ridge hut trek",
+          "Linden lakeside family reunion"
+        ],
+        "l03-i09": [
+          "Linden lakeside family reunion"
+        ],
+        "l03-i10": [
+          "Rook city architecture weekend"
+        ],
+        "l03-i11": [
+          "Sable ridge hut trek"
+        ],
+        "l03-i12": [
+          "Vela rail festival visit"
+        ],
+        "l03-i13": [
+          "Mere mainland estuary day visit"
+        ],
+        "l03-i14": [
+          "Vela rail festival visit"
+        ],
+        "l03-i15": [
+          "Sable ridge hut trek"
+        ],
+        "l03-i16": [
+          "Sable ridge hut trek"
+        ],
+        "l03-i17": [
+          "Mere island overnight birding trip"
+        ],
+        "l03-i18": [
+          "Rook city architecture weekend",
+          "Vela rail festival visit"
+        ],
+        "l03-i19": [
+          "Mere island overnight birding trip",
+          "Mere mainland estuary day visit"
+        ],
+        "l03-i20": [
+          "Mere mainland estuary day visit"
+        ],
+        "l03-i21": [
+          "isolated note 3"
+        ],
+        "l03-i22": [
+          "Sable ridge hut trek"
+        ],
+        "l03-i23": [
+          "isolated note 1"
+        ],
+        "l03-i24": [
+          "Rook city architecture weekend"
+        ],
+        "l03-i25": [
+          "Rook city architecture weekend"
+        ],
+        "l03-i26": [
+          "Linden lakeside family reunion"
+        ],
+        "l03-i27": [
+          "Vela rail festival visit"
+        ],
+        "l03-i28": [
+          "Linden lakeside family reunion"
+        ],
+        "l03-i29": [
+          "Linden lakeside family reunion"
+        ],
+        "l03-i30": [
+          "Vela rail festival visit"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "Mere island overnight birding trip",
+          "second": "Mere mainland estuary day visit",
+          "related": true,
+          "evidence": [
+            "l03-i19"
+          ]
+        },
+        {
+          "first": "Mere island overnight birding trip",
+          "second": "Rook city architecture weekend",
+          "related": false,
+          "evidence": [
+            "l03-i01",
+            "l03-i10"
+          ]
+        },
+        {
+          "first": "Mere island overnight birding trip",
+          "second": "Sable ridge hut trek",
+          "related": false,
+          "evidence": [
+            "l03-i01",
+            "l03-i11"
+          ]
+        },
+        {
+          "first": "Mere island overnight birding trip",
+          "second": "Linden lakeside family reunion",
+          "related": false,
+          "evidence": [
+            "l03-i01",
+            "l03-i05"
+          ]
+        },
+        {
+          "first": "Mere island overnight birding trip",
+          "second": "Vela rail festival visit",
+          "related": false,
+          "evidence": [
+            "l03-i01",
+            "l03-i04"
+          ]
+        },
+        {
+          "first": "Mere island overnight birding trip",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l03-i01",
+            "l03-i23"
+          ]
+        },
+        {
+          "first": "Mere island overnight birding trip",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l03-i01",
+            "l03-i03"
+          ]
+        },
+        {
+          "first": "Mere island overnight birding trip",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l03-i01",
+            "l03-i21"
+          ]
+        },
+        {
+          "first": "Mere mainland estuary day visit",
+          "second": "Rook city architecture weekend",
+          "related": false,
+          "evidence": [
+            "l03-i02",
+            "l03-i10"
+          ]
+        },
+        {
+          "first": "Mere mainland estuary day visit",
+          "second": "Sable ridge hut trek",
+          "related": false,
+          "evidence": [
+            "l03-i02",
+            "l03-i11"
+          ]
+        },
+        {
+          "first": "Mere mainland estuary day visit",
+          "second": "Linden lakeside family reunion",
+          "related": false,
+          "evidence": [
+            "l03-i02",
+            "l03-i05"
+          ]
+        },
+        {
+          "first": "Mere mainland estuary day visit",
+          "second": "Vela rail festival visit",
+          "related": false,
+          "evidence": [
+            "l03-i02",
+            "l03-i04"
+          ]
+        },
+        {
+          "first": "Mere mainland estuary day visit",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l03-i02",
+            "l03-i23"
+          ]
+        },
+        {
+          "first": "Mere mainland estuary day visit",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l03-i02",
+            "l03-i03"
+          ]
+        },
+        {
+          "first": "Mere mainland estuary day visit",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l03-i02",
+            "l03-i21"
+          ]
+        },
+        {
+          "first": "Rook city architecture weekend",
+          "second": "Sable ridge hut trek",
+          "related": false,
+          "evidence": [
+            "l03-i10",
+            "l03-i11"
+          ]
+        },
+        {
+          "first": "Rook city architecture weekend",
+          "second": "Linden lakeside family reunion",
+          "related": false,
+          "evidence": [
+            "l03-i10",
+            "l03-i05"
+          ]
+        },
+        {
+          "first": "Rook city architecture weekend",
+          "second": "Vela rail festival visit",
+          "related": true,
+          "evidence": [
+            "l03-i18"
+          ]
+        },
+        {
+          "first": "Rook city architecture weekend",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l03-i10",
+            "l03-i23"
+          ]
+        },
+        {
+          "first": "Rook city architecture weekend",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l03-i10",
+            "l03-i03"
+          ]
+        },
+        {
+          "first": "Rook city architecture weekend",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l03-i10",
+            "l03-i21"
+          ]
+        },
+        {
+          "first": "Sable ridge hut trek",
+          "second": "Linden lakeside family reunion",
+          "related": true,
+          "evidence": [
+            "l03-i08"
+          ]
+        },
+        {
+          "first": "Sable ridge hut trek",
+          "second": "Vela rail festival visit",
+          "related": false,
+          "evidence": [
+            "l03-i11",
+            "l03-i04"
+          ]
+        },
+        {
+          "first": "Sable ridge hut trek",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l03-i11",
+            "l03-i23"
+          ]
+        },
+        {
+          "first": "Sable ridge hut trek",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l03-i11",
+            "l03-i03"
+          ]
+        },
+        {
+          "first": "Sable ridge hut trek",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l03-i11",
+            "l03-i21"
+          ]
+        },
+        {
+          "first": "Linden lakeside family reunion",
+          "second": "Vela rail festival visit",
+          "related": false,
+          "evidence": [
+            "l03-i05",
+            "l03-i04"
+          ]
+        },
+        {
+          "first": "Linden lakeside family reunion",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l03-i05",
+            "l03-i23"
+          ]
+        },
+        {
+          "first": "Linden lakeside family reunion",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l03-i05",
+            "l03-i03"
+          ]
+        },
+        {
+          "first": "Linden lakeside family reunion",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l03-i05",
+            "l03-i21"
+          ]
+        },
+        {
+          "first": "Vela rail festival visit",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l03-i04",
+            "l03-i23"
+          ]
+        },
+        {
+          "first": "Vela rail festival visit",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l03-i04",
+            "l03-i03"
+          ]
+        },
+        {
+          "first": "Vela rail festival visit",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l03-i04",
+            "l03-i21"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l03-i23",
+            "l03-i03"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l03-i23",
+            "l03-i21"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l03-i03",
+            "l03-i21"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l03-i01": "Source evidence: The bunkhouse host corrected the key pickup to the pier kiosk, not the village shop.",
+        "l03-i02": "Source evidence: Estuary day budget: 14 credits for two bus tickets and no accommodation.",
+        "l03-i03": "Source evidence: Tested a simple lentil soup with smoked paprika and lemon.",
+        "l03-i04": "Source evidence: Our festival lodging is above the bakery two streets from the station.",
+        "l03-i05": "Source evidence: The cabin manager sent photos of two entrance steps after saying access was level.",
+        "l03-i06": "Source evidence: I saved the signal-box ticket twice, once as a screenshot and once in the itinerary.",
+        "l03-i07": "Source evidence: The model exhibition ticket includes the signal-box tour but not the heritage ride.",
+        "l03-i08": "Source evidence: The sleeping liners from the Sable hut trek can go into the car for the Linden reunion, where bedding is optional.",
+        "l03-i09": "Source evidence: The lakeside deposit is 180 credits for all four cabins.",
+        "l03-i10": "Source evidence: The arcade guide cancelled the Saturday tour because of roof repairs.",
+        "l03-i11": "Source evidence: Trail note from the ridge forum: the final stone steps are exposed, but the hut is below them.",
+        "l03-i12": "Source evidence: Route planning for Vela: the through train is replaced by a bus on the last leg.",
+        "l03-i13": "Source evidence: The mainland reserve's north boardwalk is closed for nesting birds.",
+        "l03-i14": "Source evidence: After the festival, note that the small signal-box tour was better than the crowded model hall.",
+        "l03-i15": "Source evidence: Hut caretaker says blankets are supplied but sleeping liners are required.",
+        "l03-i16": "Source evidence: The forecast made us shift the trek from the twelfth to the nineteenth.",
+        "l03-i17": "Source evidence: Mere Island overnight plan: take the early passenger ferry and sleep in the west bunkhouse.",
+        "l03-i18": "Source evidence: Compare station-area lodging costs for the Rook architecture weekend and Vela rail festival when updating the travel allowance.",
+        "l03-i19": "Source evidence: Pack the same waterproof scope cover for the Mere island overnight and the mainland estuary Tuesday.",
+        "l03-i20": "Source evidence: Mere estuary day visit stays entirely on the mainland.",
+        "l03-i21": "Source evidence: Replace the desk lamp bulb with a warmer one next time it fails.",
+        "l03-i22": "Source evidence: Sable Ridge trek: reserve two bunks at the saddle hut and plan the climb from the southern trailhead.",
+        "l03-i23": "Source evidence: The word 'platform' in a novel referred to a character's public promises, not a station.",
+        "l03-i24": "Source evidence: Use the tram day pass on the architecture weekend.",
+        "l03-i25": "Source evidence: Rook City weekend is for the covered arcade walking tour.",
+        "l03-i26": "Source evidence: Linden reunion weekend needs a dining room that seats sixteen at one table.",
+        "l03-i27": "Source evidence: Vela rail festival trip: the heritage train demonstration is Sunday afternoon, although the model exhibition opens Saturday.",
+        "l03-i28": "Source evidence: A rainy-day alternative for Linden is the cabin common room with photo albums.",
+        "l03-i29": "Source evidence: Reunion meal poll favors an early supper and a separate quiet breakfast slot.",
+        "l03-i30": "Source evidence: Correction from the organizer: the heritage demonstration starts at two, not three."
+      }
+    },
+    {
+      "id": "l04",
+      "memberships": {
+        "l04-i01": [
+          "isolated note 3"
+        ],
+        "l04-i02": [
+          "Lantern chamber-music listening event"
+        ],
+        "l04-i03": [
+          "Orchard voices oral-history audio episode"
+        ],
+        "l04-i04": [
+          "Moon Paper poetry chapbook"
+        ],
+        "l04-i05": [
+          "Orchard voices oral-history audio episode",
+          "Window Seat silent short film"
+        ],
+        "l04-i06": [
+          "Moon Paper poetry chapbook"
+        ],
+        "l04-i07": [
+          "Dusk courtyard mural"
+        ],
+        "l04-i08": [
+          "Window Seat silent short film"
+        ],
+        "l04-i09": [
+          "Window Seat silent short film"
+        ],
+        "l04-i10": [
+          "Orchard voices oral-history audio episode"
+        ],
+        "l04-i11": [
+          "Window Seat silent short film"
+        ],
+        "l04-i12": [
+          "Lantern chamber-music listening event"
+        ],
+        "l04-i13": [
+          "Paper Moon shadow-play commission"
+        ],
+        "l04-i14": [
+          "isolated note 2"
+        ],
+        "l04-i15": [
+          "isolated note 1"
+        ],
+        "l04-i16": [
+          "Lantern chamber-music listening event"
+        ],
+        "l04-i17": [
+          "Window Seat silent short film"
+        ],
+        "l04-i18": [
+          "Dusk courtyard mural",
+          "Lantern chamber-music listening event"
+        ],
+        "l04-i19": [
+          "Orchard voices oral-history audio episode"
+        ],
+        "l04-i20": [
+          "Dusk courtyard mural"
+        ],
+        "l04-i21": [
+          "Paper Moon shadow-play commission",
+          "Moon Paper poetry chapbook"
+        ],
+        "l04-i22": [
+          "Paper Moon shadow-play commission"
+        ],
+        "l04-i23": [
+          "Lantern chamber-music listening event"
+        ],
+        "l04-i24": [
+          "Dusk courtyard mural"
+        ],
+        "l04-i25": [
+          "Dusk courtyard mural"
+        ],
+        "l04-i26": [
+          "Dusk courtyard mural"
+        ],
+        "l04-i27": [
+          "Lantern chamber-music listening event"
+        ],
+        "l04-i28": [
+          "Lantern chamber-music listening event"
+        ],
+        "l04-i29": [
+          "Lantern chamber-music listening event"
+        ],
+        "l04-i30": [
+          "Moon Paper poetry chapbook"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "Paper Moon shadow-play commission",
+          "second": "Moon Paper poetry chapbook",
+          "related": true,
+          "evidence": [
+            "l04-i21"
+          ]
+        },
+        {
+          "first": "Paper Moon shadow-play commission",
+          "second": "Orchard voices oral-history audio episode",
+          "related": false,
+          "evidence": [
+            "l04-i13",
+            "l04-i03"
+          ]
+        },
+        {
+          "first": "Paper Moon shadow-play commission",
+          "second": "Window Seat silent short film",
+          "related": false,
+          "evidence": [
+            "l04-i13",
+            "l04-i08"
+          ]
+        },
+        {
+          "first": "Paper Moon shadow-play commission",
+          "second": "Dusk courtyard mural",
+          "related": false,
+          "evidence": [
+            "l04-i13",
+            "l04-i07"
+          ]
+        },
+        {
+          "first": "Paper Moon shadow-play commission",
+          "second": "Lantern chamber-music listening event",
+          "related": false,
+          "evidence": [
+            "l04-i13",
+            "l04-i02"
+          ]
+        },
+        {
+          "first": "Paper Moon shadow-play commission",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l04-i13",
+            "l04-i15"
+          ]
+        },
+        {
+          "first": "Paper Moon shadow-play commission",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l04-i13",
+            "l04-i14"
+          ]
+        },
+        {
+          "first": "Paper Moon shadow-play commission",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l04-i13",
+            "l04-i01"
+          ]
+        },
+        {
+          "first": "Moon Paper poetry chapbook",
+          "second": "Orchard voices oral-history audio episode",
+          "related": false,
+          "evidence": [
+            "l04-i04",
+            "l04-i03"
+          ]
+        },
+        {
+          "first": "Moon Paper poetry chapbook",
+          "second": "Window Seat silent short film",
+          "related": false,
+          "evidence": [
+            "l04-i04",
+            "l04-i08"
+          ]
+        },
+        {
+          "first": "Moon Paper poetry chapbook",
+          "second": "Dusk courtyard mural",
+          "related": false,
+          "evidence": [
+            "l04-i04",
+            "l04-i07"
+          ]
+        },
+        {
+          "first": "Moon Paper poetry chapbook",
+          "second": "Lantern chamber-music listening event",
+          "related": false,
+          "evidence": [
+            "l04-i04",
+            "l04-i02"
+          ]
+        },
+        {
+          "first": "Moon Paper poetry chapbook",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l04-i04",
+            "l04-i15"
+          ]
+        },
+        {
+          "first": "Moon Paper poetry chapbook",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l04-i04",
+            "l04-i14"
+          ]
+        },
+        {
+          "first": "Moon Paper poetry chapbook",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l04-i04",
+            "l04-i01"
+          ]
+        },
+        {
+          "first": "Orchard voices oral-history audio episode",
+          "second": "Window Seat silent short film",
+          "related": true,
+          "evidence": [
+            "l04-i05"
+          ]
+        },
+        {
+          "first": "Orchard voices oral-history audio episode",
+          "second": "Dusk courtyard mural",
+          "related": false,
+          "evidence": [
+            "l04-i03",
+            "l04-i07"
+          ]
+        },
+        {
+          "first": "Orchard voices oral-history audio episode",
+          "second": "Lantern chamber-music listening event",
+          "related": false,
+          "evidence": [
+            "l04-i03",
+            "l04-i02"
+          ]
+        },
+        {
+          "first": "Orchard voices oral-history audio episode",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l04-i03",
+            "l04-i15"
+          ]
+        },
+        {
+          "first": "Orchard voices oral-history audio episode",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l04-i03",
+            "l04-i14"
+          ]
+        },
+        {
+          "first": "Orchard voices oral-history audio episode",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l04-i03",
+            "l04-i01"
+          ]
+        },
+        {
+          "first": "Window Seat silent short film",
+          "second": "Dusk courtyard mural",
+          "related": false,
+          "evidence": [
+            "l04-i08",
+            "l04-i07"
+          ]
+        },
+        {
+          "first": "Window Seat silent short film",
+          "second": "Lantern chamber-music listening event",
+          "related": false,
+          "evidence": [
+            "l04-i08",
+            "l04-i02"
+          ]
+        },
+        {
+          "first": "Window Seat silent short film",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l04-i08",
+            "l04-i15"
+          ]
+        },
+        {
+          "first": "Window Seat silent short film",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l04-i08",
+            "l04-i14"
+          ]
+        },
+        {
+          "first": "Window Seat silent short film",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l04-i08",
+            "l04-i01"
+          ]
+        },
+        {
+          "first": "Dusk courtyard mural",
+          "second": "Lantern chamber-music listening event",
+          "related": true,
+          "evidence": [
+            "l04-i18"
+          ]
+        },
+        {
+          "first": "Dusk courtyard mural",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l04-i07",
+            "l04-i15"
+          ]
+        },
+        {
+          "first": "Dusk courtyard mural",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l04-i07",
+            "l04-i14"
+          ]
+        },
+        {
+          "first": "Dusk courtyard mural",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l04-i07",
+            "l04-i01"
+          ]
+        },
+        {
+          "first": "Lantern chamber-music listening event",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l04-i02",
+            "l04-i15"
+          ]
+        },
+        {
+          "first": "Lantern chamber-music listening event",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l04-i02",
+            "l04-i14"
+          ]
+        },
+        {
+          "first": "Lantern chamber-music listening event",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l04-i02",
+            "l04-i01"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l04-i15",
+            "l04-i14"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l04-i15",
+            "l04-i01"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l04-i14",
+            "l04-i01"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l04-i01": "Source evidence: A jar of loose buttons looks surprisingly like a tiny mosaic when sunlight comes through it.",
+        "l04-i02": "Source evidence: Event budget: 110 credits for musicians and 25 for refreshments.",
+        "l04-i03": "Source evidence: The bell clip includes a gust across the microphone.",
+        "l04-i04": "Source evidence: Printing allowance for the poetry edition is 96 credits.",
+        "l04-i05": "Source evidence: The market bell from Orchard Voices could mark the bus departure in Window Seat's trailer, although the film itself remains silent.",
+        "l04-i06": "Source evidence: Moon Paper chapbook proof: move the short poem about windows to the inside cover.",
+        "l04-i07": "Source evidence: Mural materials meeting: the scaffolding hire consumes half the allowance.",
+        "l04-i08": "Source evidence: The borrowed bus is available for two hours on Sunday.",
+        "l04-i09": "Source evidence: Window Seat short film: the passenger sees the same yellow umbrella at three stops.",
+        "l04-i10": "Source evidence: Audio review moved the stallholder episode release to Monday.",
+        "l04-i11": "Source evidence: Costume note for the repeated umbrella scene: the passenger's scarf changes position after the second stop.",
+        "l04-i12": "Source evidence: At the rehearsal, the paper lights rattled when the ventilation started.",
+        "l04-i13": "Source evidence: The crescent turns cleanly when the hinge sits behind the lower point.",
+        "l04-i14": "Source evidence: I finally understood the card game's scoring: unused tokens count against you only after the third round.",
+        "l04-i15": "Source evidence: My bicycle bell has a pleasant low ring but the clamp slips on wet handlebars.",
+        "l04-i16": "Source evidence: After the Lantern evening, record that the close chair row worked and the refreshments queue blocked the exit briefly.",
+        "l04-i17": "Source evidence: The film edit currently suggests that two days passed because the final shot is too dark.",
+        "l04-i18": "Source evidence: Move the courtyard mural's sample viewing away from the Lantern trio rehearsal.",
+        "l04-i19": "Source evidence: Orchard Voices audio episode should open with the market bell, then the fictional stallholder's recollection.",
+        "l04-i20": "Source evidence: Update the painting calendar: surface repairs finish on the twenty-second, so the weekend session cannot start on the twentieth.",
+        "l04-i21": "Source evidence: The school asked whether the Paper Moon puppet visit includes copies of Moon Paper.",
+        "l04-i22": "Source evidence: Paper Moon shadow play needs a crescent puppet that rotates without flashing its support rod.",
+        "l04-i23": "Source evidence: Copied from the rehearsal card: fan on, fewer hanging lanterns, chairs behind cushions.",
+        "l04-i24": "Source evidence: The courtyard wall survey found a damp patch behind the planned central figure.",
+        "l04-i25": "Source evidence: Dusk mural proposal uses broad silhouettes on the courtyard's rough brick wall.",
+        "l04-i26": "Source evidence: Residents prefer the orange sample in shade but the purple sample in afternoon sun.",
+        "l04-i27": "Source evidence: The trio wants the audience close enough to hear quiet bow sounds.",
+        "l04-i28": "Source evidence: Lantern listening evening pairs a string trio with low paper lights in the east studio.",
+        "l04-i29": "Source evidence: The listening notes should explain when to enter if arriving late.",
+        "l04-i30": "Source evidence: The chapbook printer says the pale gray text disappears on uncoated stock."
+      }
+    },
+    {
+      "id": "l05",
+      "memberships": {
+        "l05-i01": [
+          "Drift volunteer shift swap board"
+        ],
+        "l05-i02": [
+          "Drift volunteer shift swap board"
+        ],
+        "l05-i03": [
+          "isolated note 1"
+        ],
+        "l05-i04": [
+          "Pebble reading queue browser extension"
+        ],
+        "l05-i05": [
+          "Pebble pantry expiry prototype"
+        ],
+        "l05-i06": [
+          "Drift volunteer shift swap board"
+        ],
+        "l05-i07": [
+          "Tern rehearsal-room booking demo",
+          "Drift volunteer shift swap board"
+        ],
+        "l05-i08": [
+          "Drift volunteer shift swap board"
+        ],
+        "l05-i09": [
+          "Moss balcony watering reminder"
+        ],
+        "l05-i10": [
+          "Kite invoice export utility"
+        ],
+        "l05-i11": [
+          "Kite invoice export utility"
+        ],
+        "l05-i12": [
+          "Moss balcony watering reminder"
+        ],
+        "l05-i13": [
+          "Tern rehearsal-room booking demo"
+        ],
+        "l05-i14": [
+          "Tern rehearsal-room booking demo"
+        ],
+        "l05-i15": [
+          "Pebble reading queue browser extension"
+        ],
+        "l05-i16": [
+          "Pebble pantry expiry prototype"
+        ],
+        "l05-i17": [
+          "Moss balcony watering reminder"
+        ],
+        "l05-i18": [
+          "Moss balcony watering reminder"
+        ],
+        "l05-i19": [
+          "isolated note 2"
+        ],
+        "l05-i20": [
+          "Drift volunteer shift swap board"
+        ],
+        "l05-i21": [
+          "Pebble reading queue browser extension"
+        ],
+        "l05-i22": [
+          "Kite invoice export utility"
+        ],
+        "l05-i23": [
+          "Tern rehearsal-room booking demo"
+        ],
+        "l05-i24": [
+          "Pebble pantry expiry prototype",
+          "Moss balcony watering reminder"
+        ],
+        "l05-i25": [
+          "isolated note 3"
+        ],
+        "l05-i26": [
+          "Pebble reading queue browser extension",
+          "Kite invoice export utility"
+        ],
+        "l05-i27": [
+          "Drift volunteer shift swap board"
+        ],
+        "l05-i28": [
+          "Drift volunteer shift swap board"
+        ],
+        "l05-i29": [
+          "Kite invoice export utility"
+        ],
+        "l05-i30": [
+          "Kite invoice export utility"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "Pebble pantry expiry prototype",
+          "second": "Pebble reading queue browser extension",
+          "related": false,
+          "evidence": [
+            "l05-i05",
+            "l05-i04"
+          ]
+        },
+        {
+          "first": "Pebble pantry expiry prototype",
+          "second": "Tern rehearsal-room booking demo",
+          "related": false,
+          "evidence": [
+            "l05-i05",
+            "l05-i13"
+          ]
+        },
+        {
+          "first": "Pebble pantry expiry prototype",
+          "second": "Moss balcony watering reminder",
+          "related": true,
+          "evidence": [
+            "l05-i24"
+          ]
+        },
+        {
+          "first": "Pebble pantry expiry prototype",
+          "second": "Kite invoice export utility",
+          "related": false,
+          "evidence": [
+            "l05-i05",
+            "l05-i10"
+          ]
+        },
+        {
+          "first": "Pebble pantry expiry prototype",
+          "second": "Drift volunteer shift swap board",
+          "related": false,
+          "evidence": [
+            "l05-i05",
+            "l05-i01"
+          ]
+        },
+        {
+          "first": "Pebble pantry expiry prototype",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l05-i05",
+            "l05-i03"
+          ]
+        },
+        {
+          "first": "Pebble pantry expiry prototype",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l05-i05",
+            "l05-i19"
+          ]
+        },
+        {
+          "first": "Pebble pantry expiry prototype",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l05-i05",
+            "l05-i25"
+          ]
+        },
+        {
+          "first": "Pebble reading queue browser extension",
+          "second": "Tern rehearsal-room booking demo",
+          "related": false,
+          "evidence": [
+            "l05-i04",
+            "l05-i13"
+          ]
+        },
+        {
+          "first": "Pebble reading queue browser extension",
+          "second": "Moss balcony watering reminder",
+          "related": false,
+          "evidence": [
+            "l05-i04",
+            "l05-i09"
+          ]
+        },
+        {
+          "first": "Pebble reading queue browser extension",
+          "second": "Kite invoice export utility",
+          "related": true,
+          "evidence": [
+            "l05-i26"
+          ]
+        },
+        {
+          "first": "Pebble reading queue browser extension",
+          "second": "Drift volunteer shift swap board",
+          "related": false,
+          "evidence": [
+            "l05-i04",
+            "l05-i01"
+          ]
+        },
+        {
+          "first": "Pebble reading queue browser extension",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l05-i04",
+            "l05-i03"
+          ]
+        },
+        {
+          "first": "Pebble reading queue browser extension",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l05-i04",
+            "l05-i19"
+          ]
+        },
+        {
+          "first": "Pebble reading queue browser extension",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l05-i04",
+            "l05-i25"
+          ]
+        },
+        {
+          "first": "Tern rehearsal-room booking demo",
+          "second": "Moss balcony watering reminder",
+          "related": false,
+          "evidence": [
+            "l05-i13",
+            "l05-i09"
+          ]
+        },
+        {
+          "first": "Tern rehearsal-room booking demo",
+          "second": "Kite invoice export utility",
+          "related": false,
+          "evidence": [
+            "l05-i13",
+            "l05-i10"
+          ]
+        },
+        {
+          "first": "Tern rehearsal-room booking demo",
+          "second": "Drift volunteer shift swap board",
+          "related": true,
+          "evidence": [
+            "l05-i07"
+          ]
+        },
+        {
+          "first": "Tern rehearsal-room booking demo",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l05-i13",
+            "l05-i03"
+          ]
+        },
+        {
+          "first": "Tern rehearsal-room booking demo",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l05-i13",
+            "l05-i19"
+          ]
+        },
+        {
+          "first": "Tern rehearsal-room booking demo",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l05-i13",
+            "l05-i25"
+          ]
+        },
+        {
+          "first": "Moss balcony watering reminder",
+          "second": "Kite invoice export utility",
+          "related": false,
+          "evidence": [
+            "l05-i09",
+            "l05-i10"
+          ]
+        },
+        {
+          "first": "Moss balcony watering reminder",
+          "second": "Drift volunteer shift swap board",
+          "related": false,
+          "evidence": [
+            "l05-i09",
+            "l05-i01"
+          ]
+        },
+        {
+          "first": "Moss balcony watering reminder",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l05-i09",
+            "l05-i03"
+          ]
+        },
+        {
+          "first": "Moss balcony watering reminder",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l05-i09",
+            "l05-i19"
+          ]
+        },
+        {
+          "first": "Moss balcony watering reminder",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l05-i09",
+            "l05-i25"
+          ]
+        },
+        {
+          "first": "Kite invoice export utility",
+          "second": "Drift volunteer shift swap board",
+          "related": false,
+          "evidence": [
+            "l05-i10",
+            "l05-i01"
+          ]
+        },
+        {
+          "first": "Kite invoice export utility",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l05-i10",
+            "l05-i03"
+          ]
+        },
+        {
+          "first": "Kite invoice export utility",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l05-i10",
+            "l05-i19"
+          ]
+        },
+        {
+          "first": "Kite invoice export utility",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l05-i10",
+            "l05-i25"
+          ]
+        },
+        {
+          "first": "Drift volunteer shift swap board",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l05-i01",
+            "l05-i03"
+          ]
+        },
+        {
+          "first": "Drift volunteer shift swap board",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l05-i01",
+            "l05-i19"
+          ]
+        },
+        {
+          "first": "Drift volunteer shift swap board",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l05-i01",
+            "l05-i25"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l05-i03",
+            "l05-i19"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l05-i03",
+            "l05-i25"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l05-i19",
+            "l05-i25"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l05-i01": "Source evidence: Drift trial moved from the library volunteers to the food-bank volunteers after room access fell through.",
+        "l05-i02": "Source evidence: Two testers accepted the same shift simultaneously.",
+        "l05-i03": "Source evidence: The old wooden kite in the cupboard has a split spar near the tail.",
+        "l05-i04": "Source evidence: The reading popup closes while someone renames an article.",
+        "l05-i05": "Source evidence: The kitchen test found that people search for 'opened' before looking for expiry.",
+        "l05-i06": "Source evidence: Our organizer meeting rejected a public leaderboard for accepted swaps.",
+        "l05-i07": "Source evidence: Bring the Tern cancellation problem and Drift simultaneous-acceptance failure to the concurrency review.",
+        "l05-i08": "Source evidence: The swap-board walkthrough should include a volunteer who cannot take evening shifts.",
+        "l05-i09": "Source evidence: Moss reminder trial groups plants by balcony exposure, not by species name.",
+        "l05-i10": "Source evidence: Cost note for Kite: the paid export widget adds nothing we need.",
+        "l05-i11": "Source evidence: Regression example from the invoice demo: a customer label beginning with an equals sign must export as literal text.",
+        "l05-i12": "Source evidence: Notification wording review: say 'check the soil' rather than 'water now.' Our trial has no moisture sensor, so the app should not act as if it knows whether every pot needs water.",
+        "l05-i13": "Source evidence: Tern booking demo is for a single rehearsal room with a fixed cleanup gap.",
+        "l05-i14": "Source evidence: A second organizer wants recurring reservations in Tern.",
+        "l05-i15": "Source evidence: Extension review: importing a saved reading list twice creates duplicate entries.",
+        "l05-i16": "Source evidence: Pebble pantry prototype should let someone record an opened jar without knowing the purchase date.",
+        "l05-i17": "Source evidence: Moss test schedule changes from daily to alternate mornings next week.",
+        "l05-i18": "Source evidence: The watering prototype sent its morning reminder after I had already marked the pots checked.",
+        "l05-i19": "Source evidence: A documentary showed how salt crystals grow around a dangling string.",
+        "l05-i20": "Source evidence: The closing trial report should distinguish completed swaps from offers that expired.",
+        "l05-i21": "Source evidence: Pebble reading queue extension saves article titles locally and needs a keyboard shortcut for the next unread item.",
+        "l05-i22": "Source evidence: Kite invoice export needs a plain CSV for the cooperative's treasurer.",
+        "l05-i23": "Source evidence: The booking workshop found that a canceled rehearsal still blocks its cleanup gap.",
+        "l05-i24": "Source evidence: Compare the pantry's unknown dates with Moss's unsensed soil state before writing confidence copy.",
+        "l05-i25": "Source evidence: The new corner bakery sells a dark rye loaf that stays good for several days.",
+        "l05-i26": "Source evidence: Reuse the reading extension's import preview layout for Kite's invoice export preview.",
+        "l05-i27": "Source evidence: I pasted the simultaneous-acceptance bug into my phone notes as well as the board: two success messages, one available shift.",
+        "l05-i28": "Source evidence: Drift shift board allows volunteers to offer a shift and another person to accept it.",
+        "l05-i29": "Source evidence: The export sample treated an empty amount as zero.",
+        "l05-i30": "Source evidence: Treasurer feedback: sort the invoice preview by issue date, with undated drafts at the bottom."
+      }
+    },
+    {
+      "id": "l06",
+      "memberships": {
+        "l06-i01": [
+          "Copper automaton loan preparation"
+        ],
+        "l06-i02": [
+          "Dock ledger digitization batch"
+        ],
+        "l06-i03": [
+          "Blue vessel salt-monitoring campaign"
+        ],
+        "l06-i04": [
+          "isolated note 1"
+        ],
+        "l06-i05": [
+          "Aster gallery lacquer screen treatment"
+        ],
+        "l06-i06": [
+          "Amber textile light-exposure rotation"
+        ],
+        "l06-i07": [
+          "Blue vessel salt-monitoring campaign"
+        ],
+        "l06-i08": [
+          "Aster study room paper screen mount"
+        ],
+        "l06-i09": [
+          "Copper automaton loan preparation"
+        ],
+        "l06-i10": [
+          "Copper automaton loan preparation"
+        ],
+        "l06-i11": [
+          "Copper automaton loan preparation"
+        ],
+        "l06-i12": [
+          "Aster study room paper screen mount"
+        ],
+        "l06-i13": [
+          "Aster gallery lacquer screen treatment",
+          "Aster study room paper screen mount"
+        ],
+        "l06-i14": [
+          "Copper automaton loan preparation"
+        ],
+        "l06-i15": [
+          "Aster gallery lacquer screen treatment"
+        ],
+        "l06-i16": [
+          "Amber textile light-exposure rotation"
+        ],
+        "l06-i17": [
+          "Dock ledger digitization batch"
+        ],
+        "l06-i18": [
+          "Copper automaton loan preparation"
+        ],
+        "l06-i19": [
+          "Blue vessel salt-monitoring campaign",
+          "Amber textile light-exposure rotation"
+        ],
+        "l06-i20": [
+          "isolated note 2"
+        ],
+        "l06-i21": [
+          "Dock ledger digitization batch"
+        ],
+        "l06-i22": [
+          "Aster study room paper screen mount"
+        ],
+        "l06-i23": [
+          "Amber textile light-exposure rotation"
+        ],
+        "l06-i24": [
+          "Copper automaton loan preparation"
+        ],
+        "l06-i25": [
+          "Dock ledger digitization batch"
+        ],
+        "l06-i26": [
+          "isolated note 3"
+        ],
+        "l06-i27": [
+          "Blue vessel salt-monitoring campaign"
+        ],
+        "l06-i28": [
+          "Amber textile light-exposure rotation"
+        ],
+        "l06-i29": [
+          "Dock ledger digitization batch",
+          "Copper automaton loan preparation"
+        ],
+        "l06-i30": [
+          "Amber textile light-exposure rotation"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "Aster gallery lacquer screen treatment",
+          "second": "Aster study room paper screen mount",
+          "related": true,
+          "evidence": [
+            "l06-i13"
+          ]
+        },
+        {
+          "first": "Aster gallery lacquer screen treatment",
+          "second": "Blue vessel salt-monitoring campaign",
+          "related": false,
+          "evidence": [
+            "l06-i05",
+            "l06-i03"
+          ]
+        },
+        {
+          "first": "Aster gallery lacquer screen treatment",
+          "second": "Dock ledger digitization batch",
+          "related": false,
+          "evidence": [
+            "l06-i05",
+            "l06-i02"
+          ]
+        },
+        {
+          "first": "Aster gallery lacquer screen treatment",
+          "second": "Amber textile light-exposure rotation",
+          "related": false,
+          "evidence": [
+            "l06-i05",
+            "l06-i06"
+          ]
+        },
+        {
+          "first": "Aster gallery lacquer screen treatment",
+          "second": "Copper automaton loan preparation",
+          "related": false,
+          "evidence": [
+            "l06-i05",
+            "l06-i01"
+          ]
+        },
+        {
+          "first": "Aster gallery lacquer screen treatment",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l06-i05",
+            "l06-i04"
+          ]
+        },
+        {
+          "first": "Aster gallery lacquer screen treatment",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l06-i05",
+            "l06-i20"
+          ]
+        },
+        {
+          "first": "Aster gallery lacquer screen treatment",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l06-i05",
+            "l06-i26"
+          ]
+        },
+        {
+          "first": "Aster study room paper screen mount",
+          "second": "Blue vessel salt-monitoring campaign",
+          "related": false,
+          "evidence": [
+            "l06-i08",
+            "l06-i03"
+          ]
+        },
+        {
+          "first": "Aster study room paper screen mount",
+          "second": "Dock ledger digitization batch",
+          "related": false,
+          "evidence": [
+            "l06-i08",
+            "l06-i02"
+          ]
+        },
+        {
+          "first": "Aster study room paper screen mount",
+          "second": "Amber textile light-exposure rotation",
+          "related": false,
+          "evidence": [
+            "l06-i08",
+            "l06-i06"
+          ]
+        },
+        {
+          "first": "Aster study room paper screen mount",
+          "second": "Copper automaton loan preparation",
+          "related": false,
+          "evidence": [
+            "l06-i08",
+            "l06-i01"
+          ]
+        },
+        {
+          "first": "Aster study room paper screen mount",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l06-i08",
+            "l06-i04"
+          ]
+        },
+        {
+          "first": "Aster study room paper screen mount",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l06-i08",
+            "l06-i20"
+          ]
+        },
+        {
+          "first": "Aster study room paper screen mount",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l06-i08",
+            "l06-i26"
+          ]
+        },
+        {
+          "first": "Blue vessel salt-monitoring campaign",
+          "second": "Dock ledger digitization batch",
+          "related": false,
+          "evidence": [
+            "l06-i03",
+            "l06-i02"
+          ]
+        },
+        {
+          "first": "Blue vessel salt-monitoring campaign",
+          "second": "Amber textile light-exposure rotation",
+          "related": true,
+          "evidence": [
+            "l06-i19"
+          ]
+        },
+        {
+          "first": "Blue vessel salt-monitoring campaign",
+          "second": "Copper automaton loan preparation",
+          "related": false,
+          "evidence": [
+            "l06-i03",
+            "l06-i01"
+          ]
+        },
+        {
+          "first": "Blue vessel salt-monitoring campaign",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l06-i03",
+            "l06-i04"
+          ]
+        },
+        {
+          "first": "Blue vessel salt-monitoring campaign",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l06-i03",
+            "l06-i20"
+          ]
+        },
+        {
+          "first": "Blue vessel salt-monitoring campaign",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l06-i03",
+            "l06-i26"
+          ]
+        },
+        {
+          "first": "Dock ledger digitization batch",
+          "second": "Amber textile light-exposure rotation",
+          "related": false,
+          "evidence": [
+            "l06-i02",
+            "l06-i06"
+          ]
+        },
+        {
+          "first": "Dock ledger digitization batch",
+          "second": "Copper automaton loan preparation",
+          "related": true,
+          "evidence": [
+            "l06-i29"
+          ]
+        },
+        {
+          "first": "Dock ledger digitization batch",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l06-i02",
+            "l06-i04"
+          ]
+        },
+        {
+          "first": "Dock ledger digitization batch",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l06-i02",
+            "l06-i20"
+          ]
+        },
+        {
+          "first": "Dock ledger digitization batch",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l06-i02",
+            "l06-i26"
+          ]
+        },
+        {
+          "first": "Amber textile light-exposure rotation",
+          "second": "Copper automaton loan preparation",
+          "related": false,
+          "evidence": [
+            "l06-i06",
+            "l06-i01"
+          ]
+        },
+        {
+          "first": "Amber textile light-exposure rotation",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l06-i06",
+            "l06-i04"
+          ]
+        },
+        {
+          "first": "Amber textile light-exposure rotation",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l06-i06",
+            "l06-i20"
+          ]
+        },
+        {
+          "first": "Amber textile light-exposure rotation",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l06-i06",
+            "l06-i26"
+          ]
+        },
+        {
+          "first": "Copper automaton loan preparation",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l06-i01",
+            "l06-i04"
+          ]
+        },
+        {
+          "first": "Copper automaton loan preparation",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l06-i01",
+            "l06-i20"
+          ]
+        },
+        {
+          "first": "Copper automaton loan preparation",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l06-i01",
+            "l06-i26"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l06-i04",
+            "l06-i20"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l06-i04",
+            "l06-i26"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l06-i20",
+            "l06-i26"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l06-i01": "Source evidence: Packing meeting: the automaton's case needs an indicator showing if it tipped during transit.",
+        "l06-i02": "Source evidence: Dock ledger digitization covers the six volumes with brittle blue covers.",
+        "l06-i03": "Source evidence: The newest vessel image looks cleaner because someone rotated the pot.",
+        "l06-i04": "Source evidence: The word 'conservation' on the cereal box refers to energy savings in manufacturing.",
+        "l06-i05": "Source evidence: The study fragment darkened after the second consolidant application.",
+        "l06-i06": "Source evidence: The case meter was facing the ceiling during Monday's reading.",
+        "l06-i07": "Source evidence: Conservation meeting moved the blue vessel checks from weekly to twice weekly during the humidity change.",
+        "l06-i08": "Source evidence: Study room budget review: reuse the existing storage box if the new paper-screen mount fits.",
+        "l06-i09": "Source evidence: Copy from the loan checklist: base restrained, moving bird untouched, tip indicator visible.",
+        "l06-i10": "Source evidence: Copper automaton loan requires a transport support that restrains the base without touching the moving bird.",
+        "l06-i11": "Source evidence: Condition photography found a scratch beside the base screw that appears in an older image too.",
+        "l06-i12": "Source evidence: The teaching screen's replacement hinges should allow it to lie partly open without tension.",
+        "l06-i13": "Source evidence: Ask the mount maker to inspect the lacquer screen's edge clearance and the teaching paper screen's hinge mockup on the same visit.",
+        "l06-i14": "Source evidence: The lender approved one supervised automaton demonstration at installation, replacing the static-only plan.",
+        "l06-i15": "Source evidence: Aster gallery's lacquer screen has lifting edges around the lower gold cloud.",
+        "l06-i16": "Source evidence: Curatorial review favors showing the repaired hem on the first panel.",
+        "l06-i17": "Source evidence: The second ledger has a page numbered 47 twice.",
+        "l06-i18": "Source evidence: The receiving museum wants a daily demonstration, but our loan proposal currently permits static display only.",
+        "l06-i19": "Source evidence: The blue vessel's deposit checks and Amber textile readings can share a humidity logger during the case trial.",
+        "l06-i20": "Source evidence: Home reminder: the curtain ring nearest the window catches on a small burr in the rail.",
+        "l06-i21": "Source evidence: Scanning estimate for the dock books must include the foldout handling time.",
+        "l06-i22": "Source evidence: Aster study room's paper screen needs a new mount for teaching sessions.",
+        "l06-i23": "Source evidence: Amber textile rotation will alternate two embroidered panels in the small display case.",
+        "l06-i24": "Source evidence: The loan freight quote excludes the courier's overnight stay.",
+        "l06-i25": "Source evidence: Quality check found a thumb covering the last word on two ledger images.",
+        "l06-i26": "Source evidence: A friend described a dream about a staircase made of folded newspapers.",
+        "l06-i27": "Source evidence: Blue vessel monitoring begins with weekly photographs of the white deposits near its foot.",
+        "l06-i28": "Source evidence: Our textile rotation handover was listed for the ninth, but gallery closure now starts on the eleventh.",
+        "l06-i29": "Source evidence: The dock ledger cradle supplier also quoted for the copper automaton's transport support.",
+        "l06-i30": "Source evidence: Visitors asked why the second embroidered panel disappeared after a month."
+      }
+    },
+    {
+      "id": "l07",
+      "memberships": {
+        "l07-i01": [
+          "isolated note 2"
+        ],
+        "l07-i02": [
+          "Stone tank irrigation emitter audit"
+        ],
+        "l07-i03": [
+          "East plot barley sowing-depth trial"
+        ],
+        "l07-i04": [
+          "Glasshouse tomato shade-cloth test",
+          "Blue shed oyster mushroom substrate test"
+        ],
+        "l07-i05": [
+          "Glasshouse tomato shade-cloth test"
+        ],
+        "l07-i06": [
+          "West plot barley cover-crop trial"
+        ],
+        "l07-i07": [
+          "Blue shed oyster mushroom substrate test"
+        ],
+        "l07-i08": [
+          "East plot barley sowing-depth trial"
+        ],
+        "l07-i09": [
+          "West plot barley cover-crop trial"
+        ],
+        "l07-i10": [
+          "Stone tank irrigation emitter audit"
+        ],
+        "l07-i11": [
+          "Stone tank irrigation emitter audit"
+        ],
+        "l07-i12": [
+          "Blue shed oyster mushroom substrate test"
+        ],
+        "l07-i13": [
+          "Glasshouse tomato shade-cloth test"
+        ],
+        "l07-i14": [
+          "North orchard pear pollination survey"
+        ],
+        "l07-i15": [
+          "isolated note 3"
+        ],
+        "l07-i16": [
+          "Stone tank irrigation emitter audit"
+        ],
+        "l07-i17": [
+          "Glasshouse tomato shade-cloth test"
+        ],
+        "l07-i18": [
+          "Blue shed oyster mushroom substrate test"
+        ],
+        "l07-i19": [
+          "East plot barley sowing-depth trial",
+          "West plot barley cover-crop trial"
+        ],
+        "l07-i20": [
+          "North orchard pear pollination survey"
+        ],
+        "l07-i21": [
+          "Stone tank irrigation emitter audit"
+        ],
+        "l07-i22": [
+          "North orchard pear pollination survey"
+        ],
+        "l07-i23": [
+          "West plot barley cover-crop trial"
+        ],
+        "l07-i24": [
+          "Blue shed oyster mushroom substrate test"
+        ],
+        "l07-i25": [
+          "North orchard pear pollination survey",
+          "Stone tank irrigation emitter audit"
+        ],
+        "l07-i26": [
+          "isolated note 1"
+        ],
+        "l07-i27": [
+          "Stone tank irrigation emitter audit"
+        ],
+        "l07-i28": [
+          "North orchard pear pollination survey"
+        ],
+        "l07-i29": [
+          "North orchard pear pollination survey"
+        ],
+        "l07-i30": [
+          "Stone tank irrigation emitter audit"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "East plot barley sowing-depth trial",
+          "second": "West plot barley cover-crop trial",
+          "related": true,
+          "evidence": [
+            "l07-i19"
+          ]
+        },
+        {
+          "first": "East plot barley sowing-depth trial",
+          "second": "Glasshouse tomato shade-cloth test",
+          "related": false,
+          "evidence": [
+            "l07-i03",
+            "l07-i05"
+          ]
+        },
+        {
+          "first": "East plot barley sowing-depth trial",
+          "second": "Blue shed oyster mushroom substrate test",
+          "related": false,
+          "evidence": [
+            "l07-i03",
+            "l07-i07"
+          ]
+        },
+        {
+          "first": "East plot barley sowing-depth trial",
+          "second": "North orchard pear pollination survey",
+          "related": false,
+          "evidence": [
+            "l07-i03",
+            "l07-i14"
+          ]
+        },
+        {
+          "first": "East plot barley sowing-depth trial",
+          "second": "Stone tank irrigation emitter audit",
+          "related": false,
+          "evidence": [
+            "l07-i03",
+            "l07-i02"
+          ]
+        },
+        {
+          "first": "East plot barley sowing-depth trial",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l07-i03",
+            "l07-i26"
+          ]
+        },
+        {
+          "first": "East plot barley sowing-depth trial",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l07-i03",
+            "l07-i01"
+          ]
+        },
+        {
+          "first": "East plot barley sowing-depth trial",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l07-i03",
+            "l07-i15"
+          ]
+        },
+        {
+          "first": "West plot barley cover-crop trial",
+          "second": "Glasshouse tomato shade-cloth test",
+          "related": false,
+          "evidence": [
+            "l07-i06",
+            "l07-i05"
+          ]
+        },
+        {
+          "first": "West plot barley cover-crop trial",
+          "second": "Blue shed oyster mushroom substrate test",
+          "related": false,
+          "evidence": [
+            "l07-i06",
+            "l07-i07"
+          ]
+        },
+        {
+          "first": "West plot barley cover-crop trial",
+          "second": "North orchard pear pollination survey",
+          "related": false,
+          "evidence": [
+            "l07-i06",
+            "l07-i14"
+          ]
+        },
+        {
+          "first": "West plot barley cover-crop trial",
+          "second": "Stone tank irrigation emitter audit",
+          "related": false,
+          "evidence": [
+            "l07-i06",
+            "l07-i02"
+          ]
+        },
+        {
+          "first": "West plot barley cover-crop trial",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l07-i06",
+            "l07-i26"
+          ]
+        },
+        {
+          "first": "West plot barley cover-crop trial",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l07-i06",
+            "l07-i01"
+          ]
+        },
+        {
+          "first": "West plot barley cover-crop trial",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l07-i06",
+            "l07-i15"
+          ]
+        },
+        {
+          "first": "Glasshouse tomato shade-cloth test",
+          "second": "Blue shed oyster mushroom substrate test",
+          "related": true,
+          "evidence": [
+            "l07-i04"
+          ]
+        },
+        {
+          "first": "Glasshouse tomato shade-cloth test",
+          "second": "North orchard pear pollination survey",
+          "related": false,
+          "evidence": [
+            "l07-i05",
+            "l07-i14"
+          ]
+        },
+        {
+          "first": "Glasshouse tomato shade-cloth test",
+          "second": "Stone tank irrigation emitter audit",
+          "related": false,
+          "evidence": [
+            "l07-i05",
+            "l07-i02"
+          ]
+        },
+        {
+          "first": "Glasshouse tomato shade-cloth test",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l07-i05",
+            "l07-i26"
+          ]
+        },
+        {
+          "first": "Glasshouse tomato shade-cloth test",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l07-i05",
+            "l07-i01"
+          ]
+        },
+        {
+          "first": "Glasshouse tomato shade-cloth test",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l07-i05",
+            "l07-i15"
+          ]
+        },
+        {
+          "first": "Blue shed oyster mushroom substrate test",
+          "second": "North orchard pear pollination survey",
+          "related": false,
+          "evidence": [
+            "l07-i07",
+            "l07-i14"
+          ]
+        },
+        {
+          "first": "Blue shed oyster mushroom substrate test",
+          "second": "Stone tank irrigation emitter audit",
+          "related": false,
+          "evidence": [
+            "l07-i07",
+            "l07-i02"
+          ]
+        },
+        {
+          "first": "Blue shed oyster mushroom substrate test",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l07-i07",
+            "l07-i26"
+          ]
+        },
+        {
+          "first": "Blue shed oyster mushroom substrate test",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l07-i07",
+            "l07-i01"
+          ]
+        },
+        {
+          "first": "Blue shed oyster mushroom substrate test",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l07-i07",
+            "l07-i15"
+          ]
+        },
+        {
+          "first": "North orchard pear pollination survey",
+          "second": "Stone tank irrigation emitter audit",
+          "related": true,
+          "evidence": [
+            "l07-i25"
+          ]
+        },
+        {
+          "first": "North orchard pear pollination survey",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l07-i14",
+            "l07-i26"
+          ]
+        },
+        {
+          "first": "North orchard pear pollination survey",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l07-i14",
+            "l07-i01"
+          ]
+        },
+        {
+          "first": "North orchard pear pollination survey",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l07-i14",
+            "l07-i15"
+          ]
+        },
+        {
+          "first": "Stone tank irrigation emitter audit",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l07-i02",
+            "l07-i26"
+          ]
+        },
+        {
+          "first": "Stone tank irrigation emitter audit",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l07-i02",
+            "l07-i01"
+          ]
+        },
+        {
+          "first": "Stone tank irrigation emitter audit",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l07-i02",
+            "l07-i15"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l07-i26",
+            "l07-i01"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l07-i26",
+            "l07-i15"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l07-i01",
+            "l07-i15"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l07-i01": "Source evidence: I tried folding a fitted sheet by following the elastic corners inward.",
+        "l07-i02": "Source evidence: The far line gave a small catch because its valve was half closed.",
+        "l07-i03": "Source evidence: A marker fell over between the two eastern strips.",
+        "l07-i04": "Source evidence: Book the packing-room scale for Thursday's tomato harvest and Friday's mushroom flush.",
+        "l07-i05": "Source evidence: Tomato shade test uses two cloth densities over the glasshouse benches.",
+        "l07-i06": "Source evidence: Seed order for the cover-crop follow-up needs equal barley quantities for both previous covers.",
+        "l07-i07": "Source evidence: Harvest notes from the blue shed: the wood-chip bags started later but produced a second flush sooner.",
+        "l07-i08": "Source evidence: East plot barley trial compares shallow and deep sowing in alternating strips.",
+        "l07-i09": "Source evidence: The west trial's clover strips stayed wetter after rain than the rye strips.",
+        "l07-i10": "Source evidence: Audit purchase list: sixty identical cups and a measuring jug with readable marks.",
+        "l07-i11": "Source evidence: Yesterday's note blamed clogged emitters, but cleaning them did not improve the end cups.",
+        "l07-i12": "Source evidence: One straw bag was tied much tighter than the others and stayed visibly wet.",
+        "l07-i13": "Source evidence: Shade-cloth review moved harvest weighing to Thursdays.",
+        "l07-i14": "Source evidence: Field meeting decided to add a sheltered row to the blossom survey.",
+        "l07-i15": "Source evidence: A poem compared patience to a seed beneath snow.",
+        "l07-i16": "Source evidence: Closing irrigation report should distinguish the corrected half-open valve from the unresolved uphill pressure drop.",
+        "l07-i17": "Source evidence: The sensor beneath the heavier cloth read high even in the calibration tray.",
+        "l07-i18": "Source evidence: Blue shed mushroom test compares straw and wood-chip substrate in identical hanging bags.",
+        "l07-i19": "Source evidence: The east depth trial and west cover-crop trial need barley emergence counts on the same morning.",
+        "l07-i20": "Source evidence: Wind cancelled the noon pollinator count, while the morning count went ahead.",
+        "l07-i21": "Source evidence: Duplicate field reminder: same run interval, pressure first, three positions per drip line.",
+        "l07-i22": "Source evidence: North orchard pear survey counts visits to tagged blossom clusters during three fixed observation windows.",
+        "l07-i23": "Source evidence: West plot barley follows two different winter covers, with the same sowing depth throughout.",
+        "l07-i24": "Source evidence: The oyster mushroom allowance covers twenty bags and a replacement shelf.",
+        "l07-i25": "Source evidence: Avoid running the stone-tank drip audit during the pear blossom observation windows.",
+        "l07-i26": "Source evidence: The old radio's tuning knob slips unless I turn it slowly clockwise.",
+        "l07-i27": "Source evidence: Stone tank emitter audit measures catch volume at the start, middle, and end of each drip line.",
+        "l07-i28": "Source evidence: The pear observation cards need larger spaces for time and cloud cover.",
+        "l07-i29": "Source evidence: Flower tags faded after the shower.",
+        "l07-i30": "Source evidence: The irrigation contractor wants our line diagram before visiting."
+      }
+    },
+    {
+      "id": "l08",
+      "memberships": {
+        "l08-i01": [
+          "Basin C sediment survey",
+          "East channel fog-signal trial"
+        ],
+        "l08-i02": [
+          "East channel fog-signal trial"
+        ],
+        "l08-i03": [
+          "Harbor seal ferry boarding-ramp refit"
+        ],
+        "l08-i04": [
+          "East channel fog-signal trial"
+        ],
+        "l08-i05": [
+          "Quay 4 spill-response drill"
+        ],
+        "l08-i06": [
+          "North beacon battery replacement"
+        ],
+        "l08-i07": [
+          "isolated note 1"
+        ],
+        "l08-i08": [
+          "East channel fog-signal trial"
+        ],
+        "l08-i09": [
+          "Harbor seal ferry boarding-ramp refit"
+        ],
+        "l08-i10": [
+          "Basin C sediment survey"
+        ],
+        "l08-i11": [
+          "East channel fog-signal trial"
+        ],
+        "l08-i12": [
+          "North beacon battery replacement"
+        ],
+        "l08-i13": [
+          "East channel fog-signal trial"
+        ],
+        "l08-i14": [
+          "East channel fog-signal trial"
+        ],
+        "l08-i15": [
+          "Quay 4 spill-response drill"
+        ],
+        "l08-i16": [
+          "North beacon battery replacement",
+          "South beacon lens-cleaning visit"
+        ],
+        "l08-i17": [
+          "East channel fog-signal trial"
+        ],
+        "l08-i18": [
+          "South beacon lens-cleaning visit"
+        ],
+        "l08-i19": [
+          "Quay 4 spill-response drill"
+        ],
+        "l08-i20": [
+          "South beacon lens-cleaning visit"
+        ],
+        "l08-i21": [
+          "Harbor seal ferry boarding-ramp refit"
+        ],
+        "l08-i22": [
+          "South beacon lens-cleaning visit"
+        ],
+        "l08-i23": [
+          "Basin C sediment survey"
+        ],
+        "l08-i24": [
+          "Harbor seal ferry boarding-ramp refit",
+          "Quay 4 spill-response drill"
+        ],
+        "l08-i25": [
+          "Quay 4 spill-response drill"
+        ],
+        "l08-i26": [
+          "Basin C sediment survey"
+        ],
+        "l08-i27": [
+          "Quay 4 spill-response drill"
+        ],
+        "l08-i28": [
+          "isolated note 3"
+        ],
+        "l08-i29": [
+          "isolated note 2"
+        ],
+        "l08-i30": [
+          "Harbor seal ferry boarding-ramp refit"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "North beacon battery replacement",
+          "second": "South beacon lens-cleaning visit",
+          "related": true,
+          "evidence": [
+            "l08-i16"
+          ]
+        },
+        {
+          "first": "North beacon battery replacement",
+          "second": "Basin C sediment survey",
+          "related": false,
+          "evidence": [
+            "l08-i06",
+            "l08-i10"
+          ]
+        },
+        {
+          "first": "North beacon battery replacement",
+          "second": "Harbor seal ferry boarding-ramp refit",
+          "related": false,
+          "evidence": [
+            "l08-i06",
+            "l08-i03"
+          ]
+        },
+        {
+          "first": "North beacon battery replacement",
+          "second": "Quay 4 spill-response drill",
+          "related": false,
+          "evidence": [
+            "l08-i06",
+            "l08-i05"
+          ]
+        },
+        {
+          "first": "North beacon battery replacement",
+          "second": "East channel fog-signal trial",
+          "related": false,
+          "evidence": [
+            "l08-i06",
+            "l08-i02"
+          ]
+        },
+        {
+          "first": "North beacon battery replacement",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l08-i06",
+            "l08-i07"
+          ]
+        },
+        {
+          "first": "North beacon battery replacement",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l08-i06",
+            "l08-i29"
+          ]
+        },
+        {
+          "first": "North beacon battery replacement",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l08-i06",
+            "l08-i28"
+          ]
+        },
+        {
+          "first": "South beacon lens-cleaning visit",
+          "second": "Basin C sediment survey",
+          "related": false,
+          "evidence": [
+            "l08-i18",
+            "l08-i10"
+          ]
+        },
+        {
+          "first": "South beacon lens-cleaning visit",
+          "second": "Harbor seal ferry boarding-ramp refit",
+          "related": false,
+          "evidence": [
+            "l08-i18",
+            "l08-i03"
+          ]
+        },
+        {
+          "first": "South beacon lens-cleaning visit",
+          "second": "Quay 4 spill-response drill",
+          "related": false,
+          "evidence": [
+            "l08-i18",
+            "l08-i05"
+          ]
+        },
+        {
+          "first": "South beacon lens-cleaning visit",
+          "second": "East channel fog-signal trial",
+          "related": false,
+          "evidence": [
+            "l08-i18",
+            "l08-i02"
+          ]
+        },
+        {
+          "first": "South beacon lens-cleaning visit",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l08-i18",
+            "l08-i07"
+          ]
+        },
+        {
+          "first": "South beacon lens-cleaning visit",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l08-i18",
+            "l08-i29"
+          ]
+        },
+        {
+          "first": "South beacon lens-cleaning visit",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l08-i18",
+            "l08-i28"
+          ]
+        },
+        {
+          "first": "Basin C sediment survey",
+          "second": "Harbor seal ferry boarding-ramp refit",
+          "related": false,
+          "evidence": [
+            "l08-i10",
+            "l08-i03"
+          ]
+        },
+        {
+          "first": "Basin C sediment survey",
+          "second": "Quay 4 spill-response drill",
+          "related": false,
+          "evidence": [
+            "l08-i10",
+            "l08-i05"
+          ]
+        },
+        {
+          "first": "Basin C sediment survey",
+          "second": "East channel fog-signal trial",
+          "related": true,
+          "evidence": [
+            "l08-i01"
+          ]
+        },
+        {
+          "first": "Basin C sediment survey",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l08-i10",
+            "l08-i07"
+          ]
+        },
+        {
+          "first": "Basin C sediment survey",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l08-i10",
+            "l08-i29"
+          ]
+        },
+        {
+          "first": "Basin C sediment survey",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l08-i10",
+            "l08-i28"
+          ]
+        },
+        {
+          "first": "Harbor seal ferry boarding-ramp refit",
+          "second": "Quay 4 spill-response drill",
+          "related": true,
+          "evidence": [
+            "l08-i24"
+          ]
+        },
+        {
+          "first": "Harbor seal ferry boarding-ramp refit",
+          "second": "East channel fog-signal trial",
+          "related": false,
+          "evidence": [
+            "l08-i03",
+            "l08-i02"
+          ]
+        },
+        {
+          "first": "Harbor seal ferry boarding-ramp refit",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l08-i03",
+            "l08-i07"
+          ]
+        },
+        {
+          "first": "Harbor seal ferry boarding-ramp refit",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l08-i03",
+            "l08-i29"
+          ]
+        },
+        {
+          "first": "Harbor seal ferry boarding-ramp refit",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l08-i03",
+            "l08-i28"
+          ]
+        },
+        {
+          "first": "Quay 4 spill-response drill",
+          "second": "East channel fog-signal trial",
+          "related": false,
+          "evidence": [
+            "l08-i05",
+            "l08-i02"
+          ]
+        },
+        {
+          "first": "Quay 4 spill-response drill",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l08-i05",
+            "l08-i07"
+          ]
+        },
+        {
+          "first": "Quay 4 spill-response drill",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l08-i05",
+            "l08-i29"
+          ]
+        },
+        {
+          "first": "Quay 4 spill-response drill",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l08-i05",
+            "l08-i28"
+          ]
+        },
+        {
+          "first": "East channel fog-signal trial",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l08-i02",
+            "l08-i07"
+          ]
+        },
+        {
+          "first": "East channel fog-signal trial",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l08-i02",
+            "l08-i29"
+          ]
+        },
+        {
+          "first": "East channel fog-signal trial",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l08-i02",
+            "l08-i28"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l08-i07",
+            "l08-i29"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l08-i07",
+            "l08-i28"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l08-i29",
+            "l08-i28"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l08-i01": "Source evidence: The Basin C survey crew can place the outer fog-trial observer after finishing the sounding transects.",
+        "l08-i02": "Source evidence: Transport costs for the horn trial include a boat trip to the outer listening station.",
+        "l08-i03": "Source evidence: The ramp supplier quoted the wrong bushing diameter from a sister vessel's drawing.",
+        "l08-i04": "Source evidence: The harbor meeting wants a quieter night pattern, but our current trial runs only in daylight.",
+        "l08-i05": "Source evidence: Quay 4 drill simulates a small fuel spill using floating markers, never actual fuel.",
+        "l08-i06": "Source evidence: North beacon service replaces the corroded battery tray during the low-water access window.",
+        "l08-i07": "Source evidence: The phrase 'safe harbor' in a puzzle clue meant a sheltered feeling rather than a dock.",
+        "l08-i08": "Source evidence: The bluff station reported pattern B during a silent interval.",
+        "l08-i09": "Source evidence: Harbor Seal ferry refit replaces the passenger ramp's worn hinge bushings.",
+        "l08-i10": "Source evidence: The sediment report needs a note that the western mound appears in last season's survey too.",
+        "l08-i11": "Source evidence: Copied horn-trial instruction: synchronized watches, record silence, mark false detections.",
+        "l08-i12": "Source evidence: The new tray fits, but the lid presses against the positive cable when closed.",
+        "l08-i13": "Source evidence: The revised listening plan adds a landward station after residents described echoes between warehouses.",
+        "l08-i14": "Source evidence: Wind shifted midway through the east-channel test.",
+        "l08-i15": "Source evidence: The drill radio call used the wrong berth number, sending the support cart to Quay 2.",
+        "l08-i16": "Source evidence: The workboat can carry the north beacon battery tray and south beacon lens kit on one circuit.",
+        "l08-i17": "Source evidence: East channel fog-signal trial compares two pulse patterns from the temporary horn.",
+        "l08-i18": "Source evidence: The south landing ladder inspection moved the cleaning boat departure to noon.",
+        "l08-i19": "Source evidence: Debrief wording should separate time to recognize the marker spill from time to close the boom.",
+        "l08-i20": "Source evidence: Lens inspection after cleaning still shows a faint cloudy band inside the glass.",
+        "l08-i21": "Source evidence: The final ramp test showed less lateral movement but a new squeak at full extension.",
+        "l08-i22": "Source evidence: South beacon visit is for salt film on the lens, with no battery work planned.",
+        "l08-i23": "Source evidence: Basin C sediment survey uses five repeated sounding transects near the grain berth.",
+        "l08-i24": "Source evidence: The temporary walkway for Harbor Seal's ramp refit narrows the approach used by Quay 4's spill cart.",
+        "l08-i25": "Source evidence: Equipment allowance for the spill exercise includes replacement gloves and marker floats.",
+        "l08-i26": "Source evidence: The third transect zigzagged while the survey boat avoided a tug.",
+        "l08-i27": "Source evidence: The exercise date changed from the sixth to the thirteenth because a cargo call now occupies the quay.",
+        "l08-i28": "Source evidence: The hallway clock gains about two minutes each week.",
+        "l08-i29": "Source evidence: A neighbor's sourdough recipe uses a small covered pot for the first half of baking.",
+        "l08-i30": "Source evidence: Refit meeting approved a temporary shore walkway while the ferry ramp is out."
+      }
+    },
+    {
+      "id": "l09",
+      "memberships": {
+        "l09-i01": [
+          "Harbor novice fencing footwork course"
+        ],
+        "l09-i02": [
+          "Slate pool adult swimming confidence series"
+        ],
+        "l09-i03": [
+          "Slate pool adult swimming confidence series"
+        ],
+        "l09-i04": [
+          "River junior rowing starts clinic"
+        ],
+        "l09-i05": [
+          "Cedar recreational running relay"
+        ],
+        "l09-i06": [
+          "Harbor novice fencing footwork course"
+        ],
+        "l09-i07": [
+          "Hill court beginner wheelchair-tennis taster"
+        ],
+        "l09-i08": [
+          "Slate pool adult swimming confidence series"
+        ],
+        "l09-i09": [
+          "River junior rowing starts clinic"
+        ],
+        "l09-i10": [
+          "Harbor novice fencing footwork course",
+          "Cedar recreational running relay"
+        ],
+        "l09-i11": [
+          "River junior rowing starts clinic",
+          "River masters rowing endurance block"
+        ],
+        "l09-i12": [
+          "Slate pool adult swimming confidence series"
+        ],
+        "l09-i13": [
+          "River masters rowing endurance block"
+        ],
+        "l09-i14": [
+          "Hill court beginner wheelchair-tennis taster"
+        ],
+        "l09-i15": [
+          "River masters rowing endurance block"
+        ],
+        "l09-i16": [
+          "Slate pool adult swimming confidence series"
+        ],
+        "l09-i17": [
+          "Cedar recreational running relay"
+        ],
+        "l09-i18": [
+          "Slate pool adult swimming confidence series"
+        ],
+        "l09-i19": [
+          "Hill court beginner wheelchair-tennis taster"
+        ],
+        "l09-i20": [
+          "River masters rowing endurance block"
+        ],
+        "l09-i21": [
+          "Harbor novice fencing footwork course"
+        ],
+        "l09-i22": [
+          "Hill court beginner wheelchair-tennis taster",
+          "Slate pool adult swimming confidence series"
+        ],
+        "l09-i23": [
+          "isolated note 3"
+        ],
+        "l09-i24": [
+          "Cedar recreational running relay"
+        ],
+        "l09-i25": [
+          "isolated note 2"
+        ],
+        "l09-i26": [
+          "Slate pool adult swimming confidence series"
+        ],
+        "l09-i27": [
+          "Harbor novice fencing footwork course"
+        ],
+        "l09-i28": [
+          "Cedar recreational running relay"
+        ],
+        "l09-i29": [
+          "isolated note 1"
+        ],
+        "l09-i30": [
+          "Cedar recreational running relay"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "River junior rowing starts clinic",
+          "second": "River masters rowing endurance block",
+          "related": true,
+          "evidence": [
+            "l09-i11"
+          ]
+        },
+        {
+          "first": "River junior rowing starts clinic",
+          "second": "Hill court beginner wheelchair-tennis taster",
+          "related": false,
+          "evidence": [
+            "l09-i04",
+            "l09-i07"
+          ]
+        },
+        {
+          "first": "River junior rowing starts clinic",
+          "second": "Harbor novice fencing footwork course",
+          "related": false,
+          "evidence": [
+            "l09-i04",
+            "l09-i01"
+          ]
+        },
+        {
+          "first": "River junior rowing starts clinic",
+          "second": "Cedar recreational running relay",
+          "related": false,
+          "evidence": [
+            "l09-i04",
+            "l09-i05"
+          ]
+        },
+        {
+          "first": "River junior rowing starts clinic",
+          "second": "Slate pool adult swimming confidence series",
+          "related": false,
+          "evidence": [
+            "l09-i04",
+            "l09-i02"
+          ]
+        },
+        {
+          "first": "River junior rowing starts clinic",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l09-i04",
+            "l09-i29"
+          ]
+        },
+        {
+          "first": "River junior rowing starts clinic",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l09-i04",
+            "l09-i25"
+          ]
+        },
+        {
+          "first": "River junior rowing starts clinic",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l09-i04",
+            "l09-i23"
+          ]
+        },
+        {
+          "first": "River masters rowing endurance block",
+          "second": "Hill court beginner wheelchair-tennis taster",
+          "related": false,
+          "evidence": [
+            "l09-i13",
+            "l09-i07"
+          ]
+        },
+        {
+          "first": "River masters rowing endurance block",
+          "second": "Harbor novice fencing footwork course",
+          "related": false,
+          "evidence": [
+            "l09-i13",
+            "l09-i01"
+          ]
+        },
+        {
+          "first": "River masters rowing endurance block",
+          "second": "Cedar recreational running relay",
+          "related": false,
+          "evidence": [
+            "l09-i13",
+            "l09-i05"
+          ]
+        },
+        {
+          "first": "River masters rowing endurance block",
+          "second": "Slate pool adult swimming confidence series",
+          "related": false,
+          "evidence": [
+            "l09-i13",
+            "l09-i02"
+          ]
+        },
+        {
+          "first": "River masters rowing endurance block",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l09-i13",
+            "l09-i29"
+          ]
+        },
+        {
+          "first": "River masters rowing endurance block",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l09-i13",
+            "l09-i25"
+          ]
+        },
+        {
+          "first": "River masters rowing endurance block",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l09-i13",
+            "l09-i23"
+          ]
+        },
+        {
+          "first": "Hill court beginner wheelchair-tennis taster",
+          "second": "Harbor novice fencing footwork course",
+          "related": false,
+          "evidence": [
+            "l09-i07",
+            "l09-i01"
+          ]
+        },
+        {
+          "first": "Hill court beginner wheelchair-tennis taster",
+          "second": "Cedar recreational running relay",
+          "related": false,
+          "evidence": [
+            "l09-i07",
+            "l09-i05"
+          ]
+        },
+        {
+          "first": "Hill court beginner wheelchair-tennis taster",
+          "second": "Slate pool adult swimming confidence series",
+          "related": true,
+          "evidence": [
+            "l09-i22"
+          ]
+        },
+        {
+          "first": "Hill court beginner wheelchair-tennis taster",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l09-i07",
+            "l09-i29"
+          ]
+        },
+        {
+          "first": "Hill court beginner wheelchair-tennis taster",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l09-i07",
+            "l09-i25"
+          ]
+        },
+        {
+          "first": "Hill court beginner wheelchair-tennis taster",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l09-i07",
+            "l09-i23"
+          ]
+        },
+        {
+          "first": "Harbor novice fencing footwork course",
+          "second": "Cedar recreational running relay",
+          "related": true,
+          "evidence": [
+            "l09-i10"
+          ]
+        },
+        {
+          "first": "Harbor novice fencing footwork course",
+          "second": "Slate pool adult swimming confidence series",
+          "related": false,
+          "evidence": [
+            "l09-i01",
+            "l09-i02"
+          ]
+        },
+        {
+          "first": "Harbor novice fencing footwork course",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l09-i01",
+            "l09-i29"
+          ]
+        },
+        {
+          "first": "Harbor novice fencing footwork course",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l09-i01",
+            "l09-i25"
+          ]
+        },
+        {
+          "first": "Harbor novice fencing footwork course",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l09-i01",
+            "l09-i23"
+          ]
+        },
+        {
+          "first": "Cedar recreational running relay",
+          "second": "Slate pool adult swimming confidence series",
+          "related": false,
+          "evidence": [
+            "l09-i05",
+            "l09-i02"
+          ]
+        },
+        {
+          "first": "Cedar recreational running relay",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l09-i05",
+            "l09-i29"
+          ]
+        },
+        {
+          "first": "Cedar recreational running relay",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l09-i05",
+            "l09-i25"
+          ]
+        },
+        {
+          "first": "Cedar recreational running relay",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l09-i05",
+            "l09-i23"
+          ]
+        },
+        {
+          "first": "Slate pool adult swimming confidence series",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l09-i02",
+            "l09-i29"
+          ]
+        },
+        {
+          "first": "Slate pool adult swimming confidence series",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l09-i02",
+            "l09-i25"
+          ]
+        },
+        {
+          "first": "Slate pool adult swimming confidence series",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l09-i02",
+            "l09-i23"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l09-i29",
+            "l09-i25"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l09-i29",
+            "l09-i23"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l09-i25",
+            "l09-i23"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l09-i01": "Source evidence: Venue change for the novice fencing course: the mirrored studio is unavailable next Tuesday.",
+        "l09-i02": "Source evidence: Series budget needs a second instructor for the first two weeks.",
+        "l09-i03": "Source evidence: My earlier note says every participant floated independently, but the assistant reports two still used hand support.",
+        "l09-i04": "Source evidence: The rowing coach wants a side-view video of one clean start and one rushed start.",
+        "l09-i05": "Source evidence: The loop marshal found a loose paving slab beside the second turn.",
+        "l09-i06": "Source evidence: Course reflection should mention that beginners improved balance but still crossed their feet when distracted.",
+        "l09-i07": "Source evidence: Taster budget covers two assistant coaches and loan chair transport.",
+        "l09-i08": "Source evidence: Slate Pool confidence series begins in the shallow lane with comfortable face immersion.",
+        "l09-i09": "Source evidence: River juniors' starts clinic practices the first five strokes in stable training boats.",
+        "l09-i10": "Source evidence: The fencing course can lend its floor-tape dispenser for Cedar's relay briefing room.",
+        "l09-i11": "Source evidence: The juniors' starts clinic and masters' endurance block need the same two training boats on Wednesday.",
+        "l09-i12": "Source evidence: Duplicate lesson reminder from the waterproof card: demonstrate breathing at water level, explain first, allow watching.",
+        "l09-i13": "Source evidence: River masters' endurance block uses steady twenty-minute pieces at conversational effort.",
+        "l09-i14": "Source evidence: Hill Court tennis taster needs wide turning space behind the baseline and a rack of lighter practice balls.",
+        "l09-i15": "Source evidence: Review of the adult block: attendance stayed high when the steady pieces had a short break between them.",
+        "l09-i16": "Source evidence: The second pool session went better when the instructor demonstrated breathing at water level.",
+        "l09-i17": "Source evidence: Correct the Cedar event date to the twenty-fifth; the park permit names that Saturday, while our draft invitation says the eighteenth.",
+        "l09-i18": "Source evidence: The pool manager offered the deep lane after a booking change.",
+        "l09-i19": "Source evidence: The chair storage room door is narrower than the accessible entrance shown on the map.",
+        "l09-i20": "Source evidence: The masters moved Wednesday's steady row indoors after high water closed the river.",
+        "l09-i21": "Source evidence: Harbor fencing beginners will practice advance and retreat along floor tape before using weapons.",
+        "l09-i22": "Source evidence: Compare the Hill Court taster's arrival directions with Slate Pool's first-session guide.",
+        "l09-i23": "Source evidence: My umbrella opens correctly but will not stay closed unless the strap is pulled tight.",
+        "l09-i24": "Source evidence: Rain plan for the relay is a shorter paved loop, not cancellation at the first shower.",
+        "l09-i25": "Source evidence: The tomato sauce tasted sweeter after the onions cooked slowly, even without sugar.",
+        "l09-i26": "Source evidence: At the final confidence session, several swimmers asked for a gentle continuation group.",
+        "l09-i27": "Source evidence: The first footwork class confused 'retreat twice' with a single long step.",
+        "l09-i28": "Source evidence: Cedar relay planning uses short loops so slower recreational runners spend less time isolated.",
+        "l09-i29": "Source evidence: The phrase 'running a bath' confused the language learner in the comedy scene.",
+        "l09-i30": "Source evidence: Relay meeting favored reusable number belts over pins."
+      }
+    },
+    {
+      "id": "l10",
+      "memberships": {
+        "l10-i01": [
+          "Lumen finder alignment session"
+        ],
+        "l10-i02": [
+          "Cobalt spectrograph wavelength calibration"
+        ],
+        "l10-i03": [
+          "Rill asteroid occultation attempt"
+        ],
+        "l10-i04": [
+          "Aurora all-sky camera condensation trial"
+        ],
+        "l10-i05": [
+          "Lumen telescope mirror wash",
+          "Lumen finder alignment session"
+        ],
+        "l10-i06": [
+          "Aurora all-sky camera condensation trial"
+        ],
+        "l10-i07": [
+          "Lumen telescope mirror wash"
+        ],
+        "l10-i08": [
+          "Cobalt spectrograph wavelength calibration"
+        ],
+        "l10-i09": [
+          "Aurora all-sky camera condensation trial"
+        ],
+        "l10-i10": [
+          "isolated note 3"
+        ],
+        "l10-i11": [
+          "Lumen finder alignment session"
+        ],
+        "l10-i12": [
+          "Aurora all-sky camera condensation trial"
+        ],
+        "l10-i13": [
+          "Cinder variable-star cadence study"
+        ],
+        "l10-i14": [
+          "Cobalt spectrograph wavelength calibration"
+        ],
+        "l10-i15": [
+          "Cobalt spectrograph wavelength calibration"
+        ],
+        "l10-i16": [
+          "Cobalt spectrograph wavelength calibration"
+        ],
+        "l10-i17": [
+          "Rill asteroid occultation attempt",
+          "Cobalt spectrograph wavelength calibration"
+        ],
+        "l10-i18": [
+          "Cinder variable-star cadence study"
+        ],
+        "l10-i19": [
+          "Lumen finder alignment session"
+        ],
+        "l10-i20": [
+          "Rill asteroid occultation attempt"
+        ],
+        "l10-i21": [
+          "Rill asteroid occultation attempt"
+        ],
+        "l10-i22": [
+          "Cinder variable-star cadence study"
+        ],
+        "l10-i23": [
+          "Rill asteroid occultation attempt"
+        ],
+        "l10-i24": [
+          "Aurora all-sky camera condensation trial"
+        ],
+        "l10-i25": [
+          "Cobalt spectrograph wavelength calibration"
+        ],
+        "l10-i26": [
+          "Cinder variable-star cadence study",
+          "Aurora all-sky camera condensation trial"
+        ],
+        "l10-i27": [
+          "isolated note 2"
+        ],
+        "l10-i28": [
+          "isolated note 1"
+        ],
+        "l10-i29": [
+          "Lumen telescope mirror wash"
+        ],
+        "l10-i30": [
+          "Cobalt spectrograph wavelength calibration"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "Lumen telescope mirror wash",
+          "second": "Lumen finder alignment session",
+          "related": true,
+          "evidence": [
+            "l10-i05"
+          ]
+        },
+        {
+          "first": "Lumen telescope mirror wash",
+          "second": "Cinder variable-star cadence study",
+          "related": false,
+          "evidence": [
+            "l10-i07",
+            "l10-i13"
+          ]
+        },
+        {
+          "first": "Lumen telescope mirror wash",
+          "second": "Rill asteroid occultation attempt",
+          "related": false,
+          "evidence": [
+            "l10-i07",
+            "l10-i03"
+          ]
+        },
+        {
+          "first": "Lumen telescope mirror wash",
+          "second": "Aurora all-sky camera condensation trial",
+          "related": false,
+          "evidence": [
+            "l10-i07",
+            "l10-i04"
+          ]
+        },
+        {
+          "first": "Lumen telescope mirror wash",
+          "second": "Cobalt spectrograph wavelength calibration",
+          "related": false,
+          "evidence": [
+            "l10-i07",
+            "l10-i02"
+          ]
+        },
+        {
+          "first": "Lumen telescope mirror wash",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l10-i07",
+            "l10-i28"
+          ]
+        },
+        {
+          "first": "Lumen telescope mirror wash",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l10-i07",
+            "l10-i27"
+          ]
+        },
+        {
+          "first": "Lumen telescope mirror wash",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l10-i07",
+            "l10-i10"
+          ]
+        },
+        {
+          "first": "Lumen finder alignment session",
+          "second": "Cinder variable-star cadence study",
+          "related": false,
+          "evidence": [
+            "l10-i01",
+            "l10-i13"
+          ]
+        },
+        {
+          "first": "Lumen finder alignment session",
+          "second": "Rill asteroid occultation attempt",
+          "related": false,
+          "evidence": [
+            "l10-i01",
+            "l10-i03"
+          ]
+        },
+        {
+          "first": "Lumen finder alignment session",
+          "second": "Aurora all-sky camera condensation trial",
+          "related": false,
+          "evidence": [
+            "l10-i01",
+            "l10-i04"
+          ]
+        },
+        {
+          "first": "Lumen finder alignment session",
+          "second": "Cobalt spectrograph wavelength calibration",
+          "related": false,
+          "evidence": [
+            "l10-i01",
+            "l10-i02"
+          ]
+        },
+        {
+          "first": "Lumen finder alignment session",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l10-i01",
+            "l10-i28"
+          ]
+        },
+        {
+          "first": "Lumen finder alignment session",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l10-i01",
+            "l10-i27"
+          ]
+        },
+        {
+          "first": "Lumen finder alignment session",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l10-i01",
+            "l10-i10"
+          ]
+        },
+        {
+          "first": "Cinder variable-star cadence study",
+          "second": "Rill asteroid occultation attempt",
+          "related": false,
+          "evidence": [
+            "l10-i13",
+            "l10-i03"
+          ]
+        },
+        {
+          "first": "Cinder variable-star cadence study",
+          "second": "Aurora all-sky camera condensation trial",
+          "related": true,
+          "evidence": [
+            "l10-i26"
+          ]
+        },
+        {
+          "first": "Cinder variable-star cadence study",
+          "second": "Cobalt spectrograph wavelength calibration",
+          "related": false,
+          "evidence": [
+            "l10-i13",
+            "l10-i02"
+          ]
+        },
+        {
+          "first": "Cinder variable-star cadence study",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l10-i13",
+            "l10-i28"
+          ]
+        },
+        {
+          "first": "Cinder variable-star cadence study",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l10-i13",
+            "l10-i27"
+          ]
+        },
+        {
+          "first": "Cinder variable-star cadence study",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l10-i13",
+            "l10-i10"
+          ]
+        },
+        {
+          "first": "Rill asteroid occultation attempt",
+          "second": "Aurora all-sky camera condensation trial",
+          "related": false,
+          "evidence": [
+            "l10-i03",
+            "l10-i04"
+          ]
+        },
+        {
+          "first": "Rill asteroid occultation attempt",
+          "second": "Cobalt spectrograph wavelength calibration",
+          "related": true,
+          "evidence": [
+            "l10-i17"
+          ]
+        },
+        {
+          "first": "Rill asteroid occultation attempt",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l10-i03",
+            "l10-i28"
+          ]
+        },
+        {
+          "first": "Rill asteroid occultation attempt",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l10-i03",
+            "l10-i27"
+          ]
+        },
+        {
+          "first": "Rill asteroid occultation attempt",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l10-i03",
+            "l10-i10"
+          ]
+        },
+        {
+          "first": "Aurora all-sky camera condensation trial",
+          "second": "Cobalt spectrograph wavelength calibration",
+          "related": false,
+          "evidence": [
+            "l10-i04",
+            "l10-i02"
+          ]
+        },
+        {
+          "first": "Aurora all-sky camera condensation trial",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l10-i04",
+            "l10-i28"
+          ]
+        },
+        {
+          "first": "Aurora all-sky camera condensation trial",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l10-i04",
+            "l10-i27"
+          ]
+        },
+        {
+          "first": "Aurora all-sky camera condensation trial",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l10-i04",
+            "l10-i10"
+          ]
+        },
+        {
+          "first": "Cobalt spectrograph wavelength calibration",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l10-i02",
+            "l10-i28"
+          ]
+        },
+        {
+          "first": "Cobalt spectrograph wavelength calibration",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l10-i02",
+            "l10-i27"
+          ]
+        },
+        {
+          "first": "Cobalt spectrograph wavelength calibration",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l10-i02",
+            "l10-i10"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l10-i28",
+            "l10-i27"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l10-i28",
+            "l10-i10"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l10-i27",
+            "l10-i10"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l10-i01": "Source evidence: Lumen finder alignment session uses a distant daytime target before checking a bright star at dusk.",
+        "l10-i02": "Source evidence: The lamp supplier's quote includes a mounting bracket we already have.",
+        "l10-i03": "Source evidence: Travel allowance for the occultation covers the eastern roadside site and a backup location farther south.",
+        "l10-i04": "Source evidence: Purchase review for the dome experiment: a second temperature probe costs less than another heater.",
+        "l10-i05": "Source evidence: Schedule the Lumen finder alignment after the mirror has been washed and reinstalled.",
+        "l10-i06": "Source evidence: After the cable moved, the edge reflection remained.",
+        "l10-i07": "Source evidence: Lumen mirror wash requires a clean drying rack before the primary mirror comes out.",
+        "l10-i08": "Source evidence: Our first note says the calibration is stable across the detector, but the far-red residuals disagree.",
+        "l10-i09": "Source evidence: Aurora camera trial compares two low-power heater settings beneath the clear dome.",
+        "l10-i10": "Source evidence: The narrow bookshelf leans slightly because one floorboard is lower.",
+        "l10-i11": "Source evidence: Alignment session moved to the western terrace because a new banner blocks the usual tower target.",
+        "l10-i12": "Source evidence: The higher setting cleared droplets but produced a bright reflection near the frame edge.",
+        "l10-i13": "Source evidence: Cinder star study tests whether alternating short and long gaps recover the suspected brightness cycle.",
+        "l10-i14": "Source evidence: Cobalt calibration maps lamp lines onto the spectrograph's detector columns.",
+        "l10-i15": "Source evidence: Copied calibration warning: avoid the central blend and inspect the far-red residuals.",
+        "l10-i16": "Source evidence: One reference line was identified from a neighboring peak rather than its true center.",
+        "l10-i17": "Source evidence: Reserve the timing checker for the Rill occultation and the temperature logger for Cobalt calibration on the same equipment form.",
+        "l10-i18": "Source evidence: Study meeting chose another two nights of the alternating-gap schedule.",
+        "l10-i19": "Source evidence: The finder crosshair drifts when its bracket screw is tightened.",
+        "l10-i20": "Source evidence: The camera displays local time while the event sheet uses UTC.",
+        "l10-i21": "Source evidence: Rill occultation attempt needs a continuous timestamped video around the predicted event.",
+        "l10-i22": "Source evidence: The apparent dimming coincides with a passing thin cloud in the guide image.",
+        "l10-i23": "Source evidence: No disappearance appears in the Rill video, but the timing check passed and the target stayed visible.",
+        "l10-i24": "Source evidence: The trial calendar originally ended on the tenth, but dry weather gave us no useful condensation nights.",
+        "l10-i25": "Source evidence: Calibration review asks for separate residual plots before and after the overnight temperature change.",
+        "l10-i26": "Source evidence: Aurora's sky camera images may help flag cloudy intervals in the Cinder brightness study.",
+        "l10-i27": "Source evidence: A radio drama used silence after a door shut to imply that the visitor had vanished.",
+        "l10-i28": "Source evidence: The ceramic star on my key ring broke at one point.",
+        "l10-i29": "Source evidence: The drying rack test left fibers on a spare glass plate.",
+        "l10-i30": "Source evidence: The extra lamp exposure found two usable lines beyond the old valid range."
+      }
+    },
+    {
+      "id": "l11",
+      "memberships": {
+        "l11-i01": [
+          "Faro winter soup supper"
+        ],
+        "l11-i02": [
+          "Piedra lunch-service menu redesign"
+        ],
+        "l11-i03": [
+          "Faro winter soup supper"
+        ],
+        "l11-i04": [
+          "isolated note 2"
+        ],
+        "l11-i05": [
+          "Faro winter soup supper"
+        ],
+        "l11-i06": [
+          "Nube sensory tasting lesson",
+          "Oliva recipe translation booklet"
+        ],
+        "l11-i07": [
+          "Oliva recipe translation booklet"
+        ],
+        "l11-i08": [
+          "Oliva recipe translation booklet"
+        ],
+        "l11-i09": [
+          "Brisa Sunday sourdough starter clinic"
+        ],
+        "l11-i10": [
+          "Oliva recipe translation booklet"
+        ],
+        "l11-i11": [
+          "Nube sensory tasting lesson"
+        ],
+        "l11-i12": [
+          "Brisa Sunday sourdough starter clinic"
+        ],
+        "l11-i13": [
+          "Faro winter soup supper"
+        ],
+        "l11-i14": [
+          "isolated note 3"
+        ],
+        "l11-i15": [
+          "Nube sensory tasting lesson"
+        ],
+        "l11-i16": [
+          "Oliva recipe translation booklet"
+        ],
+        "l11-i17": [
+          "Brisa Saturday bread-shaping workshop"
+        ],
+        "l11-i18": [
+          "Oliva recipe translation booklet"
+        ],
+        "l11-i19": [
+          "Piedra lunch-service menu redesign"
+        ],
+        "l11-i20": [
+          "Piedra lunch-service menu redesign",
+          "Faro winter soup supper"
+        ],
+        "l11-i21": [
+          "Brisa Saturday bread-shaping workshop"
+        ],
+        "l11-i22": [
+          "Piedra lunch-service menu redesign"
+        ],
+        "l11-i23": [
+          "Brisa Saturday bread-shaping workshop",
+          "Brisa Sunday sourdough starter clinic"
+        ],
+        "l11-i24": [
+          "isolated note 1"
+        ],
+        "l11-i25": [
+          "Nube sensory tasting lesson"
+        ],
+        "l11-i26": [
+          "Oliva recipe translation booklet"
+        ],
+        "l11-i27": [
+          "Faro winter soup supper"
+        ],
+        "l11-i28": [
+          "Oliva recipe translation booklet"
+        ],
+        "l11-i29": [
+          "Brisa Sunday sourdough starter clinic"
+        ],
+        "l11-i30": [
+          "Piedra lunch-service menu redesign"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "Brisa Saturday bread-shaping workshop",
+          "second": "Brisa Sunday sourdough starter clinic",
+          "related": true,
+          "evidence": [
+            "l11-i23"
+          ]
+        },
+        {
+          "first": "Brisa Saturday bread-shaping workshop",
+          "second": "Nube sensory tasting lesson",
+          "related": false,
+          "evidence": [
+            "l11-i17",
+            "l11-i11"
+          ]
+        },
+        {
+          "first": "Brisa Saturday bread-shaping workshop",
+          "second": "Piedra lunch-service menu redesign",
+          "related": false,
+          "evidence": [
+            "l11-i17",
+            "l11-i02"
+          ]
+        },
+        {
+          "first": "Brisa Saturday bread-shaping workshop",
+          "second": "Faro winter soup supper",
+          "related": false,
+          "evidence": [
+            "l11-i17",
+            "l11-i01"
+          ]
+        },
+        {
+          "first": "Brisa Saturday bread-shaping workshop",
+          "second": "Oliva recipe translation booklet",
+          "related": false,
+          "evidence": [
+            "l11-i17",
+            "l11-i07"
+          ]
+        },
+        {
+          "first": "Brisa Saturday bread-shaping workshop",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l11-i17",
+            "l11-i24"
+          ]
+        },
+        {
+          "first": "Brisa Saturday bread-shaping workshop",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l11-i17",
+            "l11-i04"
+          ]
+        },
+        {
+          "first": "Brisa Saturday bread-shaping workshop",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l11-i17",
+            "l11-i14"
+          ]
+        },
+        {
+          "first": "Brisa Sunday sourdough starter clinic",
+          "second": "Nube sensory tasting lesson",
+          "related": false,
+          "evidence": [
+            "l11-i09",
+            "l11-i11"
+          ]
+        },
+        {
+          "first": "Brisa Sunday sourdough starter clinic",
+          "second": "Piedra lunch-service menu redesign",
+          "related": false,
+          "evidence": [
+            "l11-i09",
+            "l11-i02"
+          ]
+        },
+        {
+          "first": "Brisa Sunday sourdough starter clinic",
+          "second": "Faro winter soup supper",
+          "related": false,
+          "evidence": [
+            "l11-i09",
+            "l11-i01"
+          ]
+        },
+        {
+          "first": "Brisa Sunday sourdough starter clinic",
+          "second": "Oliva recipe translation booklet",
+          "related": false,
+          "evidence": [
+            "l11-i09",
+            "l11-i07"
+          ]
+        },
+        {
+          "first": "Brisa Sunday sourdough starter clinic",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l11-i09",
+            "l11-i24"
+          ]
+        },
+        {
+          "first": "Brisa Sunday sourdough starter clinic",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l11-i09",
+            "l11-i04"
+          ]
+        },
+        {
+          "first": "Brisa Sunday sourdough starter clinic",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l11-i09",
+            "l11-i14"
+          ]
+        },
+        {
+          "first": "Nube sensory tasting lesson",
+          "second": "Piedra lunch-service menu redesign",
+          "related": false,
+          "evidence": [
+            "l11-i11",
+            "l11-i02"
+          ]
+        },
+        {
+          "first": "Nube sensory tasting lesson",
+          "second": "Faro winter soup supper",
+          "related": false,
+          "evidence": [
+            "l11-i11",
+            "l11-i01"
+          ]
+        },
+        {
+          "first": "Nube sensory tasting lesson",
+          "second": "Oliva recipe translation booklet",
+          "related": true,
+          "evidence": [
+            "l11-i06"
+          ]
+        },
+        {
+          "first": "Nube sensory tasting lesson",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l11-i11",
+            "l11-i24"
+          ]
+        },
+        {
+          "first": "Nube sensory tasting lesson",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l11-i11",
+            "l11-i04"
+          ]
+        },
+        {
+          "first": "Nube sensory tasting lesson",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l11-i11",
+            "l11-i14"
+          ]
+        },
+        {
+          "first": "Piedra lunch-service menu redesign",
+          "second": "Faro winter soup supper",
+          "related": true,
+          "evidence": [
+            "l11-i20"
+          ]
+        },
+        {
+          "first": "Piedra lunch-service menu redesign",
+          "second": "Oliva recipe translation booklet",
+          "related": false,
+          "evidence": [
+            "l11-i02",
+            "l11-i07"
+          ]
+        },
+        {
+          "first": "Piedra lunch-service menu redesign",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l11-i02",
+            "l11-i24"
+          ]
+        },
+        {
+          "first": "Piedra lunch-service menu redesign",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l11-i02",
+            "l11-i04"
+          ]
+        },
+        {
+          "first": "Piedra lunch-service menu redesign",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l11-i02",
+            "l11-i14"
+          ]
+        },
+        {
+          "first": "Faro winter soup supper",
+          "second": "Oliva recipe translation booklet",
+          "related": false,
+          "evidence": [
+            "l11-i01",
+            "l11-i07"
+          ]
+        },
+        {
+          "first": "Faro winter soup supper",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l11-i01",
+            "l11-i24"
+          ]
+        },
+        {
+          "first": "Faro winter soup supper",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l11-i01",
+            "l11-i04"
+          ]
+        },
+        {
+          "first": "Faro winter soup supper",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l11-i01",
+            "l11-i14"
+          ]
+        },
+        {
+          "first": "Oliva recipe translation booklet",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l11-i07",
+            "l11-i24"
+          ]
+        },
+        {
+          "first": "Oliva recipe translation booklet",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l11-i07",
+            "l11-i04"
+          ]
+        },
+        {
+          "first": "Oliva recipe translation booklet",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l11-i07",
+            "l11-i14"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l11-i24",
+            "l11-i04"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l11-i24",
+            "l11-i14"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l11-i04",
+            "l11-i14"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l11-i01": "Source evidence: For the winter soup supper, borrow insulated serving pots from the community kitchen.",
+        "l11-i02": "Source evidence: Menu meeting rejected the phrase 'allergy safe' because the shared kitchen cannot support that promise.",
+        "l11-i03": "Source evidence: Después de la cena, anotar que la sopa de lentejas se acabó primero y que la estación central creó atasco.",
+        "l11-i04": "Source evidence: The drawer beside my bed squeaks only when nearly closed.",
+        "l11-i05": "Source evidence: Cena de sopas Faro: servir tres ollas en estaciones separadas para que la cola no bloquee la puerta.",
+        "l11-i06": "Source evidence: The Nube aroma class can review descriptive words in Oliva's translated recipes.",
+        "l11-i07": "Source evidence: Printing quote for the bilingual recipe booklet covers twenty-four pages, but the facing-page layout needs twenty-eight.",
+        "l11-i08": "Source evidence: Oliva booklet translates six family-style recipes between Spanish and English for a fictional cooking exchange.",
+        "l11-i09": "Source evidence: La clínica Brisa del domingo trata del cuidado de la masa madre, no del formado de barras.",
+        "l11-i10": "Source evidence: Reunión editorial de Oliva: poner las dos lenguas en páginas enfrentadas y alinear los pasos numerados.",
+        "l11-i11": "Source evidence: Nube tasting lesson compares aroma descriptions using covered cups of familiar ingredients.",
+        "l11-i12": "Source evidence: Cambio para la clínica del domingo: empezar a las once, no a las diez.",
+        "l11-i13": "Source evidence: The supper's decoration allowance is only 15 credits after bowl rental.",
+        "l11-i14": "Source evidence: Para mi lista de lectura: buscar otra novela con capítulos cortos y cartas entre personajes.",
+        "l11-i15": "Source evidence: Presupuesto de Nube: reutilizar las tazas opacas y gastar el resto en tapas que cierren bien.",
+        "l11-i16": "Source evidence: The translation review found that 'simmer' became a phrase meaning vigorous boiling.",
+        "l11-i17": "Source evidence: The bread-shaping table can be lowered by removing its risers.",
+        "l11-i18": "Source evidence: Copia de mi nota de revisión: aclarar el tamaño de taza y corregir el hervor suave de las alubias.",
+        "l11-i19": "Source evidence: Piedra lunch menu redesign needs two dishes that share preparation without tasting identical.",
+        "l11-i20": "Source evidence: Piedra puede prestar sus soportes de menú para las tarjetas de ingredientes de Faro.",
+        "l11-i21": "Source evidence: Taller Brisa del sábado: practicar el formado de barras con masa ya fermentada.",
+        "l11-i22": "Source evidence: El folleto de Piedra todavía muestra el precio anterior del almuerzo.",
+        "l11-i23": "Source evidence: Reservar la cocina para el formado de pan del sábado y la clínica de masa madre del domingo en líneas separadas.",
+        "l11-i24": "Source evidence: Vi una nube con forma de barco al volver a casa.",
+        "l11-i25": "Source evidence: En la clase de aromas, dos personas confundieron canela con clavo.",
+        "l11-i26": "Source evidence: En el cuadernillo, 'una taza' aparece sin tamaño en la receta de arroz.",
+        "l11-i27": "Source evidence: La reunión de Faro cambió la cena del viernes al sábado por un corte de agua.",
+        "l11-i28": "Source evidence: The final Oliva proof should retain the earlier translation correction in the editorial record.",
+        "l11-i29": "Source evidence: Sunday's starter clinic needs a simple handout showing rise and fall in the jar.",
+        "l11-i30": "Source evidence: La prueba del menú dejó el horno ocupado cuando llegaban los pedidos de verduras."
+      }
+    },
+    {
+      "id": "l12",
+      "memberships": {
+        "l12-i01": [
+          "Moraine ridge surface pottery transect"
+        ],
+        "l12-i02": [
+          "Serein well timber recording",
+          "Ardoise rock-shelter sediment archive"
+        ],
+        "l12-i03": [
+          "Ardoise rock-shelter sediment archive"
+        ],
+        "l12-i04": [
+          "Ardoise rock-shelter sediment archive"
+        ],
+        "l12-i05": [
+          "Ardoise rock-shelter sediment archive"
+        ],
+        "l12-i06": [
+          "Valon trench A hearth sampling"
+        ],
+        "l12-i07": [
+          "Tilleul cemetery boundary geophysics"
+        ],
+        "l12-i08": [
+          "Valon trench A hearth sampling"
+        ],
+        "l12-i09": [
+          "Ardoise rock-shelter sediment archive"
+        ],
+        "l12-i10": [
+          "Moraine ridge surface pottery transect",
+          "Tilleul cemetery boundary geophysics"
+        ],
+        "l12-i11": [
+          "Tilleul cemetery boundary geophysics"
+        ],
+        "l12-i12": [
+          "Ardoise rock-shelter sediment archive"
+        ],
+        "l12-i13": [
+          "Serein well timber recording"
+        ],
+        "l12-i14": [
+          "Valon trench A hearth sampling",
+          "Valon trench B wall phasing"
+        ],
+        "l12-i15": [
+          "Ardoise rock-shelter sediment archive"
+        ],
+        "l12-i16": [
+          "isolated note 1"
+        ],
+        "l12-i17": [
+          "Valon trench B wall phasing"
+        ],
+        "l12-i18": [
+          "isolated note 2"
+        ],
+        "l12-i19": [
+          "isolated note 3"
+        ],
+        "l12-i20": [
+          "Tilleul cemetery boundary geophysics"
+        ],
+        "l12-i21": [
+          "Valon trench B wall phasing"
+        ],
+        "l12-i22": [
+          "Moraine ridge surface pottery transect"
+        ],
+        "l12-i23": [
+          "Moraine ridge surface pottery transect"
+        ],
+        "l12-i24": [
+          "Serein well timber recording"
+        ],
+        "l12-i25": [
+          "Tilleul cemetery boundary geophysics"
+        ],
+        "l12-i26": [
+          "Serein well timber recording"
+        ],
+        "l12-i27": [
+          "Ardoise rock-shelter sediment archive"
+        ],
+        "l12-i28": [
+          "Tilleul cemetery boundary geophysics"
+        ],
+        "l12-i29": [
+          "Valon trench B wall phasing"
+        ],
+        "l12-i30": [
+          "Serein well timber recording"
+        ]
+      },
+      "relationships": [
+        {
+          "first": "Valon trench A hearth sampling",
+          "second": "Valon trench B wall phasing",
+          "related": true,
+          "evidence": [
+            "l12-i14"
+          ]
+        },
+        {
+          "first": "Valon trench A hearth sampling",
+          "second": "Moraine ridge surface pottery transect",
+          "related": false,
+          "evidence": [
+            "l12-i06",
+            "l12-i01"
+          ]
+        },
+        {
+          "first": "Valon trench A hearth sampling",
+          "second": "Serein well timber recording",
+          "related": false,
+          "evidence": [
+            "l12-i06",
+            "l12-i13"
+          ]
+        },
+        {
+          "first": "Valon trench A hearth sampling",
+          "second": "Tilleul cemetery boundary geophysics",
+          "related": false,
+          "evidence": [
+            "l12-i06",
+            "l12-i07"
+          ]
+        },
+        {
+          "first": "Valon trench A hearth sampling",
+          "second": "Ardoise rock-shelter sediment archive",
+          "related": false,
+          "evidence": [
+            "l12-i06",
+            "l12-i03"
+          ]
+        },
+        {
+          "first": "Valon trench A hearth sampling",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l12-i06",
+            "l12-i16"
+          ]
+        },
+        {
+          "first": "Valon trench A hearth sampling",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l12-i06",
+            "l12-i18"
+          ]
+        },
+        {
+          "first": "Valon trench A hearth sampling",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l12-i06",
+            "l12-i19"
+          ]
+        },
+        {
+          "first": "Valon trench B wall phasing",
+          "second": "Moraine ridge surface pottery transect",
+          "related": false,
+          "evidence": [
+            "l12-i17",
+            "l12-i01"
+          ]
+        },
+        {
+          "first": "Valon trench B wall phasing",
+          "second": "Serein well timber recording",
+          "related": false,
+          "evidence": [
+            "l12-i17",
+            "l12-i13"
+          ]
+        },
+        {
+          "first": "Valon trench B wall phasing",
+          "second": "Tilleul cemetery boundary geophysics",
+          "related": false,
+          "evidence": [
+            "l12-i17",
+            "l12-i07"
+          ]
+        },
+        {
+          "first": "Valon trench B wall phasing",
+          "second": "Ardoise rock-shelter sediment archive",
+          "related": false,
+          "evidence": [
+            "l12-i17",
+            "l12-i03"
+          ]
+        },
+        {
+          "first": "Valon trench B wall phasing",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l12-i17",
+            "l12-i16"
+          ]
+        },
+        {
+          "first": "Valon trench B wall phasing",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l12-i17",
+            "l12-i18"
+          ]
+        },
+        {
+          "first": "Valon trench B wall phasing",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l12-i17",
+            "l12-i19"
+          ]
+        },
+        {
+          "first": "Moraine ridge surface pottery transect",
+          "second": "Serein well timber recording",
+          "related": false,
+          "evidence": [
+            "l12-i01",
+            "l12-i13"
+          ]
+        },
+        {
+          "first": "Moraine ridge surface pottery transect",
+          "second": "Tilleul cemetery boundary geophysics",
+          "related": true,
+          "evidence": [
+            "l12-i10"
+          ]
+        },
+        {
+          "first": "Moraine ridge surface pottery transect",
+          "second": "Ardoise rock-shelter sediment archive",
+          "related": false,
+          "evidence": [
+            "l12-i01",
+            "l12-i03"
+          ]
+        },
+        {
+          "first": "Moraine ridge surface pottery transect",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l12-i01",
+            "l12-i16"
+          ]
+        },
+        {
+          "first": "Moraine ridge surface pottery transect",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l12-i01",
+            "l12-i18"
+          ]
+        },
+        {
+          "first": "Moraine ridge surface pottery transect",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l12-i01",
+            "l12-i19"
+          ]
+        },
+        {
+          "first": "Serein well timber recording",
+          "second": "Tilleul cemetery boundary geophysics",
+          "related": false,
+          "evidence": [
+            "l12-i13",
+            "l12-i07"
+          ]
+        },
+        {
+          "first": "Serein well timber recording",
+          "second": "Ardoise rock-shelter sediment archive",
+          "related": true,
+          "evidence": [
+            "l12-i02"
+          ]
+        },
+        {
+          "first": "Serein well timber recording",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l12-i13",
+            "l12-i16"
+          ]
+        },
+        {
+          "first": "Serein well timber recording",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l12-i13",
+            "l12-i18"
+          ]
+        },
+        {
+          "first": "Serein well timber recording",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l12-i13",
+            "l12-i19"
+          ]
+        },
+        {
+          "first": "Tilleul cemetery boundary geophysics",
+          "second": "Ardoise rock-shelter sediment archive",
+          "related": false,
+          "evidence": [
+            "l12-i07",
+            "l12-i03"
+          ]
+        },
+        {
+          "first": "Tilleul cemetery boundary geophysics",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l12-i07",
+            "l12-i16"
+          ]
+        },
+        {
+          "first": "Tilleul cemetery boundary geophysics",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l12-i07",
+            "l12-i18"
+          ]
+        },
+        {
+          "first": "Tilleul cemetery boundary geophysics",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l12-i07",
+            "l12-i19"
+          ]
+        },
+        {
+          "first": "Ardoise rock-shelter sediment archive",
+          "second": "isolated note 1",
+          "related": false,
+          "evidence": [
+            "l12-i03",
+            "l12-i16"
+          ]
+        },
+        {
+          "first": "Ardoise rock-shelter sediment archive",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l12-i03",
+            "l12-i18"
+          ]
+        },
+        {
+          "first": "Ardoise rock-shelter sediment archive",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l12-i03",
+            "l12-i19"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 2",
+          "related": false,
+          "evidence": [
+            "l12-i16",
+            "l12-i18"
+          ]
+        },
+        {
+          "first": "isolated note 1",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l12-i16",
+            "l12-i19"
+          ]
+        },
+        {
+          "first": "isolated note 2",
+          "second": "isolated note 3",
+          "related": false,
+          "evidence": [
+            "l12-i18",
+            "l12-i19"
+          ]
+        }
+      ],
+      "ambiguous": [],
+      "rationale": {
+        "l12-i01": "Source evidence: Moraine ridge surface survey follows parallel walking transects with equal spacing.",
+        "l12-i02": "Source evidence: Use the Serein timber-plan revision as an example in the Ardoise archive labeling meeting.",
+        "l12-i03": "Source evidence: Working copy of the Ardoise archive reminder: keep original labels, flag missing context, distinguish collection dates.",
+        "l12-i04": "Source evidence: La réunion d'archivage demande des étagères plus profondes pour les boîtes d'Ardoise.",
+        "l12-i05": "Source evidence: The rock-shelter archive has two bags labeled square C, layer 4, with different collection dates.",
+        "l12-i06": "Source evidence: Dans le foyer de la tranchée A, la lentille grise continue sous une pierre.",
+        "l12-i07": "Source evidence: Tilleul geophysics tests the proposed cemetery boundary beyond the visible enclosure.",
+        "l12-i08": "Source evidence: Valon trench A sampling targets the thin ash lenses inside the small hearth.",
+        "l12-i09": "Source evidence: Le journal de terrain confirme deux prélèvements successifs dans le carré C.",
+        "l12-i10": "Source evidence: Le transect de poterie de Moraine et la grille géophysique de Tilleul peuvent partager le récepteur de position.",
+        "l12-i11": "Source evidence: La clôture métallique longe une partie de la grille du cimetière.",
+        "l12-i12": "Source evidence: J'avais écrit que tous les sachets de la couche quatre étaient datés.",
+        "l12-i13": "Source evidence: Le relevé du puits Serein décrit les assemblages du cuvelage en bois.",
+        "l12-i14": "Source evidence: The Valon hearth sampling and wall-phasing teams need the site camera during the same morning.",
+        "l12-i15": "Source evidence: Archive cost review: use new outer boxes for damaged containers while retaining readable original bag labels inside.",
+        "l12-i16": "Source evidence: Le titre du roman parle d'un 'puits de silence', mais aucun puits réel n'apparaît dans l'histoire.",
+        "l12-i17": "Source evidence: Réunion du relevé des murs: remplacer la flèche trop certaine du dessin par une relation provisoire.",
+        "l12-i18": "Source evidence: The small green suitcase rolls more quietly after a thread was removed from one wheel.",
+        "l12-i19": "Source evidence: Note pour la maison: la plante près de la fenêtre penche vers la lumière.",
+        "l12-i20": "Source evidence: Budget Tilleul: la location de l'instrument comprend une batterie, mais pas le second jeu nécessaire pour la longue journée.",
+        "l12-i21": "Source evidence: Tranchée B de Valon: relever les contacts entre le petit mur courbe et le mur droit.",
+        "l12-i22": "Source evidence: Sur la crête, la bande orientale était fraîchement fauchée tandis que la bande voisine restait couverte.",
+        "l12-i23": "Source evidence: The pottery survey budget allows one additional morning on the ridge.",
+        "l12-i24": "Source evidence: Recording review found two timber labels reversed on the plan but correct in the photographs.",
+        "l12-i25": "Source evidence: The western extension did not reproduce the suspected ditch signal.",
+        "l12-i26": "Source evidence: The well's lowest visible timber has a notch unlike those above it.",
+        "l12-i27": "Source evidence: Archive des sédiments d'Ardoise: associer chaque boîte au carré et à la couche notés sur le terrain.",
+        "l12-i28": "Source evidence: The boundary survey meeting chose an extra strip west of the enclosure to test whether the linear response continues.",
+        "l12-i29": "Source evidence: The curved wall appears to abut the straight one, but loose packing obscures the junction.",
+        "l12-i30": "Source evidence: Le planning du puits passe du mardi au jeudi, car l'accès sécurisé ne sera prêt qu'après l'inspection."
+      }
+    }
+  ]
+}

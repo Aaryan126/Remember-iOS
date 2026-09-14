@@ -1,0 +1,245 @@
+{
+  "id": "hv04b",
+  "split": "train",
+  "storyFamily": "hv04",
+  "templateFamily": "hv04",
+  "threads": [
+    "coding-drills",
+    "mock-exam",
+    "exam-reimbursement",
+    "kitchen-shelf",
+    "library-card"
+  ],
+  "threadDescriptions": {
+    "coding-drills": "Practise scenario coding and maintain an error log for a fictional records-management certification.",
+    "mock-exam": "Arrange and complete a timed mock of the records-management exam.",
+    "exam-reimbursement": "Obtain employer reimbursement of certification fees.",
+    "kitchen-shelf": "Install a kitchen shelf above the kettle.",
+    "library-card": "Renew the municipal lending-library card."
+  },
+  "relatedThreads": [
+    [
+      "coding-drills",
+      "mock-exam"
+    ],
+    [
+      "mock-exam",
+      "exam-reimbursement"
+    ],
+    [
+      "coding-drills",
+      "exam-reimbursement"
+    ]
+  ],
+  "challenges": [
+    "shared_exam",
+    "renamed_log",
+    "long_source",
+    "bridge",
+    "routine_negatives"
+  ],
+  "items": [
+    {
+      "id": "hv04b-i01",
+      "text": "Records certificate drills: fifteen retention scenarios each morning. Error log heading is 'Red list'; explain why I chose the wrong category.",
+      "modality": "note",
+      "memberships": [
+        "coding-drills"
+      ],
+      "rationale": "Defines certification practice and log."
+    },
+    {
+      "id": "hv04b-i02",
+      "text": "Kitchen shelf bracket spacing 44 cm. Wall detector flags a cable on the right, so don't drill until the route is checked.",
+      "modality": "image",
+      "memberships": [
+        "kitchen-shelf"
+      ],
+      "rationale": "Plans household shelf installation."
+    },
+    {
+      "id": "hv04b-i03",
+      "text": "Ask training coordinator to reimburse the records certificate fee. Policy wants a paid receipt and manager's approval, even before the result.",
+      "modality": "file",
+      "memberships": [
+        "exam-reimbursement"
+      ],
+      "rationale": "Defines employer reimbursement task."
+    },
+    {
+      "id": "hv04b-i04",
+      "text": "Mock exam on Sunday: 80 questions, 100 minutes. Print one clean answer sheet and put the phone outside the room.",
+      "modality": "note",
+      "memberships": [
+        "mock-exam"
+      ],
+      "rationale": "Sets timed practice exam conditions."
+    },
+    {
+      "id": "hv04b-i05",
+      "text": "Library card expires this month. Renewal desk needs current address proof; electricity statement will do.",
+      "modality": "voice",
+      "memberships": [
+        "library-card"
+      ],
+      "rationale": "Begins public library renewal."
+    },
+    {
+      "id": "hv04b-i06",
+      "text": "Retention drill: deletion freeze overrides the routine disposal date when a hold applies. My answer assumed the schedule kept running.",
+      "modality": "note",
+      "memberships": [
+        "coding-drills"
+      ],
+      "rationale": "Records a scenario-coding error."
+    },
+    {
+      "id": "hv04b-i07",
+      "text": "Manager approved exam expense. Finance rejected the bank screenshot; download the provider's itemized receipt.",
+      "modality": "voice",
+      "memberships": [
+        "exam-reimbursement"
+      ],
+      "rationale": "Updates reimbursement evidence requirement."
+    },
+    {
+      "id": "hv04b-i08",
+      "text": "Exam mock booklet erratum: this edition has 75 questions and a 90-minute allowance, replacing my 80/100 setup. Reprint the timer cover.",
+      "modality": "file",
+      "memberships": [
+        "mock-exam"
+      ],
+      "rationale": "Corrects mock format and duration."
+    },
+    {
+      "id": "hv04b-i09",
+      "text": "'Use current statement' torn corner, no logo.",
+      "modality": "image",
+      "memberships": [],
+      "rationale": "Could refer to financial evidence or library address proof."
+    },
+    {
+      "id": "hv04b-i10",
+      "text": "Shelf cable runs vertically from the socket. Move both brackets left by 8 cm; shelf still clears the kettle lid.",
+      "modality": "note",
+      "memberships": [
+        "kitchen-shelf"
+      ],
+      "rationale": "Updates shelf position to avoid cable."
+    },
+    {
+      "id": "hv04b-i11",
+      "text": "Rename my 'Red list' study log to 'Reasoning repairs'. Same scenario errors; new heading reminds me to write the rule instead of just circling mistakes.",
+      "modality": "note",
+      "memberships": [
+        "coding-drills"
+      ],
+      "rationale": "Explicitly renames existing practice log."
+    },
+    {
+      "id": "hv04b-i12",
+      "text": "Library renewal accepted with electricity statement. New expiry date is next September; keep the same physical card.",
+      "modality": "file",
+      "memberships": [
+        "library-card"
+      ],
+      "rationale": "Completes card renewal."
+    },
+    {
+      "id": "hv04b-i13",
+      "text": "Sunday mock finished in 88 minutes, 58 of 75 correct. Wrong answers cluster around legal holds and duplicate record copies. Don't judge progress from the raw score until the answer-key erratum is checked.",
+      "modality": "image",
+      "memberships": [
+        "mock-exam"
+      ],
+      "rationale": "Records mock result and scoring caveat."
+    },
+    {
+      "id": "hv04b-i14",
+      "text": "Mock review: after checking the erratum, score is 60/75. Copy the remaining hold and duplicate-copy errors into Reasoning repairs; schedule ten fresh scenarios in those categories for Tuesday, and annotate the mock answer sheet with the corrected key.",
+      "modality": "note",
+      "memberships": [
+        "mock-exam",
+        "coding-drills"
+      ],
+      "rationale": "Corrects mock grading and sets targeted daily practice."
+    },
+    {
+      "id": "hv04b-i15",
+      "text": "Finance received itemized exam receipt and manager approval. Reimbursement queued for next payroll under training, not travel.",
+      "modality": "file",
+      "memberships": [
+        "exam-reimbursement"
+      ],
+      "rationale": "Confirms reimbursement processing."
+    },
+    {
+      "id": "hv04b-i16",
+      "text": "Kitchen shelf installed level. Kettle lid clears by three fingers; let the adhesive screw covers settle before wiping.",
+      "modality": "video",
+      "memberships": [
+        "kitchen-shelf"
+      ],
+      "rationale": "Completes shelf installation."
+    },
+    {
+      "id": "hv04b-i17",
+      "text": "Tuesday drills: nine out of ten holds/copies scenarios right. The miss was an active working copy, not a duplicate record.",
+      "modality": "voice",
+      "memberships": [
+        "coding-drills"
+      ],
+      "rationale": "Evaluates targeted scenario practice."
+    },
+    {
+      "id": "hv04b-i18",
+      "text": "Receipt? the one with the old number.",
+      "modality": "note",
+      "memberships": [],
+      "rationale": "No source or purpose identifies the receipt."
+    },
+    {
+      "id": "hv04b-i19",
+      "text": "Payroll line 'professional development' matches the full records exam fee. Mark reimbursement complete.",
+      "modality": "image",
+      "memberships": [
+        "exam-reimbursement"
+      ],
+      "rationale": "Confirms paid reimbursement."
+    },
+    {
+      "id": "hv04b-i20",
+      "text": "Keep the marked Sunday mock paper as the baseline. Next full mock will use a fresh booklet and the corrected 90-minute limit.",
+      "modality": "note",
+      "memberships": [
+        "mock-exam"
+      ],
+      "rationale": "Preserves mock baseline and plans subsequent assessment."
+    }
+  ],
+  "historyChecks": {
+    "bridge": {
+      "item": "hv04b-i14",
+      "threads": [
+        "mock-exam",
+        "coding-drills"
+      ]
+    },
+    "revision": {
+      "earlier": "hv04b-i04",
+      "later": "hv04b-i08",
+      "thread": "mock-exam"
+    },
+    "rename": {
+      "thread": "coding-drills",
+      "from": "Red list",
+      "to": "Reasoning repairs",
+      "evidenceItem": "hv04b-i11"
+    },
+    "undo": {
+      "item": "hv04b-i15",
+      "wrongThread": "mock-exam",
+      "reason": "Hypothetical correction: finance processing advances reimbursement, not preparation or scoring of the mock."
+    }
+  }
+}

@@ -1,0 +1,2876 @@
+{
+  "libraries": [
+    {
+      "challenges": [
+        "shared_roster",
+        "correction",
+        "bridge",
+        "uncertainty"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv13a-i10",
+          "threads": [
+            "relay-entries",
+            "relay-deck"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv13a-i06",
+          "later": "hv13a-i09",
+          "thread": "relay-entries"
+        },
+        "undo": {
+          "item": "hv13a-i19",
+          "reason": "Hypothetical correction: adding reserve identity is entry administration and gives no marshalling instruction.",
+          "wrongThread": "relay-deck"
+        }
+      },
+      "id": "hv13a",
+      "items": [
+        {
+          "id": "hv13a-i01",
+          "memberships": [
+            "relay-entries"
+          ],
+          "modality": "note",
+          "rationale": "Defines team entry and stroke order.",
+          "text": "Junior medley entry draft: backstroke Nia, breaststroke Dev, butterfly Cal, freestyle Ruth. Need all four birth years before submitting."
+        },
+        {
+          "id": "hv13a-i02",
+          "memberships": [
+            "home-router"
+          ],
+          "modality": "video",
+          "rationale": "Begins home network diagnosis.",
+          "text": "Home router drops both bands after twenty minutes. Modem lights stay steady; save the router log before restarting."
+        },
+        {
+          "id": "hv13a-i03",
+          "memberships": [
+            "relay-deck"
+          ],
+          "modality": "file",
+          "rationale": "Defines meet marshalling flow.",
+          "text": "Relay deck plan: teams assemble by the shallow-end benches, then the marshal calls them to lane gates. Parents stay behind the barrier."
+        },
+        {
+          "id": "hv13a-i04",
+          "memberships": [
+            "relay-entries"
+          ],
+          "modality": "voice",
+          "rationale": "Completes identifying information for submitted swimmer.",
+          "text": "Dev's parent confirmed birth year and surname spelling: Devan, no second n. Amend the junior medley form."
+        },
+        {
+          "id": "hv13a-i05",
+          "memberships": [
+            "relay-deck"
+          ],
+          "modality": "note",
+          "rationale": "Assigns relay-session staff.",
+          "text": "Deck volunteer Ellen can cover gates 1\u20133. Need one more person for 4\u20136 during junior relays."
+        },
+        {
+          "id": "hv13a-i06",
+          "memberships": [
+            "relay-entries"
+          ],
+          "modality": "image",
+          "rationale": "Identifies error in recorded stroke assignment.",
+          "text": "Relay entry confirmation shows Ruth in butterfly. That's wrong: Cal swims butterfly, Ruth freestyle. Request correction before the entry deadline."
+        },
+        {
+          "id": "hv13a-i07",
+          "memberships": [
+            "home-router"
+          ],
+          "modality": "file",
+          "rationale": "Advances replacement of faulty home router.",
+          "text": "Router log repeats overheating warning with nothing stacked above it. Supplier agreed to replacement under the existing warranty."
+        },
+        {
+          "id": "hv13a-i08",
+          "memberships": [],
+          "modality": "image",
+          "rationale": "Name, number and location lack enough purpose to choose roster or deck work.",
+          "text": "'Cal / 4 / by the bench' scribbled on a wet towel label."
+        },
+        {
+          "id": "hv13a-i09",
+          "memberships": [
+            "relay-entries"
+          ],
+          "modality": "note",
+          "rationale": "Confirms corrected relay entry while preserving draft provenance.",
+          "text": "Relay secretary corrected Cal and Ruth's strokes. The accepted order is now Nia, Dev, Cal, Ruth; save this version over the draft only on the print queue, not in the archive."
+        },
+        {
+          "id": "hv13a-i10",
+          "memberships": [
+            "relay-entries",
+            "relay-deck"
+          ],
+          "modality": "voice",
+          "rationale": "Updates official team sheet and actionable deck marshalling roster.",
+          "text": "Our junior medley team drew lane 5. Update their accepted entry sheet with that assignment and give the 4\u20136 gate marshal the named stroke order, marking Ruth as the final swimmer so the team is called in sequence."
+        },
+        {
+          "id": "hv13a-i11",
+          "memberships": [
+            "home-router"
+          ],
+          "modality": "note",
+          "rationale": "Plans replacement-router setup without containing credentials.",
+          "text": "New router arrived. Use the old network name so the printer can reconnect, but make a fresh admin password."
+        },
+        {
+          "id": "hv13a-i12",
+          "memberships": [
+            "relay-deck"
+          ],
+          "modality": "video",
+          "rationale": "Trains relay deck staff.",
+          "text": "Relay start demonstration: gate marshal counts four swimmers, checks wristbands, then points them along the marked route. No shortcut across timing cables."
+        },
+        {
+          "id": "hv13a-i13",
+          "memberships": [
+            "relay-entries"
+          ],
+          "modality": "file",
+          "rationale": "Corrects roster spelling.",
+          "text": "Nia's family name has an accent missing on the programme proof. Ask entries desk to fix the junior medley team line."
+        },
+        {
+          "id": "hv13a-i14",
+          "memberships": [
+            "relay-deck"
+          ],
+          "modality": "note",
+          "rationale": "Revises staffing assignment.",
+          "text": "Ellen swapped shifts; Jo covers gates 1\u20133 for the relay session. Revised marshal list on the clipboard."
+        },
+        {
+          "id": "hv13a-i15",
+          "memberships": [
+            "relay-entries"
+          ],
+          "modality": "image",
+          "rationale": "Verifies final names on team entry.",
+          "text": "Programme proof now spells all four relay surnames correctly, including Nia's accent. Parent checks complete."
+        },
+        {
+          "id": "hv13a-i16",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "No reliable task reference.",
+          "text": "Six? No, leave the old one."
+        },
+        {
+          "id": "hv13a-i17",
+          "memberships": [
+            "relay-deck"
+          ],
+          "modality": "image",
+          "rationale": "Prepares team marshalling area.",
+          "text": "Relay benches wet after warm-up. Put towels on the waiting area and check the barrier gap stays clear for the marshal."
+        },
+        {
+          "id": "hv13a-i18",
+          "memberships": [
+            "home-router"
+          ],
+          "modality": "note",
+          "rationale": "Verifies replacement and closes return.",
+          "text": "Replacement router ran all evening without drops. Printer and laptop both rejoined; send the old unit back with supplier label."
+        },
+        {
+          "id": "hv13a-i19",
+          "memberships": [
+            "relay-entries"
+          ],
+          "modality": "note",
+          "rationale": "Adds reserve to relay registration.",
+          "text": "Relay entry desk asked for reserve swimmer details even though the four starters are unchanged. Add Ivo as reserve with his birth year."
+        },
+        {
+          "id": "hv13a-i20",
+          "memberships": [
+            "relay-deck"
+          ],
+          "modality": "voice",
+          "rationale": "Records relay-session logistics outcome.",
+          "text": "Junior relay marshal debrief: lane 5 team reached the gate in correct order, but the waiting benches need a larger sign next time."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "relay-entries",
+          "relay-deck"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv13",
+      "templateFamily": "hv13",
+      "threadDescriptions": {
+        "home-router": "Diagnose and replace the unreliable home wireless router.",
+        "relay-deck": "Coordinate marshalling, lane access and on-deck staff for the junior relay session.",
+        "relay-entries": "Submit accurate swimmer names and running order for the junior medley relay."
+      },
+      "threads": [
+        "relay-entries",
+        "relay-deck",
+        "home-router"
+      ]
+    },
+    {
+      "challenges": [
+        "six_threads",
+        "identifier_overlap",
+        "result_revision",
+        "bridge"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv13b-i11",
+          "threads": [
+            "timing-repair",
+            "results-release"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv13b-i10",
+          "later": "hv13b-i11",
+          "thread": "results-release"
+        },
+        "undo": {
+          "item": "hv13b-i14",
+          "reason": "Hypothetical correction: the bus record belongs to the hiking outing; its pickup clarification does not arrange swim spectator access.",
+          "wrongThread": "access-seating"
+        }
+      },
+      "id": "hv13b",
+      "items": [
+        {
+          "id": "hv13b-i01",
+          "memberships": [
+            "timing-repair"
+          ],
+          "modality": "video",
+          "rationale": "Defines timing-equipment repair.",
+          "text": "Lane two touchpad sometimes misses a finish. Test cable continuity first; don't assume the pad itself is dead."
+        },
+        {
+          "id": "hv13b-i02",
+          "memberships": [
+            "medal-order"
+          ],
+          "modality": "file",
+          "rationale": "Starts medal procurement.",
+          "text": "Invitational awards order: 48 medals with blue ribbons. Engraving is year and meet name only, no swimmer names."
+        },
+        {
+          "id": "hv13b-i03",
+          "memberships": [
+            "club-banners"
+          ],
+          "modality": "note",
+          "rationale": "Defines reusable club banner design.",
+          "text": "New club banner: turquoise background, white wave, no year so we can use it next season. Need a print proof."
+        },
+        {
+          "id": "hv13b-i04",
+          "memberships": [
+            "bus-hire"
+          ],
+          "modality": "voice",
+          "rationale": "Defines unrelated hiking transport.",
+          "text": "Hiking club bus quote for 22 people to Alder Pass. Deposit due Friday; wheelchair lift not requested for this booking."
+        },
+        {
+          "id": "hv13b-i05",
+          "memberships": [
+            "access-seating"
+          ],
+          "modality": "note",
+          "rationale": "Plans accessible seating at meet.",
+          "text": "Swim spectator seating: reserve four wheelchair spaces at the west gallery and adjacent companion chairs. Lift key stays at reception."
+        },
+        {
+          "id": "hv13b-i06",
+          "memberships": [
+            "results-release"
+          ],
+          "modality": "file",
+          "rationale": "Sets race-results publication task.",
+          "text": "Results release checklist: verify disqualifications against referee sheets before posting the invitational PDF. Initial draft has no relay splits."
+        },
+        {
+          "id": "hv13b-i07",
+          "memberships": [
+            "timing-repair"
+          ],
+          "modality": "note",
+          "rationale": "Diagnoses timing issue to cable.",
+          "text": "Touchpad fault follows lane-two cable when swapped to lane four. Replace that cable; keep the pad."
+        },
+        {
+          "id": "hv13b-i08",
+          "memberships": [
+            "medal-order"
+          ],
+          "modality": "note",
+          "rationale": "48 blue and proof jointly identify the invitational medal quantity, ribbon and engraving approval in i02/i12/i18. Friday alone is not sufficient evidence.",
+          "text": "48 blue, Friday, confirm proof"
+        },
+        {
+          "id": "hv13b-i09",
+          "memberships": [
+            "club-banners"
+          ],
+          "modality": "image",
+          "rationale": "Checks banner proof.",
+          "text": "Printer's club banner proof is too dark to show the white wave detail. Ask for a lighter turquoise sample on the actual fabric."
+        },
+        {
+          "id": "hv13b-i10",
+          "memberships": [
+            "results-release"
+          ],
+          "modality": "image",
+          "rationale": "Identifies suspicious published race time.",
+          "text": "Invitational provisional results give heat 3 lane two a 1:08.42, but hand timers both recorded about 1:06. Flag it for referee review."
+        },
+        {
+          "id": "hv13b-i11",
+          "memberships": [
+            "timing-repair",
+            "results-release"
+          ],
+          "modality": "note",
+          "rationale": "Verifies equipment repair and corrects a specific race result with provenance.",
+          "text": "Results/timing handoff: new lane-two cable passes twenty finishes, so reopen the lane for afternoon heats. For the earlier heat 3 result, use the referee-approved backup 1:06.38 in place of 1:08.42 and retain the failed automatic record in the audit attachment."
+        },
+        {
+          "id": "hv13b-i12",
+          "memberships": [
+            "medal-order"
+          ],
+          "modality": "voice",
+          "rationale": "Revises award specification.",
+          "text": "Medal supplier short of blue ribbon. Approved navy for all 48; delivery still Thursday."
+        },
+        {
+          "id": "hv13b-i13",
+          "memberships": [
+            "access-seating"
+          ],
+          "modality": "image",
+          "rationale": "Fixes accessible spectator route.",
+          "text": "West gallery ramp blocked by a stack of chairs in setup photo. Venue steward agreed to clear it and mark the four reserved wheelchair spaces."
+        },
+        {
+          "id": "hv13b-i14",
+          "memberships": [
+            "bus-hire"
+          ],
+          "modality": "file",
+          "rationale": "Confirms hiking transport and pickup.",
+          "text": "Alder Pass hiking bus booked for 22, deposit paid. Driver pickup is library car park, not the swimming pool."
+        },
+        {
+          "id": "hv13b-i15",
+          "memberships": [
+            "timing-repair"
+          ],
+          "modality": "voice",
+          "rationale": "Confirms repair and isolates failed equipment.",
+          "text": "Replace the suspect lane-two cable's label with 'failed continuity test' and keep it off the spare rack. New cable stayed clean for afternoon races."
+        },
+        {
+          "id": "hv13b-i16",
+          "memberships": [
+            "results-release"
+          ],
+          "modality": "note",
+          "rationale": "Prepares verified publication.",
+          "text": "Invitational results PDF now includes corrected heat 3 time and signed disqualification codes. Release after the final referee read-through."
+        },
+        {
+          "id": "hv13b-i17",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "Object is unidentified despite a shared location.",
+          "text": "Left it at reception. Could someone collect?"
+        },
+        {
+          "id": "hv13b-i18",
+          "memberships": [
+            "medal-order"
+          ],
+          "modality": "image",
+          "rationale": "Verifies award delivery.",
+          "text": "All 48 medals delivered with approved navy ribbons. Counted twelve per tray; engraving matches the invitational proof."
+        },
+        {
+          "id": "hv13b-i19",
+          "memberships": [
+            "club-banners"
+          ],
+          "modality": "file",
+          "rationale": "Approves final reusable banner order.",
+          "text": "Banner fabric sample approved in lighter turquoise. Print one 2-metre banner with reinforced corner eyelets."
+        },
+        {
+          "id": "hv13b-i20",
+          "memberships": [
+            "access-seating"
+          ],
+          "modality": "video",
+          "rationale": "Verifies accessible seating arrangements.",
+          "text": "West gallery setup checked: four wheelchair bays and four companion seats, clear route from the lift. Reception has the key."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "timing-repair",
+          "results-release"
+        ],
+        [
+          "timing-repair",
+          "medal-order"
+        ],
+        [
+          "timing-repair",
+          "access-seating"
+        ],
+        [
+          "results-release",
+          "medal-order"
+        ],
+        [
+          "results-release",
+          "access-seating"
+        ],
+        [
+          "medal-order",
+          "access-seating"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv13",
+      "templateFamily": "hv13",
+      "threadDescriptions": {
+        "access-seating": "Arrange accessible spectator seating at the swim venue.",
+        "bus-hire": "Book transport for an unrelated hiking club outing.",
+        "club-banners": "Produce a new reusable club banner.",
+        "medal-order": "Order and receive awards for the invitational.",
+        "results-release": "Check and publish the invitational race results.",
+        "timing-repair": "Repair and verify the lane-two touchpad timing fault before the invitational."
+      },
+      "threads": [
+        "timing-repair",
+        "results-release",
+        "medal-order",
+        "access-seating",
+        "club-banners",
+        "bus-hire"
+      ]
+    },
+    {
+      "challenges": [
+        "shared_ingredient",
+        "inventory_correction",
+        "bridge",
+        "noisy_ocr"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv14a-i13",
+          "threads": [
+            "oat-stock",
+            "winter-drinks"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv14a-i01",
+          "later": "hv14a-i08",
+          "thread": "oat-stock"
+        },
+        "undo": {
+          "item": "hv14a-i11",
+          "reason": "Hypothetical correction: costing a recipe references oat prices but does not count, reserve or replenish inventory.",
+          "wrongThread": "oat-stock"
+        }
+      },
+      "id": "hv14a",
+      "items": [
+        {
+          "id": "hv14a-i01",
+          "memberships": [
+            "oat-stock"
+          ],
+          "modality": "note",
+          "rationale": "Counts and sets reorder rule for oat supply.",
+          "text": "Morning oat count: seven sealed cartons behind the bar, six in the storeroom. Reorder at twelve because delivery takes two days."
+        },
+        {
+          "id": "hv14a-i02",
+          "memberships": [
+            "winter-drinks"
+          ],
+          "modality": "voice",
+          "rationale": "Develops menu recipe.",
+          "text": "Winter drinks test: toasted-date latte at 250 ml. Try the syrup at 15 ml first; current sample overwhelms the coffee."
+        },
+        {
+          "id": "hv14a-i03",
+          "memberships": [
+            "staff-aprons"
+          ],
+          "modality": "file",
+          "rationale": "Defines replacement apron fit requirements.",
+          "text": "Apron sizing sheet: Len wants longer ties, Priya shorter neck strap. Send actual measurements, not just S/M."
+        },
+        {
+          "id": "hv14a-i04",
+          "memberships": [
+            "grinder-service"
+          ],
+          "modality": "video",
+          "rationale": "Documents grinder fault.",
+          "text": "Grinder shot comparison: left basket gets mostly fines; burr collar clicks under load. Stop adjusting until service checks alignment."
+        },
+        {
+          "id": "hv14a-i05",
+          "memberships": [
+            "oat-stock"
+          ],
+          "modality": "image",
+          "rationale": "Records oat inventory receipt despite OCR noise.",
+          "text": "Delivery invoice OCR: OAT DRlNK 6 x 1L / qty 2 / lot OD83. Received two cases, both sealed."
+        },
+        {
+          "id": "hv14a-i06",
+          "memberships": [
+            "winter-drinks"
+          ],
+          "modality": "note",
+          "rationale": "Revises winter recipe after tasting.",
+          "text": "Date latte panel liked 9 ml syrup better than 15. Keep 250 ml cup; cost the lower-syrup recipe for the winter board."
+        },
+        {
+          "id": "hv14a-i07",
+          "memberships": [],
+          "modality": "note",
+          "rationale": "Ambiguous count and person without identifiable stock or apparel referent.",
+          "text": "Seven? one open; ask Len."
+        },
+        {
+          "id": "hv14a-i08",
+          "memberships": [
+            "oat-stock"
+          ],
+          "modality": "note",
+          "rationale": "Corrects starting inventory count.",
+          "text": "Stock correction: morning total was thirteen cartons but two behind-bar cartons were empty display props. Actual usable oat stock was eleven before the delivery."
+        },
+        {
+          "id": "hv14a-i09",
+          "memberships": [
+            "grinder-service"
+          ],
+          "modality": "file",
+          "rationale": "Identifies repair needed.",
+          "text": "Grinder service found a loose upper-burr carrier. Replacement screw ordered; technician says keep this grinder off until fitted."
+        },
+        {
+          "id": "hv14a-i10",
+          "memberships": [
+            "staff-aprons"
+          ],
+          "modality": "image",
+          "rationale": "Advances apron fitting and order.",
+          "text": "Apron supplier can lengthen ties by 20 cm at no charge. Priya tried a pinned neck strap and marked the comfortable length."
+        },
+        {
+          "id": "hv14a-i11",
+          "memberships": [
+            "winter-drinks"
+          ],
+          "modality": "file",
+          "rationale": "Costs and presents winter drink.",
+          "text": "Winter menu costing sheet: date latte with oat base adds 22p over dairy at today's carton price. Show one fixed menu price; don't print the ingredient-cost arithmetic."
+        },
+        {
+          "id": "hv14a-i12",
+          "memberships": [
+            "oat-stock"
+          ],
+          "modality": "voice",
+          "rationale": "Updates oat replenishment risk.",
+          "text": "Oat supplier says next delivery will be a day late. We have enough for ordinary service but not a large promotion."
+        },
+        {
+          "id": "hv14a-i13",
+          "memberships": [
+            "oat-stock",
+            "winter-drinks"
+          ],
+          "modality": "note",
+          "rationale": "Allocates/orders stock and changes menu publication timing.",
+          "text": "Winter launch stock plan: reserve eight oat cartons for Saturday's date-latte samples and increase the next oat order by one case. Delay the printed menu's launch date to Sunday if the late delivery doesn't arrive; replace the old Friday launch proof. The tasting table will use small cups, but the bar will still serve ordinary drinks, so the reserve cannot be the entire stock available to the shift. Put a dated count sheet on the storeroom door and have the opener check the delivery before approving the board for printing. If the carton count is short, leave the regular board up and tell the printer which dated proof to hold. We already approved the drink recipe and price; only its public start date depends on this delivery. Count unopened cartons after sampling to establish Monday's reorder quantity."
+        },
+        {
+          "id": "hv14a-i14",
+          "memberships": [
+            "winter-drinks"
+          ],
+          "modality": "image",
+          "rationale": "Checks final menu publication artifact.",
+          "text": "Winter board proof: 'Toasted Date Latte', 250 ml, one price. Remove the crossed-out Friday launch line before printing."
+        },
+        {
+          "id": "hv14a-i15",
+          "memberships": [
+            "grinder-service"
+          ],
+          "modality": "video",
+          "rationale": "Verifies grinder repair.",
+          "text": "Burr carrier secured. Grind-size spread now even in three test shots; service ticket closed."
+        },
+        {
+          "id": "hv14a-i16",
+          "memberships": [
+            "staff-aprons"
+          ],
+          "modality": "note",
+          "rationale": "Places fitted apparel order.",
+          "text": "Apron order confirmed: six black, Len's pair with longer ties, Priya's pair with shortened neck straps, two standard spares."
+        },
+        {
+          "id": "hv14a-i17",
+          "memberships": [
+            "oat-stock"
+          ],
+          "modality": "image",
+          "rationale": "Confirms stock sufficiency and rotation.",
+          "text": "Oat case arrived before close. Count gives enough for eight-carton sampling reserve plus weekday service; put the oldest lot in front."
+        },
+        {
+          "id": "hv14a-i18",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "Caf\u00e9 setting does not identify which priced item or document.",
+          "text": "Voice scrap: 'change the old price before Sunday' with background milk-steamer noise."
+        },
+        {
+          "id": "hv14a-i19",
+          "memberships": [
+            "winter-drinks"
+          ],
+          "modality": "note",
+          "rationale": "Launches finalized recipe and menu.",
+          "text": "Date latte winter board printed and hung. Final batch uses the approved 9 ml syrup; label the pump to avoid returning to 15."
+        },
+        {
+          "id": "hv14a-i20",
+          "memberships": [
+            "staff-aprons"
+          ],
+          "modality": "video",
+          "rationale": "Verifies clothing order fit.",
+          "text": "Delivered aprons match the marked lengths. Priya can reach the till without the neck pulling; put the two spares upstairs."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "oat-stock",
+          "winter-drinks"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv14",
+      "templateFamily": "hv14",
+      "threadDescriptions": {
+        "grinder-service": "Diagnose and repair uneven output from the counter grinder.",
+        "oat-stock": "Keep the caf\u00e9's oat-drink supply accurate and sufficient for service.",
+        "staff-aprons": "Fit and order replacement staff aprons.",
+        "winter-drinks": "Develop and publish the winter drinks menu with tested recipes and costs."
+      },
+      "threads": [
+        "oat-stock",
+        "winter-drinks",
+        "grinder-service",
+        "staff-aprons"
+      ]
+    },
+    {
+      "challenges": [
+        "supplier_reference",
+        "objective_boundary",
+        "rename",
+        "bridge"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv14b-i11",
+          "threads": [
+            "pastry-count",
+            "allergen-cards"
+          ]
+        },
+        "rename": {
+          "evidenceItem": "hv14b-i10",
+          "from": "Extra uplift",
+          "thread": "bin-contract",
+          "to": "Food bin schedule"
+        },
+        "revision": {
+          "earlier": "hv14b-i03",
+          "later": "hv14b-i07",
+          "thread": "allergen-cards"
+        },
+        "undo": {
+          "item": "hv14b-i16",
+          "reason": "Hypothetical correction: recording zero pastry waste manages stock; it does not alter the collection contract.",
+          "wrongThread": "bin-contract"
+        }
+      },
+      "id": "hv14b",
+      "items": [
+        {
+          "id": "hv14b-i01",
+          "memberships": [
+            "pastry-count"
+          ],
+          "modality": "note",
+          "rationale": "Sets daily pastry quantities from sales and waste.",
+          "text": "Bakery tally: ordered 18 pear twists, sold 11, staff ate 2, five left. Reduce tomorrow's order to fourteen and track waste separately."
+        },
+        {
+          "id": "hv14b-i02",
+          "memberships": [
+            "catering-coffee"
+          ],
+          "modality": "file",
+          "rationale": "Defines external coffee catering.",
+          "text": "Archive breakfast coffee order: thirty cups at 08:15 Tuesday, filter only. They supply cups, we bring urn and stirrers."
+        },
+        {
+          "id": "hv14b-i03",
+          "memberships": [
+            "allergen-cards"
+          ],
+          "modality": "image",
+          "rationale": "Identifies incomplete pastry allergen information.",
+          "text": "Counter allergen card for pear twist says dairy only. Bakery recipe sheet also lists wheat and egg; confirm before reprinting."
+        },
+        {
+          "id": "hv14b-i04",
+          "memberships": [
+            "window-film"
+          ],
+          "modality": "video",
+          "rationale": "Trials caf\u00e9 window film.",
+          "text": "West window glare hits the espresso screen after three. Film sample A makes the room grey; test the clear UV sample instead."
+        },
+        {
+          "id": "hv14b-i05",
+          "memberships": [
+            "bin-contract"
+          ],
+          "modality": "voice",
+          "rationale": "Begins collection contract change.",
+          "text": "Waste collector quote for twice-weekly food bin instead of weekly. Ask whether the smaller wheelie bin changes the minimum term."
+        },
+        {
+          "id": "hv14b-i06",
+          "memberships": [
+            "pastry-count"
+          ],
+          "modality": "note",
+          "rationale": "Refines pastry inventory disposition tracking.",
+          "text": "Pear twist order sent at fourteen. Add a column for unsold pieces that can still be donated; they are not all waste."
+        },
+        {
+          "id": "hv14b-i07",
+          "memberships": [
+            "allergen-cards"
+          ],
+          "modality": "file",
+          "rationale": "Explicitly corrects allergen draft after supplier verification.",
+          "text": "Bakery clarified the pear-twist wash uses milk, no egg. Correct my card draft: wheat and milk; retain their signed ingredient sheet as evidence."
+        },
+        {
+          "id": "hv14b-i08",
+          "memberships": [
+            "catering-coffee"
+          ],
+          "modality": "voice",
+          "rationale": "Tests catering equipment and preparation.",
+          "text": "Breakfast urn trial holds coffee above our service target for ninety minutes. Preheat with hot water, empty, then fill just before leaving for the archive."
+        },
+        {
+          "id": "hv14b-i09",
+          "memberships": [],
+          "modality": "note",
+          "rationale": "Generic terms could refer to several supplier tasks.",
+          "text": "A clear one, not fourteen. check supplier."
+        },
+        {
+          "id": "hv14b-i10",
+          "memberships": [
+            "bin-contract"
+          ],
+          "modality": "note",
+          "rationale": "Explicitly renames waste scheduling record.",
+          "text": "Bin contract name on quote is 'Extra uplift'. Rename our admin folder to 'Food bin schedule'; still the same twice-weekly food-waste proposal."
+        },
+        {
+          "id": "hv14b-i11",
+          "memberships": [
+            "pastry-count",
+            "allergen-cards"
+          ],
+          "modality": "note",
+          "rationale": "Changes purchase quantity and concrete allergen signage for replacement product.",
+          "text": "Pastry supply changed for Friday: bakery replaces pear twists with apple pockets. Order ten pockets instead of fourteen twists, and replace the counter allergen card with the supplier's wheat/milk/almond declaration before displaying them."
+        },
+        {
+          "id": "hv14b-i12",
+          "memberships": [
+            "window-film"
+          ],
+          "modality": "image",
+          "rationale": "Confirms film measurements and selection.",
+          "text": "Window installer measured west pane twice: 132 by 186 cm inside the seals. Approved clear film sample after viewing at three o'clock."
+        },
+        {
+          "id": "hv14b-i13",
+          "memberships": [
+            "catering-coffee"
+          ],
+          "modality": "file",
+          "rationale": "Revises catering volume and charge.",
+          "text": "Archive host revised headcount to twenty-four. Coffee delivery stays 08:15; reduce brewed volume and send the revised catering total."
+        },
+        {
+          "id": "hv14b-i14",
+          "memberships": [
+            "allergen-cards"
+          ],
+          "modality": "image",
+          "rationale": "Verifies replacement counter label and archives old one.",
+          "text": "Apple pocket allergen card proof: wheat, milk, almond in bold, product name above. Keep pear-twist card in the retired folder so it isn't put back accidentally."
+        },
+        {
+          "id": "hv14b-i15",
+          "memberships": [
+            "bin-contract"
+          ],
+          "modality": "file",
+          "rationale": "Finalizes waste collection terms.",
+          "text": "Food bin schedule accepted: Tuesday and Friday collections, smaller bin, month-to-month. First Tuesday pickup starts next week."
+        },
+        {
+          "id": "hv14b-i16",
+          "memberships": [
+            "pastry-count"
+          ],
+          "modality": "note",
+          "rationale": "Tracks replacement pastry stock outcome.",
+          "text": "Friday pastry close: ten apple pockets in, eight sold, two donated; zero discarded. Keep Monday order at ten pending another day's sales."
+        },
+        {
+          "id": "hv14b-i17",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "Object and purpose are unknown.",
+          "text": "On the counter, by the old sheet. Ask Mina."
+        },
+        {
+          "id": "hv14b-i18",
+          "memberships": [
+            "window-film"
+          ],
+          "modality": "video",
+          "rationale": "Checks installed glare treatment.",
+          "text": "West window film installed with a small bubble at the top. Installer says inspect after three days; screen is readable this afternoon."
+        },
+        {
+          "id": "hv14b-i19",
+          "memberships": [
+            "catering-coffee"
+          ],
+          "modality": "note",
+          "rationale": "Completes external catering.",
+          "text": "Archive meeting coffee delivered 08:10 for twenty-four. Urn returned empty and clean; final invoice matches revised headcount."
+        },
+        {
+          "id": "hv14b-i20",
+          "memberships": [
+            "allergen-cards"
+          ],
+          "modality": "note",
+          "rationale": "Verifies current product allergen signage.",
+          "text": "Counter check: apple pocket sign matches the current bakery ingredient declaration. No pear-twist labels left among today's trays."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "pastry-count",
+          "allergen-cards"
+        ],
+        [
+          "pastry-count",
+          "bin-contract"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv14",
+      "templateFamily": "hv14",
+      "threadDescriptions": {
+        "allergen-cards": "Correct and replace counter allergen cards for the pastries.",
+        "bin-contract": "Change the caf\u00e9's waste-collection schedule and contract.",
+        "catering-coffee": "Prepare and deliver coffee service for the archive's breakfast meeting.",
+        "pastry-count": "Control daily pastry ordering and waste at the caf\u00e9.",
+        "window-film": "Install glare-reducing film on the caf\u00e9's west window."
+      },
+      "threads": [
+        "pastry-count",
+        "allergen-cards",
+        "catering-coffee",
+        "window-film",
+        "bin-contract"
+      ]
+    },
+    {
+      "challenges": [
+        "coordinate-correction",
+        "dataset-versus-product",
+        "bridge",
+        "sparse-ocr"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv15a-i12",
+          "threads": [
+            "tree-survey",
+            "shade-map"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv15a-i05",
+          "later": "hv15a-i07",
+          "thread": "tree-survey"
+        },
+        "undo": null
+      },
+      "id": "hv15a",
+      "items": [
+        {
+          "id": "hv15a-i01",
+          "memberships": [
+            "tree-survey"
+          ],
+          "modality": "file",
+          "rationale": "Point-record cleaning task.",
+          "text": "Street-tree survey import: 312 points, species field often blank. Start by checking duplicate coordinates along Alder Street against the volunteers' photos."
+        },
+        {
+          "id": "hv15a-i02",
+          "memberships": [
+            "shade-map"
+          ],
+          "modality": "note",
+          "rationale": "Defines derived route-map objective.",
+          "text": "Shade walking map draft should favor covered pavements between the clinic and library at noon. A large canopy does not guarantee shade on the correct side of the road."
+        },
+        {
+          "id": "hv15a-i03",
+          "memberships": [
+            "laundry-repair"
+          ],
+          "modality": "video",
+          "rationale": "Household leak diagnosis.",
+          "text": "Water beneath washer inlet after each fill. Dry it, run a short fill, and photograph which joint first becomes wet."
+        },
+        {
+          "id": "hv15a-i04",
+          "memberships": [
+            "open-data-release"
+          ],
+          "modality": "file",
+          "rationale": "Public dataset packaging and privacy.",
+          "text": "Public tree-data package needs field definitions, collection dates, license and a note that absent species means unknown. Remove volunteer phone numbers from release files."
+        },
+        {
+          "id": "hv15a-i05",
+          "memberships": [
+            "tree-survey"
+          ],
+          "modality": "image",
+          "rationale": "Resolves duplicate tree records.",
+          "text": "Alder point T-48 appears twice in the survey. Photo timestamps show one tree photographed from both sides; keep the more accurate location."
+        },
+        {
+          "id": "hv15a-i06",
+          "memberships": [
+            "shade-map"
+          ],
+          "modality": "voice",
+          "rationale": "Tests and adjusts walking route.",
+          "text": "Noon walk test: clinic's west pavement remains exposed under the current shade route. Try the service lane behind the library instead."
+        },
+        {
+          "id": "hv15a-i07",
+          "memberships": [
+            "tree-survey"
+          ],
+          "modality": "note",
+          "rationale": "Corrects retained point location.",
+          "text": "Survey location correction: T-48 was snapped to the east pavement by mistake. Field photo confirms west pavement, beside the red post box; update the kept point."
+        },
+        {
+          "id": "hv15a-i08",
+          "memberships": [],
+          "modality": "image",
+          "rationale": "Fragment cannot distinguish record cleaning or map work.",
+          "text": "48 west / blank / library"
+        },
+        {
+          "id": "hv15a-i09",
+          "memberships": [
+            "laundry-repair"
+          ],
+          "modality": "voice",
+          "rationale": "Leak source and repair preparation.",
+          "text": "Washer leak starts at the hose collar, not the wall valve. New rubber washer ordered; keep the supply closed when unattended."
+        },
+        {
+          "id": "hv15a-i10",
+          "memberships": [
+            "open-data-release"
+          ],
+          "modality": "note",
+          "rationale": "Dataset publication documentation.",
+          "text": "Tree release dictionary: trunk diameter in centimetres, canopy width in metres. Put units in the description, not embedded in numeric cells."
+        },
+        {
+          "id": "hv15a-i11",
+          "memberships": [
+            "tree-survey"
+          ],
+          "modality": "file",
+          "rationale": "Survey cleanup result and provenance.",
+          "text": "Volunteer photo audit finished for Alder Street: merged five duplicates and left three uncertain species empty. Keep the original capture rows in the survey archive."
+        },
+        {
+          "id": "hv15a-i12",
+          "memberships": [
+            "tree-survey",
+            "shade-map"
+          ],
+          "modality": "voice",
+          "rationale": "Updates source provenance and derived map together.",
+          "text": "Use today's corrected tree points in the shade map. Recalculate the clinic-to-library route and inspect the route near T-48, while recording the corrected point coordinates back in the survey change log."
+        },
+        {
+          "id": "hv15a-i13",
+          "memberships": [
+            "open-data-release"
+          ],
+          "modality": "image",
+          "rationale": "Public release privacy correction.",
+          "text": "Open-data preview accidentally includes the volunteer contact tab. Remove it from the public package and regenerate the file list before release review."
+        },
+        {
+          "id": "hv15a-i14",
+          "memberships": [
+            "laundry-repair"
+          ],
+          "modality": "video",
+          "rationale": "Repair verification.",
+          "text": "New inlet washer seated flat. Ten-minute fill test left tissue around the collar dry; check once more during a full wash."
+        },
+        {
+          "id": "hv15a-i15",
+          "memberships": [
+            "shade-map"
+          ],
+          "modality": "note",
+          "rationale": "Map interpretation and limitation text.",
+          "text": "Shade route legend now says estimated summer noon cover. Add a clear warning that the map does not predict conditions at every hour."
+        },
+        {
+          "id": "hv15a-i16",
+          "memberships": [
+            "open-data-release"
+          ],
+          "modality": "file",
+          "rationale": "Release package validation.",
+          "text": "Public tree dataset review: package contains points, dictionary, license and change log only. Downloaded copy opens correctly in a fresh GIS project."
+        },
+        {
+          "id": "hv15a-i17",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "Unspecified blank lacks enough evidence for an objective.",
+          "text": "There is still a blank by the bend. Ask the volunteer."
+        },
+        {
+          "id": "hv15a-i18",
+          "memberships": [
+            "laundry-repair"
+          ],
+          "modality": "note",
+          "rationale": "Repair completion.",
+          "text": "Full washer cycle stayed dry at the inlet collar. Keep the spare rubber washer with the hose receipt."
+        },
+        {
+          "id": "hv15a-i19",
+          "memberships": [
+            "shade-map"
+          ],
+          "modality": "video",
+          "rationale": "Derived map usability refinement.",
+          "text": "Shade-map mobile test: the lane alternative is readable, but the route line hides two crossings. Narrow its stroke before sharing the walking guide."
+        },
+        {
+          "id": "hv15a-i20",
+          "memberships": [
+            "tree-survey"
+          ],
+          "modality": "file",
+          "rationale": "Final survey-record quality check.",
+          "text": "Tree survey final audit leaves 307 distinct trees. Species remains unknown for three; do not guess from canopy shape alone."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "tree-survey",
+          "shade-map"
+        ],
+        [
+          "tree-survey",
+          "open-data-release"
+        ],
+        [
+          "shade-map",
+          "open-data-release"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv15",
+      "templateFamily": "hv15a-civic-tree-inventory",
+      "threadDescriptions": {
+        "laundry-repair": "Repair a leaking household washing-machine inlet connection",
+        "open-data-release": "Prepare a documented public release of the civic tree dataset",
+        "shade-map": "Build a summer walking-route shade map using verified canopy information",
+        "tree-survey": "Clean and verify civic street-tree point records collected by volunteers"
+      },
+      "threads": [
+        "tree-survey",
+        "shade-map",
+        "open-data-release",
+        "laundry-repair"
+      ]
+    },
+    {
+      "challenges": [
+        "identifier-alias",
+        "measurement-update",
+        "five-thread-topology",
+        "bridge"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv15b-i12",
+          "threads": [
+            "public-issue-view",
+            "stop-access-audit"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv15b-i01",
+          "later": "hv15b-i06",
+          "thread": "stop-access-audit"
+        },
+        "undo": {
+          "item": "hv15b-i14",
+          "reason": "Hypothetical correction: these are training-practice observations, not additions to the civic field audit.",
+          "wrongThread": "stop-access-audit"
+        }
+      },
+      "id": "hv15b",
+      "items": [
+        {
+          "id": "hv15b-i01",
+          "memberships": [
+            "stop-access-audit"
+          ],
+          "modality": "image",
+          "rationale": "Access observation awaiting precise measurement.",
+          "text": "Bus-stop field sheet: Riverside northbound curb step estimated 4 cm. Pavement slopes away from shelter; return with the measuring block."
+        },
+        {
+          "id": "hv15b-i02",
+          "memberships": [
+            "address-crosswalk"
+          ],
+          "modality": "file",
+          "rationale": "Resolves dataset identifier mapping.",
+          "text": "Transport stop R17 and address record RV-N refer to the same northbound shelter. Add the alias to the identifier crosswalk, keeping both original keys."
+        },
+        {
+          "id": "hv15b-i03",
+          "memberships": [
+            "choir-recording"
+          ],
+          "modality": "voice",
+          "rationale": "Rehearsal audio production.",
+          "text": "Choir rehearsal audio: altos disappear in the group mix. Export a separate alto guide from the close microphone track."
+        },
+        {
+          "id": "hv15b-i04",
+          "memberships": [
+            "survey-training"
+          ],
+          "modality": "note",
+          "rationale": "Surveyor instruction preparation.",
+          "text": "Volunteer survey training needs a short curb-height demonstration. Show where the measuring block touches, and how to record an inaccessible measurement safely."
+        },
+        {
+          "id": "hv15b-i05",
+          "memberships": [
+            "public-issue-view"
+          ],
+          "modality": "image",
+          "rationale": "Public-facing issue map design.",
+          "text": "Resident bus-stop map wireframe: one issue card per audited stop, plain-language access notes and date observed. Unvisited stops must not appear verified."
+        },
+        {
+          "id": "hv15b-i06",
+          "memberships": [
+            "stop-access-audit"
+          ],
+          "modality": "voice",
+          "rationale": "Corrects initial field measurement.",
+          "text": "Riverside northbound remeasure: 7 cm curb step, replacing the 4 cm estimate. The first photo angle hid the lower edge of the kerb."
+        },
+        {
+          "id": "hv15b-i07",
+          "memberships": [
+            "address-crosswalk"
+          ],
+          "modality": "note",
+          "rationale": "Prevents identifier collision in mapping.",
+          "text": "Crosswalk collision: R17 also appears as an old district address code. Namespace the keys by source so the northbound stop does not absorb a residential address."
+        },
+        {
+          "id": "hv15b-i08",
+          "memberships": [
+            "survey-training"
+          ],
+          "modality": "video",
+          "rationale": "Survey training video refinement.",
+          "text": "Training demo take two: hold the camera level and say the units aloud. Add captions so volunteers can follow without sound."
+        },
+        {
+          "id": "hv15b-i09",
+          "memberships": [],
+          "modality": "image",
+          "rationale": "Incomplete conflicting cues.",
+          "text": "North / seven / alto?"
+        },
+        {
+          "id": "hv15b-i10",
+          "memberships": [
+            "choir-recording"
+          ],
+          "modality": "file",
+          "rationale": "Rehearsal guide export.",
+          "text": "Choir alto guide exported with count-in and piano reference. Keep the warm-up chatter out of the shared audio folder."
+        },
+        {
+          "id": "hv15b-i11",
+          "memberships": [
+            "stop-access-audit"
+          ],
+          "modality": "note",
+          "rationale": "Additional dated access observation.",
+          "text": "Stop access audit at Mill Close: dropped kerb clear, shelter approach blocked by a temporary fence. Record the observation date because the barrier may move."
+        },
+        {
+          "id": "hv15b-i12",
+          "memberships": [
+            "public-issue-view",
+            "stop-access-audit"
+          ],
+          "modality": "video",
+          "rationale": "Corrects public display and audit publication traceability.",
+          "text": "Public map test still shows the old Riverside estimate. Replace its issue card with the measured 7 cm value and update the audit's publication-reference field to the new card revision."
+        },
+        {
+          "id": "hv15b-i13",
+          "memberships": [
+            "address-crosswalk"
+          ],
+          "modality": "file",
+          "rationale": "Identifier mapping validation and documentation.",
+          "text": "Address crosswalk review: RV-N maps uniquely to transport:R17; district:R17 stays unmatched. Add this collision example to the crosswalk README."
+        },
+        {
+          "id": "hv15b-i14",
+          "memberships": [
+            "survey-training"
+          ],
+          "modality": "voice",
+          "rationale": "Training response to inconsistent observations.",
+          "text": "Two trainee surveyors recorded opposite units on the practice curb. Repeat the measuring exercise and add a required cm field to the training sheet."
+        },
+        {
+          "id": "hv15b-i15",
+          "memberships": [
+            "public-issue-view"
+          ],
+          "modality": "note",
+          "rationale": "Resident map accessibility and ordering.",
+          "text": "Public access map: sort issue cards by stop name, not severity guessed from height alone. Keyboard focus needs to follow the same order."
+        },
+        {
+          "id": "hv15b-i16",
+          "memberships": [
+            "choir-recording"
+          ],
+          "modality": "voice",
+          "rationale": "Audio guide correction.",
+          "text": "Choir conductor spotted a missing bar in the alto guide. Restore it from the close microphone track and replace the shared rehearsal file."
+        },
+        {
+          "id": "hv15b-i17",
+          "memberships": [
+            "stop-access-audit"
+          ],
+          "modality": "image",
+          "rationale": "Time-dependent field observation update.",
+          "text": "Revisited Mill Close: fence removed, shelter approach now clear. Preserve last week's blocked-access photo alongside today's dated observation."
+        },
+        {
+          "id": "hv15b-i18",
+          "memberships": [],
+          "modality": "note",
+          "rationale": "Object and visit are unspecified.",
+          "text": "Send the corrected one to everyone before the visit."
+        },
+        {
+          "id": "hv15b-i19",
+          "memberships": [
+            "survey-training"
+          ],
+          "modality": "file",
+          "rationale": "Final training deliverable.",
+          "text": "Survey training pack ready: captioned curb demo, cm practice sheet and safe-refusal example. Ask new volunteers to complete the exercise before fieldwork."
+        },
+        {
+          "id": "hv15b-i20",
+          "memberships": [
+            "public-issue-view"
+          ],
+          "modality": "video",
+          "rationale": "Public map release validation.",
+          "text": "Resident map release check: unvisited stops labelled not surveyed, every access card dated, keyboard navigation reaches the close button. Ready for publication review."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "stop-access-audit",
+          "address-crosswalk"
+        ],
+        [
+          "stop-access-audit",
+          "public-issue-view"
+        ],
+        [
+          "stop-access-audit",
+          "survey-training"
+        ],
+        [
+          "address-crosswalk",
+          "public-issue-view"
+        ],
+        [
+          "address-crosswalk",
+          "survey-training"
+        ],
+        [
+          "public-issue-view",
+          "survey-training"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv15",
+      "templateFamily": "hv15b-accessible-bus-stops",
+      "threadDescriptions": {
+        "address-crosswalk": "Reconcile bus-stop identifiers across address and transport datasets",
+        "choir-recording": "Prepare audio files from a community choir rehearsal",
+        "public-issue-view": "Publish a resident-facing map of audited bus-stop access issues",
+        "stop-access-audit": "Verify step-free access and pavement conditions at civic bus stops",
+        "survey-training": "Train volunteer surveyors to capture consistent bus-stop access observations"
+      },
+      "threads": [
+        "stop-access-audit",
+        "address-crosswalk",
+        "public-issue-view",
+        "choir-recording",
+        "survey-training"
+      ]
+    },
+    {
+      "challenges": [
+        "fictional-versus-logistical-time",
+        "rename",
+        "bridge",
+        "dialogue-fragment"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv16a-i12",
+          "threads": [
+            "table-read",
+            "ferry-script"
+          ]
+        },
+        "rename": {
+          "evidenceItem": "hv16a-i08",
+          "from": "Night Ferry",
+          "thread": "ferry-script",
+          "to": "Last Crossing"
+        },
+        "revision": {
+          "earlier": "hv16a-i01",
+          "later": "hv16a-i05",
+          "thread": "ferry-script"
+        },
+        "undo": {
+          "item": "hv16a-i07",
+          "reason": "Hypothetical undo of a landing-and-time match: the source specifies a real filming permit constraint.",
+          "wrongThread": "ferry-script"
+        }
+      },
+      "id": "hv16a",
+      "items": [
+        {
+          "id": "hv16a-i01",
+          "memberships": [
+            "ferry-script"
+          ],
+          "modality": "note",
+          "rationale": "Story structure.",
+          "text": "Night Ferry outline: the daughter reaches the landing at midnight, discovers the boat has gone, and calls her brother instead of her father."
+        },
+        {
+          "id": "hv16a-i02",
+          "memberships": [
+            "table-read"
+          ],
+          "modality": "file",
+          "rationale": "Read-through logistics.",
+          "text": "Table read for Night Ferry: reserve the back room Thursday at seven. Need four readers, one narrator and a way to record notes."
+        },
+        {
+          "id": "hv16a-i03",
+          "memberships": [
+            "window-blinds"
+          ],
+          "modality": "image",
+          "rationale": "Household blind measurement.",
+          "text": "Bedroom blind recess 112 cm wide. Measure top, middle and bottom before choosing an inside-mount kit."
+        },
+        {
+          "id": "hv16a-i04",
+          "memberships": [
+            "location-permit"
+          ],
+          "modality": "note",
+          "rationale": "Film-location permission inquiry.",
+          "text": "Old landing permit enquiry: can a crew of six film before sunset? Ask about public access, power and who signs the location agreement."
+        },
+        {
+          "id": "hv16a-i05",
+          "memberships": [
+            "ferry-script"
+          ],
+          "modality": "voice",
+          "rationale": "Explicit narrative-time correction.",
+          "text": "Script revision: daughter now arrives before dusk, not midnight. Missing the last boat in daylight makes her choice visible without a long explanation."
+        },
+        {
+          "id": "hv16a-i06",
+          "memberships": [
+            "table-read"
+          ],
+          "modality": "voice",
+          "rationale": "Casting for read-through.",
+          "text": "Night Ferry read cast confirmed except the brother. Ask Dax to cover that role; the narrator can read the stage directions."
+        },
+        {
+          "id": "hv16a-i07",
+          "memberships": [
+            "location-permit"
+          ],
+          "modality": "file",
+          "rationale": "Permit conditions and required plan.",
+          "text": "Landing office says filming access ends at 18:30. Send a plan showing crew positions and a clear pedestrian path."
+        },
+        {
+          "id": "hv16a-i08",
+          "memberships": [
+            "ferry-script"
+          ],
+          "modality": "note",
+          "rationale": "Explicit screenplay title change.",
+          "text": "Rename Night Ferry to Last Crossing on the screenplay title page. Same daughter-and-brother short, now set before dusk."
+        },
+        {
+          "id": "hv16a-i09",
+          "memberships": [
+            "window-blinds"
+          ],
+          "modality": "voice",
+          "rationale": "Corrects blind width.",
+          "text": "Top blind recess is only 111.4 cm. Use the narrowest measurement when ordering; 112 would jam against the frame."
+        },
+        {
+          "id": "hv16a-i10",
+          "memberships": [
+            "ferry-script"
+          ],
+          "modality": "file",
+          "rationale": "Dialogue using the established sibling characters.",
+          "text": "Brother: You could have called. Daughter: I did. [long pause]"
+        },
+        {
+          "id": "hv16a-i11",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "Fragment cannot separate narrative or event logistics.",
+          "text": "Before dusk. Six or seven. Ask Dax."
+        },
+        {
+          "id": "hv16a-i12",
+          "memberships": [
+            "table-read",
+            "ferry-script"
+          ],
+          "modality": "note",
+          "rationale": "Preserves read documentation and specifies script edit.",
+          "text": "At the Last Crossing table read, the brother's second call felt repetitive. Three readers started turning pages before the daughter finished speaking, which is a useful sign that the scene had already made its point. Save their timing notes beside the read recording, with the long hesitation marked rather than trimmed out. Dax thought that pause gave the daughter time to decide whether she trusted her brother, so it should survive the edit. Cut the second call from the next screenplay draft and move its one new fact into the first call. Try the brother's admission immediately after she describes the empty landing; then let her answer with a small practical question. Keep the read's original scene numbers in the notes so we can still find the comments after renumbering the draft."
+        },
+        {
+          "id": "hv16a-i13",
+          "memberships": [
+            "location-permit"
+          ],
+          "modality": "image",
+          "rationale": "Location application materials.",
+          "text": "Permit site sketch revised to put cables away from the public path. Crew remains six; submit the landing drawing with insurance details."
+        },
+        {
+          "id": "hv16a-i14",
+          "memberships": [
+            "window-blinds"
+          ],
+          "modality": "video",
+          "rationale": "Blind material and color selection.",
+          "text": "Bedroom blind sample blocks the streetlamp well but looks blue by day. Order the warmer grey in the measured recess width."
+        },
+        {
+          "id": "hv16a-i15",
+          "memberships": [
+            "ferry-script"
+          ],
+          "modality": "file",
+          "rationale": "Screenplay revision implementation.",
+          "text": "Last Crossing draft 4: first call carries the brother's admission, second call removed. End on the daughter putting the phone away, without a closing speech."
+        },
+        {
+          "id": "hv16a-i16",
+          "memberships": [
+            "table-read"
+          ],
+          "modality": "file",
+          "rationale": "Read recording organization and access.",
+          "text": "Table-read audio indexed by scene, with pauses retained for timing. Readers agreed to private sharing among the film team only."
+        },
+        {
+          "id": "hv16a-i17",
+          "memberships": [
+            "location-permit"
+          ],
+          "modality": "image",
+          "rationale": "Location approval.",
+          "text": "Landing filming permission signed for 16:00\u201318:30. Save the countersigned agreement and bring a printed copy for the caretaker."
+        },
+        {
+          "id": "hv16a-i18",
+          "memberships": [
+            "window-blinds"
+          ],
+          "modality": "note",
+          "rationale": "Installation adjustment.",
+          "text": "Grey blind installed in bedroom. Bottom rail catches the window handle; shorten the lowering limit so it clears."
+        },
+        {
+          "id": "hv16a-i19",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "No explicit script, recording, or scene referent.",
+          "text": "Try the first one with a longer pause."
+        },
+        {
+          "id": "hv16a-i20",
+          "memberships": [
+            "ferry-script"
+          ],
+          "modality": "voice",
+          "rationale": "Character dialogue refinement.",
+          "text": "Last Crossing final dialogue pass: remove repeated apologies from the daughter's first call. Her hesitation before naming the landing already conveys the shame."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "ferry-script",
+          "table-read"
+        ],
+        [
+          "ferry-script",
+          "location-permit"
+        ],
+        [
+          "table-read",
+          "location-permit"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv16",
+      "templateFamily": "hv16a-night-ferry-short",
+      "threadDescriptions": {
+        "ferry-script": "Revise the screenplay for the short film Night Ferry",
+        "location-permit": "Secure permission to film Night Ferry on the old ferry landing",
+        "table-read": "Organize and document a cast table read of Night Ferry",
+        "window-blinds": "Measure and replace bedroom window blinds"
+      },
+      "threads": [
+        "ferry-script",
+        "table-read",
+        "location-permit",
+        "window-blinds"
+      ]
+    },
+    {
+      "challenges": [
+        "same-fiction-different-artifacts",
+        "plot-correction",
+        "routine-and-ambiguous",
+        "bridge"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv16b-i12",
+          "threads": [
+            "pilot-structure",
+            "character-voices"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv16b-i01",
+          "later": "hv16b-i06",
+          "thread": "pilot-structure"
+        },
+        "undo": null
+      },
+      "id": "hv16b",
+      "items": [
+        {
+          "id": "hv16b-i01",
+          "memberships": [
+            "pilot-structure"
+          ],
+          "modality": "image",
+          "rationale": "Pilot plot sequencing.",
+          "text": "Spare Keys pilot board: tenants mistake the new caretaker for an inspector. Reveal his identity at the very end, after the boiler-room farce."
+        },
+        {
+          "id": "hv16b-i02",
+          "memberships": [
+            "character-voices"
+          ],
+          "modality": "note",
+          "rationale": "Character speech differentiation.",
+          "text": "Dialogue notebook: Bea speaks in precise corrections; Otis answers questions with stories that wander. Avoid giving them the same sarcastic rhythm."
+        },
+        {
+          "id": "hv16b-i03",
+          "memberships": [
+            "bread-starter"
+          ],
+          "modality": "voice",
+          "rationale": "Sourdough activity troubleshooting.",
+          "text": "Starter barely rose overnight. Mark the level after feeding and keep the jar away from the cold kitchen window."
+        },
+        {
+          "id": "hv16b-i04",
+          "memberships": [
+            "workshop-booking"
+          ],
+          "modality": "file",
+          "rationale": "External course booking.",
+          "text": "Screenplay workshop registration: Saturday afternoon session costs 45. Check the cancellation policy before booking the place."
+        },
+        {
+          "id": "hv16b-i05",
+          "memberships": [
+            "pitch-packet"
+          ],
+          "modality": "note",
+          "rationale": "Pitch document requirements.",
+          "text": "Spare Keys pitch packet needs logline, half-page series premise and three episode ideas. Keep pilot scene breakdown out of the main two pages."
+        },
+        {
+          "id": "hv16b-i06",
+          "memberships": [
+            "pilot-structure"
+          ],
+          "modality": "voice",
+          "rationale": "Changes the reveal placement.",
+          "text": "Pilot board correction: reveal the caretaker midway through, not at the end. The second half works better if everyone knows and pretends they don't."
+        },
+        {
+          "id": "hv16b-i07",
+          "memberships": [
+            "character-voices"
+          ],
+          "modality": "file",
+          "rationale": "Specific voice exercises.",
+          "text": "Bea dialogue exercise: replace three vague complaints with exact counts. Otis's answer about a missing key should drift into his first summer job."
+        },
+        {
+          "id": "hv16b-i08",
+          "memberships": [
+            "workshop-booking"
+          ],
+          "modality": "image",
+          "rationale": "Workshop payment and access logistics.",
+          "text": "Workshop receipt 45 paid, Saturday place confirmed. Venue moved upstairs; ask whether the lift is working before arriving."
+        },
+        {
+          "id": "hv16b-i09",
+          "memberships": [
+            "pitch-packet"
+          ],
+          "modality": "file",
+          "rationale": "Series pitch premise and examples.",
+          "text": "Two-page pitch draft: every resident holds a spare key to someone else's flat, making privacy impossible. Find an episode idea that tests trust without another lost-key plot."
+        },
+        {
+          "id": "hv16b-i10",
+          "memberships": [
+            "bread-starter"
+          ],
+          "modality": "note",
+          "rationale": "Warm shelf and leaving it longer match the slow starter in i03 and its six-hour rise in i11. The second-half phrase is not enough to add pilot membership.",
+          "text": "Warm shelf / second half / leave it longer"
+        },
+        {
+          "id": "hv16b-i11",
+          "memberships": [
+            "bread-starter"
+          ],
+          "modality": "image",
+          "rationale": "Starter improvement and maintenance.",
+          "text": "Starter doubled in six hours on the warm shelf. Keep the same feeding ratio tomorrow before trying a loaf."
+        },
+        {
+          "id": "hv16b-i12",
+          "memberships": [
+            "pilot-structure",
+            "character-voices"
+          ],
+          "modality": "note",
+          "rationale": "Revises an ordered pilot scene and shared character-voice anchors.",
+          "text": "Pilot hallway scene now exposes the caretaker halfway through. Rewrite Bea's reaction as a numbered correction and Otis's as a rambling anecdote; save those lines in the voice notebook as anchors for later episodes."
+        },
+        {
+          "id": "hv16b-i13",
+          "memberships": [
+            "workshop-booking"
+          ],
+          "modality": "voice",
+          "rationale": "Workshop attendance logistics.",
+          "text": "Workshop organiser confirms lift access and emailed directions. Bring a printed scene and the booking receipt; no laptop needed."
+        },
+        {
+          "id": "hv16b-i14",
+          "memberships": [
+            "pitch-packet"
+          ],
+          "modality": "image",
+          "rationale": "Pitch editing.",
+          "text": "Spare Keys pitch page feels dense. Cut the invented building history; use that space for the comic engine and why these neighbours stay together."
+        },
+        {
+          "id": "hv16b-i15",
+          "memberships": [
+            "character-voices"
+          ],
+          "modality": "voice",
+          "rationale": "Voice differentiation test.",
+          "text": "Read Bea and Otis without names above the lines. Bea is recognizable, Otis still sounds too concise; let him dodge one question before answering."
+        },
+        {
+          "id": "hv16b-i16",
+          "memberships": [
+            "pilot-structure"
+          ],
+          "modality": "file",
+          "rationale": "Plot continuity repair.",
+          "text": "Pilot continuity pass: caretaker leaves the master keys on the stairs in scene four, so he cannot unlock the boiler room in scene five. Add a retrieval beat."
+        },
+        {
+          "id": "hv16b-i17",
+          "memberships": [
+            "bread-starter"
+          ],
+          "modality": "video",
+          "rationale": "Starter container maintenance.",
+          "text": "Starter jar has dried batter around the rim. Transfer a spoonful to a clean jar at the next feed and mark the new level."
+        },
+        {
+          "id": "hv16b-i18",
+          "memberships": [
+            "workshop-booking"
+          ],
+          "modality": "note",
+          "rationale": "Booking completion and records.",
+          "text": "Workshop booking closed out: attended Saturday, receipt filed with learning expenses. The organiser sent next month's dates but I have not booked again."
+        },
+        {
+          "id": "hv16b-i19",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "No character identity or concrete task evidence.",
+          "text": "Maybe make him warmer. Ask on Saturday."
+        },
+        {
+          "id": "hv16b-i20",
+          "memberships": [
+            "pitch-packet"
+          ],
+          "modality": "file",
+          "rationale": "Pitch finalization.",
+          "text": "Spare Keys pitch packet exported to two pages: premise, ensemble and three distinct episode hooks. Test the PDF fonts before sending to the producer."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "pilot-structure",
+          "character-voices"
+        ],
+        [
+          "pilot-structure",
+          "pitch-packet"
+        ],
+        [
+          "character-voices",
+          "pitch-packet"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv16",
+      "templateFamily": "hv16b-comedy-pilot-notebook",
+      "threadDescriptions": {
+        "bread-starter": "Maintain a sourdough starter and troubleshoot slow activity",
+        "character-voices": "Differentiate the recurring characters' dialogue for Spare Keys",
+        "pilot-structure": "Develop the plot and scene order of comedy pilot Spare Keys",
+        "pitch-packet": "Prepare a concise pitch packet for the Spare Keys series",
+        "workshop-booking": "Book and pay for an external screenplay workshop"
+      },
+      "threads": [
+        "pilot-structure",
+        "character-voices",
+        "pitch-packet",
+        "bread-starter",
+        "workshop-booking"
+      ]
+    },
+    {
+      "challenges": [
+        "claim-versus-appointment",
+        "receipt-shared-retailer",
+        "revised-time",
+        "bridge"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv17a-i11",
+          "threads": [
+            "dishwasher-claim",
+            "repair-visit"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv17a-i04",
+          "later": "hv17a-i08",
+          "thread": "repair-visit"
+        },
+        "undo": {
+          "item": "hv17a-i13",
+          "reason": "Hypothetical correction: access preparation is part of arranging the repair visit; it supplies no warranty eligibility evidence.",
+          "wrongThread": "dishwasher-claim"
+        }
+      },
+      "id": "hv17a",
+      "items": [
+        {
+          "id": "hv17a-i01",
+          "memberships": [
+            "dishwasher-claim"
+          ],
+          "modality": "note",
+          "rationale": "Prepares evidence for warranty approval.",
+          "text": "Dishwasher warranty claim: water appears at the lower left during rinse. Attach the purchase receipt and a short clip of the leak to the service form."
+        },
+        {
+          "id": "hv17a-i02",
+          "memberships": [
+            "library-books"
+          ],
+          "modality": "image",
+          "rationale": "Personal library-loan management.",
+          "text": "Library account: gardening book due Friday, travel atlas due next Tuesday. Renew the gardening one if no one has reserved it."
+        },
+        {
+          "id": "hv17a-i03",
+          "memberships": [
+            "oven-registration"
+          ],
+          "modality": "file",
+          "rationale": "Identifies information needed to register the oven.",
+          "text": "New oven registration asks for the serial on the inner door frame. The shop invoice says model Cora 60 but doesn't include that serial."
+        },
+        {
+          "id": "hv17a-i04",
+          "memberships": [
+            "repair-visit"
+          ],
+          "modality": "voice",
+          "rationale": "Schedules technician attendance and access.",
+          "text": "Service desk offered Tuesday 09:00\u201312:00 for the dishwasher technician. I'll need the caretaker to let them into the utility cupboard."
+        },
+        {
+          "id": "hv17a-i05",
+          "memberships": [
+            "dishwasher-claim"
+          ],
+          "modality": "video",
+          "rationale": "Documents the defect to support the claim.",
+          "text": "Leak evidence clip: dishwasher rinse starts, then three drops emerge below the left hinge. No water from the sink hose above it."
+        },
+        {
+          "id": "hv17a-i06",
+          "memberships": [
+            "oven-registration"
+          ],
+          "modality": "image",
+          "rationale": "Completes supporting documentation for oven registration.",
+          "text": "Oven serial plate photo is sharp enough now. Submit it with the Cora 60 invoice, then save the registration confirmation locally."
+        },
+        {
+          "id": "hv17a-i07",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "Could concern either appliance; requester and appliance are unspecified.",
+          "text": "They need the number from inside the door."
+        },
+        {
+          "id": "hv17a-i08",
+          "memberships": [
+            "repair-visit"
+          ],
+          "modality": "note",
+          "rationale": "Explicitly updates the earlier visit window.",
+          "text": "Dishwasher appointment changed: technician now coming Wednesday 13:00\u201316:00. Cancel Tuesday's caretaker arrangement and ask for Wednesday access instead."
+        },
+        {
+          "id": "hv17a-i09",
+          "memberships": [
+            "dishwasher-claim"
+          ],
+          "modality": "file",
+          "rationale": "Repairs missing claim evidence without implying approval.",
+          "text": "Warranty administrator says the dishwasher receipt image cuts off the purchase date. Resend the whole page; they haven't decided coverage yet."
+        },
+        {
+          "id": "hv17a-i10",
+          "memberships": [
+            "library-books"
+          ],
+          "modality": "note",
+          "rationale": "Updates borrowing outcomes and return action.",
+          "text": "Gardening book renewal declined because another reader reserved it. Pack it for Friday's return; the atlas renewal went through."
+        },
+        {
+          "id": "hv17a-i11",
+          "memberships": [
+            "dishwasher-claim",
+            "repair-visit"
+          ],
+          "modality": "file",
+          "rationale": "Records warranty authorization and uses it to arrange parts and confirm the visit.",
+          "text": "Dishwasher coverage approved for seal replacement. Forward the approval code in the service portal to Wednesday's technician and ask them to bring the lower-door seal; confirm the 13:00\u201316:00 visit is still reserved."
+        },
+        {
+          "id": "hv17a-i12",
+          "memberships": [
+            "oven-registration"
+          ],
+          "modality": "note",
+          "rationale": "Confirms registration and archive location.",
+          "text": "Oven registration completed. Confirmation shows the correct purchase day and Cora 60 model; file it with the installation invoice."
+        },
+        {
+          "id": "hv17a-i13",
+          "memberships": [
+            "repair-visit"
+          ],
+          "modality": "image",
+          "rationale": "Makes the appliance and property accessible to the technician.",
+          "text": "Dishwasher visit prep: empty the bottom rack and clear the cupboard beside it. Caretaker has the revised Wednesday arrival window."
+        },
+        {
+          "id": "hv17a-i14",
+          "memberships": [
+            "repair-visit"
+          ],
+          "modality": "voice",
+          "rationale": "Tracks on-site repair and acceptance testing.",
+          "text": "Technician arrived at 14:20 and replaced the lower seal. Run the rinse cycle with them present before signing the dishwasher job sheet."
+        },
+        {
+          "id": "hv17a-i15",
+          "memberships": [
+            "dishwasher-claim"
+          ],
+          "modality": "file",
+          "rationale": "Financial and documentation closeout of warranty coverage.",
+          "text": "No charge on the dishwasher invoice, consistent with the warranty approval. Upload the signed service sheet to close the claim."
+        },
+        {
+          "id": "hv17a-i16",
+          "memberships": [
+            "library-books"
+          ],
+          "modality": "image",
+          "rationale": "Evidence of a borrowed book's return.",
+          "text": "Library return kiosk receipt includes the gardening book. Keep it until the account stops showing that title on loan."
+        },
+        {
+          "id": "hv17a-i17",
+          "memberships": [
+            "repair-visit"
+          ],
+          "modality": "video",
+          "rationale": "Verifies the repair performed during the visit.",
+          "text": "Post-repair dishwasher rinse stayed dry along the left hinge. Technician noted that result before leaving."
+        },
+        {
+          "id": "hv17a-i18",
+          "memberships": [
+            "oven-registration"
+          ],
+          "modality": "voice",
+          "rationale": "Completes the oven's retained warranty records.",
+          "text": "Oven warranty folder also needs the installer completion sheet. The registration email alone doesn't record who fitted it."
+        },
+        {
+          "id": "hv17a-i19",
+          "memberships": [
+            "dishwasher-claim"
+          ],
+          "modality": "note",
+          "rationale": "Confirms and preserves claim resolution.",
+          "text": "Dishwasher claim portal now marked closed after accepting the signed sheet. Download the closure note while it is available."
+        },
+        {
+          "id": "hv17a-i20",
+          "memberships": [
+            "library-books"
+          ],
+          "modality": "file",
+          "rationale": "Updates the remaining library loan.",
+          "text": "The atlas is renewed through the end of the month. Put the new date on the library reminder."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "dishwasher-claim",
+          "repair-visit"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv17",
+      "templateFamily": "hv17a-dishwasher-claim",
+      "threadDescriptions": {
+        "dishwasher-claim": "Obtain warranty approval for the leaking dishwasher",
+        "library-books": "Renew or return my borrowed library books",
+        "oven-registration": "Register the new oven and preserve its warranty documents",
+        "repair-visit": "Arrange and verify the dishwasher technician's visit"
+      },
+      "threads": [
+        "dishwasher-claim",
+        "repair-visit",
+        "oven-registration",
+        "library-books"
+      ]
+    },
+    {
+      "challenges": [
+        "six-thread-topology",
+        "shared-records",
+        "partial-reference",
+        "bridge"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv17b-i12",
+          "threads": [
+            "vacuum-replacement",
+            "courier-collection"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv17b-i01",
+          "later": "hv17b-i09",
+          "thread": "vacuum-replacement"
+        },
+        "undo": {
+          "item": "hv17b-i19",
+          "reason": "Hypothetical correction: this is a ledger update recording an already-made decision, not work evaluating or purchasing the extension.",
+          "wrongThread": "blender-extension"
+        }
+      },
+      "id": "hv17b",
+      "items": [
+        {
+          "id": "hv17b-i01",
+          "memberships": [
+            "vacuum-replacement"
+          ],
+          "modality": "file",
+          "rationale": "Evidence requirement for warranty replacement.",
+          "text": "Vacuum service email offers a replacement motor unit under warranty. Reply with a photo of the cracked mounting tab before they release it."
+        },
+        {
+          "id": "hv17b-i02",
+          "memberships": [
+            "appliance-ledger"
+          ],
+          "modality": "note",
+          "rationale": "Defines the household warranty inventory structure.",
+          "text": "Household appliance ledger columns: purchase date, warranty end, serial, receipt location. Add a retired flag so replaced appliances remain traceable."
+        },
+        {
+          "id": "hv17b-i03",
+          "memberships": [
+            "coat-alteration"
+          ],
+          "modality": "voice",
+          "rationale": "Personal clothing alteration.",
+          "text": "Winter coat fitting: shorten sleeves by 3 cm, keep the cuff buttons. Tailor wants me to wear the thick jumper at the second fitting."
+        },
+        {
+          "id": "hv17b-i04",
+          "memberships": [
+            "blender-extension"
+          ],
+          "modality": "image",
+          "rationale": "Reviews optional coverage terms and price.",
+          "text": "Blender extension offer: two extra years for 38. Read whether the jug and seal are excluded before deciding."
+        },
+        {
+          "id": "hv17b-i05",
+          "memberships": [
+            "freezer-proof"
+          ],
+          "modality": "note",
+          "rationale": "Recovery of purchase evidence for the freezer.",
+          "text": "Freezer receipt missing from the kitchen folder. The retailer can retrieve it using the delivery postcode and approximate month; ask for a duplicate invoice."
+        },
+        {
+          "id": "hv17b-i06",
+          "memberships": [
+            "courier-collection"
+          ],
+          "modality": "file",
+          "rationale": "Courier packing and collection instructions.",
+          "text": "Faulty vacuum return label says pickup Friday, one carton, maximum 8 kg. Leave the battery out because the collection instruction covers only the motor unit."
+        },
+        {
+          "id": "hv17b-i07",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "No named appliance or record identifies the intended task.",
+          "text": "It's the older serial, not the one on the box."
+        },
+        {
+          "id": "hv17b-i08",
+          "memberships": [
+            "appliance-ledger"
+          ],
+          "modality": "file",
+          "rationale": "Updates inventory entries; other appliances are referenced as records.",
+          "text": "Warranty inventory first pass: blender cover ends in April, freezer in November. The vacuum row stays open until a replacement serial is issued."
+        },
+        {
+          "id": "hv17b-i09",
+          "memberships": [
+            "vacuum-replacement"
+          ],
+          "modality": "image",
+          "rationale": "Explicit revision of the replacement's scope.",
+          "text": "Vacuum tab close-up accepted. Supplier now confirms they will send an entire replacement body, not just the motor unit described in the first email."
+        },
+        {
+          "id": "hv17b-i10",
+          "memberships": [
+            "blender-extension"
+          ],
+          "modality": "note",
+          "rationale": "Decision on optional coverage based on its terms.",
+          "text": "Blender extension excludes the jug, seals and wear parts. Those are what I was worried about, so decline the offer and keep the existing cover."
+        },
+        {
+          "id": "hv17b-i11",
+          "memberships": [
+            "freezer-proof"
+          ],
+          "modality": "file",
+          "rationale": "Validates recovered documentation and identifies an error.",
+          "text": "Duplicate freezer invoice arrived, but delivery month is wrong by one. Ask the retailer to check the order record before treating it as our proof of purchase."
+        },
+        {
+          "id": "hv17b-i12",
+          "memberships": [
+            "vacuum-replacement",
+            "courier-collection"
+          ],
+          "modality": "note",
+          "rationale": "Links approval/release conditions with concrete return logistics.",
+          "text": "Vacuum replacement approved; supplier needs the faulty body returned first. Confirm Friday's collection, pack the body without its battery, and upload the courier acceptance receipt to release the replacement shipment."
+        },
+        {
+          "id": "hv17b-i13",
+          "memberships": [],
+          "modality": "note",
+          "rationale": "Several tasks use receipts and no referent is provided.",
+          "text": "Keep the receipt until it clears."
+        },
+        {
+          "id": "hv17b-i14",
+          "memberships": [
+            "coat-alteration"
+          ],
+          "modality": "image",
+          "rationale": "Fitting adjustment for the coat.",
+          "text": "Coat sleeves pinned at the second fitting. Left cuff needed half a centimetre less taken off; tailor marked the two sides individually."
+        },
+        {
+          "id": "hv17b-i15",
+          "memberships": [
+            "courier-collection"
+          ],
+          "modality": "voice",
+          "rationale": "Confirms collection and shipment evidence.",
+          "text": "Courier collected the boxed vacuum at 11:15. Tracking scan confirms one parcel; save the pickup receipt from the driver's terminal."
+        },
+        {
+          "id": "hv17b-i16",
+          "memberships": [
+            "vacuum-replacement"
+          ],
+          "modality": "file",
+          "rationale": "Replacement fulfillment and coverage outcome.",
+          "text": "Supplier has the vacuum return scan and released the replacement body. The warranty end stays the original date rather than restarting."
+        },
+        {
+          "id": "hv17b-i17",
+          "memberships": [
+            "freezer-proof"
+          ],
+          "modality": "note",
+          "rationale": "Resolves and stores the recovered purchase proof.",
+          "text": "Retailer corrected the freezer invoice against the delivery record. Saved the PDF under Kitchen/Freezer; the purchase date now matches the delivery note."
+        },
+        {
+          "id": "hv17b-i18",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "Date alone cannot identify warranty expiry, pickup or document correction.",
+          "text": "Same date as before, apparently."
+        },
+        {
+          "id": "hv17b-i19",
+          "memberships": [
+            "appliance-ledger"
+          ],
+          "modality": "file",
+          "rationale": "Consolidates outcomes into the inventory; no new claim or purchasing action.",
+          "text": "Warranty ledger review finished. Entered the new vacuum serial, marked its old row retired, and linked the corrected freezer invoice. Blender extension column says declined. The replacement vacuum keeps the original coverage end date, so I copied that date across rather than using the delivery day. Leave both vacuum rows visible when filtering the inventory; otherwise a future search for the old serial will look as though it never existed. I added a document-type column because an order acknowledgement and a paid invoice were both previously labelled receipt. Each link now opens the intended local file. The paper copies stay in the kitchen folder in appliance order, with the inventory showing which documents also have a digital copy. Review this sheet again when another appliance is bought or replaced."
+        },
+        {
+          "id": "hv17b-i20",
+          "memberships": [
+            "coat-alteration"
+          ],
+          "modality": "image",
+          "rationale": "Acceptance of the completed clothing work.",
+          "text": "Collected the winter coat. Both cuffs clear my hands with the jumper on; keep the tailor's alteration ticket in case a seam loosens."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "vacuum-replacement",
+          "courier-collection"
+        ],
+        [
+          "vacuum-replacement",
+          "appliance-ledger"
+        ],
+        [
+          "appliance-ledger",
+          "blender-extension"
+        ],
+        [
+          "appliance-ledger",
+          "freezer-proof"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv17",
+      "templateFamily": "hv17b-replacement-ledger",
+      "threadDescriptions": {
+        "appliance-ledger": "Maintain the household appliance warranty inventory",
+        "blender-extension": "Decide whether to purchase the blender's optional coverage extension",
+        "coat-alteration": "Have the sleeves of my winter coat shortened",
+        "courier-collection": "Arrange courier collection of the faulty vacuum",
+        "freezer-proof": "Recover the missing freezer proof of purchase",
+        "vacuum-replacement": "Secure a warranty replacement for the failed vacuum"
+      },
+      "threads": [
+        "vacuum-replacement",
+        "appliance-ledger",
+        "blender-extension",
+        "courier-collection",
+        "coat-alteration",
+        "freezer-proof"
+      ]
+    },
+    {
+      "challenges": [
+        "shared-study-plan",
+        "recommendation-versus-application",
+        "word-limit-revision",
+        "bridge"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv18a-i11",
+          "threads": [
+            "cedar-application",
+            "recommendation"
+          ]
+        },
+        "rename": null,
+        "revision": {
+          "earlier": "hv18a-i05",
+          "later": "hv18a-i09",
+          "thread": "cedar-application"
+        },
+        "undo": {
+          "item": "hv18a-i15",
+          "reason": "Hypothetical correction: Cedar is disclosed as other pending funding inside the Marsh form, not acted upon.",
+          "wrongThread": "cedar-application"
+        }
+      },
+      "id": "hv18a",
+      "items": [
+        {
+          "id": "hv18a-i01",
+          "memberships": [
+            "cedar-application"
+          ],
+          "modality": "file",
+          "rationale": "Defines the scholarship submission and proposal focus.",
+          "text": "Cedar scholarship checklist: field-study proposal, transcript, one academic reference. Draft the proposal around the tidal-garden survey rather than my whole degree."
+        },
+        {
+          "id": "hv18a-i02",
+          "memberships": [
+            "room-sublet"
+          ],
+          "modality": "note",
+          "rationale": "Housing arrangement unrelated to scholarship assessment.",
+          "text": "Summer room sublet: available June through August, furnished. Photograph the desk and window in daylight before writing the listing."
+        },
+        {
+          "id": "hv18a-i03",
+          "memberships": [
+            "marsh-bursary"
+          ],
+          "modality": "image",
+          "rationale": "Budget preparation for a distinct funding application.",
+          "text": "Marsh bursary pays travel only. Need train estimates and two nights of accommodation costs for the tidal-garden survey; equipment is outside its scope."
+        },
+        {
+          "id": "hv18a-i04",
+          "memberships": [
+            "recommendation"
+          ],
+          "modality": "voice",
+          "rationale": "Coordinates the recommender and supporting material.",
+          "text": "Ask Dr Ives to write the Cedar reference. Send the survey outline and the lab report he supervised so he has something specific to discuss."
+        },
+        {
+          "id": "hv18a-i05",
+          "memberships": [
+            "cedar-application"
+          ],
+          "modality": "note",
+          "rationale": "Drafting the main scholarship proposal.",
+          "text": "Cedar proposal draft target: 800 words. First section explains why measuring salinity across the tidal gardens matters to the survey."
+        },
+        {
+          "id": "hv18a-i06",
+          "memberships": [
+            "room-sublet"
+          ],
+          "modality": "image",
+          "rationale": "Prepares accurate housing listing images.",
+          "text": "Room listing photos done. The bright one shows the desk well but cuts off the wardrobe; use both views so applicants can judge storage."
+        },
+        {
+          "id": "hv18a-i07",
+          "memberships": [],
+          "modality": "voice",
+          "rationale": "Unidentified person and document cannot establish a thread.",
+          "text": "He wants the latest version by Sunday."
+        },
+        {
+          "id": "hv18a-i08",
+          "memberships": [
+            "recommendation"
+          ],
+          "modality": "file",
+          "rationale": "Fulfills the reference writer's evidence request.",
+          "text": "Dr Ives agreed to recommend me for Cedar and asked for three bullet points on my contribution to the salinity lab. Send those with the transcript."
+        },
+        {
+          "id": "hv18a-i09",
+          "memberships": [
+            "cedar-application"
+          ],
+          "modality": "image",
+          "rationale": "Explicit correction to the earlier submission length.",
+          "text": "Cedar portal correction: proposal maximum is 600 words, not the 800 in my draft checklist. Cut the general background and keep the sampling method."
+        },
+        {
+          "id": "hv18a-i10",
+          "memberships": [
+            "marsh-bursary"
+          ],
+          "modality": "note",
+          "rationale": "Justifies a travel cost in the bursary budget.",
+          "text": "Marsh travel estimate: off-peak train is cheaper but misses the first morning tide. Budget the earlier service and explain why the timing matters."
+        },
+        {
+          "id": "hv18a-i11",
+          "memberships": [
+            "cedar-application",
+            "recommendation"
+          ],
+          "modality": "file",
+          "rationale": "Performs main application upload plus explicit recommender coordination.",
+          "text": "Cedar application handoff: proposal is now 598 words and uploaded. Send that exact version to Dr Ives for his reference, then enter his email in the portal so the confidential upload request reaches him."
+        },
+        {
+          "id": "hv18a-i12",
+          "memberships": [
+            "room-sublet"
+          ],
+          "modality": "voice",
+          "rationale": "Handles a housing enquiry and viewing.",
+          "text": "Potential subtenant wants to keep a bicycle in the room. Check the building's storage space and arrange a viewing on Saturday afternoon."
+        },
+        {
+          "id": "hv18a-i13",
+          "memberships": [
+            "cedar-application"
+          ],
+          "modality": "note",
+          "rationale": "Repairs a required application attachment.",
+          "text": "Cedar transcript scan is missing its reverse, where the grading key sits. Replace the upload with both sides before submitting."
+        },
+        {
+          "id": "hv18a-i14",
+          "memberships": [
+            "recommendation"
+          ],
+          "modality": "voice",
+          "rationale": "Monitors delivery of the reference.",
+          "text": "Dr Ives received the confidential link but it expires tomorrow. He plans to upload the Cedar letter tonight; check for the receipt in the morning."
+        },
+        {
+          "id": "hv18a-i15",
+          "memberships": [
+            "marsh-bursary"
+          ],
+          "modality": "file",
+          "rationale": "Completes the local bursary disclosure; mentioning Cedar does not update that application.",
+          "text": "Marsh bursary form asks for other funding sought. List Cedar as pending, not awarded, and state that the travel request would shrink if Cedar covers those costs."
+        },
+        {
+          "id": "hv18a-i16",
+          "memberships": [],
+          "modality": "note",
+          "rationale": "No named attachment or application makes this fragment uniquely assignable.",
+          "text": "Need both sides, apparently. Check before sending."
+        },
+        {
+          "id": "hv18a-i17",
+          "memberships": [
+            "recommendation"
+          ],
+          "modality": "image",
+          "rationale": "Confirms receipt of the arranged reference.",
+          "text": "Cedar referee status is received. Dr Ives also confirmed the upload by email; thank him after the application goes in."
+        },
+        {
+          "id": "hv18a-i18",
+          "memberships": [
+            "cedar-application"
+          ],
+          "modality": "file",
+          "rationale": "Records final scholarship submission.",
+          "text": "Submitted Cedar at 16:40. Receipt lists proposal and two-page transcript, with reference complete. Save the PDF of the final form."
+        },
+        {
+          "id": "hv18a-i19",
+          "memberships": [
+            "room-sublet"
+          ],
+          "modality": "note",
+          "rationale": "Adjusts the housing search after a viewing.",
+          "text": "Subtenant viewing went well. They need a July start, so revise the room listing to make the minimum stay clear before accepting anything."
+        },
+        {
+          "id": "hv18a-i20",
+          "memberships": [
+            "marsh-bursary"
+          ],
+          "modality": "voice",
+          "rationale": "Submission status of the separate travel award.",
+          "text": "Marsh bursary sent with the early-train explanation. Their acknowledgement says decisions come after the next committee meeting."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "cedar-application",
+          "recommendation"
+        ],
+        [
+          "cedar-application",
+          "marsh-bursary"
+        ],
+        [
+          "marsh-bursary",
+          "recommendation"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv18",
+      "templateFamily": "hv18a-field-study-awards",
+      "threadDescriptions": {
+        "cedar-application": "Submit the Cedar field-study scholarship application",
+        "marsh-bursary": "Apply for the local Marsh travel bursary",
+        "recommendation": "Arrange Dr Ives's recommendation for the Cedar scholarship",
+        "room-sublet": "Find a summer subtenant for my room"
+      },
+      "threads": [
+        "cedar-application",
+        "marsh-bursary",
+        "recommendation",
+        "room-sublet"
+      ]
+    },
+    {
+      "challenges": [
+        "shared-award-different-stage",
+        "expense-versus-work-product",
+        "rename",
+        "bridge"
+      ],
+      "historyChecks": {
+        "bridge": {
+          "item": "hv18b-i10",
+          "threads": [
+            "harbour-portfolio",
+            "harbour-interview"
+          ]
+        },
+        "rename": {
+          "evidenceItem": "hv18b-i13",
+          "from": "Harbour talk",
+          "thread": "harbour-interview",
+          "to": "Harbour interview"
+        },
+        "revision": {
+          "earlier": "hv18b-i04",
+          "later": "hv18b-i08",
+          "thread": "harbour-interview"
+        },
+        "undo": {
+          "item": "hv18b-i12",
+          "reason": "Hypothetical correction: this source assembles payment evidence for reimbursement, not the portfolio itself.",
+          "wrongThread": "harbour-portfolio"
+        }
+      },
+      "id": "hv18b",
+      "items": [
+        {
+          "id": "hv18b-i01",
+          "memberships": [
+            "harbour-portfolio"
+          ],
+          "modality": "note",
+          "rationale": "Selects and structures the design-award portfolio.",
+          "text": "Harbour portfolio shortlist: bus-stop redesign, folding stool, tactile map. Each spread needs the problem, two process images and the final result."
+        },
+        {
+          "id": "hv18b-i02",
+          "memberships": [
+            "bursary-income"
+          ],
+          "modality": "file",
+          "rationale": "Financial-evidence requirement for a distinct college bursary.",
+          "text": "Access bursary office needs last quarter's household income statement. The uploaded page only shows one month; request the full period from payroll."
+        },
+        {
+          "id": "hv18b-i03",
+          "memberships": [
+            "dog-sitting"
+          ],
+          "modality": "voice",
+          "rationale": "Arranges pet care.",
+          "text": "Pip's sitter can do both nights. Write feeding amounts on the tub and show her where the spare lead hangs."
+        },
+        {
+          "id": "hv18b-i04",
+          "memberships": [
+            "harbour-interview"
+          ],
+          "modality": "file",
+          "rationale": "Interview format and preparation.",
+          "text": "Harbour panel invite says a five-minute portfolio walkthrough, followed by questions. Practise explaining one design decision without reading the slide."
+        },
+        {
+          "id": "hv18b-i05",
+          "memberships": [
+            "print-reimbursement"
+          ],
+          "modality": "image",
+          "rationale": "Records agreed expense recovery and its evidence.",
+          "text": "Portfolio print quote: 46 for two stitched copies. College tutor approved reimbursement up to 50; keep the itemised invoice and approval message."
+        },
+        {
+          "id": "hv18b-i06",
+          "memberships": [
+            "harbour-portfolio"
+          ],
+          "modality": "image",
+          "rationale": "Edits an identifiable project spread in the portfolio.",
+          "text": "Tactile map spread is crowded. Remove the decorative mockup and enlarge the prototype photo so the raised route is visible."
+        },
+        {
+          "id": "hv18b-i07",
+          "memberships": [
+            "bursary-income"
+          ],
+          "modality": "note",
+          "rationale": "Prepares the requested financial evidence for submission.",
+          "text": "Access bursary statement now covers all three months. Redact the unrelated bank-account digits before sending it through the college portal."
+        },
+        {
+          "id": "hv18b-i08",
+          "memberships": [
+            "harbour-interview"
+          ],
+          "modality": "voice",
+          "rationale": "Explicit revision of the previously stated presentation duration.",
+          "text": "Interview timing correction from Harbour: eight minutes for the walkthrough, not five. Add the stool testing example but keep a short version in case they interrupt."
+        },
+        {
+          "id": "hv18b-i09",
+          "memberships": [],
+          "modality": "note",
+          "rationale": "No named document or purpose identifies the intended copy.",
+          "text": "Is the second copy the clean one?"
+        },
+        {
+          "id": "hv18b-i10",
+          "memberships": [
+            "harbour-portfolio",
+            "harbour-interview"
+          ],
+          "modality": "video",
+          "rationale": "Directs both portfolio revision and a specific interview explanation.",
+          "text": "Harbour rehearsal exposed a gap: the portfolio shows the final stool but not the load test. Add one test photograph to that spread, and use it in the interview to explain why the first hinge failed."
+        },
+        {
+          "id": "hv18b-i11",
+          "memberships": [
+            "dog-sitting"
+          ],
+          "modality": "image",
+          "rationale": "Practical pet-care handoff.",
+          "text": "Pip trial evening with the sitter: settles better if the blanket stays by the sofa. Leave the usual bowl rather than buying a travel one."
+        },
+        {
+          "id": "hv18b-i12",
+          "memberships": [
+            "print-reimbursement"
+          ],
+          "modality": "file",
+          "rationale": "Completes an expense claim's evidence.",
+          "text": "College reimbursement form wants proof of payment, not just the portfolio printer's quote. Attach the paid invoice for 46 and the tutor's approval."
+        },
+        {
+          "id": "hv18b-i13",
+          "memberships": [
+            "harbour-interview"
+          ],
+          "modality": "note",
+          "rationale": "Explicit rename of the interview-preparation collection.",
+          "text": "Rename my 'Harbour talk' notes to 'Harbour interview'. Keep the panel questions and rehearsal timings in the same place."
+        },
+        {
+          "id": "hv18b-i14",
+          "memberships": [
+            "harbour-portfolio"
+          ],
+          "modality": "file",
+          "rationale": "Final quality check of the application work product.",
+          "text": "Portfolio final export: 12 spreads, embedded fonts, no crop marks in the digital copy. Printed copies look sharp enough around the tactile-map texture."
+        },
+        {
+          "id": "hv18b-i15",
+          "memberships": [
+            "bursary-income"
+          ],
+          "modality": "voice",
+          "rationale": "Responds to a financial-assessment follow-up.",
+          "text": "Access bursary staff accepted the quarterly statement. They need a brief explanation of the one-off overtime payment before completing the income assessment."
+        },
+        {
+          "id": "hv18b-i16",
+          "memberships": [
+            "harbour-interview"
+          ],
+          "modality": "video",
+          "rationale": "Refines interview answers using portfolio evidence.",
+          "text": "Harbour mock panel: I answered 'who benefits?' too generally. Use the bus stop wheelchair turning-space example and state what changed after testing."
+        },
+        {
+          "id": "hv18b-i17",
+          "memberships": [
+            "print-reimbursement"
+          ],
+          "modality": "image",
+          "rationale": "Repairs a rejected expense attachment.",
+          "text": "Expense claim returned because the tutor approval was sideways. Rotate that page and resubmit the portfolio printing reimbursement."
+        },
+        {
+          "id": "hv18b-i18",
+          "memberships": [
+            "dog-sitting"
+          ],
+          "modality": "note",
+          "rationale": "Completes the pet-care arrangement.",
+          "text": "Sitter has Pip's food tub, key and emergency contact card. Pickup agreed for Sunday after lunch."
+        },
+        {
+          "id": "hv18b-i19",
+          "memberships": [
+            "harbour-interview"
+          ],
+          "modality": "voice",
+          "rationale": "Interview outcome and panel-requested follow-up.",
+          "text": "Harbour interview done. Panel spent most of the time on prototype changes; send the requested stool-test image through the applicant portal."
+        },
+        {
+          "id": "hv18b-i20",
+          "memberships": [
+            "bursary-income"
+          ],
+          "modality": "file",
+          "rationale": "Resolves the income-documentation question.",
+          "text": "Explained that the overtime was a single holiday-cover payment. College access bursary evidence is now marked complete."
+        }
+      ],
+      "relatedThreads": [
+        [
+          "harbour-portfolio",
+          "harbour-interview"
+        ],
+        [
+          "harbour-portfolio",
+          "print-reimbursement"
+        ],
+        [
+          "harbour-interview",
+          "print-reimbursement"
+        ]
+      ],
+      "split": "calibration",
+      "storyFamily": "hv18",
+      "templateFamily": "hv18b-design-shortlist",
+      "threadDescriptions": {
+        "bursary-income": "Provide household-income evidence for the college access bursary",
+        "dog-sitting": "Arrange care for Pip while I am away",
+        "harbour-interview": "Prepare for and attend the Harbour scholarship interview",
+        "harbour-portfolio": "Prepare the portfolio for the Harbour design scholarship",
+        "print-reimbursement": "Recover the agreed portfolio printing expense from college"
+      },
+      "threads": [
+        "harbour-portfolio",
+        "harbour-interview",
+        "bursary-income",
+        "dog-sitting",
+        "print-reimbursement"
+      ]
+    }
+  ],
+  "schemaVersion": 1
+}
