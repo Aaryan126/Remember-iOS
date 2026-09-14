@@ -63,7 +63,7 @@ struct PrivacyDashboardView: View {
                         ContentUnavailableView(
                             "No AI activity yet",
                             systemImage: "clock.badge.checkmark",
-                            description: Text("Transcription, local or cloud analysis, topic reasoning, semantic search, and Ask Remember operations will appear here.")
+                            description: Text("Transcription, local or cloud analysis, thread reasoning, semantic search, and Ask Remember operations will appear here.")
                         )
                     } else {
                         ForEach(viewModel.activities) { activity in

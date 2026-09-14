@@ -1,0 +1,141 @@
+{
+  "events": [
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "image",
+        "text": "Supplier slip OCR: Meadow Glazes, pale green, batch 17, two tubs. My job-reference line is cropped out of the photo."
+      }
+    },
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "file",
+        "text": "Orchard Hall October wedding order: three-tier citrus cake, pale green glaze, delivery before the ceremony. Tasting included in this commission."
+      }
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "note",
+        "text": "Orchard Hall tasting: citrus sponge approved. Keep the bottom tier less sweet so the glaze does not dominate."
+      }
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "voice",
+        "text": "Stone Pier cafe hired us for opening-day pastries under a separate order. They want the same pale green glaze but individual pear cakes."
+      }
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "file",
+        "text": "Stone Pier opening trial: pear cakes held their shape for four hours. Increase the pastry count from 60 to 72 for the opening order."
+      }
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "note",
+        "text": "Found the uncropped Meadow Glazes slip: one tub was allocated to the Orchard Hall wedding cake and one to the Stone Pier opening pastries."
+      }
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "note",
+        "text": "Orchard Hall cake assembly checklist: chill all three tiers, fit the support dowels, and reserve the labeled wedding glaze tub."
+      }
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "voice",
+        "text": "The Orchard Hall wedding cake reached the venue upright. Photograph the final table placement before returning the transport box."
+      }
+    },
+    {
+      "id": "e14",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "file",
+        "text": "Wedding cake feedback from Orchard Hall: citrus balance praised; one glaze edge scuffed during table placement. Add a wider carry board to this job's review."
+      }
+    },
+    {
+      "id": "e13",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "image",
+        "text": "Stone Pier opening-day counter photo: the 72 pear cakes are on trays beside the cafe's launch sign; the delivery docket is signed."
+      }
+    },
+    {
+      "id": "e16",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "note",
+        "text": "Meadow Glazes reconciliation: charge one batch-17 tub to Orchard Hall wedding and one to Stone Pier opening; neither client should receive the other's delivery fee."
+      }
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "video",
+        "text": "Aquarium clip: filter rattles even after cleaning the impeller. Replacement housing should fit behind the tank lid."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e07",
+      "kind": "correct",
+      "reason": "The uncropped allocation in c06 confirms that the receipt serves both orders. Link the supplier slip to both without merging the commissions.",
+      "target": "c03",
+      "userRequestedProjects": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "id": "e08",
+      "kind": "revise",
+      "target": "c03",
+      "text": "Supplier slip OCR corrected: Meadow Glazes, pale green, batch 17, two 2 kg tubs. The job-reference line remains cropped out of this photo."
+    },
+    {
+      "id": "e12",
+      "kind": "archive",
+      "target": "c03"
+    },
+    {
+      "id": "e15",
+      "kind": "restore",
+      "target": "c03"
+    }
+  ],
+  "order": "shuffle-2",
+  "story": "story-04"
+}

@@ -1,0 +1,140 @@
+{
+  "events": [
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "image",
+        "text": "Recipe booklet proof: soup instructions spill onto the next page. Reduce the title spacing and keep the handwritten dedication on its own final page."
+      }
+    },
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "file",
+        "text": "Commission: one 2026\u20132028 pilot will maintain access to the Linden, Quarry and Mill cooling shelters. Update a single public route guide each summer and finish with an access review."
+      }
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "note",
+        "text": "2026 Linden street fair has its own event grant. Book stalls, mark the closed road and issue a fair-day map; cooling-shelter operations remain outside this event budget."
+      }
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "video",
+        "text": "Cooling pilot, summer 2026: route-guide signs installed at the three shelter approaches. The Mill entrance is reached through the courtyard gate."
+      }
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "note",
+        "text": "Cooling pilot, summer 2027 route-guide revision: Mill shelter access moves from the courtyard gate to the side entrance. This updates the same three-shelter guide begun in 2026."
+      }
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "voice",
+        "text": "Use the blue map again, with the side entrance marked."
+      }
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "file",
+        "text": "2026 Linden fair closeout: vendor stalls cleared and the temporary road map withdrawn. Archive this edition's event costs separately from cooling-pilot signage costs."
+      }
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "file",
+        "text": "New grant for the 2027 Linden street fair: separately commissioned edition, fresh vendor roster and new fair-day map. Reusing last year's layout does not reuse its event budget."
+      }
+    },
+    {
+      "id": "e16",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "image",
+        "text": "Imported 2027 Linden fair setup photo: vendor stalls match the fresh roster and the fair-day map marks the temporary street entrance. Save with the 2027 event records."
+      }
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "file",
+        "text": "Printer file index: the cooling pilot's evolving shelter-route guide, the closed 2026 Linden fair map and the new 2027 fair map share a page layout. Maintain three separate job folders and billing references."
+      }
+    },
+    {
+      "id": "e09",
+      "kind": "archive",
+      "target": "c06"
+    },
+    {
+      "id": "e13",
+      "kind": "restore",
+      "target": "c06"
+    },
+    {
+      "id": "e11",
+      "kind": "revise",
+      "target": "c07",
+      "text": "Cooling pilot, summer 2027 route-guide revision: Mill shelter access moves from the courtyard gate to the east side entrance beside the ramp. This updates the same three-shelter guide begun in 2026."
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "note",
+        "text": "My 'blue map again' recording was for the cooling pilot's 2027 shelter guide. The side entrance means Mill shelter, not a street-fair gate."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e14",
+      "kind": "correct",
+      "reason": "c10 explicitly identifies the recording as the cooling pilot's Mill-entrance update. Assign it to the continuing shelter pilot.",
+      "target": "c06",
+      "userRequestedProjects": [
+        "p1"
+      ]
+    },
+    {
+      "id": "e15",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "file",
+        "text": "Cooling pilot final access review, 2028: all three shelter routes were checked against the evolving guide; the marked Mill side entrance reduced wrong turns. Deliver the pilot's final report."
+      }
+    }
+  ],
+  "order": "shuffle-2",
+  "story": "story-12"
+}

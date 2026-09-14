@@ -1,0 +1,1114 @@
+{
+  "agentReviewedNotHumanReviewed": true,
+  "diagnosticOnly": true,
+  "ordersPerStory": 3,
+  "policy": {
+    "hybrid-corroborated-17": {
+      "allOrders": {
+        "correctionErrorChange": -42,
+        "counts": {
+          "abstentions": 265,
+          "autoAttachments": 167,
+          "captures": 432,
+          "capturesWithSharedPrior": 279,
+          "correctionErrorsAfter": 83,
+          "correctionErrorsBefore": 125,
+          "corrections": 36,
+          "falseAttachmentEvents": 52,
+          "falseAttachmentPairs": 94,
+          "knownCapturePairs": 2037,
+          "knownCapturesWithKnownPrior": 360,
+          "missedAttachmentEvents": 206,
+          "missedAttachmentPairs": 618,
+          "proposals": 104,
+          "retrievableSharedPairs": 906,
+          "retrievedSharedPairs": 861,
+          "sharedCapturePairs": 906,
+          "uncertainCaptureEvents": 36,
+          "uncertainCaptureJoinedEvents": 0,
+          "uncertainJoinedCapturePairs": 7
+        },
+        "finalMacro": {
+          "precision": {
+            "denominator": 36,
+            "numerator": 29.514184314184313,
+            "value": 0.8198384531717865
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 12.697684854524638,
+            "value": 0.35271346818123994
+          }
+        },
+        "finalPairsPooled": {
+          "falseNegative": 697,
+          "falsePositive": 104,
+          "knownPairs": 2343,
+          "precision": {
+            "denominator": 472,
+            "numerator": 368,
+            "value": 0.7796610169491526
+          },
+          "recall": {
+            "denominator": 1065,
+            "numerator": 368,
+            "value": 0.3455399061032864
+          },
+          "trueNegative": 1174,
+          "truePositive": 368
+        },
+        "finalStructureMacro": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 21.916666666666668,
+            "value": 0.6087962962962963
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 3.4178571428571427,
+            "value": 0.09494047619047619
+          }
+        },
+        "macroStreamPrefix": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 13.345390271493212,
+            "value": 0.3707052853192559
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 4.403810690943045,
+            "value": 0.12232807474841792
+          },
+          "precision": {
+            "denominator": 36,
+            "numerator": 28.009503894756364,
+            "value": 0.7780417748543434
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 17.825468621522923,
+            "value": 0.49515190615341453
+          }
+        },
+        "rates": {
+          "abstentions": {
+            "denominator": 432,
+            "numerator": 265,
+            "value": 0.6134259259259259
+          },
+          "falseAttachmentPairs": {
+            "denominator": 2037,
+            "numerator": 94,
+            "value": 0.046146293568973984
+          },
+          "falseAttachments": {
+            "denominator": 360,
+            "numerator": 52,
+            "value": 0.14444444444444443
+          },
+          "missedAttachmentPairs": {
+            "denominator": 906,
+            "numerator": 618,
+            "value": 0.6821192052980133
+          },
+          "missedAttachments": {
+            "denominator": 279,
+            "numerator": 206,
+            "value": 0.7383512544802867
+          },
+          "proposals": {
+            "denominator": 432,
+            "numerator": 104,
+            "value": 0.24074074074074073
+          },
+          "retrievalSharedCoverage": {
+            "denominator": 906,
+            "numerator": 861,
+            "value": 0.9503311258278145
+          },
+          "uncertainCaptureJoined": {
+            "denominator": 36,
+            "numerator": 0,
+            "value": 0.0
+          }
+        },
+        "streams": 36
+      },
+      "orderSensitivity": {
+        "denominator": 36,
+        "numerator": 3.3636363636363624,
+        "value": 0.0934343434343434
+      }
+    },
+    "hybrid-corroborated-29": {
+      "allOrders": {
+        "correctionErrorChange": -34,
+        "counts": {
+          "abstentions": 262,
+          "autoAttachments": 170,
+          "captures": 432,
+          "capturesWithSharedPrior": 279,
+          "correctionErrorsAfter": 88,
+          "correctionErrorsBefore": 122,
+          "corrections": 36,
+          "falseAttachmentEvents": 54,
+          "falseAttachmentPairs": 103,
+          "knownCapturePairs": 2037,
+          "knownCapturesWithKnownPrior": 360,
+          "missedAttachmentEvents": 202,
+          "missedAttachmentPairs": 621,
+          "proposals": 96,
+          "retrievableSharedPairs": 906,
+          "retrievedSharedPairs": 861,
+          "sharedCapturePairs": 906,
+          "uncertainCaptureEvents": 36,
+          "uncertainCaptureJoinedEvents": 0,
+          "uncertainJoinedCapturePairs": 10
+        },
+        "finalMacro": {
+          "precision": {
+            "denominator": 36,
+            "numerator": 28.75902558402558,
+            "value": 0.7988618217784883
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 12.633816132655339,
+            "value": 0.35093933701820385
+          }
+        },
+        "finalPairsPooled": {
+          "falseNegative": 698,
+          "falsePositive": 121,
+          "knownPairs": 2343,
+          "precision": {
+            "denominator": 488,
+            "numerator": 367,
+            "value": 0.7520491803278688
+          },
+          "recall": {
+            "denominator": 1065,
+            "numerator": 367,
+            "value": 0.34460093896713617
+          },
+          "trueNegative": 1157,
+          "truePositive": 367
+        },
+        "finalStructureMacro": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 21.416666666666668,
+            "value": 0.5949074074074074
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 3.429761904761905,
+            "value": 0.09527116402116403
+          }
+        },
+        "macroStreamPrefix": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 13.043306938159878,
+            "value": 0.3623140816155522
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 4.463855333800188,
+            "value": 0.12399598149444967
+          },
+          "precision": {
+            "denominator": 36,
+            "numerator": 27.753750944003407,
+            "value": 0.7709375262223168
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 17.99874127071888,
+            "value": 0.4999650352977467
+          }
+        },
+        "rates": {
+          "abstentions": {
+            "denominator": 432,
+            "numerator": 262,
+            "value": 0.6064814814814815
+          },
+          "falseAttachmentPairs": {
+            "denominator": 2037,
+            "numerator": 103,
+            "value": 0.050564555719194895
+          },
+          "falseAttachments": {
+            "denominator": 360,
+            "numerator": 54,
+            "value": 0.15
+          },
+          "missedAttachmentPairs": {
+            "denominator": 906,
+            "numerator": 621,
+            "value": 0.6854304635761589
+          },
+          "missedAttachments": {
+            "denominator": 279,
+            "numerator": 202,
+            "value": 0.7240143369175627
+          },
+          "proposals": {
+            "denominator": 432,
+            "numerator": 96,
+            "value": 0.2222222222222222
+          },
+          "retrievalSharedCoverage": {
+            "denominator": 906,
+            "numerator": 861,
+            "value": 0.9503311258278145
+          },
+          "uncertainCaptureJoined": {
+            "denominator": 36,
+            "numerator": 0,
+            "value": 0.0
+          }
+        },
+        "streams": 36
+      },
+      "orderSensitivity": {
+        "denominator": 36,
+        "numerator": 3.09090909090909,
+        "value": 0.08585858585858583
+      }
+    },
+    "hybrid-corroborated-41": {
+      "allOrders": {
+        "correctionErrorChange": -39,
+        "counts": {
+          "abstentions": 267,
+          "autoAttachments": 165,
+          "captures": 432,
+          "capturesWithSharedPrior": 279,
+          "correctionErrorsAfter": 93,
+          "correctionErrorsBefore": 132,
+          "corrections": 36,
+          "falseAttachmentEvents": 46,
+          "falseAttachmentPairs": 86,
+          "knownCapturePairs": 2037,
+          "knownCapturesWithKnownPrior": 360,
+          "missedAttachmentEvents": 215,
+          "missedAttachmentPairs": 636,
+          "proposals": 103,
+          "retrievableSharedPairs": 906,
+          "retrievedSharedPairs": 861,
+          "sharedCapturePairs": 906,
+          "uncertainCaptureEvents": 36,
+          "uncertainCaptureJoinedEvents": 0,
+          "uncertainJoinedCapturePairs": 8
+        },
+        "finalMacro": {
+          "precision": {
+            "denominator": 36,
+            "numerator": 28.45862875862876,
+            "value": 0.7905174655174655
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 12.28454699068345,
+            "value": 0.34123741640787364
+          }
+        },
+        "finalPairsPooled": {
+          "falseNegative": 711,
+          "falsePositive": 106,
+          "knownPairs": 2343,
+          "precision": {
+            "denominator": 460,
+            "numerator": 354,
+            "value": 0.7695652173913043
+          },
+          "recall": {
+            "denominator": 1065,
+            "numerator": 354,
+            "value": 0.3323943661971831
+          },
+          "trueNegative": 1172,
+          "truePositive": 354
+        },
+        "finalStructureMacro": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 22.583333333333332,
+            "value": 0.6273148148148148
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 3.2333333333333334,
+            "value": 0.08981481481481482
+          }
+        },
+        "macroStreamPrefix": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 14.08919369029663,
+            "value": 0.39136649139712865
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 4.294138071895426,
+            "value": 0.11928161310820627
+          },
+          "precision": {
+            "denominator": 36,
+            "numerator": 26.858615471010793,
+            "value": 0.746072651972522
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 17.36802979791336,
+            "value": 0.48244527216426
+          }
+        },
+        "rates": {
+          "abstentions": {
+            "denominator": 432,
+            "numerator": 267,
+            "value": 0.6180555555555556
+          },
+          "falseAttachmentPairs": {
+            "denominator": 2037,
+            "numerator": 86,
+            "value": 0.04221894943544428
+          },
+          "falseAttachments": {
+            "denominator": 360,
+            "numerator": 46,
+            "value": 0.12777777777777777
+          },
+          "missedAttachmentPairs": {
+            "denominator": 906,
+            "numerator": 636,
+            "value": 0.7019867549668874
+          },
+          "missedAttachments": {
+            "denominator": 279,
+            "numerator": 215,
+            "value": 0.7706093189964157
+          },
+          "proposals": {
+            "denominator": 432,
+            "numerator": 103,
+            "value": 0.23842592592592593
+          },
+          "retrievalSharedCoverage": {
+            "denominator": 906,
+            "numerator": 861,
+            "value": 0.9503311258278145
+          },
+          "uncertainCaptureJoined": {
+            "denominator": 36,
+            "numerator": 0,
+            "value": 0.0
+          }
+        },
+        "streams": 36
+      },
+      "orderSensitivity": {
+        "denominator": 36,
+        "numerator": 4.545454545454547,
+        "value": 0.1262626262626263
+      }
+    },
+    "hybrid-strongest-17": {
+      "allOrders": {
+        "correctionErrorChange": -25,
+        "counts": {
+          "abstentions": 261,
+          "autoAttachments": 171,
+          "captures": 432,
+          "capturesWithSharedPrior": 279,
+          "correctionErrorsAfter": 102,
+          "correctionErrorsBefore": 127,
+          "corrections": 36,
+          "falseAttachmentEvents": 94,
+          "falseAttachmentPairs": 240,
+          "knownCapturePairs": 2037,
+          "knownCapturesWithKnownPrior": 360,
+          "missedAttachmentEvents": 173,
+          "missedAttachmentPairs": 585,
+          "proposals": 129,
+          "retrievableSharedPairs": 906,
+          "retrievedSharedPairs": 861,
+          "sharedCapturePairs": 906,
+          "uncertainCaptureEvents": 36,
+          "uncertainCaptureJoinedEvents": 3,
+          "uncertainJoinedCapturePairs": 16
+        },
+        "finalMacro": {
+          "precision": {
+            "denominator": 36,
+            "numerator": 24.948676419366077,
+            "value": 0.6930187894268355
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 14.036831959837077,
+            "value": 0.38991199888436323
+          }
+        },
+        "finalPairsPooled": {
+          "falseNegative": 664,
+          "falsePositive": 265,
+          "knownPairs": 2343,
+          "precision": {
+            "denominator": 666,
+            "numerator": 401,
+            "value": 0.6021021021021021
+          },
+          "recall": {
+            "denominator": 1065,
+            "numerator": 401,
+            "value": 0.37652582159624415
+          },
+          "trueNegative": 1013,
+          "truePositive": 401
+        },
+        "finalStructureMacro": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 17.749999999999996,
+            "value": 0.49305555555555547
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 5.767063492063493,
+            "value": 0.16019620811287483
+          }
+        },
+        "macroStreamPrefix": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 11.331971153846153,
+            "value": 0.31477697649572645
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 6.243531446766742,
+            "value": 0.17343142907685394
+          },
+          "precision": {
+            "denominator": 36,
+            "numerator": 26.17914470847857,
+            "value": 0.7271984641244047
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 19.876010695761284,
+            "value": 0.5521114082155912
+          }
+        },
+        "rates": {
+          "abstentions": {
+            "denominator": 432,
+            "numerator": 261,
+            "value": 0.6041666666666666
+          },
+          "falseAttachmentPairs": {
+            "denominator": 2037,
+            "numerator": 240,
+            "value": 0.11782032400589101
+          },
+          "falseAttachments": {
+            "denominator": 360,
+            "numerator": 94,
+            "value": 0.2611111111111111
+          },
+          "missedAttachmentPairs": {
+            "denominator": 906,
+            "numerator": 585,
+            "value": 0.6456953642384106
+          },
+          "missedAttachments": {
+            "denominator": 279,
+            "numerator": 173,
+            "value": 0.6200716845878136
+          },
+          "proposals": {
+            "denominator": 432,
+            "numerator": 129,
+            "value": 0.2986111111111111
+          },
+          "retrievalSharedCoverage": {
+            "denominator": 906,
+            "numerator": 861,
+            "value": 0.9503311258278145
+          },
+          "uncertainCaptureJoined": {
+            "denominator": 36,
+            "numerator": 3,
+            "value": 0.08333333333333333
+          }
+        },
+        "streams": 36
+      },
+      "orderSensitivity": {
+        "denominator": 36,
+        "numerator": 1.9090909090909087,
+        "value": 0.05303030303030302
+      }
+    },
+    "hybrid-strongest-29": {
+      "allOrders": {
+        "correctionErrorChange": -14,
+        "counts": {
+          "abstentions": 254,
+          "autoAttachments": 178,
+          "captures": 432,
+          "capturesWithSharedPrior": 279,
+          "correctionErrorsAfter": 112,
+          "correctionErrorsBefore": 126,
+          "corrections": 36,
+          "falseAttachmentEvents": 91,
+          "falseAttachmentPairs": 225,
+          "knownCapturePairs": 2037,
+          "knownCapturesWithKnownPrior": 360,
+          "missedAttachmentEvents": 177,
+          "missedAttachmentPairs": 581,
+          "proposals": 117,
+          "retrievableSharedPairs": 906,
+          "retrievedSharedPairs": 861,
+          "sharedCapturePairs": 906,
+          "uncertainCaptureEvents": 36,
+          "uncertainCaptureJoinedEvents": 2,
+          "uncertainJoinedCapturePairs": 14
+        },
+        "finalMacro": {
+          "precision": {
+            "denominator": 36,
+            "numerator": 24.249348699348698,
+            "value": 0.6735930194263527
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 14.191568262960477,
+            "value": 0.3942102295266799
+          }
+        },
+        "finalPairsPooled": {
+          "falseNegative": 663,
+          "falsePositive": 263,
+          "knownPairs": 2343,
+          "precision": {
+            "denominator": 665,
+            "numerator": 402,
+            "value": 0.6045112781954888
+          },
+          "recall": {
+            "denominator": 1065,
+            "numerator": 402,
+            "value": 0.37746478873239436
+          },
+          "trueNegative": 1015,
+          "truePositive": 402
+        },
+        "finalStructureMacro": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 18.499999999999996,
+            "value": 0.5138888888888888
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 5.5349206349206375,
+            "value": 0.15374779541446215
+          }
+        },
+        "macroStreamPrefix": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 11.224679487179488,
+            "value": 0.31179665242165244
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 6.258905632765928,
+            "value": 0.17385848979905355
+          },
+          "precision": {
+            "denominator": 36,
+            "numerator": 25.825621053932746,
+            "value": 0.7173783626092429
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 20.153214735041054,
+            "value": 0.559811520417807
+          }
+        },
+        "rates": {
+          "abstentions": {
+            "denominator": 432,
+            "numerator": 254,
+            "value": 0.5879629629629629
+          },
+          "falseAttachmentPairs": {
+            "denominator": 2037,
+            "numerator": 225,
+            "value": 0.11045655375552282
+          },
+          "falseAttachments": {
+            "denominator": 360,
+            "numerator": 91,
+            "value": 0.25277777777777777
+          },
+          "missedAttachmentPairs": {
+            "denominator": 906,
+            "numerator": 581,
+            "value": 0.6412803532008831
+          },
+          "missedAttachments": {
+            "denominator": 279,
+            "numerator": 177,
+            "value": 0.6344086021505376
+          },
+          "proposals": {
+            "denominator": 432,
+            "numerator": 117,
+            "value": 0.2708333333333333
+          },
+          "retrievalSharedCoverage": {
+            "denominator": 906,
+            "numerator": 861,
+            "value": 0.9503311258278145
+          },
+          "uncertainCaptureJoined": {
+            "denominator": 36,
+            "numerator": 2,
+            "value": 0.05555555555555555
+          }
+        },
+        "streams": 36
+      },
+      "orderSensitivity": {
+        "denominator": 36,
+        "numerator": 1.6666666666666665,
+        "value": 0.046296296296296294
+      }
+    },
+    "hybrid-strongest-41": {
+      "allOrders": {
+        "correctionErrorChange": -18,
+        "counts": {
+          "abstentions": 247,
+          "autoAttachments": 185,
+          "captures": 432,
+          "capturesWithSharedPrior": 279,
+          "correctionErrorsAfter": 103,
+          "correctionErrorsBefore": 121,
+          "corrections": 36,
+          "falseAttachmentEvents": 101,
+          "falseAttachmentPairs": 259,
+          "knownCapturePairs": 2037,
+          "knownCapturesWithKnownPrior": 360,
+          "missedAttachmentEvents": 169,
+          "missedAttachmentPairs": 549,
+          "proposals": 113,
+          "retrievableSharedPairs": 906,
+          "retrievedSharedPairs": 861,
+          "sharedCapturePairs": 906,
+          "uncertainCaptureEvents": 36,
+          "uncertainCaptureJoinedEvents": 1,
+          "uncertainJoinedCapturePairs": 9
+        },
+        "finalMacro": {
+          "precision": {
+            "denominator": 36,
+            "numerator": 24.49190675225158,
+            "value": 0.6803307431180995
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 15.347997842740028,
+            "value": 0.4263332734094452
+          }
+        },
+        "finalPairsPooled": {
+          "falseNegative": 622,
+          "falsePositive": 293,
+          "knownPairs": 2343,
+          "precision": {
+            "denominator": 736,
+            "numerator": 443,
+            "value": 0.6019021739130435
+          },
+          "recall": {
+            "denominator": 1065,
+            "numerator": 443,
+            "value": 0.415962441314554
+          },
+          "trueNegative": 985,
+          "truePositive": 443
+        },
+        "finalStructureMacro": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 17.83333333333333,
+            "value": 0.49537037037037024
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 6.214285714285715,
+            "value": 0.17261904761904764
+          }
+        },
+        "macroStreamPrefix": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 11.058760683760683,
+            "value": 0.30718779677113006
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 6.633169979530274,
+            "value": 0.18425472165361872
+          },
+          "precision": {
+            "denominator": 36,
+            "numerator": 25.991413898710142,
+            "value": 0.721983719408615
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 21.396294488755803,
+            "value": 0.5943415135765501
+          }
+        },
+        "rates": {
+          "abstentions": {
+            "denominator": 432,
+            "numerator": 247,
+            "value": 0.5717592592592593
+          },
+          "falseAttachmentPairs": {
+            "denominator": 2037,
+            "numerator": 259,
+            "value": 0.12714776632302405
+          },
+          "falseAttachments": {
+            "denominator": 360,
+            "numerator": 101,
+            "value": 0.28055555555555556
+          },
+          "missedAttachmentPairs": {
+            "denominator": 906,
+            "numerator": 549,
+            "value": 0.6059602649006622
+          },
+          "missedAttachments": {
+            "denominator": 279,
+            "numerator": 169,
+            "value": 0.6057347670250897
+          },
+          "proposals": {
+            "denominator": 432,
+            "numerator": 113,
+            "value": 0.26157407407407407
+          },
+          "retrievalSharedCoverage": {
+            "denominator": 906,
+            "numerator": 861,
+            "value": 0.9503311258278145
+          },
+          "uncertainCaptureJoined": {
+            "denominator": 36,
+            "numerator": 1,
+            "value": 0.027777777777777776
+          }
+        },
+        "streams": 36
+      },
+      "orderSensitivity": {
+        "denominator": 36,
+        "numerator": 1.8484848484848486,
+        "value": 0.05134680134680135
+      }
+    },
+    "production-embedding-reference": {
+      "allOrders": {
+        "correctionErrorChange": -36,
+        "counts": {
+          "abstentions": 237,
+          "autoAttachments": 195,
+          "captures": 432,
+          "capturesWithSharedPrior": 279,
+          "correctionErrorsAfter": 92,
+          "correctionErrorsBefore": 128,
+          "corrections": 36,
+          "falseAttachmentEvents": 98,
+          "falseAttachmentPairs": 131,
+          "knownCapturePairs": 2037,
+          "knownCapturesWithKnownPrior": 360,
+          "missedAttachmentEvents": 186,
+          "missedAttachmentPairs": 557,
+          "proposals": 0,
+          "retrievableSharedPairs": 0,
+          "retrievedSharedPairs": 0,
+          "sharedCapturePairs": 906,
+          "uncertainCaptureEvents": 36,
+          "uncertainCaptureJoinedEvents": 1,
+          "uncertainJoinedCapturePairs": 5
+        },
+        "finalMacro": {
+          "precision": {
+            "denominator": 36,
+            "numerator": 27.491798518957765,
+            "value": 0.763661069971049
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 15.354861386661566,
+            "value": 0.42652392740726575
+          }
+        },
+        "finalPairsPooled": {
+          "falseNegative": 620,
+          "falsePositive": 168,
+          "knownPairs": 2343,
+          "precision": {
+            "denominator": 613,
+            "numerator": 445,
+            "value": 0.7259380097879282
+          },
+          "recall": {
+            "denominator": 1065,
+            "numerator": 445,
+            "value": 0.41784037558685444
+          },
+          "trueNegative": 1110,
+          "truePositive": 445
+        },
+        "finalStructureMacro": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 22.0,
+            "value": 0.6111111111111112
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 7.042857142857143,
+            "value": 0.19563492063492063
+          }
+        },
+        "macroStreamPrefix": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 12.24453242835596,
+            "value": 0.3401259007876656
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 8.773494397759103,
+            "value": 0.24370817771553066
+          },
+          "precision": {
+            "denominator": 36,
+            "numerator": 24.88304432014041,
+            "value": 0.6911956755594558
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 21.63097038751461,
+            "value": 0.6008602885420724
+          }
+        },
+        "rates": {
+          "abstentions": {
+            "denominator": 432,
+            "numerator": 237,
+            "value": 0.5486111111111112
+          },
+          "falseAttachmentPairs": {
+            "denominator": 2037,
+            "numerator": 131,
+            "value": 0.06431026018654884
+          },
+          "falseAttachments": {
+            "denominator": 360,
+            "numerator": 98,
+            "value": 0.2722222222222222
+          },
+          "missedAttachmentPairs": {
+            "denominator": 906,
+            "numerator": 557,
+            "value": 0.6147902869757175
+          },
+          "missedAttachments": {
+            "denominator": 279,
+            "numerator": 186,
+            "value": 0.6666666666666666
+          },
+          "proposals": {
+            "denominator": 432,
+            "numerator": 0,
+            "value": 0.0
+          },
+          "retrievalSharedCoverage": {
+            "denominator": 0,
+            "numerator": 0,
+            "value": null
+          },
+          "uncertainCaptureJoined": {
+            "denominator": 36,
+            "numerator": 1,
+            "value": 0.027777777777777776
+          }
+        },
+        "streams": 36
+      },
+      "orderSensitivity": {
+        "denominator": 36,
+        "numerator": 3.6969696969696972,
+        "value": 0.1026936026936027
+      }
+    },
+    "simple-baseline-strongest": {
+      "allOrders": {
+        "correctionErrorChange": -22,
+        "counts": {
+          "abstentions": 255,
+          "autoAttachments": 177,
+          "captures": 432,
+          "capturesWithSharedPrior": 279,
+          "correctionErrorsAfter": 101,
+          "correctionErrorsBefore": 123,
+          "corrections": 36,
+          "falseAttachmentEvents": 106,
+          "falseAttachmentPairs": 237,
+          "knownCapturePairs": 2037,
+          "knownCapturesWithKnownPrior": 360,
+          "missedAttachmentEvents": 165,
+          "missedAttachmentPairs": 575,
+          "proposals": 112,
+          "retrievableSharedPairs": 906,
+          "retrievedSharedPairs": 861,
+          "sharedCapturePairs": 906,
+          "uncertainCaptureEvents": 36,
+          "uncertainCaptureJoinedEvents": 3,
+          "uncertainJoinedCapturePairs": 18
+        },
+        "finalMacro": {
+          "precision": {
+            "denominator": 36,
+            "numerator": 24.496825396825404,
+            "value": 0.680467372134039
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 14.481183790954443,
+            "value": 0.4022551053042901
+          }
+        },
+        "finalPairsPooled": {
+          "falseNegative": 656,
+          "falsePositive": 268,
+          "knownPairs": 2343,
+          "precision": {
+            "denominator": 677,
+            "numerator": 409,
+            "value": 0.604135893648449
+          },
+          "recall": {
+            "denominator": 1065,
+            "numerator": 409,
+            "value": 0.38403755868544603
+          },
+          "trueNegative": 1010,
+          "truePositive": 409
+        },
+        "finalStructureMacro": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 17.0,
+            "value": 0.4722222222222222
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 5.940079365079366,
+            "value": 0.16500220458553794
+          }
+        },
+        "macroStreamPrefix": {
+          "fragmentedProjects": {
+            "denominator": 36,
+            "numerator": 10.47780448717949,
+            "value": 0.29105012464387475
+          },
+          "mixedClusters": {
+            "denominator": 36,
+            "numerator": 7.250093819579115,
+            "value": 0.20139149498830877
+          },
+          "precision": {
+            "denominator": 36,
+            "numerator": 23.949764917622062,
+            "value": 0.665271247711724
+          },
+          "recall": {
+            "denominator": 36,
+            "numerator": 20.60012448924434,
+            "value": 0.5722256802567872
+          }
+        },
+        "rates": {
+          "abstentions": {
+            "denominator": 432,
+            "numerator": 255,
+            "value": 0.5902777777777778
+          },
+          "falseAttachmentPairs": {
+            "denominator": 2037,
+            "numerator": 237,
+            "value": 0.11634756995581738
+          },
+          "falseAttachments": {
+            "denominator": 360,
+            "numerator": 106,
+            "value": 0.29444444444444445
+          },
+          "missedAttachmentPairs": {
+            "denominator": 906,
+            "numerator": 575,
+            "value": 0.6346578366445916
+          },
+          "missedAttachments": {
+            "denominator": 279,
+            "numerator": 165,
+            "value": 0.5913978494623656
+          },
+          "proposals": {
+            "denominator": 432,
+            "numerator": 112,
+            "value": 0.25925925925925924
+          },
+          "retrievalSharedCoverage": {
+            "denominator": 906,
+            "numerator": 861,
+            "value": 0.9503311258278145
+          },
+          "uncertainCaptureJoined": {
+            "denominator": 36,
+            "numerator": 3,
+            "value": 0.08333333333333333
+          }
+        },
+        "streams": 36
+      },
+      "orderSensitivity": {
+        "denominator": 36,
+        "numerator": 1.9696969696969693,
+        "value": 0.0547138047138047
+      }
+    }
+  },
+  "policyStreams": 288,
+  "prefixes": 4632,
+  "stories": 12
+}

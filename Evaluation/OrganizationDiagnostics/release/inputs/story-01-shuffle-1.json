@@ -1,0 +1,140 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "note",
+        "text": "North Gallery accepted our brass astrolabe for its winter exhibition. Start the loan paperwork and a fitted transport cradle."
+      }
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "file",
+        "text": "Loan request: Hill Textile Centre wants the woven screen for a separate spring display. Harbour Museum will commission its own crate."
+      }
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "note",
+        "text": "The kitchen tap drips even with the cartridge tightened. Measure the sink hole before ordering the replacement."
+      }
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "image",
+        "text": "OCR from astrolabe cradle sketch: outer width 480 mm; North Gallery winter loan; leave finger clearance beside brass ring."
+      }
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "file",
+        "text": "Courier itinerary covers two jobs: collect the astrolabe for North Gallery and the woven screen for Hill Textile Centre. Keep separate loan references and receipts."
+      }
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "voice",
+        "text": "Ask the courier about the wider one. The label fell off my sketch."
+      }
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "note",
+        "text": "I found the missing label from my 'wider one' voice memo: it belongs to the woven-screen crate for Hill Textile Centre."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e09",
+      "kind": "correct",
+      "reason": "The recovered label in c07 identifies the wider crate as the woven-screen loan. Assign my voice memo to that project.",
+      "target": "c04",
+      "userRequestedProjects": [
+        "p2"
+      ]
+    },
+    {
+      "id": "e06",
+      "kind": "revise",
+      "target": "c03",
+      "text": "OCR corrected from astrolabe cradle sketch: outer width 480 mm, inner width 430 mm; North Gallery winter loan; leave finger clearance beside brass ring."
+    },
+    {
+      "id": "e11",
+      "kind": "archive",
+      "target": "c03"
+    },
+    {
+      "id": "e15",
+      "kind": "restore",
+      "target": "c03"
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "image",
+        "text": "Scanned signed permission: brass astrolabe, North Gallery winter exhibition, courier collection approved subject to the cradle check."
+      }
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "video",
+        "text": "Packing-room clip: the brass astrolabe sits securely in the revised cradle; staff rotate the closed crate before the North Gallery collection."
+      }
+    },
+    {
+      "id": "e14",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "note",
+        "text": "North Gallery's astrolabe display opened today. Their conservator asks us to retain the cradle dimensions for the return journey."
+      }
+    },
+    {
+      "id": "e16",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "file",
+        "text": "Astrolabe loan closeout: returned to Harbour Museum; the cradle prevented movement, but next time photograph the ring before sealing."
+      }
+    },
+    {
+      "id": "e13",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "voice",
+        "text": "Hill Textile Centre confirmed the woven screen arrived with no tears. Save their unpacking photos with that loan."
+      }
+    }
+  ],
+  "order": "shuffle-1",
+  "story": "story-01"
+}

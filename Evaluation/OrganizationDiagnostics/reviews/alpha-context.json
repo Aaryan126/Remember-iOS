@@ -1,0 +1,856 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "alpha",
+  "phase": "context",
+  "packetSHA256": "c854901dd6d298647b532a798f3535ca44c9c71318a0255d362ae6a70a9a647a",
+  "judgments": [
+    {
+      "id": "r001",
+      "relation": "same",
+      "rationale": "The split shed roof sheet is measured for replacement, then its replacement is cut and prepared for fitting.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s140",
+        "s222"
+      ]
+    },
+    {
+      "id": "r002",
+      "relation": "same",
+      "rationale": "Court two's surface repair progresses from a planned closure to reopening after repainting and safety checks.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s009",
+        "s193"
+      ]
+    },
+    {
+      "id": "r003",
+      "relation": "same",
+      "rationale": "The radio's loose knob insert is diagnosed first and retained after the tuning repair succeeds.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s021",
+        "s100"
+      ]
+    },
+    {
+      "id": "r004",
+      "relation": "unrelated",
+      "rationale": "Returning incorrectly sized boots and scheduling water breaks concern different undertakings with no supported connection.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s151",
+        "s135"
+      ]
+    },
+    {
+      "id": "r005",
+      "relation": "related",
+      "rationale": "s179 places the evening base block on the riverside loop, while s183 and s003 define the club guide for that loop. Sharing the route connects distinct exercise and guide projects.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s228",
+        "s003",
+        "s179",
+        "s183",
+        "s173"
+      ]
+    },
+    {
+      "id": "r006",
+      "relation": "same",
+      "rationale": "Both address instability in the telescope mount and verify the repair through focusing or magnification tests.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s092",
+        "s045"
+      ]
+    },
+    {
+      "id": "r007",
+      "relation": "same",
+      "rationale": "Both correct when onboarding_done is emitted, specifically addressing backgrounding on the final onboarding card.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s089",
+        "s116"
+      ]
+    },
+    {
+      "id": "r008",
+      "relation": "related",
+      "rationale": "Both concern desk arrangements, but the glare investigation and the keyboard handover/reset card have independently stated goals.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s219",
+        "s126"
+      ]
+    },
+    {
+      "id": "r009",
+      "relation": "same",
+      "rationale": "The hanging's Estuary April tour slot directly matches Mina's outward transport and the uncovered return journey.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s138",
+        "s047"
+      ]
+    },
+    {
+      "id": "r010",
+      "relation": "same",
+      "rationale": "The Ridge preparation log and finish reflection concern the same named running undertaking across training and review.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s176",
+        "s064"
+      ]
+    },
+    {
+      "id": "r011",
+      "relation": "related",
+      "rationale": "s115 and s221 identify Cedar as the Fieldmark first-note design experiment; s124, s234 and s208 identify a separate offline-persistence defect. The common first-run flow connects their distinct objectives.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s221",
+        "s234",
+        "s115",
+        "s124",
+        "s208"
+      ]
+    },
+    {
+      "id": "r012",
+      "relation": "unrelated",
+      "rationale": "Returning a lost junior racquet and adjusting a balcony door latch have no supported project connection.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s161",
+        "s035"
+      ]
+    },
+    {
+      "id": "r013",
+      "relation": "same",
+      "rationale": "Signups, court helpers and the welcome sign are execution details of the same family day event.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s076",
+        "s154"
+      ]
+    },
+    {
+      "id": "r014",
+      "relation": "same",
+      "rationale": "The exhibit's bell masking the opening voice is addressed by the listening station's quieter-bell final check.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s063",
+        "s046"
+      ]
+    },
+    {
+      "id": "r015",
+      "relation": "related",
+      "rationale": "The microphone timing experiment and replay crash stress test concern lesson interactions but state distinct design and reliability goals.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s038",
+        "s097"
+      ]
+    },
+    {
+      "id": "r016",
+      "relation": "unrelated",
+      "rationale": "Spanish onboarding translation and arranging a dry dog lead for a walk have no supported connection.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s165",
+        "s230"
+      ]
+    },
+    {
+      "id": "r017",
+      "relation": "uncertain",
+      "rationale": "s129 identifies Dane's queue excerpt as the station's source, but s055 does not identify its corrected chain-locker passage as that excerpt. s050 permits both archive and limited playback use, leaving the correction's project scope unresolved.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s055",
+        "s046",
+        "s129",
+        "s050",
+        "s211"
+      ]
+    },
+    {
+      "id": "r018",
+      "relation": "related",
+      "rationale": "The family day sign and court reopening concern sporting facilities, but no text makes the court repair part of this event.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s154",
+        "s193"
+      ]
+    },
+    {
+      "id": "r019",
+      "relation": "same",
+      "rationale": "Chen's shorter membership correction is explicitly carried into the completed swim-renewal reconciliation.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s199",
+        "s082"
+      ]
+    },
+    {
+      "id": "r020",
+      "relation": "same",
+      "rationale": "s133 explicitly carries Chen's November correction through the exported renewal row, regenerated receipt and gate resync. This establishes one continuing Chen correction behind s199 and s026; s091 separately closes the gate-timing ticket.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s199",
+        "s026",
+        "s133",
+        "s223",
+        "s091"
+      ]
+    },
+    {
+      "id": "r021",
+      "relation": "related",
+      "rationale": "The Cedar copy and Fieldmark walkthrough concern first-note saving offline, but one tests user understanding and the other verifies a persistence defect.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s195",
+        "s214"
+      ]
+    },
+    {
+      "id": "r022",
+      "relation": "same",
+      "rationale": "s113 states that lowering the monitor to the comfortable 7 cm position caused the camera-angle problem and initiates its adjustment. s074 continues that screen setup correction while preserving the readable height.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s190",
+        "s074",
+        "s113",
+        "s168"
+      ]
+    },
+    {
+      "id": "r023",
+      "relation": "same",
+      "rationale": "The relay roster revision is followed by acceptance of the entry with that revised order.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s069",
+        "s142"
+      ]
+    },
+    {
+      "id": "r024",
+      "relation": "same",
+      "rationale": "Both explicitly include the broad-beam test at the rooty riverside bend, although they also address training and the route guide.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s179",
+        "s212"
+      ]
+    },
+    {
+      "id": "r025",
+      "relation": "related",
+      "rationale": "s207 identifies the four-visit offer as a club membership trial; s159 and s220 track the hall's lost racquet. The club context connects these separate trial-offer and lost-property undertakings.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s018",
+        "s220",
+        "s207",
+        "s159",
+        "s186"
+      ]
+    },
+    {
+      "id": "r026",
+      "relation": "same",
+      "rationale": "The walking booklet's market-to-pump route is field-tested and its final stopping point revised.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s148",
+        "s034"
+      ]
+    },
+    {
+      "id": "r027",
+      "relation": "same",
+      "rationale": "The combined courier sheet includes the globe outward shipment, which the second capture records as collected.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s001",
+        "s020"
+      ]
+    },
+    {
+      "id": "r028",
+      "relation": "unrelated",
+      "rationale": "A repaired radio and filing museum reproduction permission concern unrelated objects and goals.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s100",
+        "s152"
+      ]
+    },
+    {
+      "id": "r029",
+      "relation": "same",
+      "rationale": "The report correction addresses exclusion caused by the launch permission dialog tested in the EchoSteps onboarding experiment.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s038",
+        "s157"
+      ]
+    },
+    {
+      "id": "r030",
+      "relation": "same",
+      "rationale": "The plan reproduction approval and accepted credit proof are paperwork for the same printed booklet permission.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s013",
+        "s152"
+      ]
+    },
+    {
+      "id": "r031",
+      "relation": "same",
+      "rationale": "Dane's marked public-playback excerpts are the authorized source used by the listening exhibit script.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s050",
+        "s129"
+      ]
+    },
+    {
+      "id": "r032",
+      "relation": "unrelated",
+      "rationale": "Telescope mount instability and correcting Chen's renewal/access data concern unrelated undertakings.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s107",
+        "s133"
+      ]
+    },
+    {
+      "id": "r033",
+      "relation": "uncertain",
+      "rationale": "s050 distinguishes Dane's archive permissions from playback of two marked excerpts, and s129 selects the queue excerpt. Nothing identifies s055's chain-locker correction as part of that excerpt or specifies whether it serves the exhibit or original archive transcript.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s055",
+        "s129",
+        "s050",
+        "s211"
+      ]
+    },
+    {
+      "id": "r034",
+      "relation": "same",
+      "rationale": "s150 and s005 identify the hanging's weak lower sleeve and required sloped board; s024 specifies the 20-degree support documented in s109. This resolves Bell House's s225 angle request as the same hanging-tour conservation work.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s225",
+        "s109",
+        "s150",
+        "s005",
+        "s024",
+        "s138"
+      ]
+    },
+    {
+      "id": "r035",
+      "relation": "same",
+      "rationale": "Mina's April availability and the need for unrolling supervision are carried into confirmed return cover and training sign-off.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s182",
+        "s139"
+      ]
+    },
+    {
+      "id": "r036",
+      "relation": "related",
+      "rationale": "Both concern first-run trail-note creation, but the Cedar onboarding experiment and the offline note-loss bug have distinct stated objectives.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s221",
+        "s124"
+      ]
+    },
+    {
+      "id": "r037",
+      "relation": "same",
+      "rationale": "The disposed playback-handle diagnosis and denied-microphone replay verification explicitly concern closing the same replay crash bug.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s160",
+        "s218"
+      ]
+    },
+    {
+      "id": "r038",
+      "relation": "same",
+      "rationale": "Repeated dawn gate rejection is investigated using other swimmers' before-06:00 failures and later successful admission.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s235",
+        "s184"
+      ]
+    },
+    {
+      "id": "r039",
+      "relation": "same",
+      "rationale": "The telescope/tripod shake investigation is continued by identifying a split hinge pad and specifying its repair.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s107",
+        "s012"
+      ]
+    },
+    {
+      "id": "r040",
+      "relation": "same",
+      "rationale": "s133 explicitly makes the residual Chen expiry mismatch a correction to the exported renewal row as well as its gate copy. s082 closes the renewal ledger with both the unidentified transfers and Chen's shorter term, connecting s026 and s022 to that continuing reconciliation.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s026",
+        "s022",
+        "s133",
+        "s082",
+        "s181"
+      ]
+    },
+    {
+      "id": "r041",
+      "relation": "related",
+      "rationale": "s115, s221 and s127 identify Cedar's first-run design and comprehension experiment; s124 and s208 identify s234's offline-store repair. The copy in s195 concerns the same app flow but a distinct design-test objective.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s234",
+        "s195",
+        "s115",
+        "s221",
+        "s127",
+        "s124",
+        "s208"
+      ]
+    },
+    {
+      "id": "r042",
+      "relation": "same",
+      "rationale": "Both explicitly concern Renn's ferry interview, progressing from planned questions to its closing answer and permission record.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s200",
+        "s134"
+      ]
+    },
+    {
+      "id": "r043",
+      "relation": "same",
+      "rationale": "s087 defines the town archive deposit for shopkeeper recordings, s112 prepares Bea's package, and s073 confirms the same four-complete/two-withheld deposit described in s040. These are stages of that archive deposit.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s040",
+        "s112",
+        "s087",
+        "s073",
+        "s105"
+      ]
+    },
+    {
+      "id": "r044",
+      "relation": "same",
+      "rationale": "The work-break trial progresses from moving a conflicting reminder to reviewing and retaining a successful meeting buffer.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s029",
+        "s156"
+      ]
+    },
+    {
+      "id": "r045",
+      "relation": "related",
+      "rationale": "Gate rejection despite a renewal receipt and reconciling swim transfers share membership evidence but address access reliability and renewal administration separately.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s235",
+        "s022"
+      ]
+    },
+    {
+      "id": "r046",
+      "relation": "unrelated",
+      "rationale": "Covering a mirror to remove spreadsheet glare and preparing an upright piano for tuning have no supported shared undertaking.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s083",
+        "s117"
+      ]
+    },
+    {
+      "id": "r047",
+      "relation": "unrelated",
+      "rationale": "Servicing an archive fan relay and closing a mask return concern different objects and outcomes without a stated project connection.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s205",
+        "s189"
+      ]
+    },
+    {
+      "id": "r048",
+      "relation": "same",
+      "rationale": "s131 identifies Chen 083 as a swim-renewal ledger entry, resolving the unnamed membership in s199. s181 and s082 place that correction and payment reconciliation in the same club renewal undertaking as s110's reminders.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s199",
+        "s110",
+        "s131",
+        "s181",
+        "s082"
+      ]
+    },
+    {
+      "id": "r049",
+      "relation": "same",
+      "rationale": "The compact-keyboard and close-mouse trial is evaluated after editing and incorporated into the final input setup.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s177",
+        "s037"
+      ]
+    },
+    {
+      "id": "r050",
+      "relation": "related",
+      "rationale": "The globe crate and Ash mask return concern museum-object transport, but they identify different objects and separate loan undertakings.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s081",
+        "s143"
+      ]
+    },
+    {
+      "id": "r051",
+      "relation": "same",
+      "rationale": "The balcony railing paint preparation proceeds from a primer test to a successful result and finish-coat planning.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s096",
+        "s108"
+      ]
+    },
+    {
+      "id": "r052",
+      "relation": "same",
+      "rationale": "Arun's confirmed return travel and unrolling training resolve the return supervision gap caused by Mina's course.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s047",
+        "s139"
+      ]
+    },
+    {
+      "id": "r053",
+      "relation": "related",
+      "rationale": "The family-day trial-card handoff and hall lost property share a club setting, but no evidence assigns the lost items to that event or trial.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s233",
+        "s159"
+      ]
+    },
+    {
+      "id": "r054",
+      "relation": "same",
+      "rationale": "Both reschedule parts of the named Ridge preparation, with the race-week handoff also coordinating its travel.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s036",
+        "s210"
+      ]
+    },
+    {
+      "id": "r055",
+      "relation": "same",
+      "rationale": "Extending the hanging's Estuary stay into early May explains the same April outward move and May return-cover requirement.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s095",
+        "s047"
+      ]
+    },
+    {
+      "id": "r056",
+      "relation": "same",
+      "rationale": "The opening Ridge woodland diary and Ridge finish reflection concern preparation and lessons from the same named undertaking.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s068",
+        "s064"
+      ]
+    },
+    {
+      "id": "r057",
+      "relation": "same",
+      "rationale": "The Ridge week-four training log and race-week training/travel handoff belong to the same continuing Ridge undertaking.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s176",
+        "s210"
+      ]
+    },
+    {
+      "id": "r058",
+      "relation": "related",
+      "rationale": "The Bay globe dispatch and Ash mask damage settlement concern separate loans of different objects, despite shared registrar and handling work.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s062",
+        "s237"
+      ]
+    },
+    {
+      "id": "r059",
+      "relation": "same",
+      "rationale": "s210 explicitly joins the Ridge schedule to the earlier race-week train and 18:00 guesthouse estimate. s136 confirms that exact travel change, resolving it as logistics for the same Ridge undertaking as s036.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s036",
+        "s136",
+        "s210",
+        "s030"
+      ]
+    },
+    {
+      "id": "r060",
+      "relation": "same",
+      "rationale": "Both document the textile's 20-degree support and sleeve condition for later comparison during transport or unpacking.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s024",
+        "s109"
+      ]
+    },
+    {
+      "id": "r061",
+      "relation": "same",
+      "rationale": "The revised seven-table count updates the wedding's original six-table floral order while retaining matching low bowls.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s149",
+        "s032"
+      ]
+    },
+    {
+      "id": "r062",
+      "relation": "same",
+      "rationale": "The dawn gate rejection is followed by a corrected access schedule and a targeted 05:05 validation test.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s235",
+        "s153"
+      ]
+    },
+    {
+      "id": "r063",
+      "relation": "same",
+      "rationale": "The broad-beam versus spot headlamp bench comparison progresses to its field result and strap adjustment.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s002",
+        "s132"
+      ]
+    },
+    {
+      "id": "r064",
+      "relation": "same",
+      "rationale": "The family badminton day's planned welcome and registration are expanded to include issuing and explaining trial cards.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s186",
+        "s233"
+      ]
+    },
+    {
+      "id": "r065",
+      "relation": "same",
+      "rationale": "The prepaid boots return is subsequently scanned by the courier and tracked pending replacement or refund.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s151",
+        "s060"
+      ]
+    },
+    {
+      "id": "r066",
+      "relation": "related",
+      "rationale": "Both concern Market Street historical material, but a plan permission for printed booklets and an interview/invoice archive have distinct deliverables without an explicit combined project.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s240",
+        "s198"
+      ]
+    },
+    {
+      "id": "r067",
+      "relation": "same",
+      "rationale": "Archive humidity spikes linked to fan stoppages lead to relay replacement and stable overnight logger readings.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s187",
+        "s065"
+      ]
+    },
+    {
+      "id": "r068",
+      "relation": "same",
+      "rationale": "Both investigate early gate admission; the follow-up records successful 05:05 tests while also identifying a separate Chen expiry fault.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s235",
+        "s026"
+      ]
+    },
+    {
+      "id": "r069",
+      "relation": "related",
+      "rationale": "s229 places the night relay on the riverside loop where s002 tests the headlamp. The common route connects the equipment comparison and team entry without making them one undertaking.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s002",
+        "s069",
+        "s229",
+        "s132"
+      ]
+    },
+    {
+      "id": "r070",
+      "relation": "related",
+      "rationale": "s179 explicitly uses the riverside loop for the base block, and s183 identifies it as the club guide's route. The guide and the four-week habit programme remain separate deliverables despite this connection.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s007",
+        "s003",
+        "s179",
+        "s183",
+        "s173"
+      ]
+    },
+    {
+      "id": "r071",
+      "relation": "related",
+      "rationale": "The desk-glare experiment and shared keyboard reset arrangement concern workspace use but specify different goals with no stated combined setup undertaking.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s204",
+        "s126"
+      ]
+    },
+    {
+      "id": "r072",
+      "relation": "unrelated",
+      "rationale": "Onboarding analytics duplication and a wedding florist's table-count correction have no supported connection.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s089",
+        "s032"
+      ]
+    },
+    {
+      "id": "r073",
+      "relation": "related",
+      "rationale": "Both concern oral-history sources and their use, but Renn's transcript correction and Dane's exhibit permission identify different speakers and distinct immediate undertakings.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s194",
+        "s211"
+      ]
+    },
+    {
+      "id": "r074",
+      "relation": "same",
+      "rationale": "The report explicitly compares the launch-prompt and Late mic cohorts defined by the EchoSteps permission-timing experiment.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s038",
+        "s053"
+      ]
+    },
+    {
+      "id": "r075",
+      "relation": "unrelated",
+      "rationale": "Dispatching the globe loan to Bay and preparing alto choir scores concern different objects, participants and goals.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s062",
+        "s146"
+      ]
+    },
+    {
+      "id": "r076",
+      "relation": "same",
+      "rationale": "Bea's corrected shop address and the speaker-specific shopkeeper transcript review develop the same Market Street testimony material.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s120",
+        "s141"
+      ]
+    },
+    {
+      "id": "r077",
+      "relation": "related",
+      "rationale": "The evening exercise block and a completed team relay concern running, but describe independent training and event undertakings.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s228",
+        "s033"
+      ]
+    },
+    {
+      "id": "r078",
+      "relation": "same",
+      "rationale": "The Ask on Record cohort result uses the explicitly renamed Late mic variant of the same onboarding experiment.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s028",
+        "s078"
+      ]
+    },
+    {
+      "id": "r079",
+      "relation": "related",
+      "rationale": "s115 and s221 resolve Cedar as Fieldmark's first-note onboarding experiment; s124 and s208 resolve s234 as its app's offline-persistence repair. The comprehension test and data-loss fix have distinct stated objectives.",
+      "pairSufficient": false,
+      "evidenceIds": [
+        "s122",
+        "s234",
+        "s115",
+        "s221",
+        "s124",
+        "s208"
+      ]
+    },
+    {
+      "id": "r080",
+      "relation": "same",
+      "rationale": "The chair's foot-block trial and marked height lever are preserved and checked in the subsequent desk setup photo.",
+      "pairSufficient": true,
+      "evidenceIds": [
+        "s094",
+        "s226"
+      ]
+    }
+  ]
+}

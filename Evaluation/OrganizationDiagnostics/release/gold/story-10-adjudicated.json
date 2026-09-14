@@ -1,0 +1,286 @@
+{
+  "authorNotes": "All game titles, jobs and observations are fictional. The second edit of c01 records confirmation of its existing first-print identity; it never changes membership implicitly.",
+  "captures": [
+    {
+      "id": "c01",
+      "memberships": [],
+      "modality": "note",
+      "rationale": "An isolated dimension fragment does not identify a box, prototype or job.",
+      "text": "Two millimeters more around the cards."
+    },
+    {
+      "id": "c02",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "Defines one print undertaking from component work to receipt.",
+      "text": "Moss Market first commercial print order: 300 copies. Finalize the base-game tray, approve proofs and receive the finished cartons under this job."
+    },
+    {
+      "id": "c03",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "voice",
+      "rationale": "Distinct exploratory goal and explicit exclusion establish a separate project.",
+      "text": "Night-market expansion is an independent Moss Market prototype. Test whether after-dark trading adds useful choices; do not include these cards in the first print order."
+    },
+    {
+      "id": "c04",
+      "memberships": [
+        "p4"
+      ],
+      "modality": "image",
+      "rationale": "A household lamp repair has no supported game-production connection.",
+      "text": "Desk lamp photo description: cord insulation split at the base grommet. Keep the lamp unplugged while replacing its lead."
+    },
+    {
+      "id": "c05",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Explicitly resolves the early fragment to the first print order.",
+      "text": "My two-millimeter note was about card clearance in the base-game tray for Moss Market's first 300-copy print job. It did not concern expansion cards."
+    },
+    {
+      "id": "c06",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "video",
+      "rationale": "Tests the clarified component revision for the first printing.",
+      "text": "First-print tray proof test: sleeved base-game cards lift out without bending after the extra clearance. The token wells still hold their contents when tilted."
+    },
+    {
+      "id": "c07",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "Results and revision continue the expansion experiment.",
+      "text": "Night-market expansion playtest report: bidding after dark slowed the final round. Revise the prototype's turn limit before another independent test."
+    },
+    {
+      "id": "c08",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "note",
+      "rationale": "A separate order establishes a distinct repeat manufacturing undertaking.",
+      "text": "Retailer has separately commissioned a 500-copy Moss Market reprint, with its own invoice and shipment. Planning can start now; manufacturing waits for the first job to close."
+    },
+    {
+      "id": "c09",
+      "memberships": [
+        "p1",
+        "p3"
+      ],
+      "modality": "file",
+      "rationale": "The statement directly covers two separately commissioned print jobs.",
+      "text": "Printer account statement: deposit and balance for Moss Market's first 300-copy order; separate deposit for the retailer's 500-copy reprint. Do not combine the shipments."
+    },
+    {
+      "id": "c10",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "image",
+      "rationale": "Receipt and closure complete the first print run.",
+      "text": "Delivery docket: all 300 Moss Market first-run copies received, tray proof accepted, no carton damage. First manufacturing job closed."
+    },
+    {
+      "id": "c11",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "file",
+      "rationale": "Reusing a specification does not erase the second order's separate scope.",
+      "text": "Retailer reprint stock quote: 500 Moss Market boxes using the accepted base-game tray specification; offer thicker cover paper for this second order only."
+    },
+    {
+      "id": "c12",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "voice",
+      "rationale": "A follow-up test belongs to the expansion's continuing experiment.",
+      "text": "Second night-market prototype session: the shorter turn limit worked, but the group wants clearer bidding icons. Keep this result with expansion research, not either print order."
+    }
+  ],
+  "challenges": [
+    "An unresolved fragment can precede the first named project capture.",
+    "One game can have independent development and separately ordered manufacturing projects.",
+    "Reused specifications do not merge print orders.",
+    "Repeated edits across archive/restore must preserve an explicit correction and revision history."
+  ],
+  "events": [
+    {
+      "capture": "c01",
+      "dependsOn": [],
+      "id": "e01",
+      "kind": "capture"
+    },
+    {
+      "capture": "c02",
+      "dependsOn": [],
+      "id": "e02",
+      "kind": "capture"
+    },
+    {
+      "capture": "c03",
+      "dependsOn": [],
+      "id": "e03",
+      "kind": "capture"
+    },
+    {
+      "capture": "c04",
+      "dependsOn": [],
+      "id": "e04",
+      "kind": "capture"
+    },
+    {
+      "capture": "c05",
+      "dependsOn": [
+        "e01",
+        "e02",
+        "e03"
+      ],
+      "id": "e05",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e01",
+        "e05"
+      ],
+      "id": "e06",
+      "kind": "correct",
+      "memberships": [
+        "p1"
+      ],
+      "reason": "c05 identifies the dimension as first-print base-game tray clearance. Assign my fragment to that print job.",
+      "target": "c01"
+    },
+    {
+      "dependsOn": [
+        "e06"
+      ],
+      "id": "e07",
+      "kind": "revise",
+      "target": "c01",
+      "text": "Two millimeters more clearance around the cards in the first-print Moss Market base-game tray."
+    },
+    {
+      "capture": "c06",
+      "dependsOn": [
+        "e07"
+      ],
+      "id": "e08",
+      "kind": "capture"
+    },
+    {
+      "capture": "c07",
+      "dependsOn": [
+        "e03"
+      ],
+      "id": "e09",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e07",
+        "e08"
+      ],
+      "id": "e10",
+      "kind": "archive",
+      "target": "c01"
+    },
+    {
+      "capture": "c08",
+      "dependsOn": [
+        "e02"
+      ],
+      "id": "e11",
+      "kind": "capture"
+    },
+    {
+      "capture": "c09",
+      "dependsOn": [
+        "e02",
+        "e11"
+      ],
+      "id": "e12",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e10"
+      ],
+      "id": "e13",
+      "kind": "restore",
+      "target": "c01"
+    },
+    {
+      "dependsOn": [
+        "e13",
+        "e08"
+      ],
+      "id": "e14",
+      "kind": "revise",
+      "target": "c01",
+      "text": "Confirmed in the first-print Moss Market tray proof: two millimeters extra clearance around the sleeved base-game cards is sufficient."
+    },
+    {
+      "capture": "c10",
+      "dependsOn": [
+        "e08"
+      ],
+      "id": "e15",
+      "kind": "capture"
+    },
+    {
+      "capture": "c11",
+      "dependsOn": [
+        "e11",
+        "e15"
+      ],
+      "id": "e16",
+      "kind": "capture"
+    },
+    {
+      "capture": "c12",
+      "dependsOn": [
+        "e09"
+      ],
+      "id": "e17",
+      "kind": "capture"
+    }
+  ],
+  "id": "story-10",
+  "schemaVersion": 1,
+  "threads": [
+    {
+      "id": "p1",
+      "scope": "Finalize components, proof, manufacture and receive the first 300-copy commercial print run of Moss Market.",
+      "title": "Moss Market first print run"
+    },
+    {
+      "id": "p2",
+      "scope": "Independently prototype and evaluate an optional night-market expansion before deciding whether to produce it.",
+      "title": "Moss Market night-market expansion prototype"
+    },
+    {
+      "id": "p3",
+      "scope": "Fulfill a separately commissioned 500-copy reprint order for a retailer after the first print job closes.",
+      "title": "Moss Market second print order"
+    },
+    {
+      "id": "p4",
+      "scope": "Replace the damaged cord of a desk lamp and verify the repair.",
+      "title": "Desk lamp rewiring"
+    }
+  ],
+  "title": "First printing, expansion prototype and reprint"
+}

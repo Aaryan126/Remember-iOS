@@ -1,0 +1,140 @@
+{
+  "events": [
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "note",
+        "text": "Skip the membrane; roots need to cross."
+      }
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "file",
+        "text": "Cello audition checklist: record the prelude and the dance in one quiet room, then choose complete takes for the submission."
+      }
+    },
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "note",
+        "text": "Birch Lane library wants a rain garden to catch roof runoff. Survey the downpipe, size the basin, then check it after the first storm."
+      }
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "voice",
+        "text": "Library downpipe survey: the runoff crosses the paving first. The rain-garden inlet needs a stone apron so the basin edge will not wash out."
+      }
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "file",
+        "text": "Library rain-garden planting plan: sedges near the inlet, flowering plugs on the higher rim. Basin depth shown as 250 mm."
+      }
+    },
+    {
+      "id": "e07",
+      "kind": "revise",
+      "target": "c06",
+      "text": "Library rain-garden planting plan revised: sedges near the inlet, flowering plugs on the higher rim. Basin depth is 200 mm after checking the buried service clearance."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "image",
+        "text": "Photo description: allotment plot 18 vegetable beds under standing water. Separate drainage job: cut a shallow side swale without routing water into neighboring plots."
+      }
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "file",
+        "text": "Order from Flint Yard: washed stone for Birch Lane library rain-garden inlet; separate gravel bags for plot 18's swale. Invoice lines have separate site codes."
+      }
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "video",
+        "text": "Installation clip at Birch Lane library: inlet stone apron is seated, basin is excavated to the revised depth, and the sedges are planted."
+      }
+    },
+    {
+      "id": "e12",
+      "kind": "archive",
+      "target": "c06"
+    },
+    {
+      "id": "e14",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "image",
+        "text": "Library rain garden after its first storm: water entered over the stone apron, no rim erosion, standing water gone by the following morning."
+      }
+    },
+    {
+      "id": "e16",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "note",
+        "text": "Library rain-garden handover: keep the inlet free of leaves and recheck the sedges in six weeks. Attach the first-storm observations to the maintenance sheet."
+      }
+    },
+    {
+      "id": "e15",
+      "kind": "restore",
+      "target": "c06"
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "voice",
+        "text": "The membrane note refers to plot 18's vegetable-bed swale. Leave it unlined so crop roots can cross; the library basin uses its own specification."
+      }
+    },
+    {
+      "id": "e13",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "note",
+        "text": "Plot 18 after rain: the new unlined side swale drains, but a low corner of the vegetable bed still holds water. Raise only that corner."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e09",
+      "kind": "correct",
+      "reason": "c07 explicitly places the membrane instruction at allotment plot 18. Assign it to that drainage job.",
+      "target": "c05",
+      "userRequestedProjects": [
+        "p2"
+      ]
+    }
+  ],
+  "order": "shuffle-2",
+  "story": "story-06"
+}

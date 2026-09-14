@@ -1,0 +1,1461 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "alpha",
+  "packetSHA256": "67924ae4e82250eded3a1fe241d96772f1ada8f2072f3f3fac9666cb46821884",
+  "stories": [
+    {
+      "id": "story-01",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The North Gallery winter astrolabe loan expressly includes both paperwork and its fitted transport cradle."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Hill Textile Centre's separately requested woven-screen display is a distinct loan commission."
+        },
+        {
+          "capture": "c03",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The sketch names the astrolabe, North Gallery and winter loan, directly identifying its transport work."
+        },
+        {
+          "capture": "c04",
+          "memberships": [],
+          "rationale": "The wider object and unlabeled sketch do not identify either loan; no recovered label exists at this prefix."
+        },
+        {
+          "capture": "c05",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "The leaking kitchen tap and replacement measurements identify the household tap-repair undertaking."
+        },
+        {
+          "capture": "c06",
+          "memberships": [
+            "p1",
+            "p2"
+          ],
+          "rationale": "The itinerary explicitly coordinates the astrolabe and woven-screen jobs while retaining separate loan references."
+        },
+        {
+          "capture": "c07",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The recovered label now expressly identifies the earlier memo as the Hill woven-screen crate."
+        },
+        {
+          "capture": "c08",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The signed collection permission names the brass astrolabe and North Gallery winter exhibition."
+        },
+        {
+          "capture": "c09",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The packing test validates the revised astrolabe cradle before the named North Gallery collection."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Hill Textile Centre's arrival confirmation and unpacking photographs close the woven-screen delivery stage."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "North Gallery's opening and retention of cradle dimensions continue the same astrolabe loan through its return."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The returned astrolabe and cradle-performance review close the original Harbour Museum loan."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "eventIds": [
+            "e06",
+            "e12"
+          ],
+          "captureIds": [
+            "c03",
+            "c09"
+          ],
+          "issue": "The only preceding revision is an OCR correction that adds an inner width; c09 calls the physical cradle revised. This can describe unrecorded fabrication work, but the graph cannot establish that a cradle design revision occurred.",
+          "suggestion": "If c09 is intended to depend on the OCR update, change 'revised cradle' to 'documented cradle' and retain e12.dependsOn including e06. If physical redesign matters, add an explicit design-change event and require e12 to depend on it."
+        },
+        {
+          "severity": "note",
+          "eventIds": [],
+          "captureIds": [],
+          "issue": "Across the twelve stories, repeated small libraries, explicit project names, independence declarations, a short ambiguous fragment and one eventual correction make the tasks easier and more templated than natural capture streams. Modality labels contain textual descriptions rather than original image or audio evidence.",
+          "suggestion": "Report these as synthetic retrospective causal fixtures, not blind prefix validation or evidence of real-user accuracy. Broaden future fixtures with naturally phrased scopes, unresolved fragments, missing media and multiple revisions while keeping initial labels independently reviewed."
+        }
+      ]
+    },
+    {
+      "id": "story-02",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The humidity protocol expressly combines dry controls and wet runs into one Lark drift study."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Battery lifetime has its own duty-cycle outcome and report, explicitly independent of humidity drift."
+        },
+        {
+          "capture": "c03",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The chamber and dry-control enclosures are labeled DRIFT, matching the humidity study protocol."
+        },
+        {
+          "capture": "c04",
+          "memberships": [],
+          "rationale": "Run B and a six-hour drop identify neither a humidity measurement nor battery cutoff at this prefix."
+        },
+        {
+          "capture": "c05",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "The split balcony-chair rail and hardwood insert identify a separate furniture repair."
+        },
+        {
+          "capture": "c06",
+          "memberships": [
+            "p1",
+            "p2"
+          ],
+          "rationale": "The booking explicitly schedules both independent Lark experiments and their shared sensor reset."
+        },
+        {
+          "capture": "c07",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The chamber clip follows the loose-gland observation and compares humidity-ramp and dry-control signals."
+        },
+        {
+          "capture": "c08",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The clarification identifies Run B as the medium-duty battery run and expressly excludes humidity work."
+        },
+        {
+          "capture": "c09",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The wet-minus-dry baseline-change report is the humidity study's stated analysis deliverable."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The low/medium/high duty lifetime chart and six-hour cutoff identify the battery experiment's results."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The review requests calibration uncertainty in the existing humidity draft's wet-minus-dry comparison."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "Delivery with added calibration uncertainty and enclosure logs completes the humidity study report."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "eventIds": [
+            "e01",
+            "e02"
+          ],
+          "captureIds": [
+            "c01",
+            "c02"
+          ],
+          "issue": "e02 explicitly contrasts its experiment with the humidity study but can precede that study's introduction. The battery experiment is self-identifying, so this does not itself invalidate its initial p2 membership.",
+          "suggestion": "If shuffles must preserve the narrative's named-project introductions, add e01 to e02.dependsOn. Otherwise document that an independent scope declaration may name a project before its first capture; preserve separate experiment memberships."
+        },
+        {
+          "severity": "note",
+          "eventIds": [
+            "e06",
+            "e09",
+            "e10",
+            "e11",
+            "e15",
+            "e16"
+          ],
+          "captureIds": [
+            "c04",
+            "c08",
+            "c09",
+            "c12"
+          ],
+          "issue": "The archived Run B fragment remains initially unresolved; e11 correctly requires both its restoration and the explicit battery clarification. The final humidity delivery also follows the actual report revision.",
+          "suggestion": "Retain e11.dependsOn including e10 and e09 and e16.dependsOn including e15. Do not infer c04's initial battery membership from the later six-hour chart or clarification."
+        }
+      ]
+    },
+    {
+      "id": "story-03",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The capture introduces the dated 2026 lantern-walk edition and its permit, steward and rain-plan tasks."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The route draft explicitly names Canal Lantern Walk 2026 and its East Lock-to-boat-shed route."
+        },
+        {
+          "capture": "c03",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "Feeding and marking the neglected starter concerns sourdough recovery, separate from either event."
+        },
+        {
+          "capture": "c04",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The 2026 permit and covered-towpath rain alternative concern the already identified 2026 edition."
+        },
+        {
+          "capture": "c05",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The recording shows stewards executing the 2026 event's approved wet-weather route."
+        },
+        {
+          "capture": "c06",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The covered-section and narrow-table observations expressly belong to the 2026 closeout review."
+        },
+        {
+          "capture": "c07",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The 2027 event is freshly commissioned with a separate date, budget and volunteer roster."
+        },
+        {
+          "capture": "c08",
+          "memberships": [],
+          "rationale": "The welcome-table move names no edition; the preceding old-event review and new commission leave its identity unresolved."
+        },
+        {
+          "capture": "c09",
+          "memberships": [
+            "p1",
+            "p2"
+          ],
+          "rationale": "The handover explicitly carries a 2026 review lesson into the distinct 2027 proposal without combining budgets."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The clarification explicitly assigns the table decision to 2027 rather than revising the old closeout."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The setup sketch names 2027 and implements that edition's clarified wider-bay table arrangement."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The supplier quote is expressly charged only to the 2027 event budget."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "eventIds": [
+            "e10",
+            "e11",
+            "e13",
+            "e14",
+            "e15"
+          ],
+          "captureIds": [
+            "c08",
+            "c09",
+            "c10",
+            "c11"
+          ],
+          "issue": "The unqualified table fragment is ambiguous between an old-edition review and new-edition setup. Its clarification and correction are causally constrained; the inter-edition handover is a bridge rather than evidence of one recurring-event project.",
+          "suggestion": "Retain e13's e10 prerequisite and e14's e13 prerequisite. Preserve c08's initial empty membership and the separate annual scopes even when shuffling the independent 2027 supplier task."
+        }
+      ]
+    },
+    {
+      "id": "story-04",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The Orchard Hall wedding commission includes design, tasting and delivery of the three-tier citrus cake."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Stone Pier's cafe-opening pear cakes are expressly under a separate order despite sharing the glaze."
+        },
+        {
+          "capture": "c03",
+          "memberships": [],
+          "rationale": "The cropped supplier slip shows two tubs but no allocation; sharing a glaze does not prove either or both commissions own this receipt."
+        },
+        {
+          "capture": "c04",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The Orchard Hall tasting approval modifies sweetness within the existing wedding-cake commission."
+        },
+        {
+          "capture": "c05",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "The noisy aquarium filter and replacement housing identify the separate home filter-repair undertaking."
+        },
+        {
+          "capture": "c06",
+          "memberships": [
+            "p1",
+            "p2"
+          ],
+          "rationale": "The uncropped allocation expressly assigns one tub to each named commission."
+        },
+        {
+          "capture": "c07",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Stone Pier's opening trial and increase to 72 pastries develop the cafe's separate order."
+        },
+        {
+          "capture": "c08",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "Three-tier assembly and the labeled wedding tub belong to the Orchard Hall wedding-cake delivery."
+        },
+        {
+          "capture": "c09",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The named wedding cake's venue arrival and table-placement photograph continue that commission."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The signed delivery docket and 72 pear cakes complete Stone Pier's opening-day pastry delivery."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "Orchard Hall's citrus and scuffed-glaze feedback is explicitly the wedding job's review."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p1",
+            "p2"
+          ],
+          "rationale": "The reconciliation allocates both glaze tubs and protects both clients from the other's delivery charges."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "blocker",
+          "eventIds": [
+            "e01",
+            "e02"
+          ],
+          "captureIds": [
+            "c01",
+            "c02"
+          ],
+          "issue": "c02 says Stone Pier wants 'the same pale green glaze', directly referring to the glaze introduced in c01, but e02 has no prerequisites. An allowed shuffle places this comparative follow-up before its only captured antecedent.",
+          "suggestion": "Add e01 to e02.dependsOn. This preserves the glaze comparison under shuffling without combining the two commissions or assigning the cropped receipt before e06 reveals its allocation."
+        },
+        {
+          "severity": "note",
+          "eventIds": [
+            "e03",
+            "e06",
+            "e07",
+            "e08",
+            "e12",
+            "e15"
+          ],
+          "captureIds": [
+            "c03",
+            "c06"
+          ],
+          "issue": "The cropped two-tub receipt cannot initially be assigned to both clients merely because both use that glaze. The explicit allocation-dependent correction precedes OCR revision, archive and restoration, so those operations can preserve its confirmed dual membership.",
+          "suggestion": "Retain e07.dependsOn including e06 and the subsequent e08 to e12 to e15 lifecycle chain. Treat the correction as dual linkage and retain the two separate order identities."
+        }
+      ]
+    },
+    {
+      "id": "story-05",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The release scope explicitly combines local drafts, synchronization, design, testing and rollout monitoring."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Duplicate subscription charges and reimbursements are a separate billing incident expressly outside that release."
+        },
+        {
+          "capture": "c03",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The offline draft mockup's local-save and reconnect states implement the named release's user flow."
+        },
+        {
+          "capture": "c04",
+          "memberships": [],
+          "rationale": "Retry, doubling and queue do not distinguish field-record synchronization from payment retry duplication."
+        },
+        {
+          "capture": "c05",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "Bracket spacing and bedroom-lintel measurement identify the independent blackout-curtain installation."
+        },
+        {
+          "capture": "c06",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The reconnect test duplicates a locally saved field observation and expressly does not test billing."
+        },
+        {
+          "capture": "c07",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The clarification ties the memo to the written offline reconnect log and identifies field records rather than charges."
+        },
+        {
+          "capture": "c08",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Payment-attempt identifiers and reimbursement tracking address the duplicate-charge incident."
+        },
+        {
+          "capture": "c09",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The demo validates offline survival, once-only synchronization and the revised acknowledged-save label."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p1",
+            "p2"
+          ],
+          "rationale": "The deployment coordination explicitly schedules both repairs while preserving separate approvals and rollback windows."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The staged cohort's field-record results and reconnect latency belong to offline release rollout monitoring."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Retry verification and the reconciled reimbursement ledger expressly close billing remediation only."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "eventIds": [
+            "e01",
+            "e02"
+          ],
+          "captureIds": [
+            "c01",
+            "c02"
+          ],
+          "issue": "The billing introduction can be shuffled before the offline-release introduction despite expressly declaring itself outside that release. Its duplicate-charge objective is fully stated, so the p2 assignment does not depend on observing c01 first.",
+          "suggestion": "For stricter introduction ordering, add e01 to e02.dependsOn; otherwise explicitly allow standalone scope contrasts to precede the other project's introduction. Keep this optional constraint separate from true follow-up dependencies."
+        },
+        {
+          "severity": "note",
+          "eventIds": [
+            "e06",
+            "e07",
+            "e08",
+            "e10",
+            "e11"
+          ],
+          "captureIds": [
+            "c03",
+            "c04",
+            "c06",
+            "c07",
+            "c09"
+          ],
+          "issue": "The memo clarification correctly requires the reconnect test log, and the demo requires the acknowledged-save mockup revision. The demo asserts a sync fix, but no event records implementation; this fixture tests capture causality rather than proof that a repair actually shipped.",
+          "suggestion": "Retain e07.dependsOn including e06 and e08.dependsOn including e07. If implementation-state validation is intended later, add an explicit sync-fix event and require e11 to depend on it; do not present the current text-only sequence as such validation."
+        }
+      ]
+    },
+    {
+      "id": "story-06",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The Birch Lane library commission combines runoff survey, basin design and first-storm assessment."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Plot 18's vegetable-bed side swale is expressly a separate drainage job."
+        },
+        {
+          "capture": "c03",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The downpipe survey specifies a stone apron for the library rain-garden inlet."
+        },
+        {
+          "capture": "c04",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "Recording two cello pieces for a conservatory audition identifies the separate music submission."
+        },
+        {
+          "capture": "c05",
+          "memberships": [],
+          "rationale": "The membrane and crossing roots identify neither the library basin nor allotment swale at this prefix."
+        },
+        {
+          "capture": "c06",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The library planting plan specifies its basin depth, inlet sedges and higher-rim plugs."
+        },
+        {
+          "capture": "c07",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The clarification places the unlined membrane instruction at plot 18 and excludes the library specification."
+        },
+        {
+          "capture": "c08",
+          "memberships": [
+            "p1",
+            "p2"
+          ],
+          "rationale": "The Flint Yard order explicitly contains separately coded materials for the library inlet and plot 18 swale."
+        },
+        {
+          "capture": "c09",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The installation clip identifies Birch Lane library and implements the revised basin depth and inlet planting."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The post-rain observation evaluates plot 18's newly unlined swale and remaining low bed corner."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The first-storm image evaluates erosion and drainage of the installed library rain garden."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The maintenance handover explicitly attaches the library project's first-storm observations."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "eventIds": [
+            "e06",
+            "e08"
+          ],
+          "captureIds": [
+            "c06",
+            "c07"
+          ],
+          "issue": "The clarification says the library basin uses its own specification, while e08 depends only on the membrane fragment and allotment introduction. It can precede the library planting specification under a shuffle; the allotment identification itself remains explicit.",
+          "suggestion": "If 'its own specification' refers to the captured planting plan, add e06 to e08.dependsOn. Alternatively make that contrast standalone, such as 'This instruction does not apply to the library basin', and preserve the existing e09 dependence on the clarification."
+        },
+        {
+          "severity": "note",
+          "eventIds": [
+            "e07",
+            "e09",
+            "e11",
+            "e13",
+            "e14",
+            "e16"
+          ],
+          "captureIds": [
+            "c05",
+            "c06",
+            "c09",
+            "c10",
+            "c11",
+            "c12"
+          ],
+          "issue": "The library installation already depends on the revised basin depth and order, plot 18's unlined result depends on its clarification, and maintenance handover follows the first-storm observations. Later clarity cannot resolve c05 at its original prefix.",
+          "suggestion": "Retain e11's e07 and e10 prerequisites, e13's e08 prerequisite and e16's e14 prerequisite. Keep c05 initially unassigned and retain the supplier order's two memberships without merging the sites."
+        }
+      ]
+    },
+    {
+      "id": "story-07",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The brief explicitly defines Moss Hall and Reed Theatre as stops of one autumn touring production."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The spring studio revival has a new director, fixed set and separate commission and budget."
+        },
+        {
+          "capture": "c03",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "The youth centre's standalone shadow workshop has its own practice-screen and group-performance deliverable."
+        },
+        {
+          "capture": "c04",
+          "memberships": [
+            "p4"
+          ],
+          "rationale": "The buckled rear bicycle rim and broken spokes identify a separate wheel rebuild."
+        },
+        {
+          "capture": "c05",
+          "memberships": [
+            "p1",
+            "p2"
+          ],
+          "rationale": "The haulier estimate explicitly addresses both the autumn set and independent spring-revival set."
+        },
+        {
+          "capture": "c06",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "Reed's panel adjustment is expressly retained with Moss Hall in the same autumn touring cue book."
+        },
+        {
+          "capture": "c07",
+          "memberships": [],
+          "rationale": "The taller screen and unseen bird could concern the tour, revival or youth workshop; no project is named."
+        },
+        {
+          "capture": "c08",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The Reed rehearsal validates the revised inward fold within the autumn tour."
+        },
+        {
+          "capture": "c09",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "The clarification identifies the vague memo as the youth workshop's practice-screen instruction."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p2",
+            "p3"
+          ],
+          "rationale": "The donation records material transfer from the revival set to workshop screens against both projects."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The closed autumn tour's report retains the successful Reed fold and both venue configurations."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "The recording evaluates the youth groups' completed workshop performances; revival offcuts are a material source, not a new revival task."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "eventIds": [
+            "e01",
+            "e02"
+          ],
+          "captureIds": [
+            "c01",
+            "c02"
+          ],
+          "issue": "The studio-revival introduction calls itself not another autumn tour stop but can precede the autumn tour's introduction. It nevertheless states its own season, production, director, set and budget, sufficient for an independent p2 assignment.",
+          "suggestion": "Optionally add e01 to e02.dependsOn if the narrative requires the contrasted tour to be introduced first. Do not turn reuse of Paper Birds or a haulier into a shared continuing commission."
+        },
+        {
+          "severity": "note",
+          "eventIds": [
+            "e08",
+            "e09",
+            "e10",
+            "e11",
+            "e12",
+            "e15"
+          ],
+          "captureIds": [
+            "c06",
+            "c07",
+            "c08",
+            "c09",
+            "c10",
+            "c12"
+          ],
+          "issue": "The revised touring fold and the taller workshop screen have separate causal chains. The workshop result depends on both its height clarification and the material donation, while the donation explicitly bridges revival and workshop work.",
+          "suggestion": "Retain e09.dependsOn including e08, e11.dependsOn including e10, and e15.dependsOn including e10 and e12. Keep c07 initially unresolved; the completed workshop's use of offcuts does not by itself make c12 a revival task."
+        }
+      ]
+    },
+    {
+      "id": "story-08",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The exhibition brief combines oral-history selection, licensing, captioning and headphone installation."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The vowel corpus is independently commissioned for research with separate files and permissions."
+        },
+        {
+          "capture": "c03",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The visible HV-4 field explicitly authorizes the listening exhibit; the hidden field cannot yet justify another membership."
+        },
+        {
+          "capture": "c04",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The edit specifies the exhibition's listening-room version and preservation of its final sentence."
+        },
+        {
+          "capture": "c05",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "The camping stove hinge and retaining-pin replacement identify a separate repair."
+        },
+        {
+          "capture": "c06",
+          "memberships": [
+            "p1",
+            "p2"
+          ],
+          "rationale": "The unfolded form now explicitly authorizes both exhibition playback and the independent vowel corpus."
+        },
+        {
+          "capture": "c07",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The annotation guide governs original-audio vowel intervals and excludes using the exhibition edit."
+        },
+        {
+          "capture": "c08",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The caption proof aligns its transcript with the final exhibition edit for the listening room."
+        },
+        {
+          "capture": "c09",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The walkthrough checks the installed exhibition's six headphones and seated caption readability."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Reversing two vowel-interval labels concerns quality control of the research annotation file."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The visitor review and caption-glare adjustment continue the listening exhibition's assessment."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The accepted research manifest delivers the corrected corpus and its permission record to the language group."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "eventIds": [
+            "e01",
+            "e02"
+          ],
+          "captureIds": [
+            "c01",
+            "c02"
+          ],
+          "issue": "The research-corpus declaration names the independent listening exhibition without depending on its introduction. Its own client and deliverable are explicit, so the corpus remains identifiable even if this declaration is observed first.",
+          "suggestion": "If introduction-before-comparison is a fixture requirement, add e01 to e02.dependsOn. Otherwise document this as an allowed standalone scope declaration and preserve the separate exhibition and corpus undertakings."
+        },
+        {
+          "severity": "note",
+          "eventIds": [
+            "e03",
+            "e06",
+            "e07",
+            "e11",
+            "e15"
+          ],
+          "captureIds": [
+            "c03",
+            "c06"
+          ],
+          "issue": "The folded HV-4 form already visibly supports the exhibition; only its additional permitted use is unknown. Initial empty membership would discard supported evidence, while initial corpus linkage would use the future unfolded form.",
+          "suggestion": "Keep c03 initially linked only to p1. Retain e07.dependsOn including e06, and preserve p1 when explicitly adding p2; archive and restore must keep the resulting dual membership."
+        }
+      ]
+    },
+    {
+      "id": "story-09",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The Kestrel work order defines a separately budgeted regular-use boat refit and water test."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The September regatta's registration and launch planning has a separate event budget."
+        },
+        {
+          "capture": "c03",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The Kestrel bow-seam survey measures damage for the explicitly named refit."
+        },
+        {
+          "capture": "c04",
+          "memberships": [],
+          "rationale": "The red objects and missing list identify no project, and no later information is available at this prefix."
+        },
+        {
+          "capture": "c05",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "Listening practice and vocabulary review identify the separate beginner-language exam preparation."
+        },
+        {
+          "capture": "c06",
+          "memberships": [
+            "p1",
+            "p2"
+          ],
+          "rationale": "The coordination connects refit completion to provisional regatta use while keeping maintenance costs separate."
+        },
+        {
+          "capture": "c07",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The water test verifies the refit's new seat wheels and resealed bow."
+        },
+        {
+          "capture": "c08",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Registration cover, a launch marshal and confirmed demonstration scheduling concern the regatta's operations."
+        },
+        {
+          "capture": "c09",
+          "memberships": [],
+          "rationale": "The second check and its time do not identify a maintenance test or event safety check at this prefix."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The maintenance handover accepts wheels and bow seal, returns Kestrel to regular bookings and retains the refit test."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The clarification identifies the timing fragment as the regatta's second safety-launch radio check."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The event closeout evaluates the clarified radio check, registration and demonstration schedule."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "eventIds": [
+            "e01",
+            "e02"
+          ],
+          "captureIds": [
+            "c01",
+            "c02"
+          ],
+          "issue": "The regatta scope explicitly separates its budget from Kestrel's refit but its introduction has no dependency on the refit introduction. The regatta remains self-identifying through its own event and operational tasks.",
+          "suggestion": "Optionally add e01 to e02.dependsOn to keep the named-budget comparison after its antecedent; otherwise document that self-contained scope contrasts may be reordered. Do not merge regular-use maintenance into event planning."
+        },
+        {
+          "severity": "note",
+          "eventIds": [
+            "e04",
+            "e10",
+            "e11",
+            "e13",
+            "e14",
+            "e15",
+            "e16"
+          ],
+          "captureIds": [
+            "c04",
+            "c09",
+            "c11",
+            "c12"
+          ],
+          "issue": "The red-item fragment is never clarified, whereas the second-check fragment is explicitly resolved as a regatta radio check. Restoring c04 cannot supply missing identity, and event closeout needs the actual timing clarification rather than the membership write.",
+          "suggestion": "Retain c04 and c09 initial empty memberships and keep c04 unresolved after e15. Preserve e14.dependsOn including e13 and e16.dependsOn including e13; no extra dependency on e14 is needed for the real-world radio-check outcome."
+        }
+      ]
+    },
+    {
+      "id": "story-10",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [],
+          "rationale": "No project has been introduced and the card-clearance fragment names no job or game."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The first commercial Moss Market order explicitly covers 300 copies, tray finalization, proofs and delivery."
+        },
+        {
+          "capture": "c03",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The night-market prototype has an independent gameplay outcome and excludes the first production order."
+        },
+        {
+          "capture": "c04",
+          "memberships": [
+            "p4"
+          ],
+          "rationale": "The split desk-lamp insulation and lead replacement identify a separate rewiring repair."
+        },
+        {
+          "capture": "c05",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The clarification explicitly identifies the fragment as base-game tray clearance for the first 300-copy job."
+        },
+        {
+          "capture": "c06",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The first-print proof tests the clarified clearance around sleeved base-game cards."
+        },
+        {
+          "capture": "c07",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The expansion report evaluates after-dark bidding and requests another independent turn-limit test."
+        },
+        {
+          "capture": "c08",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "The retailer commissions a distinct 500-copy reprint with its own invoice and shipment, allowing planning before manufacturing."
+        },
+        {
+          "capture": "c09",
+          "memberships": [
+            "p1",
+            "p3"
+          ],
+          "rationale": "The account statement separately lists first-order payment and the retailer reprint deposit."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The delivery docket receives all 300 first-run copies and explicitly closes that manufacturing job."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "The stock quote develops the retailer's 500-copy order; reusing the accepted tray does not reopen the first order."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The second gameplay session explicitly retains its outcome with expansion research rather than either print order."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "eventIds": [
+            "e02",
+            "e03"
+          ],
+          "captureIds": [
+            "c02",
+            "c03"
+          ],
+          "issue": "The expansion introduction excludes its cards from 'the first print order' yet may precede that order's introduction. It states an independent prototype goal, so its own initial membership remains reliable.",
+          "suggestion": "Optionally add e02 to e03.dependsOn if the first-order comparison must have an observed antecedent. Preserve separate first-print, expansion and reprint projects rather than treating the shared game title as a project umbrella."
+        },
+        {
+          "severity": "note",
+          "eventIds": [
+            "e01",
+            "e05",
+            "e06",
+            "e07",
+            "e08",
+            "e11",
+            "e15",
+            "e16"
+          ],
+          "captureIds": [
+            "c01",
+            "c05",
+            "c06",
+            "c08",
+            "c10",
+            "c11"
+          ],
+          "issue": "The first fragment has no identifying prefix at all. Its clarification-dependent correction and revision correctly precede proof testing. Reprint planning is expressly allowed before first-job closure, while its accepted-specification quote follows that closure.",
+          "suggestion": "Retain c01's initial empty membership, e06's e05 prerequisite and e08's e07 prerequisite. Keep e16 dependent on e15, but do not add e15 as a prerequisite of e11 because that would contradict the explicitly permitted advance reprint planning."
+        }
+      ]
+    },
+    {
+      "id": "story-11",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The telescope plan expressly combines daytime calibration and night star checks into one temperature-focus map."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The directional sky-brightness survey has an independently stated site-selection outcome."
+        },
+        {
+          "capture": "c03",
+          "memberships": [],
+          "rationale": "The focus-fit filename conflicts with the sky-brightness sleeve heading, while hidden columns prevent resolution."
+        },
+        {
+          "capture": "c04",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "Shortening and relining the coat identify a separate clothing alteration."
+        },
+        {
+          "capture": "c05",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "Tube temperature and focus-motor calibration data are explicitly collected for the focus map."
+        },
+        {
+          "capture": "c06",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Four horizon exposures with doorway-light shielding implement the sky-brightness survey."
+        },
+        {
+          "capture": "c07",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The removed sleeve reveals temperature and focus-position columns and identifies the printout as focus-map data."
+        },
+        {
+          "capture": "c08",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The darkest eastern horizon and requested repeat concern the site-brightness comparison."
+        },
+        {
+          "capture": "c09",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The named focus-map night check compares predicted position and stellar shape with the daytime fit."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "Combining the daytime slope with the night offset updates the explicitly single focus-map deliverable."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The repeat eastern-horizon result and doorway-light caveat complete the independent directional survey."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "Acceptance after offset adjustment retains daytime, nighttime and corrected-printout evidence for the focus map."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "eventIds": [
+            "e01",
+            "e02"
+          ],
+          "captureIds": [
+            "c01",
+            "c02"
+          ],
+          "issue": "c02 says 'the same camera', although c01 names only a focus-map plan and does not identify any camera. An e01 ordering edge alone would not supply the camera antecedent; the shared-camera relation is an assertion inside c02 rather than independently evidenced hardware identity.",
+          "suggestion": "Replace the phrase with an explicit standalone description, such as 'Use the observatory camera also allocated to focus-map star checks', or name that camera in c01 and add e01 to e02.dependsOn. Keep the study outcomes independent."
+        },
+        {
+          "severity": "note",
+          "eventIds": [
+            "e03",
+            "e07",
+            "e08",
+            "e11",
+            "e12",
+            "e15",
+            "e16"
+          ],
+          "captureIds": [
+            "c03",
+            "c07",
+            "c12"
+          ],
+          "issue": "The conflicting sleeve and filename warrant initial abstention. e08 revises the text before e11 explicitly assigns membership; the corrected words must not silently move the unresolved scan. Final acceptance has the needed map-analysis and printout-correction ancestry.",
+          "suggestion": "Keep c03 initially unassigned and retain e11.dependsOn including e08 and e07. Test that membership remains empty after e08 until the explicit e11 correction, and that e12/e15 preserve both text history and the later p1 link."
+        }
+      ]
+    },
+    {
+      "id": "story-12",
+      "assignments": [
+        {
+          "capture": "c01",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The commission explicitly establishes one 2026–2028 cooling-access pilot with a single evolving shelter guide."
+        },
+        {
+          "capture": "c02",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "The 2026 Linden street fair is a separately funded event with its own stalls and map."
+        },
+        {
+          "capture": "c03",
+          "memberships": [
+            "p4"
+          ],
+          "rationale": "The recipe-booklet proof concerns layout and a family dedication, separate from public-event work."
+        },
+        {
+          "capture": "c04",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The three-shelter guide signs are the cooling pilot's 2026 installation, including Mill courtyard access."
+        },
+        {
+          "capture": "c05",
+          "memberships": [
+            "p2"
+          ],
+          "rationale": "Vendor removal, withdrawal of the temporary fair map and separate event costs close the 2026 fair."
+        },
+        {
+          "capture": "c06",
+          "memberships": [],
+          "rationale": "The blue map and side entrance name neither the shelter guide nor an edition of the fair map."
+        },
+        {
+          "capture": "c07",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The 2027 entrance change explicitly updates the same guide begun under the multi-year cooling pilot."
+        },
+        {
+          "capture": "c08",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "A new grant, fresh roster and separate commission identify the 2027 fair as a distinct edition."
+        },
+        {
+          "capture": "c09",
+          "memberships": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "rationale": "The printer index explicitly manages all three map jobs while retaining distinct folders and billing."
+        },
+        {
+          "capture": "c10",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The clarification identifies the blue-map recording as the pilot's Mill shelter entrance update."
+        },
+        {
+          "capture": "c11",
+          "memberships": [
+            "p1"
+          ],
+          "rationale": "The 2028 review expressly closes the same evolving-guide cooling pilot across all three shelters."
+        },
+        {
+          "capture": "c12",
+          "memberships": [
+            "p3"
+          ],
+          "rationale": "The imported setup photo names the 2027 fair and its fresh roster and event records."
+        }
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "eventIds": [
+            "e01",
+            "e02",
+            "e04",
+            "e05"
+          ],
+          "captureIds": [
+            "c01",
+            "c02",
+            "c04",
+            "c05"
+          ],
+          "issue": "The 2026 fair declaration names cooling operations without an introductory dependency, and its closeout compares costs with cooling signage even when the signage capture has not occurred. Both may be standalone budget assertions, but the graph does not guarantee the apparent antecedents.",
+          "suggestion": "If these are intended as references to the captured pilot and installed signage, add e01 to e02.dependsOn and e04 to e05.dependsOn. Otherwise make the assertions explicitly budgetary and anticipatory rather than implying an observed installation."
+        },
+        {
+          "severity": "note",
+          "eventIds": [
+            "e06",
+            "e07",
+            "e08",
+            "e10",
+            "e11",
+            "e12",
+            "e14",
+            "e15",
+            "e16"
+          ],
+          "captureIds": [
+            "c06",
+            "c07",
+            "c08",
+            "c09",
+            "c10",
+            "c11",
+            "c12"
+          ],
+          "issue": "The commissioned pilot explicitly spans three years, unlike the separately granted annual fairs. Its clarification requires the entrance revision, while the three-map index requires all three jobs. The imported 2027 setup photo can legitimately be observed after the 2028 review.",
+          "suggestion": "Retain e12.dependsOn including e11, e14.dependsOn including e12 and e10's prerequisites for all three map jobs. Keep c06 initially unresolved and do not impose event-date order on the explicitly imported c12 capture."
+        }
+      ]
+    }
+  ]
+}

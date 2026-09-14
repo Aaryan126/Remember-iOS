@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "story-11",
+  "title": "Conflicting labels in an observatory notebook",
+  "threads": [
+    {"id":"p1","title":"Cedar telescope focus map","scope":"Build and validate a temperature-to-focus map for the Cedar telescope, combining daytime calibration and nighttime star checks."},
+    {"id":"p2","title":"Cedar site sky-brightness survey","scope":"Independently measure directional sky brightness at the Cedar observatory site to select a future observing area."},
+    {"id":"p3","title":"Winter coat alteration","scope":"Shorten and reline a winter coat for a personal wardrobe repair."}
+  ],
+  "captures": [
+    {"id":"c01","modality":"file","text":"Cedar telescope focus-map plan: fit focus position against tube temperature. Daytime calibration and nighttime star checks are jointly required for this one map.","memberships":["p1"],"rationale":"The declared deliverable explicitly combines the two measurement phases."},
+    {"id":"c02","modality":"note","text":"Independent Cedar site study: compare sky brightness toward four horizons to choose an observing area. Borrow the same camera, but do not use focus-map results as this survey's outcome.","memberships":["p2"],"rationale":"Separate research goal and outcome distinguish the survey despite shared equipment."},
+    {"id":"c03","modality":"image","text":"OCR from a sleeved printout: filename focus-fit.csv; sleeve heading SKY BRIGHTNESS SURVEY. The table's column names are hidden by the sleeve edge.","memberships":[],"rationale":"Conflicting project labels and hidden columns make identity unreliable."},
+    {"id":"c04","modality":"voice","text":"Coat alteration: shorten the hem by three centimeters, then replace the torn lining panel so it does not pull at the vent.","memberships":["p3"],"rationale":"A clothing repair is unrelated to the observatory studies."},
+    {"id":"c05","modality":"file","text":"Focus-map daytime calibration log: record tube temperature and motor position after each settling interval. Repeat one warm point to check hysteresis.","memberships":["p1"],"rationale":"Provides calibration observations for the declared focus map."},
+    {"id":"c06","modality":"video","text":"Cedar sky-brightness survey clip: the camera points toward four marked horizons. A shielding board blocks light from the observatory doorway during each directional exposure.","memberships":["p2"],"rationale":"Executes the independent site survey."},
+    {"id":"c07","modality":"note","text":"I removed the printout from the wrong sleeve. focus-fit.csv contains tube temperature and focus motor position for the Cedar focus map; the sky-brightness heading belonged to the reused sleeve.","memberships":["p1"],"rationale":"Examining the actual columns resolves the conflicting-label source."},
+    {"id":"c08","modality":"file","text":"Sky-brightness survey result: the eastern horizon was darkest in this session. Repeat on a comparable clear night before selecting the site area.","memberships":["p2"],"rationale":"Results and planned replication continue the survey."},
+    {"id":"c09","modality":"image","text":"Night star-check screenshot for Cedar focus map: predicted motor position yields round stars after a small constant offset. Compare against the daytime fit.","memberships":["p1"],"rationale":"Night validation is an explicitly included phase of the focus-map project."},
+    {"id":"c10","modality":"note","text":"Focus-map analysis: keep the temperature slope from daytime calibration and add the constant offset seen in the star check. Update the single map deliverable.","memberships":["p1"],"rationale":"Combines results within the originally stated study scope."},
+    {"id":"c11","modality":"voice","text":"Cedar sky-brightness repeat again favors the east. Deliver the directional survey and its doorway-light caveat to the site-planning group.","memberships":["p2"],"rationale":"Replication and report delivery continue the independent survey."},
+    {"id":"c12","modality":"file","text":"Cedar focus map accepted after the offset adjustment. Save the daytime log, night check and corrected focus-fit printout as the map's supporting record.","memberships":["p1"],"rationale":"Final acceptance unites the project's phases and corrected source."}
+  ],
+  "events": [
+    {"id":"e01","kind":"capture","capture":"c01","dependsOn":[]},
+    {"id":"e02","kind":"capture","capture":"c02","dependsOn":[]},
+    {"id":"e03","kind":"capture","capture":"c03","dependsOn":[]},
+    {"id":"e04","kind":"capture","capture":"c04","dependsOn":[]},
+    {"id":"e05","kind":"capture","capture":"c05","dependsOn":["e01"]},
+    {"id":"e06","kind":"capture","capture":"c06","dependsOn":["e02"]},
+    {"id":"e07","kind":"capture","capture":"c07","dependsOn":["e03","e01"]},
+    {"id":"e08","kind":"revise","target":"c03","text":"OCR corrected after removing the reused sleeve: focus-fit.csv contains tube temperature and focus motor position for the Cedar telescope focus map. The sleeve's SKY BRIGHTNESS SURVEY heading was not part of this printout.","dependsOn":["e03","e07"]},
+    {"id":"e09","kind":"capture","capture":"c08","dependsOn":["e06"]},
+    {"id":"e10","kind":"capture","capture":"c09","dependsOn":["e05"]},
+    {"id":"e11","kind":"correct","target":"c03","memberships":["p1"],"reason":"c07 and the corrected transcription identify the printout as focus-map data. Explicitly assign the previously unresolved scan to the focus-map project.","dependsOn":["e08","e07"]},
+    {"id":"e12","kind":"archive","target":"c03","dependsOn":["e11"]},
+    {"id":"e13","kind":"capture","capture":"c10","dependsOn":["e05","e10"]},
+    {"id":"e14","kind":"capture","capture":"c11","dependsOn":["e09"]},
+    {"id":"e15","kind":"restore","target":"c03","dependsOn":["e12"]},
+    {"id":"e16","kind":"capture","capture":"c12","dependsOn":["e13","e11","e08"]}
+  ],
+  "challenges": ["Conflicting filename and sleeve labels require abstention.","An edit can clarify text without implicitly changing ledger membership.","Daytime and nighttime measurements can be one explicitly combined undertaking.","Shared camera and site do not make an independent survey part of a focus-map project."],
+  "authorNotes":"All observations and equipment labels are fictional. Between the text revision and explicit correction, c03 deliberately retains empty membership even though its replacement text is clearer. No bridge is needed merely because the studies share equipment."
+}

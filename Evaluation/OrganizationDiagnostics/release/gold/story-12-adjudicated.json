@@ -1,0 +1,276 @@
+{
+  "authorNotes": "All places and activities are fictional. The cooling pilot has a bounded commission, three fixed shelters and one evolving deliverable; it is not an invented umbrella for every neighborhood activity. c12 is deliberately imported after the 2028 report but describes the 2027 fair.",
+  "captures": [
+    {
+      "id": "c01",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "Explicit time-bounded programme scope unites work across years on the same three shelters and guide.",
+      "text": "Commission: one 2026\u20132028 pilot will maintain access to the Linden, Quarry and Mill cooling shelters. Update a single public route guide each summer and finish with an access review."
+    },
+    {
+      "id": "c02",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "The one-off event is explicitly separate from the continuing shelter pilot.",
+      "text": "2026 Linden street fair has its own event grant. Book stalls, mark the closed road and issue a fair-day map; cooling-shelter operations remain outside this event budget."
+    },
+    {
+      "id": "c03",
+      "memberships": [
+        "p4"
+      ],
+      "modality": "image",
+      "rationale": "A personal gift booklet has no supported relationship to neighborhood access work.",
+      "text": "Recipe booklet proof: soup instructions spill onto the next page. Reduce the title spacing and keep the handwritten dedication on its own final page."
+    },
+    {
+      "id": "c04",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "video",
+      "rationale": "Initial implementation belongs to the explicitly multi-year pilot.",
+      "text": "Cooling pilot, summer 2026: route-guide signs installed at the three shelter approaches. The Mill entrance is reached through the courtyard gate."
+    },
+    {
+      "id": "c05",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "Closing the dated fair preserves its separate project scope.",
+      "text": "2026 Linden fair closeout: vendor stalls cleared and the temporary road map withdrawn. Archive this edition's event costs separately from cooling-pilot signage costs."
+    },
+    {
+      "id": "c06",
+      "memberships": [],
+      "modality": "voice",
+      "rationale": "The yearless fragment does not identify which map or undertaking is intended.",
+      "text": "Use the blue map again, with the side entrance marked."
+    },
+    {
+      "id": "c07",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "The note explicitly continues the existing pilot across years.",
+      "text": "Cooling pilot, summer 2027 route-guide revision: Mill shelter access moves from the courtyard gate to the side entrance. This updates the same three-shelter guide begun in 2026."
+    },
+    {
+      "id": "c08",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "file",
+      "rationale": "A new annual commission is distinct from both the earlier fair and shelter pilot.",
+      "text": "New grant for the 2027 Linden street fair: separately commissioned edition, fresh vendor roster and new fair-day map. Reusing last year's layout does not reuse its event budget."
+    },
+    {
+      "id": "c09",
+      "memberships": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "modality": "file",
+      "rationale": "The file index explicitly organizes deliverables from all three separate projects.",
+      "text": "Printer file index: the cooling pilot's evolving shelter-route guide, the closed 2026 Linden fair map and the new 2027 fair map share a page layout. Maintain three separate job folders and billing references."
+    },
+    {
+      "id": "c10",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Identifies the ambiguous recording with the continuing pilot.",
+      "text": "My 'blue map again' recording was for the cooling pilot's 2027 shelter guide. The side entrance means Mill shelter, not a street-fair gate."
+    },
+    {
+      "id": "c11",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "The final review completes the original multi-year undertaking.",
+      "text": "Cooling pilot final access review, 2028: all three shelter routes were checked against the evolving guide; the marked Mill side entrance reduced wrong turns. Deliver the pilot's final report."
+    },
+    {
+      "id": "c12",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "image",
+      "rationale": "Late import of an older event photo retains that event's identity.",
+      "text": "Imported 2027 Linden fair setup photo: vendor stalls match the fresh roster and the fair-day map marks the temporary street entrance. Save with the 2027 event records."
+    }
+  ],
+  "challenges": [
+    "An explicitly continuing programme can cross years while annual events remain separate.",
+    "A three-project index is a bridge rather than permission to merge.",
+    "Shared map colors, layouts and neighborhood do not determine identity.",
+    "Import chronology can differ from the date of the described event."
+  ],
+  "events": [
+    {
+      "capture": "c01",
+      "dependsOn": [],
+      "id": "e01",
+      "kind": "capture"
+    },
+    {
+      "capture": "c02",
+      "dependsOn": [],
+      "id": "e02",
+      "kind": "capture"
+    },
+    {
+      "capture": "c03",
+      "dependsOn": [],
+      "id": "e03",
+      "kind": "capture"
+    },
+    {
+      "capture": "c04",
+      "dependsOn": [
+        "e01"
+      ],
+      "id": "e04",
+      "kind": "capture"
+    },
+    {
+      "capture": "c05",
+      "dependsOn": [
+        "e02",
+        "e04"
+      ],
+      "id": "e05",
+      "kind": "capture"
+    },
+    {
+      "capture": "c06",
+      "dependsOn": [],
+      "id": "e06",
+      "kind": "capture"
+    },
+    {
+      "capture": "c07",
+      "dependsOn": [
+        "e04"
+      ],
+      "id": "e07",
+      "kind": "capture"
+    },
+    {
+      "capture": "c08",
+      "dependsOn": [
+        "e05"
+      ],
+      "id": "e08",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e06"
+      ],
+      "id": "e09",
+      "kind": "archive",
+      "target": "c06"
+    },
+    {
+      "capture": "c09",
+      "dependsOn": [
+        "e07",
+        "e05",
+        "e08"
+      ],
+      "id": "e10",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e07"
+      ],
+      "id": "e11",
+      "kind": "revise",
+      "target": "c07",
+      "text": "Cooling pilot, summer 2027 route-guide revision: Mill shelter access moves from the courtyard gate to the east side entrance beside the ramp. This updates the same three-shelter guide begun in 2026."
+    },
+    {
+      "capture": "c10",
+      "dependsOn": [
+        "e06",
+        "e11"
+      ],
+      "id": "e12",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e09"
+      ],
+      "id": "e13",
+      "kind": "restore",
+      "target": "c06"
+    },
+    {
+      "dependsOn": [
+        "e13",
+        "e12"
+      ],
+      "id": "e14",
+      "kind": "correct",
+      "memberships": [
+        "p1"
+      ],
+      "reason": "c10 explicitly identifies the recording as the cooling pilot's Mill-entrance update. Assign it to the continuing shelter pilot.",
+      "target": "c06"
+    },
+    {
+      "capture": "c11",
+      "dependsOn": [
+        "e11"
+      ],
+      "id": "e15",
+      "kind": "capture"
+    },
+    {
+      "capture": "c12",
+      "dependsOn": [
+        "e08"
+      ],
+      "id": "e16",
+      "kind": "capture"
+    }
+  ],
+  "id": "story-12",
+  "schemaVersion": 1,
+  "threads": [
+    {
+      "id": "p1",
+      "scope": "Run the explicitly commissioned 2026\u20132028 pilot maintaining access to three neighborhood cooling shelters, with one evolving public route guide and final access review.",
+      "title": "Three-shelter cooling access pilot"
+    },
+    {
+      "id": "p2",
+      "scope": "Plan and operate the separately funded 2026 Linden street fair and close its event records.",
+      "title": "2026 Linden street fair"
+    },
+    {
+      "id": "p3",
+      "scope": "Plan the separately commissioned 2027 Linden street fair with a fresh vendor roster and event map.",
+      "title": "2027 Linden street fair"
+    },
+    {
+      "id": "p4",
+      "scope": "Typeset and print a small personal booklet of inherited recipes as a gift.",
+      "title": "Family recipe booklet"
+    }
+  ],
+  "title": "A multi-year cooling pilot and separate street fairs"
+}

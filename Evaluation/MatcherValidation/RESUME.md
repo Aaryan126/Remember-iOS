@@ -1,15 +1,25 @@
-# Current stage: P2 complete; preparation checkpoint awaiting user confirmation
+# Current stage: P2 complete; seven diagnostic checkpoints completed separately
+
+Latest follow-up: [C7 local semantic-verifier diagnostic](../OrganizationDiagnostics/c7/REPORT.md)
+is complete and stopped for review. 112 native responses, 2,240 derived outcomes, 193
+passing tests, deterministic replay and a real pause/resume check are saved. The local
+verifier failed four of five exploratory gates, particularly uncertainty and contextual
+project separation. Some combination gains do not qualify integration. See the
+[runtime correction](../OrganizationDiagnostics/c7/ERRATA.md). No next experiment is
+approved or started. See
+[current diagnostic resume instructions](../OrganizationDiagnostics/RESUME.md).
+Historical P2 and C1–C6 handoffs are preserved; P2 qualification remains unchanged.
 
 All twelve fits and evaluation in `runs/validation-02` are complete. The all-seeds gate failed: seeds 17 and 41 missed the 95% precision requirement; seed 29 passed. See [final results](P2_REPORT.md). Attempt 01 remains immutable and hash-bound in attempt 02. There are no production or phone changes.
 
-The next authorized sequence is documented in [the diagnostic plan](../CheckpointSnapshot/NEXT_PLAN.md). **Stop at preparation for the user's manual commit and confirmation before diagnostic checkpoint 1.** Agents must not stage, commit, or otherwise change Git state. Raw runs remain local and ignored; consult [restore requirements](../CheckpointSnapshot/README.md) before moving to another Mac. Intermediate checkpoint notes below describe history, not active workers.
+The user confirmed the preparation commit, and [diagnostic checkpoint 1](../OrganizationDiagnostics/REPORT.md) and [checkpoint 2](../OrganizationDiagnostics/c2/REPORT.md) are complete. **Stop for user review before any further experiment.** P2 remains unchanged and unqualified; the diagnostics do not replace its result. All workers stopped and the test simulator was shut down. Agents must not change Git state. Raw runs remain local and ignored; consult [restore requirements](../CheckpointSnapshot/README.md) before moving to another Mac. Intermediate checkpoint notes below describe history, not active workers.
 
 ```sh
 "/Users/aaryan/Library/Application Support/RememberMatcherFeasibility/v1/venv/bin/python" scripts/matcher-validation/p2_english.py verify
 python3 scripts/evaluation_snapshot.py verify
 ```
 
-Verification requires the original local artifacts and environment; it is not a training command. Do not use `run --resume` to launch a new experiment. After the manual checkpoint, estimate 4–8 active hours for diagnostic checkpoint 1, then stop for approval; checkpoint 2 is a further 8–16 active hours. Both are Mac-only. These are estimates, not unattended wall-clock promises. New work must stay within 4 GiB including temporary writes and leave at least 10 GiB free.
+Verification requires the original local artifacts and environment; it is not a training command. Do not use `run --resume` to launch a new experiment. See the [diagnostic resume instructions](../OrganizationDiagnostics/RESUME.md) for its final receipt and proposed next checkpoint (2–4 active hours, Mac only, not started). New work must stay within 4 GiB including temporary writes and leave at least 10 GiB free.
 
 ## Historical attempt 01: coverage stop (preserved)
 

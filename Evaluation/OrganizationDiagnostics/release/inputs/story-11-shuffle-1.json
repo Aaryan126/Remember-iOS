@@ -1,0 +1,140 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "file",
+        "text": "Cedar telescope focus-map plan: fit focus position against tube temperature. Daytime calibration and nighttime star checks are jointly required for this one map."
+      }
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "file",
+        "text": "Focus-map daytime calibration log: record tube temperature and motor position after each settling interval. Repeat one warm point to check hysteresis."
+      }
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "note",
+        "text": "Independent Cedar site study: compare sky brightness toward four horizons to choose an observing area. Borrow the same camera, but do not use focus-map results as this survey's outcome."
+      }
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "video",
+        "text": "Cedar sky-brightness survey clip: the camera points toward four marked horizons. A shielding board blocks light from the observatory doorway during each directional exposure."
+      }
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "voice",
+        "text": "Coat alteration: shorten the hem by three centimeters, then replace the torn lining panel so it does not pull at the vent."
+      }
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "image",
+        "text": "OCR from a sleeved printout: filename focus-fit.csv; sleeve heading SKY BRIGHTNESS SURVEY. The table's column names are hidden by the sleeve edge."
+      }
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "note",
+        "text": "I removed the printout from the wrong sleeve. focus-fit.csv contains tube temperature and focus motor position for the Cedar focus map; the sky-brightness heading belonged to the reused sleeve."
+      }
+    },
+    {
+      "id": "e08",
+      "kind": "revise",
+      "target": "c03",
+      "text": "OCR corrected after removing the reused sleeve: focus-fit.csv contains tube temperature and focus motor position for the Cedar telescope focus map. The sleeve's SKY BRIGHTNESS SURVEY heading was not part of this printout."
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "image",
+        "text": "Night star-check screenshot for Cedar focus map: predicted motor position yields round stars after a small constant offset. Compare against the daytime fit."
+      }
+    },
+    {
+      "id": "e13",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "note",
+        "text": "Focus-map analysis: keep the temperature slope from daytime calibration and add the constant offset seen in the star check. Update the single map deliverable."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e11",
+      "kind": "correct",
+      "reason": "c07 and the corrected transcription identify the printout as focus-map data. Explicitly assign the previously unresolved scan to the focus-map project.",
+      "target": "c03",
+      "userRequestedProjects": [
+        "p1"
+      ]
+    },
+    {
+      "id": "e16",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "file",
+        "text": "Cedar focus map accepted after the offset adjustment. Save the daytime log, night check and corrected focus-fit printout as the map's supporting record."
+      }
+    },
+    {
+      "id": "e12",
+      "kind": "archive",
+      "target": "c03"
+    },
+    {
+      "id": "e15",
+      "kind": "restore",
+      "target": "c03"
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "file",
+        "text": "Sky-brightness survey result: the eastern horizon was darkest in this session. Repeat on a comparable clear night before selecting the site area."
+      }
+    },
+    {
+      "id": "e14",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "voice",
+        "text": "Cedar sky-brightness repeat again favors the east. Deliver the directional survey and its doorway-light caveat to the site-planning group."
+      }
+    }
+  ],
+  "order": "shuffle-1",
+  "story": "story-11"
+}

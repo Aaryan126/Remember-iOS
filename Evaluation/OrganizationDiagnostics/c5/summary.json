@@ -1,0 +1,37 @@
+{
+  "episodes": 48,
+  "families": 8,
+  "familyPartitions": {
+    "diagnostic": [
+      "f05",
+      "f06",
+      "f07",
+      "f08"
+    ],
+    "discovery": [
+      "f01",
+      "f02",
+      "f03",
+      "f04"
+    ]
+  },
+  "independentReviewPending": true,
+  "labelCounts": {
+    "context": {
+      "abstain": 16,
+      "same_project": 32,
+      "separate_projects": 32
+    },
+    "pair": {
+      "abstain": 32,
+      "same_project": 24,
+      "separate_projects": 24
+    }
+  },
+  "modelAccuracyMeasured": false,
+  "modelPredictions": 0,
+  "packets": 160,
+  "queries": 80,
+  "semanticQualification": false,
+  "sourceTexts": 56
+}

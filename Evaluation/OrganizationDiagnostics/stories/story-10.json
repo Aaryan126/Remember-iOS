@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "story-10",
+  "title": "First printing, expansion prototype and reprint",
+  "threads": [
+    {"id":"p1","title":"Moss Market first print run","scope":"Finalize components, proof, manufacture and receive the first 300-copy commercial print run of Moss Market."},
+    {"id":"p2","title":"Moss Market night-market expansion prototype","scope":"Independently prototype and evaluate an optional night-market expansion before deciding whether to produce it."},
+    {"id":"p3","title":"Moss Market second print order","scope":"Fulfill a separately commissioned 500-copy reprint order for a retailer after the first print job closes."},
+    {"id":"p4","title":"Desk lamp rewiring","scope":"Replace the damaged cord of a desk lamp and verify the repair."}
+  ],
+  "captures": [
+    {"id":"c01","modality":"note","text":"Two millimeters more around the cards.","memberships":[],"rationale":"An isolated dimension fragment does not identify a box, prototype or job."},
+    {"id":"c02","modality":"file","text":"Moss Market first commercial print order: 300 copies. Finalize the base-game tray, approve proofs and receive the finished cartons under this job.","memberships":["p1"],"rationale":"Defines one print undertaking from component work to receipt."},
+    {"id":"c03","modality":"voice","text":"Night-market expansion is an independent Moss Market prototype. Test whether after-dark trading adds useful choices; do not include these cards in the first print order.","memberships":["p2"],"rationale":"Distinct exploratory goal and explicit exclusion establish a separate project."},
+    {"id":"c04","modality":"image","text":"Desk lamp photo description: cord insulation split at the base grommet. Keep the lamp unplugged while replacing its lead.","memberships":["p4"],"rationale":"A household lamp repair has no supported game-production connection."},
+    {"id":"c05","modality":"note","text":"My two-millimeter note was about card clearance in the base-game tray for Moss Market's first 300-copy print job. It did not concern expansion cards.","memberships":["p1"],"rationale":"Explicitly resolves the early fragment to the first print order."},
+    {"id":"c06","modality":"video","text":"First-print tray proof test: sleeved base-game cards lift out without bending after the extra clearance. The token wells still hold their contents when tilted.","memberships":["p1"],"rationale":"Tests the clarified component revision for the first printing."},
+    {"id":"c07","modality":"file","text":"Night-market expansion playtest report: bidding after dark slowed the final round. Revise the prototype's turn limit before another independent test.","memberships":["p2"],"rationale":"Results and revision continue the expansion experiment."},
+    {"id":"c08","modality":"note","text":"Retailer has separately commissioned a 500-copy Moss Market reprint, with its own invoice and shipment. Planning can start now; manufacturing waits for the first job to close.","memberships":["p3"],"rationale":"A separate order establishes a distinct repeat manufacturing undertaking."},
+    {"id":"c09","modality":"file","text":"Printer account statement: deposit and balance for Moss Market's first 300-copy order; separate deposit for the retailer's 500-copy reprint. Do not combine the shipments.","memberships":["p1","p3"],"rationale":"The statement directly covers two separately commissioned print jobs."},
+    {"id":"c10","modality":"image","text":"Delivery docket: all 300 Moss Market first-run copies received, tray proof accepted, no carton damage. First manufacturing job closed.","memberships":["p1"],"rationale":"Receipt and closure complete the first print run."},
+    {"id":"c11","modality":"file","text":"Retailer reprint stock quote: 500 Moss Market boxes using the accepted base-game tray specification; offer thicker cover paper for this second order only.","memberships":["p3"],"rationale":"Reusing a specification does not erase the second order's separate scope."},
+    {"id":"c12","modality":"voice","text":"Second night-market prototype session: the shorter turn limit worked, but the group wants clearer bidding icons. Keep this result with expansion research, not either print order.","memberships":["p2"],"rationale":"A follow-up test belongs to the expansion's continuing experiment."}
+  ],
+  "events": [
+    {"id":"e01","kind":"capture","capture":"c01","dependsOn":[]},
+    {"id":"e02","kind":"capture","capture":"c02","dependsOn":[]},
+    {"id":"e03","kind":"capture","capture":"c03","dependsOn":[]},
+    {"id":"e04","kind":"capture","capture":"c04","dependsOn":[]},
+    {"id":"e05","kind":"capture","capture":"c05","dependsOn":["e01","e02","e03"]},
+    {"id":"e06","kind":"correct","target":"c01","memberships":["p1"],"reason":"c05 identifies the dimension as first-print base-game tray clearance. Assign my fragment to that print job.","dependsOn":["e01","e05"]},
+    {"id":"e07","kind":"revise","target":"c01","text":"Two millimeters more clearance around the cards in the first-print Moss Market base-game tray.","dependsOn":["e06"]},
+    {"id":"e08","kind":"capture","capture":"c06","dependsOn":["e07"]},
+    {"id":"e09","kind":"capture","capture":"c07","dependsOn":["e03"]},
+    {"id":"e10","kind":"archive","target":"c01","dependsOn":["e07","e08"]},
+    {"id":"e11","kind":"capture","capture":"c08","dependsOn":["e02"]},
+    {"id":"e12","kind":"capture","capture":"c09","dependsOn":["e02","e11"]},
+    {"id":"e13","kind":"restore","target":"c01","dependsOn":["e10"]},
+    {"id":"e14","kind":"revise","target":"c01","text":"Confirmed in the first-print Moss Market tray proof: two millimeters extra clearance around the sleeved base-game cards is sufficient.","dependsOn":["e13","e08"]},
+    {"id":"e15","kind":"capture","capture":"c10","dependsOn":["e08"]},
+    {"id":"e16","kind":"capture","capture":"c11","dependsOn":["e11","e15"]},
+    {"id":"e17","kind":"capture","capture":"c12","dependsOn":["e09"]}
+  ],
+  "challenges": ["An unresolved fragment can precede the first named project capture.","One game can have independent development and separately ordered manufacturing projects.","Reused specifications do not merge print orders.","Repeated edits across archive/restore must preserve an explicit correction and revision history."],
+  "authorNotes":"All game titles, jobs and observations are fictional. The second edit of c01 records confirmation of its existing first-print identity; it never changes membership implicitly."
+}

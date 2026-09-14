@@ -11,8 +11,6 @@ struct ProjectGraphView: View {
     @State private var focusedID: UUID?
     @State private var selectedThreadID: UUID?
     @State private var previewID: UUID?
-    @State private var centeredID: UUID?
-    @ScaledMetric(relativeTo: .subheadline) private var captionHeight: CGFloat = 44
     @State private var motion = ProjectGraphMotion()
     @GestureState private var dragIsActive = false
 
@@ -20,11 +18,11 @@ struct ProjectGraphView: View {
         let map = ProjectGraphMap(snapshot: model.snapshot)
         VStack(alignment: .leading, spacing: 12) {
             VStack(alignment: .leading, spacing: 6) {
-                Text("Your memory map").font(.title2.bold())
+                Text("Map").font(.title2.bold())
                 Text("\(map.totalCount) threads · \(map.edges.count) connections\(map.totalCount > 40 ? " in view" : "")")
                     .font(.subheadline).foregroundStyle(RememberPalette.secondaryText)
                 if map.totalCount > 40 {
-                    Text("Showing 40 threads. Find every thread in Timeline.")
+                    Text("Showing 40 threads. Use Find a thread to reach every thread.")
                         .font(.footnote).foregroundStyle(RememberPalette.secondaryText)
                 }
             }
@@ -33,7 +31,6 @@ struct ProjectGraphView: View {
                 ContentUnavailableView("No active threads", systemImage: "circle.dotted",
                     description: Text("Your memories are still in Memories. Restore a thread from Archive or capture something new."))
             } else {
-                centeredCaption(map)
                 graph(map)
             }
         }
@@ -41,7 +38,6 @@ struct ProjectGraphView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         .rememberCanvas()
         .onChange(of: map.nodes.map(\.id)) { _, _ in
-            centeredID = nil
             resetViewport()
         }
         .sensoryFeedback(.selection, trigger: focusedID) { _, next in next != nil }
@@ -53,24 +49,6 @@ struct ProjectGraphView: View {
                     .navigationTransition(.zoom(sourceID: id, in: topicTransition))
             }
         }
-    }
-
-    private func centeredCaption(_ map: ProjectGraphMap) -> some View {
-        let node = map.nodes.first { $0.id == centeredID }
-            ?? map.nodes.max { $0.members.count < $1.members.count }
-        // Reserve the same space for every title. Unusually long titles remain
-        // readable by scrolling the caption, without shrinking/repositioning the map.
-        return ScrollView(.vertical) {
-            Text(node?.cluster.title ?? "")
-                .font(.subheadline.weight(.medium))
-                .foregroundStyle(.primary.opacity(0.8))
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .fixedSize(horizontal: false, vertical: true)
-                .accessibilityIdentifier("map-centered-title")
-        }
-        .scrollBounceBehavior(.basedOnSize)
-        .frame(height: captionHeight, alignment: .top)
-        .id(node?.id)
     }
 
     private func graph(_ map: ProjectGraphMap) -> some View {
@@ -146,11 +124,6 @@ struct ProjectGraphView: View {
                     settleMap(at: motion.position, layout: layout, scale: scale, map: map)
                 }
             }
-            .onChange(of: motion.isSettling) { _, settling in
-                if !settling && !motion.isDragging {
-                    centeredID = layout.snapTarget(for: motion.position, scale: scale).map { map.nodes[$0.index].id }
-                }
-            }
             .onChange(of: geometry.size) { _, _ in
                 settleMap(at: motion.position, layout: layout, scale: scale, map: map)
             }
@@ -195,7 +168,6 @@ struct ProjectGraphView: View {
     private func settleMap(at offset: CGSize, layout: ProjectGraphLayout, scale: CGFloat, map: ProjectGraphMap) {
         guard let target = layout.snapTarget(for: offset, scale: scale) else { return }
         motion.settle(to: target.pan, animated: !reduceMotion)
-        if !motion.isSettling { centeredID = map.nodes[target.index].id }
         focus(map.nodes[target.index].id)
     }
 
@@ -217,7 +189,7 @@ struct ProjectGraphView: View {
         let focused = focusedID == node.id
         let fittedSize = labelFontSize(node.titleLines, diameter: diameter)
         // A single enormous token must not turn into microscopic text. The exact
-        // title is still available in the centered caption and accessibility label.
+        // title is still available in the hold preview, search results and accessibility label.
         let label = fittedSize >= 11 ? node.titleLines.joined(separator: "\n") : "Open\nthread"
         return Button {
             openRiver(node.id)
@@ -249,7 +221,7 @@ struct ProjectGraphView: View {
         .accessibilityAddTraits(focused ? [.isSelected] : [])
         .accessibilityLabel("\(node.cluster.title), \(node.members.count) \(node.members.count == 1 ? "memory" : "memories")")
         .accessibilityValue(Set(node.members.map(\.kind)).count == 1 ? kindLabel(node.members.first?.kind) : "Mixed sources")
-        .accessibilityHint("Tap to open the river. Hold to preview and highlight connected threads.")
+        .accessibilityHint("Tap to open the thread history. Hold to preview and highlight connected threads.")
         .accessibilityAction(named: "Highlight connections") { focus(node.id) }
         .accessibilityAction(named: "Preview thread") { focus(node.id); previewID = node.id }
         .accessibilityIdentifier("graph-node-\(node.id)")
@@ -291,7 +263,7 @@ struct ProjectGraphView: View {
             .contentShape(RoundedRectangle(cornerRadius: 24))
         }
         .buttonStyle(.plain)
-        .accessibilityLabel("Open River: \(node.cluster.title)")
+        .accessibilityLabel("Open thread: \(node.cluster.title)")
         .accessibilityIdentifier("map-focus-preview")
     }
 

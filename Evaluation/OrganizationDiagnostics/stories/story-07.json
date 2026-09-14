@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "story-07",
+  "title": "A touring play, revival and workshop",
+  "threads": [
+    {"id":"p1","title":"Paper Birds autumn tour","scope":"Mount one production of Paper Birds and tour the same production through Moss Hall and Reed Theatre in autumn."},
+    {"id":"p2","title":"Paper Birds studio revival","scope":"Create a separately commissioned studio revival of Paper Birds next spring with a new set."},
+    {"id":"p3","title":"Youth shadow workshop","scope":"Prepare and deliver a standalone youth workshop on shadow-theatre scenery."},
+    {"id":"p4","title":"Bicycle wheel rebuild","scope":"Rebuild a buckled rear bicycle wheel with replacement spokes."}
+  ],
+  "captures": [
+    {"id":"c01","modality":"file","text":"Paper Birds autumn tour: one production visits Moss Hall and Reed Theatre with the same cast and folding set. Venue adjustments stay within this tour.","memberships":["p1"],"rationale":"An explicit single touring undertaking spans two venues."},
+    {"id":"c02","modality":"note","text":"Next spring's Paper Birds studio revival is separately commissioned. New director, new fixed set, its own rehearsal budget; it is not another autumn tour stop.","memberships":["p2"],"rationale":"A distinct production remains separate despite sharing the play title."},
+    {"id":"c03","modality":"voice","text":"Youth centre booked a standalone shadow-theatre workshop. Build small practice screens and finish with each group presenting a scene.","memberships":["p3"],"rationale":"The workshop has its own client, participants and deliverable."},
+    {"id":"c04","modality":"image","text":"Bicycle repair photo: rear rim is buckled beside two broken spokes. Record spoke length before rebuilding and tensioning the wheel.","memberships":["p4"],"rationale":"A bicycle repair has no supported theatrical connection."},
+    {"id":"c05","modality":"file","text":"Transport estimate compares the Paper Birds autumn folding set with next spring's studio-revival set. Same haulier, separate collection dates and job numbers.","memberships":["p1","p2"],"rationale":"One estimate compares two productions without making them one project."},
+    {"id":"c06","modality":"note","text":"Reed Theatre stop of the autumn tour: fold the left panel inward for the narrow wing. Keep the Moss Hall arrangement in the same touring cue book.","memberships":["p1"],"rationale":"Venue-specific adaptation remains within the defined tour."},
+    {"id":"c07","modality":"voice","text":"Make the screen taller; they cannot see the bird.","memberships":[],"rationale":"Several theatre projects use screens, and neither audience nor production is named."},
+    {"id":"c08","modality":"video","text":"Reed Theatre autumn-tour rehearsal clip: the revised left-panel fold clears the wing, and the touring bird silhouette remains visible from the back row.","memberships":["p1"],"rationale":"Checks the tour's venue adjustment."},
+    {"id":"c09","modality":"note","text":"The taller-screen memo is for the youth shadow workshop's practice screens. The children need to see the bird over the table edge.","memberships":["p3"],"rationale":"Resolves the ambiguous screen instruction to the workshop."},
+    {"id":"c10","modality":"file","text":"Material handover: offcuts from the separately built Paper Birds studio-revival set will make the youth workshop's practice screens. Record the donation against both projects.","memberships":["p2","p3"],"rationale":"A material-transfer source spans revival and workshop, not the autumn tour."},
+    {"id":"c11","modality":"note","text":"Autumn tour closed after Reed Theatre. The inward panel fold worked; preserve both venue configurations in the Paper Birds touring report.","memberships":["p1"],"rationale":"Review of both stops closes the one touring production."},
+    {"id":"c12","modality":"video","text":"Youth shadow workshop recording: the taller practice screens made from revival offcuts let each group perform its bird scene without lifting the tables.","memberships":["p3"],"rationale":"Records the workshop result; mentioning donated materials does not itself make this a revival progress report."}
+  ],
+  "events": [
+    {"id":"e01","kind":"capture","capture":"c01","dependsOn":[]},
+    {"id":"e02","kind":"capture","capture":"c02","dependsOn":[]},
+    {"id":"e03","kind":"capture","capture":"c03","dependsOn":[]},
+    {"id":"e04","kind":"capture","capture":"c04","dependsOn":[]},
+    {"id":"e05","kind":"capture","capture":"c05","dependsOn":["e01","e02"]},
+    {"id":"e06","kind":"capture","capture":"c06","dependsOn":["e01"]},
+    {"id":"e07","kind":"capture","capture":"c07","dependsOn":[]},
+    {"id":"e08","kind":"revise","target":"c06","text":"Reed Theatre stop of the autumn tour: fold the left panel inward by 30 degrees for the narrow wing. Keep the Moss Hall arrangement in the same touring cue book.","dependsOn":["e06"]},
+    {"id":"e09","kind":"capture","capture":"c08","dependsOn":["e08"]},
+    {"id":"e10","kind":"capture","capture":"c09","dependsOn":["e07","e03"]},
+    {"id":"e11","kind":"correct","target":"c07","memberships":["p3"],"reason":"c09 identifies the screen-height memo as a youth workshop instruction. Assign it to that standalone workshop.","dependsOn":["e07","e10"]},
+    {"id":"e12","kind":"capture","capture":"c10","dependsOn":["e02","e03"]},
+    {"id":"e13","kind":"capture","capture":"c11","dependsOn":["e09"]},
+    {"id":"e14","kind":"archive","target":"c06","dependsOn":["e08","e13"]},
+    {"id":"e15","kind":"capture","capture":"c12","dependsOn":["e10","e12"]},
+    {"id":"e16","kind":"restore","target":"c06","dependsOn":["e14"]}
+  ],
+  "challenges": ["One tour spans venues, but a separately commissioned revival stays separate.","Two overlapping bridges form a chain without authorizing a three-project merge.","A workshop can reuse production material while remaining its own undertaking.","Generic screen language leaves three plausible project referents."],
+  "authorNotes":"All productions, venues and events are fictional. The transport comparison and material donation deliberately create different overlapping bridge pairs."
+}

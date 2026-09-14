@@ -1,0 +1,146 @@
+{
+  "events": [
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "file",
+        "text": "Moss Market first commercial print order: 300 copies. Finalize the base-game tray, approve proofs and receive the finished cartons under this job."
+      }
+    },
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "note",
+        "text": "Two millimeters more around the cards."
+      }
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "image",
+        "text": "Desk lamp photo description: cord insulation split at the base grommet. Keep the lamp unplugged while replacing its lead."
+      }
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "voice",
+        "text": "Night-market expansion is an independent Moss Market prototype. Test whether after-dark trading adds useful choices; do not include these cards in the first print order."
+      }
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "note",
+        "text": "My two-millimeter note was about card clearance in the base-game tray for Moss Market's first 300-copy print job. It did not concern expansion cards."
+      }
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "file",
+        "text": "Night-market expansion playtest report: bidding after dark slowed the final round. Revise the prototype's turn limit before another independent test."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e06",
+      "kind": "correct",
+      "reason": "c05 identifies the dimension as first-print base-game tray clearance. Assign my fragment to that print job.",
+      "target": "c01",
+      "userRequestedProjects": [
+        "p1"
+      ]
+    },
+    {
+      "id": "e07",
+      "kind": "revise",
+      "target": "c01",
+      "text": "Two millimeters more clearance around the cards in the first-print Moss Market base-game tray."
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "note",
+        "text": "Retailer has separately commissioned a 500-copy Moss Market reprint, with its own invoice and shipment. Planning can start now; manufacturing waits for the first job to close."
+      }
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "file",
+        "text": "Printer account statement: deposit and balance for Moss Market's first 300-copy order; separate deposit for the retailer's 500-copy reprint. Do not combine the shipments."
+      }
+    },
+    {
+      "id": "e17",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "voice",
+        "text": "Second night-market prototype session: the shorter turn limit worked, but the group wants clearer bidding icons. Keep this result with expansion research, not either print order."
+      }
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "video",
+        "text": "First-print tray proof test: sleeved base-game cards lift out without bending after the extra clearance. The token wells still hold their contents when tilted."
+      }
+    },
+    {
+      "id": "e15",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "image",
+        "text": "Delivery docket: all 300 Moss Market first-run copies received, tray proof accepted, no carton damage. First manufacturing job closed."
+      }
+    },
+    {
+      "id": "e16",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "file",
+        "text": "Retailer reprint stock quote: 500 Moss Market boxes using the accepted base-game tray specification; offer thicker cover paper for this second order only."
+      }
+    },
+    {
+      "id": "e10",
+      "kind": "archive",
+      "target": "c01"
+    },
+    {
+      "id": "e13",
+      "kind": "restore",
+      "target": "c01"
+    },
+    {
+      "id": "e14",
+      "kind": "revise",
+      "target": "c01",
+      "text": "Confirmed in the first-print Moss Market tray proof: two millimeters extra clearance around the sleeved base-game cards is sufficient."
+    }
+  ],
+  "order": "shuffle-1",
+  "story": "story-10"
+}

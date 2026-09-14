@@ -1,0 +1,275 @@
+{
+  "authorNotes": "The oral histories are fictional descriptions without real speakers or personal data. No wholly unresolved capture is required here: the initial folded scan has a positively supported exhibition membership, and only its additional use is unknown.",
+  "captures": [
+    {
+      "id": "c01",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "Selection, permissions and installation share one exhibition deliverable.",
+      "text": "Harbor Voices exhibition brief: choose six oral-history clips, obtain listening-room permissions, and install headphones with captions for the winter opening."
+    },
+    {
+      "id": "c02",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "The same source collection supports a distinct research deliverable.",
+      "text": "The language group separately commissioned a vowel-annotation corpus from Harbor Voices. Its research files and permissions are independent of the listening exhibition."
+    },
+    {
+      "id": "c03",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "image",
+      "rationale": "The visible text establishes exhibition membership but cannot identify the hidden additional use.",
+      "text": "Scanned permission form HV-4: exhibit clip at the Harbor Voices listening room; an additional permitted-use field is hidden by a folded page corner."
+    },
+    {
+      "id": "c04",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "voice",
+      "rationale": "Clip editing implements the listening exhibition.",
+      "text": "Exhibition edit: trim the long pause before the ferry story, but preserve the speaker's final sentence in the listening-room version."
+    },
+    {
+      "id": "c05",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "note",
+      "rationale": "A camping-equipment repair is unrelated to the archive deliverables.",
+      "text": "Camping stove pot support is loose at the hinge. Replace the retaining pin and test stability with an empty pan outdoors."
+    },
+    {
+      "id": "c06",
+      "memberships": [
+        "p1",
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "The complete form explicitly covers both independently scoped uses.",
+      "text": "Unfolded HV-4 permission form: in addition to the listening exhibition, it authorizes this recording's inclusion in the separately commissioned Harbor Voices vowel corpus."
+    },
+    {
+      "id": "c07",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "A research-specific method belongs to the independent corpus project.",
+      "text": "Vowel corpus annotation guide: retain untrimmed pause boundaries and mark vowel intervals on the original Harbor Voices audio. Do not annotate the exhibition edit."
+    },
+    {
+      "id": "c08",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "image",
+      "rationale": "Accessible caption production continues the exhibition.",
+      "text": "Exhibition caption proof: ferry-story clip, large text, transcript aligned to the final listening-room edit; the opening date remains on the back panel."
+    },
+    {
+      "id": "c09",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "video",
+      "rationale": "Checks exhibition installation and accessibility.",
+      "text": "Listening-room installation walkthrough: six headphones play the edited Harbor Voices clips, and the ferry-story caption can be read from the seated position."
+    },
+    {
+      "id": "c10",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "Quality control and delivery preparation are corpus phases.",
+      "text": "Vowel corpus quality check found two interval labels reversed. Correct them in the research annotation file before delivering the corpus to the language group."
+    },
+    {
+      "id": "c11",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "voice",
+      "rationale": "Visitor findings and installation revision stay in the exhibition project.",
+      "text": "Listening exhibition visitor review: the ferry clip is clear, but the caption's last line catches glare. Tilt that panel and record the adjustment in the exhibition report."
+    },
+    {
+      "id": "c12",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "Concludes delivery of the independently commissioned corpus.",
+      "text": "Vowel corpus delivery manifest: original-audio references, corrected interval labels and permission HV-4 included. The language group accepted the research package."
+    }
+  ],
+  "challenges": [
+    "A shared recording collection does not establish one undertaking.",
+    "A partially legible source can have one supported membership while another remains unknown.",
+    "An explicit correction can add a second supported membership without removing the first.",
+    "Licensing, accessible captions and visitor review belong with their exhibition."
+  ],
+  "events": [
+    {
+      "capture": "c01",
+      "dependsOn": [],
+      "id": "e01",
+      "kind": "capture"
+    },
+    {
+      "capture": "c02",
+      "dependsOn": [],
+      "id": "e02",
+      "kind": "capture"
+    },
+    {
+      "capture": "c03",
+      "dependsOn": [
+        "e01"
+      ],
+      "id": "e03",
+      "kind": "capture"
+    },
+    {
+      "capture": "c04",
+      "dependsOn": [
+        "e01"
+      ],
+      "id": "e04",
+      "kind": "capture"
+    },
+    {
+      "capture": "c05",
+      "dependsOn": [],
+      "id": "e05",
+      "kind": "capture"
+    },
+    {
+      "capture": "c06",
+      "dependsOn": [
+        "e03",
+        "e02"
+      ],
+      "id": "e06",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e03",
+        "e06"
+      ],
+      "id": "e07",
+      "kind": "correct",
+      "memberships": [
+        "p1",
+        "p2"
+      ],
+      "reason": "The unfolded form in c06 shows that HV-4 also authorizes the vowel corpus. Keep the exhibition link and explicitly add the corpus link to the folded scan.",
+      "target": "c03"
+    },
+    {
+      "capture": "c07",
+      "dependsOn": [
+        "e02",
+        "e04"
+      ],
+      "id": "e08",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e04"
+      ],
+      "id": "e09",
+      "kind": "revise",
+      "target": "c04",
+      "text": "Exhibition edit revised: shorten, rather than remove, the long pause before the ferry story; preserve the speaker's final sentence in the listening-room version."
+    },
+    {
+      "capture": "c08",
+      "dependsOn": [
+        "e09"
+      ],
+      "id": "e10",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e07"
+      ],
+      "id": "e11",
+      "kind": "archive",
+      "target": "c03"
+    },
+    {
+      "capture": "c09",
+      "dependsOn": [
+        "e10",
+        "e06"
+      ],
+      "id": "e12",
+      "kind": "capture"
+    },
+    {
+      "capture": "c10",
+      "dependsOn": [
+        "e08"
+      ],
+      "id": "e13",
+      "kind": "capture"
+    },
+    {
+      "capture": "c11",
+      "dependsOn": [
+        "e12"
+      ],
+      "id": "e14",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e11"
+      ],
+      "id": "e15",
+      "kind": "restore",
+      "target": "c03"
+    },
+    {
+      "capture": "c12",
+      "dependsOn": [
+        "e13",
+        "e06"
+      ],
+      "id": "e16",
+      "kind": "capture"
+    }
+  ],
+  "id": "story-08",
+  "schemaVersion": 1,
+  "threads": [
+    {
+      "id": "p1",
+      "scope": "Curate, license, install and assess a listening exhibition using the fictional Harbor Voices oral-history collection.",
+      "title": "Harbor Voices listening exhibition"
+    },
+    {
+      "id": "p2",
+      "scope": "Create an independently commissioned annotated vowel corpus from selected Harbor Voices recordings for a language research group.",
+      "title": "Harbor Voices vowel corpus"
+    },
+    {
+      "id": "p3",
+      "scope": "Repair and test a camping stove with a loose pot support.",
+      "title": "Camping stove repair"
+    }
+  ],
+  "title": "Oral-history exhibition and language corpus"
+}

@@ -1,0 +1,272 @@
+{
+  "authorNotes": "All sites and observations are fictional. No horticultural or engineering recommendation is being made for a real location.",
+  "captures": [
+    {
+      "id": "c01",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Design through post-storm assessment form one named installation.",
+      "text": "Birch Lane library wants a rain garden to catch roof runoff. Survey the downpipe, size the basin, then check it after the first storm."
+    },
+    {
+      "id": "c02",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "image",
+      "rationale": "A distinct site and practical goal establish another drainage project.",
+      "text": "Photo description: allotment plot 18 vegetable beds under standing water. Separate drainage job: cut a shallow side swale without routing water into neighboring plots."
+    },
+    {
+      "id": "c03",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "voice",
+      "rationale": "Site survey and inlet design continue the library project.",
+      "text": "Library downpipe survey: the runoff crosses the paving first. The rain-garden inlet needs a stone apron so the basin edge will not wash out."
+    },
+    {
+      "id": "c04",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "file",
+      "rationale": "A music audition has no supported connection to the drainage work.",
+      "text": "Cello audition checklist: record the prelude and the dance in one quiet room, then choose complete takes for the submission."
+    },
+    {
+      "id": "c05",
+      "memberships": [],
+      "modality": "note",
+      "rationale": "Both landscape jobs involve soil and roots; the fragment gives no site.",
+      "text": "Skip the membrane; roots need to cross."
+    },
+    {
+      "id": "c06",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "Planting layout is part of the runoff installation.",
+      "text": "Library rain-garden planting plan: sedges near the inlet, flowering plugs on the higher rim. Basin depth shown as 250 mm."
+    },
+    {
+      "id": "c07",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "voice",
+      "rationale": "Names the specific site behind the earlier fragment.",
+      "text": "The membrane note refers to plot 18's vegetable-bed swale. Leave it unlined so crop roots can cross; the library basin uses its own specification."
+    },
+    {
+      "id": "c08",
+      "memberships": [
+        "p1",
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "A common supplier document directly serves both distinct jobs.",
+      "text": "Order from Flint Yard: washed stone for Birch Lane library rain-garden inlet; separate gravel bags for plot 18's swale. Invoice lines have separate site codes."
+    },
+    {
+      "id": "c09",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "video",
+      "rationale": "Executes the revised design of the library rain garden.",
+      "text": "Installation clip at Birch Lane library: inlet stone apron is seated, basin is excavated to the revised depth, and the sedges are planted."
+    },
+    {
+      "id": "c10",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "Assessment and targeted revision continue the allotment project.",
+      "text": "Plot 18 after rain: the new unlined side swale drains, but a low corner of the vegetable bed still holds water. Raise only that corner."
+    },
+    {
+      "id": "c11",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "image",
+      "rationale": "The planned storm assessment evaluates the same installed basin.",
+      "text": "Library rain garden after its first storm: water entered over the stone apron, no rim erosion, standing water gone by the following morning."
+    },
+    {
+      "id": "c12",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Handover and initial maintenance remain part of the installation project.",
+      "text": "Library rain-garden handover: keep the inlet free of leaves and recheck the sedges in six weeks. Attach the first-storm observations to the maintenance sheet."
+    }
+  ],
+  "challenges": [
+    "Similar drainage methods do not collapse separate sites.",
+    "A changed dimension preserves project identity.",
+    "An invoice can span projects while its lines remain separately allocated.",
+    "Maintenance and evaluation can continue an installation project."
+  ],
+  "events": [
+    {
+      "capture": "c01",
+      "dependsOn": [],
+      "id": "e01",
+      "kind": "capture"
+    },
+    {
+      "capture": "c02",
+      "dependsOn": [],
+      "id": "e02",
+      "kind": "capture"
+    },
+    {
+      "capture": "c03",
+      "dependsOn": [
+        "e01"
+      ],
+      "id": "e03",
+      "kind": "capture"
+    },
+    {
+      "capture": "c04",
+      "dependsOn": [],
+      "id": "e04",
+      "kind": "capture"
+    },
+    {
+      "capture": "c05",
+      "dependsOn": [],
+      "id": "e05",
+      "kind": "capture"
+    },
+    {
+      "capture": "c06",
+      "dependsOn": [
+        "e03"
+      ],
+      "id": "e06",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e06"
+      ],
+      "id": "e07",
+      "kind": "revise",
+      "target": "c06",
+      "text": "Library rain-garden planting plan revised: sedges near the inlet, flowering plugs on the higher rim. Basin depth is 200 mm after checking the buried service clearance."
+    },
+    {
+      "capture": "c07",
+      "dependsOn": [
+        "e02",
+        "e05",
+        "e06"
+      ],
+      "id": "e08",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e05",
+        "e08"
+      ],
+      "id": "e09",
+      "kind": "correct",
+      "memberships": [
+        "p2"
+      ],
+      "reason": "c07 explicitly places the membrane instruction at allotment plot 18. Assign it to that drainage job.",
+      "target": "c05"
+    },
+    {
+      "capture": "c08",
+      "dependsOn": [
+        "e03",
+        "e02"
+      ],
+      "id": "e10",
+      "kind": "capture"
+    },
+    {
+      "capture": "c09",
+      "dependsOn": [
+        "e07",
+        "e10"
+      ],
+      "id": "e11",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e07",
+        "e11"
+      ],
+      "id": "e12",
+      "kind": "archive",
+      "target": "c06"
+    },
+    {
+      "capture": "c10",
+      "dependsOn": [
+        "e08",
+        "e10"
+      ],
+      "id": "e13",
+      "kind": "capture"
+    },
+    {
+      "capture": "c11",
+      "dependsOn": [
+        "e11"
+      ],
+      "id": "e14",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e12"
+      ],
+      "id": "e15",
+      "kind": "restore",
+      "target": "c06"
+    },
+    {
+      "capture": "c12",
+      "dependsOn": [
+        "e14"
+      ],
+      "id": "e16",
+      "kind": "capture"
+    }
+  ],
+  "id": "story-06",
+  "schemaVersion": 1,
+  "threads": [
+    {
+      "id": "p1",
+      "scope": "Design, install and assess a rain garden beside the Birch Lane library to intercept roof runoff.",
+      "title": "Library rain garden"
+    },
+    {
+      "id": "p2",
+      "scope": "Improve drainage in allotment plot 18 so its vegetable beds stop waterlogging.",
+      "title": "Allotment plot drainage"
+    },
+    {
+      "id": "p3",
+      "scope": "Prepare and record two cello pieces for a conservatory audition submission.",
+      "title": "Cello audition recording"
+    }
+  ],
+  "title": "Rain garden and allotment drainage"
+}

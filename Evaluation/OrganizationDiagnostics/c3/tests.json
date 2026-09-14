@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "command": [
+        "/Users/aaryan/Library/Application Support/RememberMatcherFeasibility/v1/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/organization-diagnostics",
+        "-p",
+        "test_*.py"
+      ],
+      "returnCode": 0,
+      "stderr": "....................................................................................................\n----------------------------------------------------------------------\nRan 100 tests in 7.857s\n\nOK\n",
+      "stdout": ""
+    }
+  ],
+  "runtime": {
+    "packages": {
+      "numpy": "1.26.4",
+      "scikit-learn": "1.5.1",
+      "tokenizers": "0.21.4",
+      "torch": "2.7.0",
+      "transformers": "4.53.3"
+    },
+    "platform": "macOS-26.2-arm64-arm-64bit",
+    "python": "3.11.15 (main, Jun 23 2026, 15:46:51) [Clang 22.1.3 ]"
+  }
+}

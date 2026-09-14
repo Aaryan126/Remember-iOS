@@ -10,7 +10,7 @@ final class ProjectViewModel {
     private(set) var isOrganizing = false
     var errorMessage: String?
     private var store: MemoryStore?
-    private var graph: ProjectGraphService?
+    private var graph: D3ProjectOrganizer?
     private var running = false
     private var graphTask: Task<Void, Never>?
     private var needsOrganization = false
@@ -27,7 +27,7 @@ final class ProjectViewModel {
         }
         do {
             let store = try liveStore()
-            let graph = ProjectGraphService(store: store)
+            let graph = D3ProjectOrganizer(store: store)
             self.graph = graph
             for try await events in await store.observeProvenance() {
                 try Task.checkCancellation()

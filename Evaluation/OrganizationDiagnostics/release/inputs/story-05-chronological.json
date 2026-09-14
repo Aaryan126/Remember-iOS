@@ -1,0 +1,140 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "file",
+        "text": "Trailbook offline release scope: local field drafts plus reconnect synchronization ship together. Design, sync tests and rollout monitoring belong to this release."
+      }
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "note",
+        "text": "Open a separate billing incident for Trailbook's duplicate subscription charges. Repair payment retries and reimburse affected test accounts; this is outside the offline release."
+      }
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "image",
+        "text": "Offline draft screen mockup: show 'Saved on this device' until Trailbook reconnects, then replace it with the server timestamp."
+      }
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "voice",
+        "text": "Retry still doubles it. Check the queue."
+      }
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "note",
+        "text": "Blackout curtain rail needs brackets 12 cm from each end. Measure the bedroom lintel before drilling."
+      }
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "file",
+        "text": "Offline reconnect test: one locally saved field observation produces two server records after retry. Billing is not exercised by this test."
+      }
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "note",
+        "text": "The 'Retry still doubles it' voice memo was recorded during the offline reconnect test described in the written log. I meant two field records, not payment charges."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e08",
+      "kind": "correct",
+      "reason": "c07 identifies the memo as the offline reconnect test. Assign it to the offline release.",
+      "target": "c04",
+      "userRequestedProjects": [
+        "p1"
+      ]
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "file",
+        "text": "Billing incident repair: reuse one payment-attempt identifier across retries. The reimbursement checklist remains with the duplicate-charge incident."
+      }
+    },
+    {
+      "id": "e10",
+      "kind": "revise",
+      "target": "c03",
+      "text": "Offline draft screen mockup revised: show 'Saved on this device' until Trailbook receives a server acknowledgment, then display the server timestamp. A network connection alone is insufficient."
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "video",
+        "text": "Offline release demo after sync fix: a draft survives airplane mode and appears once after reconnect. The saved-state label changes after acknowledgment."
+      }
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "note",
+        "text": "Release coordination: deploy the offline sync fix Tuesday and the separately approved billing retry repair Thursday. Both touch the worker, so reserve separate rollback windows."
+      }
+    },
+    {
+      "id": "e13",
+      "kind": "archive",
+      "target": "c04"
+    },
+    {
+      "id": "e14",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "file",
+        "text": "Offline release rollout review: no duplicate field records in the staged test cohort. Keep reconnect latency as the next observation for this release."
+      }
+    },
+    {
+      "id": "e15",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "voice",
+        "text": "Duplicate-charge incident closed: retry check passed and the reimbursement ledger reconciles. This closes billing remediation, not the offline rollout review."
+      }
+    },
+    {
+      "id": "e16",
+      "kind": "restore",
+      "target": "c04"
+    }
+  ],
+  "order": "chronological",
+  "story": "story-05"
+}

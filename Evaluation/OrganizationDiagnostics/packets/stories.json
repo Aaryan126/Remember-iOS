@@ -1,0 +1,2631 @@
+{
+  "reviewPurpose": "Retrospective manual causal audit of intended capture-prefix memberships and every textual dependency; full story and declared scopes visible, not prefix-blind evaluation",
+  "schemaVersion": 1,
+  "stories": [
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "note",
+          "text": "North Gallery accepted our brass astrolabe for its winter exhibition. Start the loan paperwork and a fitted transport cradle."
+        },
+        {
+          "id": "c02",
+          "modality": "file",
+          "text": "Loan request: Hill Textile Centre wants the woven screen for a separate spring display. Harbour Museum will commission its own crate."
+        },
+        {
+          "id": "c03",
+          "modality": "image",
+          "text": "OCR from astrolabe cradle sketch: outer width 480 mm; North Gallery winter loan; leave finger clearance beside brass ring."
+        },
+        {
+          "id": "c04",
+          "modality": "voice",
+          "text": "Ask the courier about the wider one. The label fell off my sketch."
+        },
+        {
+          "id": "c05",
+          "modality": "note",
+          "text": "The kitchen tap drips even with the cartridge tightened. Measure the sink hole before ordering the replacement."
+        },
+        {
+          "id": "c06",
+          "modality": "file",
+          "text": "Courier itinerary covers two jobs: collect the astrolabe for North Gallery and the woven screen for Hill Textile Centre. Keep separate loan references and receipts."
+        },
+        {
+          "id": "c07",
+          "modality": "note",
+          "text": "I found the missing label from my 'wider one' voice memo: it belongs to the woven-screen crate for Hill Textile Centre."
+        },
+        {
+          "id": "c08",
+          "modality": "image",
+          "text": "Scanned signed permission: brass astrolabe, North Gallery winter exhibition, courier collection approved subject to the cradle check."
+        },
+        {
+          "id": "c09",
+          "modality": "video",
+          "text": "Packing-room clip: the brass astrolabe sits securely in the revised cradle; staff rotate the closed crate before the North Gallery collection."
+        },
+        {
+          "id": "c10",
+          "modality": "voice",
+          "text": "Hill Textile Centre confirmed the woven screen arrived with no tears. Save their unpacking photos with that loan."
+        },
+        {
+          "id": "c11",
+          "modality": "note",
+          "text": "North Gallery's astrolabe display opened today. Their conservator asks us to retain the cradle dimensions for the return journey."
+        },
+        {
+          "id": "c12",
+          "modality": "file",
+          "text": "Astrolabe loan closeout: returned to Harbour Museum; the cradle prevented movement, but next time photograph the ring before sealing."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [],
+          "id": "e04",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e03"
+          ],
+          "id": "e06",
+          "kind": "revise",
+          "target": "c03",
+          "text": "OCR corrected from astrolabe cradle sketch: outer width 480 mm, inner width 430 mm; North Gallery winter loan; leave finger clearance beside brass ring."
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "id": "e07",
+          "kind": "capture"
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [
+            "e04",
+            "e02"
+          ],
+          "id": "e08",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e04",
+            "e08"
+          ],
+          "explicitUserAction": true,
+          "id": "e09",
+          "kind": "correct",
+          "reason": "The recovered label in c07 identifies the wider crate as the woven-screen loan. Assign my voice memo to that project.",
+          "target": "c04",
+          "userRequestedProjects": [
+            "p2"
+          ]
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [
+            "e01",
+            "e06"
+          ],
+          "id": "e10",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e06"
+          ],
+          "id": "e11",
+          "kind": "archive",
+          "target": "c03"
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [
+            "e06",
+            "e10"
+          ],
+          "id": "e12",
+          "kind": "capture"
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e07"
+          ],
+          "id": "e13",
+          "kind": "capture"
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e12"
+          ],
+          "id": "e14",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e11"
+          ],
+          "id": "e15",
+          "kind": "restore",
+          "target": "c03"
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e14"
+          ],
+          "id": "e16",
+          "kind": "capture"
+        }
+      ],
+      "id": "story-01",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Prepare, transport and review the Harbour Museum's loan of its brass astrolabe to the North Gallery winter exhibition.",
+          "title": "Brass astrolabe loan"
+        },
+        {
+          "id": "p2",
+          "scope": "Arrange the Harbour Museum's separate loan of a woven screen to the Hill Textile Centre.",
+          "title": "Woven screen loan"
+        },
+        {
+          "id": "p3",
+          "scope": "Replace the leaking tap in a fictional household kitchen.",
+          "title": "Kitchen tap replacement"
+        }
+      ],
+      "title": "Two museum loans on one courier route"
+    },
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "file",
+          "text": "Humidity study protocol: quantify Lark baseline drift from 30% to 80% relative humidity. The dry control and wet runs are phases of this one study."
+        },
+        {
+          "id": "c02",
+          "modality": "note",
+          "text": "Separate Lark experiment approved: battery hours at three radio duty cycles. This has its own outcome and report, independent of the humidity study."
+        },
+        {
+          "id": "c03",
+          "modality": "image",
+          "text": "Bench photo description: Lark sensor in humidity chamber beside a dry-control enclosure, both labeled DRIFT. Cable gland looks loose."
+        },
+        {
+          "id": "c04",
+          "modality": "note",
+          "text": "Run B dropped after six hours."
+        },
+        {
+          "id": "c05",
+          "modality": "voice",
+          "text": "The balcony chair's rear rail split along the old screw hole. Clamp a new hardwood insert before reseating the screw."
+        },
+        {
+          "id": "c06",
+          "modality": "file",
+          "text": "Lark equipment booking: humidity-drift chamber run Monday; independent battery-duty-cycle run Thursday. The sensor is shared, so reset its firmware between jobs."
+        },
+        {
+          "id": "c07",
+          "modality": "video",
+          "text": "DRIFT chamber log clip: humidity ramps smoothly after tightening the cable gland. Dry-control signal remains level through the same interval."
+        },
+        {
+          "id": "c08",
+          "modality": "note",
+          "text": "For my 'Run B dropped' note, B means the medium-radio-duty battery run; its supply voltage crossed the cutoff at six hours. No humidity run was involved."
+        },
+        {
+          "id": "c09",
+          "modality": "file",
+          "text": "Humidity drift report draft: compare the wet ramp against the dry control, subtract initial offset, and report baseline change rather than battery duration."
+        },
+        {
+          "id": "c10",
+          "modality": "image",
+          "text": "Screenshot description: battery lifetime chart for Lark, low/medium/high radio duty, with the medium run cutoff marked at six hours."
+        },
+        {
+          "id": "c11",
+          "modality": "voice",
+          "text": "Review of the humidity draft: the wet-minus-dry comparison is useful, but add uncertainty from the chamber probe calibration."
+        },
+        {
+          "id": "c12",
+          "modality": "note",
+          "text": "Humidity drift report delivered with the calibration uncertainty added. Keep both enclosure logs as supporting material for this study."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [],
+          "id": "e04",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e04"
+          ],
+          "id": "e06",
+          "kind": "archive",
+          "target": "c04"
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "id": "e07",
+          "kind": "capture"
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [
+            "e03"
+          ],
+          "id": "e08",
+          "kind": "capture"
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [
+            "e04",
+            "e02"
+          ],
+          "id": "e09",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e06"
+          ],
+          "id": "e10",
+          "kind": "restore",
+          "target": "c04"
+        },
+        {
+          "dependsOn": [
+            "e10",
+            "e09"
+          ],
+          "explicitUserAction": true,
+          "id": "e11",
+          "kind": "correct",
+          "reason": "c08 identifies Run B as the battery-duty-cycle run. File the restored fragment under battery lifetime.",
+          "target": "c04",
+          "userRequestedProjects": [
+            "p2"
+          ]
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [
+            "e08"
+          ],
+          "id": "e12",
+          "kind": "capture"
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e09"
+          ],
+          "id": "e13",
+          "kind": "capture"
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e12"
+          ],
+          "id": "e14",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e12",
+            "e14"
+          ],
+          "id": "e15",
+          "kind": "revise",
+          "target": "c09",
+          "text": "Humidity drift report final: compare the wet ramp against the dry control, subtract initial offset, and include chamber-probe calibration uncertainty in the baseline-change estimate."
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e15"
+          ],
+          "id": "e16",
+          "kind": "capture"
+        }
+      ],
+      "id": "story-02",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Measure humidity-induced baseline drift in the Lark sensor, including chamber setup, dry controls and analysis.",
+          "title": "Humidity drift study"
+        },
+        {
+          "id": "p2",
+          "scope": "Independently measure Lark sensor battery life under three radio duty cycles.",
+          "title": "Battery lifetime experiment"
+        },
+        {
+          "id": "p3",
+          "scope": "Repair a cracked wooden balcony chair.",
+          "title": "Balcony chair repair"
+        }
+      ],
+      "title": "One sensor, independent experiments"
+    },
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "note",
+          "text": "The 2026 canal lantern walk is booked for November 14. Need stewards, a route permit and a rain plan for this edition."
+        },
+        {
+          "id": "c02",
+          "modality": "image",
+          "text": "OCR: Canal Lantern Walk 2026 route draft. Begin at East Lock, finish at the boat shed; steward point beside the footbridge."
+        },
+        {
+          "id": "c03",
+          "modality": "voice",
+          "text": "Feed the neglected starter twice today and mark its starting level. The jar smells fruity, without visible mold."
+        },
+        {
+          "id": "c04",
+          "modality": "file",
+          "text": "2026 lantern walk permit granted for East Lock to boat shed. Rain plan switches to the covered towpath without changing the event date."
+        },
+        {
+          "id": "c05",
+          "modality": "video",
+          "text": "2026 canal lantern walk recording: stewards redirect walkers to the covered towpath; the boat-shed welcome table stays dry."
+        },
+        {
+          "id": "c06",
+          "modality": "note",
+          "text": "2026 closeout: the covered section worked, but the finish table was too narrow. Leave this observation in this year's review."
+        },
+        {
+          "id": "c07",
+          "modality": "file",
+          "text": "Fresh commission: 2027 canal lantern walk, November 13, separate budget and volunteer roster. We may reuse the 2026 route template."
+        },
+        {
+          "id": "c08",
+          "modality": "note",
+          "text": "Move the welcome table to the wider bay."
+        },
+        {
+          "id": "c09",
+          "modality": "file",
+          "text": "Handover between editions: 2026's narrow finish-table lesson becomes a proposed wider bay for the 2027 lantern walk. Keep each edition's budget separate."
+        },
+        {
+          "id": "c10",
+          "modality": "voice",
+          "text": "My welcome-table fragment was a decision for the 2027 walk, not an edit to the 2026 closeout. Put it with the new edition's setup plan."
+        },
+        {
+          "id": "c11",
+          "modality": "image",
+          "text": "2027 setup sketch: welcome table in the wider boat-shed bay, two volunteer chairs, queue kept away from the exit."
+        },
+        {
+          "id": "c12",
+          "modality": "note",
+          "text": "2027 walk supplier quote accepted for reusable lantern sleeves. This purchase is charged only to the 2027 event budget."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e02"
+          ],
+          "id": "e04",
+          "kind": "revise",
+          "target": "c02",
+          "text": "OCR corrected: Canal Lantern Walk 2026 route draft. Begin at East Lock, finish at the boat shed; steward point before the footbridge, not beside its centre."
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [
+            "e04"
+          ],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [
+            "e05"
+          ],
+          "id": "e06",
+          "kind": "capture"
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [
+            "e06"
+          ],
+          "id": "e07",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e04",
+            "e07"
+          ],
+          "id": "e08",
+          "kind": "archive",
+          "target": "c02"
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [
+            "e07"
+          ],
+          "id": "e09",
+          "kind": "capture"
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [],
+          "id": "e10",
+          "kind": "capture"
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [
+            "e07",
+            "e09"
+          ],
+          "id": "e11",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e08",
+            "e09"
+          ],
+          "id": "e12",
+          "kind": "restore",
+          "target": "c02"
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e10",
+            "e09"
+          ],
+          "id": "e13",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e10",
+            "e13"
+          ],
+          "explicitUserAction": true,
+          "id": "e14",
+          "kind": "correct",
+          "reason": "c10 explicitly identifies the table move as a 2027 setup decision. Assign the fragment to that edition.",
+          "target": "c08",
+          "userRequestedProjects": [
+            "p2"
+          ]
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e13"
+          ],
+          "id": "e15",
+          "kind": "capture"
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e09"
+          ],
+          "id": "e16",
+          "kind": "capture"
+        }
+      ],
+      "id": "story-03",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Plan, run and close out the fictional canal lantern walk held in November 2026.",
+          "title": "2026 canal lantern walk"
+        },
+        {
+          "id": "p2",
+          "scope": "Plan the separately budgeted November 2027 edition of the canal lantern walk.",
+          "title": "2027 canal lantern walk"
+        },
+        {
+          "id": "p3",
+          "scope": "Revive a neglected sourdough starter for home baking.",
+          "title": "Sourdough starter recovery"
+        }
+      ],
+      "title": "Lantern walks across two editions"
+    },
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "file",
+          "text": "Orchard Hall October wedding order: three-tier citrus cake, pale green glaze, delivery before the ceremony. Tasting included in this commission."
+        },
+        {
+          "id": "c02",
+          "modality": "voice",
+          "text": "Stone Pier cafe hired us for opening-day pastries under a separate order. They want the same pale green glaze but individual pear cakes."
+        },
+        {
+          "id": "c03",
+          "modality": "image",
+          "text": "Supplier slip OCR: Meadow Glazes, pale green, batch 17, two tubs. My job-reference line is cropped out of the photo."
+        },
+        {
+          "id": "c04",
+          "modality": "note",
+          "text": "Orchard Hall tasting: citrus sponge approved. Keep the bottom tier less sweet so the glaze does not dominate."
+        },
+        {
+          "id": "c05",
+          "modality": "video",
+          "text": "Aquarium clip: filter rattles even after cleaning the impeller. Replacement housing should fit behind the tank lid."
+        },
+        {
+          "id": "c06",
+          "modality": "note",
+          "text": "Found the uncropped Meadow Glazes slip: one tub was allocated to the Orchard Hall wedding cake and one to the Stone Pier opening pastries."
+        },
+        {
+          "id": "c07",
+          "modality": "file",
+          "text": "Stone Pier opening trial: pear cakes held their shape for four hours. Increase the pastry count from 60 to 72 for the opening order."
+        },
+        {
+          "id": "c08",
+          "modality": "note",
+          "text": "Orchard Hall cake assembly checklist: chill all three tiers, fit the support dowels, and reserve the labeled wedding glaze tub."
+        },
+        {
+          "id": "c09",
+          "modality": "voice",
+          "text": "The Orchard Hall wedding cake reached the venue upright. Photograph the final table placement before returning the transport box."
+        },
+        {
+          "id": "c10",
+          "modality": "image",
+          "text": "Stone Pier opening-day counter photo: the 72 pear cakes are on trays beside the cafe's launch sign; the delivery docket is signed."
+        },
+        {
+          "id": "c11",
+          "modality": "file",
+          "text": "Wedding cake feedback from Orchard Hall: citrus balance praised; one glaze edge scuffed during table placement. Add a wider carry board to this job's review."
+        },
+        {
+          "id": "c12",
+          "modality": "note",
+          "text": "Meadow Glazes reconciliation: charge one batch-17 tub to Orchard Hall wedding and one to Stone Pier opening; neither client should receive the other's delivery fee."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e04",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [
+            "e03",
+            "e01",
+            "e02"
+          ],
+          "id": "e06",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e03",
+            "e06"
+          ],
+          "explicitUserAction": true,
+          "id": "e07",
+          "kind": "correct",
+          "reason": "The uncropped allocation in c06 confirms that the receipt serves both orders. Link the supplier slip to both without merging the commissions.",
+          "target": "c03",
+          "userRequestedProjects": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "dependsOn": [
+            "e07"
+          ],
+          "id": "e08",
+          "kind": "revise",
+          "target": "c03",
+          "text": "Supplier slip OCR corrected: Meadow Glazes, pale green, batch 17, two 2 kg tubs. The job-reference line remains cropped out of this photo."
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [
+            "e02"
+          ],
+          "id": "e09",
+          "kind": "capture"
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [
+            "e04",
+            "e06"
+          ],
+          "id": "e10",
+          "kind": "capture"
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [
+            "e10"
+          ],
+          "id": "e11",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e08"
+          ],
+          "id": "e12",
+          "kind": "archive",
+          "target": "c03"
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e09"
+          ],
+          "id": "e13",
+          "kind": "capture"
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e11"
+          ],
+          "id": "e14",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e12"
+          ],
+          "id": "e15",
+          "kind": "restore",
+          "target": "c03"
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e06",
+            "e11",
+            "e13"
+          ],
+          "id": "e16",
+          "kind": "capture"
+        }
+      ],
+      "id": "story-04",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Design, bake, deliver and review the citrus wedding cake commissioned for the October Orchard Hall wedding.",
+          "title": "Orchard Hall wedding cake"
+        },
+        {
+          "id": "p2",
+          "scope": "Develop and supply pastries for the separately commissioned Stone Pier cafe opening.",
+          "title": "Stone Pier cafe launch pastries"
+        },
+        {
+          "id": "p3",
+          "scope": "Replace a noisy filter in a home aquarium.",
+          "title": "Aquarium filter replacement"
+        }
+      ],
+      "title": "Bakery commissions sharing a glaze supplier"
+    },
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "file",
+          "text": "Trailbook offline release scope: local field drafts plus reconnect synchronization ship together. Design, sync tests and rollout monitoring belong to this release."
+        },
+        {
+          "id": "c02",
+          "modality": "note",
+          "text": "Open a separate billing incident for Trailbook's duplicate subscription charges. Repair payment retries and reimburse affected test accounts; this is outside the offline release."
+        },
+        {
+          "id": "c03",
+          "modality": "image",
+          "text": "Offline draft screen mockup: show 'Saved on this device' until Trailbook reconnects, then replace it with the server timestamp."
+        },
+        {
+          "id": "c04",
+          "modality": "voice",
+          "text": "Retry still doubles it. Check the queue."
+        },
+        {
+          "id": "c05",
+          "modality": "note",
+          "text": "Blackout curtain rail needs brackets 12 cm from each end. Measure the bedroom lintel before drilling."
+        },
+        {
+          "id": "c06",
+          "modality": "file",
+          "text": "Offline reconnect test: one locally saved field observation produces two server records after retry. Billing is not exercised by this test."
+        },
+        {
+          "id": "c07",
+          "modality": "note",
+          "text": "The 'Retry still doubles it' voice memo was recorded during the offline reconnect test described in the written log. I meant two field records, not payment charges."
+        },
+        {
+          "id": "c08",
+          "modality": "file",
+          "text": "Billing incident repair: reuse one payment-attempt identifier across retries. The reimbursement checklist remains with the duplicate-charge incident."
+        },
+        {
+          "id": "c09",
+          "modality": "video",
+          "text": "Offline release demo after sync fix: a draft survives airplane mode and appears once after reconnect. The saved-state label changes after acknowledgment."
+        },
+        {
+          "id": "c10",
+          "modality": "note",
+          "text": "Release coordination: deploy the offline sync fix Tuesday and the separately approved billing retry repair Thursday. Both touch the worker, so reserve separate rollback windows."
+        },
+        {
+          "id": "c11",
+          "modality": "file",
+          "text": "Offline release rollout review: no duplicate field records in the staged test cohort. Keep reconnect latency as the next observation for this release."
+        },
+        {
+          "id": "c12",
+          "modality": "voice",
+          "text": "Duplicate-charge incident closed: retry check passed and the reimbursement ledger reconciles. This closes billing remediation, not the offline rollout review."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [],
+          "id": "e04",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e06",
+          "kind": "capture"
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [
+            "e04",
+            "e06"
+          ],
+          "id": "e07",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e04",
+            "e07"
+          ],
+          "explicitUserAction": true,
+          "id": "e08",
+          "kind": "correct",
+          "reason": "c07 identifies the memo as the offline reconnect test. Assign it to the offline release.",
+          "target": "c04",
+          "userRequestedProjects": [
+            "p1"
+          ]
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [
+            "e02"
+          ],
+          "id": "e09",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e03",
+            "e06"
+          ],
+          "id": "e10",
+          "kind": "revise",
+          "target": "c03",
+          "text": "Offline draft screen mockup revised: show 'Saved on this device' until Trailbook receives a server acknowledgment, then display the server timestamp. A network connection alone is insufficient."
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [
+            "e06",
+            "e10"
+          ],
+          "id": "e11",
+          "kind": "capture"
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e09",
+            "e11"
+          ],
+          "id": "e12",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e08",
+            "e11"
+          ],
+          "id": "e13",
+          "kind": "archive",
+          "target": "c04"
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e12"
+          ],
+          "id": "e14",
+          "kind": "capture"
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e09",
+            "e12"
+          ],
+          "id": "e15",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e13"
+          ],
+          "id": "e16",
+          "kind": "restore",
+          "target": "c04"
+        }
+      ],
+      "id": "story-05",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Ship and assess offline field capture in Trailbook, including local drafts, synchronization and rollout monitoring as one release.",
+          "title": "Trailbook offline release"
+        },
+        {
+          "id": "p2",
+          "scope": "Resolve a separately tracked duplicate-charge incident in Trailbook billing and verify reimbursements.",
+          "title": "Trailbook duplicate-charge repair"
+        },
+        {
+          "id": "p3",
+          "scope": "Fit blackout curtains to a bedroom window.",
+          "title": "Bedroom curtain installation"
+        }
+      ],
+      "title": "Offline release and a separate billing incident"
+    },
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "note",
+          "text": "Birch Lane library wants a rain garden to catch roof runoff. Survey the downpipe, size the basin, then check it after the first storm."
+        },
+        {
+          "id": "c02",
+          "modality": "image",
+          "text": "Photo description: allotment plot 18 vegetable beds under standing water. Separate drainage job: cut a shallow side swale without routing water into neighboring plots."
+        },
+        {
+          "id": "c03",
+          "modality": "voice",
+          "text": "Library downpipe survey: the runoff crosses the paving first. The rain-garden inlet needs a stone apron so the basin edge will not wash out."
+        },
+        {
+          "id": "c04",
+          "modality": "file",
+          "text": "Cello audition checklist: record the prelude and the dance in one quiet room, then choose complete takes for the submission."
+        },
+        {
+          "id": "c05",
+          "modality": "note",
+          "text": "Skip the membrane; roots need to cross."
+        },
+        {
+          "id": "c06",
+          "modality": "file",
+          "text": "Library rain-garden planting plan: sedges near the inlet, flowering plugs on the higher rim. Basin depth shown as 250 mm."
+        },
+        {
+          "id": "c07",
+          "modality": "voice",
+          "text": "The membrane note refers to plot 18's vegetable-bed swale. Leave it unlined so crop roots can cross; the library basin uses its own specification."
+        },
+        {
+          "id": "c08",
+          "modality": "file",
+          "text": "Order from Flint Yard: washed stone for Birch Lane library rain-garden inlet; separate gravel bags for plot 18's swale. Invoice lines have separate site codes."
+        },
+        {
+          "id": "c09",
+          "modality": "video",
+          "text": "Installation clip at Birch Lane library: inlet stone apron is seated, basin is excavated to the revised depth, and the sedges are planted."
+        },
+        {
+          "id": "c10",
+          "modality": "note",
+          "text": "Plot 18 after rain: the new unlined side swale drains, but a low corner of the vegetable bed still holds water. Raise only that corner."
+        },
+        {
+          "id": "c11",
+          "modality": "image",
+          "text": "Library rain garden after its first storm: water entered over the stone apron, no rim erosion, standing water gone by the following morning."
+        },
+        {
+          "id": "c12",
+          "modality": "note",
+          "text": "Library rain-garden handover: keep the inlet free of leaves and recheck the sedges in six weeks. Attach the first-storm observations to the maintenance sheet."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [],
+          "id": "e04",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [
+            "e03"
+          ],
+          "id": "e06",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e06"
+          ],
+          "id": "e07",
+          "kind": "revise",
+          "target": "c06",
+          "text": "Library rain-garden planting plan revised: sedges near the inlet, flowering plugs on the higher rim. Basin depth is 200 mm after checking the buried service clearance."
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [
+            "e05",
+            "e02"
+          ],
+          "id": "e08",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e05",
+            "e08"
+          ],
+          "explicitUserAction": true,
+          "id": "e09",
+          "kind": "correct",
+          "reason": "c07 explicitly places the membrane instruction at allotment plot 18. Assign it to that drainage job.",
+          "target": "c05",
+          "userRequestedProjects": [
+            "p2"
+          ]
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [
+            "e03",
+            "e02"
+          ],
+          "id": "e10",
+          "kind": "capture"
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [
+            "e07",
+            "e10"
+          ],
+          "id": "e11",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e07",
+            "e11"
+          ],
+          "id": "e12",
+          "kind": "archive",
+          "target": "c06"
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e08",
+            "e10"
+          ],
+          "id": "e13",
+          "kind": "capture"
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e11"
+          ],
+          "id": "e14",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e12"
+          ],
+          "id": "e15",
+          "kind": "restore",
+          "target": "c06"
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e14"
+          ],
+          "id": "e16",
+          "kind": "capture"
+        }
+      ],
+      "id": "story-06",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Design, install and assess a rain garden beside the Birch Lane library to intercept roof runoff.",
+          "title": "Library rain garden"
+        },
+        {
+          "id": "p2",
+          "scope": "Improve drainage in allotment plot 18 so its vegetable beds stop waterlogging.",
+          "title": "Allotment plot drainage"
+        },
+        {
+          "id": "p3",
+          "scope": "Prepare and record two cello pieces for a conservatory audition submission.",
+          "title": "Cello audition recording"
+        }
+      ],
+      "title": "Rain garden and allotment drainage"
+    },
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "file",
+          "text": "Paper Birds autumn tour: one production visits Moss Hall and Reed Theatre with the same cast and folding set. Venue adjustments stay within this tour."
+        },
+        {
+          "id": "c02",
+          "modality": "note",
+          "text": "Next spring's Paper Birds studio revival is separately commissioned. New director, new fixed set, its own rehearsal budget; it is not another autumn tour stop."
+        },
+        {
+          "id": "c03",
+          "modality": "voice",
+          "text": "Youth centre booked a standalone shadow-theatre workshop. Build small practice screens and finish with each group presenting a scene."
+        },
+        {
+          "id": "c04",
+          "modality": "image",
+          "text": "Bicycle repair photo: rear rim is buckled beside two broken spokes. Record spoke length before rebuilding and tensioning the wheel."
+        },
+        {
+          "id": "c05",
+          "modality": "file",
+          "text": "Transport estimate compares the Paper Birds autumn folding set with next spring's studio-revival set. Same haulier, separate collection dates and job numbers."
+        },
+        {
+          "id": "c06",
+          "modality": "note",
+          "text": "Reed Theatre stop of the autumn tour: fold the left panel inward for the narrow wing. Keep the Moss Hall arrangement in the same touring cue book."
+        },
+        {
+          "id": "c07",
+          "modality": "voice",
+          "text": "Make the screen taller; they cannot see the bird."
+        },
+        {
+          "id": "c08",
+          "modality": "video",
+          "text": "Reed Theatre autumn-tour rehearsal clip: the revised left-panel fold clears the wing, and the touring bird silhouette remains visible from the back row."
+        },
+        {
+          "id": "c09",
+          "modality": "note",
+          "text": "The taller-screen memo is for the youth shadow workshop's practice screens. The children need to see the bird over the table edge."
+        },
+        {
+          "id": "c10",
+          "modality": "file",
+          "text": "Material handover: offcuts from the separately built Paper Birds studio-revival set will make the youth workshop's practice screens. Record the donation against both projects."
+        },
+        {
+          "id": "c11",
+          "modality": "note",
+          "text": "Autumn tour closed after Reed Theatre. The inward panel fold worked; preserve both venue configurations in the Paper Birds touring report."
+        },
+        {
+          "id": "c12",
+          "modality": "video",
+          "text": "Youth shadow workshop recording: the taller practice screens made from revival offcuts let each group perform its bird scene without lifting the tables."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [],
+          "id": "e04",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e06",
+          "kind": "capture"
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [],
+          "id": "e07",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e06"
+          ],
+          "id": "e08",
+          "kind": "revise",
+          "target": "c06",
+          "text": "Reed Theatre stop of the autumn tour: fold the left panel inward by 30 degrees for the narrow wing. Keep the Moss Hall arrangement in the same touring cue book."
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [
+            "e08"
+          ],
+          "id": "e09",
+          "kind": "capture"
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [
+            "e07",
+            "e03"
+          ],
+          "id": "e10",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e07",
+            "e10"
+          ],
+          "explicitUserAction": true,
+          "id": "e11",
+          "kind": "correct",
+          "reason": "c09 identifies the screen-height memo as a youth workshop instruction. Assign it to that standalone workshop.",
+          "target": "c07",
+          "userRequestedProjects": [
+            "p3"
+          ]
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e02",
+            "e03"
+          ],
+          "id": "e12",
+          "kind": "capture"
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e09"
+          ],
+          "id": "e13",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e08",
+            "e13"
+          ],
+          "id": "e14",
+          "kind": "archive",
+          "target": "c06"
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e10",
+            "e12"
+          ],
+          "id": "e15",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e14"
+          ],
+          "id": "e16",
+          "kind": "restore",
+          "target": "c06"
+        }
+      ],
+      "id": "story-07",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Mount one production of Paper Birds and tour the same production through Moss Hall and Reed Theatre in autumn.",
+          "title": "Paper Birds autumn tour"
+        },
+        {
+          "id": "p2",
+          "scope": "Create a separately commissioned studio revival of Paper Birds next spring with a new set.",
+          "title": "Paper Birds studio revival"
+        },
+        {
+          "id": "p3",
+          "scope": "Prepare and deliver a standalone youth workshop on shadow-theatre scenery.",
+          "title": "Youth shadow workshop"
+        },
+        {
+          "id": "p4",
+          "scope": "Rebuild a buckled rear bicycle wheel with replacement spokes.",
+          "title": "Bicycle wheel rebuild"
+        }
+      ],
+      "title": "A touring play, revival and workshop"
+    },
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "file",
+          "text": "Harbor Voices exhibition brief: choose six oral-history clips, obtain listening-room permissions, and install headphones with captions for the winter opening."
+        },
+        {
+          "id": "c02",
+          "modality": "note",
+          "text": "The language group separately commissioned a vowel-annotation corpus from Harbor Voices. Its research files and permissions are independent of the listening exhibition."
+        },
+        {
+          "id": "c03",
+          "modality": "image",
+          "text": "Scanned permission form HV-4: exhibit clip at the Harbor Voices listening room; an additional permitted-use field is hidden by a folded page corner."
+        },
+        {
+          "id": "c04",
+          "modality": "voice",
+          "text": "Exhibition edit: trim the long pause before the ferry story, but preserve the speaker's final sentence in the listening-room version."
+        },
+        {
+          "id": "c05",
+          "modality": "note",
+          "text": "Camping stove pot support is loose at the hinge. Replace the retaining pin and test stability with an empty pan outdoors."
+        },
+        {
+          "id": "c06",
+          "modality": "file",
+          "text": "Unfolded HV-4 permission form: in addition to the listening exhibition, it authorizes this recording's inclusion in the separately commissioned Harbor Voices vowel corpus."
+        },
+        {
+          "id": "c07",
+          "modality": "file",
+          "text": "Vowel corpus annotation guide: retain untrimmed pause boundaries and mark vowel intervals on the original Harbor Voices audio. Do not annotate the exhibition edit."
+        },
+        {
+          "id": "c08",
+          "modality": "image",
+          "text": "Exhibition caption proof: ferry-story clip, large text, transcript aligned to the final listening-room edit; the opening date remains on the back panel."
+        },
+        {
+          "id": "c09",
+          "modality": "video",
+          "text": "Listening-room installation walkthrough: six headphones play the edited Harbor Voices clips, and the ferry-story caption can be read from the seated position."
+        },
+        {
+          "id": "c10",
+          "modality": "note",
+          "text": "Vowel corpus quality check found two interval labels reversed. Correct them in the research annotation file before delivering the corpus to the language group."
+        },
+        {
+          "id": "c11",
+          "modality": "voice",
+          "text": "Listening exhibition visitor review: the ferry clip is clear, but the caption's last line catches glare. Tilt that panel and record the adjustment in the exhibition report."
+        },
+        {
+          "id": "c12",
+          "modality": "file",
+          "text": "Vowel corpus delivery manifest: original-audio references, corrected interval labels and permission HV-4 included. The language group accepted the research package."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e04",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [
+            "e03",
+            "e02"
+          ],
+          "id": "e06",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e03",
+            "e06"
+          ],
+          "explicitUserAction": true,
+          "id": "e07",
+          "kind": "correct",
+          "reason": "The unfolded form in c06 shows that HV-4 also authorizes the vowel corpus. Keep the exhibition link and explicitly add the corpus link to the folded scan.",
+          "target": "c03",
+          "userRequestedProjects": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [
+            "e02",
+            "e04"
+          ],
+          "id": "e08",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e04"
+          ],
+          "id": "e09",
+          "kind": "revise",
+          "target": "c04",
+          "text": "Exhibition edit revised: shorten, rather than remove, the long pause before the ferry story; preserve the speaker's final sentence in the listening-room version."
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [
+            "e09"
+          ],
+          "id": "e10",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e07"
+          ],
+          "id": "e11",
+          "kind": "archive",
+          "target": "c03"
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [
+            "e10",
+            "e06"
+          ],
+          "id": "e12",
+          "kind": "capture"
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e08"
+          ],
+          "id": "e13",
+          "kind": "capture"
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e12"
+          ],
+          "id": "e14",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e11"
+          ],
+          "id": "e15",
+          "kind": "restore",
+          "target": "c03"
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e13",
+            "e06"
+          ],
+          "id": "e16",
+          "kind": "capture"
+        }
+      ],
+      "id": "story-08",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Curate, license, install and assess a listening exhibition using the fictional Harbor Voices oral-history collection.",
+          "title": "Harbor Voices listening exhibition"
+        },
+        {
+          "id": "p2",
+          "scope": "Create an independently commissioned annotated vowel corpus from selected Harbor Voices recordings for a language research group.",
+          "title": "Harbor Voices vowel corpus"
+        },
+        {
+          "id": "p3",
+          "scope": "Repair and test a camping stove with a loose pot support.",
+          "title": "Camping stove repair"
+        }
+      ],
+      "title": "Oral-history exhibition and language corpus"
+    },
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "file",
+          "text": "Kestrel refit work order: replace worn seat wheels, seal the bow seam and water-test the training scull for everyday club use. This maintenance job has its own budget."
+        },
+        {
+          "id": "c02",
+          "modality": "note",
+          "text": "September inlet regatta planning: arrange registration desks and safety launches. The event budget is separate from the club's Kestrel refit."
+        },
+        {
+          "id": "c03",
+          "modality": "image",
+          "text": "Kestrel bow-seam photo: old sealant has lifted near the stem. Mark the affected length before stripping and resealing this refit section."
+        },
+        {
+          "id": "c04",
+          "modality": "voice",
+          "text": "Order the red ones before Friday. I left the list in the other bag."
+        },
+        {
+          "id": "c05",
+          "modality": "note",
+          "text": "Beginner language exam revision: practice listening on alternate evenings and review the transport vocabulary before the mock paper."
+        },
+        {
+          "id": "c06",
+          "modality": "file",
+          "text": "Club coordination: Kestrel's regular-use refit may finish before the September regatta demonstration. Reserve the boat provisionally for the event, but do not charge refit costs to registration income."
+        },
+        {
+          "id": "c07",
+          "modality": "video",
+          "text": "Kestrel refit water-test clip: new seat wheels run smoothly and the resealed bow stays dry after twenty minutes of rowing."
+        },
+        {
+          "id": "c08",
+          "modality": "file",
+          "text": "September inlet regatta volunteer sheet: assign registration desk cover and a launch marshal; Kestrel is now confirmed for the demonstration row."
+        },
+        {
+          "id": "c09",
+          "modality": "note",
+          "text": "Move the second check to 08:15."
+        },
+        {
+          "id": "c10",
+          "modality": "file",
+          "text": "Kestrel refit handover: bow seal passed, seat wheels accepted, boat returned to the regular club booking pool. Save the water-test recording with this maintenance job."
+        },
+        {
+          "id": "c11",
+          "modality": "voice",
+          "text": "The 'second check' note means the second safety-launch radio check on the September regatta run sheet. Set that event check to 08:15."
+        },
+        {
+          "id": "c12",
+          "modality": "note",
+          "text": "September regatta closeout: the 08:15 radio check caught one flat launch battery before racing. Registration and the Kestrel demonstration both ran to schedule."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [],
+          "id": "e04",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "id": "e06",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "id": "e07",
+          "kind": "revise",
+          "target": "c01",
+          "text": "Kestrel refit work order revised: replace all four worn seat wheels, seal the bow seam and water-test the training scull for everyday club use. This maintenance job has its own budget."
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [
+            "e07"
+          ],
+          "id": "e08",
+          "kind": "capture"
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [
+            "e06",
+            "e08"
+          ],
+          "id": "e09",
+          "kind": "capture"
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [],
+          "id": "e10",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e04"
+          ],
+          "id": "e11",
+          "kind": "archive",
+          "target": "c04"
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e08"
+          ],
+          "id": "e12",
+          "kind": "capture"
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e10",
+            "e09"
+          ],
+          "id": "e13",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e10",
+            "e13"
+          ],
+          "explicitUserAction": true,
+          "id": "e14",
+          "kind": "correct",
+          "reason": "c11 identifies the check as the regatta safety-launch radio check. Assign the timing note to the event.",
+          "target": "c09",
+          "userRequestedProjects": [
+            "p2"
+          ]
+        },
+        {
+          "dependsOn": [
+            "e11"
+          ],
+          "id": "e15",
+          "kind": "restore",
+          "target": "c04"
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e13",
+            "e09"
+          ],
+          "id": "e16",
+          "kind": "capture"
+        }
+      ],
+      "id": "story-09",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Refit and water-test the rowing club's Kestrel training scull for regular club use.",
+          "title": "Kestrel scull refit"
+        },
+        {
+          "id": "p2",
+          "scope": "Organize the fictional September inlet regatta, including launches, registration and event closeout.",
+          "title": "September inlet regatta"
+        },
+        {
+          "id": "p3",
+          "scope": "Prepare a personal revision plan for an upcoming beginner language exam.",
+          "title": "Language exam preparation"
+        }
+      ],
+      "title": "Club boat refit beside a regatta"
+    },
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "note",
+          "text": "Two millimeters more around the cards."
+        },
+        {
+          "id": "c02",
+          "modality": "file",
+          "text": "Moss Market first commercial print order: 300 copies. Finalize the base-game tray, approve proofs and receive the finished cartons under this job."
+        },
+        {
+          "id": "c03",
+          "modality": "voice",
+          "text": "Night-market expansion is an independent Moss Market prototype. Test whether after-dark trading adds useful choices; do not include these cards in the first print order."
+        },
+        {
+          "id": "c04",
+          "modality": "image",
+          "text": "Desk lamp photo description: cord insulation split at the base grommet. Keep the lamp unplugged while replacing its lead."
+        },
+        {
+          "id": "c05",
+          "modality": "note",
+          "text": "My two-millimeter note was about card clearance in the base-game tray for Moss Market's first 300-copy print job. It did not concern expansion cards."
+        },
+        {
+          "id": "c06",
+          "modality": "video",
+          "text": "First-print tray proof test: sleeved base-game cards lift out without bending after the extra clearance. The token wells still hold their contents when tilted."
+        },
+        {
+          "id": "c07",
+          "modality": "file",
+          "text": "Night-market expansion playtest report: bidding after dark slowed the final round. Revise the prototype's turn limit before another independent test."
+        },
+        {
+          "id": "c08",
+          "modality": "note",
+          "text": "Retailer has separately commissioned a 500-copy Moss Market reprint, with its own invoice and shipment. Planning can start now; manufacturing waits for the first job to close."
+        },
+        {
+          "id": "c09",
+          "modality": "file",
+          "text": "Printer account statement: deposit and balance for Moss Market's first 300-copy order; separate deposit for the retailer's 500-copy reprint. Do not combine the shipments."
+        },
+        {
+          "id": "c10",
+          "modality": "image",
+          "text": "Delivery docket: all 300 Moss Market first-run copies received, tray proof accepted, no carton damage. First manufacturing job closed."
+        },
+        {
+          "id": "c11",
+          "modality": "file",
+          "text": "Retailer reprint stock quote: 500 Moss Market boxes using the accepted base-game tray specification; offer thicker cover paper for this second order only."
+        },
+        {
+          "id": "c12",
+          "modality": "voice",
+          "text": "Second night-market prototype session: the shorter turn limit worked, but the group wants clearer bidding icons. Keep this result with expansion research, not either print order."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [],
+          "id": "e04",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e03"
+          ],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e01",
+            "e05"
+          ],
+          "explicitUserAction": true,
+          "id": "e06",
+          "kind": "correct",
+          "reason": "c05 identifies the dimension as first-print base-game tray clearance. Assign my fragment to that print job.",
+          "target": "c01",
+          "userRequestedProjects": [
+            "p1"
+          ]
+        },
+        {
+          "dependsOn": [
+            "e06"
+          ],
+          "id": "e07",
+          "kind": "revise",
+          "target": "c01",
+          "text": "Two millimeters more clearance around the cards in the first-print Moss Market base-game tray."
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [
+            "e07"
+          ],
+          "id": "e08",
+          "kind": "capture"
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [
+            "e03"
+          ],
+          "id": "e09",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e07",
+            "e08"
+          ],
+          "id": "e10",
+          "kind": "archive",
+          "target": "c01"
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [
+            "e02"
+          ],
+          "id": "e11",
+          "kind": "capture"
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [
+            "e02",
+            "e11"
+          ],
+          "id": "e12",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e10"
+          ],
+          "id": "e13",
+          "kind": "restore",
+          "target": "c01"
+        },
+        {
+          "dependsOn": [
+            "e13",
+            "e08"
+          ],
+          "id": "e14",
+          "kind": "revise",
+          "target": "c01",
+          "text": "Confirmed in the first-print Moss Market tray proof: two millimeters extra clearance around the sleeved base-game cards is sufficient."
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e08"
+          ],
+          "id": "e15",
+          "kind": "capture"
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e11",
+            "e15"
+          ],
+          "id": "e16",
+          "kind": "capture"
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e09"
+          ],
+          "id": "e17",
+          "kind": "capture"
+        }
+      ],
+      "id": "story-10",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Finalize components, proof, manufacture and receive the first 300-copy commercial print run of Moss Market.",
+          "title": "Moss Market first print run"
+        },
+        {
+          "id": "p2",
+          "scope": "Independently prototype and evaluate an optional night-market expansion before deciding whether to produce it.",
+          "title": "Moss Market night-market expansion prototype"
+        },
+        {
+          "id": "p3",
+          "scope": "Fulfill a separately commissioned 500-copy reprint order for a retailer after the first print job closes.",
+          "title": "Moss Market second print order"
+        },
+        {
+          "id": "p4",
+          "scope": "Replace the damaged cord of a desk lamp and verify the repair.",
+          "title": "Desk lamp rewiring"
+        }
+      ],
+      "title": "First printing, expansion prototype and reprint"
+    },
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "file",
+          "text": "Cedar telescope focus-map plan: fit focus position against tube temperature. Daytime calibration and nighttime star checks are jointly required for this one map."
+        },
+        {
+          "id": "c02",
+          "modality": "note",
+          "text": "Independent Cedar site study: compare sky brightness toward four horizons to choose an observing area. Borrow the same camera, but do not use focus-map results as this survey's outcome."
+        },
+        {
+          "id": "c03",
+          "modality": "image",
+          "text": "OCR from a sleeved printout: filename focus-fit.csv; sleeve heading SKY BRIGHTNESS SURVEY. The table's column names are hidden by the sleeve edge."
+        },
+        {
+          "id": "c04",
+          "modality": "voice",
+          "text": "Coat alteration: shorten the hem by three centimeters, then replace the torn lining panel so it does not pull at the vent."
+        },
+        {
+          "id": "c05",
+          "modality": "file",
+          "text": "Focus-map daytime calibration log: record tube temperature and motor position after each settling interval. Repeat one warm point to check hysteresis."
+        },
+        {
+          "id": "c06",
+          "modality": "video",
+          "text": "Cedar sky-brightness survey clip: the camera points toward four marked horizons. A shielding board blocks light from the observatory doorway during each directional exposure."
+        },
+        {
+          "id": "c07",
+          "modality": "note",
+          "text": "I removed the printout from the wrong sleeve. focus-fit.csv contains tube temperature and focus motor position for the Cedar focus map; the sky-brightness heading belonged to the reused sleeve."
+        },
+        {
+          "id": "c08",
+          "modality": "file",
+          "text": "Sky-brightness survey result: the eastern horizon was darkest in this session. Repeat on a comparable clear night before selecting the site area."
+        },
+        {
+          "id": "c09",
+          "modality": "image",
+          "text": "Night star-check screenshot for Cedar focus map: predicted motor position yields round stars after a small constant offset. Compare against the daytime fit."
+        },
+        {
+          "id": "c10",
+          "modality": "note",
+          "text": "Focus-map analysis: keep the temperature slope from daytime calibration and add the constant offset seen in the star check. Update the single map deliverable."
+        },
+        {
+          "id": "c11",
+          "modality": "voice",
+          "text": "Cedar sky-brightness repeat again favors the east. Deliver the directional survey and its doorway-light caveat to the site-planning group."
+        },
+        {
+          "id": "c12",
+          "modality": "file",
+          "text": "Cedar focus map accepted after the offset adjustment. Save the daytime log, night check and corrected focus-fit printout as the map's supporting record."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [],
+          "id": "e04",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [
+            "e02"
+          ],
+          "id": "e06",
+          "kind": "capture"
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [
+            "e03",
+            "e01"
+          ],
+          "id": "e07",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e03",
+            "e07"
+          ],
+          "id": "e08",
+          "kind": "revise",
+          "target": "c03",
+          "text": "OCR corrected after removing the reused sleeve: focus-fit.csv contains tube temperature and focus motor position for the Cedar telescope focus map. The sleeve's SKY BRIGHTNESS SURVEY heading was not part of this printout."
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [
+            "e06"
+          ],
+          "id": "e09",
+          "kind": "capture"
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [
+            "e05"
+          ],
+          "id": "e10",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e08",
+            "e07"
+          ],
+          "explicitUserAction": true,
+          "id": "e11",
+          "kind": "correct",
+          "reason": "c07 and the corrected transcription identify the printout as focus-map data. Explicitly assign the previously unresolved scan to the focus-map project.",
+          "target": "c03",
+          "userRequestedProjects": [
+            "p1"
+          ]
+        },
+        {
+          "dependsOn": [
+            "e11"
+          ],
+          "id": "e12",
+          "kind": "archive",
+          "target": "c03"
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e05",
+            "e10"
+          ],
+          "id": "e13",
+          "kind": "capture"
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e09"
+          ],
+          "id": "e14",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e12"
+          ],
+          "id": "e15",
+          "kind": "restore",
+          "target": "c03"
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e13",
+            "e11",
+            "e08"
+          ],
+          "id": "e16",
+          "kind": "capture"
+        }
+      ],
+      "id": "story-11",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Build and validate a temperature-to-focus map for the Cedar telescope, combining daytime calibration and nighttime star checks.",
+          "title": "Cedar telescope focus map"
+        },
+        {
+          "id": "p2",
+          "scope": "Independently measure directional sky brightness at the Cedar observatory site to select a future observing area.",
+          "title": "Cedar site sky-brightness survey"
+        },
+        {
+          "id": "p3",
+          "scope": "Shorten and reline a winter coat for a personal wardrobe repair.",
+          "title": "Winter coat alteration"
+        }
+      ],
+      "title": "Conflicting labels in an observatory notebook"
+    },
+    {
+      "captures": [
+        {
+          "id": "c01",
+          "modality": "file",
+          "text": "Commission: one 2026\u20132028 pilot will maintain access to the Linden, Quarry and Mill cooling shelters. Update a single public route guide each summer and finish with an access review."
+        },
+        {
+          "id": "c02",
+          "modality": "note",
+          "text": "2026 Linden street fair has its own event grant. Book stalls, mark the closed road and issue a fair-day map; cooling-shelter operations remain outside this event budget."
+        },
+        {
+          "id": "c03",
+          "modality": "image",
+          "text": "Recipe booklet proof: soup instructions spill onto the next page. Reduce the title spacing and keep the handwritten dedication on its own final page."
+        },
+        {
+          "id": "c04",
+          "modality": "video",
+          "text": "Cooling pilot, summer 2026: route-guide signs installed at the three shelter approaches. The Mill entrance is reached through the courtyard gate."
+        },
+        {
+          "id": "c05",
+          "modality": "file",
+          "text": "2026 Linden fair closeout: vendor stalls cleared and the temporary road map withdrawn. Archive this edition's event costs separately from cooling-pilot signage costs."
+        },
+        {
+          "id": "c06",
+          "modality": "voice",
+          "text": "Use the blue map again, with the side entrance marked."
+        },
+        {
+          "id": "c07",
+          "modality": "note",
+          "text": "Cooling pilot, summer 2027 route-guide revision: Mill shelter access moves from the courtyard gate to the side entrance. This updates the same three-shelter guide begun in 2026."
+        },
+        {
+          "id": "c08",
+          "modality": "file",
+          "text": "New grant for the 2027 Linden street fair: separately commissioned edition, fresh vendor roster and new fair-day map. Reusing last year's layout does not reuse its event budget."
+        },
+        {
+          "id": "c09",
+          "modality": "file",
+          "text": "Printer file index: the cooling pilot's evolving shelter-route guide, the closed 2026 Linden fair map and the new 2027 fair map share a page layout. Maintain three separate job folders and billing references."
+        },
+        {
+          "id": "c10",
+          "modality": "note",
+          "text": "My 'blue map again' recording was for the cooling pilot's 2027 shelter guide. The side entrance means Mill shelter, not a street-fair gate."
+        },
+        {
+          "id": "c11",
+          "modality": "file",
+          "text": "Cooling pilot final access review, 2028: all three shelter routes were checked against the evolving guide; the marked Mill side entrance reduced wrong turns. Deliver the pilot's final report."
+        },
+        {
+          "id": "c12",
+          "modality": "image",
+          "text": "Imported 2027 Linden fair setup photo: vendor stalls match the fresh roster and the fair-day map marks the temporary street entrance. Save with the 2027 event records."
+        }
+      ],
+      "events": [
+        {
+          "capture": "c01",
+          "dependsOn": [],
+          "id": "e01",
+          "kind": "capture"
+        },
+        {
+          "capture": "c02",
+          "dependsOn": [],
+          "id": "e02",
+          "kind": "capture"
+        },
+        {
+          "capture": "c03",
+          "dependsOn": [],
+          "id": "e03",
+          "kind": "capture"
+        },
+        {
+          "capture": "c04",
+          "dependsOn": [
+            "e01"
+          ],
+          "id": "e04",
+          "kind": "capture"
+        },
+        {
+          "capture": "c05",
+          "dependsOn": [
+            "e02"
+          ],
+          "id": "e05",
+          "kind": "capture"
+        },
+        {
+          "capture": "c06",
+          "dependsOn": [],
+          "id": "e06",
+          "kind": "capture"
+        },
+        {
+          "capture": "c07",
+          "dependsOn": [
+            "e04"
+          ],
+          "id": "e07",
+          "kind": "capture"
+        },
+        {
+          "capture": "c08",
+          "dependsOn": [
+            "e05"
+          ],
+          "id": "e08",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e06"
+          ],
+          "id": "e09",
+          "kind": "archive",
+          "target": "c06"
+        },
+        {
+          "capture": "c09",
+          "dependsOn": [
+            "e07",
+            "e05",
+            "e08"
+          ],
+          "id": "e10",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e07"
+          ],
+          "id": "e11",
+          "kind": "revise",
+          "target": "c07",
+          "text": "Cooling pilot, summer 2027 route-guide revision: Mill shelter access moves from the courtyard gate to the east side entrance beside the ramp. This updates the same three-shelter guide begun in 2026."
+        },
+        {
+          "capture": "c10",
+          "dependsOn": [
+            "e06",
+            "e11"
+          ],
+          "id": "e12",
+          "kind": "capture"
+        },
+        {
+          "dependsOn": [
+            "e09"
+          ],
+          "id": "e13",
+          "kind": "restore",
+          "target": "c06"
+        },
+        {
+          "dependsOn": [
+            "e13",
+            "e12"
+          ],
+          "explicitUserAction": true,
+          "id": "e14",
+          "kind": "correct",
+          "reason": "c10 explicitly identifies the recording as the cooling pilot's Mill-entrance update. Assign it to the continuing shelter pilot.",
+          "target": "c06",
+          "userRequestedProjects": [
+            "p1"
+          ]
+        },
+        {
+          "capture": "c11",
+          "dependsOn": [
+            "e11"
+          ],
+          "id": "e15",
+          "kind": "capture"
+        },
+        {
+          "capture": "c12",
+          "dependsOn": [
+            "e08"
+          ],
+          "id": "e16",
+          "kind": "capture"
+        }
+      ],
+      "id": "story-12",
+      "threads": [
+        {
+          "id": "p1",
+          "scope": "Run the explicitly commissioned 2026\u20132028 pilot maintaining access to three neighborhood cooling shelters, with one evolving public route guide and final access review.",
+          "title": "Three-shelter cooling access pilot"
+        },
+        {
+          "id": "p2",
+          "scope": "Plan and operate the separately funded 2026 Linden street fair and close its event records.",
+          "title": "2026 Linden street fair"
+        },
+        {
+          "id": "p3",
+          "scope": "Plan the separately commissioned 2027 Linden street fair with a fresh vendor roster and event map.",
+          "title": "2027 Linden street fair"
+        },
+        {
+          "id": "p4",
+          "scope": "Typeset and print a small personal booklet of inherited recipes as a gift.",
+          "title": "Family recipe booklet"
+        }
+      ],
+      "title": "A multi-year cooling pilot and separate street fairs"
+    }
+  ]
+}

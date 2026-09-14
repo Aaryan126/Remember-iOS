@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "story-02",
+  "title": "One sensor, independent experiments",
+  "threads": [
+    {"id":"p1","title":"Humidity drift study","scope":"Measure humidity-induced baseline drift in the Lark sensor, including chamber setup, dry controls and analysis."},
+    {"id":"p2","title":"Battery lifetime experiment","scope":"Independently measure Lark sensor battery life under three radio duty cycles."},
+    {"id":"p3","title":"Balcony chair repair","scope":"Repair a cracked wooden balcony chair."}
+  ],
+  "captures": [
+    {"id":"c01","modality":"file","text":"Humidity study protocol: quantify Lark baseline drift from 30% to 80% relative humidity. The dry control and wet runs are phases of this one study.","memberships":["p1"],"rationale":"Explicit study scope unites controls and treatment runs."},
+    {"id":"c02","modality":"note","text":"Separate Lark experiment approved: battery hours at three radio duty cycles. This has its own outcome and report, independent of the humidity study.","memberships":["p2"],"rationale":"The shared device does not override the explicitly independent experiment."},
+    {"id":"c03","modality":"image","text":"Bench photo description: Lark sensor in humidity chamber beside a dry-control enclosure, both labeled DRIFT. Cable gland looks loose.","memberships":["p1"],"rationale":"Both enclosures are declared parts of the drift study."},
+    {"id":"c04","modality":"note","text":"Run B dropped after six hours.","memberships":[],"rationale":"A short run label and duration do not distinguish signal drift from battery discharge."},
+    {"id":"c05","modality":"voice","text":"The balcony chair's rear rail split along the old screw hole. Clamp a new hardwood insert before reseating the screw.","memberships":["p3"],"rationale":"A household furniture repair is unrelated to either sensor experiment."},
+    {"id":"c06","modality":"file","text":"Lark equipment booking: humidity-drift chamber run Monday; independent battery-duty-cycle run Thursday. The sensor is shared, so reset its firmware between jobs.","memberships":["p1","p2"],"rationale":"Scheduling explicitly spans two experiments without merging their goals."},
+    {"id":"c07","modality":"video","text":"DRIFT chamber log clip: humidity ramps smoothly after tightening the cable gland. Dry-control signal remains level through the same interval.","memberships":["p1"],"rationale":"The setup fix and control results continue the drift study."},
+    {"id":"c08","modality":"note","text":"For my 'Run B dropped' note, B means the medium-radio-duty battery run; its supply voltage crossed the cutoff at six hours. No humidity run was involved.","memberships":["p2"],"rationale":"The capture identifies the ambiguous note with the battery experiment."},
+    {"id":"c09","modality":"file","text":"Humidity drift report draft: compare the wet ramp against the dry control, subtract initial offset, and report baseline change rather than battery duration.","memberships":["p1"],"rationale":"Analysis belongs to the study that generated both runs."},
+    {"id":"c10","modality":"image","text":"Screenshot description: battery lifetime chart for Lark, low/medium/high radio duty, with the medium run cutoff marked at six hours.","memberships":["p2"],"rationale":"Shows the independent battery experiment's results."},
+    {"id":"c11","modality":"voice","text":"Review of the humidity draft: the wet-minus-dry comparison is useful, but add uncertainty from the chamber probe calibration.","memberships":["p1"],"rationale":"Reviewing the analysis remains within the humidity study."},
+    {"id":"c12","modality":"note","text":"Humidity drift report delivered with the calibration uncertainty added. Keep both enclosure logs as supporting material for this study.","memberships":["p1"],"rationale":"Delivery and supporting logs close the same experiment."}
+  ],
+  "events": [
+    {"id":"e01","kind":"capture","capture":"c01","dependsOn":[]},
+    {"id":"e02","kind":"capture","capture":"c02","dependsOn":[]},
+    {"id":"e03","kind":"capture","capture":"c03","dependsOn":["e01"]},
+    {"id":"e04","kind":"capture","capture":"c04","dependsOn":[]},
+    {"id":"e05","kind":"capture","capture":"c05","dependsOn":[]},
+    {"id":"e06","kind":"archive","target":"c04","dependsOn":["e04"]},
+    {"id":"e07","kind":"capture","capture":"c06","dependsOn":["e01","e02"]},
+    {"id":"e08","kind":"capture","capture":"c07","dependsOn":["e03"]},
+    {"id":"e09","kind":"capture","capture":"c08","dependsOn":["e04","e02"]},
+    {"id":"e10","kind":"restore","target":"c04","dependsOn":["e06"]},
+    {"id":"e11","kind":"correct","target":"c04","memberships":["p2"],"reason":"c08 identifies Run B as the battery-duty-cycle run. File the restored fragment under battery lifetime.","dependsOn":["e10","e09"]},
+    {"id":"e12","kind":"capture","capture":"c09","dependsOn":["e08"]},
+    {"id":"e13","kind":"capture","capture":"c10","dependsOn":["e09"]},
+    {"id":"e14","kind":"capture","capture":"c11","dependsOn":["e12"]},
+    {"id":"e15","kind":"revise","target":"c09","text":"Humidity drift report final: compare the wet ramp against the dry control, subtract initial offset, and include chamber-probe calibration uncertainty in the baseline-change estimate.","dependsOn":["e12","e14"]},
+    {"id":"e16","kind":"capture","capture":"c12","dependsOn":["e15"]}
+  ],
+  "challenges": ["Same sensor supports independent experiments.","Controls and treatments belong to an explicitly combined study.","An unresolved fragment stays unresolved through archive and restore until corrected.","A short fragment remains unresolved until its run label is explained."],
+  "authorNotes":"Fictional sensor and observations; text descriptions do not claim actual media extraction. The fragment is restored before the explicit correction; restoration alone does not use the clarification as membership authority."
+}

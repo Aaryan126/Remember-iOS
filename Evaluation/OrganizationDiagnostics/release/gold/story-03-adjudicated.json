@@ -1,0 +1,272 @@
+{
+  "authorNotes": "All event details are fictional. The old route can be useful for the later event while retaining its original membership.",
+  "captures": [
+    {
+      "id": "c01",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Defines the dated event and its preparation scope.",
+      "text": "The 2026 canal lantern walk is booked for November 14. Need stewards, a route permit and a rain plan for this edition."
+    },
+    {
+      "id": "c02",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "image",
+      "rationale": "Route work belongs to the specified 2026 edition.",
+      "text": "OCR: Canal Lantern Walk 2026 route draft. Begin at East Lock, finish at the boat shed; steward point beside the footbridge."
+    },
+    {
+      "id": "c03",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "voice",
+      "rationale": "Home baking is unrelated to organizing the canal events.",
+      "text": "Feed the neglected starter twice today and mark its starting level. The jar smells fruity, without visible mold."
+    },
+    {
+      "id": "c04",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "Permit and contingency plan continue the 2026 undertaking.",
+      "text": "2026 lantern walk permit granted for East Lock to boat shed. Rain plan switches to the covered towpath without changing the event date."
+    },
+    {
+      "id": "c05",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "video",
+      "rationale": "Execution of the permitted rain plan is the same event.",
+      "text": "2026 canal lantern walk recording: stewards redirect walkers to the covered towpath; the boat-shed welcome table stays dry."
+    },
+    {
+      "id": "c06",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Retrospective belongs to the edition just held.",
+      "text": "2026 closeout: the covered section worked, but the finish table was too narrow. Leave this observation in this year's review."
+    },
+    {
+      "id": "c07",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "Explicit separate commissioning distinguishes the next annual edition.",
+      "text": "Fresh commission: 2027 canal lantern walk, November 13, separate budget and volunteer roster. We may reuse the 2026 route template."
+    },
+    {
+      "id": "c08",
+      "memberships": [],
+      "modality": "note",
+      "rationale": "No edition is named; this may annotate the old review or plan the new event.",
+      "text": "Move the welcome table to the wider bay."
+    },
+    {
+      "id": "c09",
+      "memberships": [
+        "p1",
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "An explicit handover source discusses both separate events.",
+      "text": "Handover between editions: 2026's narrow finish-table lesson becomes a proposed wider bay for the 2027 lantern walk. Keep each edition's budget separate."
+    },
+    {
+      "id": "c10",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "voice",
+      "rationale": "An explicit edition clarification resolves the fragment.",
+      "text": "My welcome-table fragment was a decision for the 2027 walk, not an edit to the 2026 closeout. Put it with the new edition's setup plan."
+    },
+    {
+      "id": "c11",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "image",
+      "rationale": "Implements the new edition's clarified setup decision.",
+      "text": "2027 setup sketch: welcome table in the wider boat-shed bay, two volunteer chairs, queue kept away from the exit."
+    },
+    {
+      "id": "c12",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "A procurement phase of the separate 2027 event.",
+      "text": "2027 walk supplier quote accepted for reusable lantern sleeves. This purchase is charged only to the 2027 event budget."
+    }
+  ],
+  "challenges": [
+    "Annual editions are separately scoped despite matching names and locations.",
+    "A lesson-transfer document bridges editions without joining their budgets.",
+    "Restoring an old route does not turn it into next year's project.",
+    "A plausible edition guess for a short fragment is insufficient."
+  ],
+  "events": [
+    {
+      "capture": "c01",
+      "dependsOn": [],
+      "id": "e01",
+      "kind": "capture"
+    },
+    {
+      "capture": "c02",
+      "dependsOn": [
+        "e01"
+      ],
+      "id": "e02",
+      "kind": "capture"
+    },
+    {
+      "capture": "c03",
+      "dependsOn": [],
+      "id": "e03",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e02"
+      ],
+      "id": "e04",
+      "kind": "revise",
+      "target": "c02",
+      "text": "OCR corrected: Canal Lantern Walk 2026 route draft. Begin at East Lock, finish at the boat shed; steward point before the footbridge, not beside its centre."
+    },
+    {
+      "capture": "c04",
+      "dependsOn": [
+        "e04"
+      ],
+      "id": "e05",
+      "kind": "capture"
+    },
+    {
+      "capture": "c05",
+      "dependsOn": [
+        "e05"
+      ],
+      "id": "e06",
+      "kind": "capture"
+    },
+    {
+      "capture": "c06",
+      "dependsOn": [
+        "e06"
+      ],
+      "id": "e07",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e04",
+        "e07"
+      ],
+      "id": "e08",
+      "kind": "archive",
+      "target": "c02"
+    },
+    {
+      "capture": "c07",
+      "dependsOn": [
+        "e07"
+      ],
+      "id": "e09",
+      "kind": "capture"
+    },
+    {
+      "capture": "c08",
+      "dependsOn": [],
+      "id": "e10",
+      "kind": "capture"
+    },
+    {
+      "capture": "c09",
+      "dependsOn": [
+        "e07",
+        "e09"
+      ],
+      "id": "e11",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e08",
+        "e09"
+      ],
+      "id": "e12",
+      "kind": "restore",
+      "target": "c02"
+    },
+    {
+      "capture": "c10",
+      "dependsOn": [
+        "e10",
+        "e09"
+      ],
+      "id": "e13",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e10",
+        "e13"
+      ],
+      "id": "e14",
+      "kind": "correct",
+      "memberships": [
+        "p2"
+      ],
+      "reason": "c10 explicitly identifies the table move as a 2027 setup decision. Assign the fragment to that edition.",
+      "target": "c08"
+    },
+    {
+      "capture": "c11",
+      "dependsOn": [
+        "e13"
+      ],
+      "id": "e15",
+      "kind": "capture"
+    },
+    {
+      "capture": "c12",
+      "dependsOn": [
+        "e09"
+      ],
+      "id": "e16",
+      "kind": "capture"
+    }
+  ],
+  "id": "story-03",
+  "schemaVersion": 1,
+  "threads": [
+    {
+      "id": "p1",
+      "scope": "Plan, run and close out the fictional canal lantern walk held in November 2026.",
+      "title": "2026 canal lantern walk"
+    },
+    {
+      "id": "p2",
+      "scope": "Plan the separately budgeted November 2027 edition of the canal lantern walk.",
+      "title": "2027 canal lantern walk"
+    },
+    {
+      "id": "p3",
+      "scope": "Revive a neglected sourdough starter for home baking.",
+      "title": "Sourdough starter recovery"
+    }
+  ],
+  "title": "Lantern walks across two editions"
+}

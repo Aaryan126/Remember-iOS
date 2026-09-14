@@ -1,0 +1,140 @@
+{
+  "events": [
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "note",
+        "text": "September inlet regatta planning: arrange registration desks and safety launches. The event budget is separate from the club's Kestrel refit."
+      }
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "voice",
+        "text": "Order the red ones before Friday. I left the list in the other bag."
+      }
+    },
+    {
+      "id": "e11",
+      "kind": "archive",
+      "target": "c04"
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "note",
+        "text": "Beginner language exam revision: practice listening on alternate evenings and review the transport vocabulary before the mock paper."
+      }
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "note",
+        "text": "Move the second check to 08:15."
+      }
+    },
+    {
+      "id": "e15",
+      "kind": "restore",
+      "target": "c04"
+    },
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "file",
+        "text": "Kestrel refit work order: replace worn seat wheels, seal the bow seam and water-test the training scull for everyday club use. This maintenance job has its own budget."
+      }
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "file",
+        "text": "Club coordination: Kestrel's regular-use refit may finish before the September regatta demonstration. Reserve the boat provisionally for the event, but do not charge refit costs to registration income."
+      }
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "image",
+        "text": "Kestrel bow-seam photo: old sealant has lifted near the stem. Mark the affected length before stripping and resealing this refit section."
+      }
+    },
+    {
+      "id": "e07",
+      "kind": "revise",
+      "target": "c01",
+      "text": "Kestrel refit work order revised: replace all four worn seat wheels, seal the bow seam and water-test the training scull for everyday club use. This maintenance job has its own budget."
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "video",
+        "text": "Kestrel refit water-test clip: new seat wheels run smoothly and the resealed bow stays dry after twenty minutes of rowing."
+      }
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "file",
+        "text": "September inlet regatta volunteer sheet: assign registration desk cover and a launch marshal; Kestrel is now confirmed for the demonstration row."
+      }
+    },
+    {
+      "id": "e13",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "voice",
+        "text": "The 'second check' note means the second safety-launch radio check on the September regatta run sheet. Set that event check to 08:15."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e14",
+      "kind": "correct",
+      "reason": "c11 identifies the check as the regatta safety-launch radio check. Assign the timing note to the event.",
+      "target": "c09",
+      "userRequestedProjects": [
+        "p2"
+      ]
+    },
+    {
+      "id": "e16",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "note",
+        "text": "September regatta closeout: the 08:15 radio check caught one flat launch battery before racing. Registration and the Kestrel demonstration both ran to schedule."
+      }
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "file",
+        "text": "Kestrel refit handover: bow seal passed, seat wheels accepted, boat returned to the regular club booking pool. Save the water-test recording with this maintenance job."
+      }
+    }
+  ],
+  "order": "shuffle-1",
+  "story": "story-09"
+}

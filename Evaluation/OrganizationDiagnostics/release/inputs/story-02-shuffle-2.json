@@ -1,0 +1,140 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "file",
+        "text": "Humidity study protocol: quantify Lark baseline drift from 30% to 80% relative humidity. The dry control and wet runs are phases of this one study."
+      }
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "image",
+        "text": "Bench photo description: Lark sensor in humidity chamber beside a dry-control enclosure, both labeled DRIFT. Cable gland looks loose."
+      }
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "video",
+        "text": "DRIFT chamber log clip: humidity ramps smoothly after tightening the cable gland. Dry-control signal remains level through the same interval."
+      }
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "file",
+        "text": "Humidity drift report draft: compare the wet ramp against the dry control, subtract initial offset, and report baseline change rather than battery duration."
+      }
+    },
+    {
+      "id": "e14",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "voice",
+        "text": "Review of the humidity draft: the wet-minus-dry comparison is useful, but add uncertainty from the chamber probe calibration."
+      }
+    },
+    {
+      "id": "e15",
+      "kind": "revise",
+      "target": "c09",
+      "text": "Humidity drift report final: compare the wet ramp against the dry control, subtract initial offset, and include chamber-probe calibration uncertainty in the baseline-change estimate."
+    },
+    {
+      "id": "e16",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "note",
+        "text": "Humidity drift report delivered with the calibration uncertainty added. Keep both enclosure logs as supporting material for this study."
+      }
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "note",
+        "text": "Separate Lark experiment approved: battery hours at three radio duty cycles. This has its own outcome and report, independent of the humidity study."
+      }
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "file",
+        "text": "Lark equipment booking: humidity-drift chamber run Monday; independent battery-duty-cycle run Thursday. The sensor is shared, so reset its firmware between jobs."
+      }
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "note",
+        "text": "Run B dropped after six hours."
+      }
+    },
+    {
+      "id": "e06",
+      "kind": "archive",
+      "target": "c04"
+    },
+    {
+      "id": "e10",
+      "kind": "restore",
+      "target": "c04"
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "note",
+        "text": "For my 'Run B dropped' note, B means the medium-radio-duty battery run; its supply voltage crossed the cutoff at six hours. No humidity run was involved."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e11",
+      "kind": "correct",
+      "reason": "c08 identifies Run B as the battery-duty-cycle run. File the restored fragment under battery lifetime.",
+      "target": "c04",
+      "userRequestedProjects": [
+        "p2"
+      ]
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "voice",
+        "text": "The balcony chair's rear rail split along the old screw hole. Clamp a new hardwood insert before reseating the screw."
+      }
+    },
+    {
+      "id": "e13",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "image",
+        "text": "Screenshot description: battery lifetime chart for Lark, low/medium/high radio duty, with the medium run cutoff marked at six hours."
+      }
+    }
+  ],
+  "order": "shuffle-2",
+  "story": "story-02"
+}

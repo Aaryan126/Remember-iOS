@@ -1,0 +1,27 @@
+{
+  "elapsedSeconds": 29.132583141326904,
+  "explicitInvariantChecks": 31,
+  "historicalPrefixesVerified": 4632,
+  "ledgerEvents": 8088,
+  "ledgerKinds": {
+    "archive": 288,
+    "capture": 3456,
+    "placement": 3744,
+    "restore": 288,
+    "revision": 312
+  },
+  "minimumMeasuredFreeBytes": 20701331456,
+  "peakMeasuredDiagnosticBytes": 755544064,
+  "peakMeasuredSimulatorNewBytes": 442077184,
+  "policyRuns": {
+    "hybrid-corroborated-17": 36,
+    "hybrid-corroborated-29": 36,
+    "hybrid-corroborated-41": 36,
+    "hybrid-strongest-17": 36,
+    "hybrid-strongest-29": 36,
+    "hybrid-strongest-41": 36,
+    "production-embedding-reference": 36,
+    "simple-baseline-strongest": 36
+  },
+  "prefixes": 4632
+}

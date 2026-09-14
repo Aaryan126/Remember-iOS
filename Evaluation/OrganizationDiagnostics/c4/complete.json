@@ -1,0 +1,27 @@
+{
+  "checkpoint": 4,
+  "complete": true,
+  "nextExperimentStarted": false,
+  "parentCompletionSHA256": "2721f912ce16646f448782578788c6e72afce2cdf10a892924be139fcba78ca5",
+  "productionQualified": false,
+  "resource": {
+    "allocatedBytes": 924405760,
+    "freeBytes": 20566245376,
+    "plannedBytes": 0,
+    "simulatorReservedBytes": 1073741824
+  },
+  "sources": {
+    "Evaluation/OrganizationDiagnostics/c4/REPORT.md": "95854bc3f3ebff3082b53c1e9a1c0f20d04401c110afd3bfc322e16b3344fd87",
+    "Evaluation/OrganizationDiagnostics/c4/summary.json": "18a84332b26268d69c62cbdd38f614a768f8f2356ecc824f6da4459119b4b9a4",
+    "Evaluation/OrganizationDiagnostics/runs/c4-01/manifest.json": "6aad62898b445c1721ee832226e1049df7206937533fc24aa43fefd20bf85ffc",
+    "Evaluation/OrganizationDiagnostics/runs/c4-01/metrics-complete.json": "83a90eefc009fd0a559cf07fccce52a813f8f625d9df669b38d5ee9f0fb12d81",
+    "Evaluation/OrganizationDiagnostics/runs/c4-01/predictions-complete.json": "751d19ea37327e8fad384e561284b9399944812090665a321e6a9580425fb869",
+    "Evaluation/OrganizationDiagnostics/runs/c4-01/resume-after.json": "86871643ac6d88309053116fe765f8c162852034780a076d296ae70cef403d23",
+    "Evaluation/OrganizationDiagnostics/runs/c4-01/resume-before.json": "ef3832f6d7892e35e8e5eb35e0d612c1e2c39c51db8606141bc56ad4bf0df027",
+    "Evaluation/OrganizationDiagnostics/runs/c4-01/summary.json": "18a84332b26268d69c62cbdd38f614a768f8f2356ecc824f6da4459119b4b9a4",
+    "Evaluation/OrganizationDiagnostics/runs/c4-01/validation/replay-audit.json": "de2974b8a9fe23acd18a5b74f1d99b7f52c481ee85cdfc5357d631da4f5cb573",
+    "Evaluation/OrganizationDiagnostics/runs/c4-01/validation/tests.json": "60ea75dafabcfc42b8b3628ab734d013c290e2e23c230e44bf35a4839cd78bea",
+    "scripts/organization-diagnostics/c4_finalize.py": "0f1822378bc3ed5070a38fc154d85aa30ee7f4b099d2ed1c046bcc04a134724a"
+  },
+  "stopForUserReview": true
+}

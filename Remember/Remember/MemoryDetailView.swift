@@ -103,7 +103,7 @@ struct MemoryDetailView: View {
             }
             Button("Cancel", role: .cancel) {}
         } message: {
-            Text("The note and its history will be kept. Restore it from Project’s archive.")
+            Text("The note and its history will be kept. Restore it from Settings → Archive.")
         }
     }
 
@@ -506,7 +506,7 @@ private struct MemoryEditSheet: View {
             }
             Button("Cancel", role: .cancel) {}
         } message: {
-            Text("The memory and its history will be kept. Restore it from Project’s archive.")
+            Text("The memory and its history will be kept. Restore it from Settings → Archive.")
         }
     }
 

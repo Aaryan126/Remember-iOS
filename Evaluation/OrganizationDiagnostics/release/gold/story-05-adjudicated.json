@@ -1,0 +1,272 @@
+{
+  "authorNotes": "Trailbook and all data are fictional; no real accounts, code or logs are used. c07 describes the earlier recorded test, while c06 is its later imported written result, so capture order differs from event occurrence.",
+  "captures": [
+    {
+      "id": "c01",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "Explicit scope unites UI and synchronization work into one undertaking.",
+      "text": "Trailbook offline release scope: local field drafts plus reconnect synchronization ship together. Design, sync tests and rollout monitoring belong to this release."
+    },
+    {
+      "id": "c02",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "The application is shared, but the incident is explicitly separate.",
+      "text": "Open a separate billing incident for Trailbook's duplicate subscription charges. Repair payment retries and reimburse affected test accounts; this is outside the offline release."
+    },
+    {
+      "id": "c03",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "image",
+      "rationale": "The screen implements the offline release's draft behavior.",
+      "text": "Offline draft screen mockup: show 'Saved on this device' until Trailbook reconnects, then replace it with the server timestamp."
+    },
+    {
+      "id": "c04",
+      "memberships": [],
+      "modality": "voice",
+      "rationale": "Retry and doubling could describe either sync records or charges; the object is missing.",
+      "text": "Retry still doubles it. Check the queue."
+    },
+    {
+      "id": "c05",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "note",
+      "rationale": "A household installation has no supported link to software delivery.",
+      "text": "Blackout curtain rail needs brackets 12 cm from each end. Measure the bedroom lintel before drilling."
+    },
+    {
+      "id": "c06",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "A duplicate-record defect belongs to the offline sync release.",
+      "text": "Offline reconnect test: one locally saved field observation produces two server records after retry. Billing is not exercised by this test."
+    },
+    {
+      "id": "c07",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Explicitly identifies the earlier memo's object and project.",
+      "text": "The 'Retry still doubles it' voice memo was recorded during the offline reconnect test described in the written log. I meant two field records, not payment charges."
+    },
+    {
+      "id": "c08",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "Implementation and remediation continue the billing incident.",
+      "text": "Billing incident repair: reuse one payment-attempt identifier across retries. The reimbursement checklist remains with the duplicate-charge incident."
+    },
+    {
+      "id": "c09",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "video",
+      "rationale": "Demonstrates the same release across UI and backend phases.",
+      "text": "Offline release demo after sync fix: a draft survives airplane mode and appears once after reconnect. The saved-state label changes after acknowledgment."
+    },
+    {
+      "id": "c10",
+      "memberships": [
+        "p1",
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "An explicit coordination note spans two distinct changes.",
+      "text": "Release coordination: deploy the offline sync fix Tuesday and the separately approved billing retry repair Thursday. Both touch the worker, so reserve separate rollback windows."
+    },
+    {
+      "id": "c11",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "Monitoring and review continue the release undertaking.",
+      "text": "Offline release rollout review: no duplicate field records in the staged test cohort. Keep reconnect latency as the next observation for this release."
+    },
+    {
+      "id": "c12",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "voice",
+      "rationale": "Closes the separately scoped billing incident.",
+      "text": "Duplicate-charge incident closed: retry check passed and the reimbursement ledger reconciles. This closes billing remediation, not the offline rollout review."
+    }
+  ],
+  "challenges": [
+    "Shared application, queue and retry language are weak identity evidence.",
+    "UI design and server fixes can be phases of one explicit release.",
+    "A deployment coordination bridge does not combine an incident with a feature.",
+    "Specific clarification is required for an object-free fragment."
+  ],
+  "events": [
+    {
+      "capture": "c01",
+      "dependsOn": [],
+      "id": "e01",
+      "kind": "capture"
+    },
+    {
+      "capture": "c02",
+      "dependsOn": [],
+      "id": "e02",
+      "kind": "capture"
+    },
+    {
+      "capture": "c03",
+      "dependsOn": [
+        "e01"
+      ],
+      "id": "e03",
+      "kind": "capture"
+    },
+    {
+      "capture": "c04",
+      "dependsOn": [],
+      "id": "e04",
+      "kind": "capture"
+    },
+    {
+      "capture": "c05",
+      "dependsOn": [],
+      "id": "e05",
+      "kind": "capture"
+    },
+    {
+      "capture": "c06",
+      "dependsOn": [
+        "e01"
+      ],
+      "id": "e06",
+      "kind": "capture"
+    },
+    {
+      "capture": "c07",
+      "dependsOn": [
+        "e04",
+        "e06"
+      ],
+      "id": "e07",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e04",
+        "e07"
+      ],
+      "id": "e08",
+      "kind": "correct",
+      "memberships": [
+        "p1"
+      ],
+      "reason": "c07 identifies the memo as the offline reconnect test. Assign it to the offline release.",
+      "target": "c04"
+    },
+    {
+      "capture": "c08",
+      "dependsOn": [
+        "e02"
+      ],
+      "id": "e09",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e03",
+        "e06"
+      ],
+      "id": "e10",
+      "kind": "revise",
+      "target": "c03",
+      "text": "Offline draft screen mockup revised: show 'Saved on this device' until Trailbook receives a server acknowledgment, then display the server timestamp. A network connection alone is insufficient."
+    },
+    {
+      "capture": "c09",
+      "dependsOn": [
+        "e06",
+        "e10"
+      ],
+      "id": "e11",
+      "kind": "capture"
+    },
+    {
+      "capture": "c10",
+      "dependsOn": [
+        "e09",
+        "e11"
+      ],
+      "id": "e12",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e08",
+        "e11"
+      ],
+      "id": "e13",
+      "kind": "archive",
+      "target": "c04"
+    },
+    {
+      "capture": "c11",
+      "dependsOn": [
+        "e12"
+      ],
+      "id": "e14",
+      "kind": "capture"
+    },
+    {
+      "capture": "c12",
+      "dependsOn": [
+        "e09",
+        "e12"
+      ],
+      "id": "e15",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e13"
+      ],
+      "id": "e16",
+      "kind": "restore",
+      "target": "c04"
+    }
+  ],
+  "id": "story-05",
+  "schemaVersion": 1,
+  "threads": [
+    {
+      "id": "p1",
+      "scope": "Ship and assess offline field capture in Trailbook, including local drafts, synchronization and rollout monitoring as one release.",
+      "title": "Trailbook offline release"
+    },
+    {
+      "id": "p2",
+      "scope": "Resolve a separately tracked duplicate-charge incident in Trailbook billing and verify reimbursements.",
+      "title": "Trailbook duplicate-charge repair"
+    },
+    {
+      "id": "p3",
+      "scope": "Fit blackout curtains to a bedroom window.",
+      "title": "Bedroom curtain installation"
+    }
+  ],
+  "title": "Offline release and a separate billing incident"
+}

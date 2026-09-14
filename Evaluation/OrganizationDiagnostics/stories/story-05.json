@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "story-05",
+  "title": "Offline release and a separate billing incident",
+  "threads": [
+    {"id":"p1","title":"Trailbook offline release","scope":"Ship and assess offline field capture in Trailbook, including local drafts, synchronization and rollout monitoring as one release."},
+    {"id":"p2","title":"Trailbook duplicate-charge repair","scope":"Resolve a separately tracked duplicate-charge incident in Trailbook billing and verify reimbursements."},
+    {"id":"p3","title":"Bedroom curtain installation","scope":"Fit blackout curtains to a bedroom window."}
+  ],
+  "captures": [
+    {"id":"c01","modality":"file","text":"Trailbook offline release scope: local field drafts plus reconnect synchronization ship together. Design, sync tests and rollout monitoring belong to this release.","memberships":["p1"],"rationale":"Explicit scope unites UI and synchronization work into one undertaking."},
+    {"id":"c02","modality":"note","text":"Open a separate billing incident for Trailbook's duplicate subscription charges. Repair payment retries and reimburse affected test accounts; this is outside the offline release.","memberships":["p2"],"rationale":"The application is shared, but the incident is explicitly separate."},
+    {"id":"c03","modality":"image","text":"Offline draft screen mockup: show 'Saved on this device' until Trailbook reconnects, then replace it with the server timestamp.","memberships":["p1"],"rationale":"The screen implements the offline release's draft behavior."},
+    {"id":"c04","modality":"voice","text":"Retry still doubles it. Check the queue.","memberships":[],"rationale":"Retry and doubling could describe either sync records or charges; the object is missing."},
+    {"id":"c05","modality":"note","text":"Blackout curtain rail needs brackets 12 cm from each end. Measure the bedroom lintel before drilling.","memberships":["p3"],"rationale":"A household installation has no supported link to software delivery."},
+    {"id":"c06","modality":"file","text":"Offline reconnect test: one locally saved field observation produces two server records after retry. Billing is not exercised by this test.","memberships":["p1"],"rationale":"A duplicate-record defect belongs to the offline sync release."},
+    {"id":"c07","modality":"note","text":"The 'Retry still doubles it' voice memo was recorded during the offline reconnect test described in the written log. I meant two field records, not payment charges.","memberships":["p1"],"rationale":"Explicitly identifies the earlier memo's object and project."},
+    {"id":"c08","modality":"file","text":"Billing incident repair: reuse one payment-attempt identifier across retries. The reimbursement checklist remains with the duplicate-charge incident.","memberships":["p2"],"rationale":"Implementation and remediation continue the billing incident."},
+    {"id":"c09","modality":"video","text":"Offline release demo after sync fix: a draft survives airplane mode and appears once after reconnect. The saved-state label changes after acknowledgment.","memberships":["p1"],"rationale":"Demonstrates the same release across UI and backend phases."},
+    {"id":"c10","modality":"note","text":"Release coordination: deploy the offline sync fix Tuesday and the separately approved billing retry repair Thursday. Both touch the worker, so reserve separate rollback windows.","memberships":["p1","p2"],"rationale":"An explicit coordination note spans two distinct changes."},
+    {"id":"c11","modality":"file","text":"Offline release rollout review: no duplicate field records in the staged test cohort. Keep reconnect latency as the next observation for this release.","memberships":["p1"],"rationale":"Monitoring and review continue the release undertaking."},
+    {"id":"c12","modality":"voice","text":"Duplicate-charge incident closed: retry check passed and the reimbursement ledger reconciles. This closes billing remediation, not the offline rollout review.","memberships":["p2"],"rationale":"Closes the separately scoped billing incident."}
+  ],
+  "events": [
+    {"id":"e01","kind":"capture","capture":"c01","dependsOn":[]},
+    {"id":"e02","kind":"capture","capture":"c02","dependsOn":[]},
+    {"id":"e03","kind":"capture","capture":"c03","dependsOn":["e01"]},
+    {"id":"e04","kind":"capture","capture":"c04","dependsOn":[]},
+    {"id":"e05","kind":"capture","capture":"c05","dependsOn":[]},
+    {"id":"e06","kind":"capture","capture":"c06","dependsOn":["e01"]},
+    {"id":"e07","kind":"capture","capture":"c07","dependsOn":["e04","e06"]},
+    {"id":"e08","kind":"correct","target":"c04","memberships":["p1"],"reason":"c07 identifies the memo as the offline reconnect test. Assign it to the offline release.","dependsOn":["e04","e07"]},
+    {"id":"e09","kind":"capture","capture":"c08","dependsOn":["e02"]},
+    {"id":"e10","kind":"revise","target":"c03","text":"Offline draft screen mockup revised: show 'Saved on this device' until Trailbook receives a server acknowledgment, then display the server timestamp. A network connection alone is insufficient.","dependsOn":["e03","e06"]},
+    {"id":"e11","kind":"capture","capture":"c09","dependsOn":["e06","e10"]},
+    {"id":"e12","kind":"capture","capture":"c10","dependsOn":["e09","e11"]},
+    {"id":"e13","kind":"archive","target":"c04","dependsOn":["e08","e11"]},
+    {"id":"e14","kind":"capture","capture":"c11","dependsOn":["e12"]},
+    {"id":"e15","kind":"capture","capture":"c12","dependsOn":["e09","e12"]},
+    {"id":"e16","kind":"restore","target":"c04","dependsOn":["e13"]}
+  ],
+  "challenges": ["Shared application, queue and retry language are weak identity evidence.","UI design and server fixes can be phases of one explicit release.","A deployment coordination bridge does not combine an incident with a feature.","Specific clarification is required for an object-free fragment."],
+  "authorNotes":"Trailbook and all data are fictional; no real accounts, code or logs are used. c07 describes the earlier recorded test, while c06 is its later imported written result, so capture order differs from event occurrence."
+}

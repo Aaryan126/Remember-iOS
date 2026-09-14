@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "method": "Root evidence-based adjudication of contextual relation disagreements; agreeing independent labels retained. Root is not prediction-blind. Original pair and context reviews remain sealed.",
+  "decisions": [
+    {
+      "id": "r017", "alpha": "uncertain", "beta": "same", "final": "uncertain",
+      "evidenceIds": ["s055", "s046", "s050", "s129", "s211"],
+      "rationale": "Dane's whole archived interview and a specifically permitted queue excerpt are not interchangeable. The chain-locker correction at 12:08 is not identified as belonging to that excerpt. A downstream exhibit transcript check cannot establish that this correction serves the exhibit. Preserve uncertainty rather than infer permission or project scope."
+    },
+    {
+      "id": "r020", "alpha": "same", "beta": "related", "final": "same",
+      "evidenceIds": ["s199", "s026", "s133", "s223", "s091"],
+      "rationale": "The explicit Chen 083 instruction corrects the exported renewal row, regenerates its receipt, resyncs that same row and checks the matching expiry. These are implementation and verification phases of the same membership correction. The separate gate timing ticket is not merged into that undertaking; the text distinguishes it from this expiry correction."
+    },
+    {
+      "id": "r033", "alpha": "uncertain", "beta": "same", "final": "uncertain",
+      "evidenceIds": ["s055", "s129", "s050", "s211"],
+      "rationale": "Archive access covers Dane's interview, but public playback and exhibit production use only marked excerpts. Nothing places the chain-locker correction inside the selected queue excerpt. Reuse of part of an interview does not prove every transcript edit belongs to the exhibit, so the supplied context remains insufficient."
+    },
+    {
+      "id": "r040", "alpha": "same", "beta": "related", "final": "same",
+      "evidenceIds": ["s026", "s022", "s133", "s181", "s082", "s091"],
+      "rationale": "The same annual renewal reconciliation closes both unidentified transfers and Chen's corrected shorter term. The explicit export/receipt/resync instruction ties the residual expiry error to that renewal work. Under the approved continuing-project scope, resolving this renewal's downstream data inconsistency belongs with reconciling the renewal batch; independent gate schedule repair still stays separate."
+    },
+    {
+      "id": "r066", "alpha": "related", "beta": "uncertain", "final": "related",
+      "evidenceIds": ["s240", "s198", "s087", "s075", "s112", "s073"],
+      "rationale": "The context supplies two independently closed undertakings: depositing speaker-organized research packages with the town archive, and producing a printed walking booklet with map reproduction permission. Shared Market Street research supports a relationship, but no combined project is established. The source archive's organization and permission for the printed map remain related, separate work."
+    }
+  ]
+}

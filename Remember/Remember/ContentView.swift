@@ -19,7 +19,7 @@ struct ContentView: View {
 
             ProjectView(model: projectModel, onAsk: openAssistant)
                 .tabItem {
-                    Label("Project", systemImage: "point.3.connected.trianglepath.dotted")
+                    Label("Threads", systemImage: "point.3.connected.trianglepath.dotted")
                 }
 
             SettingsView(viewModel: viewModel, projectModel: projectModel, onAsk: openAssistant)

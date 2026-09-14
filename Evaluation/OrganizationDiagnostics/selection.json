@@ -1,0 +1,1242 @@
+{
+  "availableAfterExcludingEarlierStrata": {
+    "FN": 193,
+    "FP": 20,
+    "TN": 1413,
+    "TP": 280
+  },
+  "diagnosticOnly": true,
+  "humanReviewed": false,
+  "items": [
+    {
+      "id": "r001",
+      "library": "hv23a",
+      "originalPair": "hv23a-i02--hv23a-i08",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "FN",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r002",
+      "library": "hv21b",
+      "originalPair": "hv21b-i01--hv21b-i20",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r003",
+      "library": "hv23b",
+      "originalPair": "hv23b-i02--hv23b-i16",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r004",
+      "library": "hv22a",
+      "originalPair": "hv22a-i07--hv22a-i09",
+      "originalRelation": "unrelated",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r005",
+      "library": "hv24b",
+      "originalPair": "hv24b-i06--hv24b-i08",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r006",
+      "library": "hv21a",
+      "originalPair": "hv21a-i08--hv21a-i18",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r007",
+      "library": "hv20a",
+      "originalPair": "hv20a-i09--hv20a-i13",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r008",
+      "library": "hv22b",
+      "originalPair": "hv22b-i05--hv22b-i06",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r009",
+      "library": "hv19b",
+      "originalPair": "hv19b-i04--hv19b-i09",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "FP",
+        "41": "TN"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r010",
+      "library": "hv24a",
+      "originalPair": "hv24a-i13--hv24a-i20",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r011",
+      "library": "hv20a",
+      "originalPair": "hv20a-i05--hv20a-i10",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r012",
+      "library": "hv21b",
+      "originalPair": "hv21b-i11--hv21b-i18",
+      "originalRelation": "unrelated",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r013",
+      "library": "hv21b",
+      "originalPair": "hv21b-i09--hv21b-i15",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r014",
+      "library": "hv23a",
+      "originalPair": "hv23a-i09--hv23a-i20",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r015",
+      "library": "hv20b",
+      "originalPair": "hv20b-i01--hv20b-i15",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r016",
+      "library": "hv20b",
+      "originalPair": "hv20b-i03--hv20b-i12",
+      "originalRelation": "unrelated",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r017",
+      "library": "hv23a",
+      "originalPair": "hv23a-i11--hv23a-i20",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r018",
+      "library": "hv21b",
+      "originalPair": "hv21b-i15--hv21b-i20",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r019",
+      "library": "hv21a",
+      "originalPair": "hv21a-i05--hv21a-i19",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r020",
+      "library": "hv21a",
+      "originalPair": "hv21a-i05--hv21a-i13",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r021",
+      "library": "hv20a",
+      "originalPair": "hv20a-i15--hv20a-i16",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r022",
+      "library": "hv22a",
+      "originalPair": "hv22a-i06--hv22a-i14",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r023",
+      "library": "hv24b",
+      "originalPair": "hv24b-i07--hv24b-i13",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r024",
+      "library": "hv24b",
+      "originalPair": "hv24b-i09--hv24b-i16",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r025",
+      "library": "hv21b",
+      "originalPair": "hv21b-i16--hv21b-i17",
+      "originalRelation": "unrelated",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r026",
+      "library": "hv23b",
+      "originalPair": "hv23b-i03--hv23b-i18",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r027",
+      "library": "hv19a",
+      "originalPair": "hv19a-i10--hv19a-i18",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "FN",
+        "41": "TP"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r028",
+      "library": "hv23b",
+      "originalPair": "hv23b-i16--hv23b-i19",
+      "originalRelation": "unrelated",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r029",
+      "library": "hv20b",
+      "originalPair": "hv20b-i01--hv20b-i11",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r030",
+      "library": "hv23b",
+      "originalPair": "hv23b-i09--hv23b-i19",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r031",
+      "library": "hv23a",
+      "originalPair": "hv23a-i10--hv23a-i13",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r032",
+      "library": "hv21a",
+      "originalPair": "hv21a-i03--hv21a-i16",
+      "originalRelation": "unrelated",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r033",
+      "library": "hv23a",
+      "originalPair": "hv23a-i11--hv23a-i13",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r034",
+      "library": "hv19b",
+      "originalPair": "hv19b-i07--hv19b-i20",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r035",
+      "library": "hv19b",
+      "originalPair": "hv19b-i05--hv19b-i15",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r036",
+      "library": "hv20a",
+      "originalPair": "hv20a-i05--hv20a-i06",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r037",
+      "library": "hv20b",
+      "originalPair": "hv20b-i09--hv20b-i18",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r038",
+      "library": "hv21a",
+      "originalPair": "hv21a-i01--hv21a-i04",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r039",
+      "library": "hv21a",
+      "originalPair": "hv21a-i03--hv21a-i14",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r040",
+      "library": "hv21a",
+      "originalPair": "hv21a-i13--hv21a-i15",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r041",
+      "library": "hv20a",
+      "originalPair": "hv20a-i10--hv20a-i15",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r042",
+      "library": "hv23a",
+      "originalPair": "hv23a-i01--hv23a-i06",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r043",
+      "library": "hv23b",
+      "originalPair": "hv23b-i12--hv23b-i17",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r044",
+      "library": "hv22a",
+      "originalPair": "hv22a-i13--hv22a-i19",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r045",
+      "library": "hv21a",
+      "originalPair": "hv21a-i01--hv21a-i15",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r046",
+      "library": "hv22b",
+      "originalPair": "hv22b-i08--hv22b-i14",
+      "originalRelation": "unrelated",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r047",
+      "library": "hv19a",
+      "originalPair": "hv19a-i11--hv19a-i19",
+      "originalRelation": "unrelated",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r048",
+      "library": "hv21a",
+      "originalPair": "hv21a-i05--hv21a-i09",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r049",
+      "library": "hv22b",
+      "originalPair": "hv22b-i03--hv22b-i16",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r050",
+      "library": "hv19a",
+      "originalPair": "hv19a-i03--hv19a-i09",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r051",
+      "library": "hv24b",
+      "originalPair": "hv24b-i03--hv24b-i10",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r052",
+      "library": "hv19b",
+      "originalPair": "hv19b-i09--hv19b-i15",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r053",
+      "library": "hv21b",
+      "originalPair": "hv21b-i04--hv21b-i06",
+      "originalRelation": "unrelated",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r054",
+      "library": "hv24a",
+      "originalPair": "hv24a-i09--hv24a-i14",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r055",
+      "library": "hv19b",
+      "originalPair": "hv19b-i08--hv19b-i09",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "FP",
+        "41": "TN"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r056",
+      "library": "hv24a",
+      "originalPair": "hv24a-i08--hv24a-i20",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r057",
+      "library": "hv24a",
+      "originalPair": "hv24a-i13--hv24a-i14",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r058",
+      "library": "hv19a",
+      "originalPair": "hv19a-i12--hv19a-i14",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r059",
+      "library": "hv24a",
+      "originalPair": "hv24a-i09--hv24a-i16",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r060",
+      "library": "hv19b",
+      "originalPair": "hv19b-i13--hv19b-i20",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r061",
+      "library": "hv20a",
+      "originalPair": "hv20a-i02--hv20a-i12",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r062",
+      "library": "hv21a",
+      "originalPair": "hv21a-i01--hv21a-i10",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r063",
+      "library": "hv24b",
+      "originalPair": "hv24b-i04--hv24b-i12",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r064",
+      "library": "hv21b",
+      "originalPair": "hv21b-i02--hv21b-i04",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r065",
+      "library": "hv22a",
+      "originalPair": "hv22a-i07--hv22a-i12",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r066",
+      "library": "hv23b",
+      "originalPair": "hv23b-i04--hv23b-i14",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r067",
+      "library": "hv19a",
+      "originalPair": "hv19a-i05--hv19a-i17",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    },
+    {
+      "id": "r068",
+      "library": "hv21a",
+      "originalPair": "hv21a-i01--hv21a-i13",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r069",
+      "library": "hv24b",
+      "originalPair": "hv24b-i04--hv24b-i07",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r070",
+      "library": "hv24b",
+      "originalPair": "hv24b-i01--hv24b-i08",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r071",
+      "library": "hv22b",
+      "originalPair": "hv22b-i01--hv22b-i06",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r072",
+      "library": "hv20a",
+      "originalPair": "hv20a-i09--hv20a-i12",
+      "originalRelation": "unrelated",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r073",
+      "library": "hv23a",
+      "originalPair": "hv23a-i18--hv23a-i19",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r074",
+      "library": "hv20b",
+      "originalPair": "hv20b-i01--hv20b-i05",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r075",
+      "library": "hv19a",
+      "originalPair": "hv19a-i12--hv19a-i20",
+      "originalRelation": "unrelated",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r076",
+      "library": "hv23b",
+      "originalPair": "hv23b-i06--hv23b-i11",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "stratum": "FN"
+    },
+    {
+      "id": "r077",
+      "library": "hv24b",
+      "originalPair": "hv24b-i06--hv24b-i18",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "TN"
+    },
+    {
+      "id": "r078",
+      "library": "hv20b",
+      "originalPair": "hv20b-i10--hv20b-i16",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "TN"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r079",
+      "library": "hv20a",
+      "originalPair": "hv20a-i08--hv20a-i10",
+      "originalRelation": "related",
+      "outcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "FP"
+      },
+      "stratum": "FP"
+    },
+    {
+      "id": "r080",
+      "library": "hv22a",
+      "originalPair": "hv22a-i11--hv22a-i20",
+      "originalRelation": "same",
+      "outcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "stratum": "TP"
+    }
+  ],
+  "libraryAliases": {
+    "hv19a": "b01",
+    "hv19b": "b02",
+    "hv20a": "b03",
+    "hv20b": "b04",
+    "hv21a": "b05",
+    "hv21b": "b06",
+    "hv22a": "b07",
+    "hv22b": "b08",
+    "hv23a": "b09",
+    "hv23b": "b10",
+    "hv24a": "b11",
+    "hv24b": "b12"
+  },
+  "oldQualificationChanged": false,
+  "packetSHA256": "7f5dce4a87a90258a2f4297e736baca62b21a986aa4ee5507144acac250649e6",
+  "policy": "20 per union-of-all-three-seeds stratum; FP/FN/TP/TN precedence; SHA256 ordering; no duplicates",
+  "schemaVersion": 1,
+  "sourceAliases": {
+    "hv19a-i01": "s162",
+    "hv19a-i02": "s104",
+    "hv19a-i03": "s081",
+    "hv19a-i04": "s027",
+    "hv19a-i05": "s187",
+    "hv19a-i06": "s061",
+    "hv19a-i07": "s174",
+    "hv19a-i08": "s070",
+    "hv19a-i09": "s143",
+    "hv19a-i10": "s001",
+    "hv19a-i11": "s205",
+    "hv19a-i12": "s062",
+    "hv19a-i13": "s197",
+    "hv19a-i14": "s237",
+    "hv19a-i15": "s103",
+    "hv19a-i16": "s041",
+    "hv19a-i17": "s065",
+    "hv19a-i18": "s020",
+    "hv19a-i19": "s189",
+    "hv19a-i20": "s146",
+    "hv19b-i01": "s049",
+    "hv19b-i02": "s150",
+    "hv19b-i03": "s014",
+    "hv19b-i04": "s138",
+    "hv19b-i05": "s182",
+    "hv19b-i06": "s005",
+    "hv19b-i07": "s225",
+    "hv19b-i08": "s095",
+    "hv19b-i09": "s047",
+    "hv19b-i10": "s008",
+    "hv19b-i11": "s238",
+    "hv19b-i12": "s071",
+    "hv19b-i13": "s024",
+    "hv19b-i14": "s006",
+    "hv19b-i15": "s139",
+    "hv19b-i16": "s158",
+    "hv19b-i17": "s111",
+    "hv19b-i18": "s059",
+    "hv19b-i19": "s232",
+    "hv19b-i20": "s109",
+    "hv20a-i01": "s115",
+    "hv20a-i02": "s149",
+    "hv20a-i03": "s019",
+    "hv20a-i04": "s011",
+    "hv20a-i05": "s221",
+    "hv20a-i06": "s124",
+    "hv20a-i07": "s163",
+    "hv20a-i08": "s122",
+    "hv20a-i09": "s089",
+    "hv20a-i10": "s234",
+    "hv20a-i11": "s201",
+    "hv20a-i12": "s032",
+    "hv20a-i13": "s116",
+    "hv20a-i14": "s208",
+    "hv20a-i15": "s195",
+    "hv20a-i16": "s214",
+    "hv20a-i17": "s127",
+    "hv20a-i18": "s227",
+    "hv20a-i19": "s118",
+    "hv20a-i20": "s042",
+    "hv20b-i01": "s038",
+    "hv20b-i02": "s209",
+    "hv20b-i03": "s165",
+    "hv20b-i04": "s137",
+    "hv20b-i05": "s053",
+    "hv20b-i06": "s084",
+    "hv20b-i07": "s017",
+    "hv20b-i08": "s039",
+    "hv20b-i09": "s160",
+    "hv20b-i10": "s028",
+    "hv20b-i11": "s157",
+    "hv20b-i12": "s230",
+    "hv20b-i13": "s079",
+    "hv20b-i14": "s044",
+    "hv20b-i15": "s097",
+    "hv20b-i16": "s078",
+    "hv20b-i17": "s178",
+    "hv20b-i18": "s218",
+    "hv20b-i19": "s188",
+    "hv20b-i20": "s054",
+    "hv21a-i01": "s235",
+    "hv21a-i02": "s131",
+    "hv21a-i03": "s107",
+    "hv21a-i04": "s184",
+    "hv21a-i05": "s199",
+    "hv21a-i06": "s172",
+    "hv21a-i07": "s056",
+    "hv21a-i08": "s092",
+    "hv21a-i09": "s110",
+    "hv21a-i10": "s153",
+    "hv21a-i11": "s077",
+    "hv21a-i12": "s181",
+    "hv21a-i13": "s026",
+    "hv21a-i14": "s012",
+    "hv21a-i15": "s022",
+    "hv21a-i16": "s133",
+    "hv21a-i17": "s223",
+    "hv21a-i18": "s045",
+    "hv21a-i19": "s082",
+    "hv21a-i20": "s091",
+    "hv21b-i01": "s009",
+    "hv21b-i02": "s186",
+    "hv21b-i03": "s207",
+    "hv21b-i04": "s233",
+    "hv21b-i05": "s057",
+    "hv21b-i06": "s159",
+    "hv21b-i07": "s144",
+    "hv21b-i08": "s123",
+    "hv21b-i09": "s076",
+    "hv21b-i10": "s090",
+    "hv21b-i11": "s161",
+    "hv21b-i12": "s170",
+    "hv21b-i13": "s185",
+    "hv21b-i14": "s098",
+    "hv21b-i15": "s154",
+    "hv21b-i16": "s018",
+    "hv21b-i17": "s220",
+    "hv21b-i18": "s035",
+    "hv21b-i19": "s086",
+    "hv21b-i20": "s193",
+    "hv22a-i01": "s168",
+    "hv22a-i02": "s224",
+    "hv22a-i03": "s171",
+    "hv22a-i04": "s031",
+    "hv22a-i05": "s043",
+    "hv22a-i06": "s190",
+    "hv22a-i07": "s151",
+    "hv22a-i08": "s121",
+    "hv22a-i09": "s135",
+    "hv22a-i10": "s113",
+    "hv22a-i11": "s094",
+    "hv22a-i12": "s060",
+    "hv22a-i13": "s029",
+    "hv22a-i14": "s074",
+    "hv22a-i15": "s048",
+    "hv22a-i16": "s004",
+    "hv22a-i17": "s085",
+    "hv22a-i18": "s102",
+    "hv22a-i19": "s156",
+    "hv22a-i20": "s226",
+    "hv22b-i01": "s204",
+    "hv22b-i02": "s067",
+    "hv22b-i03": "s177",
+    "hv22b-i04": "s023",
+    "hv22b-i05": "s219",
+    "hv22b-i06": "s126",
+    "hv22b-i07": "s239",
+    "hv22b-i08": "s083",
+    "hv22b-i09": "s072",
+    "hv22b-i10": "s166",
+    "hv22b-i11": "s080",
+    "hv22b-i12": "s128",
+    "hv22b-i13": "s119",
+    "hv22b-i14": "s117",
+    "hv22b-i15": "s025",
+    "hv22b-i16": "s037",
+    "hv22b-i17": "s202",
+    "hv22b-i18": "s213",
+    "hv22b-i19": "s147",
+    "hv22b-i20": "s164",
+    "hv23a-i01": "s200",
+    "hv23a-i02": "s140",
+    "hv23a-i03": "s236",
+    "hv23a-i04": "s099",
+    "hv23a-i05": "s088",
+    "hv23a-i06": "s134",
+    "hv23a-i07": "s125",
+    "hv23a-i08": "s222",
+    "hv23a-i09": "s063",
+    "hv23a-i10": "s050",
+    "hv23a-i11": "s055",
+    "hv23a-i12": "s145",
+    "hv23a-i13": "s129",
+    "hv23a-i14": "s191",
+    "hv23a-i15": "s215",
+    "hv23a-i16": "s180",
+    "hv23a-i17": "s016",
+    "hv23a-i18": "s194",
+    "hv23a-i19": "s211",
+    "hv23a-i20": "s046",
+    "hv23b-i01": "s105",
+    "hv23b-i02": "s021",
+    "hv23b-i03": "s148",
+    "hv23b-i04": "s240",
+    "hv23b-i05": "s087",
+    "hv23b-i06": "s120",
+    "hv23b-i07": "s167",
+    "hv23b-i08": "s093",
+    "hv23b-i09": "s013",
+    "hv23b-i10": "s015",
+    "hv23b-i11": "s141",
+    "hv23b-i12": "s040",
+    "hv23b-i13": "s075",
+    "hv23b-i14": "s198",
+    "hv23b-i15": "s066",
+    "hv23b-i16": "s100",
+    "hv23b-i17": "s112",
+    "hv23b-i18": "s034",
+    "hv23b-i19": "s152",
+    "hv23b-i20": "s073",
+    "hv24a-i01": "s206",
+    "hv24a-i02": "s217",
+    "hv24a-i03": "s030",
+    "hv24a-i04": "s169",
+    "hv24a-i05": "s051",
+    "hv24a-i06": "s175",
+    "hv24a-i07": "s114",
+    "hv24a-i08": "s068",
+    "hv24a-i09": "s036",
+    "hv24a-i10": "s130",
+    "hv24a-i11": "s192",
+    "hv24a-i12": "s106",
+    "hv24a-i13": "s176",
+    "hv24a-i14": "s210",
+    "hv24a-i15": "s231",
+    "hv24a-i16": "s136",
+    "hv24a-i17": "s052",
+    "hv24a-i18": "s216",
+    "hv24a-i19": "s155",
+    "hv24a-i20": "s064",
+    "hv24b-i01": "s007",
+    "hv24b-i02": "s229",
+    "hv24b-i03": "s096",
+    "hv24b-i04": "s002",
+    "hv24b-i05": "s183",
+    "hv24b-i06": "s228",
+    "hv24b-i07": "s069",
+    "hv24b-i08": "s003",
+    "hv24b-i09": "s179",
+    "hv24b-i10": "s108",
+    "hv24b-i11": "s203",
+    "hv24b-i12": "s132",
+    "hv24b-i13": "s142",
+    "hv24b-i14": "s101",
+    "hv24b-i15": "s058",
+    "hv24b-i16": "s212",
+    "hv24b-i17": "s196",
+    "hv24b-i18": "s033",
+    "hv24b-i19": "s173",
+    "hv24b-i20": "s010"
+  },
+  "sources": {
+    "Evaluation/MatcherValidation/releases/v1/inputs-evaluation.json": "f801c5778c3d515c917a4788b4960ec55538e1f0c89f867e82bf3a17094aa358",
+    "Evaluation/MatcherValidation/runs/validation-02/complete.json": "1fc484bd5f2c6f787713ffa010a874aecf9eec1bed4640cae3951119edf2b830",
+    "Evaluation/MatcherValidation/runs/validation-02/evaluation/seed-17.json": "4e41f49ecd4b97add059e32d7f909760e2696b3f9b136e71247343ae693591a7",
+    "Evaluation/MatcherValidation/runs/validation-02/evaluation/seed-29.json": "03edb75770648373436fc18607f4416371e59ab2acf261fbb52a684c1c59d4fe",
+    "Evaluation/MatcherValidation/runs/validation-02/evaluation/seed-41.json": "74c84b055ab18c54d1cabfd2e2c809c833fcae74ec935851287f910a08345e27",
+    "Evaluation/MatcherValidation/runs/validation-02/manifest.json": "0ca79ad477e4a3dae1e114a969f6fb5ad86aa326292139c59c6955a82fba75a6",
+    "Evaluation/OrganizationDiagnostics/CONTRACT.md": "10af8989e00b95ad63898b0caae8069872135cc5b00f18f45ab8c007d9c2b300",
+    "scripts/organization-diagnostics/checkpoint.py": "ee374516b2f70be9867ecbfa8d5336093f6db526973151bed85d40f4bac66a22"
+  }
+}

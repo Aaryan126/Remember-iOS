@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "story-08",
+  "title": "Oral-history exhibition and language corpus",
+  "threads": [
+    {"id":"p1","title":"Harbor Voices listening exhibition","scope":"Curate, license, install and assess a listening exhibition using the fictional Harbor Voices oral-history collection."},
+    {"id":"p2","title":"Harbor Voices vowel corpus","scope":"Create an independently commissioned annotated vowel corpus from selected Harbor Voices recordings for a language research group."},
+    {"id":"p3","title":"Camping stove repair","scope":"Repair and test a camping stove with a loose pot support."}
+  ],
+  "captures": [
+    {"id":"c01","modality":"file","text":"Harbor Voices exhibition brief: choose six oral-history clips, obtain listening-room permissions, and install headphones with captions for the winter opening.","memberships":["p1"],"rationale":"Selection, permissions and installation share one exhibition deliverable."},
+    {"id":"c02","modality":"note","text":"The language group separately commissioned a vowel-annotation corpus from Harbor Voices. Its research files and permissions are independent of the listening exhibition.","memberships":["p2"],"rationale":"The same source collection supports a distinct research deliverable."},
+    {"id":"c03","modality":"image","text":"Scanned permission form HV-4: exhibit clip at the Harbor Voices listening room; an additional permitted-use field is hidden by a folded page corner.","memberships":["p1"],"rationale":"The visible text establishes exhibition membership but cannot identify the hidden additional use."},
+    {"id":"c04","modality":"voice","text":"Exhibition edit: trim the long pause before the ferry story, but preserve the speaker's final sentence in the listening-room version.","memberships":["p1"],"rationale":"Clip editing implements the listening exhibition."},
+    {"id":"c05","modality":"note","text":"Camping stove pot support is loose at the hinge. Replace the retaining pin and test stability with an empty pan outdoors.","memberships":["p3"],"rationale":"A camping-equipment repair is unrelated to the archive deliverables."},
+    {"id":"c06","modality":"file","text":"Unfolded HV-4 permission form: in addition to the listening exhibition, it authorizes this recording's inclusion in the separately commissioned Harbor Voices vowel corpus.","memberships":["p1","p2"],"rationale":"The complete form explicitly covers both independently scoped uses."},
+    {"id":"c07","modality":"file","text":"Vowel corpus annotation guide: retain untrimmed pause boundaries and mark vowel intervals on the original Harbor Voices audio. Do not annotate the exhibition edit.","memberships":["p2"],"rationale":"A research-specific method belongs to the independent corpus project."},
+    {"id":"c08","modality":"image","text":"Exhibition caption proof: ferry-story clip, large text, transcript aligned to the final listening-room edit; the opening date remains on the back panel.","memberships":["p1"],"rationale":"Accessible caption production continues the exhibition."},
+    {"id":"c09","modality":"video","text":"Listening-room installation walkthrough: six headphones play the edited Harbor Voices clips, and the ferry-story caption can be read from the seated position.","memberships":["p1"],"rationale":"Checks exhibition installation and accessibility."},
+    {"id":"c10","modality":"note","text":"Vowel corpus quality check found two interval labels reversed. Correct them in the research annotation file before delivering the corpus to the language group.","memberships":["p2"],"rationale":"Quality control and delivery preparation are corpus phases."},
+    {"id":"c11","modality":"voice","text":"Listening exhibition visitor review: the ferry clip is clear, but the caption's last line catches glare. Tilt that panel and record the adjustment in the exhibition report.","memberships":["p1"],"rationale":"Visitor findings and installation revision stay in the exhibition project."},
+    {"id":"c12","modality":"file","text":"Vowel corpus delivery manifest: original-audio references, corrected interval labels and permission HV-4 included. The language group accepted the research package.","memberships":["p2"],"rationale":"Concludes delivery of the independently commissioned corpus."}
+  ],
+  "events": [
+    {"id":"e01","kind":"capture","capture":"c01","dependsOn":[]},
+    {"id":"e02","kind":"capture","capture":"c02","dependsOn":[]},
+    {"id":"e03","kind":"capture","capture":"c03","dependsOn":["e01"]},
+    {"id":"e04","kind":"capture","capture":"c04","dependsOn":["e01"]},
+    {"id":"e05","kind":"capture","capture":"c05","dependsOn":[]},
+    {"id":"e06","kind":"capture","capture":"c06","dependsOn":["e03","e02"]},
+    {"id":"e07","kind":"correct","target":"c03","memberships":["p1","p2"],"reason":"The unfolded form in c06 shows that HV-4 also authorizes the vowel corpus. Keep the exhibition link and explicitly add the corpus link to the folded scan.","dependsOn":["e03","e06"]},
+    {"id":"e08","kind":"capture","capture":"c07","dependsOn":["e02","e04"]},
+    {"id":"e09","kind":"revise","target":"c04","text":"Exhibition edit revised: shorten, rather than remove, the long pause before the ferry story; preserve the speaker's final sentence in the listening-room version.","dependsOn":["e04"]},
+    {"id":"e10","kind":"capture","capture":"c08","dependsOn":["e09"]},
+    {"id":"e11","kind":"archive","target":"c03","dependsOn":["e07"]},
+    {"id":"e12","kind":"capture","capture":"c09","dependsOn":["e10","e06"]},
+    {"id":"e13","kind":"capture","capture":"c10","dependsOn":["e08"]},
+    {"id":"e14","kind":"capture","capture":"c11","dependsOn":["e12"]},
+    {"id":"e15","kind":"restore","target":"c03","dependsOn":["e11"]},
+    {"id":"e16","kind":"capture","capture":"c12","dependsOn":["e13","e06"]}
+  ],
+  "challenges": ["A shared recording collection does not establish one undertaking.","A partially legible source can have one supported membership while another remains unknown.","An explicit correction can add a second supported membership without removing the first.","Licensing, accessible captions and visitor review belong with their exhibition."],
+  "authorNotes":"The oral histories are fictional descriptions without real speakers or personal data. No wholly unresolved capture is required here: the initial folded scan has a positively supported exhibition membership, and only its additional use is unknown."
+}

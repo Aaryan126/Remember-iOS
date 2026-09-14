@@ -1,0 +1,270 @@
+{
+  "authorNotes": "All organizations and events are fictional. OCR and video are authored text descriptions. The archived sketch retains its corrected dimensions and loan membership. No expected-prefix outputs are authored.",
+  "captures": [
+    {
+      "id": "c01",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Names the object, destination and undertaking.",
+      "text": "North Gallery accepted our brass astrolabe for its winter exhibition. Start the loan paperwork and a fitted transport cradle."
+    },
+    {
+      "id": "c02",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "A separately requested object and exhibition establish a distinct loan.",
+      "text": "Loan request: Hill Textile Centre wants the woven screen for a separate spring display. Harbour Museum will commission its own crate."
+    },
+    {
+      "id": "c03",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "image",
+      "rationale": "The cradle is execution work for the identified astrolabe loan.",
+      "text": "OCR from astrolabe cradle sketch: outer width 480 mm; North Gallery winter loan; leave finger clearance beside brass ring."
+    },
+    {
+      "id": "c04",
+      "memberships": [],
+      "modality": "voice",
+      "rationale": "Neither the object nor destination identifies which loan is meant.",
+      "text": "Ask the courier about the wider one. The label fell off my sketch."
+    },
+    {
+      "id": "c05",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "note",
+      "rationale": "A separate household repair has no supported connection to the loans.",
+      "text": "The kitchen tap drips even with the cartridge tightened. Measure the sink hole before ordering the replacement."
+    },
+    {
+      "id": "c06",
+      "memberships": [
+        "p1",
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "The itinerary explicitly serves both loans without combining their scopes.",
+      "text": "Courier itinerary covers two jobs: collect the astrolabe for North Gallery and the woven screen for Hill Textile Centre. Keep separate loan references and receipts."
+    },
+    {
+      "id": "c07",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "Explicitly identifies the previously ambiguous memo's project.",
+      "text": "I found the missing label from my 'wider one' voice memo: it belongs to the woven-screen crate for Hill Textile Centre."
+    },
+    {
+      "id": "c08",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "image",
+      "rationale": "Permission and packing concern the same specified loan.",
+      "text": "Scanned signed permission: brass astrolabe, North Gallery winter exhibition, courier collection approved subject to the cradle check."
+    },
+    {
+      "id": "c09",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "video",
+      "rationale": "Tests the revised packing for the ongoing astrolabe loan.",
+      "text": "Packing-room clip: the brass astrolabe sits securely in the revised cradle; staff rotate the closed crate before the North Gallery collection."
+    },
+    {
+      "id": "c10",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "voice",
+      "rationale": "Arrival review continues the screen loan.",
+      "text": "Hill Textile Centre confirmed the woven screen arrived with no tears. Save their unpacking photos with that loan."
+    },
+    {
+      "id": "c11",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Display and planned return remain within the astrolabe loan.",
+      "text": "North Gallery's astrolabe display opened today. Their conservator asks us to retain the cradle dimensions for the return journey."
+    },
+    {
+      "id": "c12",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "A result and retrospective for the same completed loan.",
+      "text": "Astrolabe loan closeout: returned to Harbour Museum; the cradle prevented movement, but next time photograph the ring before sealing."
+    }
+  ],
+  "challenges": [
+    "Shared courier is not project identity.",
+    "Packing, permission and exhibition review stay together.",
+    "A bridge is not transitive evidence between its two loans.",
+    "Later label recovery cannot justify an earlier confident attachment."
+  ],
+  "events": [
+    {
+      "capture": "c01",
+      "dependsOn": [],
+      "id": "e01",
+      "kind": "capture"
+    },
+    {
+      "capture": "c02",
+      "dependsOn": [],
+      "id": "e02",
+      "kind": "capture"
+    },
+    {
+      "capture": "c03",
+      "dependsOn": [
+        "e01"
+      ],
+      "id": "e03",
+      "kind": "capture"
+    },
+    {
+      "capture": "c04",
+      "dependsOn": [],
+      "id": "e04",
+      "kind": "capture"
+    },
+    {
+      "capture": "c05",
+      "dependsOn": [],
+      "id": "e05",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e03"
+      ],
+      "id": "e06",
+      "kind": "revise",
+      "target": "c03",
+      "text": "OCR corrected from astrolabe cradle sketch: outer width 480 mm, inner width 430 mm; North Gallery winter loan; leave finger clearance beside brass ring."
+    },
+    {
+      "capture": "c06",
+      "dependsOn": [
+        "e01",
+        "e02"
+      ],
+      "id": "e07",
+      "kind": "capture"
+    },
+    {
+      "capture": "c07",
+      "dependsOn": [
+        "e04",
+        "e02"
+      ],
+      "id": "e08",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e04",
+        "e08"
+      ],
+      "id": "e09",
+      "kind": "correct",
+      "memberships": [
+        "p2"
+      ],
+      "reason": "The recovered label in c07 identifies the wider crate as the woven-screen loan. Assign my voice memo to that project.",
+      "target": "c04"
+    },
+    {
+      "capture": "c08",
+      "dependsOn": [
+        "e01",
+        "e06"
+      ],
+      "id": "e10",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e06"
+      ],
+      "id": "e11",
+      "kind": "archive",
+      "target": "c03"
+    },
+    {
+      "capture": "c09",
+      "dependsOn": [
+        "e06",
+        "e10"
+      ],
+      "id": "e12",
+      "kind": "capture"
+    },
+    {
+      "capture": "c10",
+      "dependsOn": [
+        "e07"
+      ],
+      "id": "e13",
+      "kind": "capture"
+    },
+    {
+      "capture": "c11",
+      "dependsOn": [
+        "e12"
+      ],
+      "id": "e14",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e11"
+      ],
+      "id": "e15",
+      "kind": "restore",
+      "target": "c03"
+    },
+    {
+      "capture": "c12",
+      "dependsOn": [
+        "e14"
+      ],
+      "id": "e16",
+      "kind": "capture"
+    }
+  ],
+  "id": "story-01",
+  "schemaVersion": 1,
+  "threads": [
+    {
+      "id": "p1",
+      "scope": "Prepare, transport and review the Harbour Museum's loan of its brass astrolabe to the North Gallery winter exhibition.",
+      "title": "Brass astrolabe loan"
+    },
+    {
+      "id": "p2",
+      "scope": "Arrange the Harbour Museum's separate loan of a woven screen to the Hill Textile Centre.",
+      "title": "Woven screen loan"
+    },
+    {
+      "id": "p3",
+      "scope": "Replace the leaking tap in a fictional household kitchen.",
+      "title": "Kitchen tap replacement"
+    }
+  ],
+  "title": "Two museum loans on one courier route"
+}

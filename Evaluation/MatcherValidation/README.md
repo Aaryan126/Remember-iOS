@@ -16,7 +16,35 @@ P1 contains 48 fictional libraries, 960 sources and 9,120 within-library pairs, 
 "/Users/aaryan/Library/Application Support/RememberMatcherFeasibility/v1/venv/bin/python" scripts/matcher-validation/p1_release.py verify
 ```
 
-P2 compared the refitted simple control against all three D3 seeds using separate calibration and evaluation data. Full-state pause/resume was exercised before the long fits. Those fits and evaluation are finished; do not restart them. The next work is a separately gated diagnostic, not another qualification run. The preparation checkpoint stops for the user's manual Git checkpoint and confirmation.
+P2 compared the refitted simple control against all three D3 seeds using separate calibration and evaluation data. Full-state pause/resume was exercised before the long fits. Those fits and evaluation are finished; do not restart them. The user confirmed the preparation commit, and both [diagnostic checkpoint 1](../OrganizationDiagnostics/REPORT.md) and [checkpoint 2](../OrganizationDiagnostics/c2/REPORT.md) are complete. Stop for review before another experiment; neither diagnostic changes P2 qualification.
+
+The subsequent [C3 matched corroboration/fixed-state audit](../OrganizationDiagnostics/c3/REPORT.md) is also complete. It finds a hybrid benefit under matched policy/state conditions, but remains exposed diagnostic evidence, not a replacement for P2 qualification. All workers stopped; another experiment needs user approval.
+
+[C4 repair-proposal diagnostics](../OrganizationDiagnostics/c4/REPORT.md) are now complete
+too: 9,264 fixed scorer-contexts, 120 passing tests and full deterministic replay. Useful
+fragment reconnection does not solve mixed threads. Gold-assisted simulated acceptance
+is reported separately from proposal correctness; nothing was integrated into the app.
+Stop for review before the proposed conflict-review/fresh diagnostic preparation step.
+
+That preparation is now completed as [C5](../OrganizationDiagnostics/c5/REPORT.md): eight
+fictional families, 160 pair/context input packets, strict source/gold separation and
+139 passing tests. No model evaluation or training ran. Independent semantic review is
+still required at that historical checkpoint before scoring.
+
+That review and scoring are now complete as [C6](../OrganizationDiagnostics/c6/REPORT.md):
+two independent reviewers, one separately preserved label amendment, 1,440 predictions,
+172 passing tests and exact reference/replay checks. On the pair-only stress tests the
+legacy scorers wrongly assert same-project on 21–22 of 24 separate-project packets.
+The narrow rule verifier abstains on every packet; its gates offer no improvement.
+No production winner, training or app change follows. Stop for user review before any
+new context-aware semantic-verifier experiment; see current diagnostic resume instructions.
+
+That isolated experiment is now completed as [C7](../OrganizationDiagnostics/c7/REPORT.md),
+with a [runtime median correction](../OrganizationDiagnostics/c7/ERRATA.md). The fixed-prompt
+local verifier failed four of five exploratory gates. All 193 tests and replay/recovery
+checks passed; the observed quality failure is not a hidden runtime failure. Some
+combined policies reduce false attachments, but unresolved-reference and bridge errors
+remain severe. No app change, training or subsequent experiment followed. Stop for review.
 
 ## Commands
 

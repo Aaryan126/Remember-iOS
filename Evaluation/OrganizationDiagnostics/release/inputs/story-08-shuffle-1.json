@@ -1,0 +1,141 @@
+{
+  "events": [
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "note",
+        "text": "Camping stove pot support is loose at the hinge. Replace the retaining pin and test stability with an empty pan outdoors."
+      }
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "note",
+        "text": "The language group separately commissioned a vowel-annotation corpus from Harbor Voices. Its research files and permissions are independent of the listening exhibition."
+      }
+    },
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "file",
+        "text": "Harbor Voices exhibition brief: choose six oral-history clips, obtain listening-room permissions, and install headphones with captions for the winter opening."
+      }
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "voice",
+        "text": "Exhibition edit: trim the long pause before the ferry story, but preserve the speaker's final sentence in the listening-room version."
+      }
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "file",
+        "text": "Vowel corpus annotation guide: retain untrimmed pause boundaries and mark vowel intervals on the original Harbor Voices audio. Do not annotate the exhibition edit."
+      }
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "image",
+        "text": "Scanned permission form HV-4: exhibit clip at the Harbor Voices listening room; an additional permitted-use field is hidden by a folded page corner."
+      }
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "file",
+        "text": "Unfolded HV-4 permission form: in addition to the listening exhibition, it authorizes this recording's inclusion in the separately commissioned Harbor Voices vowel corpus."
+      }
+    },
+    {
+      "id": "e13",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "note",
+        "text": "Vowel corpus quality check found two interval labels reversed. Correct them in the research annotation file before delivering the corpus to the language group."
+      }
+    },
+    {
+      "id": "e16",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "file",
+        "text": "Vowel corpus delivery manifest: original-audio references, corrected interval labels and permission HV-4 included. The language group accepted the research package."
+      }
+    },
+    {
+      "id": "e09",
+      "kind": "revise",
+      "target": "c04",
+      "text": "Exhibition edit revised: shorten, rather than remove, the long pause before the ferry story; preserve the speaker's final sentence in the listening-room version."
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "image",
+        "text": "Exhibition caption proof: ferry-story clip, large text, transcript aligned to the final listening-room edit; the opening date remains on the back panel."
+      }
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "video",
+        "text": "Listening-room installation walkthrough: six headphones play the edited Harbor Voices clips, and the ferry-story caption can be read from the seated position."
+      }
+    },
+    {
+      "id": "e14",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "voice",
+        "text": "Listening exhibition visitor review: the ferry clip is clear, but the caption's last line catches glare. Tilt that panel and record the adjustment in the exhibition report."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e07",
+      "kind": "correct",
+      "reason": "The unfolded form in c06 shows that HV-4 also authorizes the vowel corpus. Keep the exhibition link and explicitly add the corpus link to the folded scan.",
+      "target": "c03",
+      "userRequestedProjects": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "id": "e11",
+      "kind": "archive",
+      "target": "c03"
+    },
+    {
+      "id": "e15",
+      "kind": "restore",
+      "target": "c03"
+    }
+  ],
+  "order": "shuffle-1",
+  "story": "story-08"
+}

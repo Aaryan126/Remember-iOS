@@ -56,7 +56,7 @@ struct SettingsView: View {
                 } header: {
                     Text("Privacy")
                 } footer: {
-                    Text("Automatic capture and topic organization use Apple’s on-device tools by default. Cloud assistance sends source excerpts (and images during enrichment) to the configured OpenAI service. Ask and AI search send relevant content when you explicitly use them, independently of this setting.")
+                    Text("Thread matching uses the bundled D3 model and Apple embeddings on-device, with no cloud fallback. Capture enrichment is local by default; Cloud assistance sends source excerpts and images to the configured OpenAI service for enrichment. Ask and AI search send relevant content when you explicitly use them, independently of this setting.")
                 }
             }
             .rememberGroupedList()

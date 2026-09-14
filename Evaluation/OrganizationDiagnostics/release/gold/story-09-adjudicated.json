@@ -1,0 +1,267 @@
+{
+  "authorNotes": "All organizations, equipment records and events are fictional. The missing list for c04 is never supplied; it intentionally remains without automatic membership even after restoration.",
+  "captures": [
+    {
+      "id": "c01",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "Repairs and water-testing form one boat refit.",
+      "text": "Kestrel refit work order: replace worn seat wheels, seal the bow seam and water-test the training scull for everyday club use. This maintenance job has its own budget."
+    },
+    {
+      "id": "c02",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "A distinct event undertaking is explicitly separate from equipment maintenance.",
+      "text": "September inlet regatta planning: arrange registration desks and safety launches. The event budget is separate from the club's Kestrel refit."
+    },
+    {
+      "id": "c03",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "image",
+      "rationale": "Documents inspection for the named boat refit.",
+      "text": "Kestrel bow-seam photo: old sealant has lifted near the stem. Mark the affected length before stripping and resealing this refit section."
+    },
+    {
+      "id": "c04",
+      "memberships": [],
+      "modality": "voice",
+      "rationale": "Missing list and unnamed objects provide no reliable project identity.",
+      "text": "Order the red ones before Friday. I left the list in the other bag."
+    },
+    {
+      "id": "c05",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "note",
+      "rationale": "Exam study is a separate undertaking without a supported rowing connection.",
+      "text": "Beginner language exam revision: practice listening on alternate evenings and review the transport vocabulary before the mock paper."
+    },
+    {
+      "id": "c06",
+      "memberships": [
+        "p1",
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "A reservation links a refit and event while explicitly preserving their budgets and purposes.",
+      "text": "Club coordination: Kestrel's regular-use refit may finish before the September regatta demonstration. Reserve the boat provisionally for the event, but do not charge refit costs to registration income."
+    },
+    {
+      "id": "c07",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "video",
+      "rationale": "Tests the repairs specified in the refit order.",
+      "text": "Kestrel refit water-test clip: new seat wheels run smoothly and the resealed bow stays dry after twenty minutes of rowing."
+    },
+    {
+      "id": "c08",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "An event staffing and equipment plan contributes to the regatta, even though it mentions a refitted boat.",
+      "text": "September inlet regatta volunteer sheet: assign registration desk cover and a launch marshal; Kestrel is now confirmed for the demonstration row."
+    },
+    {
+      "id": "c09",
+      "memberships": [],
+      "modality": "note",
+      "rationale": "The note does not identify the check, event or boat.",
+      "text": "Move the second check to 08:15."
+    },
+    {
+      "id": "c10",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "Handover concludes the regular-use refit.",
+      "text": "Kestrel refit handover: bow seal passed, seat wheels accepted, boat returned to the regular club booking pool. Save the water-test recording with this maintenance job."
+    },
+    {
+      "id": "c11",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "voice",
+      "rationale": "Explicitly identifies the ambiguous check as an event task.",
+      "text": "The 'second check' note means the second safety-launch radio check on the September regatta run sheet. Set that event check to 08:15."
+    },
+    {
+      "id": "c12",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "Event results belong to the regatta; the boat mention does not reopen the completed refit.",
+      "text": "September regatta closeout: the 08:15 radio check caught one flat launch battery before racing. Registration and the Kestrel demonstration both ran to schedule."
+    }
+  ],
+  "challenges": [
+    "Equipment maintenance and an event using that equipment are distinct undertakings.",
+    "A mention of another project's deliverable need not be a multi-project source.",
+    "One fragment is clarified while another remains uncertain throughout.",
+    "Archive and restore cannot manufacture missing identity evidence."
+  ],
+  "events": [
+    {
+      "capture": "c01",
+      "dependsOn": [],
+      "id": "e01",
+      "kind": "capture"
+    },
+    {
+      "capture": "c02",
+      "dependsOn": [],
+      "id": "e02",
+      "kind": "capture"
+    },
+    {
+      "capture": "c03",
+      "dependsOn": [
+        "e01"
+      ],
+      "id": "e03",
+      "kind": "capture"
+    },
+    {
+      "capture": "c04",
+      "dependsOn": [],
+      "id": "e04",
+      "kind": "capture"
+    },
+    {
+      "capture": "c05",
+      "dependsOn": [],
+      "id": "e05",
+      "kind": "capture"
+    },
+    {
+      "capture": "c06",
+      "dependsOn": [
+        "e01",
+        "e02"
+      ],
+      "id": "e06",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e01",
+        "e03"
+      ],
+      "id": "e07",
+      "kind": "revise",
+      "target": "c01",
+      "text": "Kestrel refit work order revised: replace all four worn seat wheels, seal the bow seam and water-test the training scull for everyday club use. This maintenance job has its own budget."
+    },
+    {
+      "capture": "c07",
+      "dependsOn": [
+        "e07"
+      ],
+      "id": "e08",
+      "kind": "capture"
+    },
+    {
+      "capture": "c08",
+      "dependsOn": [
+        "e06",
+        "e08"
+      ],
+      "id": "e09",
+      "kind": "capture"
+    },
+    {
+      "capture": "c09",
+      "dependsOn": [],
+      "id": "e10",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e04"
+      ],
+      "id": "e11",
+      "kind": "archive",
+      "target": "c04"
+    },
+    {
+      "capture": "c10",
+      "dependsOn": [
+        "e08"
+      ],
+      "id": "e12",
+      "kind": "capture"
+    },
+    {
+      "capture": "c11",
+      "dependsOn": [
+        "e10",
+        "e09"
+      ],
+      "id": "e13",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e10",
+        "e13"
+      ],
+      "id": "e14",
+      "kind": "correct",
+      "memberships": [
+        "p2"
+      ],
+      "reason": "c11 identifies the check as the regatta safety-launch radio check. Assign the timing note to the event.",
+      "target": "c09"
+    },
+    {
+      "dependsOn": [
+        "e11"
+      ],
+      "id": "e15",
+      "kind": "restore",
+      "target": "c04"
+    },
+    {
+      "capture": "c12",
+      "dependsOn": [
+        "e13",
+        "e09"
+      ],
+      "id": "e16",
+      "kind": "capture"
+    }
+  ],
+  "id": "story-09",
+  "schemaVersion": 1,
+  "threads": [
+    {
+      "id": "p1",
+      "scope": "Refit and water-test the rowing club's Kestrel training scull for regular club use.",
+      "title": "Kestrel scull refit"
+    },
+    {
+      "id": "p2",
+      "scope": "Organize the fictional September inlet regatta, including launches, registration and event closeout.",
+      "title": "September inlet regatta"
+    },
+    {
+      "id": "p3",
+      "scope": "Prepare a personal revision plan for an upcoming beginner language exam.",
+      "title": "Language exam preparation"
+    }
+  ],
+  "title": "Club boat refit beside a regatta"
+}

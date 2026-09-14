@@ -1,0 +1,270 @@
+{
+  "authorNotes": "All observations and equipment labels are fictional. Between the text revision and explicit correction, c03 deliberately retains empty membership even though its replacement text is clearer. No bridge is needed merely because the studies share equipment.",
+  "captures": [
+    {
+      "id": "c01",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "The declared deliverable explicitly combines the two measurement phases.",
+      "text": "Cedar telescope focus-map plan: fit focus position against tube temperature. Daytime calibration and nighttime star checks are jointly required for this one map."
+    },
+    {
+      "id": "c02",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "Separate research goal and outcome distinguish the survey despite shared equipment.",
+      "text": "Independent Cedar site study: compare sky brightness toward four horizons to choose an observing area. Borrow the same camera, but do not use focus-map results as this survey's outcome."
+    },
+    {
+      "id": "c03",
+      "memberships": [],
+      "modality": "image",
+      "rationale": "Conflicting project labels and hidden columns make identity unreliable.",
+      "text": "OCR from a sleeved printout: filename focus-fit.csv; sleeve heading SKY BRIGHTNESS SURVEY. The table's column names are hidden by the sleeve edge."
+    },
+    {
+      "id": "c04",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "voice",
+      "rationale": "A clothing repair is unrelated to the observatory studies.",
+      "text": "Coat alteration: shorten the hem by three centimeters, then replace the torn lining panel so it does not pull at the vent."
+    },
+    {
+      "id": "c05",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "Provides calibration observations for the declared focus map.",
+      "text": "Focus-map daytime calibration log: record tube temperature and motor position after each settling interval. Repeat one warm point to check hysteresis."
+    },
+    {
+      "id": "c06",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "video",
+      "rationale": "Executes the independent site survey.",
+      "text": "Cedar sky-brightness survey clip: the camera points toward four marked horizons. A shielding board blocks light from the observatory doorway during each directional exposure."
+    },
+    {
+      "id": "c07",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Examining the actual columns resolves the conflicting-label source.",
+      "text": "I removed the printout from the wrong sleeve. focus-fit.csv contains tube temperature and focus motor position for the Cedar focus map; the sky-brightness heading belonged to the reused sleeve."
+    },
+    {
+      "id": "c08",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "Results and planned replication continue the survey.",
+      "text": "Sky-brightness survey result: the eastern horizon was darkest in this session. Repeat on a comparable clear night before selecting the site area."
+    },
+    {
+      "id": "c09",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "image",
+      "rationale": "Night validation is an explicitly included phase of the focus-map project.",
+      "text": "Night star-check screenshot for Cedar focus map: predicted motor position yields round stars after a small constant offset. Compare against the daytime fit."
+    },
+    {
+      "id": "c10",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Combines results within the originally stated study scope.",
+      "text": "Focus-map analysis: keep the temperature slope from daytime calibration and add the constant offset seen in the star check. Update the single map deliverable."
+    },
+    {
+      "id": "c11",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "voice",
+      "rationale": "Replication and report delivery continue the independent survey.",
+      "text": "Cedar sky-brightness repeat again favors the east. Deliver the directional survey and its doorway-light caveat to the site-planning group."
+    },
+    {
+      "id": "c12",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "Final acceptance unites the project's phases and corrected source.",
+      "text": "Cedar focus map accepted after the offset adjustment. Save the daytime log, night check and corrected focus-fit printout as the map's supporting record."
+    }
+  ],
+  "challenges": [
+    "Conflicting filename and sleeve labels require abstention.",
+    "An edit can clarify text without implicitly changing ledger membership.",
+    "Daytime and nighttime measurements can be one explicitly combined undertaking.",
+    "Shared camera and site do not make an independent survey part of a focus-map project."
+  ],
+  "events": [
+    {
+      "capture": "c01",
+      "dependsOn": [],
+      "id": "e01",
+      "kind": "capture"
+    },
+    {
+      "capture": "c02",
+      "dependsOn": [],
+      "id": "e02",
+      "kind": "capture"
+    },
+    {
+      "capture": "c03",
+      "dependsOn": [],
+      "id": "e03",
+      "kind": "capture"
+    },
+    {
+      "capture": "c04",
+      "dependsOn": [],
+      "id": "e04",
+      "kind": "capture"
+    },
+    {
+      "capture": "c05",
+      "dependsOn": [
+        "e01"
+      ],
+      "id": "e05",
+      "kind": "capture"
+    },
+    {
+      "capture": "c06",
+      "dependsOn": [
+        "e02"
+      ],
+      "id": "e06",
+      "kind": "capture"
+    },
+    {
+      "capture": "c07",
+      "dependsOn": [
+        "e03",
+        "e01"
+      ],
+      "id": "e07",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e03",
+        "e07"
+      ],
+      "id": "e08",
+      "kind": "revise",
+      "target": "c03",
+      "text": "OCR corrected after removing the reused sleeve: focus-fit.csv contains tube temperature and focus motor position for the Cedar telescope focus map. The sleeve's SKY BRIGHTNESS SURVEY heading was not part of this printout."
+    },
+    {
+      "capture": "c08",
+      "dependsOn": [
+        "e06"
+      ],
+      "id": "e09",
+      "kind": "capture"
+    },
+    {
+      "capture": "c09",
+      "dependsOn": [
+        "e05"
+      ],
+      "id": "e10",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e08",
+        "e07"
+      ],
+      "id": "e11",
+      "kind": "correct",
+      "memberships": [
+        "p1"
+      ],
+      "reason": "c07 and the corrected transcription identify the printout as focus-map data. Explicitly assign the previously unresolved scan to the focus-map project.",
+      "target": "c03"
+    },
+    {
+      "dependsOn": [
+        "e11"
+      ],
+      "id": "e12",
+      "kind": "archive",
+      "target": "c03"
+    },
+    {
+      "capture": "c10",
+      "dependsOn": [
+        "e05",
+        "e10"
+      ],
+      "id": "e13",
+      "kind": "capture"
+    },
+    {
+      "capture": "c11",
+      "dependsOn": [
+        "e09"
+      ],
+      "id": "e14",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e12"
+      ],
+      "id": "e15",
+      "kind": "restore",
+      "target": "c03"
+    },
+    {
+      "capture": "c12",
+      "dependsOn": [
+        "e13",
+        "e11",
+        "e08"
+      ],
+      "id": "e16",
+      "kind": "capture"
+    }
+  ],
+  "id": "story-11",
+  "schemaVersion": 1,
+  "threads": [
+    {
+      "id": "p1",
+      "scope": "Build and validate a temperature-to-focus map for the Cedar telescope, combining daytime calibration and nighttime star checks.",
+      "title": "Cedar telescope focus map"
+    },
+    {
+      "id": "p2",
+      "scope": "Independently measure directional sky brightness at the Cedar observatory site to select a future observing area.",
+      "title": "Cedar site sky-brightness survey"
+    },
+    {
+      "id": "p3",
+      "scope": "Shorten and reline a winter coat for a personal wardrobe repair.",
+      "title": "Winter coat alteration"
+    }
+  ],
+  "title": "Conflicting labels in an observatory notebook"
+}

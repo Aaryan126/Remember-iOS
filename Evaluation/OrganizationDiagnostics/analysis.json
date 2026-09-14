@@ -1,0 +1,1415 @@
+{
+  "pairs": [
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r001",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "FN",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r002",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r003",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "unrelated",
+      "id": "r004",
+      "oldRelation": "unrelated",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "unrelated"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r005",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "related"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r006",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r007",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r008",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r009",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "FP",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r010",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r011",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "uncertain",
+        "beta": "uncertain"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "unrelated",
+      "id": "r012",
+      "oldRelation": "unrelated",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "unrelated"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r013",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r014",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r015",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "unrelated",
+      "id": "r016",
+      "oldRelation": "unrelated",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "unrelated"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "root-adjudication",
+      "finalRelation": "uncertain",
+      "id": "r017",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "uncertain",
+        "beta": "uncertain"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r018",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r019",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "root-adjudication",
+      "finalRelation": "same",
+      "id": "r020",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r021",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "uncertain"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r022",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r023",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r024",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r025",
+      "oldRelation": "unrelated",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "related"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r026",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r027",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "FN",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "unrelated",
+      "id": "r028",
+      "oldRelation": "unrelated",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "unrelated"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r029",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r030",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r031",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "unrelated",
+      "id": "r032",
+      "oldRelation": "unrelated",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "unrelated"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "root-adjudication",
+      "finalRelation": "uncertain",
+      "id": "r033",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "uncertain",
+        "beta": "same"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r034",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "uncertain",
+        "beta": "uncertain"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r035",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r036",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "uncertain"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r037",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r038",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r039",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "root-adjudication",
+      "finalRelation": "same",
+      "id": "r040",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r041",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "uncertain",
+        "beta": "uncertain"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r042",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r043",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "uncertain",
+        "beta": "uncertain"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r044",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r045",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "unrelated",
+      "id": "r046",
+      "oldRelation": "unrelated",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "unrelated"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "unrelated",
+      "id": "r047",
+      "oldRelation": "unrelated",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "unrelated"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r048",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "uncertain",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r049",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r050",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r051",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r052",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r053",
+      "oldRelation": "unrelated",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r054",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r055",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "FP",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r056",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r057",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r058",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r059",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "uncertain",
+        "beta": "uncertain"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r060",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r061",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r062",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r063",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r064",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r065",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "root-adjudication",
+      "finalRelation": "related",
+      "id": "r066",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "uncertain"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r067",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r068",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r069",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "related"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r070",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "related"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r071",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "unrelated",
+      "id": "r072",
+      "oldRelation": "unrelated",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "unrelated"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r073",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "uncertain"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r074",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "FP",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "unrelated",
+      "id": "r075",
+      "oldRelation": "unrelated",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "unrelated",
+        "beta": "unrelated"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r076",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "FN",
+        "29": "FN",
+        "41": "FN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r077",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "TN",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "related",
+        "beta": "related"
+      },
+      "stratum": "TN"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r078",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "TN"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": true,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "related",
+      "id": "r079",
+      "oldRelation": "related",
+      "oldSeedOutcomes": {
+        "17": "FP",
+        "29": "TN",
+        "41": "FP"
+      },
+      "pairLabels": {
+        "alpha": "uncertain",
+        "beta": "uncertain"
+      },
+      "stratum": "FP"
+    },
+    {
+      "contextRequiredByEitherReviewer": false,
+      "decisionBy": "independent-agreement",
+      "finalRelation": "same",
+      "id": "r080",
+      "oldRelation": "same",
+      "oldSeedOutcomes": {
+        "17": "TP",
+        "29": "TP",
+        "41": "TP"
+      },
+      "pairLabels": {
+        "alpha": "same",
+        "beta": "same"
+      },
+      "stratum": "TP"
+    }
+  ],
+  "schemaVersion": 1,
+  "storyRelease": {
+    "captures": 144,
+    "orders": 36,
+    "productionReplayRun": false,
+    "stories": 12
+  },
+  "storyReview": {
+    "capturesReviewed": 144,
+    "dependencyAmendments": 3,
+    "membershipAmendments": 0,
+    "membershipDisagreements": 0,
+    "reviewFindings": 23
+  },
+  "summary": {
+    "accuracyEstimate": null,
+    "contextAdjudications": 5,
+    "contextAgreement": 75,
+    "contextChangesByReviewer": {
+      "alpha": 14,
+      "beta": 11
+    },
+    "contextRequiredByEitherReviewer": 20,
+    "diagnosticOnly": true,
+    "finalRelationsByHistoricalStratum": {
+      "FN": {
+        "same": 20
+      },
+      "FP": {
+        "related": 10,
+        "same": 7,
+        "uncertain": 2,
+        "unrelated": 1
+      },
+      "TN": {
+        "related": 10,
+        "same": 2,
+        "unrelated": 8
+      },
+      "TP": {
+        "same": 20
+      }
+    },
+    "finalUncertain": 2,
+    "oldQualificationChanged": false,
+    "pairOnlyAgreement": 70,
+    "pairs": 80,
+    "productionReplayRun": false,
+    "retrievalEvaluated": false,
+    "selectionIsErrorEnriched": true
+  }
+}

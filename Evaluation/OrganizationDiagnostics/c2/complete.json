@@ -1,0 +1,38 @@
+{
+  "checkpoint": 2,
+  "checkpoint1SHA256": "3f240b7cb18dad455674b3d68abd3e68a508eb4c2ace5c1f3313b9080a48e359",
+  "complete": true,
+  "historicalPrefixes": 4632,
+  "manifestSHA256": "40cd63bebaeeb0ee33677b62dde38a08ac41ebe4491c8208e55277b8303b50ef",
+  "nextExperimentStarted": false,
+  "prefixes": 4632,
+  "productionQualified": false,
+  "resourceAtFinalization": {
+    "allocatedBytes": 755687424,
+    "freeBytes": 21000634368,
+    "plannedBytes": 0,
+    "simulatorReservedBytes": 1073741824
+  },
+  "restartChecks": 288,
+  "runs": 288,
+  "sources": {
+    "Evaluation/OrganizationDiagnostics/c2/ERROR_REVIEW.md": "d9d3fefc95c46fb8a7ee8ca11fe0ff5432b42fbb2b5dbbb8bf653412ac1745ff",
+    "Evaluation/OrganizationDiagnostics/c2/REPORT.md": "aaffa651b049de7c026081621c56abf9140a7e36eac98331b903daa09a8db037",
+    "Evaluation/OrganizationDiagnostics/c2/ledger-summary.json": "bea8799def7ddadfce62623f614004ad68d0eb56ff8dfe2b0092868b3ee0ff4a",
+    "Evaluation/OrganizationDiagnostics/c2/model-parity.json": "3e416b4769bc75fec8b70bb3726c5dd45b079ee07f85970596b96953216006d4",
+    "Evaluation/OrganizationDiagnostics/c2/summary.json": "bcf66327db07e2378670305cece6ffd95051b56438700e3f2c442728ba244efa",
+    "Evaluation/OrganizationDiagnostics/c2/tests.json": "232700855802bb4752351ea2c999e168499d9292c072fe6c560ef5426de515be",
+    "Evaluation/OrganizationDiagnostics/runs/c2-01/ledger-input.json": "6f73beb07b7d96d4ed4ab1fbb0ba6424f582c1d1c541febace07d5a1113b93b5",
+    "Evaluation/OrganizationDiagnostics/runs/c2-01/ledger/first-run-checkpoint.json": "e39104bee3dc65dd94dd07bbdfce6697b70c4dc33853bff097fc1f6cf3934193",
+    "Evaluation/OrganizationDiagnostics/runs/c2-01/ledger/input-transfer.json": "9e46b54b1d652944f4168d03f498c69fd15be67c14f4297dde667cf30e91125a",
+    "Evaluation/OrganizationDiagnostics/runs/c2-01/ledger/replay-commands.json": "d3fbdc35ed1d4c1d9e838e84edde86712767dcd632369223c15afd3ac4384755",
+    "Evaluation/OrganizationDiagnostics/runs/c2-01/ledger/replay-summary.json": "99a51ebe93c345f4ed9fd2a978a7bbd4fcef71037a96d8b674189f4a3630b137",
+    "Evaluation/OrganizationDiagnostics/runs/c2-01/manifest.json": "40cd63bebaeeb0ee33677b62dde38a08ac41ebe4491c8208e55277b8303b50ef",
+    "Evaluation/OrganizationDiagnostics/runs/c2-01/metrics-complete.json": "897d0bca4f2beebfe0d87a5de94782a484dcaeed2b8f564795fc12fbd06e47bc",
+    "Evaluation/OrganizationDiagnostics/runs/c2-01/metrics-summary.json": "a3823441ad8d0a182db6b30526c5f83d54f2a3a933248c9c82f2b36191adf303",
+    "Evaluation/OrganizationDiagnostics/runs/c2-01/predictions-complete.json": "4bb5fc6ff825be05c0e0c4997840ff0fac5555df87347d15b86d8b93497664c0",
+    "Evaluation/OrganizationDiagnostics/runs/c2-01/validation/tests.json": "232700855802bb4752351ea2c999e168499d9292c072fe6c560ef5426de515be",
+    "scripts/organization-diagnostics/c2_finalize.py": "49ac3bbcdc1e97dd36fb70286965218edef11aa5f109df334bb9b4b331499cc5"
+  },
+  "stopForUserReview": true
+}

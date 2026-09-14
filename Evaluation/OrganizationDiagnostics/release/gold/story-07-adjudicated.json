@@ -1,0 +1,275 @@
+{
+  "authorNotes": "All productions, venues and events are fictional. The transport comparison and material donation deliberately create different overlapping bridge pairs.",
+  "captures": [
+    {
+      "id": "c01",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "file",
+      "rationale": "An explicit single touring undertaking spans two venues.",
+      "text": "Paper Birds autumn tour: one production visits Moss Hall and Reed Theatre with the same cast and folding set. Venue adjustments stay within this tour."
+    },
+    {
+      "id": "c02",
+      "memberships": [
+        "p2"
+      ],
+      "modality": "note",
+      "rationale": "A distinct production remains separate despite sharing the play title.",
+      "text": "Next spring's Paper Birds studio revival is separately commissioned. New director, new fixed set, its own rehearsal budget; it is not another autumn tour stop."
+    },
+    {
+      "id": "c03",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "voice",
+      "rationale": "The workshop has its own client, participants and deliverable.",
+      "text": "Youth centre booked a standalone shadow-theatre workshop. Build small practice screens and finish with each group presenting a scene."
+    },
+    {
+      "id": "c04",
+      "memberships": [
+        "p4"
+      ],
+      "modality": "image",
+      "rationale": "A bicycle repair has no supported theatrical connection.",
+      "text": "Bicycle repair photo: rear rim is buckled beside two broken spokes. Record spoke length before rebuilding and tensioning the wheel."
+    },
+    {
+      "id": "c05",
+      "memberships": [
+        "p1",
+        "p2"
+      ],
+      "modality": "file",
+      "rationale": "One estimate compares two productions without making them one project.",
+      "text": "Transport estimate compares the Paper Birds autumn folding set with next spring's studio-revival set. Same haulier, separate collection dates and job numbers."
+    },
+    {
+      "id": "c06",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Venue-specific adaptation remains within the defined tour.",
+      "text": "Reed Theatre stop of the autumn tour: fold the left panel inward for the narrow wing. Keep the Moss Hall arrangement in the same touring cue book."
+    },
+    {
+      "id": "c07",
+      "memberships": [],
+      "modality": "voice",
+      "rationale": "Several theatre projects use screens, and neither audience nor production is named.",
+      "text": "Make the screen taller; they cannot see the bird."
+    },
+    {
+      "id": "c08",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "video",
+      "rationale": "Checks the tour's venue adjustment.",
+      "text": "Reed Theatre autumn-tour rehearsal clip: the revised left-panel fold clears the wing, and the touring bird silhouette remains visible from the back row."
+    },
+    {
+      "id": "c09",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "note",
+      "rationale": "Resolves the ambiguous screen instruction to the workshop.",
+      "text": "The taller-screen memo is for the youth shadow workshop's practice screens. The children need to see the bird over the table edge."
+    },
+    {
+      "id": "c10",
+      "memberships": [
+        "p2",
+        "p3"
+      ],
+      "modality": "file",
+      "rationale": "A material-transfer source spans revival and workshop, not the autumn tour.",
+      "text": "Material handover: offcuts from the separately built Paper Birds studio-revival set will make the youth workshop's practice screens. Record the donation against both projects."
+    },
+    {
+      "id": "c11",
+      "memberships": [
+        "p1"
+      ],
+      "modality": "note",
+      "rationale": "Review of both stops closes the one touring production.",
+      "text": "Autumn tour closed after Reed Theatre. The inward panel fold worked; preserve both venue configurations in the Paper Birds touring report."
+    },
+    {
+      "id": "c12",
+      "memberships": [
+        "p3"
+      ],
+      "modality": "video",
+      "rationale": "Records the workshop result; mentioning donated materials does not itself make this a revival progress report.",
+      "text": "Youth shadow workshop recording: the taller practice screens made from revival offcuts let each group perform its bird scene without lifting the tables."
+    }
+  ],
+  "challenges": [
+    "One tour spans venues, but a separately commissioned revival stays separate.",
+    "Two overlapping bridges form a chain without authorizing a three-project merge.",
+    "A workshop can reuse production material while remaining its own undertaking.",
+    "Generic screen language leaves three plausible project referents."
+  ],
+  "events": [
+    {
+      "capture": "c01",
+      "dependsOn": [],
+      "id": "e01",
+      "kind": "capture"
+    },
+    {
+      "capture": "c02",
+      "dependsOn": [],
+      "id": "e02",
+      "kind": "capture"
+    },
+    {
+      "capture": "c03",
+      "dependsOn": [],
+      "id": "e03",
+      "kind": "capture"
+    },
+    {
+      "capture": "c04",
+      "dependsOn": [],
+      "id": "e04",
+      "kind": "capture"
+    },
+    {
+      "capture": "c05",
+      "dependsOn": [
+        "e01",
+        "e02"
+      ],
+      "id": "e05",
+      "kind": "capture"
+    },
+    {
+      "capture": "c06",
+      "dependsOn": [
+        "e01"
+      ],
+      "id": "e06",
+      "kind": "capture"
+    },
+    {
+      "capture": "c07",
+      "dependsOn": [],
+      "id": "e07",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e06"
+      ],
+      "id": "e08",
+      "kind": "revise",
+      "target": "c06",
+      "text": "Reed Theatre stop of the autumn tour: fold the left panel inward by 30 degrees for the narrow wing. Keep the Moss Hall arrangement in the same touring cue book."
+    },
+    {
+      "capture": "c08",
+      "dependsOn": [
+        "e08"
+      ],
+      "id": "e09",
+      "kind": "capture"
+    },
+    {
+      "capture": "c09",
+      "dependsOn": [
+        "e07",
+        "e03"
+      ],
+      "id": "e10",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e07",
+        "e10"
+      ],
+      "id": "e11",
+      "kind": "correct",
+      "memberships": [
+        "p3"
+      ],
+      "reason": "c09 identifies the screen-height memo as a youth workshop instruction. Assign it to that standalone workshop.",
+      "target": "c07"
+    },
+    {
+      "capture": "c10",
+      "dependsOn": [
+        "e02",
+        "e03"
+      ],
+      "id": "e12",
+      "kind": "capture"
+    },
+    {
+      "capture": "c11",
+      "dependsOn": [
+        "e09"
+      ],
+      "id": "e13",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e08",
+        "e13"
+      ],
+      "id": "e14",
+      "kind": "archive",
+      "target": "c06"
+    },
+    {
+      "capture": "c12",
+      "dependsOn": [
+        "e10",
+        "e12"
+      ],
+      "id": "e15",
+      "kind": "capture"
+    },
+    {
+      "dependsOn": [
+        "e14"
+      ],
+      "id": "e16",
+      "kind": "restore",
+      "target": "c06"
+    }
+  ],
+  "id": "story-07",
+  "schemaVersion": 1,
+  "threads": [
+    {
+      "id": "p1",
+      "scope": "Mount one production of Paper Birds and tour the same production through Moss Hall and Reed Theatre in autumn.",
+      "title": "Paper Birds autumn tour"
+    },
+    {
+      "id": "p2",
+      "scope": "Create a separately commissioned studio revival of Paper Birds next spring with a new set.",
+      "title": "Paper Birds studio revival"
+    },
+    {
+      "id": "p3",
+      "scope": "Prepare and deliver a standalone youth workshop on shadow-theatre scenery.",
+      "title": "Youth shadow workshop"
+    },
+    {
+      "id": "p4",
+      "scope": "Rebuild a buckled rear bicycle wheel with replacement spokes.",
+      "title": "Bicycle wheel rebuild"
+    }
+  ],
+  "title": "A touring play, revival and workshop"
+}

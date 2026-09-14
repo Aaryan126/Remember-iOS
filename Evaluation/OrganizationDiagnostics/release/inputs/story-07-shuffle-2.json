@@ -1,0 +1,140 @@
+{
+  "events": [
+    {
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "image",
+        "text": "Bicycle repair photo: rear rim is buckled beside two broken spokes. Record spoke length before rebuilding and tensioning the wheel."
+      }
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "note",
+        "text": "Next spring's Paper Birds studio revival is separately commissioned. New director, new fixed set, its own rehearsal budget; it is not another autumn tour stop."
+      }
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "voice",
+        "text": "Make the screen taller; they cannot see the bird."
+      }
+    },
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "file",
+        "text": "Paper Birds autumn tour: one production visits Moss Hall and Reed Theatre with the same cast and folding set. Venue adjustments stay within this tour."
+      }
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "note",
+        "text": "Reed Theatre stop of the autumn tour: fold the left panel inward for the narrow wing. Keep the Moss Hall arrangement in the same touring cue book."
+      }
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "file",
+        "text": "Transport estimate compares the Paper Birds autumn folding set with next spring's studio-revival set. Same haulier, separate collection dates and job numbers."
+      }
+    },
+    {
+      "id": "e08",
+      "kind": "revise",
+      "target": "c06",
+      "text": "Reed Theatre stop of the autumn tour: fold the left panel inward by 30 degrees for the narrow wing. Keep the Moss Hall arrangement in the same touring cue book."
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "video",
+        "text": "Reed Theatre autumn-tour rehearsal clip: the revised left-panel fold clears the wing, and the touring bird silhouette remains visible from the back row."
+      }
+    },
+    {
+      "id": "e13",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "note",
+        "text": "Autumn tour closed after Reed Theatre. The inward panel fold worked; preserve both venue configurations in the Paper Birds touring report."
+      }
+    },
+    {
+      "id": "e14",
+      "kind": "archive",
+      "target": "c06"
+    },
+    {
+      "id": "e16",
+      "kind": "restore",
+      "target": "c06"
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "voice",
+        "text": "Youth centre booked a standalone shadow-theatre workshop. Build small practice screens and finish with each group presenting a scene."
+      }
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "file",
+        "text": "Material handover: offcuts from the separately built Paper Birds studio-revival set will make the youth workshop's practice screens. Record the donation against both projects."
+      }
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "note",
+        "text": "The taller-screen memo is for the youth shadow workshop's practice screens. The children need to see the bird over the table edge."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e11",
+      "kind": "correct",
+      "reason": "c09 identifies the screen-height memo as a youth workshop instruction. Assign it to that standalone workshop.",
+      "target": "c07",
+      "userRequestedProjects": [
+        "p3"
+      ]
+    },
+    {
+      "id": "e15",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "video",
+        "text": "Youth shadow workshop recording: the taller practice screens made from revival offcuts let each group perform its bird scene without lifting the tables."
+      }
+    }
+  ],
+  "order": "shuffle-2",
+  "story": "story-07"
+}

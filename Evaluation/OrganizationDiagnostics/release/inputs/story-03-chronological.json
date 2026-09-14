@@ -1,0 +1,140 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "c01",
+        "modality": "note",
+        "text": "The 2026 canal lantern walk is booked for November 14. Need stewards, a route permit and a rain plan for this edition."
+      }
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "c02",
+        "modality": "image",
+        "text": "OCR: Canal Lantern Walk 2026 route draft. Begin at East Lock, finish at the boat shed; steward point beside the footbridge."
+      }
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "c03",
+        "modality": "voice",
+        "text": "Feed the neglected starter twice today and mark its starting level. The jar smells fruity, without visible mold."
+      }
+    },
+    {
+      "id": "e04",
+      "kind": "revise",
+      "target": "c02",
+      "text": "OCR corrected: Canal Lantern Walk 2026 route draft. Begin at East Lock, finish at the boat shed; steward point before the footbridge, not beside its centre."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "c04",
+        "modality": "file",
+        "text": "2026 lantern walk permit granted for East Lock to boat shed. Rain plan switches to the covered towpath without changing the event date."
+      }
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "c05",
+        "modality": "video",
+        "text": "2026 canal lantern walk recording: stewards redirect walkers to the covered towpath; the boat-shed welcome table stays dry."
+      }
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "c06",
+        "modality": "note",
+        "text": "2026 closeout: the covered section worked, but the finish table was too narrow. Leave this observation in this year's review."
+      }
+    },
+    {
+      "id": "e08",
+      "kind": "archive",
+      "target": "c02"
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "c07",
+        "modality": "file",
+        "text": "Fresh commission: 2027 canal lantern walk, November 13, separate budget and volunteer roster. We may reuse the 2026 route template."
+      }
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "c08",
+        "modality": "note",
+        "text": "Move the welcome table to the wider bay."
+      }
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "c09",
+        "modality": "file",
+        "text": "Handover between editions: 2026's narrow finish-table lesson becomes a proposed wider bay for the 2027 lantern walk. Keep each edition's budget separate."
+      }
+    },
+    {
+      "id": "e12",
+      "kind": "restore",
+      "target": "c02"
+    },
+    {
+      "id": "e13",
+      "kind": "capture",
+      "source": {
+        "id": "c10",
+        "modality": "voice",
+        "text": "My welcome-table fragment was a decision for the 2027 walk, not an edit to the 2026 closeout. Put it with the new edition's setup plan."
+      }
+    },
+    {
+      "explicitUserAction": true,
+      "id": "e14",
+      "kind": "correct",
+      "reason": "c10 explicitly identifies the table move as a 2027 setup decision. Assign the fragment to that edition.",
+      "target": "c08",
+      "userRequestedProjects": [
+        "p2"
+      ]
+    },
+    {
+      "id": "e15",
+      "kind": "capture",
+      "source": {
+        "id": "c11",
+        "modality": "image",
+        "text": "2027 setup sketch: welcome table in the wider boat-shed bay, two volunteer chairs, queue kept away from the exit."
+      }
+    },
+    {
+      "id": "e16",
+      "kind": "capture",
+      "source": {
+        "id": "c12",
+        "modality": "note",
+        "text": "2027 walk supplier quote accepted for reusable lantern sleeves. This purchase is charged only to the 2027 event budget."
+      }
+    }
+  ],
+  "order": "chronological",
+  "story": "story-03"
+}
