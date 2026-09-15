@@ -2,14 +2,14 @@ import SwiftUI
 
 struct ProjectGraphView: View {
     let model: ProjectViewModel
+    let topicTransition: Namespace.ID
+    let onOpenThread: (UUID) -> Void
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.accessibilityReduceTransparency) private var reduceTransparency
     @Environment(\.colorSchemeContrast) private var contrast
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.scenePhase) private var scenePhase
-    @Namespace private var topicTransition
     @State private var focusedID: UUID?
-    @State private var selectedThreadID: UUID?
     @State private var previewID: UUID?
     @State private var motion = ProjectGraphMotion()
     @GestureState private var dragIsActive = false
@@ -41,14 +41,6 @@ struct ProjectGraphView: View {
             resetViewport()
         }
         .sensoryFeedback(.selection, trigger: focusedID) { _, next in next != nil }
-        .navigationDestination(item: $selectedThreadID) { id in
-            if reduceMotion {
-                ClusterRiverView(clusterID: id, model: model)
-            } else {
-                ClusterRiverView(clusterID: id, model: model)
-                    .navigationTransition(.zoom(sourceID: id, in: topicTransition))
-            }
-        }
     }
 
     private func graph(_ map: ProjectGraphMap) -> some View {
@@ -270,7 +262,7 @@ struct ProjectGraphView: View {
     private func openRiver(_ id: UUID) {
         focus(id)
         previewID = nil
-        selectedThreadID = id
+        onOpenThread(id)
     }
 
     private func mapControl(_ title: String, symbol: String, action: @escaping () -> Void) -> some View {

@@ -1,8 +1,54 @@
-# Premium cloud organization: assessment, not enabled
+# Remember Pro cloud organization: measured pilot, not enabled
 
-14 September 2026. Recommendation: keep local D3 as the offline default and evaluate
+Updated 15 September 2026. Product direction: richer, explicitly opted-in cloud
+thread review is intended for **Remember Pro / paying users**. This is Remember's
+own product tier, not an OpenAI subscription or a model named GPT-5.4 Pro. The pilot
+used ordinary GPT-5.4. No paid-user organization experience is enabled yet.
+
+Recommendation: keep local D3 as the offline default and evaluate
 an opt-in cloud **project-context reviewer**, initially in suggestion-only mode.
 Do not replace embeddings with an LLM or assume a larger model solves grouping.
+
+## Completed Pro feasibility test — 14 September 2026
+
+The [GPT-5.4 pilot report](../Evaluation/CloudMatcher/pilot-01/REPORT.md) records
+112 actual API requests using `gpt-5.4-2026-03-05`, low reasoning effort, structured
+decisions and validated source quotations. The eight agent-reviewed fictional
+families yield 160 diagnostic packets: 80 pair-only and 80 with context. Identical
+visible inputs were deduplicated. No personal memories were sent.
+
+Primary context-view results (32 same, 32 separate, 16 insufficient-evidence cases):
+
+| Measurement | Simple baseline | Current D3 pair scorer | GPT-5.4 context reviewer |
+|---|---:|---:|---:|
+| Same-project precision | 47.1% | 48.1% | **93.5%** |
+| Same-project recall | 75.0% | 78.1% | **90.6%** |
+| Wrong connections on 32 separate-project cases | 22 | 22 | **2** |
+| Unsupported decisions on 16 uncertain cases | 5 | 5 | **0** |
+| Invalid outputs / 80 packets | 0 | 0 | 1 |
+
+GPT corrected 40 D3 decisions but damaged three correct decisions. It still made
+shared-source/identifier-collision mistakes. Requiring D3 and GPT to agree raised
+precision to 95.7%, but reduced recall to 68.8%; independent context review is the
+more promising balanced candidate, with local retrieval retained.
+
+Measured token-derived cost was **US$0.4842725 before tax**, below the approved $5
+cap; median request latency was **2.49 s**, p95 **4.37 s**. These tiny requests do
+not establish production per-user costs, capacity or response-time guarantees.
+The runner passed 14 safety tests and 193 existing diagnostic tests; completed
+replay made no further API calls. All five frozen exploration checks passed.
+
+**This is not a 93.5% accuracy promise for Pro users.** It is an exposed synthetic
+pair/context diagnostic, not fresh validation of retrieval, full River grouping,
+real media or user preferences. The app's corroboration policy was not executed
+in that comparison. The historical P2 qualification remains unchanged. See the
+[frozen protocol](../Evaluation/CloudMatcher/pilot-01/PROTOCOL.md) and
+[verification receipt](../Evaluation/CloudMatcher/pilot-01/verification.json).
+
+Before launch: test fresh families and chronological grouping; implement consent,
+authenticated subscription enforcement, quotas and suggestion acceptance. Intended
+Pro UX is a reviewable explanation grounded in relevant captures, with local
+organization working offline and no silent merging or history rewriting.
 
 ## What already exists
 
@@ -22,8 +68,9 @@ Our observed problem is often **project identity**, not vocabulary similarity: t
 memories can discuss the same subject but belong to different clients, assignments
 or events. D3 scores text pairs; a cloud reviewer could inspect the incoming capture,
 several sources from each candidate thread, explicit identifiers, revisions and user
-corrections together. It could distinguish “same continuing project”, “related but
-separate” and “insufficient evidence”. This is a testable hypothesis, not a measured gain.
+corrections together. The pilot supports its ability to distinguish “same continuing
+project”, “related but separate” and “insufficient evidence” on the diagnostic.
+Whether that becomes a reliable end-to-end product improvement remains unmeasured.
 
 Embeddings should still retrieve a small candidate set locally. Initially ask for
 review only when the user requests it or the local result is ambiguous. Record the
@@ -88,5 +135,19 @@ plus retries and backend operation. A paid subscription is not an unlimited API 
   before offering privacy promises.
   [Official data controls](https://developers.openai.com/api/docs/guides/your-data).
 
-No cloud organization route, new billing code, API key, paid call or transmission of
-personal memories was added or performed in this implementation.
+The app integration added no cloud organization route or billing code. A separate,
+approved fictional-data API pilot subsequently ran as documented above. No personal
+memories were transmitted, and no additional API calls were made for this doc update.
+
+## iOS 27: keep provider cost separate from product tier
+
+Apple now documents conditional no-API-cost access to Private Cloud Compute for
+eligible Small Business Program developers with the managed entitlement and download
+limits. It is still cloud processing with daily user quotas, not the offline free
+tier. Our account eligibility and entitlement have not been verified. This may be
+worth a separate comparison before fixing Pro provider economics; it does not imply
+quality parity with GPT or change the current tier implementation.
+[Apple eligibility](https://developer.apple.com/private-cloud-compute/).
+
+See the [iOS 27 free-tier assessment](ios27-free-tier-assessment.md) for the strictly
+on-device opportunities and the toolchain prerequisites.

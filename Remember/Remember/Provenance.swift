@@ -291,6 +291,7 @@ extension MemoryStore {
                   memory.originalFilename == filename, memory.state == .processing else { throw ProvenanceError.staleDecision }
             memory.extractedText = extracted.text
             memory.analysisIsPartial = extracted.isPartial
+            memory.analysisNote = extracted.analysisNote
             memory.modelVersion = "apple-extraction-v1"
             try memory.update(db)
             try Self.recordMemory(memory, kind: .enrichment, in: db)

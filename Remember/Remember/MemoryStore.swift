@@ -270,6 +270,11 @@ actor MemoryStore {
             }
         }
         Self.registerProvenanceMigration(&migrator)
+        migrator.registerMigration("addVideoAnalysisCoverage") { database in
+            try database.alter(table: MemoryItem.databaseTableName) { table in
+                table.add(column: "analysisNote", .text)
+            }
+        }
         try migrator.migrate(databasePool)
         try fileManager.setAttributes(Self.protectedAttributes, ofItemAtPath: databaseURL.path)
     }
@@ -590,6 +595,7 @@ actor MemoryStore {
             item.processingError = nil
             item.modelVersion = analysis.modelVersion
             item.analysisIsPartial = analysis.isPartial
+            item.analysisNote = analysis.analysisNote
             item.updatedAt = Date()
             try item.update(database)
 
@@ -620,6 +626,24 @@ actor MemoryStore {
         try await update(id: id, eventKind: .processing, expectedFilename: expectedFilename) { item in
             item.state = .captured
             item.processingError = nil
+        }
+    }
+
+    /// Upgrade caption-only videos once; a partial result is retried only at the user's request.
+    func requeueLegacyVideoAnalysis() async throws {
+        try await databasePool.write { database in
+            let videos = try MemoryItem.filter(Column("kind") == MemoryKind.video.rawValue)
+                .filter(Column("state") == MemoryProcessingState.indexed.rawValue)
+                .filter(Column("isArchived") == false)
+                .filter(Column("modelVersion") == nil || Column("modelVersion") != VideoContentExtractor.modelVersion)
+                .fetchAll(database)
+            for var video in videos {
+                video.state = .captured
+                video.processingError = nil
+                video.updatedAt = Date()
+                try video.update(database)
+                try Self.recordMemory(video, kind: .processing, in: database)
+            }
         }
     }
 

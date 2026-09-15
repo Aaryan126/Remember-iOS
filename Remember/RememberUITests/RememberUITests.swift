@@ -47,6 +47,25 @@ final class RememberUITests: XCTestCase {
         app.buttons["Save"].tap()
         XCTAssertTrue(app.navigationBars["Add Video"].waitForNonExistence(timeout: 15), "Saving the selected video must complete.")
         XCTAssertTrue(app.tabBars.buttons["Threads"].waitForExistence(timeout: 10))
+        let savedVideo = app.buttons.matching(NSPredicate(format: "label CONTAINS %@", title)).firstMatch
+        XCTAssertTrue(savedVideo.waitForExistence(timeout: 10))
+        savedVideo.tap()
+        XCTAssertTrue(app.navigationBars["Video"].waitForExistence(timeout: 5))
+        app.buttons["Memory details"].tap()
+        XCTAssertTrue(app.navigationBars["Memory Details"].waitForExistence(timeout: 5))
+        let reindex = app.buttons["Reindex video"]
+        for _ in 0..<3 where !reindex.exists { app.swipeUp() }
+        XCTAssertTrue(reindex.exists, "Video details must explain coverage and allow another indexing attempt.")
+        app.buttons["Done"].tap()
+        XCTAssertTrue(app.buttons["Play video"].firstMatch.waitForExistence(timeout: 5))
+        app.buttons["Play video"].firstMatch.tap()
+        let libraryPlayer = app.otherElements.matching(NSPredicate(format: "label == %@", "Saved video player")).firstMatch
+        XCTAssertTrue(libraryPlayer.waitForExistence(timeout: 5), "Videos must also play from Memories.")
+        let libraryPlayback = XCTAttachment(screenshot: app.screenshot())
+        libraryPlayback.name = "Video playback in Memories"
+        libraryPlayback.lifetime = .keepAlways
+        add(libraryPlayback)
+        tapUncoveredBack(in: app, title: "Video")
         app.tabBars.buttons["Threads"].tap()
         let mapFinder = app.searchFields["Find a thread"]
         XCTAssertTrue(mapFinder.waitForExistence(timeout: 5))
@@ -353,6 +372,63 @@ final class RememberUITests: XCTestCase {
 
     /// Safe for a connected phone: does not seed, edit, archive, or restore memories.
     @MainActor
+    func testRepeatedMapOpenAfterMemoryReadOnly() throws {
+        let app = XCUIApplication()
+        app.launch()
+        app.tabBars.buttons["Threads"].tap()
+        XCTAssertTrue(app.searchFields["Find a thread"].waitForExistence(timeout: 10))
+        let node = try visibleMapNode(in: app)
+        let threadTitle = node.label.replacingOccurrences(of: #", \d+ memor(?:y|ies)$"#, with: "", options: .regularExpression)
+        for iteration in 0..<4 {
+            if iteration == 3 {
+                let search = app.searchFields["Find a thread"]
+                search.tap(); search.typeText(threadTitle + "\n")
+                let row = app.buttons[node.identifier.replacingOccurrences(of: "graph-node-", with: "project-topic-")]
+                XCTAssertTrue(row.waitForExistence(timeout: 5))
+                row.tap()
+                XCTAssertTrue(threadHistory(in: app).waitForExistence(timeout: 5))
+                let source = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "project-source-")).firstMatch
+                XCTAssertTrue(source.waitForExistence(timeout: 5))
+                source.tap()
+                XCTAssertTrue(app.navigationBars["Memory"].waitForExistence(timeout: 5))
+                tapUncoveredBack(in: app, title: "Memory")
+                tapUncoveredBack(in: app, title: "Thread history")
+                XCTAssertTrue(search.waitForExistence(timeout: 5))
+                app.navigationBars.firstMatch.buttons["Close"].tap()
+                XCTAssertTrue(node.waitForExistence(timeout: 5))
+            }
+            if iteration == 2 { node.doubleTap() } else { node.tap() }
+            XCTAssertTrue(threadHistory(in: app).waitForExistence(timeout: 5))
+            XCTAssertTrue(app.navigationBars[threadTitle].exists, "The selected thread owns the navigation heading.")
+            XCTAssertFalse(app.navigationBars["Memory"].exists,
+                           "A map tap must open thread history, never retain a nested memory screen.")
+            XCTAssertTrue(app.buttons["Thread options"].exists)
+            if iteration == 3 {
+                let screenshot = XCTAttachment(screenshot: app.screenshot())
+                screenshot.name = "Map reopens fresh thread history after search and memory detail"
+                screenshot.lifetime = .keepAlways
+                add(screenshot)
+            }
+            let source = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "project-source-")).firstMatch
+            XCTAssertTrue(source.waitForExistence(timeout: 5))
+            for _ in 0..<4 where !source.isHittable { app.swipeUp() }
+            source.tap()
+            XCTAssertTrue(app.navigationBars["Memory"].waitForExistence(timeout: 5))
+            if iteration == 1 {
+                let edge = app.coordinate(withNormalizedOffset: CGVector(dx: 0.01, dy: 0.5))
+                edge.press(forDuration: 0.05, thenDragTo: app.coordinate(withNormalizedOffset: CGVector(dx: 0.9, dy: 0.5)))
+            } else {
+                tapUncoveredBack(in: app, title: "Memory")
+            }
+            XCTAssertTrue(threadHistory(in: app).waitForExistence(timeout: 5))
+            XCTAssertTrue(app.buttons["Thread options"].exists)
+            tapUncoveredBack(in: app, title: "Thread history")
+            XCTAssertTrue(app.searchFields["Find a thread"].waitForExistence(timeout: 5))
+            XCTAssertTrue(node.waitForExistence(timeout: 5))
+        }
+    }
+
+    @MainActor
     func testExistingLibraryGraphNavigationWithoutCaptures() throws {
         let app = XCUIApplication()
         app.launch()
@@ -577,7 +653,9 @@ final class RememberUITests: XCTestCase {
         app.navigationBars.firstMatch.buttons.element(boundBy: 0).tap()
         let threadID = first.identifier.replacingOccurrences(of: "graph-node-", with: "project-topic-")
         app.searchFields["Find a thread"].tap()
-        XCTAssertTrue(app.staticTexts["All threads"].waitForExistence(timeout: 5))
+        XCTAssertFalse(app.staticTexts["All threads"].exists)
+        let threadTitle = first.label.replacingOccurrences(of: #", \d+ memor(?:y|ies)$"#, with: "", options: .regularExpression)
+        app.searchFields["Find a thread"].typeText(threadTitle + "\n")
         let row = app.buttons[threadID]
         for _ in 0..<20 where !row.isHittable { app.swipeUp() }
         XCTAssertTrue(row.exists, "The same thread history is available from the finder.")
@@ -619,10 +697,8 @@ final class RememberUITests: XCTestCase {
         XCTAssertFalse(app.staticTexts["All threads"].exists)
         XCTAssertFalse(app.buttons["Zoom in"].exists)
         app.searchFields["Find a thread"].tap()
-        for _ in 0..<4 where !app.staticTexts["All threads"].isHittable { app.swipeUp() }
-        XCTAssertTrue(app.staticTexts["All threads"].exists)
-        let threads = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "project-topic-"))
-        XCTAssertGreaterThan(threads.count, 0)
+        XCTAssertFalse(app.staticTexts["All threads"].exists)
+        XCTAssertTrue(app.descendants(matching: .any)["memory-map-canvas"].firstMatch.exists)
         // Use this run's source, not an old thread whose capture can precede the River's history window.
         let firstThread = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@ AND label == %@", "project-topic-", title)).firstMatch
         revealThread(firstThread, title: title, in: app)

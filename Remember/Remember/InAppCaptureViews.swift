@@ -360,7 +360,7 @@ struct ImageCaptureConfirmationView: View {
                         .focused($isCaptionFocused)
                 }
                 if kind == .video {
-                    Text("The original video stays on this device. Only your caption is indexed; video scenes and speech are not analyzed.")
+                    Text("The video stays on this device. Remember searches your caption, available speech and text or scene labels from sampled frames. Speech uses an installed Apple model; up to 30 minutes is transcribed.")
                         .font(.footnote).foregroundStyle(RememberPalette.secondaryText)
                 }
                 if let error = viewModel.errorMessage {

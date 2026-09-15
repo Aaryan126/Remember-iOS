@@ -405,6 +405,11 @@ struct ProjectSourceView: View {
                     catch { model.errorMessage = error.localizedDescription }
                 }
             }
+            if memory.kind == .video, let note = memory.analysisNote {
+                Section("Video search") {
+                    Text(note).font(.footnote).foregroundStyle(RememberPalette.secondaryText)
+                }
+            }
             Section("Activity & decisions") {
                 ForEach(model.snapshot.events.filter { $0.memoryID == memory.id && $0.kind != .processing }.reversed()) { event in
                     NavigationLink { ProvenanceEventView(event: event, model: model, historical: historical) } label: { ProvenanceEventRow(event: event) }

@@ -25,6 +25,7 @@ nonisolated struct ExtractedMemoryContent: Equatable, Sendable {
     let chunks: [MemoryChunkDraft]
     let isPartial: Bool
     let visualLabels: [VisionImageLabel]
+    var analysisNote: String? = nil
 }
 
 nonisolated enum MemoryContentExtractionError: LocalizedError {
@@ -126,13 +127,16 @@ actor MemoryContentExtractor {
 
     private let textRecognizer: VisionTextRecognizer
     private let imageClassifier: VisionImageClassifier
+    private let videoExtractor: any VideoContentExtracting
 
     init(
         textRecognizer: VisionTextRecognizer = VisionTextRecognizer(),
-        imageClassifier: VisionImageClassifier = VisionImageClassifier()
+        imageClassifier: VisionImageClassifier = VisionImageClassifier(),
+        videoExtractor: any VideoContentExtracting = VideoContentExtractor()
     ) {
         self.textRecognizer = textRecognizer
         self.imageClassifier = imageClassifier
+        self.videoExtractor = videoExtractor
     }
 
     func extract(
@@ -142,14 +146,7 @@ actor MemoryContentExtractor {
     ) async throws -> ExtractedMemoryContent {
         switch memory.kind {
         case .video:
-            // Index only what the user supplied, never imply the movie was transcribed or watched.
-            let caption = Self.nonempty(memory.userCaption) ?? ""
-            return ExtractedMemoryContent(
-                text: caption,
-                chunks: MemoryTextChunker.chunks(from: caption, locatorPrefix: "Video caption", extractionMethod: .plainText),
-                isPartial: true,
-                visualLabels: []
-            )
+            return try await videoExtractor.extract(at: originalURL, caption: memory.userCaption)
         case .audio:
             guard let transcript = Self.nonempty(supportingText) else {
                 throw MemoryContentExtractionError.missingTranscript

@@ -3,12 +3,21 @@ import SwiftUI
 struct ProjectView: View {
     let model: ProjectViewModel
     let onAsk: () -> Void
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Namespace private var topicTransition
     @State private var query = ""
     @State private var isSearchPresented = false
-    @State private var selectedThreadID: UUID?
+    @State private var selectedThread: ThreadDestination?
+
+    private struct ThreadDestination: Hashable {
+        // A fresh presentation must not inherit a previously opened thread's detail state.
+        let id = UUID()
+        let threadID: UUID
+        let fromMap: Bool
+    }
 
     private var showsSearchResults: Bool {
-        isSearchPresented || !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
     }
 
     var body: some View {
@@ -21,16 +30,19 @@ struct ProjectView: View {
                         ContentUnavailableView("Every memory starts a thread", systemImage: "point.3.connected.trianglepath.dotted",
                             description: Text("Capture a note, photo, or voice memo in Memories. Its story starts here immediately."))
                     } else {
-                        ProjectGraphView(model: model)
+                        ProjectGraphView(model: model, topicTransition: topicTransition) {
+                            openThread($0, fromMap: true)
+                        }
                     }
                 }
                 // Keep the map mounted while the inline results cover it.
                 .opacity(showsSearchResults ? 0 : 1)
                 .allowsHitTesting(!showsSearchResults)
                 .accessibilityHidden(showsSearchResults)
+                .ignoresSafeArea(.keyboard, edges: .bottom)
 
                 if showsSearchResults {
-                    ThreadSearchResultsView(model: model, query: query) { selectedThreadID = $0 }
+                    ThreadSearchResultsView(model: model, query: query) { openThread($0, fromMap: false) }
                 }
             }
             .rememberCanvas()
@@ -38,8 +50,15 @@ struct ProjectView: View {
             .navigationBarTitleDisplayMode(.inline)
             .searchable(text: $query, isPresented: $isSearchPresented,
                         placement: .navigationBarDrawer(displayMode: .always), prompt: "Find a thread")
-            .navigationDestination(item: $selectedThreadID) { id in
-                ClusterRiverView(clusterID: id, model: model)
+            .navigationDestination(item: $selectedThread) { destination in
+                if destination.fromMap && !reduceMotion {
+                    ClusterRiverView(clusterID: destination.threadID, model: model)
+                        .id(destination.id)
+                        .navigationTransition(.zoom(sourceID: destination.threadID, in: topicTransition))
+                } else {
+                    ClusterRiverView(clusterID: destination.threadID, model: model)
+                        .id(destination.id)
+                }
             }
             .toolbar {
                 TopLevelToolbar(title: "Threads", onAsk: onAsk)
@@ -54,6 +73,11 @@ struct ProjectView: View {
             }
             .safeAreaInset(edge: .bottom) { ProjectStatusView(model: model) }
         }
+    }
+
+    private func openThread(_ id: UUID, fromMap: Bool) {
+        guard selectedThread == nil else { return }
+        selectedThread = ThreadDestination(threadID: id, fromMap: fromMap)
     }
 }
 
@@ -83,7 +107,7 @@ private struct ThreadSearchResultsView: View {
                     .accessibilityIdentifier("project-topic-\(thread.id)")
                 }
             } header: {
-                Text(query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? "All threads" : "Matching threads")
+                Text("Matching threads")
             }
         }
         .overlay {

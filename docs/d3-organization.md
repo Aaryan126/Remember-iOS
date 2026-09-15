@@ -7,7 +7,8 @@ not another training run or a claim that the model passed production qualificati
 ## What runs
 
 1. Capture immediately creates a separate thread. Existing extraction supplies text
-   from notes, documents, OCR or speech; videos still contribute captions only.
+   from notes, documents, OCR or speech; videos now contribute captions, on-device
+   speech and bounded sampled-frame evidence through [video indexing](video-indexing.md).
 2. Apple contextual embeddings and a frozen word/bigram TF-IDF index each retrieve
    five candidate memories. Reciprocal-rank fusion combines them into at most ten.
 3. The trained MiniLM pair matcher scores each retrieved pair in both directions.
@@ -58,7 +59,7 @@ languages requires evaluation, not simply removing this check.
 
 MiniLM's fixed 512-token **pair** limit uses the frozen longest-first truncation.
 Full-text lexical/embedding evidence does not eliminate the neural model's long-text
-blind spots. There is no new vision, scene understanding or video transcription.
+blind spots. D3 itself remains text-only. The separate [video extraction pipeline](video-indexing.md) now supplies speech and sampled-frame text/possible visual labels as source evidence; this does not change the matcher, its 16,000-scalar bound, or existing placement-preservation rules.
 
 Inference starts on Core ML's CPU-only path, which is the conversion-verified path.
 Up to twenty forward passes may be required per capture. Apple embedding extraction
@@ -138,5 +139,12 @@ DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer xcodebuild \
   -parallel-testing-enabled NO -only-testing:RememberTests/D3OrganizationTests test
 ```
 
-No live API evaluation was performed. Premium cloud organization is discussed
-separately in [the API assessment](premium-organization-api.md).
+No live API evaluation was part of this local integration. The subsequent isolated
+GPT-5.4 pilot is recorded in [Remember Pro's API assessment](premium-organization-api.md);
+it does not change this free-tier organizer. Pro cloud organization is not enabled.
+
+The [15 September iOS 27 assessment](ios27-free-tier-assessment.md) records the
+connected phone/toolchain checks, current local quality, and proposed experiments.
+Upgrading the OS does not retrain the bundled MiniLM model or enable the rejected
+local generative verifier. Check Apple embedding-space compatibility before assuming
+unchanged calibrated behavior after an OS upgrade.

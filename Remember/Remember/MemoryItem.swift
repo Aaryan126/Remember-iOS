@@ -75,6 +75,7 @@ nonisolated struct MemoryItem: Codable, Equatable, FetchableRecord, Identifiable
     var modelVersion: String?
     var analysisIsPartial: Bool = false
     var isArchived: Bool = false
+    var analysisNote: String? = nil
 
     var tags: [String] {
         (try? JSONDecoder().decode([String].self, from: Data(tagsJSON.utf8))) ?? []
@@ -143,6 +144,7 @@ nonisolated struct MemoryAnalysisResult: Equatable, Sendable {
     let modelVersion: String
     let chunks: [MemoryChunkDraft]
     let isPartial: Bool
+    let analysisNote: String?
 
     init(
         title: String,
@@ -151,7 +153,8 @@ nonisolated struct MemoryAnalysisResult: Equatable, Sendable {
         extractedText: String,
         modelVersion: String,
         chunks: [MemoryChunkDraft] = [],
-        isPartial: Bool = false
+        isPartial: Bool = false,
+        analysisNote: String? = nil
     ) {
         self.title = title
         self.summary = summary
@@ -160,6 +163,7 @@ nonisolated struct MemoryAnalysisResult: Equatable, Sendable {
         self.modelVersion = modelVersion
         self.chunks = chunks
         self.isPartial = isPartial
+        self.analysisNote = analysisNote
     }
 }
 

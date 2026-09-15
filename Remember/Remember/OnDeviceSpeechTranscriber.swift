@@ -9,6 +9,25 @@ nonisolated protocol LocalSpeechTranscribing: Sendable {
 actor OnDeviceSpeechTranscriber: LocalSpeechTranscribing {
     nonisolated static let modelVersion = "Apple SpeechTranscriber (installed on-device model)"
 
+    nonisolated static func needsModelDownload() async -> Bool {
+        guard SpeechTranscriber.isAvailable,
+              let locale = await SpeechTranscriber.supportedLocale(equivalentTo: .current) else { return false }
+        return await installedLocale(equivalentTo: locale, in: SpeechTranscriber.installedLocales) == nil
+    }
+
+    /// Called only by the explicit model-download control; source audio is never uploaded.
+    nonisolated static func installCurrentModel() async throws {
+        guard SpeechTranscriber.isAvailable else { throw OnDeviceSpeechError.unavailable }
+        guard let locale = await SpeechTranscriber.supportedLocale(equivalentTo: .current) else {
+            throw OnDeviceSpeechError.unsupportedLocale(Locale.current.identifier)
+        }
+        let transcriber = SpeechTranscriber(locale: locale, preset: .transcription)
+        if let request = try await AssetInventory.assetInstallationRequest(supporting: [transcriber]) {
+            try await request.downloadAndInstall()
+        }
+        try Task.checkCancellation()
+    }
+
     func transcribe(audioURL: URL) async throws -> String {
         guard SpeechTranscriber.isAvailable else {
             throw OnDeviceSpeechError.unavailable
@@ -53,6 +72,8 @@ actor OnDeviceSpeechTranscriber: LocalSpeechTranscribing {
             return String(transcript.prefix(50_000))
         } catch {
             resultTask.cancel()
+            await analyzer.cancelAndFinishNow()
+            if error is CancellationError || Task.isCancelled { throw CancellationError() }
             if let speechError = error as? OnDeviceSpeechError {
                 throw speechError
             }
@@ -88,9 +109,9 @@ nonisolated enum OnDeviceSpeechError: LocalizedError, Equatable {
         case .unsupportedLocale(let locale):
             "On-device transcription does not support the current language (\(locale))."
         case .modelNotInstalled(let locale):
-            "The on-device speech model for \(locale) is not installed. Install that Dictation language in Settings, then retry. Remember will not download it itself."
+            "The on-device speech model for \(locale) is not installed. A video’s Memory Details offers a model download, followed by reindexing. Remember does not download speech models automatically."
         case .unreadableRecording:
-            "Remember could not read this voice recording."
+            "Remember could not read the saved audio."
         case .noSpeechDetected:
             "No speech was detected in this recording."
         case .transcriptionFailed:

@@ -153,8 +153,19 @@ actor MemorySearchService {
             try Task.checkCancellation()
             var chunks = chunksByMemory[memory.id] ?? []
             if chunks.isEmpty || chunks.contains(where: { $0.sourceUpdatedAt != memory.updatedAt }) {
-                chunks = MemoryChunker.legacyDrafts(for: memory).map {
-                    MemoryChunk.make(memoryID: memory.id, sourceUpdatedAt: memory.updatedAt, draft: $0)
+                if memory.kind == .video, !chunks.isEmpty,
+                   chunks.sorted(by: { $0.ordinal < $1.ordinal }).map(\.text).joined(separator: "\n\n") == memory.extractedText {
+                    // Metadata edits and archive/restore must not erase video timestamps or evidence types.
+                    chunks = chunks.map { chunk in
+                        MemoryChunk.make(memoryID: memory.id, sourceUpdatedAt: memory.updatedAt,
+                            draft: MemoryChunkDraft(ordinal: chunk.ordinal, locator: chunk.locator, text: chunk.text,
+                                                    extractionMethod: chunk.extractionMethod),
+                            embeddingData: chunk.embeddingData, embeddingModel: chunk.embeddingModel)
+                    }
+                } else {
+                    chunks = MemoryChunker.legacyDrafts(for: memory).map {
+                        MemoryChunk.make(memoryID: memory.id, sourceUpdatedAt: memory.updatedAt, draft: $0)
+                    }
                 }
                 try await memoryStore.replaceChunks(memoryID: memory.id, with: chunks)
             }

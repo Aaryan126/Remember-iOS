@@ -56,20 +56,19 @@ struct VideoRiverTests {
         }
     }
 
-    @Test func videoAnalysisUsesOnlyCaptionEvenWhenCloudEnabled() async throws {
+    @Test func videoEvidenceStaysLocalEvenWhenCloudEnabled() async throws {
         let item = memory(kind: .video, filename: "not-read.mov", caption: "Waterfall near the trail")
+        let extracted = VideoContentExtractor.content(caption: item.userCaption, transcript: "Cobalt telescope workshop",
+            frames: [], notes: ["No visual evidence"])
         let result = try await LocalCaptureAnalyzer(
             cloudEnabled: { true }, cloudAnalyzer: RejectCloud()
-        ).analyze(memory: item, originalURL: URL(fileURLWithPath: "/missing/not-read.mov"), supportingText: nil)
+        ).analyzeExtracted(memory: item, originalURL: URL(fileURLWithPath: "/missing/not-read.mov"), supportingText: nil, extracted: extracted)
         #expect(result.isPartial)
-        #expect(result.extractedText == "Waterfall near the trail")
+        #expect(result.extractedText.contains("Cobalt telescope"))
         #expect(result.chunks.first?.locator == "Video caption")
         #expect(result.chunks.first?.extractionMethod == .plainText)
-        let empty = try await MemoryContentExtractor().extract(
-            memory: memory(kind: .video, filename: "missing.mov"),
-            originalURL: URL(fileURLWithPath: "/missing.mov"), supportingText: "not a transcript"
-        )
-        #expect(empty.text.isEmpty && empty.chunks.isEmpty && empty.isPartial)
+        #expect(result.modelVersion == VideoContentExtractor.modelVersion)
+        #expect(result.analysisNote == "No visual evidence")
     }
 
     @Test func videoTransferCopiesToIndependentFileAndRejectsNonMovies() throws {
@@ -116,6 +115,8 @@ struct VideoRiverTests {
         await writer.finishWriting()
         #expect(writer.status == .completed)
         try await LocalVideoAsset.validate(url)
+        let silent = try await VideoContentExtractor(speechTranscriber: RejectSpeech()).extract(at: url, caption: nil)
+        #expect(silent.analysisNote?.contains("no audio track") == true)
         let corrupt = root.appendingPathComponent("corrupt.mov")
         try Data("not a movie".utf8).write(to: corrupt)
         await #expect(throws: Error.self) { try await LocalVideoAsset.validate(corrupt) }

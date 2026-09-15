@@ -18,6 +18,61 @@ nonisolated enum LocalVideoAsset {
         try Task.checkCancellation()
         guard playable, !tracks.isEmpty else { throw VideoImportError.unplayable }
     }
+
+    static func poster(_ url: URL) async throws -> CGImage {
+        let asset = AVURLAsset(url: url)
+        let duration = try await asset.load(.duration).seconds
+        let generator = AVAssetImageGenerator(asset: asset)
+        generator.appliesPreferredTrackTransform = true
+        generator.maximumSize = CGSize(width: 1_200, height: 1_200)
+        defer { generator.cancelAllCGImageGeneration() }
+        let times = duration.isFinite && duration > 0
+            ? [min(1, duration * 0.1), duration * 0.5, 0] : [0]
+        var fallback: CGImage?
+        for seconds in times {
+            try Task.checkCancellation()
+            do {
+                let frame = try await generator.image(at: CMTime(seconds: seconds, preferredTimescale: 600)).image
+                fallback = fallback ?? frame
+                if hasVisibleContent(frame) { return frame }
+            } catch {
+                try Task.checkCancellation()
+            }
+        }
+        guard let fallback else { throw VideoImportError.unplayable }
+        return fallback
+    }
+
+    private static func hasVisibleContent(_ image: CGImage) -> Bool {
+        var pixels = [UInt8](repeating: 0, count: 32 * 32)
+        let drawn = pixels.withUnsafeMutableBytes { bytes -> Bool in
+            guard let context = CGContext(data: bytes.baseAddress, width: 32, height: 32, bitsPerComponent: 8,
+                bytesPerRow: 32, space: CGColorSpaceCreateDeviceGray(), bitmapInfo: CGImageAlphaInfo.none.rawValue) else { return false }
+            context.draw(image, in: CGRect(x: 0, y: 0, width: 32, height: 32))
+            return true
+        }
+        guard drawn else { return true }
+        let average = pixels.reduce(0.0) { $0 + Double($1) } / Double(pixels.count)
+        return average > 8 && average < 247
+    }
+}
+
+private actor VideoPosterCache {
+    static let shared = VideoPosterCache()
+    private let images: NSCache<NSURL, CGImage> = {
+        let cache = NSCache<NSURL, CGImage>()
+        cache.countLimit = 32
+        cache.totalCostLimit = 24 * 1_024 * 1_024
+        return cache
+    }()
+
+    func image(for url: URL) async throws -> CGImage {
+        if let image = images.object(forKey: url as NSURL) { return image }
+        let image = try await LocalVideoAsset.poster(url)
+        try Task.checkCancellation()
+        images.setObject(image, forKey: url as NSURL, cost: image.bytesPerRow * image.height)
+        return image
+    }
 }
 
 struct LocalVideoPosterView: View {
@@ -36,13 +91,10 @@ struct LocalVideoPosterView: View {
         .aspectRatio(16 / 9, contentMode: .fit)
         .task(id: url) {
             thumbnail = nil
-            let generator = AVAssetImageGenerator(asset: AVURLAsset(url: url))
-            generator.appliesPreferredTrackTransform = true
-            generator.maximumSize = CGSize(width: 1_200, height: 1_200)
             do {
-                let result = try await generator.image(at: .zero)
+                let image = try await VideoPosterCache.shared.image(for: url)
                 try Task.checkCancellation()
-                thumbnail = UIImage(cgImage: result.image)
+                thumbnail = UIImage(cgImage: image)
             } catch {
                 // A missing poster does not prevent native playback.
             }

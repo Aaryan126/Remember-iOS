@@ -119,7 +119,7 @@ final class AppearanceReviewUITests: XCTestCase {
         let finder = app.searchFields["Find a thread"]
         XCTAssertTrue(finder.waitForExistence(timeout: 5))
         finder.tap()
-        capture("Inline thread suggestions", appearance, app)
+        capture("Empty thread search over map", appearance, app)
         app.navigationBars.firstMatch.buttons["Close"].tap()
         let nodes = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "graph-node-"))
         XCTAssertTrue(nodes.firstMatch.waitForExistence(timeout: 15))

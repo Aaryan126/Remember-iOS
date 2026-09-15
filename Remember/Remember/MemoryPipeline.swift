@@ -65,6 +65,9 @@ actor MemoryPipeline {
             hasRecoveredInterruptedWork = true
         }
         try await importer.importPending()
+        if analyzer is LocalCaptureAnalyzer {
+            try await memoryStore.requeueLegacyVideoAnalysis()
+        }
         try await searchService.synchronizeIndex()
     }
 
@@ -169,12 +172,15 @@ actor MemoryPipeline {
             kind: .analysis,
             memoryID: memory.id,
             sourceCount: 1,
-            modelVersion: ProjectPreferences.cloudEnabled ? "openai-capture" : "apple-local-capture"
+            modelVersion: memory.kind == .video ? VideoContentExtractor.modelVersion
+                : ProjectPreferences.cloudEnabled ? "openai-capture" : "apple-local-capture"
         )
         do {
             let result: MemoryAnalysisResult
             if let local = analyzer as? LocalCaptureAnalyzer {
-                let extracted = try await MemoryContentExtractor().extract(memory: memory, originalURL: originalURL, supportingText: supportingText)
+                let extracted = try await MemoryContentExtractor(
+                    videoExtractor: VideoContentExtractor(speechTranscriber: speechTranscriber)
+                ).extract(memory: memory, originalURL: originalURL, supportingText: supportingText)
                 try await memoryStore.saveExtraction(id: memory.id, filename: memory.originalFilename, extracted: extracted)
                 result = try await local.analyzeExtracted(memory: memory, originalURL: originalURL, supportingText: supportingText, extracted: extracted)
             } else {

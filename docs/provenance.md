@@ -30,6 +30,12 @@ This is an explicitly requested experimental integration, not a new qualificatio
 
 Cloud assistance now affects capture enrichment only; Ask and AI search remain separate explicit cloud actions. D3 itself never transmits source content. English text up to 16,000 Unicode scalars is eligible; unavailable models defer matching without losing the capture. This text-only scope does not add image understanding or video/audio analysis beyond the existing extraction pipeline.
 
+For the next product tier, see [Remember Pro cloud review](premium-organization-api.md):
+the separate GPT-5.4 pilot showed promising context judgments, but paid-user grouping,
+consent and entitlement enforcement are not implemented. All current D3 provenance
+writes remain local. The [iOS 27 assessment](ios27-free-tier-assessment.md) records
+new local-model opportunities without changing the ledger, thresholds or placements.
+
 ## Previous local organizer — historical reference, not the live default
 
 Capture creates a singleton without waiting for models. Local extraction is recorded before generated metadata. Apple Vision, PDFKit/text extraction, and on-device speech produce text; Foundation Models supplies metadata when available. Unavailable or failed generation retains deterministic source-derived metadata.
@@ -92,7 +98,7 @@ The additive `video` raw value is supported by both the capture inbox and librar
 
 Photos uses a [file-based transfer](https://developer.apple.com/documentation/coretransferable/filerepresentation) into a protected temporary file, validates playability/video tracks, then copies into the protected inbox/vault off the main actor. Cancel/failure removes only the newly created temporary copy. Saving/cancelling the preview releases its temporary file. Original Photos assets and existing vault files are never removed. Files imports retain security-scoped access until validation/copy finishes.
 
-[Native AVKit playback](https://developer.apple.com/documentation/avkit/videoplayer) stays inline, does not autoplay on scrolling, and uses bounded poster-frame generation. Unsupported or unavailable originals show a recoverable error. Video scenes and audio are not analyzed/transcribed: caption-only evidence is marked partial, and video capture enrichment never invokes the cloud analyzer. Captions can still participate in the existing explicit search/organization workflows.
+[Native AVKit playback](https://developer.apple.com/documentation/avkit/videoplayer) stays inline, does not autoplay on scrolling, and uses bounded poster-frame generation. Unsupported or unavailable originals show a recoverable error. Video capture enrichment now extracts speech and sampled-frame text/possible scene labels locally, with timestamped visual evidence. It remains partial because sampling cannot cover every scene. An additive coverage-note column and one-time upgrade of indexed caption-only videos are described in [video indexing](video-indexing.md). Video capture enrichment never invokes the cloud analyzer; explicit Ask/AI search retain their existing behavior.
 
 ## Validation
 

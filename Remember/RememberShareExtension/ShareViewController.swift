@@ -52,6 +52,7 @@ final class ShareViewController: SLComposeServiceViewController {
 
     private func isSupportedProvider(_ provider: NSItemProvider) -> Bool {
         provider.hasItemConformingToTypeIdentifier(UTType.image.identifier)
+            || provider.hasItemConformingToTypeIdentifier(UTType.movie.identifier)
             || provider.hasItemConformingToTypeIdentifier(UTType.pdf.identifier)
             || provider.hasItemConformingToTypeIdentifier(UTType.url.identifier)
             || provider.hasItemConformingToTypeIdentifier(UTType.plainText.identifier)
@@ -62,6 +63,15 @@ final class ShareViewController: SLComposeServiceViewController {
         let inbox = try CaptureInbox.appGroup()
         let providers = sharedProviders
         let composeCaption = normalizedContentText
+
+        if let movieProvider = providers.first(where: {
+            $0.hasItemConformingToTypeIdentifier(UTType.movie.identifier)
+        }) {
+            try await saveFile(from: movieProvider, type: .movie) { sourceURL in
+                try inbox.saveVideo(from: sourceURL, caption: composeCaption)
+            }
+            return
+        }
 
         if let imageProvider = providers.first(where: {
             $0.hasItemConformingToTypeIdentifier(UTType.image.identifier)

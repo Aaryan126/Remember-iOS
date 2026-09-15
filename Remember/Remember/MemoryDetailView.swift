@@ -83,7 +83,9 @@ struct MemoryDetailView: View {
                     }
                     .sheet(isPresented: $showsInformation) {
                         if let currentItem = viewModel.item(id: memoryID) {
-                            MemoryInformationSheet(item: currentItem)
+                            MemoryInformationSheet(item: currentItem) {
+                                Task { await viewModel.retry(id: currentItem.id) }
+                            }
                         }
                     }
                     .navigationBarBackButtonHidden(item.memory.kind == .text && isEditingNote)
@@ -301,8 +303,8 @@ struct MemoryDetailView: View {
 
             if let extractedText = memory.extractedText,
                !extractedText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty,
-               memory.kind == .audio {
-                DisclosureGroup("Transcript") {
+               memory.kind == .audio || memory.kind == .video {
+                DisclosureGroup(memory.kind == .video ? "Searchable video content" : "Transcript") {
                     Text(extractedText)
                         .font(.body)
                         .textSelection(.enabled)
@@ -592,8 +594,12 @@ private struct MemoryEditSheet: View {
 
 private struct MemoryInformationSheet: View {
     let item: MemoryLibraryItem
+    let onRetry: () -> Void
 
     @Environment(\.dismiss) private var dismiss
+    @State private var needsSpeechModel = false
+    @State private var downloadsSpeechModel = false
+    @State private var modelError: String?
 
     var body: some View {
         NavigationStack {
@@ -615,6 +621,22 @@ private struct MemoryInformationSheet: View {
                     }
                 }
 
+                if item.memory.kind == .video {
+                    Section("Video search") {
+                        Text(item.memory.analysisNote ?? "Video speech and sampled visuals will be indexed on this device.")
+                            .font(.footnote).foregroundStyle(RememberPalette.secondaryText)
+                        Button("Reindex video") { onRetry(); dismiss() }
+                            .disabled(downloadsSpeechModel || item.memory.state == .processing || item.memory.state == .captured)
+                        if needsSpeechModel {
+                            if downloadsSpeechModel { ProgressView("Downloading Apple speech model…") }
+                            else { Button("Download speech model") { downloadsSpeechModel = true } }
+                            Text("Only the model is downloaded from Apple. Your video stays on this device.")
+                                .font(.footnote).foregroundStyle(RememberPalette.secondaryText)
+                        }
+                        if let modelError { Text(modelError).font(.footnote).foregroundStyle(RememberPalette.warning) }
+                    }
+                }
+
             }
             .rememberGroupedList()
             .navigationTitle("Memory Details")
@@ -625,8 +647,25 @@ private struct MemoryInformationSheet: View {
                 }
             }
         }
-        .presentationDetents([.height(260), .large])
+        .presentationDetents(item.memory.kind == .video ? [.medium, .large] : [.height(260), .large])
         .presentationDragIndicator(.visible)
+        .task {
+            if item.memory.kind == .video { needsSpeechModel = await OnDeviceSpeechTranscriber.needsModelDownload() }
+        }
+        .task(id: downloadsSpeechModel) {
+            guard downloadsSpeechModel else { return }
+            modelError = nil
+            do {
+                try await OnDeviceSpeechTranscriber.installCurrentModel()
+                onRetry()
+                dismiss()
+            } catch is CancellationError {
+                downloadsSpeechModel = false
+            } catch {
+                modelError = "The speech model could not be downloaded. Check your connection and try again."
+                downloadsSpeechModel = false
+            }
+        }
     }
 }
 

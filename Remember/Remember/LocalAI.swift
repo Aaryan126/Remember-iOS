@@ -119,15 +119,19 @@ nonisolated enum DeterministicMemoryAnalyzer {
     ) -> MemoryAnalysisResult {
         let caption = normalized(memory.userCaption, maximumLength: 1_000)
         let visualNames = extracted.visualLabels.map(\.displayName)
+        let videoSpeech = memory.kind == .video
+            ? extracted.chunks.first(where: { $0.extractionMethod == .transcript })?.text : nil
         let firstLine = extracted.text
             .split(whereSeparator: { $0.isNewline })
             .map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }
             .first(where: { !$0.isEmpty })
         let title = normalized(caption, maximumLength: 120)
+            ?? normalized(videoSpeech, maximumLength: 120)
             ?? visualNames.first.map { String($0.capitalized.prefix(120)) }
             ?? firstLine.map { String($0.prefix(120)) }
             ?? fallbackTitle(for: memory.kind)
         let summary = caption
+            ?? normalized(videoSpeech, maximumLength: 1_000)
             ?? (!visualNames.isEmpty
                 ? "Apple Vision found possible image labels: \(visualNames.joined(separator: ", "))."
                 : nil)
@@ -138,9 +142,10 @@ nonisolated enum DeterministicMemoryAnalyzer {
             summary: summary,
             tags: visualNames.map { $0.lowercased() },
             extractedText: extracted.text,
-            modelVersion: modelVersion,
+            modelVersion: memory.kind == .video ? VideoContentExtractor.modelVersion : modelVersion,
             chunks: extracted.chunks,
-            isPartial: extracted.isPartial
+            isPartial: extracted.isPartial,
+            analysisNote: extracted.analysisNote
         )
     }
 
