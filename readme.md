@@ -31,31 +31,31 @@ Remember brings those fragments into one place: preserve the original, extract u
     <th width="33%">Follow the story</th>
   </tr>
   <tr>
-    <td><img src="output/pdf/screenshots/memories.png" width="280" alt="Remember library showing searchable cards of fictional saved notes"></td>
-    <td><img src="output/pdf/screenshots/bubbles.png" width="280" alt="Memory map showing circular threads for a garden studio, travel, and other demo projects"></td>
-    <td><img src="output/pdf/screenshots/river.png" width="280" alt="Garden studio thread showing a chronological record of saved notes and organization decisions"></td>
+    <td><img src="docs/images/iphone-dark/memories.png" width="280" alt="Remember library on iPhone in Dark Mode, showing saved hackathon photos and notes"></td>
+    <td><img src="docs/images/iphone-dark/threads.png" width="280" alt="Threads map on iPhone in Dark Mode, showing the existing library as circular threads"></td>
+    <td><img src="docs/images/iphone-dark/thread-history.png" width="280" alt="Hackathon thread history on iPhone in Dark Mode, with its original saved photo"></td>
   </tr>
 </table>
 
 <details>
-<summary><strong>More screens: capture, AI Help, and Dark Mode</strong></summary>
+<summary><strong>More screens: capture, AI Help, and thread preview</strong></summary>
 
 <table>
   <tr>
     <th width="33%">Capture dial</th>
     <th width="33%">Ask your memories</th>
-    <th width="33%">Dark appearance</th>
+    <th width="33%">Thread preview</th>
   </tr>
   <tr>
-    <td><img src="output/pdf/screenshots/capture-dial.png" width="280" alt="Radial capture menu over the memory library"></td>
-    <td><img src="output/pdf/screenshots/ask.png" width="280" alt="AI Help start screen explaining source verification and offering suggested questions"></td>
-    <td><img src="output/pdf/screenshots/bubbles-dark.png" width="280" alt="Memory map with graphite thread circles in Dark Mode"></td>
+    <td><img src="docs/images/iphone-dark/capture-dial.png" width="280" alt="Radial capture menu over the memory library on iPhone in Dark Mode"></td>
+    <td><img src="docs/images/iphone-dark/ask.png" width="280" alt="AI Help on iPhone in Dark Mode, explaining source verification and offering suggested questions"></td>
+    <td><img src="docs/images/iphone-dark/thread-preview.png" width="280" alt="Held hackathon thread showing its title, memory count, and tags on iPhone in Dark Mode"></td>
   </tr>
 </table>
 
 </details>
 
-*Unretouched simulator screenshots from the [14 September demo review](output/pdf/Validation.md), using fictional content and manually arranged threads. They show an earlier interface: the current app calls Project **Threads**, opens directly to the map, and separates reading history from Activity & decisions. The AI Help image shows the entry screen, not a live generated answer.*
+*Captured directly from the installed app on a physical iPhone 17 in Dark Mode on 16 September 2026. Screens show the existing library and current Threads interface; no demo memories were added for this capture. The AI Help image shows the entry screen, not a live generated answer.*
 
 | Capability | What you can do |
 | --- | --- |
