@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "acceptedBeforeAndAfter": 2,
+    "changedDecisions": 0,
+    "featureMatchedPairs": 16,
+    "neuralDirectionsOverBound": 1,
+    "rejectedBeforeAndAfter": 14,
+    "tokenMatchedPairs": 16
+  },
+  "exceptions": [
+    {
+      "currentNative": 0.07525634765625,
+      "delta": 0.0021178126335144043,
+      "direction": 0,
+      "referencePyTorch": 0.0731385350227356,
+      "unit": "parity-08"
+    }
+  ],
+  "fixtureFamilies": "16 pairs sharing hv19a-i01; not 16 independent stories",
+  "independentCombinerMaxDelta": 5.337355557522017e-10,
+  "qualityBenchmark": false
+}

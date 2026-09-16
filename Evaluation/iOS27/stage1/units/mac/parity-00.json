@@ -1,0 +1,34 @@
+{
+  "rawPath": "attempts/mac/parity-00/raw.json",
+  "rawSHA256": "9aaddc74f937435bde767b92bdb1b95007841c7048d48ff536fbb491f2f8cfc7",
+  "result": {
+    "elapsedSeconds": 0.22071916666664038,
+    "os": "Version 27.0 (Build 26A428)",
+    "policy": "d3-p2-seed29-corroborated-v1",
+    "residentAfterBytes": 30130176,
+    "residentBeforeBytes": 9797632,
+    "result": {
+      "computeUnits": "cpuOnly",
+      "decisionParity": true,
+      "fixture": "hv19a-i01--hv19a-i02",
+      "inferenceSeconds": [
+        0.02917616666672984,
+        0.017535749999751715
+      ],
+      "loadSeconds": 0.1295028333333903,
+      "maximumFeatureDelta": 9.02387053969278e-10,
+      "maximumNativeScoreDelta": 7.204914263918283e-06,
+      "passed": false,
+      "probabilities": [
+        0.00283050537109375,
+        0.002681732177734375
+      ],
+      "score": 0.043268823303469435,
+      "tokenParity": true
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "parity-00"
+  }
+}

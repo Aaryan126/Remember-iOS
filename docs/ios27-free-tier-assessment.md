@@ -1,5 +1,15 @@
 # iOS 27: free-tier capability and evaluation assessment
 
+Implementation follow-up: the toolchain upgrade is complete. The
+[Stage 1 checkpoint](../Evaluation/iOS27/stage1/REPORT.md) records successful probe
+builds and safety tests, but a small Mac numeric-parity failure, an unready Mac language
+model and disconnected phone. Stage 1 is paused/incomplete; no grouping-quality uplift
+has been measured. The subsequent [16-pair numeric diagnostic](../Evaluation/iOS27/parity-diagnostic/REPORT.md)
+found unchanged decisions but 11 strict score failures and one neural-output
+conversion-bound failure. It localizes the discrepancy to the neural inference
+path without proving the runtime/compiler cause; compatibility remains unresolved.
+The environment snapshot below describes the earlier assessment.
+
 15 September 2026. Research and read-only device/toolchain inspection; **no new
 model-quality benchmark, app installation, migration, paid call or training run**.
 The local organizer and all historical results remain unchanged.

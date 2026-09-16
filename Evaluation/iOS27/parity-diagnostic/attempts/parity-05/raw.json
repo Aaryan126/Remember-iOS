@@ -1,0 +1,5 @@
+{
+  "returnCode": 0,
+  "stderr": "",
+  "stdout": "IOS27_RESULT {\"elapsedSeconds\":0.087728208333373914,\"os\":\"Version 27.0 (Build 26A428)\",\"policy\":\"d3-p2-seed29-corroborated-v1\",\"residentAfterBytes\":21872640,\"residentBeforeBytes\":9797632,\"result\":{\"computeUnits\":\"cpuOnly\",\"decisionParity\":true,\"fixture\":\"hv19a-i01--hv19a-i07\",\"inferenceSeconds\":[0.02364366666688511,0.017911791666847421],\"loadSeconds\":0.0038637500001641456,\"maximumFeatureDelta\":1.789138615038155e-09,\"maximumNativeScoreDelta\":5.6321391994629266e-11,\"passed\":true,\"probabilities\":[0.98828125,0.98828125],\"score\":0.99179516463585238,\"tokenParity\":true},\"schemaVersion\":1,\"status\":\"ok\",\"syntheticOnly\":true,\"unit\":\"parity-05\"}\n"
+}

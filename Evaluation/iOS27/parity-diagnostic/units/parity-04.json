@@ -1,0 +1,36 @@
+{
+  "nativeUnit": "parity-04",
+  "origin": "new-native-observation",
+  "rawPath": "Evaluation/iOS27/parity-diagnostic/attempts/parity-04/raw.json",
+  "rawSHA256": "ab4be78df4cb56ab46c0e1f89ae89b5178f7c371e1615ea4bdcc3018d0ba177f",
+  "result": {
+    "elapsedSeconds": 0.090511833333494,
+    "os": "Version 27.0 (Build 26A428)",
+    "policy": "d3-p2-seed29-corroborated-v1",
+    "residentAfterBytes": 21872640,
+    "residentBeforeBytes": 9797632,
+    "result": {
+      "computeUnits": "cpuOnly",
+      "decisionParity": true,
+      "fixture": "hv19a-i01--hv19a-i06",
+      "inferenceSeconds": [
+        0.02432995833351015,
+        0.01798366666662332
+      ],
+      "loadSeconds": 0.004075916666806734,
+      "maximumFeatureDelta": 2.033811730139945e-09,
+      "maximumNativeScoreDelta": 9.298576184874063e-05,
+      "passed": false,
+      "probabilities": [
+        0.002986907958984375,
+        0.00278472900390625
+      ],
+      "score": 0.0341202284015062,
+      "tokenParity": true
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "parity-04"
+  }
+}

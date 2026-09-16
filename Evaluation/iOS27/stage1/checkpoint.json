@@ -1,0 +1,49 @@
+{
+  "blockedBy": [
+    "Mac parity-00 numeric tolerance exceeded",
+    "Mac system language model modelNotReady",
+    "Physical phone disconnected"
+  ],
+  "checks": {
+    "generativeRequests": 0,
+    "macBuildPassed": true,
+    "macNativeUnitsSaved": 2,
+    "paidCalls": 0,
+    "phoneNativeUnitsSaved": 0,
+    "resumeProofPassed": true,
+    "runnerTestsPassed": 12,
+    "signedPhoneBuildPassed": true
+  },
+  "manifestSHA256": "310b4e115090ca2224f9f8ad9eda51c3b1fc0886252ac3d874344c3d19a19f0a",
+  "parity": {
+    "computeUnits": "cpuOnly",
+    "decisionParity": true,
+    "fixture": "hv19a-i01--hv19a-i02",
+    "inferenceSeconds": [
+      0.02917616666672984,
+      0.017535749999751715
+    ],
+    "loadSeconds": 0.1295028333333903,
+    "maximumFeatureDelta": 9.02387053969278e-10,
+    "maximumNativeScoreDelta": 7.204914263918283e-06,
+    "passed": false,
+    "probabilities": [
+      0.00283050537109375,
+      0.002681732177734375
+    ],
+    "score": 0.043268823303469435,
+    "tokenParity": true
+  },
+  "pending": [
+    "remaining 15 parity pairs",
+    "numeric embedding comparisons",
+    "phone execution",
+    "generation smoke",
+    "isolated organizer store tests"
+  ],
+  "resumeProofSHA256": "1e7eb550f8d841f08241a91c918427b5977de0485c19782769988461c7976888",
+  "sourceFilesUnchanged": true,
+  "stage1Complete": false,
+  "stage2Started": false,
+  "status": "stopped-for-review"
+}

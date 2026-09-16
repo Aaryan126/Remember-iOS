@@ -1,0 +1,62 @@
+{
+  "organizerSafeguards": {
+    "passed": false,
+    "status": "pending isolated store tests"
+  },
+  "pcc": "not requested; account eligibility unverified",
+  "platforms": {
+    "mac": {
+      "completed": 2,
+      "embeddingCompatible": 0,
+      "environment": {
+        "elapsedSeconds": 0.28900166666653604,
+        "os": "Version 27.0 (Build 26A428)",
+        "policy": "d3-p2-seed29-corroborated-v1",
+        "residentAfterBytes": 19251200,
+        "residentBeforeBytes": 9797632,
+        "result": {
+          "contextSize": 0,
+          "contextualAssetsAvailable": true,
+          "contextualDimension": 512,
+          "contextualIdentifier": "5C45D94E-BAB4-4927-94B6-8B5745C46289",
+          "contextualRevision": 1,
+          "expectedEmbeddingSpace": "apple-dual:en:5C45D94E-BAB4-4927-94B6-8B5745C46289:1:512:1:512:token64-sentence256-v3",
+          "foundationModels": "unavailable(FoundationModels.SystemLanguageModel.Availability.UnavailableReason.modelNotReady)",
+          "foundationModelsAvailable": false,
+          "pcc": "not-requested; entitlement-and-account-eligibility-unverified",
+          "sentenceDimension": 512,
+          "sentenceRevision": 1
+        },
+        "schemaVersion": 1,
+        "status": "ok",
+        "syntheticOnly": true,
+        "unit": "environment"
+      },
+      "errors": [],
+      "parityPassed": 0,
+      "requiredNativeUnits": 34
+    },
+    "phone": {
+      "completed": 0,
+      "embeddingCompatible": 0,
+      "environment": null,
+      "errors": [],
+      "parityPassed": 0,
+      "requiredNativeUnits": 34
+    }
+  },
+  "resumeProof": {
+    "beforeSHA256": "ea4253ea1bb700e4c14187e3240f64fbd7da60acf90e87e42db1568c35071b35",
+    "detail": "Pause returned exit 75 without inference; resume skipped environment and saved parity-00, then stopped on numeric compatibility failure.",
+    "mtimeUnchanged": true,
+    "nativeUnitsAfterResume": 2,
+    "passed": true,
+    "phoneResumeVerified": false,
+    "platform": "mac",
+    "savedUnit": "units/mac/environment.json",
+    "sha256Unchanged": true
+  },
+  "stage": 1,
+  "stage1Complete": false,
+  "stage2Started": false
+}

@@ -1,91 +1,233 @@
+<div align="center">
+
 # Remember
 
-Remember is an iPhone memory vault for notes, images, videos, links, PDFs, and voice recordings. **Memories** handles capture and retrieval; **Threads** opens the memory map, inline thread search, and each thread’s content history; **Settings** includes optional cloud assistance and the archive.
+**Save the moment. Find the context. Keep the story.**
 
-## Current product surface
+A native iPhone memory vault that turns scattered notes, photos, videos, links, PDFs, and voice recordings into searchable memories and connected threads.
 
-- Light Mode uses a shared neutral canvas, white content cards, graphite metadata, and a deeper blue action color. Reading/writing surfaces remain near-white; the map uses a silver-gray field and pearl circles. Native bars, menus, pickers, and playback controls keep their system materials. Status colors carry meaning, with darker text-safe light variants and Increased Contrast support. See [the screen-by-screen appearance review](docs/appearance.md).
-- Capture content in the app or through the Share Extension.
-- Keep original files and metadata in the local vault.
-- Import photos or videos through the system Photos picker, preview, add a caption, and save. Video imports also work from Files and the Share Extension. Native inline video controls support playback and scrubbing; playback is user-initiated and pauses on leaving/backgrounding. Videos are stored locally and indexed using captions, on-device speech (up to 30 minutes), and text/possible scene labels from up to 12 sampled frames. Posters skip black opening frames where possible. Video details explain coverage and offer reindexing or an explicit Apple speech-model download when needed. Existing caption-only videos are upgraded once; see [video indexing](docs/video-indexing.md). Photos-picker iCloud downloads require connectivity.
-- Extract text with Apple Vision and transcribe speech with Apple Speech on-device.
-- Enrich captures locally with Apple extraction and Foundation Models where available; organize new memories with the bundled D3 hybrid (Apple embeddings, lexical features, trained MiniLM pair matcher and corroborated thread support).
-- Opt into OpenAI capture enrichment, or explicitly use AI search and grounded answers. Thread matching remains local regardless of the Cloud assistance toggle.
-- Verify generated answer quotes against retrieved source text before displaying them.
-- Browse, search, revise, organize, archive, and restore saved memories without erasing their history.
-- Threads opens directly to Map. Find a thread searches the full active library locally, including threads beyond the 40-circle map window. Open a thread to read captures and revisions, inspect historical merge/split markers, view past state, and reach the full Activity & decisions record. D3 places new captures but never automatically merges existing threads; historical split proposals still require acceptance. See [the Threads interface](docs/threads-interface.md).
-- Map dedicates its available height to the memory map, with title-only circles sized by each thread’s memory count and shared-source/tag connections. Drag to explore at a readable browsing scale; pinch and zoom buttons are intentionally absent. Recenter returns to the starting position. Find a thread uses the same native search field as Memories. Focusing an empty search keeps the map visible behind the keyboard. Suggestions appear only after typing non-whitespace text; clearing or closing search returns to the map. Full Dynamic Type titles and memory counts remain available, including threads outside the map window. Activity & decisions keeps source/date/thread filters separate from browsing. Tapping either a circle or a list row opens the same thread history directly, with photos, videos, voice players, and notes in chronological capture/revision entries—not a separate Sources section. Media taps open Memory, and Back returns straight to the thread.
-- The map uses a fixed center-out honeycomb with the largest thread initially at its center. Dragging translates the whole grid under your finger; releasing smoothly snaps the nearest occupied slot into the fixed center. Short drags return to the current node, and empty slots are never snap targets. A size-only magnifying lens brings central circles forward and shrinks peripheral ones without bending rows or displacing neighbors. Slots reserve enough room for focus magnification. Near-monochrome frosted surfaces use silver-gray rims and soft blue-white highlights. Touch/drag focuses a circle; hold to reveal a compact preview with its full title, memory count, related-thread count, and tags. A quick tap still enters the thread directly with Apple's native zoom transition. Clear focus or tap the background to dismiss the preview. Reduce Motion settles immediately and disables magnification, lift, and zoom transitions while retaining connection highlighting; Reduce Transparency uses opaque surfaces.
-- Thread history’s vertical ellipsis menu offers Activity & decisions, View past state, Rename thread and Archive thread. The title sits directly on the canvas with compact spacing before History; a small review link appears only for pending suggestions. Date controls appear only when viewing the past, with Back to present in the same menu. The memory count sits beside History. Archiving hides only the thread, preserving its memories and other memberships; restore it from Settings → Archive.
-- Map node surfaces use satin graphite in Dark Mode and soft neutrals in Light Mode, with a restrained cool-silver rim reflection that follows the grid's movement. Center/focus brightness provides hierarchy without arbitrary topic colors. There is no idle shimmer, outer glow, extra timer, or motion-sensor input; Reduce Motion fixes the lighting direction and Increased Contrast strengthens the outline.
-- Map circles use compact, whole-word display labels with a uniform font size per label. There is no separate centered-node title below the map counts. Full titles remain available in the hold preview, inline search results and accessibility labels. Original titles and VoiceOver labels remain intact. Labels are derived locally with conservative word-selection rules, without model/network calls or saved renames.
-- Thread history has one continuous left-hand branch outside its rounded content cards. Titles, dates and media share a padded content column; the rail continues between cards, and junctions align with each title’s first line.
-- Opening the capture dial blurs and de-emphasizes the library. Rotate directly around its centre; a flick coasts in the same direction and gradually slows. Dragging again, selecting a capture, or dismissing the menu cancels momentum. Reduce Motion disables coasting, and Reduce Transparency is respected. The add button appears only at the library root, not on memory details.
+**SwiftUI · On-device ML · Source-grounded answers · Traceable history**
 
-Dial momentum uses elapsed display-link time and opts into faster ProMotion refresh rates while animating; iOS still controls the actual refresh rate according to device and power conditions. See [Apple’s ProMotion guidance](https://developer.apple.com/documentation/quartzcore/optimizing-iphone-and-ipad-apps-to-support-promotion-displays).
+[Explore the app](#the-experience) · [Architecture](#how-it-works) · [Roadmap](#where-were-heading) · [Run locally](#run-locally)
 
-The app bundles approximately 67 MB of trained MiniLM Core ML weights, plus its tokenizer and frozen feature parameters. Apple contextual embedding assets may download on demand; capture and singleton topics remain available while models are unavailable.
+</div>
 
-The live policy is `d3-p2-seed29-corroborated-v1`: dual candidate retrieval, the frozen trained hybrid score, and two supporting memories for established threads (one for a singleton). Multiple qualifying threads remain separate. Existing placements, manual assignments and history are preserved; there is no local-generative or cloud-reasoner fallback. This is a user-approved experimental app integration, **not a production-qualified model**: the historical multi-seed quality gate failed. See [D3 implementation, limits and validation](docs/d3-organization.md). Earlier [grounded-policy/device results](docs/evaluations/2026-09-07-grounded-clustering.md) describe the old organizer, not the current default.
+## Why Remember
 
-**Free / local organization:** the D3 hybrid above remains the default. **Remember Pro / paid-user direction:** optional cloud context review has completed an isolated GPT-5.4 screening pilot, but is not enabled in the app. On 80 context-rich fictional diagnostic packets, GPT reached 93.5% same-project precision and 90.6% recall; the 112-call experiment cost about US$0.48. These are not end-to-end or customer accuracy guarantees. See [the Pro assessment and launch requirements](docs/premium-organization-api.md) and [full pilot report](Evaluation/CloudMatcher/pilot-01/REPORT.md).
+A screenshot captures a detail. A voice note captures an idea. A PDF captures a plan. The context connecting them is usually left for you to remember.
 
-The [iOS 27 free-tier assessment](docs/ios27-free-tier-assessment.md) covers the connected iPhone's upgrade, current local benchmarks, new Apple capabilities and prerequisites for further testing. No iOS 27 quality improvement has yet been measured, and no new cloud organization path is enabled by the OS update.
+Remember brings those fragments into one place: preserve the original, extract useful evidence, find related memories, and follow how a thread develops over time. You can search what you saved, ask questions with inspectable sources, and revisit earlier decisions without losing their history.
 
-## OpenAI setup
+**Our objective is a personal memory system that earns trust:** useful connections, clear evidence, and control over what stays local and what is shared with AI services.
 
-The API key belongs in the development proxy, never in the iOS app or source control.
+> **Project status:** actively developed iOS prototype. Capture, search, Threads, history, and optional cloud assistance are implemented. Automatic organization is experimental; Remember Pro organization remains a research direction.
 
-1. Copy `.env.example` to `.env`.
-2. Add a project-scoped key as `OPENAI_API_KEY`.
-3. Start the proxy:
+## The experience
 
-   ```bash
-   python3 server/openai_proxy.py
-   ```
+<table>
+  <tr>
+    <th width="33%">Capture and rediscover</th>
+    <th width="33%">Explore connections</th>
+    <th width="33%">Follow the story</th>
+  </tr>
+  <tr>
+    <td><img src="output/pdf/screenshots/memories.png" width="280" alt="Remember library showing searchable cards of fictional saved notes"></td>
+    <td><img src="output/pdf/screenshots/bubbles.png" width="280" alt="Memory map showing circular threads for a garden studio, travel, and other demo projects"></td>
+    <td><img src="output/pdf/screenshots/river.png" width="280" alt="Garden studio thread showing a chronological record of saved notes and organization decisions"></td>
+  </tr>
+</table>
 
-4. Open `Remember/Remember.xcodeproj` and run the `Remember` scheme.
+<details>
+<summary><strong>More screens: capture, AI Help, and Dark Mode</strong></summary>
 
-The default simulator endpoint is `http://127.0.0.1:8787/v1`. Override it with the `REMEMBER_OPENAI_BASE_URL` scheme environment variable when the app needs a different proxy URL. A physical iPhone cannot reach the Mac through its own `127.0.0.1`; use a secured, reachable proxy endpoint for device testing.
+<table>
+  <tr>
+    <th width="33%">Capture dial</th>
+    <th width="33%">Ask your memories</th>
+    <th width="33%">Dark appearance</th>
+  </tr>
+  <tr>
+    <td><img src="output/pdf/screenshots/capture-dial.png" width="280" alt="Radial capture menu over the memory library"></td>
+    <td><img src="output/pdf/screenshots/ask.png" width="280" alt="AI Help start screen explaining source verification and offering suggested questions"></td>
+    <td><img src="output/pdf/screenshots/bubbles-dark.png" width="280" alt="Memory map with graphite thread circles in Dark Mode"></td>
+  </tr>
+</table>
 
-The requested generation model is `gpt-5.5`, configured through `OPENAI_MODEL`. Embeddings use `text-embedding-3-small` through `OPENAI_EMBEDDING_MODEL`. The proxy enforces these server-side values so the client cannot select arbitrary upstream models. There is no silent fallback to another hosted model.
+</details>
 
-## Data boundary
+*Unretouched simulator screenshots from the [14 September demo review](output/pdf/Validation.md), using fictional content and manually arranged threads. They show an earlier interface: the current app calls Project **Threads**, opens directly to the map, and separates reading history from Activity & decisions. The AI Help image shows the entry screen, not a live generated answer.*
 
-The iOS app does not contain the OpenAI key. Cloud assistance is off by default. Explicit Ask and AI-search actions remain cloud features independently of that setting. Bounded requests go to the configured proxy, which authenticates upstream to OpenAI. Depending on the enabled operation, requests can contain:
+| Capability | What you can do |
+| --- | --- |
+| **Capture across formats** | Save notes, images, videos, links, PDFs, and voice recordings in the app or through the iOS Share Extension. Keep original files in the local vault. |
+| **Find what matters** | Search locally, filter the library, and manage tags and collections. Explicit AI search adds hosted semantic retrieval when configured. |
+| **Explore Threads** | Browse a draggable memory map, hold a circle for a preview, or search every active thread by name—even those outside the map's 40-circle display window. |
+| **Revisit the context** | Read captures and revisions with inline media, inspect organization evidence, view past state, and archive or restore threads. |
+| **Ask with sources** | Ask questions about saved material. Evidence quotes are checked against retrieved source text before display, with source-only fallbacks when a grounded answer is unavailable. |
+| **Stay in control** | Correct thread assignments, preserve manual decisions, and choose whether to enable cloud capture enrichment. |
 
-- extracted text and user captions for memory analysis;
-- an image being analyzed;
-- memory chunks or a search query for embeddings;
-- selected source excerpts and a question for Ask Remember.
+The native interface includes Light and Dark Mode, Dynamic Type, VoiceOver labels, and adaptations for Reduce Motion, Reduce Transparency, and Increased Contrast. [Appearance details →](docs/appearance.md)
 
-Original vault files, the SQLite database, and local activity metadata stay on the device unless their content is included in one of those explicit AI requests. The app sets `store: false` on Responses API requests. This architecture is appropriate for development; production deployment still needs authenticated client-to-proxy access, rate limiting, abuse controls, and a published privacy policy.
+## Recent updates
 
-## Architecture
+- **Threads as the main organization surface.** Direct map entry, inline search across the whole active library, cleaner reading history, and a separate Activity & decisions record. [Interface notes](docs/threads-interface.md)
+- **A trained local organizer.** D3 combines Apple embeddings, lexical retrieval, a fine-tuned MiniLM matcher running through Core ML, and corroborating evidence from existing thread members. [Implementation and limits](docs/d3-organization.md)
+- **Searchable video evidence.** Captions, on-device speech transcription, and OCR/possible visual labels from sampled frames feed search and thread evidence. Playback stays native; partial coverage is explained and can be retried. [Video indexing](docs/video-indexing.md)
+- **Measured next steps for AI.** An isolated cloud context-review pilot informs the Pro direction. iOS 27 compatibility and local-model experiments are in progress; numeric parity remains unresolved and no grouping-quality improvement has been established. [Pro assessment](docs/premium-organization-api.md) · [iOS assessment](docs/ios27-free-tier-assessment.md)
 
-- `Remember/Remember/` — SwiftUI app, capture pipeline, local vault, extraction, search, optional OpenAI client, append-only provenance, and Project views.
-- `Remember/RememberShareExtension/` — lightweight capture handoff; it does not call OpenAI.
-- `server/openai_proxy.py` — development proxy that loads `.env`, injects the API key, and forwards only Responses and Embeddings requests.
-- `Evaluation/` and `scripts/` — provider-independent grounded-answer fixtures and deterministic scoring utilities.
+## How it works
 
-Legacy Project database records and compatibility types remain dormant so existing local databases are not destructively migrated during this reset. No live navigation or pipeline invokes the former Project compiler.
+The system separates **source preservation**, **evidence extraction**, **organization**, and **answering**. The local path handles capture and thread placement; explicit cloud features cross a separate proxy boundary.
 
-The new provenance layer is independent of those legacy records. See [Provenance architecture and operation](docs/provenance.md) for migration, retention, organization policies, and validation details.
+```mermaid
+flowchart TB
+    capture["Notes, photos, videos, links, PDFs, voice"] --> inbox["In-app capture and Share Extension"]
 
-## Validation
+    subgraph device["On the iPhone"]
+        inbox --> vault["Local vault: original files and SQLite metadata"]
+        vault --> extract["Apple extraction: text, OCR, speech, sampled video frames"]
+        extract --> evidence["Source chunks, revisions, and local search"]
+        evidence --> retrieve["Candidate retrieval: Apple embeddings and lexical index"]
+        retrieve --> matcher["D3: Core ML pair matcher and feature classifier"]
+        matcher --> policy{"One thread qualifies with enough support?"}
+        policy -->|Yes| attach["Attach to that thread"]
+        policy -->|No or unavailable| separate["Keep a separate thread"]
+        attach --> ledger["Append-only provenance: decisions and evidence"]
+        separate --> ledger
+        corrections["User assignments and corrections"] --> ledger
+        ledger --> threads["Map, thread history, and past-state views"]
+        evidence --> aiRequest["Explicit Ask or AI search; opt-in capture enrichment"]
+        verify["Validate source IDs and evidence quotes"] --> answer["Grounded excerpts or source-only results"]
+    end
 
-Useful local checks:
+    subgraph cloud["Optional cloud path"]
+        proxy["Development proxy: server-held API key"] --> hosted["OpenAI Responses and Embeddings"]
+    end
 
-```bash
-python3 -m py_compile server/openai_proxy.py
-xcodebuild -project Remember/Remember.xcodeproj -scheme Remember \
-  -sdk iphonesimulator -configuration Debug \
-  -derivedDataPath /tmp/RememberOpenAIReset CODE_SIGNING_ALLOWED=NO build
-xcodebuild -project Remember/Remember.xcodeproj -scheme Remember \
-  -sdk iphonesimulator -configuration Debug \
-  -derivedDataPath /tmp/RememberOpenAIReset CODE_SIGNING_ALLOWED=NO build-for-testing
+    aiRequest -.->|Bounded request content| proxy
+    hosted -.->|Ask response| verify
 ```
 
-API-backed behavior requires a valid key and access to the configured `gpt-5.5` model. Deterministic fallbacks keep capture and source-only retrieval useful when the proxy is unavailable.
+### The engineering behind the experience
 
-For UI checks on a personal iPhone, select only `testDialFollowsDragInBothDirections`, `testDialFlingCanBeDismissedAndReopened`, `testCaptureButtonIsHiddenOnMemoryDetail`, `testRadialCaptureMenuExposesEveryCaptureAction`, `testExistingLibraryGraphNavigationWithoutCaptures`, and `testExistingMapFocusHoldDragAndReturn` in `RememberUITests`. The detail and graph checks require existing memories/threads. `ThreadNavigationUITests/testExistingThreadsFinderAndHistoryReadOnly` also checks the map, finder, empty search and activity navigation without modifying content. These checks do not create or archive captures; other UI tests seed sample memories and belong on a simulator or disposable test device. Keep the phone unlocked and untouched during automation.
+**Retrieval proposes; the policy decides.** D3 combines two candidate lists into at most ten memories, scores pairs in both directions, and requires two supporting memories among the first three retrieved members of an established thread—or one for a singleton. Exactly one thread must qualify. Ambiguous captures remain separate, and the organizer never automatically merges existing threads.
+
+The current matcher supports detected English text up to 16,000 Unicode scalars, with a 512-token pair limit in the neural model. Longer material can remain searchable while falling outside automatic matching.
+
+**History is part of the data model.** An append-only provenance ledger records source revisions, placements, corrections, evidence, and policy versions. Read projections reconstruct current and past thread state. Sequence checks reject decisions based on stale state, while manual assignments and existing placements remain protected.
+
+**Media becomes inspectable evidence.** Video indexing samples up to 12 frames and transcribes up to the first 30 minutes of speech. Timestamped frame evidence and coverage notes make the limits visible. This is bounded extraction; brief scenes can be missed and results remain marked partial.
+
+**Answering has a verification boundary.** The cloud response is checked against the retrieved sources before evidence is displayed. Quote verification establishes that the text exists in a source; it does not guarantee that every interpretation of that text is correct.
+
+| Layer | Implementation |
+| --- | --- |
+| App and interaction | SwiftUI, native media controls, custom map layout and capture-dial motion |
+| Persistence | Local file vault, SQLite through GRDB, append-only provenance events |
+| Local extraction | Vision, Speech, AVFoundation, PDF/text extraction; Foundation Models enrichment where available |
+| Local organization | Natural Language embeddings, lexical features, trained MiniLM through Core ML, frozen decision policy |
+| Optional cloud AI | OpenAI Responses and Embeddings through a Python development proxy |
+| Verification | Swift Testing, XCTest UI automation, Python evaluation pipelines, saved conversion and parity receipts |
+
+## Privacy and data boundaries
+
+**Cloud capture assistance is off by default.** Capture, local browsing/search, and D3 thread matching do not require an OpenAI key. Apple model assets may need an initial download; unavailable matching leaves captures in separate threads.
+
+Ask and AI search are explicit cloud actions **independent of the capture-assistance toggle**. Depending on the operation, requests can include extracted text, captions, an image being analyzed, memory chunks, a query, or selected excerpts. Video capture extraction stays local. The Share Extension does not call OpenAI.
+
+Original vault files, the database, and local activity metadata remain on the device except for content included in those AI requests. The app sends Responses requests with `store: false`; the API key lives only in the proxy's environment. Production hosting still requires authenticated client access, rate limits, abuse controls, and a published privacy policy.
+
+## Evidence, not just a demo
+
+The repository includes fictional evaluation datasets, frozen protocols, diagnostic reports, and native test receipts. Different checks answer different questions:
+
+| Recorded check | Result | What it establishes |
+| --- | --- | --- |
+| [Video/search regression](docs/video-indexing.md) | 135 simulator unit tests and 3 UI checks passed; separate iPhone video/speech and navigation checks passed | Recorded functional coverage for extraction, history, search, and playback |
+| [D3 conversion and native parity](Evaluation/AppMatcher/VERIFICATION.md) | 16/16 pair decisions agreed in the original port checks | Consistency of the exported model, tokenizer, features, and scorer on those cases |
+| [P2 matcher evaluation](Evaluation/MatcherValidation/P2_REPORT.md) | Selected D3 candidate: 95.79% pair precision, 58.39% library-macro recall | Historical pair classification on fictional libraries, not end-to-end grouping quality |
+| [Pro context-review pilot](Evaluation/CloudMatcher/pilot-01/REPORT.md) | 93.5% same-project precision, 90.6% recall on 80 context-rich diagnostic packets | Early feasibility of optional cloud review; not an enabled app feature |
+
+These are **recorded results, not a claim that every check passes on every current toolchain**. D3's three-seed qualification failed; the selected model is an experimental integration with remaining grouping errors. Newer iOS 27 toolchain diagnostics leave numeric compatibility unresolved. Neither the pair metrics nor the cloud pilot establish customer accuracy, production readiness, or phone performance at scale.
+
+## Where we're heading
+
+The next objective is to move from a working memory vault to a dependable daily companion: recover more useful context while keeping mistakes visible and correctable.
+
+| Priority | Next objective | Evidence needed before rollout |
+| --- | --- | --- |
+| **More reliable local organization** | Improve project-boundary recognition and recover missed connections | Fresh held-out libraries, chronological replay, fewer false attachments, and preserved user corrections |
+| **Device and scale readiness** | Resolve runtime parity and measure the integrated organizer on real iPhones | Cold/warm latency, peak memory, thermal behavior, and large-library tests |
+| **Richer local understanding** | Evaluate newer Apple models for context review and image/video evidence | Measured gains over D3, explicit uncertainty, and asset/language compatibility checks |
+| **Remember Pro** | Offer opt-in cloud context review as evidence-backed suggestions | Fresh end-to-end evaluation, user acceptance, authenticated entitlements, quotas, and bounded costs |
+| **Release readiness** | Harden the cloud boundary and make setup reproducible | Authenticated proxy access, privacy documentation, and a documented model-asset distribution path |
+
+These are development objectives, not shipped features or release-date commitments. [Local organization design](docs/d3-organization.md) · [Pro launch requirements](docs/premium-organization-api.md)
+
+## Run locally
+
+### iPhone app
+
+1. Open `Remember/Remember.xcodeproj` in Xcode with support for the project's **iOS 26.5 deployment target**.
+2. Allow Xcode to resolve the pinned GRDB Swift package.
+3. Choose the `Remember` scheme and an eligible simulator. For a physical iPhone, configure signing and the App Group capability for both the app and Share Extension.
+4. Build and run. Local capture and browsing do not need a cloud API key.
+
+**Matcher assets:** the development build uses approximately 67 MB of trained Core ML weights. The vocabulary and feature parameters are tracked, but `D3Matcher.mlpackage` is excluded by the repository's model-artifact rules. A fresh source download therefore does not contain the complete organizer. The [export and parity workflow](docs/d3-organization.md#reproducibility-and-validation) requires the existing frozen checkpoint and prepared evaluation environment; it is not a one-command model download. Without the model, automatic matching remains unavailable and captures retain separate threads. Model-execution tests require the asset.
+
+Foundation Models, speech, and embeddings depend on device, language, and asset availability. See the [current compatibility assessment](docs/ios27-free-tier-assessment.md) before assuming a newer OS or Xcode preserves model behavior.
+
+### Optional cloud features
+
+Copy the sanitized environment template from the repository root:
+
+```sh
+cp .env.example .env
+```
+
+Set `OPENAI_API_KEY` in the ignored `.env`, then start the development proxy:
+
+```sh
+python3 server/openai_proxy.py
+```
+
+The repository defaults are `OPENAI_MODEL=gpt-5.5` and `OPENAI_EMBEDDING_MODEL=text-embedding-3-small`; your API project needs access to the configured models. The proxy enforces the server-side model selection and does not silently substitute another model.
+
+The simulator uses `http://127.0.0.1:8787/v1`. Set `REMEMBER_OPENAI_BASE_URL` in the Xcode scheme to use a different endpoint. A physical phone needs a secured, reachable proxy address; its own loopback address does not reach the Mac. All proxy environment options are listed in [.env.example](.env.example).
+
+### Build and test
+
+From the repository root:
+
+```sh
+# Build without device signing.
+xcodebuild -project Remember/Remember.xcodeproj -scheme Remember \
+  -sdk iphonesimulator -configuration Debug \
+  -derivedDataPath /tmp/RememberBuild CODE_SIGNING_ALLOWED=NO build
+
+# List simulators, then replace SIMULATOR_ID below with an available UUID.
+xcrun simctl list devices available
+xcodebuild -project Remember/Remember.xcodeproj -scheme Remember \
+  -destination 'platform=iOS Simulator,id=SIMULATOR_ID' \
+  -derivedDataPath /tmp/RememberBuild CODE_SIGNING_ALLOWED=NO \
+  -parallel-testing-enabled NO -only-testing:RememberTests test
+
+# Check development-proxy syntax without making an API call.
+python3 -m py_compile server/openai_proxy.py
+```
+
+Run fixture-seeding UI tests on a simulator or disposable device. Personal-phone checks must use the documented read-only selections in the [Threads verification guide](docs/threads-interface.md#validation); the broader UI suite can create or alter demo content.
+
+## Explore the implementation
+
+| Path | Start here for |
+| --- | --- |
+| [`Remember/Remember/`](Remember/Remember/) | SwiftUI app, capture pipeline, vault, search, organizer, and provenance |
+| [`Remember/RememberShareExtension/`](Remember/RememberShareExtension/) | Lightweight iOS share-sheet capture |
+| [`Remember/Shared/`](Remember/Shared/) | App Group capture-inbox handoff |
+| [`Remember/RememberTests/`](Remember/RememberTests/) · [`Remember/RememberUITests/`](Remember/RememberUITests/) | Behavioral, model-integration, media, and interface tests |
+| [`server/openai_proxy.py`](server/openai_proxy.py) | Server-side credential boundary for optional AI |
+| [`Evaluation/`](Evaluation/) · [`scripts/`](scripts/) | Frozen evaluations, diagnostics, model export, and reproducibility tools |
+| [`docs/provenance.md`](docs/provenance.md) | Event history, projections, source evidence, and compatibility notes |
+
+Some internal types retain the earlier **Project** name for compatibility. The current product surface is **Threads**; older reset briefs and evaluation reports describe their respective historical versions. Model attribution is recorded in [D3ModelNotice.txt](Remember/Remember/MatcherAssets/D3ModelNotice.txt) and [third-party notices](Evaluation/THIRD_PARTY_NOTICES.md).

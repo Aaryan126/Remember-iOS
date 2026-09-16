@@ -1,0 +1,41 @@
+{
+  "command": [
+    "xcrun",
+    "swiftc",
+    "-parse-as-library",
+    "-O",
+    "-module-cache-path",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/stage1/build/module-cache",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/stage1/build/Sources/CompatibilityProbe.swift",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/stage1/build/Sources/D3Features.swift",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/stage1/build/Sources/D3OrganizationPolicy.swift",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/stage1/build/Sources/D3PairMatcher.swift",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/stage1/build/Sources/D3Tokenizer.swift",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/stage1/build/Sources/ProductionEmbedding.swift",
+    "-o",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/stage1/build/compatibility-probe"
+  ],
+  "platform": "mac",
+  "returnCode": 0,
+  "sources": {
+    "Evaluation/AppMatcher/parity-inputs.json": "0ee555e86b0d55476c5544ae0692e8a963148aff9a7a726a7a34207ebc9396e8",
+    "Remember/Remember.xcodeproj/project.pbxproj": "09ae2f64d00fb716d93a43bfbde192a20efb50314b4c05879057120e3c27d498",
+    "Remember/Remember/D3Features.swift": "c8411b142c75114c7f3ac9a1304fd6f5a3da996f1810fe48afcff3a791044a36",
+    "Remember/Remember/D3OrganizationPolicy.swift": "906170c3d6a2f00d4821a7f7e474111f402153f68814406bb9825a08fe334608",
+    "Remember/Remember/D3PairMatcher.swift": "f081f369f021d3e2ead38191a5e4b2612d75fd482715bb9531efa346f0b1af57",
+    "Remember/Remember/D3Tokenizer.swift": "f0fb9064f307b580804076e42feaf48a95f8a23e90b7d7fdf7457048a1c6999f",
+    "Remember/Remember/MatcherAssets/D3Matcher.mlpackage/Data/com.apple.CoreML/model.mlmodel": "ddcb20d305f4ce74eb9837ea20585906cee807273ce75a94c9b5b785a672f5e9",
+    "Remember/Remember/MatcherAssets/D3Matcher.mlpackage/Data/com.apple.CoreML/weights/weight.bin": "2c0cfb576c006959aaa28003b1cea3ca1fcd851caf9614f4f840c15c9a23e698",
+    "Remember/Remember/MatcherAssets/D3Matcher.mlpackage/Manifest.json": "427e6d4a0745373fba9779e53c0aa493585abfe0e4ace5cb83ca32fec35189fa",
+    "Remember/Remember/MatcherAssets/D3ModelNotice.txt": "cd5f9311ed67f26f2c0f1e7bc8b689ac93d8e62f9526aa59cb94fedf840c2f37",
+    "Remember/Remember/MatcherAssets/D3Parameters.json": "4628fb5f6feddb512cce1f66efb729d5893bc92bbb8d3864dbffa20c08a46dec",
+    "Remember/Remember/MatcherAssets/D3Vocabulary.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "Remember/Remember/ProjectIntelligence.swift": "e8ce6cc407937b29d3435da62771c19c20c743e529ced281e48054dd300fe390",
+    "scripts/ios27-evaluation/CompatibilityProbe.swift": "d7fc09e9f73eb8e7c71f24b9c05ee062dda31b53ce18f0b45c8d72536deed7af",
+    "scripts/ios27-evaluation/project.pbxproj.template": "71b3f27e8ff3d168e17862dc31ef675dc9b33cd181cb19412df12ee6149d9c34",
+    "scripts/ios27-evaluation/run.py": "d41e89909d1438bc9eaba84394819f993af3f94f017758b497e09c27bcd4ea2f",
+    "scripts/ios27-evaluation/test_runner.py": "983777ee6747bb4a04840a5ce2de9ec9dc2592321a3df16a1a84eae0381c2a36"
+  },
+  "stderr": "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/stage1/build/Sources/ProductionEmbedding.swift:56:28: warning: consider using asynchronous alternative function\n 54 |             if assetRequests[contextual.modelIdentifier].map({ Date().timeIntervalSince($0) >= 300 }) ?? true {\n 55 |                 assetRequests[contextual.modelIdentifier] = Date()\n 56 |                 contextual.requestAssets { result, _ in\n    |                            `- warning: consider using asynchronous alternative function\n 57 |                     if result == .available {\n 58 |                         NotificationCenter.default.post(name: ProjectPreferences.embeddingsAvailable, object: nil)\n\n/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLContextualEmbedding.h:203:1: note: 'requestAssets()' declared here\n201 | /// You use a contextual embedding after loading the necessary assets onto the device. Use ``NLContextualEmbedding/hasAvailableAssets`` to determine whether assets are available.\n202 | /// This method returns immediately if the framework knows the state of the assets or if an error occurs.\n203 | - (void)requestEmbeddingAssetsWithCompletionHandler:(void (^)(NLContextualEmbeddingAssetsResult result, NSError * _Nullable error))completionHandler;\n    | `- note: 'requestAssets()' declared here\n204 | \n205 | @end\n",
+  "stdout": ""
+}

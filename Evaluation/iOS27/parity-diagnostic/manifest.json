@@ -1,0 +1,37 @@
+{
+  "generativeInference": false,
+  "hashes": {
+    "Evaluation/AppMatcher/conversion.json": "a44f165e90ab0bee048cbd0b03742dfaca15b8331b7e6c491919d6262c1abc5e",
+    "Evaluation/iOS27/stage1/manifest.json": "310b4e115090ca2224f9f8ad9eda51c3b1fc0886252ac3d874344c3d19a19f0a",
+    "Evaluation/iOS27/stage1/units/mac/parity-00.json": "ecbf40b1bc376390606129c73e50523a9ea854789e898a402c8862138eae8651",
+    "scripts/ios27-parity-diagnostic/diagnose.py": "94cbc1dfb4d69148a00a9ed49a1adacad0b6bcffbf1874cd1c9569428ac0b6ee",
+    "scripts/ios27-parity-diagnostic/test_diagnose.py": "f392d5e9c680ac8092f507fab3fd1e7e3f103c88a875fad4ca4f184efa958332"
+  },
+  "newMacRequestsMaximum": 17,
+  "originalCombinedScoreTolerance": 1e-07,
+  "originalConversionProbabilityTolerance": 0.002,
+  "originalFeatureTolerance": 1e-08,
+  "phoneInference": false,
+  "purpose": "diagnostic-only; original failed gate retained",
+  "stage2Started": false,
+  "units": [
+    "parity-00",
+    "parity-01",
+    "parity-02",
+    "parity-03",
+    "parity-04",
+    "parity-05",
+    "parity-06",
+    "parity-07",
+    "parity-08",
+    "parity-09",
+    "parity-10",
+    "parity-11",
+    "parity-12",
+    "parity-13",
+    "parity-14",
+    "parity-15",
+    "repeat-00",
+    "repeat-15"
+  ]
+}
