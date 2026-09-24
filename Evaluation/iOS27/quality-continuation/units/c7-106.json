@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-106/raw.json",
+  "rawSHA256": "5d4dfc04b39ec30f06f9dcc87c72b9727a03e37d19da269d949e1f873376a058",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.980624333336891,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.666668246500194e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3243747500018799,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3780477083346341,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3791432083307882,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.9791542916645994,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "f4d20ac261a4437555d56ace2304b598288f18a207b3a8a3e31e7e6aa6b49dd9",
+      "contextSize": 4096,
+      "generationSeconds": 3.599294916661165,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Prototype machining, load tests and drawing approval are one engineering commission for the latch.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Revision C survived the load cycle. Send the approval drawing to Cedar Forge.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Different test results and drawing destinations indicate the latch and toolbox hinge are distinct engineering commissions.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-106"
+  }
+}

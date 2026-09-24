@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-036/raw.json",
+  "rawSHA256": "b372d3d52efb2c7653f3319e698f1df5db17fdd3d91399819bd9d38ba494cf37",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.549959541662247,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.958332621958107e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22122404166293563,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27042979166435543,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2714300416628248,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.548870791666559,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "631b1b6a2d1996fcc4231ea6f4a021be7698818aec2a2176cbc5439431cde57a",
+      "contextSize": 4096,
+      "generationSeconds": 3.2768401249995804,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Fernbridge Nursery's trial measures basil growth under different light durations. Set up lamps, record weekly leaf mass and write the light-duration result as one experiment.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Lab note: The second set has larger leaves. Include this in the basil result.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference basil growth and incorporate leaf size observations into the same experiment framework.",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-036"
+  }
+}

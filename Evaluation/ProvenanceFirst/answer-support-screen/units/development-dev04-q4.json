@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev04-q4",
+    "inputSHA256": "650af209281a368776cabe3476069a3e95e791a9d21560f7eaf04faf1cf5db82",
+    "rawSHA256": "5706f0cf933ba05b30d4cc8d40cc0fb4160acd65bbd125a67e8c1415a67e4b98",
+    "requestCount": 1,
+    "reservationSHA256": "ca14a926f96672950f1cfa62e00d0c72dfec92ca67cf47db70702aa0b8914454",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.5098784583242377,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Loan L-41, the Dune Jug, has courier company Wind Cart confirmed.",
+        "evidence": [
+          {
+            "candidateID": "aa2565c7c1a773cadc1c5255661cced3e32cf03307048e83eb95752f98c36b5b",
+            "quote": "Loan L-41, the Dune Jug, has courier company Wind Cart confirmed."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21463040,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev04-q4"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "ee68347ec7757133e3cbe59898588689dee4064286d803a65f23595d9cfa95bb"
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "xcrun",
+    "devicectl",
+    "device",
+    "info",
+    "lockState",
+    "--device",
+    "00008150-000A123A2EC0C01C",
+    "--json-output",
+    "-"
+  ],
+  "returnCode": 0,
+  "stderr": "Current device lock state:\n\u2022 deviceIdentifier: 5675C6C5-EBD9-59AF-B61D-F36F22C8D2B4\n\u2022 passcodeRequired: false\n\u2022 unlockedSinceBoot: true\n",
+  "stdout": "{\n  \"info\" : {\n    \"arguments\" : [\n      \"devicectl\",\n      \"device\",\n      \"info\",\n      \"lockState\",\n      \"--device\",\n      \"00008150-000A123A2EC0C01C\",\n      \"--json-output\",\n      \"-\"\n    ],\n    \"commandType\" : \"devicectl.device.info.lockState\",\n    \"environment\" : {\n      \"TERM\" : \"xterm-256color\"\n    },\n    \"jsonVersion\" : 5,\n    \"outcome\" : \"success\",\n    \"version\" : \"642.16\"\n  },\n  \"result\" : {\n    \"deviceIdentifier\" : \"5675C6C5-EBD9-59AF-B61D-F36F22C8D2B4\",\n    \"passcodeRequired\" : false,\n    \"unlockedSinceBoot\" : true\n  }\n}\n"
+}

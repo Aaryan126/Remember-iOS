@@ -1,0 +1,54 @@
+{
+  "bindingSHA256": "2554e088dd236e935782f509f38e96fe74aa8d47155e3f82c2f1fd1fac02a4d9",
+  "payload": {
+    "contentPassed": true,
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "v2-control-missing-2",
+    "inputSHA256": "7a71eebc89b70e9aa6723a169b36f2da8969f7156fbb51175e43f42c5836fed4",
+    "output": {
+      "answer": "",
+      "evidence": [
+        {
+          "candidateID": "format-v2-source-1",
+          "quote": "The planting bed's soil pH was not measured."
+        }
+      ],
+      "verdict": "explicit_missing"
+    },
+    "passed": true,
+    "rawSHA256": "5b95678a7a0af69a40874ac006b26697672c910272669a408640f38936d2fe37",
+    "repeatMatched": true,
+    "requestCount": 1,
+    "reservationSHA256": "62496a77922e21093048aa03a9da0334438bc9bab89da7cb139e8df5b951847b",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 1.7080733749899082,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "format-v2-source-1",
+            "quote": "The planting bed's soil pH was not measured."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21200896,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "v2-control-missing-2"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "9a431644222ef498a7cc2a905b3b28af4d40963298653e0cdcd9e3bf707174b7"
+}

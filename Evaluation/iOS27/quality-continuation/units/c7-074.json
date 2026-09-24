@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-074/raw.json",
+  "rawSHA256": "a3e6253482545472ecc763dad915e02d68b2c270f429a33ce8d00918facb5916",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.535942541660916,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.749999450519681e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2245999166625552,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2761596666605328,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27715237499796785,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.53447099999903,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "b4adba49db85034772a84e64bf7890517c82b373ef5aa9e41ae8a09894af0262",
+      "contextSize": 4096,
+      "generationSeconds": 4.256689958332572,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Cobalt renamed the Spanish edition 'Paths by Water' during copy-editing. The title change does not open another translation contract; finish the Spanish proofs under the original 'River Roads' commission.",
+            "sourceID": "s03"
+          }
+        ],
+        "rationale": "Both sources reference the 'River Roads' commission and confirm the Spanish proofs remain under the same publication contract.",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-074"
+  }
+}

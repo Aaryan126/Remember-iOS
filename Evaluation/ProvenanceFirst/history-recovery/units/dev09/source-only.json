@@ -1,0 +1,121 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Edition numbering notebook, initial plan",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Estuary linocut edition numbering, initial plan: number the sale edition from 1/24 through 24/24. Artist proofs remain outside that sequence and use lettered marks. The work is a fictional printmaking exercise; this notebook records numbering decisions as they evolve."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Exhibition caption brief, page 1",
+      "modality": "pdf",
+      "sourceId": "s02",
+      "text": "Estuary print exhibition captions will explain the linocut's process and distinguish editioned prints from artist proofs. We are writing gallery labels, not deciding how many prints to sell. The numbering notebook is controlled by the printmaker."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Joint proof approval sheet OCR",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "Proof approval sheet for Estuary linocut edition numbering and Estuary print exhibition captions: use artist proof B as the visual reference. Its margin shows the intended signature position; the exhibition photographer will crop outside that margin only for the wall illustration."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Unidentified bench clip, extracted speech 00:17–00:25",
+      "modality": "video",
+      "sourceId": "s04",
+      "text": "Numbering bench clip: 'Stop before the damaged corner.' The camera was facing the ceiling, and the next words are inaudible. There is no sheet count or print identifier in the extraction. The damaged object could be a print, mount or packing board."
+    },
+    {
+      "id": "e05",
+      "kind": "revise",
+      "locator": "Edition numbering notebook, paper-loss revision",
+      "sourceId": "s01",
+      "text": "Estuary linocut edition numbering, paper-loss revision: number the sale edition from 1/20 through 20/20. Four sheets failed the final margin check before numbering began. Artist proofs remain lettered and are not included in this reduced sale edition."
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Wall caption draft, process paragraph",
+      "modality": "note",
+      "sourceId": "s05",
+      "text": "Estuary print exhibition captions draft: the wall text should call the process a two-block linocut. Describe the pale ink layer before the darker key block. This draft does not state an edition size, because numbering is still controlled in the printmaker's notebook."
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Numbering desk OCR, annotation",
+      "modality": "photo",
+      "sourceId": "s06",
+      "text": "Estuary linocut edition numbering desk photograph: completed numbers are written below the image on the left. The photographed sheet is partly under tissue, so its actual fraction cannot be read. The photo confirms placement only, not the total edition count."
+    },
+    {
+      "assignedProjectRoots": [
+        "s01"
+      ],
+      "id": "e08",
+      "kind": "correct",
+      "reason": "The ceiling-facing bench clip belongs to Estuary linocut edition numbering. I cannot recover a sheet count from it; attach it only as a workshop record.",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "locator": "Fictional printmakers glossary, key block entry",
+      "modality": "link",
+      "sourceId": "s07",
+      "text": "A printmakers' glossary is background for Estuary print exhibition captions. It defines key block and registration marks using unrelated examples. The glossary does not establish facts about the Estuary edition or authorize changing the printmaker's numbering range."
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Drawer checkout dictation, 00:05–00:21",
+      "modality": "voice",
+      "sourceId": "s08",
+      "text": "Estuary linocut edition numbering checkout: keep lettered artist proofs in the flat drawer, separate from the numbered sale prints. A shopping receipt tucked beside them belongs to the framing supplier and is not part of the edition record."
+    },
+    {
+      "id": "e11",
+      "kind": "archive",
+      "sourceId": "s06"
+    },
+    {
+      "id": "e12",
+      "kind": "restore",
+      "sourceId": "s06"
+    }
+  ],
+  "id": "dev09",
+  "queries": [
+    {
+      "atEvent": "e08",
+      "id": "q1",
+      "question": "What numbering range did the initial Estuary edition plan specify before the paper-loss revision?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e08",
+      "id": "q2",
+      "question": "How many sheets does the ceiling-facing bench clip say had damaged corners?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "What sale-edition numbering range is currently approved in the Estuary numbering notebook?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Which artist proof is the active shared visual reference for numbering and exhibition captions?",
+      "scope": "current"
+    }
+  ]
+}

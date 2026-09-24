@@ -1,0 +1,30 @@
+{
+  "actualModelRequests": 1,
+  "estimatedNextStageHours": [
+    4,
+    8
+  ],
+  "evaluationReadinessPassed": true,
+  "evidenceSHA256": {
+    "REPORT.md": "edf24b9147d664852fbce3ebcc6b7a4dbb4b707dd408c56b26ed9cd07652add3",
+    "manifest.json": "5c0c0cdda27bb5b80af9f4c702d6a6d5c5c5944c6740a7ef65cede14992abfda",
+    "pause-resume-proof.json": "79f414a69270f7eb047bec0af109fb21e63ea42ad3dd5f4af1f27f449eadd050",
+    "process-closure.json": "a4cd52000fee241aa0b5d0b84d11c37658339327dadd8580c0020e0e0dbb0625",
+    "progress-01.json": "64107b6053e362023923b147d34699f9089dc5f2b18ec2870fd1df15a4740817",
+    "protocol.json": "8aa48bc7639b5f595f5a67fab98b7c168fbbec0f66b721b52e839f9ac5767295",
+    "summary.json": "5d32edab8b1d1b2cdf5976a420cbba095181d027bc273c68ffd2c9de1cff017f",
+    "units/phone/generation.json": "c20e59b814364889b6721de138793275a43f1f3c9eb95d78d12a92490b1fe8ab",
+    "units/phone/watchdog-control.json": "a056c92db232c94650a4ab106ac94698f7a5a4ca344a155df98d68e234da8796"
+  },
+  "experimentBytes": 4204663108,
+  "freeBytes": 49085235200,
+  "nativeUnits": 2,
+  "nextAction": "Review and freeze the planned Stage 2 grouping-quality screen with the guarded foreground runner; no production promotion",
+  "originalFP16HistoricalGatePassed": false,
+  "paused": true,
+  "productionChanged": false,
+  "pythonTestsPassed": 48,
+  "safeToClose": true,
+  "stage2Started": false,
+  "status": "instrumented-generation-smoke-passed-stopped-for-review"
+}

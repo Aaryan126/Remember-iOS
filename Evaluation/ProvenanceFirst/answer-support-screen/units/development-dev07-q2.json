@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev07-q2",
+    "inputSHA256": "0016afc39e7233eb504fc0cd062ca6faf50b057c63043009bd05c3657943919e",
+    "rawSHA256": "1f0e64483d455033d665a1ce2300fd7ce9fe3ec4bfdc5d4b15c3b938ca3fd87b",
+    "requestCount": 1,
+    "reservationSHA256": "25c16c66c3a7f4ff37e5578048b9e80965b28cf2d628e12ce6c9b252d646301d",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.801148208338418,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "2a5d1affb72f73e3d9220896f331eb9dcea26f09935a0ae300aaccd5b384e4e8",
+            "quote": "For practice contact 17, no transmitter output-power measurement was taken. We recorded the callsign by ear. The antenna discussion considered hanging a wire over the courtyard."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21561344,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev07-q2"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "340ad12b4568e26e63ef53ad3f67eea3efbf22b36031786f8c7b6fce12da1275"
+}

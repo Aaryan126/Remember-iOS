@@ -1,0 +1,672 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "pdf",
+        "text": "Indigo rinse settling pilot follows one dye-house rinse batch through the small settling tub. This is an observation run, not permission to discharge water. Label every sample with the pilot name because the neighboring tub holds a different dye rinse."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f90128bd846d9a8496b107aa732eb8c0bce6cca7d6110878c4f51b756977645b"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "note",
+        "text": "Madder rinse charcoal pilot tracks the bench column that receives the red rinse batch. Its bottle labels and notes stay separate from the indigo settling run. The current plan is to compare appearances before deciding which laboratory analyses to request."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f90128bd846d9a8496b107aa732eb8c0bce6cca7d6110878c4f51b756977645b"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "914ad0ed5f0de5cac684a6471dd72a0e511cb99ae6dcd158924082be333e2270"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "The first Indigo rinse settling pilot strip labels the sample bottle IS-2. The strip shows a pale blue smear beside the identifier, but no concentration scale. It belongs to the initial sampling round that was later set aside."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f90128bd846d9a8496b107aa732eb8c0bce6cca7d6110878c4f51b756977645b"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "914ad0ed5f0de5cac684a6471dd72a0e511cb99ae6dcd158924082be333e2270"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b00315d8cff2c66f8914a8eaecab0085244188ead93e71605a19f4cadfb67c80"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "video",
+        "text": "Indigo rinse settling pilot and Madder rinse charcoal pilot share collection tray T6 beneath their sealed sample bottles. The bottles remain closed and retain separate labels. A tray spill would be logged for both pilots without declaring the samples identical."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f90128bd846d9a8496b107aa732eb8c0bce6cca7d6110878c4f51b756977645b"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "914ad0ed5f0de5cac684a6471dd72a0e511cb99ae6dcd158924082be333e2270"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b00315d8cff2c66f8914a8eaecab0085244188ead93e71605a19f4cadfb67c80"
+        }
+      },
+      "id": "e05",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c05"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f90128bd846d9a8496b107aa732eb8c0bce6cca7d6110878c4f51b756977645b"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "914ad0ed5f0de5cac684a6471dd72a0e511cb99ae6dcd158924082be333e2270"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b00315d8cff2c66f8914a8eaecab0085244188ead93e71605a19f4cadfb67c80"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "949daa2cdae338780e76325edbc4b57e3f2827060b2dd06d179e670c58147329"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "voice",
+        "text": "Please return the custody envelope to the clean cupboard after scanning it. The short memo never names a dye, bottle, or pilot. The speaker stops when someone enters the room, before explaining which analysis request the envelope belongs to."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f90128bd846d9a8496b107aa732eb8c0bce6cca7d6110878c4f51b756977645b"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "914ad0ed5f0de5cac684a6471dd72a0e511cb99ae6dcd158924082be333e2270"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b00315d8cff2c66f8914a8eaecab0085244188ead93e71605a19f4cadfb67c80"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "949daa2cdae338780e76325edbc4b57e3f2827060b2dd06d179e670c58147329"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6fa9f46985f0d5155ebc4b20a64316aa29136795eefdb4fab96d7501e5742057"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "note",
+        "text": "Madder rinse charcoal pilot will send its next sealed bottle to the bench labelled Cedar. The technician has not yet assigned a laboratory accession number. The instruction is about internal routing only, and does not report an analytical result."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f90128bd846d9a8496b107aa732eb8c0bce6cca7d6110878c4f51b756977645b"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "914ad0ed5f0de5cac684a6471dd72a0e511cb99ae6dcd158924082be333e2270"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b00315d8cff2c66f8914a8eaecab0085244188ead93e71605a19f4cadfb67c80"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "949daa2cdae338780e76325edbc4b57e3f2827060b2dd06d179e670c58147329"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6fa9f46985f0d5155ebc4b20a64316aa29136795eefdb4fab96d7501e5742057"
+        }
+      },
+      "id": "e08",
+      "kind": "correct",
+      "target": "localc05"
+    },
+    {
+      "assignments": [
+        "t:c07"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f90128bd846d9a8496b107aa732eb8c0bce6cca7d6110878c4f51b756977645b"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "914ad0ed5f0de5cac684a6471dd72a0e511cb99ae6dcd158924082be333e2270"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b00315d8cff2c66f8914a8eaecab0085244188ead93e71605a19f4cadfb67c80"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "949daa2cdae338780e76325edbc4b57e3f2827060b2dd06d179e670c58147329"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6fa9f46985f0d5155ebc4b20a64316aa29136795eefdb4fab96d7501e5742057"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "7d35e1aae971a8c6fb0e06ad544be01856cbb66af98cf8a12272ec3cdfc602dc"
+        }
+      },
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "link",
+        "text": "A treatment handbook offers settling diagrams relevant to Indigo rinse settling pilot. The diagrams use generic colored liquid and are not measurements from the dye house. Its example retention times are teaching examples, not the pilot's chosen operating settings."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f90128bd846d9a8496b107aa732eb8c0bce6cca7d6110878c4f51b756977645b"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "914ad0ed5f0de5cac684a6471dd72a0e511cb99ae6dcd158924082be333e2270"
+        },
+        "localc04": {
+          "archived": true,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b00315d8cff2c66f8914a8eaecab0085244188ead93e71605a19f4cadfb67c80"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "949daa2cdae338780e76325edbc4b57e3f2827060b2dd06d179e670c58147329"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6fa9f46985f0d5155ebc4b20a64316aa29136795eefdb4fab96d7501e5742057"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "7d35e1aae971a8c6fb0e06ad544be01856cbb66af98cf8a12272ec3cdfc602dc"
+        }
+      },
+      "id": "e10",
+      "kind": "archive",
+      "target": "localc04"
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f90128bd846d9a8496b107aa732eb8c0bce6cca7d6110878c4f51b756977645b"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "914ad0ed5f0de5cac684a6471dd72a0e511cb99ae6dcd158924082be333e2270"
+        },
+        "localc04": {
+          "archived": true,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b00315d8cff2c66f8914a8eaecab0085244188ead93e71605a19f4cadfb67c80"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "949daa2cdae338780e76325edbc4b57e3f2827060b2dd06d179e670c58147329"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6fa9f46985f0d5155ebc4b20a64316aa29136795eefdb4fab96d7501e5742057"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "7d35e1aae971a8c6fb0e06ad544be01856cbb66af98cf8a12272ec3cdfc602dc"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "776b1c2a8511f7ec07dbd985de5433ed9126337e6873d2170601f3312faabbba"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "image",
+        "text": "The dye-room notice announces replacement hooks for coats and aprons next week. It asks staff to empty their pockets before hanging garments. It gives no sample handling instructions, pilot identifiers, or dates for any water collection."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "02d6e28a9636eb17ec43a668e68f654fbb1becc3338836d09a3a19d68240b019"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f90128bd846d9a8496b107aa732eb8c0bce6cca7d6110878c4f51b756977645b"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "914ad0ed5f0de5cac684a6471dd72a0e511cb99ae6dcd158924082be333e2270"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b00315d8cff2c66f8914a8eaecab0085244188ead93e71605a19f4cadfb67c80"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "949daa2cdae338780e76325edbc4b57e3f2827060b2dd06d179e670c58147329"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6fa9f46985f0d5155ebc4b20a64316aa29136795eefdb4fab96d7501e5742057"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "7d35e1aae971a8c6fb0e06ad544be01856cbb66af98cf8a12272ec3cdfc602dc"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "776b1c2a8511f7ec07dbd985de5433ed9126337e6873d2170601f3312faabbba"
+        }
+      },
+      "id": "e12",
+      "kind": "restore",
+      "target": "localc04"
+    }
+  ],
+  "id": "history-eval05-chronological",
+  "queries": [
+    {
+      "afterEvent": "e09",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e07",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e07",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

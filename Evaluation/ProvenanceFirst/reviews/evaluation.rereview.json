@@ -1,0 +1,107 @@
+{
+  "reviewer": "/root/pf_review_eval",
+  "author": "/root/pf_author_eval",
+  "split": "evaluation",
+  "inputSHA256": "433b9421cf501a2511010ec4417099e1519f1622304673dd05ee7b6a2a492d2a",
+  "reviewType": "independent prediction-blind corrected-fixture re-review",
+  "priorReview": "reviews/evaluation.initial.json",
+  "validation": "fixtures.validate_split passed. Compared the initial reviewed snapshot with corrected authored input; inspected every changed event/task and all twelve rewritten uncertain cases, plus every event and task in replacement eval05. No development fixtures, model outputs, inference, or author-file edits.",
+  "resolutions": [
+    "eval05's exposed radio scenario was replaced entirely with carton artwork versus barcode-sample certification. The distinct current-status/physical-sample applicability mechanism is not a noun substitution of the earlier harbour approval case.",
+    "All twelve ambiguous captures still lack decisive project or authority context at their task prefixes; later user corrections are not imported as earlier evidence.",
+    "eval07 explicitly distinguishes physical custody handoff from unfinished documentation and proofreading.",
+    "eval08 receipt completion now causally depends on the outstanding-receipt record.",
+    "eval10 and eval11 current queries now include independently corroborating sources. Their historical queries explicitly request the original artifact, making exclusion of retrospective revisions appropriate.",
+    "eval12 includes both still-current west-entrance sources; clarification depends on the earlier checked sign and circulated brochure.",
+    "Relevant source/revision identities, not quote count or minimal jointly-required citation sets, were used to review the amended expectedEvidence lists."
+  ],
+  "libraries": [
+    {
+      "id": "eval01",
+      "verdict": "pass",
+      "issues": [
+        {
+          "location": "eval01/q1/rationale",
+          "severity": "warning",
+          "reason": "The rationale still mentions 'appendix wording', which was removed from the rewritten ambiguous source. The uncertainty verdict itself remains correct because a reused recorder and unidentified sequence do not resolve project identity.",
+          "suggestedFix": "Treat this as an obsolete explanatory phrase, not evidence. Refresh the rationale in a future metadata-only correction if needed; preserve hash-linked review history."
+        }
+      ]
+    },
+    {
+      "id": "eval02",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval03",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval04",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval05",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval06",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval07",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval08",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval09",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval10",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval11",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval12",
+      "verdict": "pass",
+      "issues": []
+    }
+  ],
+  "crossLibraryIssues": [
+    {
+      "location": "evaluation/libraries[*].tasks",
+      "severity": "warning",
+      "reason": "All twelve libraries retain a controlled mix of one uncertain, current, historical and overlap task. Many questions request one specific archived/restored artifact, and only a few permit several eligible evidence identities. This is a contract fixture suite rather than a representative distribution of real retrieval needs.",
+      "suggestedFix": "Keep this limitation in reports; broaden task distributions and multi-source recovery before release-quality or user-benefit claims."
+    },
+    {
+      "location": "evaluation/libraries[*].events[*].text",
+      "severity": "warning",
+      "reason": "Ambiguous voices are more natural after revision, but project boundaries, codes and related-background roles remain unusually explicit, while modality content is fictional text and annotations rather than raw media extraction.",
+      "suggestedFix": "Do not infer real-vault accuracy, calibrated uncertainty, OCR/ASR quality or user preferences from these labels. Evaluate less explicit, consented or independently grounded content separately later."
+    },
+    {
+      "location": "evaluation/family-isolation",
+      "severity": "warning",
+      "reason": "This reviewer intentionally did not inspect the development split. Replacement eval05 was checked against the exposed scenario identified in the initial review, but full cross-split family isolation requires root adjudication and manifests.",
+      "suggestedFix": "Preserve separate author/reviewer roles and perform root-level split/family isolation checks before freezing; do not describe this review as an independent audit of the unseen development split."
+    }
+  ]
+}

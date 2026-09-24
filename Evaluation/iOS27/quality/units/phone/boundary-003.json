@@ -1,0 +1,67 @@
+{
+  "rawPath": "attempts/phone/boundary-003/raw.json",
+  "rawSHA256": "a274086b29db86cb8056d68c34e7421a73144e6c86026fdd456a4ab75e56265e",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.31962895833567,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.375004886649549e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2276665833342122,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2777275000044028,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27876829166780226,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.31848179166991,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "0dfe646248e229f20b18b34bd05c4f034576338a3553ac63169b19c597248d6c",
+      "contextSize": 4096,
+      "generationSeconds": 5.039133833328378,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Morrow Works is restoring the slate roof of Northgate Library. Survey, scaffold hire, slate replacement and final leak inspection are one roof-restoration contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Northgate Library commissioned its window restoration under a different contract. It shares the roof job's scaffold contractor, but glazing acceptance and payment are independent of the slate-roof work.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Site voice note: The defect at Northgate is corrected. Ask the inspector to return tomorrow.",
+            "sourceID": "s05"
+          },
+          {
+            "quote": "The site voice note about 'the defect at Northgate' concerns the roof flashing and leak inspection, not the separately contracted windows.",
+            "sourceID": "s06"
+          }
+        ],
+        "rationale": "Both sources describe distinct undertakings: s01's slate-roof restoration and s02's window restoration, with no shared deliverable or corrective note linking them.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-003"
+  }
+}

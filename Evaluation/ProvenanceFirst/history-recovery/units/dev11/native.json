@@ -1,0 +1,710 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Tuesday community radio schedule coordinates the fictional station's evening broadcast blocks. Log every approved slot change and leave unfinished edits to their production teams. The oral-history segment is one item in the running order, not the whole scheduling project."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "voice",
+        "text": "Oral history segment editing will assemble a six-minute story about the old riverside workshop. Our sources are fictional interview transcripts. The schedule team decides the broadcast slot; this editing notebook tracks cuts, attribution and the final audio handoff."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c9665d1e4e2dd608cde226308cd78a629aa5e54e3167ba45360f372d546754ca"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "note",
+        "text": "Tuesday community radio schedule, first running order: place the oral-history segment at 19:12. Follow it with the volunteer announcements. This initial order is approved for rehearsal; a later approved edit may change the slot before the fictional transmission."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c9665d1e4e2dd608cde226308cd78a629aa5e54e3167ba45360f372d546754ca"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e559a88c7bf1fc512e60031393f1d16133486dea4286d1005c2b20c276038481"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "pdf",
+        "text": "Joint handoff for Tuesday community radio schedule and oral history segment editing: deliver a six-minute file with three seconds of clean room tone at the tail. The schedule operator checks duration while the editor checks that no interview word was clipped."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c9665d1e4e2dd608cde226308cd78a629aa5e54e3167ba45360f372d546754ca"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e559a88c7bf1fc512e60031393f1d16133486dea4286d1005c2b20c276038481"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d1b2757feac1177d27458a89cc47f030d5a82d8769b4ae7266b4c79f63de226e"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "note",
+        "text": "Oral history segment editing cut list: retain the narrator's sentence about the workshop bell. The interviewee's next line is truncated in the supplied transcript and must not be reconstructed from memory. The editor has left a flagged gap in the assembly."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "eab7c278a0aa674dd8351db5d89df99b4b2d00ed426e9482679c9c77399f074c"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e559a88c7bf1fc512e60031393f1d16133486dea4286d1005c2b20c276038481"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d1b2757feac1177d27458a89cc47f030d5a82d8769b4ae7266b4c79f63de226e"
+        }
+      },
+      "id": "e06",
+      "kind": "revise",
+      "target": "localc03",
+      "text": "Tuesday community radio schedule, first slot swap: place the oral-history segment at 19:26. The announcements move ahead of it to accommodate a volunteer's arrival. This revision replaces the rehearsal running order; the audio handoff length remains unchanged."
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "eab7c278a0aa674dd8351db5d89df99b4b2d00ed426e9482679c9c77399f074c"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e559a88c7bf1fc512e60031393f1d16133486dea4286d1005c2b20c276038481"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d1b2757feac1177d27458a89cc47f030d5a82d8769b4ae7266b4c79f63de226e"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e52dd60a917c9f110d30247016a76dae641d7ba3217a8eecbed536d90c985bcc"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "voice",
+        "text": "Poster-check voice memo for Tuesday community radio schedule: 'The rehearsal poster still says 19:12 for the oral history.' This is a report about an old poster, not approval to revert the running order. The poster photograph itself was not saved."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "eab7c278a0aa674dd8351db5d89df99b4b2d00ed426e9482679c9c77399f074c"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e559a88c7bf1fc512e60031393f1d16133486dea4286d1005c2b20c276038481"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d1b2757feac1177d27458a89cc47f030d5a82d8769b4ae7266b4c79f63de226e"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e52dd60a917c9f110d30247016a76dae641d7ba3217a8eecbed536d90c985bcc"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "55c9b62d30a42e4624dd3d42c97c8e9ae8986a52aa3e30d19b6f51dc722d4884"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "video",
+        "text": "Oral history segment editing listening check: the opening music masks the first consonant of the introduction. Lower the music under that sentence. This mix note does not give a broadcast time and does not change the schedule team's running order."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "a0a8cf190d2f66e1719c5a1609bd818cf722360f0e47f2b09e702dd68394c7a3"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e559a88c7bf1fc512e60031393f1d16133486dea4286d1005c2b20c276038481"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d1b2757feac1177d27458a89cc47f030d5a82d8769b4ae7266b4c79f63de226e"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e52dd60a917c9f110d30247016a76dae641d7ba3217a8eecbed536d90c985bcc"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "55c9b62d30a42e4624dd3d42c97c8e9ae8986a52aa3e30d19b6f51dc722d4884"
+        }
+      },
+      "id": "e09",
+      "kind": "revise",
+      "target": "localc03",
+      "text": "Tuesday community radio schedule, final running order: place the oral-history segment at 19:30. A four-minute station notice now precedes it. This final approval supersedes the first slot swap; the segment's six-minute content and clean tail are unchanged."
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "a0a8cf190d2f66e1719c5a1609bd818cf722360f0e47f2b09e702dd68394c7a3"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e559a88c7bf1fc512e60031393f1d16133486dea4286d1005c2b20c276038481"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d1b2757feac1177d27458a89cc47f030d5a82d8769b4ae7266b4c79f63de226e"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e52dd60a917c9f110d30247016a76dae641d7ba3217a8eecbed536d90c985bcc"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "55c9b62d30a42e4624dd3d42c97c8e9ae8986a52aa3e30d19b6f51dc722d4884"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "b4341c7e83dd297456fcdb8cc9707473a921094614b23e1167be4b1d314d38a1"
+        }
+      },
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "link",
+        "text": "A pacing article is background for oral history segment editing. It compares pauses in unrelated radio documentaries. Its sample running orders belong to those productions and do not alter the Tuesday community station's final schedule or supply missing interview words."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "a0a8cf190d2f66e1719c5a1609bd818cf722360f0e47f2b09e702dd68394c7a3"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e559a88c7bf1fc512e60031393f1d16133486dea4286d1005c2b20c276038481"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d1b2757feac1177d27458a89cc47f030d5a82d8769b4ae7266b4c79f63de226e"
+        },
+        "localc06": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e52dd60a917c9f110d30247016a76dae641d7ba3217a8eecbed536d90c985bcc"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "55c9b62d30a42e4624dd3d42c97c8e9ae8986a52aa3e30d19b6f51dc722d4884"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "b4341c7e83dd297456fcdb8cc9707473a921094614b23e1167be4b1d314d38a1"
+        }
+      },
+      "id": "e11",
+      "kind": "archive",
+      "target": "localc06"
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "a0a8cf190d2f66e1719c5a1609bd818cf722360f0e47f2b09e702dd68394c7a3"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e559a88c7bf1fc512e60031393f1d16133486dea4286d1005c2b20c276038481"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d1b2757feac1177d27458a89cc47f030d5a82d8769b4ae7266b4c79f63de226e"
+        },
+        "localc06": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e52dd60a917c9f110d30247016a76dae641d7ba3217a8eecbed536d90c985bcc"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "55c9b62d30a42e4624dd3d42c97c8e9ae8986a52aa3e30d19b6f51dc722d4884"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "b4341c7e83dd297456fcdb8cc9707473a921094614b23e1167be4b1d314d38a1"
+        },
+        "localc09": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "eab98d54a8c287db9a697457264c85f8a5e52ac4be05912b9c9a4a488b41f72c"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc09",
+        "modality": "image",
+        "text": "Tuesday community radio schedule operator card: cue the identification jingle before opening the evening blocks. The card points to the current running-order note for times and intentionally repeats no slot figures. A penciled coffee order in the margin is unrelated."
+      }
+    }
+  ],
+  "id": "history-dev11-chronological",
+  "queries": [
+    {
+      "afterEvent": "e07",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e07",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

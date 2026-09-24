@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-072/raw.json",
+  "rawSHA256": "918d42bdfd5cb5b9fe932a84d442f4d0850981ef51c8c37d427987804e5c01f5",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.631582583329873,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.6249984987080097e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22370408333517844,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2743197916643112,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2752158750008675,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.63006095833407,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "b2d1ab1a62df2f06c6e16924fd77246476c37fdd976f90f96eaf9b8d01db7f5d",
+      "contextSize": 4096,
+      "generationSeconds": 4.354235333332326,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Set up lamps, record weekly leaf mass and write the light-duration result as one experiment",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Fernbridge runs an independent basil irrigation trial. It uses the same cultivar and scales, but tests water frequency with its own control groups and result, not the light-duration hypothesis.",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources describe distinct basil trials\u2014one measuring light duration, the other measuring water frequency\u2014without shared continuity or renaming.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-072"
+  }
+}

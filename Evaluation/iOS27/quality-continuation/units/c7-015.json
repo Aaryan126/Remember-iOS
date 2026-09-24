@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-015/raw.json",
+  "rawSHA256": "8e6d46c100eff5a483c2192cf1252a09a436e7c58c1e80c3ba0ba01232755c09",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.778538375001517,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.29166539106518e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3170008750021225,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3720761250006035,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37313062499742955,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.7773865416675108,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "2ddb91d964b330180fb2c43c09b9d2bdbe3f0bd2939958721b93d02a8d19b480",
+      "contextSize": 4096,
+      "generationSeconds": 3.403331583336694,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Export mapping, rehearsal imports and cutover support belong to this migration engagement.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The LedgerTwo cutover was rolled back after a mapping fault. The new export and second cutover are recovery work in the original migration engagement, not a separately opened access-revocation incident.",
+            "sourceID": "s03"
+          }
+        ],
+        "rationale": "Both sources reference the ",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-015"
+  }
+}

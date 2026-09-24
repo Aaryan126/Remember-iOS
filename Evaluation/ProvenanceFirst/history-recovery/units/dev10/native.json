@@ -1,0 +1,752 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "pdf",
+        "text": "Cabinet beetle teaching loan will send a fictional drawer of pinned beetle specimens to a classroom display. Track loan terms and packing condition here. The label-imaging group is documenting the same drawer before departure, with its own image-quality checklist."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "note",
+        "text": "Beetle specimen label imaging will create readable photographs of the labels beneath six pinned specimens. This undertaking preserves label text; it does not identify specimens from appearance. The teaching loan team controls transport and return terms for the drawer."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4e300b052e603dc319ea4cee082c1492c54b5aeee5015e0221e4ac30f394f520"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "Drawer travel checklist for the cabinet beetle teaching loan and beetle specimen label imaging: photograph the closed drawer before fitting its foam corner blocks. The image team records seal condition; the loan team records who packed the blocks. Keep both records with their projects."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4e300b052e603dc319ea4cee082c1492c54b5aeee5015e0221e4ac30f394f520"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "456ad02097f27bbf64de838149776e12ec264a93b17ee2f1a6904aa8177a7458"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "image",
+        "text": "Beetle specimen label imaging test frame S4: the locality line is readable but the taxon line is hidden behind a pin. The extraction contains 'Ridge box 7' and a month only. No separate identification record accompanies this fictional specimen."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4e300b052e603dc319ea4cee082c1492c54b5aeee5015e0221e4ac30f394f520"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "456ad02097f27bbf64de838149776e12ec264a93b17ee2f1a6904aa8177a7458"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "124f079105ffad224d3b0b5f149f98a1d3da350e76dddf70dc18eda57d18d6e4"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "note",
+        "text": "Cabinet beetle teaching loan terms, first signed note: return the drawer by 18 November. The classroom display lasts one week. Keep the foam blocks in the transport box during display, and notify the lending cabinet before moving any pins."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4e300b052e603dc319ea4cee082c1492c54b5aeee5015e0221e4ac30f394f520"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "456ad02097f27bbf64de838149776e12ec264a93b17ee2f1a6904aa8177a7458"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "124f079105ffad224d3b0b5f149f98a1d3da350e76dddf70dc18eda57d18d6e4"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b402d3fd6f66b0df110b1af6c9dcc93bae07fdae963d8c4adbdb55c2350650a9"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "voice",
+        "text": "Cabinet beetle teaching loan packing observation: the left front foam block has a shallow split and should be replaced before shipment. The drawer itself has no recorded damage. This is a packing-material observation, not an alteration of the agreed loan term."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4e300b052e603dc319ea4cee082c1492c54b5aeee5015e0221e4ac30f394f520"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "456ad02097f27bbf64de838149776e12ec264a93b17ee2f1a6904aa8177a7458"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "206558eae2d5807a8c9f0aad3b8f98ce45cb2de933e7ea5ed908b1788fe7fad5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b402d3fd6f66b0df110b1af6c9dcc93bae07fdae963d8c4adbdb55c2350650a9"
+        }
+      },
+      "id": "e07",
+      "kind": "revise",
+      "target": "localc05",
+      "text": "Cabinet beetle teaching loan terms, signed extension: return the drawer by 25 November. The lender approved an extra display week. Keep the foam blocks in the transport box during display; the separate packing observation must be resolved before shipment."
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4e300b052e603dc319ea4cee082c1492c54b5aeee5015e0221e4ac30f394f520"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "456ad02097f27bbf64de838149776e12ec264a93b17ee2f1a6904aa8177a7458"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "206558eae2d5807a8c9f0aad3b8f98ce45cb2de933e7ea5ed908b1788fe7fad5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b402d3fd6f66b0df110b1af6c9dcc93bae07fdae963d8c4adbdb55c2350650a9"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "fe466e56ea272554c6721106eae0686455e4a5174b1d53e0081b8fa013247c52"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "pdf",
+        "text": "Beetle specimen label imaging settings card: use a neutral gray backing for label photographs. The camera's vivid preview is disabled so faded ink remains visible. This card is a capture procedure and cannot reconstruct label characters hidden by a pin."
+      }
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4e300b052e603dc319ea4cee082c1492c54b5aeee5015e0221e4ac30f394f520"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "456ad02097f27bbf64de838149776e12ec264a93b17ee2f1a6904aa8177a7458"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "206558eae2d5807a8c9f0aad3b8f98ce45cb2de933e7ea5ed908b1788fe7fad5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b402d3fd6f66b0df110b1af6c9dcc93bae07fdae963d8c4adbdb55c2350650a9"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "fe466e56ea272554c6721106eae0686455e4a5174b1d53e0081b8fa013247c52"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "a4d876aac1a22498f19d9b35285da0389f1cf52688da4cfdbac22e832e74e7cf"
+        }
+      },
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "image",
+        "text": "Loose transport slip: 'Box 3 to the side door.' No destination, collection name or drawer number is legible. Similar slips are used for teaching kits and cleaning supplies. The words do not establish a connection to this specimen loan."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4e300b052e603dc319ea4cee082c1492c54b5aeee5015e0221e4ac30f394f520"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "456ad02097f27bbf64de838149776e12ec264a93b17ee2f1a6904aa8177a7458"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "206558eae2d5807a8c9f0aad3b8f98ce45cb2de933e7ea5ed908b1788fe7fad5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b402d3fd6f66b0df110b1af6c9dcc93bae07fdae963d8c4adbdb55c2350650a9"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "fe466e56ea272554c6721106eae0686455e4a5174b1d53e0081b8fa013247c52"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a4d876aac1a22498f19d9b35285da0389f1cf52688da4cfdbac22e832e74e7cf"
+        }
+      },
+      "id": "e10",
+      "kind": "correct",
+      "target": "localc08"
+    },
+    {
+      "assignments": [
+        "t:c09"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4e300b052e603dc319ea4cee082c1492c54b5aeee5015e0221e4ac30f394f520"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "456ad02097f27bbf64de838149776e12ec264a93b17ee2f1a6904aa8177a7458"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "206558eae2d5807a8c9f0aad3b8f98ce45cb2de933e7ea5ed908b1788fe7fad5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b402d3fd6f66b0df110b1af6c9dcc93bae07fdae963d8c4adbdb55c2350650a9"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "fe466e56ea272554c6721106eae0686455e4a5174b1d53e0081b8fa013247c52"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a4d876aac1a22498f19d9b35285da0389f1cf52688da4cfdbac22e832e74e7cf"
+        },
+        "localc09": {
+          "archived": false,
+          "memberships": [
+            "t:c09"
+          ],
+          "revision": 0,
+          "textSHA256": "489c4f63a2d38c1632c1b9f834544b82c7cda938d90834791c3d831e14b94f03"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc09",
+        "modality": "link",
+        "text": "A mounting guide is background reading for beetle specimen label imaging. It illustrates labels at several heights using unrelated insect examples. The depicted species names do not identify specimen S4, whose taxon line remains hidden in our captured frame."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4e300b052e603dc319ea4cee082c1492c54b5aeee5015e0221e4ac30f394f520"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "456ad02097f27bbf64de838149776e12ec264a93b17ee2f1a6904aa8177a7458"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "206558eae2d5807a8c9f0aad3b8f98ce45cb2de933e7ea5ed908b1788fe7fad5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b402d3fd6f66b0df110b1af6c9dcc93bae07fdae963d8c4adbdb55c2350650a9"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "fe466e56ea272554c6721106eae0686455e4a5174b1d53e0081b8fa013247c52"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a4d876aac1a22498f19d9b35285da0389f1cf52688da4cfdbac22e832e74e7cf"
+        },
+        "localc09": {
+          "archived": false,
+          "memberships": [
+            "t:c09"
+          ],
+          "revision": 0,
+          "textSHA256": "489c4f63a2d38c1632c1b9f834544b82c7cda938d90834791c3d831e14b94f03"
+        },
+        "localc10": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a8b01c8e3c2e054799a6c77425203b4ee66c1d2367b6a756ef30defe0c3612f7"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc10",
+        "modality": "note",
+        "text": "Cabinet beetle teaching loan completion note: the replacement corner block is fitted and the drawer is ready for dispatch inspection. The final dispatch signature has not been recorded yet. The signed extension remains the source of the return deadline."
+      }
+    }
+  ],
+  "id": "history-dev10-chronological",
+  "queries": [
+    {
+      "afterEvent": "e05",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e08",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

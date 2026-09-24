@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-063/raw.json",
+  "rawSHA256": "98f65c92a38ff5da61564d77e91fcaa052300e52142b83cc591a73a273c0fa14",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.076330666663125,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.458328476175666e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.32351216666575056,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37603487500018673,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37707262500043726,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.074834250001004,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "9bf0be49e3dea67ce09f86191fca217de357956ea2ed6718d26f4d3ce1d6536a",
+      "contextSize": 4096,
+      "generationSeconds": 4.697057916666381,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Juniper Club's 2028 Winter Exchange is a single event: collect donated coats, book the hall and run the exchange on 6 December. Its receipts go into the 2028 event account.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "A Juniper member's home broadband installation is ticket WX-28. The event booking also used WX-28, but the member's private internet installation is unrelated to either Winter Exchange.",
+            "sourceID": "s07"
+          }
+        ],
+        "rationale": "Different projects are described: one is a 2028 Winter Exchange event and the other is a home broadband installation unrelated to the event.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-063"
+  }
+}

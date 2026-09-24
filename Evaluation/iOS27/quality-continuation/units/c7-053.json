@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-053/raw.json",
+  "rawSHA256": "c18944435ccdac57925fcdfbf4677ab2d5a4eee58d594fa0b6b032ed963fb13d",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.174506125003973,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.208334187045693e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2141387500014389,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26527887499833014,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2664406250041793,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.173229416664981,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "896c5fbcac41999766d835aaadf366940da18f6272700512e2519685d63e9bf3",
+      "contextSize": 4096,
+      "generationSeconds": 3.906164041662123,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Juniper Club's 2028 Winter Exchange is a single event: collect donated coats, book the hall and run the exchange on 6 December. Its receipts go into the 2028 event account.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Storage handover records the coat racks leaving the closed 2028 Winter Exchange and being reserved for the separate 2029 edition. Both event teams must sign the handover.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources reference distinct years: s01 mentions 2028, s04 mentions 2029, indicating different events.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-053"
+  }
+}

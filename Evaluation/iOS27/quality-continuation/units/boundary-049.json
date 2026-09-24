@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-049/raw.json",
+  "rawSHA256": "9784027d048c2a9a470eea4b8fe6fdf2e75d0021cfae1a9786a75ce85bd855a5",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.351733416668139,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.7916615838184953e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3238223750013276,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3752393333343207,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3762241666627233,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.350645833328599,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "82058943c9e19265f2dff1d769a5d6e5c46eca23f71d2bc4996d2bd2125d3bc9",
+      "contextSize": 4096,
+      "generationSeconds": 3.9737352916708915,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal also commissioned a harbour weather bulletin. It is a different programme from the night-shift oral history, with its own delivery and approval, even though the same dock recording supplies background sound.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Studio booking covers both Pine Signal programmes: mix 'When the Quay Sleeps' in the morning and record the harbour weather bulletin afterward. Keep their separate programme approvals.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources describe distinct programme approvals for the harbour weather bulletin, with no indication of a shared project or continuity.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-049"
+  }
+}

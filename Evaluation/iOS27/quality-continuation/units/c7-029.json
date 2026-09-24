@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-029/raw.json",
+  "rawSHA256": "33b770533dfb77196ea691ebaa1a61d0614f16cda183bc24d68f7e206219cc8e",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.657229249998636,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.333335138857365e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.31614920833089855,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3689488749951124,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3700145833354327,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.655993166663393,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "4f8bab27cff827001acec93521a79be9f5221f2f5701a30e93fd58387bb4bf94",
+      "contextSize": 4096,
+      "generationSeconds": 3.2853427916634246,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Birchbank's Elm Reach reedbed survey is funded under another grant with its own habitat report.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Volunteer rota serves two Elm Reach grants: camera checks for the otter census on Tuesday, reed measurements for the reedbed survey on Thursday.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention Elm Reach but reference distinct survey and census activities without a shared continuing project.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-029"
+  }
+}

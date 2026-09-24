@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-014/raw.json",
+  "rawSHA256": "66f2e6d74ab90b261a4d46ad02daf3850b688465eefa7c031fb16e9837c4fcfa",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.3089823333284585,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.4166660043410957e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3213773333336576,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37356262499815784,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3746305416643736,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.307816958331387,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "2731925677f49fd03ce0aa1c6f7dc55e11ec8c71ddc6832c9f1a8d622ea41701",
+      "contextSize": 4096,
+      "generationSeconds": 3.932493250002153,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Juniper Club's 2028 Winter Exchange is a single event: collect donated coats, book the hall and run the exchange on 6 December. Its receipts go into the 2028 event account.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The club is separately planning the 2029 Winter Exchange. It reuses last year's coat racks, but has a new event date and its own account; do not include it in the 2028 event settlement.",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources describe distinct exchanges with different dates and administrative accounts, indicating unrelated undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-014"
+  }
+}

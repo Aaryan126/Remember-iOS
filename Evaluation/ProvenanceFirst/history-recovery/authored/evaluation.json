@@ -1,0 +1,4469 @@
+{
+  "schemaVersion": 1,
+  "split": "evaluation",
+  "libraries": [
+    {
+      "id": "eval01",
+      "family": "suspended-seabed-pass-with-shared-port-window",
+      "description": "An obsolete inspection pass remains archived while a common launch window joins two distinct submarine-cable surveys.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Morrow cable span inspection"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Pelican spur inspection"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Morrow cable span inspection covers the exposed cable between markers M8 and M11. This season's job is to photograph abrasion rather than replace the cable. The vessel book keeps port arrangements separate from seabed observations.",
+          "modality": "note",
+          "locator": "Inspection notebook, opening entry",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Morrow cable span inspection covers the exposed cable between markers M8 and M11."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Pelican spur inspection follows the short eastern branch beyond the junction box. A small camera sled will check the new protective sleeve. Its route and completion sign-off remain separate from the Morrow span inspection.",
+          "modality": "pdf",
+          "locator": "Pelican work order, page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Pelican spur inspection follows the short eastern branch beyond the junction box."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "The withdrawn Morrow pass card placed the first camera descent at marker M9. The handwritten margin says to approach from the sandy side because the rocky side obscures the sheath. It contains no water-depth measurement.",
+          "modality": "photo",
+          "locator": "Extracted pass-card lettering, front",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The withdrawn Morrow pass card placed the first camera descent at marker M9."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Morrow cable span inspection and Pelican spur inspection share the port departure slot at 06:40. One deck briefing serves both crews, but their underwater tracks stay separate. The galley request for tea does not change the departure slot.",
+          "modality": "voice",
+          "locator": "Extracted harbor briefing, 00:12–00:31",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Morrow cable span inspection and Pelican spur inspection share the port departure slot at 06:40."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [],
+          "text": "Box two needs a fresh seal before boarding. The scrap is unsigned and carries no route, vessel name, or cable identifier. A coffee ring covers what might once have been a job number; the remaining characters read only 'B-'.",
+          "modality": "photo",
+          "locator": "Extracted loose scrap, surviving center",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The unsigned scrap has no cable, route or usable job identifier, so the box-two instruction cannot yet be assigned.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "correct",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02",
+            "e05"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The explicit user correction supplies assignment authority.",
+            "evidence": []
+          },
+          "assignments": [
+            "p2"
+          ],
+          "reason": "File my unsigned box-two seal scrap with Pelican spur inspection; I wrote it for that camera box."
+        },
+        {
+          "id": "e07",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The withdrawn Morrow pass card placed the first camera descent at marker M9."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "A training leaflet about camera glare may help Morrow cable span inspection. Its demonstration cable is in a tank at a different harbor, and none of its example marker numbers identify our survey. Treat the leaflet as technique background.",
+          "modality": "link",
+          "locator": "Fictional training page, glare paragraph",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "A training leaflet about camera glare may help Morrow cable span inspection."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "archive",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e04"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Morrow cable span inspection and Pelican spur inspection share the port departure slot at 06:40."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "restore",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e04",
+            "e09"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Morrow cable span inspection and Pelican spur inspection share the port departure slot at 06:40."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Morrow cable span inspection now uses a green tie on the camera tether to mark the turnaround point. This is a deck-handling cue, not a measured seabed coordinate. Leave the unmarked spare tether in the locker.",
+          "modality": "video",
+          "locator": "Extracted deck demonstration, 01:03–01:20",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "Morrow cable span inspection now uses a green tie on the camera tether to mark the turnaround point."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "The cabin notice asks passengers to return enamel mugs before docking. It gives the washing-up rota and a drawing of the mug shelf. There are no cable identifiers, survey actions, or equipment assignments on the notice.",
+          "modality": "photo",
+          "locator": "Extracted cabin notice, whole text",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "A domestic vessel notice contains no undertaking assignment.",
+            "evidence": []
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "In the current Morrow inspection material, what tether cue marks the turnaround point?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s07",
+              "revision": 0,
+              "quote": "Morrow cable span inspection now uses a green tie on the camera tether to mark the turnaround point."
+            }
+          ],
+          "rationale": "The active deck demonstration gives the specific handling cue."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e08",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Include archived material: on the withdrawn Morrow pass card, which marker was specified for the first camera descent?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "The withdrawn Morrow pass card placed the first camera descent at marker M9."
+            }
+          ],
+          "rationale": "The requested unchanged card is archived at this prefix; no superseded revision is involved."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e10",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Which current briefing gives the shared port departure time for Morrow and Pelican?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "Morrow cable span inspection and Pelican spur inspection share the port departure slot at 06:40."
+            }
+          ],
+          "rationale": "The restored briefing belongs to both surveys and states their shared slot."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e05",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "Which cable inspection does the unsigned box-two seal scrap belong to, using what is recorded so far?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The scrap has no usable project identifier; the user correction has not happened."
+        }
+      ]
+    },
+    {
+      "id": "eval02",
+      "family": "retired-starter-sheet-with-production-handoff",
+      "description": "A bakery retains an archived inoculation sheet, revises a live shift note, and explicitly places an unlabelled rack record.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Juniper rye fermentation run"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Evening brioche proof trial"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Juniper rye fermentation run is our three-day check of the rye starter before Saturday's bake. Each jar gets a temperature strip and its own lid. The handwritten run name matters because the next bench holds an unrelated wheat starter.",
+          "modality": "note",
+          "locator": "Rye run notebook, cover entry",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Juniper rye fermentation run is our three-day check of the rye starter before Saturday's bake."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Juniper rye fermentation run used jar J4 for the first inoculation on the original bench sheet. A flour smear hides the feeding quantity, so that number is unreadable. The sheet asks the next shift to keep the jar upright.",
+          "modality": "photo",
+          "locator": "Extracted original bench sheet, top half",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Juniper rye fermentation run used jar J4 for the first inoculation on the original bench sheet."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Evening brioche proof trial compares the tall and shallow covered trays after mixing. It is a separate dough experiment from the rye run. The team will record tray position before considering any adjustment to proof duration.",
+          "modality": "note",
+          "locator": "Brioche trial notebook, first entry",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Evening brioche proof trial compares the tall and shallow covered trays after mixing."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [],
+          "text": "The rack was moved away from the warm wall after the second check. The voice memo says 'our dough' but gives no run name or tray mark. Fan noise masks the speaker's final sentence completely.",
+          "modality": "voice",
+          "locator": "Extracted unidentified shift memo, 00:00–00:18",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The rack memo names neither dough run nor tray and loses its final sentence to noise, leaving the undertaking unidentified.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Juniper rye fermentation run used jar J4 for the first inoculation on the original bench sheet."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "text": "Juniper rye fermentation run and Evening brioche proof trial share the cleaned thermometer after a fresh wipe between uses. The handoff is at the sink, not on either dough bench. Separate log sheets prevent their readings from being combined.",
+          "modality": "pdf",
+          "locator": "Hygiene handoff sheet, page 1",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "Juniper rye fermentation run and Evening brioche proof trial share the cleaned thermometer after a fresh wipe between uses."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e03"
+          ],
+          "text": "For Evening brioche proof trial, the next observation is scheduled at 19:10. Write tray height before opening the cover. The notebook still has an empty space for humidity; nobody has supplied a reading for that field.",
+          "modality": "note",
+          "locator": "Brioche shift note, original entry",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "For Evening brioche proof trial, the next observation is scheduled at 19:10."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "correct",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e03",
+            "e04"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The explicit user correction supplies assignment authority.",
+            "evidence": []
+          },
+          "assignments": [
+            "p2"
+          ],
+          "reason": "The rack-movement memo is mine and belongs to Evening brioche proof trial."
+        },
+        {
+          "id": "e09",
+          "kind": "revise",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e03",
+            "e07"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The note explicitly reschedules the same trial observation while retaining membership.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 1,
+                "quote": "For Evening brioche proof trial, the next observation is rescheduled to 19:25."
+              }
+            ]
+          },
+          "text": "For Evening brioche proof trial, the next observation is rescheduled to 19:25. The mixer cleanup delayed tray placement. Write tray height before opening the cover; the humidity field remains blank because no reading was taken.",
+          "locator": "Brioche shift note, amended entry"
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "A bakery supply article discusses washable temperature strips as background for Juniper rye fermentation run. Its photographs show a demonstration kitchen and are not observations of our jars. The price table is cropped out of this extract.",
+          "modality": "link",
+          "locator": "Fictional supplier article, reusable strips section",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "A bakery supply article discusses washable temperature strips as background for Juniper rye fermentation run."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "archive",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e06"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "Juniper rye fermentation run and Evening brioche proof trial share the cleaned thermometer after a fresh wipe between uses."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "restore",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e06",
+            "e11"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "Juniper rye fermentation run and Evening brioche proof trial share the cleaned thermometer after a fresh wipe between uses."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e10",
+          "mode": "current",
+          "scope": "current",
+          "question": "What is the currently scheduled next observation time for the Evening brioche proof trial?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 1,
+              "quote": "For Evening brioche proof trial, the next observation is rescheduled to 19:25."
+            }
+          ],
+          "rationale": "The active amendment explicitly replaces the earlier schedule."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e06",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Include history and find the jar identifier on the archived original bench sheet for the first Juniper rye inoculation.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "Juniper rye fermentation run used jar J4 for the first inoculation on the original bench sheet."
+            }
+          ],
+          "rationale": "The original sheet is archived, with no revision history."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "What current handoff document links the rye run and brioche trial through a shared instrument?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 0,
+              "quote": "Juniper rye fermentation run and Evening brioche proof trial share the cleaned thermometer after a fresh wipe between uses."
+            }
+          ],
+          "rationale": "The restored hygiene sheet explicitly serves both dough undertakings."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e07",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What was the actual relative humidity beside the brioche trays at the next-observation check?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The physical humidity value is unavailable: the observation field is blank and no other source supplies a measurement. The question requests the actual value, not whether a reading was recorded."
+        }
+      ]
+    },
+    {
+      "id": "eval03",
+      "family": "dome-shutter-quarantine-and-joint-power-isolation",
+      "description": "Two observatory service jobs share an isolation permit while a quarantined photograph preserves an obsolete latch mark.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "North dome shutter service"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Guide-camera bracket realignment"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "North dome shutter service will free the sticking lower shutter without altering the telescope mount. The job begins with a visual check of the latch and rail. A separate optical alignment crew is using the annex tonight.",
+          "modality": "pdf",
+          "locator": "Shutter service docket, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "North dome shutter service will free the sticking lower shutter without altering the telescope mount."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Guide-camera bracket realignment concerns the small camera under the north telescope saddle. The work stops at the bracket interface and excludes shutter repair. Record the mounting washers in order before undoing the retaining nut.",
+          "modality": "note",
+          "locator": "Alignment workpad, opening entry",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Guide-camera bracket realignment concerns the small camera under the north telescope saddle."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "The North dome shutter service intake photograph shows a violet chalk cross beside the old lower latch. The time stamp is partly cropped, but the chalk mark is clear. This image predates cleaning and is retained only as intake evidence.",
+          "modality": "photo",
+          "locator": "Extracted intake image annotation, lower-left label",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The North dome shutter service intake photograph shows a violet chalk cross beside the old lower latch."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The North dome shutter service intake photograph shows a violet chalk cross beside the old lower latch."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "North dome shutter service and Guide-camera bracket realignment use isolation permit D17 for the shared dome power cutoff. Each crew must sign its own completion box before power returns. The permit does not combine the repair and alignment records.",
+          "modality": "pdf",
+          "locator": "Isolation permit D17, work list",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "North dome shutter service and Guide-camera bracket realignment use isolation permit D17 for the shared dome power cutoff."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "archive",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e05"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "North dome shutter service and Guide-camera bracket realignment use isolation permit D17 for the shared dome power cutoff."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [],
+          "text": "The small fastener packet belongs on the upper shelf, away from loose washers. No equipment name appears on the envelope. Its pencilled initials are smeared, and the photograph does not show the surrounding bench or any docket number.",
+          "modality": "photo",
+          "locator": "Extracted packet envelope, readable face",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The packet envelope lacks an equipment name, docket number and readable initials, so the relevant service job is unknown.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "correct",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02",
+            "e07"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The explicit user correction supplies assignment authority.",
+            "evidence": []
+          },
+          "assignments": [
+            "p2"
+          ],
+          "reason": "Assign the upper-shelf fastener packet photo to Guide-camera bracket realignment; that packet holds its bracket screws."
+        },
+        {
+          "id": "e09",
+          "kind": "restore",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e05",
+            "e06"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "North dome shutter service and Guide-camera bracket realignment use isolation permit D17 for the shared dome power cutoff."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "North dome shutter service completed its dry travel check with the shutter stopped at the yellow rail tab. The technician heard no scrape at that position. This note reports the stop cue only; it gives neither motor current nor rail clearance.",
+          "modality": "voice",
+          "locator": "Extracted dry-check memo, 00:08–00:29",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "North dome shutter service completed its dry travel check with the shutter stopped at the yellow rail tab."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "An observatory maintenance primer is background reading for North dome shutter service. The example shutter uses a different drive and latch, so its dimensions cannot be transferred to ours. The relevant paragraph describes keeping loose cloth away from rails.",
+          "modality": "link",
+          "locator": "Fictional maintenance primer, cloth caution",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "An observatory maintenance primer is background reading for North dome shutter service."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "The annex notice lists a public stargazing talk and asks visitors to use the side stairs. Its little moon diagram is a decoration. There are no service dockets, camera bracket details, or crew assignments in the notice.",
+          "modality": "photo",
+          "locator": "Extracted annex noticeboard, poster text",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "Public visitor logistics are independent of both maintenance jobs.",
+            "evidence": []
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "In the current North dome shutter dry-check memo, what marked the stopping position?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 0,
+              "quote": "North dome shutter service completed its dry travel check with the shutter stopped at the yellow rail tab."
+            }
+          ],
+          "rationale": "The active dry-check memo provides the cue."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e05",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Search archived history: what chalk mark was visible beside the old lower latch in the North dome intake photograph?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "The North dome shutter service intake photograph shows a violet chalk cross beside the old lower latch."
+            }
+          ],
+          "rationale": "Only the archived unchanged intake photograph states the requested visual annotation."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e09",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Which currently available permit covers the power cutoff for both the shutter service and camera bracket work?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "North dome shutter service and Guide-camera bracket realignment use isolation permit D17 for the shared dome power cutoff."
+            }
+          ],
+          "rationale": "The restored permit is shared evidence, without merging the undertakings."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e10",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What motor-current value was measured during the North dome shutter dry travel check?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The memo explicitly provides no motor-current measurement."
+        }
+      ]
+    },
+    {
+      "id": "eval04",
+      "family": "instrument-case-recall-with-temporary-manifest-reopening",
+      "description": "A temporarily reopened transport manifest is archived again after a case identification correction; a vehicle allocation serves two ensembles.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Larch quartet instrument transfer"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Copper wind quintet tour freight"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Larch quartet instrument transfer covers four borrowed string instruments travelling to the hill hall. Each case travels with a paper condition slip. Players' personal luggage is outside this transfer, even when it rides on the same vehicle.",
+          "modality": "note",
+          "locator": "Quartet transfer book, opening entry",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Larch quartet instrument transfer covers four borrowed string instruments travelling to the hill hall."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "The first Larch quartet instrument transfer manifest assigned the cello case to bay C. That loading arrangement was withdrawn before departure. A corner of the sheet is torn, but the bay letter and cello line remain fully legible.",
+          "modality": "pdf",
+          "locator": "Withdrawn quartet manifest, page 1 cello row",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The first Larch quartet instrument transfer manifest assigned the cello case to bay C."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The first Larch quartet instrument transfer manifest assigned the cello case to bay C."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Copper wind quintet tour freight moves the ensemble's instrument cases and spare stands to the hill hall. The quintet has its own destination receipt. Sharing a driver with the quartet does not transfer custody of the wind instruments.",
+          "modality": "note",
+          "locator": "Quintet freight notebook, first entry",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Copper wind quintet tour freight moves the ensemble's instrument cases and spare stands to the hill hall."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [],
+          "text": "The long case needs a second strap before the vehicle doors close. The handwritten card has no instrument name, ensemble name, or destination. A fragment of a printed shipping label underneath it cannot be read from this angle.",
+          "modality": "photo",
+          "locator": "Extracted strap reminder card, front",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The strap card names no instrument, ensemble or destination; a long case could belong to either freight undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The first Larch quartet instrument transfer manifest assigned the cello case to bay C."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "correct",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e05"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The explicit user correction supplies assignment authority.",
+            "evidence": []
+          },
+          "assignments": [
+            "p1"
+          ],
+          "reason": "My long-case strap card is for the Larch quartet instrument transfer. Please file it with the quartet, not the wind freight."
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e04"
+          ],
+          "text": "Larch quartet instrument transfer and Copper wind quintet tour freight share vehicle Rowan for the outbound journey. The loading lead keeps separate bay sheets for the two ensembles. A packet of spare straps sits in the front cab.",
+          "modality": "voice",
+          "locator": "Extracted joint loading call, 00:21–00:44",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "Larch quartet instrument transfer and Copper wind quintet tour freight share vehicle Rowan for the outbound journey."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e06"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The first Larch quartet instrument transfer manifest assigned the cello case to bay C."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "The live Larch quartet instrument transfer dispatch slip places the cello case in bay A. This is the replacement loading instruction after the abandoned first manifest. Keep the case handle facing the aisle so the receiving steward can check its tag.",
+          "modality": "pdf",
+          "locator": "Replacement quartet dispatch slip, cello row",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The replacement slip explicitly continues the same transfer and replaces the old loading instruction.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "The live Larch quartet instrument transfer dispatch slip places the cello case in bay A."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e04"
+          ],
+          "text": "Copper wind quintet tour freight will unload the bassoon case first at the hill hall. The steward will meet the driver inside the covered entrance. No receipt signature is present yet; this is a proposed unloading order, not delivery confirmation.",
+          "modality": "voice",
+          "locator": "Extracted quintet unloading plan, 00:02–00:20",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "Copper wind quintet tour freight will unload the bassoon case first at the hill hall."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01",
+            "e04"
+          ],
+          "text": "A packing guide discusses curved foam supports as background for both Larch quartet instrument transfer and Copper wind quintet tour freight. Its sample case belongs to a teaching collection elsewhere. The guide contains no booking or custody instructions for this journey.",
+          "modality": "link",
+          "locator": "Fictional case-care guide, foam section",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1",
+              "p2"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "A packing guide discusses curved foam supports as background for both Larch quartet instrument transfer and Copper wind quintet tour freight."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "Which bay does the live quartet dispatch slip assign to the cello case now?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 0,
+              "quote": "The live Larch quartet instrument transfer dispatch slip places the cello case in bay A."
+            }
+          ],
+          "rationale": "The active replacement slip states the operative loading bay."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e09",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Include archived history: which bay did the first quartet manifest assign to the cello before that arrangement was withdrawn?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "The first Larch quartet instrument transfer manifest assigned the cello case to bay C."
+            }
+          ],
+          "rationale": "The initial manifest was restored briefly and is archived again at this prefix, without any revision."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e08",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Which current loading-call record names the vehicle shared by the quartet transfer and wind quintet freight?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 0,
+              "quote": "Larch quartet instrument transfer and Copper wind quintet tour freight share vehicle Rowan for the outbound journey."
+            }
+          ],
+          "rationale": "A shared vehicle record links two separately accountable freight jobs."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e11",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What is the manufacturer's serial number on the Copper wind quintet bassoon case?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The unloading order identifies the bassoon case but no retained source supplies its serial number."
+        }
+      ]
+    },
+    {
+      "id": "eval05",
+      "family": "runoff-sample-custody-separation-with-retrieved-strip",
+      "description": "Two treatment pilots share a collection tray, while the archived first dye strip and a corrected custody note must retain their separate roles.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Indigo rinse settling pilot"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Madder rinse charcoal pilot"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Indigo rinse settling pilot follows one dye-house rinse batch through the small settling tub. This is an observation run, not permission to discharge water. Label every sample with the pilot name because the neighboring tub holds a different dye rinse.",
+          "modality": "pdf",
+          "locator": "Settling pilot cover sheet, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Indigo rinse settling pilot follows one dye-house rinse batch through the small settling tub."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Madder rinse charcoal pilot tracks the bench column that receives the red rinse batch. Its bottle labels and notes stay separate from the indigo settling run. The current plan is to compare appearances before deciding which laboratory analyses to request.",
+          "modality": "note",
+          "locator": "Charcoal pilot notebook, first entry",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Madder rinse charcoal pilot tracks the bench column that receives the red rinse batch."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "The first Indigo rinse settling pilot strip labels the sample bottle IS-2. The strip shows a pale blue smear beside the identifier, but no concentration scale. It belongs to the initial sampling round that was later set aside.",
+          "modality": "photo",
+          "locator": "Extracted initial dye strip, bottle label",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The first Indigo rinse settling pilot strip labels the sample bottle IS-2."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Indigo rinse settling pilot and Madder rinse charcoal pilot share collection tray T6 beneath their sealed sample bottles. The bottles remain closed and retain separate labels. A tray spill would be logged for both pilots without declaring the samples identical.",
+          "modality": "video",
+          "locator": "Extracted sample-room walkthrough, 00:40–01:00",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Indigo rinse settling pilot and Madder rinse charcoal pilot share collection tray T6 beneath their sealed sample bottles."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The first Indigo rinse settling pilot strip labels the sample bottle IS-2."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [],
+          "text": "Please return the custody envelope to the clean cupboard after scanning it. The short memo never names a dye, bottle, or pilot. The speaker stops when someone enters the room, before explaining which analysis request the envelope belongs to.",
+          "modality": "voice",
+          "locator": "Extracted cupboard memo, 00:00–00:13",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The custody-envelope memo names no dye, bottle or pilot, so it does not establish which treatment run owns the paperwork.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Madder rinse charcoal pilot will send its next sealed bottle to the bench labelled Cedar. The technician has not yet assigned a laboratory accession number. The instruction is about internal routing only, and does not report an analytical result.",
+          "modality": "note",
+          "locator": "Charcoal pilot dispatch note",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "Madder rinse charcoal pilot will send its next sealed bottle to the bench labelled Cedar."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "correct",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02",
+            "e06"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The explicit user correction supplies assignment authority.",
+            "evidence": []
+          },
+          "assignments": [
+            "p2"
+          ],
+          "reason": "The custody-envelope memo is for Madder rinse charcoal pilot. Keep the indigo paperwork separate."
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "A treatment handbook offers settling diagrams relevant to Indigo rinse settling pilot. The diagrams use generic colored liquid and are not measurements from the dye house. Its example retention times are teaching examples, not the pilot's chosen operating settings.",
+          "modality": "link",
+          "locator": "Fictional handbook, settling diagram caption",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "A treatment handbook offers settling diagrams relevant to Indigo rinse settling pilot."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "archive",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e04"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Indigo rinse settling pilot and Madder rinse charcoal pilot share collection tray T6 beneath their sealed sample bottles."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "The dye-room notice announces replacement hooks for coats and aprons next week. It asks staff to empty their pockets before hanging garments. It gives no sample handling instructions, pilot identifiers, or dates for any water collection.",
+          "modality": "photo",
+          "locator": "Extracted staff notice, complete poster",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "Staff garment storage is independent of the treatment pilots.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "restore",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e04",
+            "e10"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Indigo rinse settling pilot and Madder rinse charcoal pilot share collection tray T6 beneath their sealed sample bottles."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e09",
+          "mode": "current",
+          "scope": "current",
+          "question": "Where does the current Madder charcoal dispatch note send the next sealed bottle?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 0,
+              "quote": "Madder rinse charcoal pilot will send its next sealed bottle to the bench labelled Cedar."
+            }
+          ],
+          "rationale": "The active dispatch note names the internal destination."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e07",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Include archived records: what bottle identifier appears on the first indigo settling strip from the round that was set aside?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "The first Indigo rinse settling pilot strip labels the sample bottle IS-2."
+            }
+          ],
+          "rationale": "The first strip is an archived, unrevised extraction."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Which currently available walkthrough identifies the collection tray shared by both rinse pilots?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "Indigo rinse settling pilot and Madder rinse charcoal pilot share collection tray T6 beneath their sealed sample bottles."
+            }
+          ],
+          "rationale": "The restored walkthrough documents an actual shared handling resource."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e07",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What is the dye concentration in the next sealed Madder charcoal-pilot sample?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The dispatch note gives only an internal destination and supplies no analytical concentration. The actual concentration cannot be recovered."
+        }
+      ]
+    },
+    {
+      "id": "eval06",
+      "family": "clock-intake-mark-versus-live-bench-sequence",
+      "description": "An archived intake annotation records an old alignment mark, distinct from revised conservation work and a shared protective enclosure.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Alder tower dial conservation"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Alder chime train conservation"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Alder tower dial conservation covers the painted face and its brass hand collars. The conservation notebook follows surface work without authorizing changes to the tower mechanism. Removed screws go into the dial tray with a paper location sketch.",
+          "modality": "note",
+          "locator": "Dial conservation notebook, opening leaf",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Alder tower dial conservation covers the painted face and its brass hand collars."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Alder chime train conservation concerns the striking mechanism behind the dial wall. Its parts inventory is separate from the painted-face treatment. The conservator will document each hammer linkage before deciding whether any worn bush needs replacement.",
+          "modality": "pdf",
+          "locator": "Chime conservation brief, page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Alder chime train conservation concerns the striking mechanism behind the dial wall."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "The Alder tower dial conservation intake card records a red pencil dot below the numeral XI. The dot is an old alignment aid, not a painted feature to reconstruct. The card predates surface cleaning and contains no pigment identification.",
+          "modality": "photo",
+          "locator": "Extracted dial intake card, annotation below sketch",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The Alder tower dial conservation intake card records a red pencil dot below the numeral XI."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Alder tower dial conservation and Alder chime train conservation share the linen dust enclosure around the open tower work area. Each team signs the enclosure log after entering. The enclosure joins their access arrangements without joining their treatment decisions.",
+          "modality": "voice",
+          "locator": "Extracted tower access briefing, 00:10–00:30",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Alder tower dial conservation and Alder chime train conservation share the linen dust enclosure around the open tower work area."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "A dial-care pamphlet is background for Alder tower dial conservation. Its photograph depicts a station clock with different numerals and a modern finish. The pamphlet recommends documenting markings before cleaning but does not identify pigments in the Alder clock.",
+          "modality": "link",
+          "locator": "Fictional conservation pamphlet, documentation section",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "A dial-care pamphlet is background for Alder tower dial conservation."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The Alder tower dial conservation intake card records a red pencil dot below the numeral XI."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Alder chime train conservation will inspect the third hammer linkage first on the next bench session. Numbered paper tags follow the inventory order. The conservator has left the wear measurement column blank until the mechanism can be supported safely.",
+          "modality": "note",
+          "locator": "Chime bench sequence, initial note",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "Alder chime train conservation will inspect the third hammer linkage first on the next bench session."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "archive",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e04"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Alder tower dial conservation and Alder chime train conservation share the linen dust enclosure around the open tower work area."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "revise",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e02",
+            "e07"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "A changed support arrangement explicitly replaces the inspection order within the same conservation job.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 1,
+                "quote": "Alder chime train conservation will inspect the first hammer linkage first on the next bench session."
+              }
+            ]
+          },
+          "text": "Alder chime train conservation will inspect the first hammer linkage first on the next bench session. The support cradle now leaves that linkage accessible. This replaces the earlier inspection order; the wear measurement column remains blank.",
+          "locator": "Chime bench sequence, revised note"
+        },
+        {
+          "id": "e10",
+          "kind": "restore",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e04",
+            "e08"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Alder tower dial conservation and Alder chime train conservation share the linen dust enclosure around the open tower work area."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "The Alder tower dial conservation wrapping demonstration places each detached hand in a separate unbleached paper sleeve. No adhesive touches the painted surfaces. The demonstration ends before the hands are placed into storage, so it supplies no storage location.",
+          "modality": "video",
+          "locator": "Extracted wrapping demonstration, 02:02–02:25",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "The Alder tower dial conservation wrapping demonstration places each detached hand in a separate unbleached paper sleeve."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "The tower visitor leaflet explains the staircase count and where to leave umbrellas. A small clock illustration marks the meeting point. The leaflet contains no conservation docket, bench action, or permission to handle any mechanism parts.",
+          "modality": "pdf",
+          "locator": "Extracted visitor leaflet, page 2",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "Visitor wayfinding is independent of the two treatment undertakings.",
+            "evidence": []
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What is the current first linkage to inspect in the Alder chime train bench sequence?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 1,
+              "quote": "Alder chime train conservation will inspect the first hammer linkage first on the next bench session."
+            }
+          ],
+          "rationale": "The current revision explicitly replaces the earlier third-linkage order."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e07",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Look in archived history: where did the dial intake card place the old red pencil dot?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "The Alder tower dial conservation intake card records a red pencil dot below the numeral XI."
+            }
+          ],
+          "rationale": "The requested intake card is archived and never revised."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e10",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Which current briefing identifies the enclosure shared by the dial and chime conservation jobs?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "Alder tower dial conservation and Alder chime train conservation share the linen dust enclosure around the open tower work area."
+            }
+          ],
+          "rationale": "The restored shared briefing explicitly covers both projects."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "Which pigment was identified at the red pencil dot on the Alder dial?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No captured source provides pigment identification; the old card and background pamphlet do not supply an analysis."
+        }
+      ]
+    },
+    {
+      "id": "eval07",
+      "family": "lookout-fork-redirection-with-nonsuperseding-radio-echo",
+      "description": "A lookout foot route changes twice; a later radio echo of an abandoned fork is preserved without reinstating it.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "West escarpment lookout walk"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Pine hollow relay setup"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "West escarpment lookout walk is the team's pre-season route check between the lower gate and the lookout platform. The walk records access and sightlines, not fire response orders. Route changes belong in the working route note.",
+          "modality": "pdf",
+          "locator": "Lookout walk brief, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "West escarpment lookout walk is the team's pre-season route check between the lower gate and the lookout platform."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Pine hollow relay setup prepares the portable radio point below the lookout ridge. Its tasks are antenna placement and a short battery check. The relay team keeps its own setup record even when walkers carry a spare battery past the hollow.",
+          "modality": "note",
+          "locator": "Relay setup log, opening entry",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Pine hollow relay setup prepares the portable radio point below the lookout ridge."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "For West escarpment lookout walk, take the footpath past the split cedar at the fork. This is the initial scouting route, pending a check of the old steps. The distance box is empty because nobody has measured the path yet.",
+          "modality": "note",
+          "locator": "Working route note, initial fork choice",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "For West escarpment lookout walk, take the footpath past the split cedar at the fork."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "West escarpment lookout walk and Pine hollow relay setup share the gate key in pouch G2. The walker leaves the pouch with the relay lead after entry. Separate completion notes are still needed for route checking and radio setup.",
+          "modality": "voice",
+          "locator": "Extracted morning coordination call, 00:17–00:39",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "West escarpment lookout walk and Pine hollow relay setup share the gate key in pouch G2."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "revise",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "A discovered access obstruction explicitly replaces the first fork choice.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 1,
+                "quote": "For West escarpment lookout walk, take the switchback beside the dry gully at the fork."
+              }
+            ]
+          },
+          "text": "For West escarpment lookout walk, take the switchback beside the dry gully at the fork. The old steps on the split-cedar branch have loosened, so this replaces the initial choice. The distance box is still empty.",
+          "locator": "Working route note, first route amendment"
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e05"
+          ],
+          "text": "During West escarpment lookout walk, the radio operator repeated 'split cedar' while reading yesterday's route card aloud. She then said the card was stale and asked for the amended directions. This recording is a quotation of an old plan, not a new routing instruction.",
+          "modality": "voice",
+          "locator": "Extracted radio check, 00:41–01:03",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The later mention explicitly quotes a stale instruction without reversing the amendment.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "During West escarpment lookout walk, the radio operator repeated 'split cedar' while reading yesterday's route card aloud."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "A walking-path maintenance note offers background for West escarpment lookout walk. It describes generic timber step wear on another reserve's trail. The sketch is useful for recognising a loose tread, but it says nothing about which local fork to take.",
+          "modality": "link",
+          "locator": "Fictional trail-maintenance page, step sketch",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "A walking-path maintenance note offers background for West escarpment lookout walk."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "archive",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e07"
+          ],
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "A walking-path maintenance note offers background for West escarpment lookout walk."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Pine hollow relay setup recorded the spare battery under the striped cloth beside the mast case. No capacity test result is written here. The note only records where the team put the battery before assembling the antenna support.",
+          "modality": "photo",
+          "locator": "Extracted setup board, battery line",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "Pine hollow relay setup recorded the spare battery under the striped cloth beside the mast case."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "revise",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e05"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "A second obstruction explicitly updates the same route note.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 2,
+                "quote": "For West escarpment lookout walk, take the marked contour path at the fork."
+              }
+            ]
+          },
+          "text": "For West escarpment lookout walk, take the marked contour path at the fork. Fresh inspection found a fallen limb across the dry-gully switchback, so the contour path replaces that route. The distance box remains empty pending measurement.",
+          "locator": "Working route note, second route amendment"
+        },
+        {
+          "id": "e11",
+          "kind": "restore",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e07",
+            "e08"
+          ],
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "A walking-path maintenance note offers background for West escarpment lookout walk."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "The lookout platform video records a loose paper map being clipped to the West escarpment lookout walk clipboard. No route lines or distances can be read in the extract. The clip colour is white and the wind repeatedly lifts the paper edge.",
+          "modality": "video",
+          "locator": "Extracted platform setup, 00:05–00:19",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "The lookout platform video records a loose paper map being clipped to the West escarpment lookout walk clipboard."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What path does the current West escarpment working route note choose at the fork?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 2,
+              "quote": "For West escarpment lookout walk, take the marked contour path at the fork."
+            }
+          ],
+          "rationale": "The latest working-note revision supersedes both earlier choices; the radio echo does not reinstate them."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e10",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Include prior versions: in the initial version of the working route note itself, before either amendment, which path was chosen at the fork?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "For West escarpment lookout walk, take the footpath past the split cedar at the fork."
+            }
+          ],
+          "rationale": "The question specifically requests the initial working-note version; its source remains active with revision 2. The later radio quotation is not that document."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e09",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Which current coordination recording identifies the key pouch shared by the lookout walk and relay setup?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "West escarpment lookout walk and Pine hollow relay setup share the gate key in pouch G2."
+            }
+          ],
+          "rationale": "The shared key arrangement is genuine cross-project evidence."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What is the actual length in metres of the currently chosen lookout contour route?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No captured source supplies the route's physical length; an empty measurement field does not determine that length."
+        }
+      ]
+    },
+    {
+      "id": "eval08",
+      "family": "ceramic-refit-reclassification-with-separated-find-records",
+      "description": "A working sherd classification changes as refitting proceeds, while context records and a shared photography session stay distinct.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Courtyard ceramic catalogue"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Kiln dump refit study"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Courtyard ceramic catalogue records pottery recovered from the gridded courtyard trench. Each entry preserves the find bag identifier even when a vessel interpretation changes. The catalogue is not the refit study of material from the separate kiln dump.",
+          "modality": "pdf",
+          "locator": "Courtyard catalogue instructions, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Courtyard ceramic catalogue records pottery recovered from the gridded courtyard trench."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Kiln dump refit study tests joins among fragments collected outside the old firing chamber. Refits receive temporary letters before a final drawing. The study retains its own find records rather than treating all ceramic pieces as one assemblage.",
+          "modality": "note",
+          "locator": "Kiln study notebook, opening page",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Kiln dump refit study tests joins among fragments collected outside the old firing chamber."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Courtyard ceramic catalogue provisionally lists sherd C27 as a bowl rim. The curved edge looks finished, but the break beneath it has not been checked under magnification. Keep the provisional description beside the bag identifier until that inspection is complete.",
+          "modality": "note",
+          "locator": "C27 catalogue working entry, initial description",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Courtyard ceramic catalogue provisionally lists sherd C27 as a bowl rim."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [],
+          "text": "A scale strip lies next to a reddish fragment with a blackened edge. The photograph crops out the bag label and the tray name. Only the scale ticks and a pencilled question mark are legible; the fragment cannot be assigned from this extraction.",
+          "modality": "photo",
+          "locator": "Extracted loose fragment photograph, central crop",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The cropped fragment photograph omits the bag and tray labels, preventing assignment to a particular ceramic undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Courtyard ceramic catalogue and Kiln dump refit study share photography board PB4 during the afternoon documentation session. Each tray is photographed separately with its own label. Sharing the board is a practical arrangement, not evidence that the fragments join.",
+          "modality": "voice",
+          "locator": "Extracted photography session briefing, 00:06–00:29",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "Courtyard ceramic catalogue and Kiln dump refit study share photography board PB4 during the afternoon documentation session."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "revise",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The revised observation explicitly changes a provisional classification within the same catalogue.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 1,
+                "quote": "Courtyard ceramic catalogue now lists sherd C27 as a jar shoulder fragment."
+              }
+            ]
+          },
+          "text": "Courtyard ceramic catalogue now lists sherd C27 as a jar shoulder fragment. Magnification revealed that the apparent finished edge is a break. This replaces the provisional bowl-rim description while retaining the original find bag identifier.",
+          "locator": "C27 catalogue working entry, magnification amendment"
+        },
+        {
+          "id": "e07",
+          "kind": "correct",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e02",
+            "e04"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The explicit user correction supplies assignment authority.",
+            "evidence": []
+          },
+          "assignments": [
+            "p2"
+          ],
+          "reason": "The cropped reddish-fragment photo belongs to Kiln dump refit study; I took it before placing the kiln tray label."
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Kiln dump refit study records a possible join between fragments KD8 and KD11. The dry fit has not been secured or assigned a final refit letter. A blank drawing box leaves room for the join orientation after another examination.",
+          "modality": "video",
+          "locator": "Extracted dry-fit demonstration, 00:35–00:54",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "Kiln dump refit study records a possible join between fragments KD8 and KD11."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "text": "A ceramic anatomy chart is background for Courtyard ceramic catalogue. It labels rims, shoulders and bases on a teaching vessel from elsewhere. Its terms help describe fragments but do not independently identify C27 or any courtyard find bag.",
+          "modality": "link",
+          "locator": "Fictional anatomy chart, shoulder caption",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "A ceramic anatomy chart is background for Courtyard ceramic catalogue."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "revise",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e06"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "A second revision refines the same classification without moving the source or its find context.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 2,
+                "quote": "Courtyard ceramic catalogue now lists sherd C27 as a storage-jar shoulder fragment with an applied ridge."
+              }
+            ]
+          },
+          "text": "Courtyard ceramic catalogue now lists sherd C27 as a storage-jar shoulder fragment with an applied ridge. A matching profile clarified the vessel form without changing its find context. This refines the earlier jar-shoulder description; the bag identifier remains C27.",
+          "locator": "C27 catalogue working entry, profile refinement"
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Courtyard ceramic catalogue stores the C27 working drawing in the grey folio. The location card describes the drawing's filing place only. It deliberately omits a vessel type so later catalogue refinements will not make the filing label misleading.",
+          "modality": "photo",
+          "locator": "Extracted drawing location card, readable text",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "Courtyard ceramic catalogue stores the C27 working drawing in the grey folio."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [],
+          "text": "The dig-house notice requests that empty tea tins go to the kitchen shelf. It has a sketch of a mug and no excavation grid, bag identifier, or pottery description. The note is ordinary accommodation housekeeping.",
+          "modality": "note",
+          "locator": "Dig-house notice transcription",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "Accommodation housekeeping has no ceramic undertaking assignment.",
+            "evidence": []
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "How does the current C27 catalogue working entry classify the sherd?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 2,
+              "quote": "Courtyard ceramic catalogue now lists sherd C27 as a storage-jar shoulder fragment with an applied ridge."
+            }
+          ],
+          "rationale": "Only the latest active revision states the current refined classification."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e10",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Include previous versions: what provisional classification appeared in the original C27 working entry before the magnification amendment?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "Courtyard ceramic catalogue provisionally lists sherd C27 as a bowl rim."
+            }
+          ],
+          "rationale": "This requests the original entry itself, which is superseded in an active note; the later amendment's retrospective wording is not the requested version."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e08",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "What current briefing records the photography board shared by the courtyard catalogue and kiln refit study?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 0,
+              "quote": "Courtyard ceramic catalogue and Kiln dump refit study share photography board PB4 during the afternoon documentation session."
+            }
+          ],
+          "rationale": "The shared photography resource does not imply shared archaeological context."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e09",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What angle in degrees is needed to align fragments KD8 and KD11 in the proposed dry fit?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The possible-join record and its blank orientation drawing do not provide an alignment angle."
+        }
+      ]
+    },
+    {
+      "id": "eval09",
+      "family": "timing-offset-recalibration-with-live-display-lag",
+      "description": "A timing calibration note changes after a cable swap while a filmed display still shows a stale offset.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Canal sprint timing calibration"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Velodrome pursuit timing calibration"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Canal sprint timing calibration checks the shore timing pair before the practice races. The initial correction offset is plus 0.08 seconds. This working note holds the calibration setting; competitor results and finish orders belong in separate race records.",
+          "modality": "note",
+          "locator": "Sprint calibration working note, initial setting",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Canal sprint timing calibration checks the shore timing pair before the practice races."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Velodrome pursuit timing calibration checks the track timing pair during the empty-track session. The operator will record loop alignment and trigger response separately. This undertaking has no authority over the canal sprint pair even though equipment cases look alike.",
+          "modality": "pdf",
+          "locator": "Pursuit calibration work sheet, page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Velodrome pursuit timing calibration checks the track timing pair during the empty-track session."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Canal sprint timing calibration and Velodrome pursuit timing calibration share reference pulse unit RP3 for their bench checks. The unit travels in a foam case with two adapters. Each timing pair still receives its own setting and acceptance record.",
+          "modality": "photo",
+          "locator": "Extracted equipment checkout card, pulse-unit row",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Canal sprint timing calibration and Velodrome pursuit timing calibration share reference pulse unit RP3 for their bench checks."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [],
+          "text": "The spare adapter is taped beneath the bench lip for the next run. The recording calls it 'the short one' and does not name a venue or device. A dropped word after 'for' prevents the assignment from being recovered.",
+          "modality": "voice",
+          "locator": "Extracted adapter memo, 00:03–00:15",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The adapter memo names neither venue nor device, and the missing word leaves its calibration assignment unresolved.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "correct",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e04"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The explicit user correction supplies assignment authority.",
+            "evidence": []
+          },
+          "assignments": [
+            "p1"
+          ],
+          "reason": "Put the short-adapter voice memo under Canal sprint timing calibration; it describes the shore bench."
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "A pulse-generator manual is background for Canal sprint timing calibration and Velodrome pursuit timing calibration. The extract explains how its indicator flashes during a bench check. Its sample correction values are illustrative and are not measured offsets for either timing pair.",
+          "modality": "link",
+          "locator": "Fictional pulse-unit manual, indicator paragraph",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1",
+              "p2"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "A pulse-generator manual is background for Canal sprint timing calibration and Velodrome pursuit timing calibration."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The explicit cable-swap recalibration updates the active root note without changing its project.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 1,
+                "quote": "Canal sprint timing calibration now uses a correction offset of minus 0.03 seconds."
+              }
+            ]
+          },
+          "text": "Canal sprint timing calibration now uses a correction offset of minus 0.03 seconds. A replacement cable changed the measured delay, so this setting replaces the initial offset. Record this working-note setting before the next practice race; no competitor results are included.",
+          "locator": "Sprint calibration working note, cable-swap amendment"
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e07"
+          ],
+          "text": "The Canal sprint timing calibration display video still shows plus 0.08 seconds on the frozen status screen. The operator says the display has not refreshed since the cable swap and directs the recorder to the amended working note. No new calibration is performed in the clip.",
+          "modality": "video",
+          "locator": "Extracted frozen-display clip, 00:20–00:44",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The stale display is explicitly distinguished from the changed setting and cannot supersede it.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "The Canal sprint timing calibration display video still shows plus 0.08 seconds on the frozen status screen."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "archive",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e06"
+          ],
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1",
+              "p2"
+            ],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "A pulse-generator manual is background for Canal sprint timing calibration and Velodrome pursuit timing calibration."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Velodrome pursuit timing calibration puts the loop-alignment marker beside lane line two for the empty-track check. The record does not give a trigger-latency measurement yet. A smudged lower row is unreadable and cannot be used as a result.",
+          "modality": "photo",
+          "locator": "Extracted track setup slate, upper row",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "Velodrome pursuit timing calibration puts the loop-alignment marker beside lane line two for the empty-track check."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "restore",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e06",
+            "e09"
+          ],
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1",
+              "p2"
+            ],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "A pulse-generator manual is background for Canal sprint timing calibration and Velodrome pursuit timing calibration."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "The boathouse notice asks spectators to leave folding chairs inside the marked rectangle. It gives a sketch of the walkway and says nothing about timing devices, pulse units, or calibration runs. The same paper advertises a lost scarf.",
+          "modality": "note",
+          "locator": "Boathouse notice transcription",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "Spectator housekeeping is independent of timing calibration.",
+            "evidence": []
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What correction offset does the current Canal sprint calibration working note require?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 1,
+              "quote": "Canal sprint timing calibration now uses a correction offset of minus 0.03 seconds."
+            }
+          ],
+          "rationale": "The amended working note supplies the current setting; the later frozen display is explicitly stale."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e08",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Include prior versions: recover the initial correction offset from the original Canal sprint working note, before its cable-swap amendment.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 0,
+              "quote": "The initial correction offset is plus 0.08 seconds."
+            }
+          ],
+          "rationale": "The requested original working-note revision is superseded but its source remains active. The question excludes the later display recording."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e10",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Which current equipment checkout record identifies the reference pulse unit shared by the canal and velodrome calibrations?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "Canal sprint timing calibration and Velodrome pursuit timing calibration share reference pulse unit RP3 for their bench checks."
+            }
+          ],
+          "rationale": "The checkout card is genuine shared evidence without shared calibration settings."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What trigger-latency measurement has been recorded for the velodrome pursuit timing pair?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The only track setup record explicitly lacks a trigger-latency value."
+        }
+      ]
+    },
+    {
+      "id": "eval10",
+      "family": "shared-cleaning-hold-note-corrected-before-revision",
+      "description": "An initially unidentified hold note is explicitly assigned to two membrane-cleaning runs, then revised without losing that shared assignment.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Brine train A membrane cleaning"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Brine train B membrane cleaning"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Brine train A membrane cleaning covers the first demonstration skid's removable membrane housing. This fictional exercise records cleaning-stage handoffs only. The housing remains separate from train B, and the log does not authorize operation of a real plant.",
+          "modality": "pdf",
+          "locator": "Train A cleaning docket, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Brine train A membrane cleaning covers the first demonstration skid's removable membrane housing."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [],
+          "text": "The initial shared hold is labelled Blue pause on the control-room scratch note. Do not copy a duration from the old wall chart; that chart has not been checked. The scratch note itself carries no train name or docket number.",
+          "modality": "note",
+          "locator": "Control-room scratch note, initial label",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The word shared gives no identifiable projects until the user supplies the missing assignments.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Brine train B membrane cleaning covers the second demonstration skid's removable membrane housing. The operator keeps a separate cleaning log and isolation tag for this train. Its sample labels are not interchangeable with those from the adjacent train A.",
+          "modality": "note",
+          "locator": "Train B cleaning log, opening entry",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Brine train B membrane cleaning covers the second demonstration skid's removable membrane housing."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "correct",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The explicit user correction supplies assignment authority.",
+            "evidence": []
+          },
+          "assignments": [
+            "p1",
+            "p2"
+          ],
+          "reason": "The control-room scratch note is the joint hold for Brine train A membrane cleaning and Brine train B membrane cleaning. Assign it to both."
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Brine train A membrane cleaning records its removed housing on padded bench Birch. The extracted bench photograph gives the bench name and train tag clearly. Glare hides the lower checklist, so it does not establish which cleaning stages have been completed.",
+          "modality": "photo",
+          "locator": "Extracted train A bench photograph, upper labels",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Brine train A membrane cleaning records its removed housing on padded bench Birch."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "revise",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e03",
+            "e04"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The revised note explicitly names both assigned trains and changes the hold label; user-confirmed shared membership persists.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 1,
+                "quote": "The shared hold for Brine train A membrane cleaning and Brine train B membrane cleaning is now labelled Amber pause."
+              }
+            ]
+          },
+          "text": "The shared hold for Brine train A membrane cleaning and Brine train B membrane cleaning is now labelled Amber pause. This label replaces Blue pause after the board was reorganised. The note still specifies no duration and provides no cleaning-chemistry instruction.",
+          "locator": "Control-room scratch note, relabelled joint hold"
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e03"
+          ],
+          "text": "A membrane-housing diagram provides background for Brine train B membrane cleaning. It shows a different demonstration model and labels inlet and outlet ends. It supplies neither a cleaning recipe nor evidence that any stage of the local cleaning run is complete.",
+          "modality": "link",
+          "locator": "Fictional demonstration manual, housing diagram",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "A membrane-housing diagram provides background for Brine train B membrane cleaning."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "archive",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e03",
+            "e07"
+          ],
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "A membrane-housing diagram provides background for Brine train B membrane cleaning."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e03"
+          ],
+          "text": "Brine train B membrane cleaning places the next sample bottle in rack RB2 pending a label check. The audio stops before the checker answers. It reports a staging location only, with no concentration, temperature, or completion measurement.",
+          "modality": "voice",
+          "locator": "Extracted train B handoff, 00:09–00:26",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "Brine train B membrane cleaning places the next sample bottle in rack RB2 pending a label check."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "restore",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e03",
+            "e07",
+            "e08"
+          ],
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "A membrane-housing diagram provides background for Brine train B membrane cleaning."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [],
+          "text": "The control-room notice assigns the spare chair to the visitor desk and asks staff not to block the exit. Its handwritten arrows point to furniture. It mentions neither membrane train nor cleaning work and provides no process instructions.",
+          "modality": "photo",
+          "locator": "Extracted furniture notice, complete text",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "A furniture notice has no cleaning-run assignment.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Brine train A membrane cleaning has an empty completion-signature box on its handoff sheet. The operator has initialled the equipment-identification row only. Those initials confirm which housing was recorded, not that the cleaning run is finished.",
+          "modality": "pdf",
+          "locator": "Train A handoff sheet, signature section",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "Brine train A membrane cleaning has an empty completion-signature box on its handoff sheet."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What label does the current control-room scratch note use for the shared cleaning hold?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 1,
+              "quote": "The shared hold for Brine train A membrane cleaning and Brine train B membrane cleaning is now labelled Amber pause."
+            }
+          ],
+          "rationale": "The active revision explicitly supplies the replacement hold label."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e06",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Include previous versions: what hold label appeared in the initial control-room scratch note, before it was relabelled?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "The initial shared hold is labelled Blue pause on the control-room scratch note."
+            }
+          ],
+          "rationale": "The original note revision is superseded and active; the question requests that original version, not its retrospective mention in the update."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e09",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Which currently available note explicitly names the hold shared by both membrane-cleaning runs?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 1,
+              "quote": "The shared hold for Brine train A membrane cleaning and Brine train B membrane cleaning is now labelled Amber pause."
+            }
+          ],
+          "rationale": "The revised note directly names both projects and retains the explicit shared assignment."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What is the internal bore diameter, in millimetres, of the train B membrane housing?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No retained source provides the housing's internal diameter; the background diagram depicts a different model and cannot supply the local dimension."
+        }
+      ]
+    },
+    {
+      "id": "eval11",
+      "family": "wayfinding-placement-note-disambiguated-by-custody",
+      "description": "A location-free installation note is assigned by its author, revised after a doorway conflict, and kept separate from a shared storage instruction.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Museum east-entry tactile route"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Museum courtyard tactile route"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Museum east-entry tactile route installs raised guidance strips between the entry vestibule and the information counter. The route record follows this indoor segment only. Courtyard paving has a separate installation drawing even though both routes meet near the counter.",
+          "modality": "pdf",
+          "locator": "East-entry installation drawing, title block",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Museum east-entry tactile route installs raised guidance strips between the entry vestibule and the information counter."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Museum courtyard tactile route installs raised guidance strips from the garden gate to the covered threshold. The team will record doorway clearances before fixing the final strip. This route has its own drawing and sign-off apart from the indoor entry segment.",
+          "modality": "note",
+          "locator": "Courtyard installation log, opening entry",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Museum courtyard tactile route installs raised guidance strips from the garden gate to the covered threshold."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [],
+          "text": "Place the first test strip beside the round planter. This is the initial placement note from a walk-through, before doorway clearances were checked. The page has no room name or drawing number, and its location cannot be identified from the extracted text alone.",
+          "modality": "note",
+          "locator": "Loose test-strip note, original wording",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The loose strip note lacks a room name or drawing number, so the planter alone does not identify the indoor or courtyard route.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Museum east-entry tactile route and Museum courtyard tactile route share storage crate TC5 for unopened test strips. Opened samples go into separate labelled sleeves after each check. Sharing stock does not establish that either route has passed a usability review.",
+          "modality": "photo",
+          "locator": "Extracted stockroom crate card, route list",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Museum east-entry tactile route and Museum courtyard tactile route share storage crate TC5 for unopened test strips."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "correct",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e02",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The explicit user correction supplies assignment authority.",
+            "evidence": []
+          },
+          "assignments": [
+            "p2"
+          ],
+          "reason": "My round-planter test-strip note belongs to Museum courtyard tactile route; that walk-through was outside by the garden gate."
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "The Museum east-entry tactile route fitting video shows the loose sample ending before the mat recess. The installer calls it a temporary dry fit and leaves it unsecured. The recording gives no participant feedback or completed accessibility assessment.",
+          "modality": "video",
+          "locator": "Extracted indoor dry-fit clip, 01:10–01:29",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "The Museum east-entry tactile route fitting video shows the loose sample ending before the mat recess."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "revise",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e02",
+            "e03",
+            "e05"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "A user-assigned note becomes explicit about its route and replaces the initial placement after a clearance check.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 1,
+                "quote": "For Museum courtyard tactile route, place the first test strip beside the square drain cover."
+              }
+            ]
+          },
+          "text": "For Museum courtyard tactile route, place the first test strip beside the square drain cover. The doorway check found the planter position crossed the door swing, so this replaces that initial placement. The strip remains a removable trial pending observation.",
+          "locator": "Loose test-strip note, doorway-check amendment"
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "A raised-strip product leaflet is background for Museum east-entry tactile route and Museum courtyard tactile route. Its diagrams show stock profiles only, with no museum floor plan or test participants. The leaflet cannot serve as the museum's installation acceptance record.",
+          "modality": "link",
+          "locator": "Fictional product leaflet, profile diagrams",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1",
+              "p2"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "A raised-strip product leaflet is background for Museum east-entry tactile route and Museum courtyard tactile route."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "archive",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e08"
+          ],
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1",
+              "p2"
+            ],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "A raised-strip product leaflet is background for Museum east-entry tactile route and Museum courtyard tactile route."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02",
+            "e07"
+          ],
+          "text": "Museum courtyard tactile route keeps its removable trial strips in the shallow tray beside the covered threshold after each session. The spoken reminder concerns overnight tidiness. It does not change the placement specified in the amended loose note.",
+          "modality": "voice",
+          "locator": "Extracted outdoor pack-up reminder, 00:04–00:22",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "This continuation describes storage and explicitly leaves the amended placement unchanged.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "Museum courtyard tactile route keeps its removable trial strips in the shallow tray beside the covered threshold after each session."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "restore",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e08",
+            "e09"
+          ],
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1",
+              "p2"
+            ],
+            "rationale": "Visibility changes preserve the source's existing relationships and revision.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "A raised-strip product leaflet is background for Museum east-entry tactile route and Museum courtyard tactile route."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "The museum cafe notice asks guests to return trays to the hatch and keep the garden gate clear. A small leaf drawing decorates its border. No tactile-route drawing, strip placement, or participant observation appears on the notice.",
+          "modality": "photo",
+          "locator": "Extracted cafe notice, whole poster",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "Cafe housekeeping does not belong to either installation undertaking.",
+            "evidence": []
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "Where does the current amended courtyard test-strip note place the first trial strip?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 1,
+              "quote": "For Museum courtyard tactile route, place the first test strip beside the square drain cover."
+            }
+          ],
+          "rationale": "The live note replaces the original placement and retains the user's courtyard assignment."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e07",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Include prior versions: where did the original loose test-strip note say to put the first strip before the doorway-check amendment?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "Place the first test strip beside the round planter."
+            }
+          ],
+          "rationale": "The original revision of the active note is specifically requested, irrespective of its later assignment clarification."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e08",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Which current stockroom card names the crate shared by both museum tactile-route installations?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "Museum east-entry tactile route and Museum courtyard tactile route share storage crate TC5 for unopened test strips."
+            }
+          ],
+          "rationale": "A shared storage resource genuinely serves both installations without implying acceptance."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What participant satisfaction score was recorded for the courtyard tactile-route trial?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No participant feedback or scored trial result exists in the observed sources."
+        }
+      ]
+    },
+    {
+      "id": "eval12",
+      "family": "cryostorage-cassette-compatibility-splits-handoff",
+      "description": "A cassette compatibility manifest splits one batch's provisional handoff into two groups, while another batch keeps separate records on a shared trolley.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Highland sedge cryostorage batch"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Coastal pea cryostorage batch"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Highland sedge cryostorage batch follows the seed bank's labelled sedge packets through a fictional scheduling exercise. The record tracks staff handoffs and storage slots only. It provides no biological protocol and does not establish viability for any packet.",
+          "modality": "pdf",
+          "locator": "Sedge batch docket, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Highland sedge cryostorage batch follows the seed bank's labelled sedge packets through a fictional scheduling exercise."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Coastal pea cryostorage batch follows a separate set of seed packets through the same scheduling room. Packet identifiers and batch records remain distinct from the highland sedge batch. The team will record the storage booking before considering a later viability assessment.",
+          "modality": "note",
+          "locator": "Pea batch scheduling book, opening entry",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Coastal pea cryostorage batch follows a separate set of seed packets through the same scheduling room."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Highland sedge cryostorage batch initially books one handoff for all six cassettes on Tuesday at 14:00. This working schedule awaits the carrier-insert compatibility check. The booking groups packets for administration only; it says nothing about exposure duration, storage temperature, or treatment of the seeds.",
+          "modality": "note",
+          "locator": "Sedge working schedule, initial booking",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Highland sedge cryostorage batch initially books one handoff for all six cassettes on Tuesday at 14:00."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Highland sedge cryostorage batch and Coastal pea cryostorage batch share trolley ST8 during separate handoff slots. The booking clerk keeps one slot sheet for the trolley and separate batch records. Neither batch's completion can be inferred from the other's booking.",
+          "modality": "photo",
+          "locator": "Extracted trolley checkout sheet, batch list",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Highland sedge cryostorage batch and Coastal pea cryostorage batch share trolley ST8 during separate handoff slots."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Coastal pea cryostorage batch will bring its packet list to desk Willow for the booking check. The list remains inside a sealed document wallet. The memo records a desk destination only; no viability test has been requested or reported here.",
+          "modality": "voice",
+          "locator": "Extracted pea booking memo, 00:02–00:21",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "Coastal pea cryostorage batch will bring its packet list to desk Willow for the booking check."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s11",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "text": "Highland sedge cryostorage batch cassettes H1–H4 fit the compact carrier insert, while H5–H6 require the long insert. The compatibility check found that one carrier cannot hold both inserts at once. This manifest identifies the two groups but does not allocate new handoff times.",
+          "modality": "pdf",
+          "locator": "Sedge cassette compatibility manifest, carrier table",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The manifest supplies the compatibility result anticipated by the provisional whole-batch booking and establishes two distinct carrier groups.",
+            "evidence": [
+              {
+                "sourceId": "s11",
+                "revision": 0,
+                "quote": "Highland sedge cryostorage batch cassettes H1–H4 fit the compact carrier insert, while H5–H6 require the long insert."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "A seed-bank scheduling guide is background for Highland sedge cryostorage batch and Coastal pea cryostorage batch. Its example slot sheet explains separate batch identifiers on a shared trolley. All times in that example are illustrative and do not reserve local equipment.",
+          "modality": "link",
+          "locator": "Fictional scheduling guide, example-sheet caption",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1",
+              "p2"
+            ],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "A seed-bank scheduling guide is background for Highland sedge cryostorage batch and Coastal pea cryostorage batch."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02",
+            "e04"
+          ],
+          "text": "Coastal pea cryostorage batch has its own cassette insert in the labelled side cupboard. The checkout clerk says to return trolley ST8 empty after each batch handoff. The pea insert is not an alternative for the sedge cassettes; no cross-batch substitution is authorised by this memo.",
+          "modality": "voice",
+          "locator": "Extracted pea insert checkout, 00:31–00:53",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The pea-specific insert memo continues the shared-trolley checkout arrangement while preserving distinct batch equipment.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "Coastal pea cryostorage batch has its own cassette insert in the labelled side cupboard."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "revise",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e06"
+          ],
+          "text": "Highland sedge cryostorage batch now books H1–H4 for Tuesday at 14:00 and H5–H6 for Thursday at 10:00. This splits the provisional whole-batch handoff into the compact-insert and long-insert groups identified by the compatibility manifest. The two groups remain one batch with separate handoff receipts.",
+          "locator": "Sedge working schedule, carrier-group amendment",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The compatibility manifest drives one revision that splits an initial whole-batch booking into two cassette-group bookings without creating new projects.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 1,
+                "quote": "Highland sedge cryostorage batch now books H1–H4 for Tuesday at 14:00 and H5–H6 for Thursday at 10:00."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Coastal pea cryostorage batch uses a white clip to hold its sealed packet-list wallet to the booking tray. The extracted demonstration shows no opened seed packet or test result. The clip is an administrative handling cue, not a condition of storage.",
+          "modality": "video",
+          "locator": "Extracted pea paperwork demonstration, 00:15–00:33",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The source explicitly identifies the undertaking and its concrete work.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "Coastal pea cryostorage batch uses a white clip to hold its sealed packet-list wallet to the booking tray."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [],
+          "text": "The seed-bank staff notice announces a cupboard inventory for spare stationery. It asks people to return unused pencils and blank envelopes. None of the boxes on the notice carries a batch name, biological identifier, or storage booking.",
+          "modality": "photo",
+          "locator": "Extracted stationery notice, complete text",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "Stationery administration has no batch assignment.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s10",
+          "dependsOn": [
+            "e01",
+            "e09"
+          ],
+          "text": "Highland sedge cryostorage batch uses one document wallet for each carrier group under docket HS. The receiving clerk will match each wallet to its separate handoff receipt. The working schedule supplies the two bookings; this reminder does not confirm that either handoff occurred.",
+          "modality": "pdf",
+          "locator": "Sedge receiving reminder, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Separate wallets continue the revised two-group schedule without splitting the undertaking or asserting completion.",
+            "evidence": [
+              {
+                "sourceId": "s10",
+                "revision": 0,
+                "quote": "Highland sedge cryostorage batch uses one document wallet for each carrier group under docket HS."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "Which cassette groups and handoff times does the current Highland sedge working schedule specify?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 1,
+              "quote": "Highland sedge cryostorage batch now books H1–H4 for Tuesday at 14:00 and H5–H6 for Thursday at 10:00."
+            }
+          ],
+          "rationale": "The active revision is the only booking source that assigns both carrier groups and their separate times; the compatibility manifest alone contains no times."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e09",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Include previous versions: what whole-batch handoff did the initial Highland sedge working schedule book before the carrier-group amendment?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "Highland sedge cryostorage batch initially books one handoff for all six cassettes on Tuesday at 14:00."
+            }
+          ],
+          "rationale": "The initial version books all six cassettes together and is superseded by the active split-group revision. A later partial-group booking at the same Tuesday time does not answer the original whole-batch question."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e10",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Which current checkout sheet identifies the trolley shared by the sedge and pea batches?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "Highland sedge cryostorage batch and Coastal pea cryostorage batch share trolley ST8 during separate handoff slots."
+            }
+          ],
+          "rationale": "The shared trolley sheet belongs to both continuing batches while preserving separate scheduling."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What viability percentage was measured for the Coastal pea packets?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No viability test is recorded; administrative bookings and document handling cannot supply a measured percentage."
+        }
+      ]
+    }
+  ]
+}

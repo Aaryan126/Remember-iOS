@@ -1,0 +1,64 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-052/raw.json",
+  "rawSHA256": "84ec9302bbea138d60f34c77df5bbe7d53434761df738528389cf7142175432d",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.82353050000529,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.7083373172208667e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22544416666642064,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27996220833301777,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.28101175000483636,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.822289333336812,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "885990108584f49992e0e36a7b8ba3ec3bae6f6ca5c1ad49c1b7eaa2c5417da2",
+      "contextSize": 4096,
+      "generationSeconds": 4.540642458334332,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Juniper Club's 2028 Winter Exchange is a single event: collect donated coats, book the hall and run the exchange on 6 December. Its receipts go into the 2028 event account.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The club is separately planning the 2029 Winter Exchange. It reuses last year's coat racks, but has a new event date and its own account; do not include it in the 2028 event settlement.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Storage handover records the coat racks leaving the closed 2028 Winter Exchange and being reserved for the separate 2029 edition. Both event teams must sign the handover.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources reference distinct years and separate planning contexts, indicating different continuing projects.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-052"
+  }
+}

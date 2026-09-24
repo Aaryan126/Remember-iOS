@@ -1,0 +1,1179 @@
+{
+  "benchmarkRequests": 0,
+  "citationOccurrencesAudited": 384,
+  "coverage": {
+    "development": {
+      "answerable": 32,
+      "conflictingPackets": 8,
+      "explicitMissingPackets": 8,
+      "historicalAlsoSupportedByCurrentEvidence": 1,
+      "historicalQuestions": 16,
+      "libraries": [
+        {
+          "id": "dev01",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q3",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q4",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q5",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q6",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q7",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q8",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "dev02",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q5",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q7",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q3",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q8",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q2",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q4",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q6",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "dev03",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q3",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q4",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q5",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q6",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q7",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q8",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "dev04",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q3",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q6",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q8",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q2",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q7",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q5",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q4",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "dev05",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q3",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q4",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q5",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q6",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q7",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q8",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "dev06",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q8",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q4",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q6",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q7",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q5",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q1",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q3",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "dev07",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q3",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q4",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q5",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q6",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q7",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q8",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "dev08",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q7",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q4",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q5",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q1",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q3",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q8",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q6",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        }
+      ],
+      "queries": 64,
+      "retrievalGateReady": true,
+      "retrievedSupport": 30,
+      "stateSupportReady": true
+    },
+    "evaluation": {
+      "answerable": 32,
+      "conflictingPackets": 8,
+      "explicitMissingPackets": 8,
+      "historicalAlsoSupportedByCurrentEvidence": 1,
+      "historicalQuestions": 16,
+      "libraries": [
+        {
+          "id": "eval01",
+          "tasks": [
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q3",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q4",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q5",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q6",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q7",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q8",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "eval02",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q3",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q4",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q5",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q6",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q7",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q8",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "eval03",
+          "tasks": [
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q2",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q3",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q4",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q5",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q6",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q7",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q8",
+              "packetVerdict": "supported",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "eval04",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q3",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q4",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q5",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q6",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q7",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q8",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "eval05",
+          "tasks": [
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q3",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q4",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q5",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q6",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q7",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q8",
+              "packetVerdict": "supported",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "eval06",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q3",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q4",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q5",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q6",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q7",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q8",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "eval07",
+          "tasks": [
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q1",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q3",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q4",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q5",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q6",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q7",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q8",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            }
+          ]
+        },
+        {
+          "id": "eval08",
+          "tasks": [
+            {
+              "category": "current_a",
+              "corpusVerdict": "supported",
+              "id": "q1",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "current_b",
+              "corpusVerdict": "supported",
+              "id": "q2",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "archived",
+              "corpusVerdict": "supported",
+              "id": "q3",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "superseded",
+              "corpusVerdict": "supported",
+              "id": "q4",
+              "packetVerdict": "supported",
+              "returned": 3
+            },
+            {
+              "category": "explicit_missing",
+              "corpusVerdict": "explicit_missing",
+              "id": "q5",
+              "packetVerdict": "explicit_missing",
+              "returned": 3
+            },
+            {
+              "category": "topical_only",
+              "corpusVerdict": "not_established",
+              "id": "q6",
+              "packetVerdict": "not_established",
+              "returned": 3
+            },
+            {
+              "category": "conflict",
+              "corpusVerdict": "conflicting",
+              "id": "q7",
+              "packetVerdict": "conflicting",
+              "returned": 3
+            },
+            {
+              "category": "wrong_scope",
+              "corpusVerdict": "not_established",
+              "id": "q8",
+              "packetVerdict": "not_established",
+              "returned": 3
+            }
+          ]
+        }
+      ],
+      "queries": 64,
+      "retrievalGateReady": true,
+      "retrievedSupport": 31,
+      "stateSupportReady": true
+    }
+  },
+  "generationReservations": 1,
+  "hashes": {
+    "REPORT.md": "e038550708b4acda42518405b12090c4f8fb88ed966fe8188c0a139b2b101309",
+    "RESOURCE-AMENDMENT-21.md": "1c65fd827c2cee15afddcd2f827e8ad98e8607a57ab7063cc6b13e29b46f6e6d",
+    "RESOURCE-RESUME-NOTE.md": "5483c0c1d3376006f03356761a97e5d0bb4140824872694f40fbb9fdb8456512",
+    "RESUME.md": "e03b8e5735086dbce6e04eb58598c2a31e12de1fe3e2e3db466e4af053d090b3",
+    "STATUS.md": "049ca4cf25ad8a725ca6d8be12e2980f2e3907d1c70a1bd0527cde65c9dad9c2",
+    "audit.json": "84fc1f091deee98c1695474d1c5d1b15e424d10e255b048f65eff1e5d1293752",
+    "frozen.json": "169196697ced016c10fcf1388921502a70d278326dad1b914fc47d235c617163",
+    "generation-build.json": "540d0f266c0ee6ccbf3759963d1450349253f99433f32d71a0056ec4fd2911da",
+    "pause-proof.json": "3a7c186bab8b305a281b735fdf8debca456b2937518790c2e036ed6e9f91b5f8",
+    "resource-amendment-21-v2.json": "1492ede0a6d897aed01d03eb422b80ff374e3e7c36701c7557f185f790d06c6d",
+    "resource-policy-frozen.json": "1c3f011b651622c2b87a06fae213e40571862363ba770f54e741568a69b8c2b4",
+    "technical-control-stop.json": "be3dabc647d8c294d46106257ec5c8c8227f61dfd4ec9bd12696973a2f983c46",
+    "tests.json": "be71991d737b3fe2b75bf20abf28ff1b6dda3916ba40d142a6a7a7bca6f20dbc"
+  },
+  "native": {
+    "completed": 16,
+    "libraries": [
+      {
+        "id": "answer-dev01-chronological",
+        "prefixes": 8,
+        "projectionSHA256": "d9d01a9459b4e0fac1d9171fbbbf2bf4f3c57bd44dc702e67d12698bd84e8ec7",
+        "queries": 8,
+        "receiptSHA256": "3da6594d00b6e761d757ac970c70d101f78e0d41a35bdf39fc0fad7261ba049d",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-dev02-chronological",
+        "prefixes": 9,
+        "projectionSHA256": "93f8a717e9842300ca2ae720664c0d29f9953fb4c0199ec4b3b297e354e4358a",
+        "queries": 8,
+        "receiptSHA256": "697ad7a7076b1dab451457d78be469bab410daf74cf622b107c111a157684127",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-dev03-chronological",
+        "prefixes": 8,
+        "projectionSHA256": "dd5deae36b93e885b4b42c9c7ae34dcaf3380f738d4a95ba258888f4ef84a2c7",
+        "queries": 8,
+        "receiptSHA256": "68fde88f4c7af44dab6b343d00d773fccbb05459c609585a2dd68e5405a6a920",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-dev04-chronological",
+        "prefixes": 9,
+        "projectionSHA256": "03b3c6750cdb52a480dba3eac7c4e3fb26af3877e873f0e4263faed42ca1556f",
+        "queries": 8,
+        "receiptSHA256": "7f8b500593c162b95305ac4b2fb1e8a4a22ba3e04fb0f2f819add949b64b1cb8",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-dev05-chronological",
+        "prefixes": 9,
+        "projectionSHA256": "428140aaf0912cd1a8ca706487e4148f2469138e1f081945c032a64583a32488",
+        "queries": 8,
+        "receiptSHA256": "858cd84dd814b672c2f7dd5ad4746d9a3fb0557e14dad6b6f7ad1b6de43a4484",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-dev06-chronological",
+        "prefixes": 9,
+        "projectionSHA256": "36cc743598b7f7c1ed1dcdc1a52ece4f62f19f7be8407c1e8e27dee323a18f98",
+        "queries": 8,
+        "receiptSHA256": "3ad0b8742b66f552b1eac2557a21a983e383000212b45372270c05cfb1c0a5b3",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-dev07-chronological",
+        "prefixes": 8,
+        "projectionSHA256": "79b45af324082beda409fbcd99e6f5a48dc5d685ae34bb6541a4d91fd72d9ef0",
+        "queries": 8,
+        "receiptSHA256": "bed5b425dd2255feae2c4ea202c78614c99d3e76bd9f25a22998e07cd67df9fd",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-dev08-chronological",
+        "prefixes": 9,
+        "projectionSHA256": "d4053e026ddd179040c002d7e4982331e9809741898733c9987685cf2ab626a9",
+        "queries": 8,
+        "receiptSHA256": "d7f9d89ef89678bed1eeb3b1029ee18df836b958e347535553171a49aaf14424",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-eval01-chronological",
+        "prefixes": 9,
+        "projectionSHA256": "fba30da5dbfd48bff9454cf8d0c682453ad632003757f9070dde7391bc61cfdb",
+        "queries": 8,
+        "receiptSHA256": "a3121f3d7e20cb43f92a4d65529f3d6e27f2d90a8a4bef3df69283e0fd1bbcf8",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-eval02-chronological",
+        "prefixes": 9,
+        "projectionSHA256": "0e6c9f3164a9ff10e655105d3a9b83ecaac4eb59c8bc49ebc4555ada179694d7",
+        "queries": 8,
+        "receiptSHA256": "df7daa1ee1e7a5d88efc645ed9c8287d5eea2453abc7f336aaa734637f540556",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-eval03-chronological",
+        "prefixes": 9,
+        "projectionSHA256": "1177418f01cf81fe815ee5fa57bcbed45768b01f50e424de8ddf240b25bfcf0b",
+        "queries": 8,
+        "receiptSHA256": "18634589934de65b0cf24aa51bbef5878eb7aafa9e89b07dcef823a4586d585e",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-eval04-chronological",
+        "prefixes": 8,
+        "projectionSHA256": "f30801fd13b40e01be6a385afe8e65eceef19bc92b22ddad9d074aa65be5346f",
+        "queries": 8,
+        "receiptSHA256": "994879de0e360adc049d43279bbb8c5ff53085454c6a49c6a8d8d4f564d3ba13",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-eval05-chronological",
+        "prefixes": 8,
+        "projectionSHA256": "7b28e9f7772100e3e9bee243d552c9742658dbdc194db5a4c3c897230096e775",
+        "queries": 8,
+        "receiptSHA256": "220796cfb1dc6d2954651d0bf56b654a3a2bde0132c40a7451744ed2ce1b1b4e",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-eval06-chronological",
+        "prefixes": 9,
+        "projectionSHA256": "37e459448a3f928e6f3880aa9437636af13e674f691af066186e3c84289dd530",
+        "queries": 8,
+        "receiptSHA256": "6a64e60607f1a2e845fe1b2f9d96e626995102b930a99caffc9d7ad0b9ef7a75",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-eval07-chronological",
+        "prefixes": 8,
+        "projectionSHA256": "8d8be49758ae3cf025144bf1bd9b7b4fbd91bbe4d6c333288bcbe39e81de1102",
+        "queries": 8,
+        "receiptSHA256": "8f40194ac426102e24b33da7af91d0cec1a67ac271f2be1277960ff38d0eff40",
+        "restartVerified": true
+      },
+      {
+        "id": "answer-eval08-chronological",
+        "prefixes": 9,
+        "projectionSHA256": "abd0763392a2b14e20a3b178b83ea811a167525cabdd34244f8fccfb0e60ac99",
+        "queries": 8,
+        "receiptSHA256": "60f25d9757aeb130efeb6b8bb37371c2043db75dddb287ebe8cf5888c375d0e5",
+        "restartVerified": true
+      }
+    ],
+    "prefixes": 138,
+    "queries": 128
+  },
+  "ownedProbesStopped": true,
+  "paidAPIUsed": false,
+  "phoneUsed": false,
+  "preparationComplete": true,
+  "productionChanged": false,
+  "resources": {
+    "capBytes": 22548578304,
+    "conservativeGrowthBytes": 20984659968,
+    "externalGrowthBytes": 2800844800,
+    "freeBytes": 23978307584,
+    "reserveBytes": 10737418240,
+    "scopedBytes": 1095548928
+  },
+  "simulatorShutdown": true,
+  "stageBAllowed": false,
+  "status": "stage-a-stopped-for-review",
+  "stopRuleFollowed": true,
+  "technicalQualification": false,
+  "testCount": 276,
+  "workerStopped": true
+}

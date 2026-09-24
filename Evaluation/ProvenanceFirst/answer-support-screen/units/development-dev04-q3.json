@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev04-q3",
+    "inputSHA256": "d622a682273f8569a67b030b077f9511991f6b7cc342ad0337bb0f863a61a454",
+    "rawSHA256": "03a7da0c99c33add878bbc85261e97b0849343d34769156f6063053ec41944d3",
+    "requestCount": 1,
+    "reservationSHA256": "b1cf235b73fc4bb3f4b6b72e65c47a087a9610e8cd95f8fd2345ed3e6c2ea243",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.7781799166550627,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Final authorized cradle lining: undyed linen.",
+        "evidence": [
+          {
+            "candidateID": "ae30a12f17688e25132965f29b9f3b2d353fa2b3e036cf9313f5abf43b557820",
+            "quote": "Loan L-14, the Tide Bowl. Final authorized cradle lining: undyed linen. This revision supersedes the draft lining choice."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21463040,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev04-q3"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "50bd9b0c7fd46b67dd2c92f05e1725a7b43fcd3ea96f8790d30079e9ea13d480"
+}

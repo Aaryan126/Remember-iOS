@@ -1,0 +1,22 @@
+{
+  "checksPassed": 28,
+  "diagnosticAdditionalRequests": 16,
+  "evidenceSHA256": {
+    "REPORT.md": "12d87cbe29e33f5cc8513b4b3ea93fdae2675c7d850399a4bbba15062f0cb5e9",
+    "audit.json": "311573a04471921639907bdd053dfea4bbe2d3e7bdcb46186596aee72966dfc5",
+    "evaluations/1789529073344999000.json": "bd84c95060f90bda6cbe90b34863abba45ddd8e1af1ce0156a1c2887962f5af8",
+    "manifest.json": "ab50bde51817a4aa362384646c585b990a4f29b9ff2d41fac6fbbcbe32736315",
+    "pause-resume-proof.json": "fa751a108075137962ddfe43a2c34bbb942e25f0693a1153d576d37048fbe66c",
+    "timing-summary.json": "be49bf194c5357ebc1c2cc24a945ad06d20f4e30c08e44ebb8be8e462c7bdfb9"
+  },
+  "newDeviceRequestsThisCheckpoint": 18,
+  "nextAction": "Diagnose sentence-embedding availability in a new isolated probe before precision comparison",
+  "productionChanged": false,
+  "reusedPriorPhoneRequests": 0,
+  "safeToClose": true,
+  "savedDiagnosticObservations": 18,
+  "stage1Complete": false,
+  "stage2Started": false,
+  "status": "stopped-for-review-embedding-unavailable-and-numeric-parity-failure",
+  "tolerancesChanged": false
+}

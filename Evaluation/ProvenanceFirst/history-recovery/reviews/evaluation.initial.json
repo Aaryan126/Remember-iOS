@@ -1,0 +1,182 @@
+{
+  "reviewer": "/root/history_author_dev",
+  "author": "/root/history_author_eval",
+  "split": "evaluation",
+  "inputSHA256": "e581d28380ef3ca9773782e70da09f618bcd635df2df95f0453ac53d61fabf66",
+  "libraries": [
+    {
+      "id": "eval01",
+      "verdict": "pass",
+      "issues": [
+        {
+          "location": "eval01/e05/gold/rationale",
+          "severity": "warning",
+          "reason": "The unresolved capture has empty memberships and no identifying evidence, but its rationale says 'The source explicitly identifies the undertaking and its concrete work.' That sentence contradicts both the source and its otherwise appropriate unresolved label.",
+          "suggestedFix": "Replace the generic rationale with the particular missing identifier/context that prevents assignment at this prefix. Preserve the unresolved disposition and empty evidence."
+        }
+      ]
+    },
+    {
+      "id": "eval02",
+      "verdict": "fail",
+      "issues": [
+        {
+          "location": "eval02/e04/gold/rationale",
+          "severity": "warning",
+          "reason": "The unresolved capture has empty memberships and no identifying evidence, but its rationale says 'The source explicitly identifies the undertaking and its concrete work.' That sentence contradicts both the source and its otherwise appropriate unresolved label.",
+          "suggestedFix": "Replace the generic rationale with the particular missing identifier/context that prevents assignment at this prefix. Preserve the unresolved disposition and empty evidence."
+        },
+        {
+          "location": "eval02/q4",
+          "severity": "error",
+          "reason": "The question asks what humidity reading was recorded, but e07 explicitly says nobody supplied a humidity reading and the field is empty. 'No humidity reading was recorded' is an evidenced response to that presupposition. Requiring empty evidence conflates a documented absence with a missing actual value.",
+          "suggestedFix": "Keep one genuinely unanswerable uncertain task by asking for the actual numeric humidity beside the brioche trays at that observation, rather than asking which reading was recorded. No captured source supplies that physical value."
+        }
+      ]
+    },
+    {
+      "id": "eval03",
+      "verdict": "pass",
+      "issues": [
+        {
+          "location": "eval03/e07/gold/rationale",
+          "severity": "warning",
+          "reason": "The unresolved capture has empty memberships and no identifying evidence, but its rationale says 'The source explicitly identifies the undertaking and its concrete work.' That sentence contradicts both the source and its otherwise appropriate unresolved label.",
+          "suggestedFix": "Replace the generic rationale with the particular missing identifier/context that prevents assignment at this prefix. Preserve the unresolved disposition and empty evidence."
+        }
+      ]
+    },
+    {
+      "id": "eval04",
+      "verdict": "pass",
+      "issues": [
+        {
+          "location": "eval04/e05/gold/rationale",
+          "severity": "warning",
+          "reason": "The unresolved capture has empty memberships and no identifying evidence, but its rationale says 'The source explicitly identifies the undertaking and its concrete work.' That sentence contradicts both the source and its otherwise appropriate unresolved label.",
+          "suggestedFix": "Replace the generic rationale with the particular missing identifier/context that prevents assignment at this prefix. Preserve the unresolved disposition and empty evidence."
+        },
+        {
+          "location": "eval04/q4",
+          "severity": "warning",
+          "reason": "The source says no receipt signature is present yet and describes a proposed unloading order. 'Who signed the receipt?' risks being interpreted as a false-premise question answerable with 'no signer is recorded yet', rather than an unavailable identity.",
+          "suggestedFix": "Prefer a missing fact that is not explicitly negated, such as the bassoon case's serial number, or clarify that the task requests an unavailable signer identity from an uncaptured receipt. Do not invent a completed delivery."
+        }
+      ]
+    },
+    {
+      "id": "eval05",
+      "verdict": "fail",
+      "issues": [
+        {
+          "location": "eval05/e06/gold/rationale",
+          "severity": "warning",
+          "reason": "The unresolved capture has empty memberships and no identifying evidence, but its rationale says 'The source explicitly identifies the undertaking and its concrete work.' That sentence contradicts both the source and its otherwise appropriate unresolved label.",
+          "suggestedFix": "Replace the generic rationale with the particular missing identifier/context that prevents assignment at this prefix. Preserve the unresolved disposition and empty evidence."
+        },
+        {
+          "location": "eval05/q4",
+          "severity": "error",
+          "reason": "The dispatch note explicitly says the technician has not assigned an accession number. The question asks what number has been assigned, so the supported answer is 'none yet'; the premise is directly refuted by active s06 rather than merely unsupported.",
+          "suggestedFix": "Replace this uncertain question with an actually missing attribute, such as the dye concentration in the next Madder sample. The dispatch source contains no analytical result. Alternatively label the current question answerable and cite its explicit non-assignment sentence, then supply a different uncertain task to retain the required mode mix."
+        }
+      ]
+    },
+    {
+      "id": "eval06",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval07",
+      "verdict": "fail",
+      "issues": [
+        {
+          "location": "eval07/q4",
+          "severity": "error",
+          "reason": "The current note explicitly leaves the distance field empty pending measurement, and the initial note says nobody measured the path. Asking which measured distance is recorded admits the supported answer 'none is recorded'; this is not the same as recovering the unknown route length.",
+          "suggestedFix": "Ask for the actual length in meters of the currently chosen contour route, without presupposing a recorded measurement. Keep the empty expectedEvidence because no source supplies the length."
+        }
+      ]
+    },
+    {
+      "id": "eval08",
+      "verdict": "fail",
+      "issues": [
+        {
+          "location": "eval08/e04/gold/rationale",
+          "severity": "warning",
+          "reason": "The unresolved capture has empty memberships and no identifying evidence, but its rationale says 'The source explicitly identifies the undertaking and its concrete work.' That sentence contradicts both the source and its otherwise appropriate unresolved label.",
+          "suggestedFix": "Replace the generic rationale with the particular missing identifier/context that prevents assignment at this prefix. Preserve the unresolved disposition and empty evidence."
+        },
+        {
+          "location": "eval08/q4",
+          "severity": "error",
+          "reason": "The only dry-fit source explicitly says the possible join has not been assigned a final refit letter. Therefore 'no final letter was assigned' directly answers the question's false premise. Empty expectedEvidence incorrectly discards the negative evidence.",
+          "suggestedFix": "Ask a genuinely unavailable property of the proposed dry fit, for example the angle in degrees needed to align KD8 and KD11. The retained source and blank orientation drawing supply no such angle. Otherwise make the original question answerable with the explicit non-assignment quote and choose a separate uncertain task."
+        },
+        {
+          "location": "eval08/e09/dependsOn",
+          "severity": "error",
+          "reason": "The annotated anatomy chart specifically excludes identifying local sherd C27, whose identifier and local context are first introduced by e03. Its only dependency is the catalogue root, so the permitted alternate schedule emits this local caveat before the C27 working entry.",
+          "suggestedFix": "Add e03 as a causal dependency of e09, preserving the antecedent of its C27-specific annotation."
+        }
+      ]
+    },
+    {
+      "id": "eval09",
+      "verdict": "pass",
+      "issues": [
+        {
+          "location": "eval09/e04/gold/rationale",
+          "severity": "warning",
+          "reason": "The unresolved capture has empty memberships and no identifying evidence, but its rationale says 'The source explicitly identifies the undertaking and its concrete work.' That sentence contradicts both the source and its otherwise appropriate unresolved label.",
+          "suggestedFix": "Replace the generic rationale with the particular missing identifier/context that prevents assignment at this prefix. Preserve the unresolved disposition and empty evidence."
+        }
+      ]
+    },
+    {
+      "id": "eval10",
+      "verdict": "fail",
+      "issues": [
+        {
+          "location": "eval10/q4",
+          "severity": "error",
+          "reason": "Revision 1 explicitly says the note specifies no duration. The question asks what duration is specified, allowing the evidenced answer 'no duration is specified'. The uncaptured wall chart is a distinct missing source and would support a genuinely unanswerable request.",
+          "suggestedFix": "Ask what duration the old wall chart gives for the initial Blue pause. The wall chart is referenced but never captured, so its value is unavailable without turning the current note's explicit omission into abstention."
+        }
+      ]
+    },
+    {
+      "id": "eval11",
+      "verdict": "pass",
+      "issues": [
+        {
+          "location": "eval11/e03/gold/rationale",
+          "severity": "warning",
+          "reason": "The unresolved capture has empty memberships and no identifying evidence, but its rationale says 'The source explicitly identifies the undertaking and its concrete work.' That sentence contradicts both the source and its otherwise appropriate unresolved label.",
+          "suggestedFix": "Replace the generic rationale with the particular missing identifier/context that prevents assignment at this prefix. Preserve the unresolved disposition and empty evidence."
+        }
+      ]
+    },
+    {
+      "id": "eval12",
+      "verdict": "pass",
+      "issues": []
+    }
+  ],
+  "crossLibraryIssues": [
+    {
+      "location": "authored/evaluation.json unresolved capture rationales",
+      "severity": "warning",
+      "reason": "Eight unresolved captures use the same rationale claiming that the source explicitly identifies an undertaking. This is repeated authoring boilerplate that contradicts those sources, although their unresolved assignments themselves are appropriate.",
+      "suggestedFix": "Apply the source-specific rationale fixes listed per library; rerun review on the corrected input hash."
+    },
+    {
+      "location": "eval12 compared with dev11; also eval07's stale-plan echo",
+      "severity": "warning",
+      "reason": "Eval12 and dev11 share the more specific story sequence of an initial active schedule, a first approved rescheduling, a voice report quoting the old time from a stale printed calendar/poster, a second approved rescheduling, and a historical question explicitly restricted to the initial note to exclude that voice report. Their final current questions select revision 2. This convergence goes beyond merely testing revisions or overlap and risks a noun-substituted scenario template. Eval07 repeats much of the stale-plan echo pattern with routes, but its obstruction-driven choices provide more mechanical separation.",
+      "suggestedFix": "Before sealing, consider changing eval12's causal mechanism and information distribution—for example a provisional booking cancelled and later reinstated with separate amendment provenance, or a partial update where unchanged fields remain valid across versions. Preserve the six superseded-note requirement, explicitly review all equally valid versions, and independently re-review any substantive redesign. This is a warning about scenario independence, not evidence of copying or a model-performance conclusion."
+    }
+  ]
+}

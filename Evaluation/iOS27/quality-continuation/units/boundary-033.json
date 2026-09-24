@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-033/raw.json",
+  "rawSHA256": "2e196146c3c60e660b0aa69aba082bfd0de736a1e922be5e0708cfb8c6be1403",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.164959041670954,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.583337042480707e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21248195833322825,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26141274999827147,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2623850833333563,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.163810083337012,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "5ce93dad6bfb6740af9a9a979cd987e687586cac89b4bf1c15d28b73f7571f62",
+      "contextSize": 4096,
+      "generationSeconds": 3.9008207916631363,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Cobalt Press commissioned a Spanish translation of the travel book 'River Roads'. Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Cobalt Press's warehouse fire-door replacement uses order RR-3, which also appears in the Spanish translation notes.",
+            "sourceID": "s07"
+          }
+        ],
+        "rationale": "Different projects are referenced: a Spanish translation contract and a warehouse fire-door replacement both using order RR-3, with no indication they share a single undertaking.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-033"
+  }
+}

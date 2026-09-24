@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-055/raw.json",
+  "rawSHA256": "c50956f8bdfa02a6be72d5dc994568f10ef01df66d648aa240ad2b1b5b1f0bf4",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.219158958338085,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.958331944886595e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.32458274999953574,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37730474999989383,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3784103333382518,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.218016416671162,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "8ae963f3608a19972036cf3813dd5e39c58a6f785e149fc07f3485576be55796",
+      "contextSize": 4096,
+      "generationSeconds": 3.838955833336513,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Morrow Works is restoring the slate roof of Northgate Library. Survey, scaffold hire, slate replacement and final leak inspection are one roof-restoration contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Scaffold schedule reserves access for slate-roof repairs and window restoration at Northgate Library. Keep the roof inspection and glazing acceptance records with their separate contracts.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention slate-roof repairs but state separate contracts for inspection and glazing, indicating distinct undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-055"
+  }
+}

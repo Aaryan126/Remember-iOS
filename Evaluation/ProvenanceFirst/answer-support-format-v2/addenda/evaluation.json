@@ -1,0 +1,762 @@
+{
+  "corpusSHA256": "bce7607b0d3a2f6c72d188adae21714e662b4631bf5a4727b5ceec61c2f0c65a",
+  "entries": [
+    {
+      "acceptedAnswers": [
+        "attaching visitor cameras is not permitted",
+        "attaching visitor cameras is not permitted."
+      ],
+      "answerKey": "camera-not-permitted",
+      "id": "eval01:q1:s01:r1:0",
+      "legacyAnswers": [
+        "attaching visitor cameras is not permitted"
+      ],
+      "library": "eval01",
+      "passageApproved": true,
+      "proposedAnswer": "attaching visitor cameras is not permitted.",
+      "question": "q1",
+      "questionText": "Are visitors allowed to attach their cameras during the September public observing session?",
+      "reason": "The active September permission directly prohibits the requested camera attachment; the passage retains the complete negation.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "attaching visitor cameras is not permitted."
+    },
+    {
+      "acceptedAnswers": [
+        "attaching visitor cameras is not permitted",
+        "attaching visitor cameras is not permitted."
+      ],
+      "answerKey": "camera-not-permitted",
+      "id": "eval01:q1:s03:r0:1",
+      "legacyAnswers": [
+        "attaching visitor cameras is not permitted"
+      ],
+      "library": "eval01",
+      "passageApproved": true,
+      "proposedAnswer": "attaching visitor cameras is not permitted.",
+      "question": "q1",
+      "questionText": "Are visitors allowed to attach their cameras during the September public observing session?",
+      "reason": "The coordinator independently repeats the same camera restriction for September; the complete prohibition remains a focused negative answer.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "attaching visitor cameras is not permitted."
+    },
+    {
+      "acceptedAnswers": [
+        "21:15",
+        "visitors must leave the eyepiece queue at 21:15."
+      ],
+      "answerKey": "21:15",
+      "id": "eval01:q2:s01:r0:0",
+      "legacyAnswers": [
+        "21:15"
+      ],
+      "library": "eval01",
+      "passageApproved": true,
+      "proposedAnswer": "visitors must leave the eyepiece queue at 21:15.",
+      "question": "q2",
+      "questionText": "Before it was amended, what queue cutoff did the first September public observing permission specify?",
+      "reason": "The original eligible revision directly states the requested pre-amendment queue cutoff, without another competing time in the extract.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "visitors must leave the eyepiece queue at 21:15."
+    },
+    {
+      "acceptedAnswers": [
+        "21:15"
+      ],
+      "answerKey": "21:15",
+      "id": "eval01:q2:s01:r1:1",
+      "legacyAnswers": [
+        "21:15"
+      ],
+      "library": "eval01",
+      "passageApproved": false,
+      "proposedAnswer": "visitors must leave the eyepiece queue at 21:45, replacing 21:15.",
+      "question": "q2",
+      "questionText": "Before it was amended, what queue cutoff did the first September public observing permission specify?",
+      "reason": "As evidence this amendment legitimately identifies the old 21:15 value, so original gold remains correct. As a full answer to the old-cutoff question, however, it leads with the new 21:45 obligation and contains two times. That additional current instruction makes this proposed passage less focused on the requested historical value. Reject only the extra whole-passage form; retain the legacy 21:15 answer and its citation.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "visitors must leave the eyepiece queue at 21:45, replacing 21:15."
+    },
+    {
+      "acceptedAnswers": [
+        "21:45",
+        "visitors must leave the eyepiece queue at 21:45, replacing 21:15."
+      ],
+      "answerKey": "21:45",
+      "id": "eval01:q4:s01:r1:0",
+      "legacyAnswers": [
+        "21:45"
+      ],
+      "library": "eval01",
+      "passageApproved": true,
+      "proposedAnswer": "visitors must leave the eyepiece queue at 21:45, replacing 21:15.",
+      "question": "q4",
+      "questionText": "Under the amended permission, when must visitors leave the eyepiece queue on 21 September?",
+      "reason": "For the amended-cutoff question the main clause directly gives 21:45; the replacing clause is relevant revision context that distinguishes the old time rather than an unrelated claim.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "visitors must leave the eyepiece queue at 21:45, replacing 21:15."
+    },
+    {
+      "acceptedAnswers": [
+        "the west footgate",
+        "Visitors entered through the west footgate, not the service entrance."
+      ],
+      "answerKey": "west-footgate",
+      "id": "eval01:q7:s02:r0:0",
+      "legacyAnswers": [
+        "the west footgate"
+      ],
+      "library": "eval01",
+      "passageApproved": true,
+      "proposedAnswer": "Visitors entered through the west footgate, not the service entrance.",
+      "question": "q7",
+      "questionText": "Which gate did visitors use for the completed 17 August public observing session?",
+      "reason": "The archived August source explicitly identifies the actual entrance; excluding the service entrance clarifies the same requested gate fact.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "Visitors entered through the west footgate, not the service entrance."
+    },
+    {
+      "acceptedAnswers": [
+        "R-14",
+        "the laboratory label for the footbridge sample is R-14."
+      ],
+      "answerKey": "R-14",
+      "id": "eval02:q1:s01:r1:0",
+      "legacyAnswers": [
+        "R-14"
+      ],
+      "library": "eval02",
+      "passageApproved": true,
+      "proposedAnswer": "the laboratory label for the footbridge sample is R-14.",
+      "question": "q1",
+      "questionText": "Which laboratory label identifies the footbridge sample in the corrected 8 June key?",
+      "reason": "The corrected eligible key names the footbridge sample and its R-14 laboratory label, not a different sample or the old key.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "the laboratory label for the footbridge sample is R-14."
+    },
+    {
+      "acceptedAnswers": [
+        "water temperature was not measured",
+        "On 8 June the footbridge water temperature was not measured because the thermometer stayed at the depot."
+      ],
+      "answerKey": "not-measured",
+      "id": "eval02:q2:s03:r0:0",
+      "legacyAnswers": [
+        "water temperature was not measured"
+      ],
+      "library": "eval02",
+      "passageApproved": true,
+      "proposedAnswer": "On 8 June the footbridge water temperature was not measured because the thermometer stayed at the depot.",
+      "question": "q2",
+      "questionText": "Was water temperature measured at the footbridge on 8 June?",
+      "reason": "The source directly answers the yes/no measurement question with its date and location intact. The thermometer explanation concerns that same non-measurement and is not a distracting separate claim.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "On 8 June the footbridge water temperature was not measured because the thermometer stayed at the depot."
+    },
+    {
+      "acceptedAnswers": [
+        "water temperature was not measured",
+        "water temperature was not measured."
+      ],
+      "answerKey": "not-measured",
+      "id": "eval02:q2:s07:r0:1",
+      "legacyAnswers": [
+        "water temperature was not measured"
+      ],
+      "library": "eval02",
+      "passageApproved": true,
+      "proposedAnswer": "water temperature was not measured.",
+      "question": "q2",
+      "questionText": "Was water temperature measured at the footbridge on 8 June?",
+      "reason": "The audit's complete negative measurement statement answers the question in its bound 8 June footbridge context.",
+      "revision": 0,
+      "sourceId": "s07",
+      "supportQuote": "water temperature was not measured."
+    },
+    {
+      "acceptedAnswers": [
+        "P-09",
+        "the sample from beside the canoe steps carried label P-09."
+      ],
+      "answerKey": "P-09",
+      "id": "eval02:q3:s02:r0:0",
+      "legacyAnswers": [
+        "P-09"
+      ],
+      "library": "eval02",
+      "passageApproved": true,
+      "proposedAnswer": "the sample from beside the canoe steps carried label P-09.",
+      "question": "q3",
+      "questionText": "What label was on the canoe-steps sample during the May labelling rehearsal?",
+      "reason": "The archived rehearsal source directly ties P-09 to the canoe-steps sample; historical collection context is supplied by the eligible source.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "the sample from beside the canoe steps carried label P-09."
+    },
+    {
+      "acceptedAnswers": [
+        "R-41",
+        "the laboratory label for the footbridge sample is R-41."
+      ],
+      "answerKey": "R-41",
+      "id": "eval02:q4:s01:r0:0",
+      "legacyAnswers": [
+        "R-41"
+      ],
+      "library": "eval02",
+      "passageApproved": true,
+      "proposedAnswer": "the laboratory label for the footbridge sample is R-41.",
+      "question": "q4",
+      "questionText": "What label did the first, uncorrected key give the 8 June footbridge sample?",
+      "reason": "The original eligible key directly gives R-41 for the requested pre-correction footbridge entry. Its present-tense source wording is interpreted in the explicit historical question and revision context.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "the laboratory label for the footbridge sample is R-41."
+    },
+    {
+      "acceptedAnswers": [
+        "a row of wooden toggles",
+        "wooden toggles",
+        "The fastening on this green rehearsal tunic is a row of wooden toggles."
+      ],
+      "answerKey": "wooden-toggles",
+      "id": "eval03:q1:s02:r0:0",
+      "legacyAnswers": [
+        "a row of wooden toggles",
+        "wooden toggles"
+      ],
+      "library": "eval03",
+      "passageApproved": true,
+      "proposedAnswer": "The fastening on this green rehearsal tunic is a row of wooden toggles.",
+      "question": "q1",
+      "questionText": "What fastening did Lina's green rehearsal tunic use last month?",
+      "reason": "The archived clip's sentence identifies the green tunic fastening, preserving the distinction from the later blue jacket.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "The fastening on this green rehearsal tunic is a row of wooden toggles."
+    },
+    {
+      "acceptedAnswers": [
+        "flat practice shoes",
+        "Lina kept flat practice shoes on throughout."
+      ],
+      "answerKey": "flat-practice-shoes",
+      "id": "eval03:q3:s03:r0:0",
+      "legacyAnswers": [
+        "flat practice shoes"
+      ],
+      "library": "eval03",
+      "passageApproved": true,
+      "proposedAnswer": "Lina kept flat practice shoes on throughout.",
+      "question": "q3",
+      "questionText": "What kind of shoes did Lina keep on during the blue-jacket fitting?",
+      "reason": "The fitting card directly answers Lina's shoe-type question; throughout qualifies use during that fitting without introducing a heel-height inference.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "Lina kept flat practice shoes on throughout."
+    },
+    {
+      "acceptedAnswers": [
+        "5 cm",
+        "the settled alteration for her blue performance jacket is a 5 cm movement allowance at the back pleat."
+      ],
+      "answerKey": "5-cm",
+      "id": "eval03:q6:s01:r1:0",
+      "legacyAnswers": [
+        "5 cm"
+      ],
+      "library": "eval03",
+      "passageApproved": true,
+      "proposedAnswer": "the settled alteration for her blue performance jacket is a 5 cm movement allowance at the back pleat.",
+      "question": "q6",
+      "questionText": "How much movement allowance is approved at the back pleat of Lina's blue performance jacket?",
+      "reason": "The settled-alteration sentence preserves the approved status, blue-jacket object, 5 cm unit and back-pleat location.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "the settled alteration for her blue performance jacket is a 5 cm movement allowance at the back pleat."
+    },
+    {
+      "acceptedAnswers": [
+        "5 cm",
+        "the approved back-pleat movement allowance is 5 cm."
+      ],
+      "answerKey": "5-cm",
+      "id": "eval03:q6:s07:r0:1",
+      "legacyAnswers": [
+        "5 cm"
+      ],
+      "library": "eval03",
+      "passageApproved": true,
+      "proposedAnswer": "the approved back-pleat movement allowance is 5 cm.",
+      "question": "q6",
+      "questionText": "How much movement allowance is approved at the back pleat of Lina's blue performance jacket?",
+      "reason": "The handoff passage directly gives the approved back-pleat allowance with its 5 cm unit, not a body measurement.",
+      "revision": 0,
+      "sourceId": "s07",
+      "supportQuote": "the approved back-pleat movement allowance is 5 cm."
+    },
+    {
+      "acceptedAnswers": [
+        "3 cm",
+        "leave a 3 cm movement allowance at the back pleat."
+      ],
+      "answerKey": "3-cm",
+      "id": "eval03:q8:s01:r0:0",
+      "legacyAnswers": [
+        "3 cm"
+      ],
+      "library": "eval03",
+      "passageApproved": true,
+      "proposedAnswer": "leave a 3 cm movement allowance at the back pleat.",
+      "question": "q8",
+      "questionText": "What back-pleat allowance was written in the first movement trial for Lina's blue jacket?",
+      "reason": "The superseded instruction states the requested first-trial back-pleat allowance and retains the cm unit; historical scope supplies the original-trial interpretation.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "leave a 3 cm movement allowance at the back pleat."
+    },
+    {
+      "acceptedAnswers": [
+        "New Zealand only",
+        "The executed territory addendum now limits Winter Steps complete audiobook sales to New Zealand only."
+      ],
+      "answerKey": "new-zealand-only",
+      "id": "eval04:q1:s01:r1:0",
+      "legacyAnswers": [
+        "New Zealand only"
+      ],
+      "library": "eval04",
+      "passageApproved": true,
+      "proposedAnswer": "The executed territory addendum now limits Winter Steps complete audiobook sales to New Zealand only.",
+      "question": "q1",
+      "questionText": "Where may the complete Winter Steps audiobook be sold under the executed territory addendum?",
+      "reason": "The active executed addendum directly identifies the complete audiobook's permitted territory and preserves the essential only restriction.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "The executed territory addendum now limits Winter Steps complete audiobook sales to New Zealand only."
+    },
+    {
+      "acceptedAnswers": [
+        "private library listening sessions",
+        "the licence permits private library listening sessions."
+      ],
+      "answerKey": "private-library-listening",
+      "id": "eval04:q2:s03:r0:0",
+      "legacyAnswers": [
+        "private library listening sessions"
+      ],
+      "library": "eval04",
+      "passageApproved": true,
+      "proposedAnswer": "the licence permits private library listening sessions.",
+      "question": "q2",
+      "questionText": "Which kind of listening session does the Winter Steps complete audiobook licence permit?",
+      "reason": "The operative licence passage positively names the permitted private library listening sessions, without importing the separate advertising use.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "the licence permits private library listening sessions."
+    },
+    {
+      "acceptedAnswers": [
+        "90 seconds",
+        "the permitted excerpt length was 90 seconds."
+      ],
+      "answerKey": "90-seconds",
+      "id": "eval04:q3:s02:r0:0",
+      "legacyAnswers": [
+        "90 seconds"
+      ],
+      "library": "eval04",
+      "passageApproved": true,
+      "proposedAnswer": "the permitted excerpt length was 90 seconds.",
+      "question": "q3",
+      "questionText": "How long an excerpt did last winter's Winter Steps sampler licence permit?",
+      "reason": "The archived sampler licence directly supplies the historical permitted duration and its seconds unit.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "the permitted excerpt length was 90 seconds."
+    },
+    {
+      "acceptedAnswers": [
+        "Ireland only",
+        "The Winter Steps complete audiobook licence covers sales in Ireland only."
+      ],
+      "answerKey": "ireland-only",
+      "id": "eval04:q4:s01:r0:0",
+      "legacyAnswers": [
+        "Ireland only"
+      ],
+      "library": "eval04",
+      "passageApproved": true,
+      "proposedAnswer": "The Winter Steps complete audiobook licence covers sales in Ireland only.",
+      "question": "q4",
+      "questionText": "Before the territory addendum, where did the original Winter Steps complete audiobook licence allow sales?",
+      "reason": "The original eligible rights digest answers the pre-addendum territory question and retains Ireland's only qualifier.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "The Winter Steps complete audiobook licence covers sales in Ireland only."
+    },
+    {
+      "acceptedAnswers": [
+        "08:00 to 08:20",
+        "the visitor arrival window is 08:00 to 08:20."
+      ],
+      "answerKey": "08:00-08:20",
+      "id": "eval05:q1:s01:r0:0",
+      "legacyAnswers": [
+        "08:00 to 08:20"
+      ],
+      "library": "eval05",
+      "passageApproved": true,
+      "proposedAnswer": "the visitor arrival window is 08:00 to 08:20.",
+      "question": "q1",
+      "questionText": "What arrival window did the original instruction give for the 6 July courtyard apiary inspection?",
+      "reason": "The original arrival instruction gives both endpoints of the requested historical window, with no replacement time included.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "the visitor arrival window is 08:00 to 08:20."
+    },
+    {
+      "acceptedAnswers": [
+        "09:10 to 09:30",
+        "the revised visitor arrival window is 09:10 to 09:30."
+      ],
+      "answerKey": "09:10-09:30",
+      "id": "eval05:q2:s01:r1:0",
+      "legacyAnswers": [
+        "09:10 to 09:30"
+      ],
+      "library": "eval05",
+      "passageApproved": true,
+      "proposedAnswer": "the revised visitor arrival window is 09:10 to 09:30.",
+      "question": "q2",
+      "questionText": "During what revised arrival window should visitors come for the courtyard apiary inspection on 6 July?",
+      "reason": "The revised instruction directly supplies both endpoints of the new arrival window and preserves its revised status.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "the revised visitor arrival window is 09:10 to 09:30."
+    },
+    {
+      "acceptedAnswers": [
+        "a green triangle",
+        "green triangle",
+        "visitor badge: a green triangle."
+      ],
+      "answerKey": "green-triangle",
+      "id": "eval05:q5:s02:r0:0",
+      "legacyAnswers": [
+        "a green triangle",
+        "green triangle"
+      ],
+      "library": "eval05",
+      "passageApproved": true,
+      "proposedAnswer": "visitor badge: a green triangle.",
+      "question": "q5",
+      "questionText": "What symbol appeared on the courtyard apiary visitor badges at the completed spring open day?",
+      "reason": "The archived spring card directly names the badge's green triangle symbol; the source binds it to the completed event rather than July credentials.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "visitor badge: a green triangle."
+    },
+    {
+      "acceptedAnswers": [
+        "A building escort",
+        "building escort",
+        "A building escort must accompany visitors even if they carry a key."
+      ],
+      "answerKey": "building-escort",
+      "id": "eval05:q8:s03:r0:0",
+      "legacyAnswers": [
+        "A building escort",
+        "building escort"
+      ],
+      "library": "eval05",
+      "passageApproved": true,
+      "proposedAnswer": "A building escort must accompany visitors even if they carry a key.",
+      "question": "q8",
+      "questionText": "What role must accompany visitors at the 6 July courtyard apiary inspection even when the visitors carry a key?",
+      "reason": "The passage identifies the building-escort role and preserves the question's key-possession condition; it does not invent the absent individual's name.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "A building escort must accompany visitors even if they carry a key."
+    },
+    {
+      "acceptedAnswers": [
+        "O-2",
+        "The Otter youth robotics team's checkout bin is now marked O-2 after relabelling."
+      ],
+      "answerKey": "O-2",
+      "id": "eval06:q1:s01:r1:0",
+      "legacyAnswers": [
+        "O-2"
+      ],
+      "library": "eval06",
+      "passageApproved": true,
+      "proposedAnswer": "The Otter youth robotics team's checkout bin is now marked O-2 after relabelling.",
+      "question": "q1",
+      "questionText": "What is the relabelled checkout-bin identifier for the Otter youth robotics team?",
+      "reason": "The current bin entry names Otter, the bin, O-2 and relabelling, keeping the identifier distinct from component quantities.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "The Otter youth robotics team's checkout bin is now marked O-2 after relabelling."
+    },
+    {
+      "acceptedAnswers": [
+        "motors and brackets only",
+        "I handed over motors and brackets only."
+      ],
+      "answerKey": "motors-and-brackets-only",
+      "id": "eval06:q2:s07:r0:0",
+      "legacyAnswers": [
+        "motors and brackets only"
+      ],
+      "library": "eval06",
+      "passageApproved": true,
+      "proposedAnswer": "I handed over motors and brackets only.",
+      "question": "q2",
+      "questionText": "What items did the assistant hand over at Saturday's Otter checkout?",
+      "reason": "The checkout assistant directly records both issued item types and the only qualifier; first-person wording is anchored by the cited assistant record.",
+      "revision": 0,
+      "sourceId": "s07",
+      "supportQuote": "I handed over motors and brackets only."
+    },
+    {
+      "acceptedAnswers": [
+        "M3 nuts",
+        "M3",
+        "the axle brackets used M3 nuts."
+      ],
+      "answerKey": "M3",
+      "id": "eval06:q3:s02:r0:0",
+      "legacyAnswers": [
+        "M3 nuts",
+        "M3"
+      ],
+      "library": "eval06",
+      "passageApproved": true,
+      "proposedAnswer": "the axle brackets used M3 nuts.",
+      "question": "q3",
+      "questionText": "What nut size did Otter's completed cardboard-rover practice build use on its axle brackets?",
+      "reason": "The retired build record directly names M3 nuts for the axle brackets; it answers the historical nut-size request without using current stock counts.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "the axle brackets used M3 nuts."
+    },
+    {
+      "acceptedAnswers": [
+        "O-7",
+        "The Otter youth robotics team's checkout bin is marked O-7."
+      ],
+      "answerKey": "O-7",
+      "id": "eval06:q4:s01:r0:0",
+      "legacyAnswers": [
+        "O-7"
+      ],
+      "library": "eval06",
+      "passageApproved": true,
+      "proposedAnswer": "The Otter youth robotics team's checkout bin is marked O-7.",
+      "question": "q4",
+      "questionText": "What was the Otter checkout bin marked before relabelling?",
+      "reason": "The superseded bin entry directly gives the old O-7 identifier for Otter; the historical question and revision prevent treating it as the current label.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "The Otter youth robotics team's checkout bin is marked O-7."
+    },
+    {
+      "acceptedAnswers": [
+        "Harbour Finch",
+        "Ada's completed pilot interview was catalogued under the agreed pseudonym Harbour Finch."
+      ],
+      "answerKey": "Harbour-Finch",
+      "id": "eval07:q2:s02:r0:0",
+      "legacyAnswers": [
+        "Harbour Finch"
+      ],
+      "library": "eval07",
+      "passageApproved": true,
+      "proposedAnswer": "Ada's completed pilot interview was catalogued under the agreed pseudonym Harbour Finch.",
+      "question": "q2",
+      "questionText": "Under what agreed pseudonym was Ada's completed pilot interview catalogued?",
+      "reason": "The archived pilot consent sentence gives the agreed catalogue pseudonym and retains the completed-pilot identity, not the later interview's missing surname.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "Ada's completed pilot interview was catalogued under the agreed pseudonym Harbour Finch."
+    },
+    {
+      "acceptedAnswers": [
+        "Ada's surname was intentionally not recorded",
+        "intentionally not recorded",
+        "Ada's surname was intentionally not recorded on this interview's consent form."
+      ],
+      "answerKey": "surname-not-recorded",
+      "id": "eval07:q5:s03:r0:0",
+      "legacyAnswers": [
+        "Ada's surname was intentionally not recorded",
+        "intentionally not recorded"
+      ],
+      "library": "eval07",
+      "passageApproved": true,
+      "proposedAnswer": "Ada's surname was intentionally not recorded on this interview's consent form.",
+      "question": "q5",
+      "questionText": "Was Ada's surname recorded on the harbour interview consent form?",
+      "reason": "The registrar statement directly answers whether Ada's surname was recorded, preserving intentional non-recording and the consent-form context.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "Ada's surname was intentionally not recorded on this interview's consent form."
+    },
+    {
+      "acceptedAnswers": [
+        "registered researchers only",
+        "Ada's harbour interview transcript may be consulted by registered researchers only."
+      ],
+      "answerKey": "registered-researchers-only",
+      "id": "eval07:q6:s01:r0:0",
+      "legacyAnswers": [
+        "registered researchers only"
+      ],
+      "library": "eval07",
+      "passageApproved": true,
+      "proposedAnswer": "Ada's harbour interview transcript may be consulted by registered researchers only.",
+      "question": "q6",
+      "questionText": "Which audience was allowed to consult Ada's harbour interview transcript in the first consent digest, before amendment?",
+      "reason": "The original consent digest directly gives the first permitted audience and retains only; historical scope identifies this as the earlier permission, not the amendment.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "Ada's harbour interview transcript may be consulted by registered researchers only."
+    },
+    {
+      "acceptedAnswers": [
+        "local school history groups only",
+        "Ada's amended consent permits consultation of the harbour interview transcript by local school history groups only."
+      ],
+      "answerKey": "local-school-history-groups-only",
+      "id": "eval07:q7:s01:r1:0",
+      "legacyAnswers": [
+        "local school history groups only"
+      ],
+      "library": "eval07",
+      "passageApproved": true,
+      "proposedAnswer": "Ada's amended consent permits consultation of the harbour interview transcript by local school history groups only.",
+      "question": "q7",
+      "questionText": "Which audience does Ada's amended consent permit to consult her harbour interview transcript?",
+      "reason": "The amended consent directly names the transcript's permitted audience and preserves the only restriction, without asserting that an embargo has elapsed.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "Ada's amended consent permits consultation of the harbour interview transcript by local school history groups only."
+    },
+    {
+      "acceptedAnswers": [
+        "a lint-free microfibre cloth",
+        "lint-free microfibre cloth",
+        "specifies a lint-free microfibre cloth."
+      ],
+      "answerKey": "lint-free-microfibre",
+      "id": "eval08:q1:s01:r1:0",
+      "legacyAnswers": [
+        "a lint-free microfibre cloth",
+        "lint-free microfibre cloth"
+      ],
+      "library": "eval08",
+      "passageApproved": true,
+      "proposedAnswer": "specifies a lint-free microfibre cloth.",
+      "question": "q1",
+      "questionText": "What cloth does the replacement instruction specify for cleaning the rooftop weather station's outer cover?",
+      "reason": "The contiguous replacement-instruction extract directly specifies the requested lint-free microfibre cloth; the outer-cover entity is fixed by the question and cited source.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "specifies a lint-free microfibre cloth."
+    },
+    {
+      "acceptedAnswers": [
+        "The wind vane was not removed during this visit."
+      ],
+      "answerKey": "not-removed",
+      "id": "eval08:q2:s03:r0:0",
+      "legacyAnswers": [
+        "The wind vane was not removed during this visit."
+      ],
+      "library": "eval08",
+      "passageApproved": true,
+      "proposedAnswer": "The wind vane was not removed during this visit.",
+      "question": "q2",
+      "questionText": "Was the wind vane removed during the June rooftop weather-station service?",
+      "reason": "Already a legacy accepted sentence: it preserves the complete non-removal statement and visit qualifier for June service.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "The wind vane was not removed during this visit."
+    },
+    {
+      "acceptedAnswers": [
+        "wind vane removal was not performed",
+        "wind vane removal was not performed."
+      ],
+      "answerKey": "not-removed",
+      "id": "eval08:q2:s07:r0:1",
+      "legacyAnswers": [
+        "wind vane removal was not performed"
+      ],
+      "library": "eval08",
+      "passageApproved": true,
+      "proposedAnswer": "wind vane removal was not performed.",
+      "question": "q2",
+      "questionText": "Was the wind vane removed during the June rooftop weather-station service?",
+      "reason": "The independent June checklist directly confirms non-removal, with the full negation preserved.",
+      "revision": 0,
+      "sourceId": "s07",
+      "supportQuote": "wind vane removal was not performed."
+    },
+    {
+      "acceptedAnswers": [
+        "hex key H-5",
+        "cover fastener tool: hex key H-5."
+      ],
+      "answerKey": "hex-key-H-5",
+      "id": "eval08:q3:s02:r0:0",
+      "legacyAnswers": [
+        "hex key H-5"
+      ],
+      "library": "eval08",
+      "passageApproved": true,
+      "proposedAnswer": "cover fastener tool: hex key H-5.",
+      "question": "q3",
+      "questionText": "Which tool was recorded for the cover fasteners at the completed February roof-station service?",
+      "reason": "The archived February tag directly identifies the cover-fastener tool and H-5 identifier, without confusing it with current cleaning material.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "cover fastener tool: hex key H-5."
+    },
+    {
+      "acceptedAnswers": [
+        "a woven cotton cloth",
+        "woven cotton cloth",
+        "The first cover-cleaning instruction for the rooftop weather station specifies a woven cotton cloth."
+      ],
+      "answerKey": "woven-cotton",
+      "id": "eval08:q4:s01:r0:0",
+      "legacyAnswers": [
+        "a woven cotton cloth",
+        "woven cotton cloth"
+      ],
+      "library": "eval08",
+      "passageApproved": true,
+      "proposedAnswer": "The first cover-cleaning instruction for the rooftop weather station specifies a woven cotton cloth.",
+      "question": "q4",
+      "questionText": "Which cloth did the first rooftop weather-station cover-cleaning instruction specify, before replacement?",
+      "reason": "The superseded instruction expressly identifies the first cover-cleaning cloth and retains its woven cotton material and station context.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "The first cover-cleaning instruction for the rooftop weather station specifies a woven cotton cloth."
+    }
+  ],
+  "packetLabelsSHA256": "78b30f2b3de134b43e704e7f67f144303abb513fba8138df67a69ac167bd6bf4",
+  "proposalSHA256": "4c73e043fa415c6b20a4e2c7151c6bd00c8322343f0cb8a6f232e5ffb30e17ed",
+  "reviewer": "/root/support_author_dev",
+  "schemaVersion": 2,
+  "split": "evaluation"
+}

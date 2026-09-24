@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev01-q5",
+    "inputSHA256": "49d5e2299804101ffcd16efdf391651ffcd0c0254a4b979a9e69b920dbad67e9",
+    "rawSHA256": "53923662843be1e6a5b74a33a29c31cb7eb1c55b24fc89b3da4c651b9f5f6b0b",
+    "requestCount": 1,
+    "reservationSHA256": "a32b0310931e30c0a03546246720e7974ea1d4bd4814f1b73ed9ad8f69b7af74",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.1655508333351463,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "7e5c56cd66b8c6bd29e5cf0d393df38f6a2b1aec0532d04b8ecf1da3d5b5ffee",
+            "quote": "We did not record a sound level for the door slam."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21446656,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev01-q5"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "736d62ba2be42751585997f6dbda9dd60a6f227918736a2dfb9e98f66b3fafa1"
+}

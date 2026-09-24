@@ -1,0 +1,45 @@
+{
+  "budgetApprovalSHA256": "3589d831e06d5c1d20ffd1d18bc3f296911121940bbc8d6cf1828d9cdc8cc530",
+  "capBytes": 5368709120,
+  "checkpoint2Complete": false,
+  "developmentMetricsSHA256": "677ea949238c1d2d94c83636a83965d8cf31c2a5d037b0557c48099e40b02069",
+  "developmentPredictionReceipts": 120,
+  "developmentUnits": {
+    "embeddings": 117,
+    "neural": 501,
+    "pairs": 501
+  },
+  "evaluationComplete": false,
+  "evaluationExpected": {
+    "embeddings": 109,
+    "neural": 430,
+    "pairs": 430
+  },
+  "evaluationPredictionReceipts": 0,
+  "evaluationUnits": {
+    "embeddings": 109,
+    "neural": 376,
+    "pairs": 0
+  },
+  "failureReceipt": "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/checkpoint2/runs/failures/1789628516252577000.json",
+  "failureSHA256": "64c9a529f8ff1e9a7154163f412797324867ec7223c3260609807bf99574c1d0",
+  "freeReserveBytes": 10737418240,
+  "manifestSHA256": "c5944a0a405df956437528c35e42497fea3f5b0df9fba8cfd994ed335cd55be2",
+  "originalSavedUnitsVerifiedUnchanged": 317,
+  "phoneUsed": false,
+  "productionChanged": false,
+  "pythonTestsPassed": 137,
+  "reference": "d3-seed29-mac27-pf2-reference-v1",
+  "resources": {
+    "conservativeGrowthBytes": 5603819520,
+    "externalGrowthBytes": 2284302336,
+    "freeBytes": 39359148032,
+    "scopedBytes": 322678784
+  },
+  "resumeCommand": "'/Users/aaryan/Library/Application Support/RememberMatcherFeasibility/v1/venv/bin/python' -B scripts/provenance-first/checkpoint2/budget5/approved_run.py model cache --split evaluation --resume",
+  "safeToClose": true,
+  "selectedPolicy": "Coff",
+  "selectionSHA256": "41477b7e5c912214dfc4ca62170d78330a6a1c7975a68f1424c03d59c125cb37",
+  "status": "paused-resource-limit",
+  "workersStopped": true
+}

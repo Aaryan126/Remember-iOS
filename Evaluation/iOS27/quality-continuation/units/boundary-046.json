@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-046/raw.json",
+  "rawSHA256": "0631881f65cb48053fdf465a019db70614a13f58dd0a0b6ead84e18429d7133b",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.873230000004696,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.0000013541430235e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3188815416651778,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37047983333468437,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3714502083385014,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.871276249999937,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "7e370d167d1972b4743d749de96c2a819929a59cc72f96184900b3051c0cf6af",
+      "contextSize": 4096,
+      "generationSeconds": 3.499218875003862,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal radio commissioned an oral-history episode about the harbour night shift. Record the dock workers, edit their interviews and clear the music for this episode.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Voice memo: The producer approved that harbour segment. Send the clean version tonight.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference the same harbour segment and production approval for the oral-history episode.",
+        "verdict": "same_project"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-046"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-012/raw.json",
+  "rawSHA256": "546cb80230d262310fe8776b1f7eec50860637c9de46b047f973179663e5f6f7",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.064991125000233,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.2916650525294244e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.32406374999845866,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37376629166828934,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37477295833377866,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.063690208335174,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "23395b6e37217727f667f56786027d12808a721a8966a639d36bd6d86c6188e8",
+      "contextSize": 4096,
+      "generationSeconds": 3.688242916665331,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Fernbridge runs an independent basil irrigation trial. It uses the same cultivar and scales, but tests water frequency with its own control groups and result, not the light-duration hypothesis.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Lab rota schedules weighing for both basil experiments: the light-duration groups first and the irrigation groups afterward. Keep their control-group labels and results separate.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct basil experiments\u2014irrigation versus light-duration\u2014with separate control-group handling, indicating different undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-012"
+  }
+}

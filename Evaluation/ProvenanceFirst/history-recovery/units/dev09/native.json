@@ -1,0 +1,682 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "bf1700a6e6256d26c4d8be58a81348b97b3bac2fa4e58aac13f8fae5f75c1ecc"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Estuary linocut edition numbering, initial plan: number the sale edition from 1/24 through 24/24. Artist proofs remain outside that sequence and use lettered marks. The work is a fictional printmaking exercise; this notebook records numbering decisions as they evolve."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "bf1700a6e6256d26c4d8be58a81348b97b3bac2fa4e58aac13f8fae5f75c1ecc"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "pdf",
+        "text": "Estuary print exhibition captions will explain the linocut's process and distinguish editioned prints from artist proofs. We are writing gallery labels, not deciding how many prints to sell. The numbering notebook is controlled by the printmaker."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "bf1700a6e6256d26c4d8be58a81348b97b3bac2fa4e58aac13f8fae5f75c1ecc"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "1bb96cefd7d7bea69bc337e930e046a745e793d6f6643a943e36ea0704dc04c4"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "Proof approval sheet for Estuary linocut edition numbering and Estuary print exhibition captions: use artist proof B as the visual reference. Its margin shows the intended signature position; the exhibition photographer will crop outside that margin only for the wall illustration."
+      }
+    },
+    {
+      "assignments": [
+        "t:c04"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "bf1700a6e6256d26c4d8be58a81348b97b3bac2fa4e58aac13f8fae5f75c1ecc"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "1bb96cefd7d7bea69bc337e930e046a745e793d6f6643a943e36ea0704dc04c4"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "f767ebeffe5360b67c3b0c3bec3411fdf396ca50e390e1fc454e7db474cfc0db"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "video",
+        "text": "Numbering bench clip: 'Stop before the damaged corner.' The camera was facing the ceiling, and the next words are inaudible. There is no sheet count or print identifier in the extraction. The damaged object could be a print, mount or packing board."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "25748c00b133a3a372987715abb2be9ef5af670b21dfe3296dcff4dd94cb6903"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "1bb96cefd7d7bea69bc337e930e046a745e793d6f6643a943e36ea0704dc04c4"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "f767ebeffe5360b67c3b0c3bec3411fdf396ca50e390e1fc454e7db474cfc0db"
+        }
+      },
+      "id": "e05",
+      "kind": "revise",
+      "target": "localc01",
+      "text": "Estuary linocut edition numbering, paper-loss revision: number the sale edition from 1/20 through 20/20. Four sheets failed the final margin check before numbering began. Artist proofs remain lettered and are not included in this reduced sale edition."
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "25748c00b133a3a372987715abb2be9ef5af670b21dfe3296dcff4dd94cb6903"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "1bb96cefd7d7bea69bc337e930e046a745e793d6f6643a943e36ea0704dc04c4"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "f767ebeffe5360b67c3b0c3bec3411fdf396ca50e390e1fc454e7db474cfc0db"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d88b3026edfdcfefa16a790b65eb18a70cc69acc8874bbdd3c780d748052dca3"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "note",
+        "text": "Estuary print exhibition captions draft: the wall text should call the process a two-block linocut. Describe the pale ink layer before the darker key block. This draft does not state an edition size, because numbering is still controlled in the printmaker's notebook."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "25748c00b133a3a372987715abb2be9ef5af670b21dfe3296dcff4dd94cb6903"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "1bb96cefd7d7bea69bc337e930e046a745e793d6f6643a943e36ea0704dc04c4"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "f767ebeffe5360b67c3b0c3bec3411fdf396ca50e390e1fc454e7db474cfc0db"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d88b3026edfdcfefa16a790b65eb18a70cc69acc8874bbdd3c780d748052dca3"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6038d91754ce93136b7b19d4b0e892eb1c44a433a8767051ca92b054963d36ae"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "image",
+        "text": "Estuary linocut edition numbering desk photograph: completed numbers are written below the image on the left. The photographed sheet is partly under tissue, so its actual fraction cannot be read. The photo confirms placement only, not the total edition count."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "25748c00b133a3a372987715abb2be9ef5af670b21dfe3296dcff4dd94cb6903"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "1bb96cefd7d7bea69bc337e930e046a745e793d6f6643a943e36ea0704dc04c4"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f767ebeffe5360b67c3b0c3bec3411fdf396ca50e390e1fc454e7db474cfc0db"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d88b3026edfdcfefa16a790b65eb18a70cc69acc8874bbdd3c780d748052dca3"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6038d91754ce93136b7b19d4b0e892eb1c44a433a8767051ca92b054963d36ae"
+        }
+      },
+      "id": "e08",
+      "kind": "correct",
+      "target": "localc04"
+    },
+    {
+      "assignments": [
+        "t:c07"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "25748c00b133a3a372987715abb2be9ef5af670b21dfe3296dcff4dd94cb6903"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "1bb96cefd7d7bea69bc337e930e046a745e793d6f6643a943e36ea0704dc04c4"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f767ebeffe5360b67c3b0c3bec3411fdf396ca50e390e1fc454e7db474cfc0db"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d88b3026edfdcfefa16a790b65eb18a70cc69acc8874bbdd3c780d748052dca3"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6038d91754ce93136b7b19d4b0e892eb1c44a433a8767051ca92b054963d36ae"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "7416ec3b3e14bd523dd103859f94909e715b9b7227420fafe0d5af53ed7c10a6"
+        }
+      },
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "link",
+        "text": "A printmakers' glossary is background for Estuary print exhibition captions. It defines key block and registration marks using unrelated examples. The glossary does not establish facts about the Estuary edition or authorize changing the printmaker's numbering range."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "25748c00b133a3a372987715abb2be9ef5af670b21dfe3296dcff4dd94cb6903"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "1bb96cefd7d7bea69bc337e930e046a745e793d6f6643a943e36ea0704dc04c4"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f767ebeffe5360b67c3b0c3bec3411fdf396ca50e390e1fc454e7db474cfc0db"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d88b3026edfdcfefa16a790b65eb18a70cc69acc8874bbdd3c780d748052dca3"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6038d91754ce93136b7b19d4b0e892eb1c44a433a8767051ca92b054963d36ae"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "7416ec3b3e14bd523dd103859f94909e715b9b7227420fafe0d5af53ed7c10a6"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "034ddfd3eb929bbf8c7bed58085d718ff4a97acc61787c2f8b914f5cedaec0b5"
+        }
+      },
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "voice",
+        "text": "Estuary linocut edition numbering checkout: keep lettered artist proofs in the flat drawer, separate from the numbered sale prints. A shopping receipt tucked beside them belongs to the framing supplier and is not part of the edition record."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "25748c00b133a3a372987715abb2be9ef5af670b21dfe3296dcff4dd94cb6903"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "1bb96cefd7d7bea69bc337e930e046a745e793d6f6643a943e36ea0704dc04c4"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f767ebeffe5360b67c3b0c3bec3411fdf396ca50e390e1fc454e7db474cfc0db"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d88b3026edfdcfefa16a790b65eb18a70cc69acc8874bbdd3c780d748052dca3"
+        },
+        "localc06": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6038d91754ce93136b7b19d4b0e892eb1c44a433a8767051ca92b054963d36ae"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "7416ec3b3e14bd523dd103859f94909e715b9b7227420fafe0d5af53ed7c10a6"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "034ddfd3eb929bbf8c7bed58085d718ff4a97acc61787c2f8b914f5cedaec0b5"
+        }
+      },
+      "id": "e11",
+      "kind": "archive",
+      "target": "localc06"
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "25748c00b133a3a372987715abb2be9ef5af670b21dfe3296dcff4dd94cb6903"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "1bb96cefd7d7bea69bc337e930e046a745e793d6f6643a943e36ea0704dc04c4"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f767ebeffe5360b67c3b0c3bec3411fdf396ca50e390e1fc454e7db474cfc0db"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d88b3026edfdcfefa16a790b65eb18a70cc69acc8874bbdd3c780d748052dca3"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6038d91754ce93136b7b19d4b0e892eb1c44a433a8767051ca92b054963d36ae"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "7416ec3b3e14bd523dd103859f94909e715b9b7227420fafe0d5af53ed7c10a6"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "034ddfd3eb929bbf8c7bed58085d718ff4a97acc61787c2f8b914f5cedaec0b5"
+        }
+      },
+      "id": "e12",
+      "kind": "restore",
+      "target": "localc06"
+    }
+  ],
+  "id": "history-dev09-chronological",
+  "queries": [
+    {
+      "afterEvent": "e08",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e08",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

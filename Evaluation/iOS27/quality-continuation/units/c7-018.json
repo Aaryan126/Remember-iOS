@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-018/raw.json",
+  "rawSHA256": "042651dfbc96222d9945985c5877dae885f16a8b0ea7523f74a00ceab4a4875a",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.639889124999172,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.2083338485099375e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3189528333314229,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.36937929166742833,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37035920833295677,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.6386965833371505,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "34a52c8af81355a8c6b0ad8769f7dc5713c224fb7eaf6e831f8a5268cc831f11",
+      "contextSize": 4096,
+      "generationSeconds": 3.267676916664641,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Prototype machining, load tests and drawing approval are one engineering commission for the latch.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Workshop sheet allocates the same test rig to the folding-ladder latch and the toolbox hinge on successive days. File the results under their respective product approvals.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources reference the folding-ladder latch as part of the same engineering commission.",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-018"
+  }
+}

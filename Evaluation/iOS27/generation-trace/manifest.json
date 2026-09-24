@@ -1,0 +1,27 @@
+{
+  "generated": {
+    "build/CompatibilityProbe.xcodeproj/project.pbxproj": "216644da02b56bc0e86ef71be63d93031dd231c2044dda581b416e137d4f9f0d",
+    "build/Sources/GenerationProbe.swift": "28d77fd16710b57535e4a87f33776001c734deaa6257ee0e39cdb75b55f0bc38"
+  },
+  "phoneFiles": {
+    "build/device-build/Build/Products/Debug-iphoneos/CompatibilityProbe.app/CompatibilityProbe": "f390e73436d44cffa8506ba00a8e688e67f58a5e20d129700d7f87478eba1903",
+    "build/device-build/Build/Products/Debug-iphoneos/CompatibilityProbe.app/Info.plist": "233722d6e6b6b968b5617c74fcf9c20b06667bc177d4efc5ac7231165485366e",
+    "build/device-build/Build/Products/Debug-iphoneos/CompatibilityProbe.app/PkgInfo": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
+    "build/device-build/Build/Products/Debug-iphoneos/CompatibilityProbe.app/_CodeSignature/CodeResources": "603838f6004e31d6540f913cc7f9cef3ca2041cfa5bab4bc72299e9d92d6133d",
+    "build/device-build/Build/Products/Debug-iphoneos/CompatibilityProbe.app/embedded.mobileprovision": "f1a935569a64c61d403bedc263334670a31a92b184fda6489a11f7103ae8f52e"
+  },
+  "protocolSHA256": "8aa48bc7639b5f595f5a67fab98b7c168fbbec0f66b721b52e839f9ac5767295",
+  "sources": {
+    "Evaluation/iOS27/readiness/closure.json": "06127c5a98d8b2ff7a285c5526c7b56a494e3b9e6ef33e854516eb30fc4bd0ed",
+    "scripts/ios27-evaluation/project.pbxproj.template": "71b3f27e8ff3d168e17862dc31ef675dc9b33cd181cb19412df12ee6149d9c34",
+    "scripts/ios27-evaluation/run.py": "9f480c0d6cd729248cc4395346e77ca150db56c0575859801b22ed651d502fdb",
+    "scripts/ios27-generation-trace/GenerationProbe.swift": "28d77fd16710b57535e4a87f33776001c734deaa6257ee0e39cdb75b55f0bc38",
+    "scripts/ios27-generation-trace/run.py": "114c38c965f9915376a3b8fb26b324fd0db9c11a50029f23832528300aeccc6a",
+    "scripts/ios27-generation-trace/test_run.py": "6d6cd66725b26c0aa9316d28d83e061fd04daa1bda90fae75725db28bc329d66"
+  },
+  "stage2Started": false,
+  "units": [
+    "watchdog-control",
+    "generation"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-065/raw.json",
+  "rawSHA256": "ad96274b3eee7c98fe0516aed70115988aff19a2a7e3feba6be04c1d0099c426",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.199042874999577,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.0000013541430235e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2160012500025914,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26725537500169594,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.26837591666844673,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.197652208335057,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "a05b79adb3db0ff2df70d859bbc076d5feb4dd6be68a35d9690a0d746b5fd131",
+      "contextSize": 4096,
+      "generationSeconds": 3.9286566666633007,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Marble Desk has a distinct security incident: revoked staff can still log in.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Operations diary coordinates the migration cutover and the access-revocation incident review.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources reference distinct incidents\u2014migration and security\u2014without shared project terminology or coordination.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-065"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/aaryan/Desktop/Gemini Hackathon/scripts/provenance-first/answer-support-format-v2/v2_runner.py",
+        "pause"
+      ],
+      "exitCode": 0,
+      "stderr": "",
+      "stdout": "Pause requested; wait for worker/owned-process confirmation.\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/aaryan/Desktop/Gemini Hackathon/scripts/provenance-first/answer-support-format-v2/v2_runner.py",
+        "prepare"
+      ],
+      "exitCode": 0,
+      "stderr": "",
+      "stdout": "{\"status\": \"paused\", \"reason\": \"saved v2 unit boundary\", \"workerStopped\": true}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/aaryan/Desktop/Gemini Hackathon/scripts/provenance-first/answer-support-format-v2/v2_runner.py",
+        "prepare",
+        "--resume"
+      ],
+      "exitCode": 0,
+      "stderr": "",
+      "stdout": "{\"command\": \"prepare\", \"status\": \"complete\", \"workerStopped\": true, \"stageBAllowed\": false}\n"
+    }
+  ],
+  "files": {
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/answer-support-format-v2/proposals/development.json": {
+      "mtime": 1789812680017539652,
+      "sha": "99cac55c11fbd8a9eb08ca6bca96e84be446cae9e38a578e2a868b0c75cdfa29"
+    },
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/answer-support-format-v2/proposals/evaluation.json": {
+      "mtime": 1789812681066208967,
+      "sha": "4c73e043fa415c6b20a4e2c7151c6bd00c8322343f0cb8a6f232e5ffb30e17ed"
+    }
+  },
+  "modelRequests": 0,
+  "proposalsUnchanged": true,
+  "workerStopped": true
+}

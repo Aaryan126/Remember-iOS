@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-047/raw.json",
+  "rawSHA256": "4c9a725a152fb58a9501aee5059b9b9104473aab65d3edf96e0ae573984355ed",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.00971283333638,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.25000291923061e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.32077670833677985,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3734665833399049,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37443920833902666,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.008440708334092,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "7f8a66774b39e90f06dcac2078ff9f2da40439303d01532c36f567b25f04a2d6",
+      "contextSize": 4096,
+      "generationSeconds": 3.633334083337104,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Cobalt Press commissioned a Spanish translation of the travel book 'River Roads'. Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Rights memo covers source-image permissions for both the Spanish and Portuguese editions of 'River Roads'. Each translation still has its own publication approval.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct publication approvals for separate translations, indicating independent projects.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-047"
+  }
+}

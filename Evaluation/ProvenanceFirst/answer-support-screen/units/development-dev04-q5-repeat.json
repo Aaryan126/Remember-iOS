@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev04-q5-repeat",
+    "inputSHA256": "f2e8eed7c592d4a7e23e726f3dad7bebcf870db7abbe9450a26575469becfda7",
+    "rawSHA256": "025521e611edfebe1109ac4ad8bf8eba1591419905e8512e38fbfebde53314a8",
+    "requestCount": 1,
+    "reservationSHA256": "926c8e041caa6064964c02d14e36139fa7e738d0fb7941a20ce128278a93c303",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 5.748703458331875,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "017189df1e1a198a5c3b68976d291c75cb9556c4c91d1addc0133ad17e37b346",
+            "quote": "At the sealed Tide Bowl crate handover on Monday, the seal number was K208. I read it aloud to the driver. Handover form signed by the packer."
+          },
+          {
+            "candidateID": "85e550378202f1517bd08c8fa488fcfef23397203827f9c58f337eddab8485e0",
+            "quote": "Driver's Monday Tide Bowl handover record: sole seal number K280. Driver's copy, signed on the handover line."
+          }
+        ],
+        "verdict": "conflicting"
+      },
+      "peakResidentBytes": 21807104,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev04-q5-repeat"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "036dae572180b7972a0d3f146d7c014c34c7cce6d0959efc678be63b9f96cfd6"
+}

@@ -1,0 +1,1545 @@
+{
+  "checkpoint2Allowed": false,
+  "completedLibraries": 24,
+  "libraries": [
+    {
+      "id": "dev01",
+      "prefixes": 12,
+      "receiptSHA256": "4fd38684fff4a7fb073c103fb8619b814076491be7212c16e7b91e4eaada925c",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "ee278cac992bf91242e4e4d61bf16123ab26ad3f97846ec262ab5f7ac616d609"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q2",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 4
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "8eb1be5a30e239dd8d85dcf2a364f1fc7101e5ee8b3fbabfc660750037948c64"
+              ],
+              "revision": 0,
+              "sourceId": "s07"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "e3155c68f508029bb5dbc2e67926a0477fc7e4e662ea14cfe0ccbd1929ae5fbd"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q4",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        }
+      ]
+    },
+    {
+      "id": "dev02",
+      "prefixes": 12,
+      "receiptSHA256": "7cf6e2a30bb3980cb546949014d34b9e8df017415875803fa8be50355faa842b",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "3a3488d0b6a2760390a12414df42ec40e46c38aa4e6ad0446202436e29f4ae0a"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q2",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "301ecd44ca310a4739f3a0a7359ef4b1a1ca98cbdf1a0ed1d028aeb49639ba12"
+              ],
+              "revision": 0,
+              "sourceId": "s08"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "915167a196f5896ca649a50576396464fe199c1216254b9dc0f9725d9db6f7fc"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q4",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        }
+      ]
+    },
+    {
+      "id": "dev03",
+      "prefixes": 12,
+      "receiptSHA256": "30627e4aaad7f418531ae032c0de22717d7cc25ccdea006aa400668ed1950ca5",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "b432a81ac07bd76405b014d2976b6a3b1a7c0259693a0c2e04416e366ce6a3bb"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q2",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "5ace369d26a375a2de4e25bd59fca673cad3d672c61c1026f7a4ddf8e18daae1"
+              ],
+              "revision": 0,
+              "sourceId": "s05"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "7b026bc8ea14921abdcc59cb9f7da8a89a346c7452e4fed62ef7e4b26e059687"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q4",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        }
+      ]
+    },
+    {
+      "id": "dev04",
+      "prefixes": 12,
+      "receiptSHA256": "e73d926e9dcfa861ec400fcdd3d0d3aaf4c917be2839fc5c29a79afaf9111fd0",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "36245cef0fd0bec8da6cbdcf9ce0ecc36feb19dddd3189490c606704207bf1d7"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q2",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "d23ed76e0f082376c4ac794cd416247e79d0c01e9438d6f68cdc4a11953920ab"
+              ],
+              "revision": 0,
+              "sourceId": "s07"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "e539e321750c4019fbab28a63763e406ac31b7ce6b054e3be2747558f2cac59e"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q4",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        }
+      ]
+    },
+    {
+      "id": "dev05",
+      "prefixes": 12,
+      "receiptSHA256": "6b5e2cd5a9638b6766718e7969d0b14ac5c8153522f5361bbcf6a97e86c610b4",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q1",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 4
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "9904c5fbfeaa46cd67b8a85e8da92fa92f47196b8aaf0bef0599cd760dc90b87"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 9
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "0593fe03aa43bdb38071c95a16b21cacda5a375a684c108cae7ca375661de944"
+              ],
+              "revision": 0,
+              "sourceId": "s06"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 9
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "dcd19faf6df5fb836373e31f40e6317e858fe9ac09430349c25baeee1f809ba2"
+              ],
+              "revision": 0,
+              "sourceId": "s05"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q4",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 9
+        }
+      ]
+    },
+    {
+      "id": "dev06",
+      "prefixes": 12,
+      "receiptSHA256": "01e900d914e69c11ee0ac2e004700c4149dcb6e41eb9836c7d87a17d854dbd73",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q1",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "2ad91d53d523da4ff4a5d1179c4229e602c9ec232c390886283553e27232bcec"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "50c5c06cff2c3a573e9a9c61d9b275e4d2cddb0bc50bd2a53076aa6ed2469b5b"
+              ],
+              "revision": 0,
+              "sourceId": "s06"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "b0ad35e8a9a043e3dfb9ff26574326cec6a50c6458873c1a3f9dbedfaf322ecd"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q4",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        }
+      ]
+    },
+    {
+      "id": "dev07",
+      "prefixes": 12,
+      "receiptSHA256": "7b02b5360cafa5367417026ad6967089d01faef2ed578925377641773f049e22",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "a4637179beac783ac8894e38bab2504e103311eb89ff2622a566548970426a84"
+              ],
+              "revision": 0,
+              "sourceId": "s01"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q2",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "85105274bb6cf9abe48f486e38b45d321f919932603f8f4fa3ab832451831284"
+              ],
+              "revision": 2,
+              "sourceId": "s01"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 9
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "762f68a69f2debee2e4c2505283ede065690752f860776c8250cf385fb1c7730"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q4",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 9
+        }
+      ]
+    },
+    {
+      "id": "dev08",
+      "prefixes": 12,
+      "receiptSHA256": "e38131534175f9287a2937f06f4404908a7424b6f603dacc7c86468324cdda84",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "06791570fce67005fe96edd00efc6ed37c629852857333ce45a84b098ed71c08"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "f01a512f49956e8106cb694ef8732782b8b52a33770a4eef6eadca76a3d54886"
+              ],
+              "revision": 1,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "135e14240c5d975ecb417fe6e3016a30bf0d73fb23a0d3494301cb8ea4c26b1f"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        }
+      ]
+    },
+    {
+      "id": "dev09",
+      "prefixes": 12,
+      "receiptSHA256": "94197c91bfbfda134f22d517fc2fce2a496b1084409f17b239bbe9d8ae74342e",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "79e62ac1495b009a6356ece66329aa5cd5026a476b2d465d0405c29e6334bb0d"
+              ],
+              "revision": 0,
+              "sourceId": "s01"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q2",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "c4db9a3b5e3517707c2ccff1fd3548dd4c9f4e611bae189e67bade37d247dc4a"
+              ],
+              "revision": 1,
+              "sourceId": "s01"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "0685ed06b350b4fea746b0243fa15981cf36c4942157b374057263bbce282220"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q4",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        }
+      ]
+    },
+    {
+      "id": "dev10",
+      "prefixes": 12,
+      "receiptSHA256": "23b87461baf98ea6fe2ecab76a0481b26d0abd8a6c5e8e40b7e5ab1b16bbf19d",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q1",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "5d45e68de84ebda4b16b65ee1ab0e0d5a9b7ebc05fcc484a54cdf13796ae7645"
+              ],
+              "revision": 0,
+              "sourceId": "s05"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 8
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "a5a1e6b7a1892069e62173a04ada543fbebb9ad151c8c2d181ca72630d331dd3"
+              ],
+              "revision": 1,
+              "sourceId": "s05"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 10
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "abb8693695e317428010aa53c7c3dfc36ec5137a56f5ab485b484327bd0991b5"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q4",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 10
+        }
+      ]
+    },
+    {
+      "id": "dev11",
+      "prefixes": 12,
+      "receiptSHA256": "8e2578f3a9b100374386e20cc9213339f501bc0c945a838573ec1833c823809c",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "9b07f7f65f05cd8077a6764356560a8e06efc26dbe856996f76c8d0fd965eed5"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q2",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "8ad3dcd629840dc1d096fecd21c2e990115903cac0ace15641e4e162df404fcc"
+              ],
+              "revision": 2,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "c796fac42ab1c0f9faeacc7865c4244cabba7c1bb040ba0d3a05184ff389618b"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q4",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        }
+      ]
+    },
+    {
+      "id": "dev12",
+      "prefixes": 12,
+      "receiptSHA256": "8391ca550bce868d529ff37806acb50a2603b1a8fdd2ea23c623300a20c72f1d",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q1",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "3a728bc17809b79d224788879f78c682c4526b9966f29cef10fdceef0634139a"
+              ],
+              "revision": 0,
+              "sourceId": "s01"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 8
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "744d5bb283ea6d5c55f3daa51122611f447faab590db0269fd768bff12d3b787"
+              ],
+              "revision": 2,
+              "sourceId": "s01"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 9
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "3ba0fa30c1f3f6743ee6057fece6bc106a520c5cd909f5b63e4d5e6d987fb74d"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q4",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 9
+        }
+      ]
+    },
+    {
+      "id": "eval01",
+      "prefixes": 12,
+      "receiptSHA256": "61f4a3886ea718cd322b5b24b2a683e51cd15160ec34f3985b9f062aef90ab08",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "ea2452ad9e40b5c9e919740094e8aa7659363b1aca369d236835e713e6aa784b"
+              ],
+              "revision": 0,
+              "sourceId": "s07"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "8666107f8b0f1d4f8e13a7d03240f42979d145700fe13d200826cee1ec5a9e8c"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "b1d5b1c95d8123578842b32e6620970195672ce5c9204dd22cb2aef60ec7cd32"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        }
+      ]
+    },
+    {
+      "id": "eval02",
+      "prefixes": 12,
+      "receiptSHA256": "0f56e1a53aac0be2254e4473a74a551f45438245b01f624f3afdd7c528bcabe4",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "77c048e58688b67fe8b23d7d40be605c757bd53cf288e83fa5de1af72c8385b1"
+              ],
+              "revision": 1,
+              "sourceId": "s06"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "879c1d812654ae512d43d03989b9efec52ce612343b580315251c8134a77dc8d"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "a81c8849d8dc1a29f140f2efaa945c19736f259fef653d7ecbb778993962692a"
+              ],
+              "revision": 0,
+              "sourceId": "s05"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        }
+      ]
+    },
+    {
+      "id": "eval03",
+      "prefixes": 12,
+      "receiptSHA256": "afe8e59997435650cd81125c91f8e83b18f4d3b133bbb2176bb0d605c4bebde2",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "e59a9e552f05d78a1676738dc5a21b8208a47628c3f64bcd1abb215a481f4e83"
+              ],
+              "revision": 0,
+              "sourceId": "s06"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "d5b977e0d3e5daa78715a1832730726b17ad5e6035c188267edb2b7294f42dfc"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 4
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "47acf80864d0c8eadca36613ead214b7eb91d0e39fda4054b4967f2ee78724c9"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 4
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        }
+      ]
+    },
+    {
+      "id": "eval04",
+      "prefixes": 12,
+      "receiptSHA256": "a9cbaa4f14bbc6410b3baa4d3485085d2e492b4a9473847a80d658236d5108ab",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "f4f93f326061974d8b526a48ff9aa272d30521181e9c9e346407925bef4c6a64"
+              ],
+              "revision": 0,
+              "sourceId": "s06"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "523ed34fb1bbc330e7ac97184cbf7be9c20a0c6f11a3017ea97cd566b76fec14"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "4ac6bf6e937461e45b15639121eb734993f0d199f108b712567c9e697f6f9a01"
+              ],
+              "revision": 0,
+              "sourceId": "s05"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        }
+      ]
+    },
+    {
+      "id": "eval05",
+      "prefixes": 12,
+      "receiptSHA256": "8c9cbd6680c89822e35bd928658e71fa1448812dcbf484606626cdeecab412d9",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "b48185664350ad15700834d2494591d0b39e41098f351d6baf33ead3dd3ffd9e"
+              ],
+              "revision": 0,
+              "sourceId": "s06"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "8b7f7c0fb348d992b0f8361d86a13d1a825ff4897251016a2e5e2acf77a65920"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "1edfbfc384cef055702a3bc4c98619254998f28f5d786aa92c08672db45d1134"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        }
+      ]
+    },
+    {
+      "id": "eval06",
+      "prefixes": 12,
+      "receiptSHA256": "38e90df7d93d99f39c64a5ba1996d0698ada6db378cedda8a60831e990507d7f",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "2667e271ab0f8ae85f93d81b36e6cbdabfede8057a41bd68e24818263d906e51"
+              ],
+              "revision": 1,
+              "sourceId": "s06"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "596dce3fa25ad3705f2097d7836d687c675e772e248ca6549291159d71989784"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "32291c0196e7f71f4977f68e615955aeb630eb66a3c7ba4fda55770bdd6a8125"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        }
+      ]
+    },
+    {
+      "id": "eval07",
+      "prefixes": 12,
+      "receiptSHA256": "632551779635ae7bc1041884716e2bbfbc121e794391c36607683a9aba7a1770",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "b444a59f04b1289f69d110aa8071dfee53dbecc80bd4e180fb8fdae61a2cb649"
+              ],
+              "revision": 2,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "1652a27860c3e18ddd94ed7e9804d4663fb39d3782f4648054dc61956186418b"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 9
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "dd44daffc75464a6e4085c67b2f40e1da9a06b0aca136bcdfb3b28e680f4f760"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        }
+      ]
+    },
+    {
+      "id": "eval08",
+      "prefixes": 12,
+      "receiptSHA256": "ba466863a1326525d6f744b3d701c6aad4c49080eb1e39380d680f00c50d9f38",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "fadae7e80392ba37d2aef3fe2168adf8f74e375cad7403b811a59bb438969ab0"
+              ],
+              "revision": 2,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 9
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "e84ebe513c4aef12ac223c01963ba141d7a19fdd7751aab49f53efc94411af12"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 9
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "f9a2c5eaccf196451e813d1fc097f6de3bb258da7081a561d482507715b7ed82"
+              ],
+              "revision": 0,
+              "sourceId": "s05"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 7
+        }
+      ]
+    },
+    {
+      "id": "eval09",
+      "prefixes": 12,
+      "receiptSHA256": "7bcbfe7525749bd93e6b2019628bb0f15f47c035ae27e6ee28b8909b3de87f3f",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "3c23354c38323c5fa2b03f8ca46bf6999930a51705f542a103c80889d41cd92e"
+              ],
+              "revision": 1,
+              "sourceId": "s01"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "2547f026c15ab8a11aa5766479a6bdebfd3a92ecf5b513144c8b0711c3f1aa2b"
+              ],
+              "revision": 0,
+              "sourceId": "s01"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 7
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "9b9ed21547074ec88cb794d163ffef7178b7550990f9499f75e6d389ac922fed"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        }
+      ]
+    },
+    {
+      "id": "eval10",
+      "prefixes": 12,
+      "receiptSHA256": "c28bdea1672c40cf3d6b58c6d95d1c8d4ecabd8f685a21ac1168a884950ac1ec",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "1558308e3eb97e4a32c1a14201c26430ddfa0bf94cbe9fbd34b7da4c44642290"
+              ],
+              "revision": 1,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "18c79d7177cf70a36f27d38d563cfd91538f8f15f23e169231fb8691693c61bc"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "1558308e3eb97e4a32c1a14201c26430ddfa0bf94cbe9fbd34b7da4c44642290"
+              ],
+              "revision": 1,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 5
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        }
+      ]
+    },
+    {
+      "id": "eval11",
+      "prefixes": 12,
+      "receiptSHA256": "7288565bc76d84b81bd538ec6eeb472873607ab5e85e0a47969b0b0ccc5e03c7",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "22142288fc02272997b8e3b3a0445c7ebfb06d03cebcd9740b3d4c14461c9e40"
+              ],
+              "revision": 1,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "6a5fd06b13df5661442ac66f0bf40fea208391b8078b0a31dd0ce07669d9b533"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "b036e63c23a6c7c39b2ccbbd5854ff80a0e903b10de54a908584a13266bbc12a"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 6
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 8
+        }
+      ]
+    },
+    {
+      "id": "eval12",
+      "prefixes": 12,
+      "receiptSHA256": "5db477679771f7d3477887ba26bfb80b97a3493ba7662f9f17ca8e73c7fefb8b",
+      "restartVerified": true,
+      "tasks": [
+        {
+          "covered": [
+            {
+              "candidates": [
+                "0e09ef1e1ac3351ae7c933d31a7137d0f19d4dcf5b1a9af1980e0688aaa97200"
+              ],
+              "revision": 1,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q1",
+          "mode": "current",
+          "scope": "current",
+          "unrankedCandidateCount": 11
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "68906e39365b40601da946f77eb0d2c5f890112cf6d6340a8133f2133e21a3f3"
+              ],
+              "revision": 0,
+              "sourceId": "s03"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q2",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "unrankedCandidateCount": 9
+        },
+        {
+          "covered": [
+            {
+              "candidates": [
+                "3500e17165877376528d222dd45596ccab9c73e736778fe6cbc4dea19a823270"
+              ],
+              "revision": 0,
+              "sourceId": "s04"
+            }
+          ],
+          "expectedEvidenceCount": 1,
+          "id": "q3",
+          "mode": "overlap",
+          "scope": "current",
+          "unrankedCandidateCount": 9
+        },
+        {
+          "covered": [],
+          "expectedEvidenceCount": 0,
+          "id": "q4",
+          "mode": "uncertain",
+          "scope": "current",
+          "unrankedCandidateCount": 11
+        }
+      ]
+    }
+  ],
+  "prefixes": 288,
+  "rankingMeasured": false,
+  "schemaVersion": 1
+}

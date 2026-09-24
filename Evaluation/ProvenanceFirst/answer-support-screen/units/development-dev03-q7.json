@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev03-q7",
+    "inputSHA256": "5b9fcdcc56f965341927c57e5ffce25081b37ff7f18831290df192d8c031c2d2",
+    "rawSHA256": "298e2f7fb61ee629d2cae1809ba1974bea9410f94eb2b44fed904a2ce8069319",
+    "requestCount": 1,
+    "reservationSHA256": "fa57e799671b32ee746fd6290c97d7a91adda5819831ad1549a738c12aa1a25d",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 6.108288583331159,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "3292bac3e143cffc684216d1d86f334b56f8497c9b908e6d3c4a5f4674519504",
+            "quote": "At the Juniper morning inspection I saw the front brake pad touching the tyre. That was the final check before the bicycle was put aside; no adjustment followed."
+          },
+          {
+            "candidateID": "1236f7796083281e3e8b763ab70e10930a57b3f1a63f589aa3772fdb8c384681",
+            "quote": "Juniper morning inspection, same final check: the front brake pad was clear of the tyre. This conflicts with the other inspector's observation and neither finding has been withdrawn. No adjustment took place between the observations."
+          }
+        ],
+        "verdict": "conflicting"
+      },
+      "peakResidentBytes": 21741568,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev03-q7"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "e9d5ab22a5a4df3eecfdbafb9c9eaa6a9afa653226b685b4acc9b4acb894f29e"
+}

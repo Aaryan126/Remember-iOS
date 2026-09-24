@@ -1,0 +1,39 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev07-q4",
+    "inputSHA256": "53c2e1505060522ba90b2de865891a16fcd07bca02ea27999e7b0f6c086da3b3",
+    "rawSHA256": "10641c9e99b32859466d70b229e082382296974de3462e870c0eb3d1086b06d3",
+    "requestCount": 1,
+    "reservationSHA256": "26c33c9f0df6f9e2f7575ae9da541bb5d234ad4c6991b63a59a92fcc79e28302",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 1.5829554583324352,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21200896,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev07-q4"
+    },
+    "validationError": {
+      "message": "missing evidence",
+      "type": "ValueError"
+    }
+  },
+  "payloadSHA256": "fe6c6b8bafbc369b46d87e5040075ea8425d60e8130610b6b143d57c2c8508c2"
+}

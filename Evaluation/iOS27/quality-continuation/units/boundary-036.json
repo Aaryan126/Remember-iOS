@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-036/raw.json",
+  "rawSHA256": "8b0ff7eaed74c2f7bf00c82c0d0e75a424be9ecb59cc04cf305107e021e98ad8",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.604072541667847,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.1249953685328364e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21311995833093533,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2642514166655019,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2653260416627745,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.6029352499972447,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "631b1b6a2d1996fcc4231ea6f4a021be7698818aec2a2176cbc5439431cde57a",
+      "contextSize": 4096,
+      "generationSeconds": 3.3368932500015944,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Set up lamps, record weekly leaf mass and write the light-duration result as one experiment",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Include this in the basil result",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference basil growth experiments with light durations, indicating the same undertaking expanding the leaf measurement scope.",
+        "verdict": "same_project"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-036"
+  }
+}

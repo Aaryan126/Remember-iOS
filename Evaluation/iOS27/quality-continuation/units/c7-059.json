@@ -1,0 +1,68 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-059/raw.json",
+  "rawSHA256": "0681c23dae0aeac794b010f63635057578e82c060b967157cda64167d38de1f0",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.894122249999782,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.7083373172208667e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21609799999714596,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26456595833587926,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.26560525000240887,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.892641083337367,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "9479c0253822ba8568efb2065c9b61f865316608cc6077e024708f2602c44cb2",
+      "contextSize": 4096,
+      "generationSeconds": 4.626393708327669,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Juniper Club's 2028 Winter Exchange is a single event: collect donated coats, book the hall and run the exchange on 6 December.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Receipt photo transcription: Winter Exchange hall payment settled.",
+            "sourceID": "s05"
+          },
+          {
+            "quote": "The undated receipt photo saying 'Winter Exchange hall payment settled' is the final payment for the 2028 edition.",
+            "sourceID": "s06"
+          },
+          {
+            "quote": "Its receipts go into the 2028 event account.",
+            "sourceID": "s01"
+          }
+        ],
+        "rationale": "Both sources reference the ",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-059"
+  }
+}

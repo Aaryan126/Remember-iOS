@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-079/raw.json",
+  "rawSHA256": "edfde53609be1a288e07c5d76017d7169772ec2fde2f857753b10927a4e99084",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.008135333337123,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.833330993074924e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3211473333358299,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3731127499995637,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3741107916648616,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.0061649166673305,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "c2b105b8318f72d6619b16d11aeef02368a28e90a810d24cd763bc0d547d2426",
+      "contextSize": 4096,
+      "generationSeconds": 4.631372750001901,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Cobalt Press commissioned a Spanish translation of the travel book 'River Roads'. Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Cobalt Press commissioned a Portuguese translation of 'River Roads' under a separate publication contract. It shares the source manuscript, but has its own translator, proofs and approval, outside the Spanish contract.",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources describe distinct contracts for 'River Roads' translations with separate approval processes and translators, indicating independent undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-079"
+  }
+}

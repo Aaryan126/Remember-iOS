@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-030/raw.json",
+  "rawSHA256": "7dd90a9afa58f7344baa1900f226e9a54611ae82b3d7f1c91bf32c5c716fab29",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.380692541664757,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.458328814711422e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22011287499481114,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2719677499990212,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2730872499960242,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.379607458329701,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "55fe3754b4d2c44cd82313f5da8c3c44bbb1cb0753977d5588f2ab529e1aed0a",
+      "contextSize": 4096,
+      "generationSeconds": 4.105899000001955,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Birchbank's Elm Reach reedbed survey is funded under another grant with its own habitat report. It is not part of the otter census, although volunteers use the same river transects.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Volunteer rota serves two Elm Reach grants: camera checks for the otter census on Tuesday, reed measurements for the reedbed survey on Thursday. Charge each session to its own grant.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct survey types\u2014otter census and reedbed survey\u2014that are not described as part of the same project.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-030"
+  }
+}

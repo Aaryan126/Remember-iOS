@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev06-q8",
+    "inputSHA256": "b984019a8f600e57e7ea305637860c8b0ce8dac5a0184220319e7434fb4aa26d",
+    "rawSHA256": "1f9cf7ccc51f74125e3218d80c590385c79ec4832e44f2dd6f8e4fed3ef2e3cc",
+    "requestCount": 1,
+    "reservationSHA256": "2f8e9027e170550ba2000d49604c3e028a103d20ca6ec4bb02da6b3cdd0be295",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.7187786666618194,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Mira's final meal request for the volunteer supper: lentil bowl. This replaces the original main-course preference.",
+        "evidence": [
+          {
+            "candidateID": "594fa73509efb555ad6a951edc7bf106791e8528cff5ffd8b507c5fd12ffe739",
+            "quote": "Mira's final meal request for the volunteer supper: lentil bowl. This replaces the original main-course preference."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21315584,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev06-q8"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "65e83a067c17f8a8d492fa952595d0f7630e5a89e535ed59a64c5ffee59ec648"
+}

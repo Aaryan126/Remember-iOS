@@ -1,0 +1,16 @@
+{
+  "command": [
+    "xcrun",
+    "swiftc",
+    "-parse-as-library",
+    "-O",
+    "-module-cache-path",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/sentence-controls/build/module-cache",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/sentence-controls/build/Sources/SentenceProbe.swift",
+    "-o",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/sentence-controls/build/sentence-probe"
+  ],
+  "returnCode": 0,
+  "stderr": "",
+  "stdout": ""
+}

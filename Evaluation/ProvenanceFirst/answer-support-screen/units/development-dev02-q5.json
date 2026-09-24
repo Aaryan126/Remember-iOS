@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev02-q5",
+    "inputSHA256": "9b627ce65ddcfd3d32e5c37d5f0b745304cb276e9cb71c46c306121a20be9cad",
+    "rawSHA256": "2fc88b4c0d476539f166053f380c7d99edee91967659c6680a5163d9c912d47e",
+    "requestCount": 1,
+    "reservationSHA256": "f402286f9d2d0e943189c76ad813a44f6ad440b9d6b2fa87e036aaa93cce9fff",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 4.118898333326797,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "7755ff0c22cc8ce6fcfcd7554d21927efb10adfbbac995c508f6461c532b4d08",
+            "quote": "Rill-62 after drying: store in cabinet K. The earlier intake location is superseded. Distribution is not permitted: the donor has withheld permission. The germination percentage was not measured; do not infer it from appearance."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21381120,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev02-q5"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "65a014a4bf69c7399889358f1335efb683784ec62e35943ae682d7663220d5f2"
+}

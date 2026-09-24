@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-100/raw.json",
+  "rawSHA256": "39dbac85ba0efe83ca85ecae0ddf0d7d807602b6b6a81d163e965014a16a30f9",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.382707000004302,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.041671101935208e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22462308333342662,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27371220833447296,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27461545833648415,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.381129416673502,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "eec482d8cbe5de68c584875d28db64960a0ff232c51d88fdbba104743e95e036",
+      "contextSize": 4096,
+      "generationSeconds": 4.105875958332035,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Northgate Library commissioned its window restoration under a different contract.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Scaffold schedule reserves access for slate-roof repairs and window restoration at Northgate Library.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct contractual records for glazing acceptance and slate-roof work, indicating independently managed tasks.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-100"
+  }
+}

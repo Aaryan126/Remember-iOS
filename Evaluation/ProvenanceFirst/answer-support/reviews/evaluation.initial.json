@@ -1,0 +1,22 @@
+{
+  "reviewer": "/root/support_author_dev",
+  "author": "/root/support_author_eval",
+  "split": "evaluation",
+  "inputSHA256": "45b79bb961afccbf620595a59e735f49167021617871c88e7d0e38b02e1849e8",
+  "libraries": [
+    {"id":"eval01","verdict":"pass","issues":[{"location":"tasks.q4","severity":"warning","reason":"The current amendment repeats the superseded cutoff and is correctly accepted alongside the original revision. This question does not require old-only retrieval.","suggestedFix":"Report current-also-sufficient historical questions separately; retain both valid citations."}]},
+    {"id":"eval02","verdict":"pass","issues":[]},
+    {"id":"eval03","verdict":"pass","issues":[]},
+    {"id":"eval04","verdict":"pass","issues":[]},
+    {"id":"eval05","verdict":"pass","issues":[]},
+    {"id":"eval06","verdict":"pass","issues":[]},
+    {"id":"eval07","verdict":"pass","issues":[]},
+    {"id":"eval08","verdict":"pass","issues":[]}
+  ],
+  "crossLibraryIssues": [
+    {"location":"development/evaluation task positions and source roles","severity":"warning","reason":"All libraries use q1..q8 in the same category order, and most use a revised s01, archived s02, missing/negative s03, competing s04/s05, and topical/distractor s06. The domains and requested facts differ, but there is substantial shared structural scaffolding. This is not a broad template-independent benchmark.","suggestedFix":"Keep gold categories and task IDs out of inference prompts as contracted, document the correlation and use library-level uncertainty. Any later generalization claim needs a separately approved fresh corpus with varied evidence structure; do not tune this frozen pilot after results."},
+    {"location":"conflict and wrong_scope tasks across both splits","severity":"warning","reason":"Conflicts usually explicitly state they remain unresolved, and wrong-entity distractors often explicitly say they do not apply to the requested entity. This makes state identification more controlled and less ambiguous than natural memories. Distinct mechanisms include permissions, fit-versus-body measurement, stock-versus-issues, medium/audience consent, and service work-versus-due intervals, rather than duplicated factual scenarios.","suggestedFix":"Describe this as a short-text feasibility screen, not a realistic prevalence or robustness estimate. Retain the disambiguation needed for deterministic gold and do not conflate pilot success with app readiness."},
+    {"location":"eval01.e09 and development hostile quoted instructions","severity":"warning","reason":"The hostile text is clearly identified as quoted and non-authoritative in the surrounding source. It checks a bounded instruction-following boundary, not resistance to sophisticated prompt injection.","suggestedFix":"Report the attack scope honestly and avoid a general prompt-injection-security claim."},
+    {"location":"review provenance","severity":"warning","reason":"This is independent agent review, not human ground truth. The reviewer read all event text and every task/gold entry in both splits without model or ranking outputs; same-source alternative conflict passages in eval03 and eval05 and multiple independent supports in eval01, eval02, eval03, eval04, eval06 and eval08 were checked. Eight libraries per split remain small and correlated.","suggestedFix":"Preserve author/reviewer identities, exact input hashes and these limitations in the final report. No factual label correction is requested."}
+  ]
+}

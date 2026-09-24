@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-040/raw.json",
+  "rawSHA256": "3a2fd1e879c0a1da57464fab3108cc7af7e6c056e51d893cc98ad1943cf123f9",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.625214583327761,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.916663212701678e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.31556212499708636,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3692638333304785,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37028433333034627,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.624096166662639,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "6d727808eab46772b90ed477da8e94a3e1fe198275dba4b31f5ee84b347add37",
+      "contextSize": 4096,
+      "generationSeconds": 4.253117083339021,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Juniper Club's 2028 Winter Exchange is a single event: collect donated coats, book the hall and run the exchange on 6 December. Its receipts go into the 2028 event account.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Storage handover records the coat racks leaving the closed 2028 Winter Exchange and being reserved for the separate 2029 edition.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources describe the 2028 Winter Exchange as a single event and the 2029 edition as separately planned, with distinct accounts and equipment handling.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-040"
+  }
+}

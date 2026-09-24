@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev04-q2",
+    "inputSHA256": "5967387e793c58441ec2d51b2b9993c9a04abb27ecf0910b22d8e522e12e2293",
+    "rawSHA256": "2b18fdfbb361d03ed736f4c9eb61f9fb4a58d83c5054f73c4bf44bf849c92094",
+    "requestCount": 1,
+    "reservationSHA256": "203d59b1b7441ccfe6899ee4fe6ff7230f1aec95ed07a9dac036cbfded07ffd9",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.4762797916628188,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "ae30a12f17688e25132965f29b9f3b2d353fa2b3e036cf9313f5abf43b557820",
+            "quote": "The packed crate's gross weight has not been recorded."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21233664,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev04-q2"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "98c9fa2f74efe5390ccb73a0c9b0bf6cd8e78f754d7f544fb9eb88fb8711119a"
+}

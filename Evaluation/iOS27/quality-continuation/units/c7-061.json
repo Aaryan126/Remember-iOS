@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-061/raw.json",
+  "rawSHA256": "b1d00f62e38fb04cd3ebb28eaec4125ed69863ac0c2b13465a3f2be56102213a",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.7901791666663485,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.49999822396785e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3156515833325102,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3693104999983916,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3703694166688365,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.7887468749977415,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "9a361a44843effe49230ff666c429c357acb81c4585f33590ff694d6ceff7743",
+      "contextSize": 4096,
+      "generationSeconds": 3.4176728333331994,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal radio commissioned an oral-history episode about the harbour night shift.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Voice memo: The producer approved that harbour segment.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference distinct harbour projects: s01's night-shift oral history and s05's approved harbour segment, with no shared continuing undertaking established.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-061"
+  }
+}

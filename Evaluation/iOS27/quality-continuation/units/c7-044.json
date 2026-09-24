@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-044/raw.json",
+  "rawSHA256": "8a0205bcf9f137920edc6013bb313a63aba41898f19bb47d7d6dead16fa81ad1",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.8591625833360013,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 1.5416670066770166e-05,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3167295000021113,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.36956500000087544,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37059716667135945,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.857790333335288,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "7d783bfbbaaa98e5d487517211be8b5c2958a60efe2058ec000005c0064a3f35",
+      "contextSize": 4096,
+      "generationSeconds": 3.4864953749929555,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Rights memo covers source-image permissions for both the Spanish and Portuguese editions of 'River Roads'.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Different contracts exist for Spanish and Portuguese editions, and the rights memo references both without implying a single continuing undertaking.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-044"
+  }
+}

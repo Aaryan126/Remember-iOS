@@ -1,0 +1,31 @@
+{
+  "appIntegrationAllowed": false,
+  "cumulativeRequests": 77,
+  "priorPreserved": true,
+  "requests": 68,
+  "resources": {
+    "capBytes": 22548578304,
+    "conservativeGrowthBytes": 20876611584,
+    "externalGrowthBytes": 2800844800,
+    "freeBytes": 24086355968,
+    "reserveBytes": 10737418240,
+    "scopedBytes": 1138548736
+  },
+  "splitDecisions": {
+    "development": {
+      "gates": {
+        "conflicting": false,
+        "coverage": false,
+        "errors": false,
+        "explicit_missing": false,
+        "falseSupport": false,
+        "integrity": true,
+        "precision": false,
+        "repeats": false,
+        "retrieval": true,
+        "sampleSize": true
+      },
+      "qualified": false
+    }
+  }
+}

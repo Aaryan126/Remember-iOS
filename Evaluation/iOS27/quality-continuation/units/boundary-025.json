@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-025/raw.json",
+  "rawSHA256": "3bf2a12576e775c7a050d047698920537f56bceccd12f6dd511bc764983e364e",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.7586526250015595,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.6249991757795215e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21459266667079646,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26381491666688817,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.26480154167074943,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.7574785416654777,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "457e80b8a3c485e8f2225cddcbadf1b31673038a6291f54df9e236314cbf246a",
+      "contextSize": 4096,
+      "generationSeconds": 3.4920266666667885,
+      "output": {
+        "evidence": [
+          {
+            "quote": "access-revocation investigation has its own incident owner and closure criteria, outside the appointment-database migration",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Support note: Marble Desk says the fix worked after the restart. We can close it",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources mention distinct incident handling: s02 defines a separate investigation and s05 references a fix closure unrelated to that investigation.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-025"
+  }
+}

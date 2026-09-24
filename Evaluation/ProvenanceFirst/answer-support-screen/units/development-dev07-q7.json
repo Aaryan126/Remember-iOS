@@ -1,0 +1,44 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev07-q7",
+    "inputSHA256": "845ad1ca501435da34c988b44cbc39bc84d7b39a761ea4482e702b6dff01675d",
+    "rawSHA256": "0ced298a02f8d45c8b73c323e150d9d6c54b66a5222537dd18a12acbfcf05e7d",
+    "requestCount": 1,
+    "reservationSHA256": "1bac66ee696a46a0ce333fa3b8770ca1b0c1e46390588175fb5837451e3ee9bd",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 4.052551166663761,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "One mode was used for the whole exchange. Practice contact 18, complete exchange at 11:20: operating mode FM.",
+        "evidence": [
+          {
+            "candidateID": "b2aa350c37371498e9aa2924ae59ae889a5f73739e0f70aa7251859020e35992",
+            "quote": "One mode was used for the whole exchange. Practice contact 18, complete exchange at 11:20: operating mode FM."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21528576,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev07-q7"
+    },
+    "validationError": {
+      "message": "quote not verbatim",
+      "type": "ValueError"
+    }
+  },
+  "payloadSHA256": "aa9c13031aa5331d64ebee2ae6461d3ad0dbe5239c6d27b9f97b1433cd14f6fd"
+}

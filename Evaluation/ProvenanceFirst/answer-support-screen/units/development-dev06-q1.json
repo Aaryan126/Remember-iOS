@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev06-q1",
+    "inputSHA256": "fb57658a68ed0f6903899c65c3e213dc948d83391dbafa4973de8a8587f61641",
+    "rawSHA256": "d10f3219108afe4ff645b9113739e00b8883e8dd883d3ac5b8fc10e01446b7c4",
+    "requestCount": 1,
+    "reservationSHA256": "b22b6cb18dc9920dc2cf6d58a1900477cfe79ece4a60fd05244e7c56cfe707cc",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 5.994632291665766,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "9eda6cc3d4cd2f9a725eb0d56ccc01b80432af9aa6d7474b3f042bf95ca05f87",
+            "quote": "Volunteer supper handover caption, 18:10 before collection: Mira's labelled tray was on the lower shelf. We are disputing the shelf record; there is no established move that reconciles the accounts."
+          },
+          {
+            "candidateID": "df3aea1ab15e9865576448882f9a5d4cc0d3aaca346cb2e4119b825c6f0c8ab1",
+            "quote": "Volunteer supper, 18:10 before collection: I put Mira's labelled tray on the upper shelf. I left it there and saw no one move it during the handover."
+          }
+        ],
+        "verdict": "conflicting"
+      },
+      "peakResidentBytes": 21790720,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev06-q1"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "bcd62be8203b7d9f435c52a0bb80713e56ff29eae94e306889323b51858ee52d"
+}

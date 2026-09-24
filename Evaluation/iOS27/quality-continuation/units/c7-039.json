@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-039/raw.json",
+  "rawSHA256": "2d25fb9a5b9e41f27d4048b702928ab9142c7bd1378189f2fd3983801cd9ca9a",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.443826750000881,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.833330993074924e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22050491666595917,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27338470833637984,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2745050416633603,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.442692500000703,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "65bd2599a704bdf893066e6208c7f414588d471cf3c5dd3f626cb3cdaea0cafc",
+      "contextSize": 4096,
+      "generationSeconds": 4.167558958331938,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal radio commissioned an oral-history episode about the harbour night shift. Record the dock workers, edit their interviews and clear the music for this episode.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Pine Signal also commissioned a harbour weather bulletin. It is a different programme from the night-shift oral history, with its own delivery and approval, even though the same dock recording supplies background sound.",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources mention separate programmes\u2014'oral-history episode about the harbour night shift' and 'harbour weather bulletin'\u2014with distinct delivery and approval processes.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-039"
+  }
+}

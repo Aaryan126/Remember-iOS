@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-080/raw.json",
+  "rawSHA256": "c4efb9391dce46a46bf6f120ac24a1b16d1bb0a16770050635ec1a1eb7dc61af",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.9036632083370932,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.458336090669036e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22969908333470812,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2782552916687564,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27922262500214856,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.902140500002133,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "c83956e652411cda88b50688c44e01778869d19cce2e9e62b6d4325105e19bfd",
+      "contextSize": 4096,
+      "generationSeconds": 3.622317291672516,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal also commissioned a harbour weather bulletin.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Voice memo: The producer approved that harbour segment.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference approval for a harbour segment, indicating a shared programme with its own delivery and approval.",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-080"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-026/raw.json",
+  "rawSHA256": "19fe22aa8a2bb386904641aa15eb977d5d50acc8d786e1719b89918862f5a16d",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.7248352499955217,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.87499380344525e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21653208333009388,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26160466666624416,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2627299999949173,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.7237397499993676,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "4909eb74c99b02492f5fde186d6e35e12dd575ad4fd9a9c4b59c64fcd8325c36",
+      "contextSize": 4096,
+      "generationSeconds": 3.460233458332368,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Prototype machining, load tests and drawing approval are one engineering commission for the latch.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Bench memo: Revision C survived the load cycle. Send the approval drawing to Cedar Forge.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference the latch and Revision C load test, establishing continuity within the same engineering commission.",
+        "verdict": "same_project"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-026"
+  }
+}

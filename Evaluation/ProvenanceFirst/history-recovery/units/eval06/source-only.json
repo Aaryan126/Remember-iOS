@@ -1,0 +1,117 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Dial conservation notebook, opening leaf",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Alder tower dial conservation covers the painted face and its brass hand collars. The conservation notebook follows surface work without authorizing changes to the tower mechanism. Removed screws go into the dial tray with a paper location sketch."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Chime conservation brief, page 1",
+      "modality": "pdf",
+      "sourceId": "s02",
+      "text": "Alder chime train conservation concerns the striking mechanism behind the dial wall. Its parts inventory is separate from the painted-face treatment. The conservator will document each hammer linkage before deciding whether any worn bush needs replacement."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Extracted dial intake card, annotation below sketch",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "The Alder tower dial conservation intake card records a red pencil dot below the numeral XI. The dot is an old alignment aid, not a painted feature to reconstruct. The card predates surface cleaning and contains no pigment identification."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Extracted tower access briefing, 00:10–00:30",
+      "modality": "voice",
+      "sourceId": "s04",
+      "text": "Alder tower dial conservation and Alder chime train conservation share the linen dust enclosure around the open tower work area. Each team signs the enclosure log after entering. The enclosure joins their access arrangements without joining their treatment decisions."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Fictional conservation pamphlet, documentation section",
+      "modality": "link",
+      "sourceId": "s05",
+      "text": "A dial-care pamphlet is background for Alder tower dial conservation. Its photograph depicts a station clock with different numerals and a modern finish. The pamphlet recommends documenting markings before cleaning but does not identify pigments in the Alder clock."
+    },
+    {
+      "id": "e06",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Chime bench sequence, initial note",
+      "modality": "note",
+      "sourceId": "s06",
+      "text": "Alder chime train conservation will inspect the third hammer linkage first on the next bench session. Numbered paper tags follow the inventory order. The conservator has left the wear measurement column blank until the mechanism can be supported safely."
+    },
+    {
+      "id": "e08",
+      "kind": "archive",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e09",
+      "kind": "revise",
+      "locator": "Chime bench sequence, revised note",
+      "sourceId": "s06",
+      "text": "Alder chime train conservation will inspect the first hammer linkage first on the next bench session. The support cradle now leaves that linkage accessible. This replaces the earlier inspection order; the wear measurement column remains blank."
+    },
+    {
+      "id": "e10",
+      "kind": "restore",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Extracted wrapping demonstration, 02:02–02:25",
+      "modality": "video",
+      "sourceId": "s07",
+      "text": "The Alder tower dial conservation wrapping demonstration places each detached hand in a separate unbleached paper sleeve. No adhesive touches the painted surfaces. The demonstration ends before the hands are placed into storage, so it supplies no storage location."
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Extracted visitor leaflet, page 2",
+      "modality": "pdf",
+      "sourceId": "s08",
+      "text": "The tower visitor leaflet explains the staircase count and where to leave umbrellas. A small clock illustration marks the meeting point. The leaflet contains no conservation docket, bench action, or permission to handle any mechanism parts."
+    }
+  ],
+  "id": "eval06",
+  "queries": [
+    {
+      "atEvent": "e12",
+      "id": "q1",
+      "question": "What is the current first linkage to inspect in the Alder chime train bench sequence?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e07",
+      "id": "q2",
+      "question": "Look in archived history: where did the dial intake card place the old red pencil dot?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e10",
+      "id": "q3",
+      "question": "Which current briefing identifies the enclosure shared by the dial and chime conservation jobs?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Which pigment was identified at the red pencil dot on the Alder dial?",
+      "scope": "current"
+    }
+  ]
+}

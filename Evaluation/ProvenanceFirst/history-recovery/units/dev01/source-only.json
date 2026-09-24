@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Graft notebook, opening page",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Pear graft union trial: compare whip and saddle joins on six labeled rootstocks. This notebook tracks union inspection and tying material. We are not testing fruit yield this season; the seedling hardening group owns the other half of the coldframe."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Hardening kickoff transcript, 00:08–00:26",
+      "modality": "voice",
+      "sourceId": "s02",
+      "text": "Coldframe seedling hardening begins with trays H and J. Track vent openings and leaf scorch before outdoor transfer. Grafted trees are a separate trial, even though the teams will share the same sheltered frame during the wet spell."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "First inspection card, front OCR",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "Pear graft union trial, first inspection card. Saddle join G4 showed a pale callus ring on day nine. The card was written before the inspection sheet was redesigned. Soil moisture and the spare labels are listed on its reverse side."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Coldframe arrangement, page 1",
+      "modality": "pdf",
+      "sourceId": "s04",
+      "text": "Shared coldframe arrangement for the pear graft union trial and coldframe seedling hardening: graft pots take the east bench and seedling trays take the west bench. Both teams check the single vent at midday, recording their own observations afterward."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Loose tag OCR, whole image",
+      "modality": "photo",
+      "sourceId": "s05",
+      "text": "Blue loop, 14, shade until Friday. The handwriting below the number has washed away. A tray edge appears in the photograph but no trial name or specimen identifier survives. The photographer cannot remember which bench this tag came from."
+    },
+    {
+      "id": "e06",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "assignedProjectRoots": [
+        "s02"
+      ],
+      "id": "e07",
+      "kind": "correct",
+      "reason": "I took that blue-loop tag from seedling tray H. File it with coldframe seedling hardening only.",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Fictional propagation guide, section 2",
+      "modality": "link",
+      "sourceId": "s06",
+      "text": "General propagation guide: callus develops differently across species and humidity conditions. This page is background reading for the pear graft union trial, not a record of its rootstocks. Its orchard pictures show mature trees from an unrelated demonstration site."
+    },
+    {
+      "id": "e09",
+      "kind": "restore",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Handling notebook, entry 5",
+      "modality": "note",
+      "sourceId": "s07",
+      "text": "Pear graft union trial, current handling instruction: loosen the outer ties on G4 at the next inspection. Keep the inner support in place. This instruction concerns the live tree and does not replace the observations written on the first inspection card."
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Tray J update transcript, 00:03–00:21",
+      "modality": "voice",
+      "sourceId": "s08",
+      "text": "Coldframe seedling hardening: tray J can move outside after two scorch-free afternoons. The east bench must remain clear for the graft pots. A missing watering-can rose has delayed washing, but that does not change the transfer criterion."
+    },
+    {
+      "id": "e12",
+      "kind": "archive",
+      "sourceId": "s03"
+    }
+  ],
+  "id": "dev01",
+  "queries": [
+    {
+      "atEvent": "e06",
+      "id": "q1",
+      "question": "Find the archived first inspection card: what did it record for saddle join G4 on day nine?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e06",
+      "id": "q2",
+      "question": "Which of the two trials owns the loose blue-loop tag?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "What is the current handling instruction for the outer ties on G4?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Recover the active arrangement that allocates benches to both coldframe projects.",
+      "scope": "current"
+    }
+  ]
+}

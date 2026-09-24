@@ -1,0 +1,33 @@
+{
+  "crossPlatformMaximumNeuralDelta": {
+    "fp16": 0.0,
+    "fp32": 0.0
+  },
+  "directions": {
+    "mac-fp16": {
+      "maximumDelta": 0.0021178126335144043,
+      "total": 32,
+      "withinOriginalBound": 31
+    },
+    "mac-fp32": {
+      "maximumDelta": 2.8312206268310547e-07,
+      "total": 32,
+      "withinOriginalBound": 32
+    },
+    "phone-fp16": {
+      "maximumDelta": 0.0021178126335144043,
+      "total": 32,
+      "withinOriginalBound": 31
+    },
+    "phone-fp32": {
+      "maximumDelta": 2.8312206268310547e-07,
+      "total": 32,
+      "withinOriginalBound": 32
+    }
+  },
+  "originalPyTorchDeltaVsHistorical": 0.0,
+  "precisionMaximumFreshFeatureDelta": {
+    "mac": 5.551115123125783e-17,
+    "phone": 5.551115123125783e-17
+  }
+}

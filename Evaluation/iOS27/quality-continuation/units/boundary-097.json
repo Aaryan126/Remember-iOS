@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-097/raw.json",
+  "rawSHA256": "189f2a6f2cac721efde410569197f31937713c76c29b5a67758534fa5024fe12",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.009567875000357,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.66666858503595e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22096016666910145,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2723397083391319,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2733103749997099,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.007358000002569,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "e81b0bf357420041206e68b01f3de6102625eac8cc4df1dcc3f185baa8d29c86",
+      "contextSize": 4096,
+      "generationSeconds": 4.733422625002277,
+      "output": {
+        "evidence": [
+          {
+            "quote": "record the dock workers, edit their interviews and clear the music for this episode",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "mix 'When the Quay Sleeps' in the morning and record the harbour weather bulletin afterward. Keep their separate programme approvals.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct programme approvals: 'Pine Signal radio commissioned an oral-history episode about the harbour night shift' and 'Pine Signal also commissioned a harbour weather bulletin', establishing different undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-097"
+  }
+}

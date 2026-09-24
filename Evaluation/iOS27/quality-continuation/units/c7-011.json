@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-011/raw.json",
+  "rawSHA256": "8974fc8ea94ae02676189c59298f73d37a2b4931de649bafea03cc97f02f58a6",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.5396057083344203,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.083332896698266e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3182882916662493,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37195675000111805,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37298020833259216,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.5386078750016168,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "21ecfa4847ab1629918c08405dedd7a9c66004d4432852ceff675697bf0a1bc4",
+      "contextSize": 4096,
+      "generationSeconds": 3.1649654583306983,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Set up lamps, record weekly leaf mass and write the light-duration result as one experiment",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "BAS-2 also labels a basil light-treatment group",
+            "sourceID": "s07"
+          }
+        ],
+        "rationale": "Both sources mention basil light-treatment but reference unrelated tasks: experiment data versus vehicle maintenance invoice.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-011"
+  }
+}

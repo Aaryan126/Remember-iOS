@@ -1,0 +1,54 @@
+{
+  "bindingSHA256": "2554e088dd236e935782f509f38e96fe74aa8d47155e3f82c2f1fd1fac02a4d9",
+  "payload": {
+    "contentPassed": true,
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "v2-control-extract-1",
+    "inputSHA256": "7f040f5e8a7a46e391c073b1e4db3aa8157549455dbafbf40553180bb6318d11",
+    "output": {
+      "answer": "Locker code: LARCH-58.",
+      "evidence": [
+        {
+          "candidateID": "format-v2-source-1",
+          "quote": "Locker code: LARCH-58."
+        }
+      ],
+      "verdict": "supported"
+    },
+    "passed": true,
+    "rawSHA256": "d08f22640e5ce2840fb753255b15951516546af94739aa206fb3c72a7dc7a398",
+    "repeatMatched": null,
+    "requestCount": 1,
+    "reservationSHA256": "baec21b17398892a787712eec0898ff229e12bb5c849dfa7cf19c6bb02f24aea",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.6430986666528042,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Locker code: LARCH-58.",
+        "evidence": [
+          {
+            "candidateID": "format-v2-source-1",
+            "quote": "Locker code: LARCH-58."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 20119552,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "v2-control-extract-1"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "0362345edbbd4079a877bbaf80980a024872199ab614b97ea0232f43767f23ed"
+}

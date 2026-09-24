@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-091/raw.json",
+  "rawSHA256": "8cd7c68bf2eab1a8f097755300d835639121cbb9d01ce71eb6bb3ee2e06b256e",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.979001874999085,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.0000013541430235e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2234758333361242,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2725463333335938,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2735608750008396,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.977548666669463,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "e17550783f9724ad92a86433c5b929004a4f25f1137e75767dfaaceb007adeb3",
+      "contextSize": 4096,
+      "generationSeconds": 4.703311958328413,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Juniper Club's 2028 Winter Exchange is a single event: collect donated coats, book the hall and run the exchange on 6 December. Its receipts go into the 2028 event account.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Receipt photo transcription: Winter Exchange hall payment settled. Juniper Club treasurer signed.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources mention the Juniper Club Winter Exchange with the same treasurer involvement and hall payment settlement for the 2028 event.",
+        "verdict": "same_project"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-091"
+  }
+}

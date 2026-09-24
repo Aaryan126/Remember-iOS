@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-111/raw.json",
+  "rawSHA256": "9a1c7ce5a4c37776f329baf6eb14c3e56574f74e4bf3acd5c34cc2c47f05cec2",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.325783874999615,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.125002305954695e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22220891666802345,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2667539999965811,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2678076250012964,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.324292124998465,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "fdec32c1e27aa7aef4ad461fd24e46357f5bfd6b5fe7f5992bb507ae941b28b1",
+      "contextSize": 4096,
+      "generationSeconds": 5.055804541661928,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal radio commissioned an oral-history episode about the harbour night shift. Record the dock workers, edit their interviews and clear the music for this episode.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Pine Signal also commissioned a harbour weather bulletin. It is a different programme from the night-shift oral history, with its own delivery and approval, even though the same dock recording supplies background sound.",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources mention separate programme approvals and distinct programme identities, indicating different continuing undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-111"
+  }
+}

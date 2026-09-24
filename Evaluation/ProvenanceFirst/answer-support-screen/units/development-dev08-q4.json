@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev08-q4",
+    "inputSHA256": "c91a7c8343ee3e366850e117a00c4b0f643178f4cc30b951f2c20b38e3ddf59a",
+    "rawSHA256": "a88ee5740a3b0dcb96e66e5517db8453617beca95da8cbcbb5b5238968b05ad1",
+    "requestCount": 1,
+    "reservationSHA256": "2688e210a4dc74e00780448ab5de19f4cff4998620a31f5b241244016c92f740",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.5744940416770987,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "number 46",
+        "evidence": [
+          {
+            "candidateID": "85048b3f23ddb5d51bf460db748d6e68297a6c169b5ea07aa32c6e4284b6176e",
+            "quote": "Retired Oriole booking queue token: number 46. The token belongs to the first reservation request and is no longer used to order current jobs."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21479424,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev08-q4"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "09c2238b48ec43ae6e814c7caf31f55f4ca82cca9c297a6ca8d462384ed94508"
+}

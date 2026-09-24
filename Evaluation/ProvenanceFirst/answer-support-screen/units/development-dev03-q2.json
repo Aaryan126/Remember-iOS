@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev03-q2",
+    "inputSHA256": "fc800ce53deb688362f4150ae9174d3d175f647f41f4d5159e037b80e4d9214a",
+    "rawSHA256": "079b3169496518017b89edc5460e3966baa6b37629bedb137a9bb0476a2e6aa8",
+    "requestCount": 1,
+    "reservationSHA256": "a4e3c7e780b518d665f31d180a28db72715cedb7f055e7cda84fd0a82d22addb",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.2116505416634027,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "The release key is held by the bench steward.",
+        "evidence": [
+          {
+            "candidateID": "9cf66b9b3cc0827dfd7eac922aa7d0219dc1ff73d6861890c85abbad25df7fba",
+            "quote": "The release key is held by the bench steward."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21381120,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev03-q2"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "a16669bda20df04d4151006561c9a3f18865aab7b28e3a2ebfec44945dc56c7b"
+}

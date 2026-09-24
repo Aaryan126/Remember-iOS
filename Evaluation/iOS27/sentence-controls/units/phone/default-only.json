@@ -1,0 +1,44 @@
+{
+  "rawPath": "Evaluation/iOS27/sentence-controls/attempts/phone/default-only/raw.json",
+  "rawSHA256": "ffb9e0a01af091896db968afd21eb30eb3ea21f8906b880f24f7ed8d46f26ab8",
+  "result": {
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "assetDownloadRequested": false,
+      "observations": [
+        {
+          "call": "defaultFirst",
+          "model": {
+            "available": false
+          }
+        },
+        {
+          "call": "defaultSecondImmediate",
+          "model": {
+            "available": true,
+            "dimension": 512,
+            "finite": true,
+            "revision": 1,
+            "vectorCount": 512,
+            "vectorNorm": 6.080051120251058
+          }
+        },
+        {
+          "call": "defaultAfterTwoSeconds",
+          "model": {
+            "available": true,
+            "dimension": 512,
+            "finite": true,
+            "revision": 1,
+            "vectorCount": 512,
+            "vectorNorm": 6.080051120251058
+          }
+        }
+      ]
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "default-only"
+  }
+}

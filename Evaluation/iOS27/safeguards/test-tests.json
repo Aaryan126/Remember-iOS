@@ -1,0 +1,265 @@
+{
+  "devices": [
+    {
+      "architecture": "arm64e",
+      "modelName": "iPhone 17",
+      "osBuildNumber": "24A437",
+      "osVersion": "27.0",
+      "platform": "iOS"
+    }
+  ],
+  "testNodes": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "duration": "0.02s",
+                  "durationInSeconds": 0.02008199691772461,
+                  "name": "ledgerRejectsUpdateAndDelete()",
+                  "nodeIdentifier": "AdditionalSafeguards/ledgerRejectsUpdateAndDelete()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/AdditionalSafeguards/ledgerRejectsUpdateAndDelete()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.00042s",
+                  "durationInSeconds": 0.0004208087921142578,
+                  "name": "thresholdAdjacentScoresHaveExactInclusiveSemantics()",
+                  "nodeIdentifier": "AdditionalSafeguards/thresholdAdjacentScoresHaveExactInclusiveSemantics()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/AdditionalSafeguards/thresholdAdjacentScoresHaveExactInclusiveSemantics()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.000026s",
+                  "durationInSeconds": 2.5987625122070312e-05,
+                  "name": "thirdSupportCannotRescueTwoFailuresAmongFirstThree()",
+                  "nodeIdentifier": "AdditionalSafeguards/thirdSupportCannotRescueTwoFailuresAmongFirstThree()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/AdditionalSafeguards/thirdSupportCannotRescueTwoFailuresAmongFirstThree()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                }
+              ],
+              "name": "AdditionalSafeguards",
+              "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/AdditionalSafeguards",
+              "nodeType": "Test Suite",
+              "result": "Passed"
+            },
+            {
+              "children": [
+                {
+                  "duration": "0.00018s",
+                  "durationInSeconds": 0.00017881393432617188,
+                  "name": "corroborationRejectsSingleSupportInAnEstablishedThread()",
+                  "nodeIdentifier": "D3OrganizationTests/corroborationRejectsSingleSupportInAnEstablishedThread()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/corroborationRejectsSingleSupportInAnEstablishedThread()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.000018s",
+                  "durationInSeconds": 1.7881393432617188e-05,
+                  "name": "multipleQualifyingThreadsRemainSeparate()",
+                  "nodeIdentifier": "D3OrganizationTests/multipleQualifyingThreadsRemainSeparate()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/multipleQualifyingThreadsRemainSeparate()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.00038s",
+                  "durationInSeconds": 0.00037789344787597656,
+                  "name": "retrievalIsBoundedAndDeterministic()",
+                  "nodeIdentifier": "D3OrganizationTests/retrievalIsBoundedAndDeterministic()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/retrievalIsBoundedAndDeterministic()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.02s",
+                  "durationInSeconds": 0.01978611946105957,
+                  "name": "batchImportAttachesForwardWithoutMergingOrReprocessing()",
+                  "nodeIdentifier": "D3OrganizationTests/batchImportAttachesForwardWithoutMergingOrReprocessing()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/batchImportAttachesForwardWithoutMergingOrReprocessing()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.011s",
+                  "durationInSeconds": 0.010873079299926758,
+                  "name": "legacyAssignmentsAndUserRenamesAreNotMigrated()",
+                  "nodeIdentifier": "D3OrganizationTests/legacyAssignmentsAndUserRenamesAreNotMigrated()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/legacyAssignmentsAndUserRenamesAreNotMigrated()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.014s",
+                  "durationInSeconds": 0.013991117477416992,
+                  "name": "archivedThreadCannotAbsorbANewCapture()",
+                  "nodeIdentifier": "D3OrganizationTests/archivedThreadCannotAbsorbANewCapture()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/archivedThreadCannotAbsorbANewCapture()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.018s",
+                  "durationInSeconds": 0.017765045166015625,
+                  "name": "unavailableMatcherRetainsCapturesAndSupportsExplicitRetry()",
+                  "nodeIdentifier": "D3OrganizationTests/unavailableMatcherRetainsCapturesAndSupportsExplicitRetry()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/unavailableMatcherRetainsCapturesAndSupportsExplicitRetry()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.012s",
+                  "durationInSeconds": 0.012335777282714844,
+                  "name": "explicitAssignmentIsPreservedWithoutCallingMatcher()",
+                  "nodeIdentifier": "D3OrganizationTests/explicitAssignmentIsPreservedWithoutCallingMatcher()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/explicitAssignmentIsPreservedWithoutCallingMatcher()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.01s",
+                  "durationInSeconds": 0.010410308837890625,
+                  "name": "cancellationCannotCommitAnAutomaticPlacement()",
+                  "nodeIdentifier": "D3OrganizationTests/cancellationCannotCommitAnAutomaticPlacement()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/cancellationCannotCommitAnAutomaticPlacement()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.2s",
+                  "durationInSeconds": 0.20368623733520508,
+                  "name": "bundledModelLoadsAndScoresSymmetrically()",
+                  "nodeIdentifier": "D3OrganizationTests/bundledModelLoadsAndScoresSymmetrically()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/bundledModelLoadsAndScoresSymmetrically()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.014s",
+                  "durationInSeconds": 0.014438867568969727,
+                  "name": "revisedPlacedMemoryIsNotSilentlyReassigned()",
+                  "nodeIdentifier": "D3OrganizationTests/revisedPlacedMemoryIsNotSilentlyReassigned()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/revisedPlacedMemoryIsNotSilentlyReassigned()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.011s",
+                  "durationInSeconds": 0.010867834091186523,
+                  "name": "unsupportedTextRemainsSeparateWithoutUsingMatcher()",
+                  "nodeIdentifier": "D3OrganizationTests/unsupportedTextRemainsSeparateWithoutUsingMatcher()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/unsupportedTextRemainsSeparateWithoutUsingMatcher()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.011s",
+                  "durationInSeconds": 0.01108098030090332,
+                  "name": "concurrentEditInvalidatesPlacement()",
+                  "nodeIdentifier": "D3OrganizationTests/concurrentEditInvalidatesPlacement()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests/concurrentEditInvalidatesPlacement()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                }
+              ],
+              "name": "D3OrganizationTests",
+              "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/D3OrganizationTests",
+              "nodeType": "Test Suite",
+              "result": "Passed"
+            },
+            {
+              "children": [
+                {
+                  "duration": "0.00011s",
+                  "durationInSeconds": 0.00011014938354492188,
+                  "name": "successLoadsOnceAndReusesCacheWithoutWaiting()",
+                  "nodeIdentifier": "SentenceModelRecoveryTests/successLoadsOnceAndReusesCacheWithoutWaiting()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/SentenceModelRecoveryTests/successLoadsOnceAndReusesCacheWithoutWaiting()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.000046s",
+                  "durationInSeconds": 4.57763671875e-05,
+                  "name": "transientFailureWaitsThenRetriesOnceAndCachesSuccess()",
+                  "nodeIdentifier": "SentenceModelRecoveryTests/transientFailureWaitsThenRetriesOnceAndCachesSuccess()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/SentenceModelRecoveryTests/transientFailureWaitsThenRetriesOnceAndCachesSuccess()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.000029s",
+                  "durationInSeconds": 2.8848648071289062e-05,
+                  "name": "persistentFailureStopsAfterTwoCallsAndOneWait()",
+                  "nodeIdentifier": "SentenceModelRecoveryTests/persistentFailureStopsAfterTwoCallsAndOneWait()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/SentenceModelRecoveryTests/persistentFailureStopsAfterTwoCallsAndOneWait()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.000025s",
+                  "durationInSeconds": 2.5033950805664062e-05,
+                  "name": "failureDoesNotPoisonFutureAttempts()",
+                  "nodeIdentifier": "SentenceModelRecoveryTests/failureDoesNotPoisonFutureAttempts()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/SentenceModelRecoveryTests/failureDoesNotPoisonFutureAttempts()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.000047s",
+                  "durationInSeconds": 4.696846008300781e-05,
+                  "name": "languagesHaveSeparateCachesAndAreNotSubstituted()",
+                  "nodeIdentifier": "SentenceModelRecoveryTests/languagesHaveSeparateCachesAndAreNotSubstituted()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/SentenceModelRecoveryTests/languagesHaveSeparateCachesAndAreNotSubstituted()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.00078s",
+                  "durationInSeconds": 0.0007801055908203125,
+                  "name": "cancellationDuringReadinessDoesNotRetry()",
+                  "nodeIdentifier": "SentenceModelRecoveryTests/cancellationDuringReadinessDoesNotRetry()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/SentenceModelRecoveryTests/cancellationDuringReadinessDoesNotRetry()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                },
+                {
+                  "duration": "0.000033s",
+                  "durationInSeconds": 3.2901763916015625e-05,
+                  "name": "rechecksCacheAfterSuspension()",
+                  "nodeIdentifier": "SentenceModelRecoveryTests/rechecksCacheAfterSuspension()",
+                  "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/SentenceModelRecoveryTests/rechecksCacheAfterSuspension()",
+                  "nodeType": "Test Case",
+                  "result": "Passed"
+                }
+              ],
+              "name": "SentenceModelRecoveryTests",
+              "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests/SentenceModelRecoveryTests",
+              "nodeType": "Test Suite",
+              "result": "Passed"
+            }
+          ],
+          "name": "RememberTests",
+          "nodeIdentifierURL": "test://com.apple.xcode/Remember/RememberTests",
+          "nodeType": "Unit test bundle",
+          "result": "Passed"
+        }
+      ],
+      "name": "Safeguards",
+      "nodeType": "Test Plan",
+      "result": "Passed"
+    }
+  ],
+  "testPlanConfigurations": [
+    {
+      "configurationId": "1",
+      "configurationName": "Test Scheme Action"
+    }
+  ]
+}

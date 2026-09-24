@@ -1,0 +1,117 @@
+{
+  "reviewer": "/root/history_author_eval",
+  "author": "/root/history_author_dev",
+  "split": "development",
+  "inputSHA256": "4137507aad02204aebbe2a71328a02d67568fba07b490f9bc1be2322b27168f6",
+  "libraries": [
+    {
+      "id": "dev01",
+      "verdict": "fail",
+      "issues": [
+        {
+          "location": "events/e10/dependsOn",
+          "severity": "error",
+          "reason": "The handling instruction explicitly says it does not replace observations on the first inspection card (e03), but e10 depends only on the root. The permitted reverse-ID schedule emits e10 before e03, turning an explicit continuation into a pre-observation reference.",
+          "suggestedFix": "Add e03 as a causal dependency of e10."
+        },
+        {
+          "location": "events/e11/dependsOn",
+          "severity": "error",
+          "reason": "The seedling update says the east bench must remain clear for graft pots, continuing the bench allocation established by e04. It depends only on e02; the alternate schedule emits e11 before both e04 and the graft project's root.",
+          "suggestedFix": "Add e04 as a causal dependency of e11, inheriting the two roots through the shared arrangement."
+        }
+      ]
+    },
+    {
+      "id": "dev02",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "dev03",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "dev04",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "dev05",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "dev06",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "dev07",
+      "verdict": "fail",
+      "issues": [
+        {
+          "location": "events/e05/dependsOn",
+          "severity": "error",
+          "reason": "The viewpoint instruction explicitly contrasts itself with 'the shared sled allocation' captured at e03, but has only the survey-root dependency. The alternate schedule emits e05 before e03 and before the instrument-project root, so this record-level continuation is not causally preserved.",
+          "suggestedFix": "Add e03 as a causal dependency of e05, or remove the specific reference if the instruction is intended to be independent of that allocation."
+        }
+      ]
+    },
+    {
+      "id": "dev08",
+      "verdict": "fail",
+      "issues": [
+        {
+          "location": "events/e09/dependsOn",
+          "severity": "error",
+          "reason": "The catalog annotation specifically refers to the model and donated-tool identity of D2, first established by its inspection card at e06. The alternate schedule emits e09 before e06 because it depends only on the clinic root; the root identifies three drills but not D2.",
+          "suggestedFix": "Add e06 as a causal dependency of e09, preserving the local annotation's specific antecedent."
+        }
+      ]
+    },
+    {
+      "id": "dev09",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "dev10",
+      "verdict": "fail",
+      "issues": [
+        {
+          "location": "events/e11/dependsOn",
+          "severity": "error",
+          "reason": "The guide annotation refers to 'specimen S4, whose taxon line remains hidden in our captured frame', explicitly relying on the e04 frame. The alternate schedule emits e11 before e04 because that causal edge is absent.",
+          "suggestedFix": "Add e04 as a causal dependency of e11."
+        }
+      ]
+    },
+    {
+      "id": "dev11",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "dev12",
+      "verdict": "pass",
+      "issues": [
+        {
+          "location": "tasks/q4/rationale",
+          "severity": "warning",
+          "reason": "The rationale says only the shared plan specifies the support face, but the active s01 revision 2 also states that the gauge cable clips stay on the support's outer face. The question itself explicitly requests the shared support plan, so its single-source expectedEvidence remains defensible.",
+          "suggestedFix": "Explain that the question specifically selects the shared support plan; remove the inaccurate claim that no other source specifies the face. Do not add the layout note unless broadening the question."
+        }
+      ]
+    }
+  ],
+  "crossLibraryIssues": [
+    {
+      "location": "development/dev11/family; evaluation/eval12/family",
+      "severity": "warning",
+      "reason": "These independently authored cases have a notably similar full mechanism: an authoritative scheduling note is amended twice, a voice memo between amendments quotes an explicitly stale external poster/calendar containing the original time, a separate project shares a coordination artifact, and a final continuation points back to the authoritative schedule. This is more specific than merely sharing revisions or newer mentions. Their domains and coordination roles differ, so this review does not establish copied authorship or exact template leakage.",
+      "suggestedFix": "Before sealing, adjudicate this pair explicitly against the distinct-scenario-family rule. Prefer diversifying one causal story or retaining a written explanation of why broadcast-content handoff versus seed-batch equipment scheduling constitutes sufficient mechanism separation."
+    }
+  ]
+}

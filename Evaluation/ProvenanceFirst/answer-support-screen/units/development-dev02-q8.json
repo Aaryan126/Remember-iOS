@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev02-q8",
+    "inputSHA256": "204da02ef0a936f26fc576b1e43e1b33edda69eef2752473840325e5811a4df5",
+    "rawSHA256": "7746c737d876382f0c1d8aeca989196a23e083e53daf758c1cd3fb8b7b7a1cb8",
+    "requestCount": 1,
+    "reservationSHA256": "941b03768c2292e8f3266155e7b4d7242180f0b11ab9736e1a5082c190f1e2ce",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 5.085355541668832,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "7755ff0c22cc8ce6fcfcd7554d21927efb10adfbbac995c508f6461c532b4d08",
+            "quote": "The germination percentage was not measured; do not infer it from appearance."
+          },
+          {
+            "candidateID": "edafb7fdae614030523f98699556e31b4eca6241db7691026ef9f70e8e3390ef",
+            "quote": "Rill-26, a different accession from Rill-62: the measured germination percentage is 82 percent."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21774336,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev02-q8"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "81629095ab5cfe0b65622af545a0b59925aca3c1c4fa2622603817a74a4748a3"
+}

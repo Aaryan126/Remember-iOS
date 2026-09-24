@@ -1,0 +1,64 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-102/raw.json",
+  "rawSHA256": "97e47add9b1aa113fc2d22d7fe087b972374ae78b25e7fac761b1c52db69c617",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 6.555482916664914,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.916663212701678e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.32111154166341294,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3742924999969546,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37535466666304274,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 6.553911875002086,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "f29740fc7d55eb5bf9156e9453a32628c3f7de22e669303d3854dae855ceef7e",
+      "contextSize": 4096,
+      "generationSeconds": 6.177885749995767,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Birchbank Trust funded the Elm Reach otter census. Camera placement, volunteer counts and the final population report are deliverables of grant OT-42.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Birchbank's Elm Reach reedbed survey is funded under another grant with its own habitat report. It is not part of the otter census, although volunteers use the same river transects.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Field recording: We finished the measurements at Elm Reach. The report can go in now.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Source s01 links otter census deliverables to grant OT-42; source s02 describes a reedbed survey unrelated to the census; source s05 mentions measurements at Elm Reach but no explicit connection to either project.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-102"
+  }
+}

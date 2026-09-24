@@ -1,0 +1,121 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "East-entry installation drawing, title block",
+      "modality": "pdf",
+      "sourceId": "s01",
+      "text": "Museum east-entry tactile route installs raised guidance strips between the entry vestibule and the information counter. The route record follows this indoor segment only. Courtyard paving has a separate installation drawing even though both routes meet near the counter."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Courtyard installation log, opening entry",
+      "modality": "note",
+      "sourceId": "s02",
+      "text": "Museum courtyard tactile route installs raised guidance strips from the garden gate to the covered threshold. The team will record doorway clearances before fixing the final strip. This route has its own drawing and sign-off apart from the indoor entry segment."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Loose test-strip note, original wording",
+      "modality": "note",
+      "sourceId": "s03",
+      "text": "Place the first test strip beside the round planter. This is the initial placement note from a walk-through, before doorway clearances were checked. The page has no room name or drawing number, and its location cannot be identified from the extracted text alone."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Extracted stockroom crate card, route list",
+      "modality": "photo",
+      "sourceId": "s04",
+      "text": "Museum east-entry tactile route and Museum courtyard tactile route share storage crate TC5 for unopened test strips. Opened samples go into separate labelled sleeves after each check. Sharing stock does not establish that either route has passed a usability review."
+    },
+    {
+      "assignedProjectRoots": [
+        "s02"
+      ],
+      "id": "e05",
+      "kind": "correct",
+      "reason": "My round-planter test-strip note belongs to Museum courtyard tactile route; that walk-through was outside by the garden gate.",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Extracted indoor dry-fit clip, 01:10–01:29",
+      "modality": "video",
+      "sourceId": "s05",
+      "text": "The Museum east-entry tactile route fitting video shows the loose sample ending before the mat recess. The installer calls it a temporary dry fit and leaves it unsecured. The recording gives no participant feedback or completed accessibility assessment."
+    },
+    {
+      "id": "e07",
+      "kind": "revise",
+      "locator": "Loose test-strip note, doorway-check amendment",
+      "sourceId": "s03",
+      "text": "For Museum courtyard tactile route, place the first test strip beside the square drain cover. The doorway check found the planter position crossed the door swing, so this replaces that initial placement. The strip remains a removable trial pending observation."
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Fictional product leaflet, profile diagrams",
+      "modality": "link",
+      "sourceId": "s06",
+      "text": "A raised-strip product leaflet is background for Museum east-entry tactile route and Museum courtyard tactile route. Its diagrams show stock profiles only, with no museum floor plan or test participants. The leaflet cannot serve as the museum's installation acceptance record."
+    },
+    {
+      "id": "e09",
+      "kind": "archive",
+      "sourceId": "s06"
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Extracted outdoor pack-up reminder, 00:04–00:22",
+      "modality": "voice",
+      "sourceId": "s07",
+      "text": "Museum courtyard tactile route keeps its removable trial strips in the shallow tray beside the covered threshold after each session. The spoken reminder concerns overnight tidiness. It does not change the placement specified in the amended loose note."
+    },
+    {
+      "id": "e11",
+      "kind": "restore",
+      "sourceId": "s06"
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Extracted cafe notice, whole poster",
+      "modality": "photo",
+      "sourceId": "s08",
+      "text": "The museum cafe notice asks guests to return trays to the hatch and keep the garden gate clear. A small leaf drawing decorates its border. No tactile-route drawing, strip placement, or participant observation appears on the notice."
+    }
+  ],
+  "id": "eval11",
+  "queries": [
+    {
+      "atEvent": "e12",
+      "id": "q1",
+      "question": "Where does the current amended courtyard test-strip note place the first trial strip?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e07",
+      "id": "q2",
+      "question": "Include prior versions: where did the original loose test-strip note say to put the first strip before the doorway-check amendment?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e08",
+      "id": "q3",
+      "question": "Which current stockroom card names the crate shared by both museum tactile-route installations?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "What participant satisfaction score was recorded for the courtyard tactile-route trial?",
+      "scope": "current"
+    }
+  ]
+}

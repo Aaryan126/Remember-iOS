@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-104/raw.json",
+  "rawSHA256": "903a2957999d630828acc55b6fea55b43a673f594f1c936e2db7c50f3119d5ee",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.640209166667773,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.66666858503595e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2160094583305181,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26942591666738736,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27034033333620755,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.6379660416641855,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "f41e691a738db16958284c00841e5bd16c0cbda0ce1731c3320eea54f372edcf",
+      "contextSize": 4096,
+      "generationSeconds": 4.367032958332857,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Prototype machining, load tests and drawing approval are one engineering commission for the latch.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Cedar Forge's employee picnic permit is reference CF-7, the same short code appearing on a latch test label.",
+            "sourceID": "s07"
+          }
+        ],
+        "rationale": "Different undertakings are described: an engineering commission for a latch and an employee picnic permit using the same code.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-104"
+  }
+}

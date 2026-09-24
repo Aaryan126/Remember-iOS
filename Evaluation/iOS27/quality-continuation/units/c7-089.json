@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-089/raw.json",
+  "rawSHA256": "9115a21f83668e32ef4dfe34c38a8e446c2e6c0d612ce54eaa2f3e307fd09b06",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.462922791666642,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.166665116325021e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2164374999993015,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2656847916659899,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2667450833323528,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.461469791662239,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "dce0b86044917bf746f807008410f7ce32c47eb8b359f8f77689aa9c5f527fd4",
+      "contextSize": 4096,
+      "generationSeconds": 4.194069999997737,
+      "output": {
+        "evidence": [
+          {
+            "quote": "The hinge uses the latch's alloy and test rig, but its drawings and acceptance are for a separate product commission, not the folding-ladder redesign.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Workshop sheet allocates the same test rig to the folding-ladder latch and the toolbox hinge on successive days. File the results under their respective product approvals.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Source s02 states the hinge is for a separate product commission and s04 allocates the test rig to separate products, indicating distinct undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-089"
+  }
+}

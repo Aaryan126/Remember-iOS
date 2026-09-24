@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-024/raw.json",
+  "rawSHA256": "f382d2b479531d929ef77dd54a4a1fdbd24c8fad76107e51499cdac41895483a",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.7503664166652015,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.833330993074924e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3202337083348539,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3722431249989313,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37333066666906234,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.7491966250017867,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "40c23333854b2d11c5768dc184f1192e3fd66243fd466ba9aaf8d59b07ee0200",
+      "contextSize": 4096,
+      "generationSeconds": 3.3752238333327114,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Export mapping, rehearsal imports and cutover support belong to this migration engagement.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Support note: Marble Desk says the fix worked after the restart. We can close it.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference the appointment-database migration and the fix tied to the restart.",
+        "verdict": "same_project"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-024"
+  }
+}

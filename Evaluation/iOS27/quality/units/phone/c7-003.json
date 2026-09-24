@@ -1,0 +1,59 @@
+{
+  "rawPath": "attempts/phone/c7-003/raw.json",
+  "rawSHA256": "e9882404f1b5c28d02979a642aad435cce51f9d197429deb33ece0366ce0f44f",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.0316872083349153,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.333334800321609e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22585495833482128,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2725489166623447,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2735468333339668,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.0305804166637245,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "0dfe646248e229f20b18b34bd05c4f034576338a3553ac63169b19c597248d6c",
+      "contextSize": 4096,
+      "generationSeconds": 2.7563538333342876,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Northgate Library commissioned its window restoration under a different contract.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "The defect at Northgate is corrected.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference distinct work at Northgate: slate-roof restoration and a separate window restoration, with no shared project linkage.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-003"
+  }
+}

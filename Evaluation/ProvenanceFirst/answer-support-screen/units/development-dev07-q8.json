@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev07-q8",
+    "inputSHA256": "f4ee5b7553ae42aa7535ea10f75f230b82763acf0a2af7bc2918fce5375431db",
+    "rawSHA256": "c6170d547296f77eb2e6b993cd0759fee8ff7f51feb2684659af82fc35919fad",
+    "requestCount": 1,
+    "reservationSHA256": "7f8cb9a1592b0f44f9669e06745865ab5a61a8cdaa52784310fe1fdf6913f795",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 6.141732124990085,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "78d56e353ff74587c2689908330cadba868f9b705a8b1933b5d1960c2d3a7457",
+            "quote": "Practice contact 17, retired check card: exchange word 'copper'. This card belongs to the first check, not the corrected callsign entry."
+          },
+          {
+            "candidateID": "a447eab3c0d4134240ac6b515cb5dd4d9b261b148bd19c1c4494c0d7683b34fe",
+            "quote": "Fictional radio club exercise, contact 17 initial entry: remote callsign QX4LM. The operator wrote this during the practice exchange."
+          }
+        ],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 20643840,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev07-q8"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "70f41b78cb44c645a2cf5815de49e46c27976882cfb7c910b20ced54f5c1c195"
+}

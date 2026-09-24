@@ -1,0 +1,68 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-031/raw.json",
+  "rawSHA256": "8b12b36b24478f67c8e41d06b14d95a9d63dd8971cff803007c1ef252ab99fe2",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.829481375003525,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.791669536847621e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.32362358333193697,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3752958750046673,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37633212500077207,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.828278250002768,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "5640e160a7ee3e2f32c4b4c85fcb67a67a2b787526f971283c790459d342db49",
+      "contextSize": 4096,
+      "generationSeconds": 4.451254791667452,
+      "output": {
+        "evidence": [
+          {
+            "quote": "The club is separately planning the 2029 Winter Exchange.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Storage handover records the coat racks leaving the closed 2028 Winter Exchange and being reserved for the separate 2029 edition.",
+            "sourceID": "s04"
+          },
+          {
+            "quote": "do not include it in the 2028 event settlement.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "both event teams must sign the handover.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources reference distinct years and separate planning, with s02 stating the 2029 Exchange is 'separately planning' and s04 noting racks are reserved for the 'separate 2029 edition'\u2014no shared continuing project exists.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-031"
+  }
+}

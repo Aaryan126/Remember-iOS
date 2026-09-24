@@ -1,0 +1,900 @@
+{
+  "libraries": [
+    "hv19a",
+    "hv19b",
+    "hv20a",
+    "hv20b",
+    "hv21a",
+    "hv21b",
+    "hv22a",
+    "hv22b",
+    "hv23a",
+    "hv23b",
+    "hv24a",
+    "hv24b"
+  ],
+  "manifestSHA256": "065a08129159e84f181316f764c3fb370cb4c4ae8cbc68d49591a3f23391708e",
+  "pairs": [
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i02",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.043324375107518166,
+      "second": "hv19a-i02"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i03",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.030957914151754508,
+      "second": "hv19a-i03"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i04",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.030291517753687366,
+      "second": "hv19a-i04"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i05",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.018794695300617666,
+      "second": "hv19a-i05"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i06",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.03401258922510433,
+      "second": "hv19a-i06"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i07",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.9919226124452638,
+      "second": "hv19a-i07"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i08",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.024645966647656104,
+      "second": "hv19a-i08"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i09",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.010161189254995871,
+      "second": "hv19a-i09"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i10",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.05907549781824926,
+      "second": "hv19a-i10"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i11",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.020724219736563847,
+      "second": "hv19a-i11"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i12",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.9980415660920489,
+      "second": "hv19a-i12"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i13",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.022465224650124096,
+      "second": "hv19a-i13"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i14",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.012432390076063577,
+      "second": "hv19a-i14"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i15",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.07770702293302689,
+      "second": "hv19a-i15"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i16",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.8695630421769436,
+      "second": "hv19a-i16"
+    },
+    {
+      "first": "hv19a-i01",
+      "id": "hv19a-i01--hv19a-i17",
+      "library": "hv19a",
+      "reasons": [
+        "original-control"
+      ],
+      "score": 0.011790379488048824,
+      "second": "hv19a-i17"
+    },
+    {
+      "first": "hv19a-i02",
+      "id": "hv19a-i02--hv19a-i03",
+      "library": "hv19a",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.0032695593691865086,
+      "second": "hv19a-i03"
+    },
+    {
+      "first": "hv19a-i03",
+      "id": "hv19a-i03--hv19a-i15",
+      "library": "hv19a",
+      "reasons": [
+        "threshold-0.9804276486193665-at-or-above"
+      ],
+      "score": 0.981539076569233,
+      "second": "hv19a-i15"
+    },
+    {
+      "first": "hv19a-i06",
+      "id": "hv19a-i06--hv19a-i13",
+      "library": "hv19a",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.9999799075273448,
+      "second": "hv19a-i13"
+    },
+    {
+      "first": "hv19a-i09",
+      "id": "hv19a-i09--hv19a-i19",
+      "library": "hv19a",
+      "reasons": [
+        "threshold-0.99-below"
+      ],
+      "score": 0.9896300457724869,
+      "second": "hv19a-i19"
+    },
+    {
+      "first": "hv19a-i10",
+      "id": "hv19a-i10--hv19a-i12",
+      "library": "hv19a",
+      "reasons": [
+        "threshold-0.995-at-or-above"
+      ],
+      "score": 0.9951314166436716,
+      "second": "hv19a-i12"
+    },
+    {
+      "first": "hv19a-i10",
+      "id": "hv19a-i10--hv19a-i15",
+      "library": "hv19a",
+      "reasons": [
+        "threshold-0.99-below"
+      ],
+      "score": 0.9892570406425688,
+      "second": "hv19a-i15"
+    },
+    {
+      "first": "hv19a-i11",
+      "id": "hv19a-i11--hv19a-i12",
+      "library": "hv19a",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.4821158499029231,
+      "second": "hv19a-i12"
+    },
+    {
+      "first": "hv19b-i04",
+      "id": "hv19b-i04--hv19b-i08",
+      "library": "hv19b",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.9999910004505351,
+      "second": "hv19b-i08"
+    },
+    {
+      "first": "hv19b-i04",
+      "id": "hv19b-i04--hv19b-i09",
+      "library": "hv19b",
+      "reasons": [
+        "threshold-0.9804276486193665-at-or-above"
+      ],
+      "score": 0.9804749112983325,
+      "second": "hv19b-i09"
+    },
+    {
+      "first": "hv19b-i04",
+      "id": "hv19b-i04--hv19b-i11",
+      "library": "hv19b",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.00319178133637524,
+      "second": "hv19b-i11"
+    },
+    {
+      "first": "hv19b-i04",
+      "id": "hv19b-i04--hv19b-i17",
+      "library": "hv19b",
+      "reasons": [
+        "threshold-0.99-at-or-above"
+      ],
+      "score": 0.9906672021779004,
+      "second": "hv19b-i17"
+    },
+    {
+      "first": "hv19b-i04",
+      "id": "hv19b-i04--hv19b-i18",
+      "library": "hv19b",
+      "reasons": [
+        "threshold-0.995-at-or-above"
+      ],
+      "score": 0.9953481686694882,
+      "second": "hv19b-i18"
+    },
+    {
+      "first": "hv19b-i05",
+      "id": "hv19b-i05--hv19b-i15",
+      "library": "hv19b",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.48972649202463164,
+      "second": "hv19b-i15"
+    },
+    {
+      "first": "hv19b-i08",
+      "id": "hv19b-i08--hv19b-i09",
+      "library": "hv19b",
+      "reasons": [
+        "threshold-0.99-below"
+      ],
+      "score": 0.9895077988227433,
+      "second": "hv19b-i09"
+    },
+    {
+      "first": "hv19b-i12",
+      "id": "hv19b-i12--hv19b-i17",
+      "library": "hv19b",
+      "reasons": [
+        "threshold-0.9804276486193665-below"
+      ],
+      "score": 0.9792998724835608,
+      "second": "hv19b-i17"
+    },
+    {
+      "first": "hv19b-i14",
+      "id": "hv19b-i14--hv19b-i18",
+      "library": "hv19b",
+      "reasons": [
+        "threshold-0.99-at-or-above"
+      ],
+      "score": 0.9904946570946245,
+      "second": "hv19b-i18"
+    },
+    {
+      "first": "hv20a-i03",
+      "id": "hv20a-i03--hv20a-i13",
+      "library": "hv20a",
+      "reasons": [
+        "threshold-0.99-below"
+      ],
+      "score": 0.9890717818297758,
+      "second": "hv20a-i13"
+    },
+    {
+      "first": "hv20a-i04",
+      "id": "hv20a-i04--hv20a-i16",
+      "library": "hv20a",
+      "reasons": [
+        "threshold-0.995-below"
+      ],
+      "score": 0.9949510964765018,
+      "second": "hv20a-i16"
+    },
+    {
+      "first": "hv20a-i06",
+      "id": "hv20a-i06--hv20a-i12",
+      "library": "hv20a",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.004656007362872054,
+      "second": "hv20a-i12"
+    },
+    {
+      "first": "hv20a-i06",
+      "id": "hv20a-i06--hv20a-i14",
+      "library": "hv20a",
+      "reasons": [
+        "threshold-0.995-below"
+      ],
+      "score": 0.9946969121079021,
+      "second": "hv20a-i14"
+    },
+    {
+      "first": "hv20a-i10",
+      "id": "hv20a-i10--hv20a-i11",
+      "library": "hv20a",
+      "reasons": [
+        "threshold-0.9804276486193665-at-or-above"
+      ],
+      "score": 0.9812462149861153,
+      "second": "hv20a-i11"
+    },
+    {
+      "first": "hv20a-i10",
+      "id": "hv20a-i10--hv20a-i14",
+      "library": "hv20a",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.9999748191118127,
+      "second": "hv20a-i14"
+    },
+    {
+      "first": "hv20a-i10",
+      "id": "hv20a-i10--hv20a-i17",
+      "library": "hv20a",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.5064679814205983,
+      "second": "hv20a-i17"
+    },
+    {
+      "first": "hv20a-i11",
+      "id": "hv20a-i11--hv20a-i16",
+      "library": "hv20a",
+      "reasons": [
+        "threshold-0.995-below"
+      ],
+      "score": 0.9948848322739978,
+      "second": "hv20a-i16"
+    },
+    {
+      "first": "hv20b-i01",
+      "id": "hv20b-i01--hv20b-i15",
+      "library": "hv20b",
+      "reasons": [
+        "threshold-0.9804276486193665-below"
+      ],
+      "score": 0.9793228706253316,
+      "second": "hv20b-i15"
+    },
+    {
+      "first": "hv20b-i01",
+      "id": "hv20b-i01--hv20b-i20",
+      "library": "hv20b",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.5058373703747423,
+      "second": "hv20b-i20"
+    },
+    {
+      "first": "hv20b-i02",
+      "id": "hv20b-i02--hv20b-i19",
+      "library": "hv20b",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.004404716863760119,
+      "second": "hv20b-i19"
+    },
+    {
+      "first": "hv20b-i05",
+      "id": "hv20b-i05--hv20b-i14",
+      "library": "hv20b",
+      "reasons": [
+        "threshold-0.995-below"
+      ],
+      "score": 0.9947834060901593,
+      "second": "hv20b-i14"
+    },
+    {
+      "first": "hv20b-i06",
+      "id": "hv20b-i06--hv20b-i10",
+      "library": "hv20b",
+      "reasons": [
+        "threshold-0.995-at-or-above"
+      ],
+      "score": 0.9954029612023888,
+      "second": "hv20b-i10"
+    },
+    {
+      "first": "hv20b-i06",
+      "id": "hv20b-i06--hv20b-i17",
+      "library": "hv20b",
+      "reasons": [
+        "threshold-0.9804276486193665-at-or-above"
+      ],
+      "score": 0.9807679758946352,
+      "second": "hv20b-i17"
+    },
+    {
+      "first": "hv20b-i09",
+      "id": "hv20b-i09--hv20b-i15",
+      "library": "hv20b",
+      "reasons": [
+        "threshold-0.99-at-or-above"
+      ],
+      "score": 0.9906880018276149,
+      "second": "hv20b-i15"
+    },
+    {
+      "first": "hv20b-i09",
+      "id": "hv20b-i09--hv20b-i18",
+      "library": "hv20b",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.9999299271400381,
+      "second": "hv20b-i18"
+    },
+    {
+      "first": "hv20b-i10",
+      "id": "hv20b-i10--hv20b-i17",
+      "library": "hv20b",
+      "reasons": [
+        "threshold-0.995-below"
+      ],
+      "score": 0.9947865774017692,
+      "second": "hv20b-i17"
+    },
+    {
+      "first": "hv21a-i02",
+      "id": "hv21a-i02--hv21a-i18",
+      "library": "hv21a",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.0026026749800165806,
+      "second": "hv21a-i18"
+    },
+    {
+      "first": "hv21a-i05",
+      "id": "hv21a-i05--hv21a-i16",
+      "library": "hv21a",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.999896874237841,
+      "second": "hv21a-i16"
+    },
+    {
+      "first": "hv21a-i05",
+      "id": "hv21a-i05--hv21a-i19",
+      "library": "hv21a",
+      "reasons": [
+        "threshold-0.995-at-or-above"
+      ],
+      "score": 0.995089574778602,
+      "second": "hv21a-i19"
+    },
+    {
+      "first": "hv21a-i06",
+      "id": "hv21a-i06--hv21a-i10",
+      "library": "hv21a",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.48575661555284555,
+      "second": "hv21a-i10"
+    },
+    {
+      "first": "hv21a-i16",
+      "id": "hv21a-i16--hv21a-i17",
+      "library": "hv21a",
+      "reasons": [
+        "threshold-0.9804276486193665-at-or-above"
+      ],
+      "score": 0.9818713590205261,
+      "second": "hv21a-i17"
+    },
+    {
+      "first": "hv21b-i02",
+      "id": "hv21b-i02--hv21b-i09",
+      "library": "hv21b",
+      "reasons": [
+        "threshold-0.9804276486193665-below"
+      ],
+      "score": 0.9792725453265624,
+      "second": "hv21b-i09"
+    },
+    {
+      "first": "hv21b-i02",
+      "id": "hv21b-i02--hv21b-i15",
+      "library": "hv21b",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.9998875027615091,
+      "second": "hv21b-i15"
+    },
+    {
+      "first": "hv21b-i05",
+      "id": "hv21b-i05--hv21b-i18",
+      "library": "hv21b",
+      "reasons": [
+        "threshold-0.99-at-or-above"
+      ],
+      "score": 0.9901287483337057,
+      "second": "hv21b-i18"
+    },
+    {
+      "first": "hv21b-i09",
+      "id": "hv21b-i09--hv21b-i18",
+      "library": "hv21b",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.0037839765365654788,
+      "second": "hv21b-i18"
+    },
+    {
+      "first": "hv21b-i16",
+      "id": "hv21b-i16--hv21b-i19",
+      "library": "hv21b",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.47500444561153177,
+      "second": "hv21b-i19"
+    },
+    {
+      "first": "hv22a-i01",
+      "id": "hv22a-i01--hv22a-i20",
+      "library": "hv22a",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.475785096889142,
+      "second": "hv22a-i20"
+    },
+    {
+      "first": "hv22a-i03",
+      "id": "hv22a-i03--hv22a-i07",
+      "library": "hv22a",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.9999163034820852,
+      "second": "hv22a-i07"
+    },
+    {
+      "first": "hv22a-i04",
+      "id": "hv22a-i04--hv22a-i07",
+      "library": "hv22a",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.0037489870315329894,
+      "second": "hv22a-i07"
+    },
+    {
+      "first": "hv22a-i04",
+      "id": "hv22a-i04--hv22a-i09",
+      "library": "hv22a",
+      "reasons": [
+        "threshold-0.99-at-or-above"
+      ],
+      "score": 0.9902771472007816,
+      "second": "hv22a-i09"
+    },
+    {
+      "first": "hv22b-i01",
+      "id": "hv22b-i01--hv22b-i05",
+      "library": "hv22b",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.9999715298601723,
+      "second": "hv22b-i05"
+    },
+    {
+      "first": "hv22b-i02",
+      "id": "hv22b-i02--hv22b-i14",
+      "library": "hv22b",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.4954087573614685,
+      "second": "hv22b-i14"
+    },
+    {
+      "first": "hv22b-i17",
+      "id": "hv22b-i17--hv22b-i20",
+      "library": "hv22b",
+      "reasons": [
+        "threshold-0.9804276486193665-at-or-above"
+      ],
+      "score": 0.9809745123357232,
+      "second": "hv22b-i20"
+    },
+    {
+      "first": "hv22b-i19",
+      "id": "hv22b-i19--hv22b-i20",
+      "library": "hv22b",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.006356914396268517,
+      "second": "hv22b-i20"
+    },
+    {
+      "first": "hv23a-i02",
+      "id": "hv23a-i02--hv23a-i08",
+      "library": "hv23a",
+      "reasons": [
+        "threshold-0.9804276486193665-below"
+      ],
+      "score": 0.9798519430045233,
+      "second": "hv23a-i08"
+    },
+    {
+      "first": "hv23a-i06",
+      "id": "hv23a-i06--hv23a-i12",
+      "library": "hv23a",
+      "reasons": [
+        "threshold-0.995-at-or-above"
+      ],
+      "score": 0.9950190651085349,
+      "second": "hv23a-i12"
+    },
+    {
+      "first": "hv23a-i06",
+      "id": "hv23a-i06--hv23a-i13",
+      "library": "hv23a",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.48594831561338553,
+      "second": "hv23a-i13"
+    },
+    {
+      "first": "hv23a-i06",
+      "id": "hv23a-i06--hv23a-i15",
+      "library": "hv23a",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.9999150434201651,
+      "second": "hv23a-i15"
+    },
+    {
+      "first": "hv23a-i12",
+      "id": "hv23a-i12--hv23a-i17",
+      "library": "hv23a",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.006644885503634013,
+      "second": "hv23a-i17"
+    },
+    {
+      "first": "hv23b-i01",
+      "id": "hv23b-i01--hv23b-i17",
+      "library": "hv23b",
+      "reasons": [
+        "threshold-0.9804276486193665-below"
+      ],
+      "score": 0.9801595793060429,
+      "second": "hv23b-i17"
+    },
+    {
+      "first": "hv23b-i03",
+      "id": "hv23b-i03--hv23b-i06",
+      "library": "hv23b",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.500884316233182,
+      "second": "hv23b-i06"
+    },
+    {
+      "first": "hv23b-i04",
+      "id": "hv23b-i04--hv23b-i13",
+      "library": "hv23b",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.9999671575674013,
+      "second": "hv23b-i13"
+    },
+    {
+      "first": "hv23b-i04",
+      "id": "hv23b-i04--hv23b-i16",
+      "library": "hv23b",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.007643730941467052,
+      "second": "hv23b-i16"
+    },
+    {
+      "first": "hv23b-i04",
+      "id": "hv23b-i04--hv23b-i19",
+      "library": "hv23b",
+      "reasons": [
+        "threshold-0.9804276486193665-below"
+      ],
+      "score": 0.9795465119877507,
+      "second": "hv23b-i19"
+    },
+    {
+      "first": "hv23b-i09",
+      "id": "hv23b-i09--hv23b-i19",
+      "library": "hv23b",
+      "reasons": [
+        "threshold-0.995-below"
+      ],
+      "score": 0.9948095733189342,
+      "second": "hv23b-i19"
+    },
+    {
+      "first": "hv24a-i01",
+      "id": "hv24a-i01--hv24a-i08",
+      "library": "hv24a",
+      "reasons": [
+        "threshold-0.99-below"
+      ],
+      "score": 0.9897571567922516,
+      "second": "hv24a-i08"
+    },
+    {
+      "first": "hv24a-i02",
+      "id": "hv24a-i02--hv24a-i06",
+      "library": "hv24a",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.003684557568075972,
+      "second": "hv24a-i06"
+    },
+    {
+      "first": "hv24a-i02",
+      "id": "hv24a-i02--hv24a-i07",
+      "library": "hv24a",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.5022646550194781,
+      "second": "hv24a-i07"
+    },
+    {
+      "first": "hv24a-i05",
+      "id": "hv24a-i05--hv24a-i09",
+      "library": "hv24a",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.9999467339381337,
+      "second": "hv24a-i09"
+    },
+    {
+      "first": "hv24b-i01",
+      "id": "hv24b-i01--hv24b-i14",
+      "library": "hv24b",
+      "reasons": [
+        "threshold-0.995-at-or-above"
+      ],
+      "score": 0.9952544698718261,
+      "second": "hv24b-i14"
+    },
+    {
+      "first": "hv24b-i04",
+      "id": "hv24b-i04--hv24b-i09",
+      "library": "hv24b",
+      "reasons": [
+        "threshold-0.99-at-or-above"
+      ],
+      "score": 0.9907398443533717,
+      "second": "hv24b-i09"
+    },
+    {
+      "first": "hv24b-i04",
+      "id": "hv24b-i04--hv24b-i13",
+      "library": "hv24b",
+      "reasons": [
+        "library-low"
+      ],
+      "score": 0.006108224887571948,
+      "second": "hv24b-i13"
+    },
+    {
+      "first": "hv24b-i04",
+      "id": "hv24b-i04--hv24b-i16",
+      "library": "hv24b",
+      "reasons": [
+        "threshold-0.99-below"
+      ],
+      "score": 0.989508891998827,
+      "second": "hv24b-i16"
+    },
+    {
+      "first": "hv24b-i06",
+      "id": "hv24b-i06--hv24b-i14",
+      "library": "hv24b",
+      "reasons": [
+        "library-high"
+      ],
+      "score": 0.999483421345534,
+      "second": "hv24b-i14"
+    },
+    {
+      "first": "hv24b-i06",
+      "id": "hv24b-i06--hv24b-i16",
+      "library": "hv24b",
+      "reasons": [
+        "library-middle"
+      ],
+      "score": 0.48892603196558837,
+      "second": "hv24b-i16"
+    }
+  ],
+  "sources": 108
+}

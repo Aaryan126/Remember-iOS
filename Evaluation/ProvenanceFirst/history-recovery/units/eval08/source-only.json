@@ -1,0 +1,126 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Courtyard catalogue instructions, page 1",
+      "modality": "pdf",
+      "sourceId": "s01",
+      "text": "Courtyard ceramic catalogue records pottery recovered from the gridded courtyard trench. Each entry preserves the find bag identifier even when a vessel interpretation changes. The catalogue is not the refit study of material from the separate kiln dump."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Kiln study notebook, opening page",
+      "modality": "note",
+      "sourceId": "s02",
+      "text": "Kiln dump refit study tests joins among fragments collected outside the old firing chamber. Refits receive temporary letters before a final drawing. The study retains its own find records rather than treating all ceramic pieces as one assemblage."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "C27 catalogue working entry, initial description",
+      "modality": "note",
+      "sourceId": "s03",
+      "text": "Courtyard ceramic catalogue provisionally lists sherd C27 as a bowl rim. The curved edge looks finished, but the break beneath it has not been checked under magnification. Keep the provisional description beside the bag identifier until that inspection is complete."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Extracted loose fragment photograph, central crop",
+      "modality": "photo",
+      "sourceId": "s04",
+      "text": "A scale strip lies next to a reddish fragment with a blackened edge. The photograph crops out the bag label and the tray name. Only the scale ticks and a pencilled question mark are legible; the fragment cannot be assigned from this extraction."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Extracted photography session briefing, 00:06–00:29",
+      "modality": "voice",
+      "sourceId": "s05",
+      "text": "Courtyard ceramic catalogue and Kiln dump refit study share photography board PB4 during the afternoon documentation session. Each tray is photographed separately with its own label. Sharing the board is a practical arrangement, not evidence that the fragments join."
+    },
+    {
+      "id": "e06",
+      "kind": "revise",
+      "locator": "C27 catalogue working entry, magnification amendment",
+      "sourceId": "s03",
+      "text": "Courtyard ceramic catalogue now lists sherd C27 as a jar shoulder fragment. Magnification revealed that the apparent finished edge is a break. This replaces the provisional bowl-rim description while retaining the original find bag identifier."
+    },
+    {
+      "assignedProjectRoots": [
+        "s02"
+      ],
+      "id": "e07",
+      "kind": "correct",
+      "reason": "The cropped reddish-fragment photo belongs to Kiln dump refit study; I took it before placing the kiln tray label.",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Extracted dry-fit demonstration, 00:35–00:54",
+      "modality": "video",
+      "sourceId": "s06",
+      "text": "Kiln dump refit study records a possible join between fragments KD8 and KD11. The dry fit has not been secured or assigned a final refit letter. A blank drawing box leaves room for the join orientation after another examination."
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "locator": "Fictional anatomy chart, shoulder caption",
+      "modality": "link",
+      "sourceId": "s07",
+      "text": "A ceramic anatomy chart is background for Courtyard ceramic catalogue. It labels rims, shoulders and bases on a teaching vessel from elsewhere. Its terms help describe fragments but do not independently identify C27 or any courtyard find bag."
+    },
+    {
+      "id": "e10",
+      "kind": "revise",
+      "locator": "C27 catalogue working entry, profile refinement",
+      "sourceId": "s03",
+      "text": "Courtyard ceramic catalogue now lists sherd C27 as a storage-jar shoulder fragment with an applied ridge. A matching profile clarified the vessel form without changing its find context. This refines the earlier jar-shoulder description; the bag identifier remains C27."
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Extracted drawing location card, readable text",
+      "modality": "photo",
+      "sourceId": "s08",
+      "text": "Courtyard ceramic catalogue stores the C27 working drawing in the grey folio. The location card describes the drawing's filing place only. It deliberately omits a vessel type so later catalogue refinements will not make the filing label misleading."
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Dig-house notice transcription",
+      "modality": "note",
+      "sourceId": "s09",
+      "text": "The dig-house notice requests that empty tea tins go to the kitchen shelf. It has a sketch of a mug and no excavation grid, bag identifier, or pottery description. The note is ordinary accommodation housekeeping."
+    }
+  ],
+  "id": "eval08",
+  "queries": [
+    {
+      "atEvent": "e12",
+      "id": "q1",
+      "question": "How does the current C27 catalogue working entry classify the sherd?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e10",
+      "id": "q2",
+      "question": "Include previous versions: what provisional classification appeared in the original C27 working entry before the magnification amendment?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e08",
+      "id": "q3",
+      "question": "What current briefing records the photography board shared by the courtyard catalogue and kiln refit study?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e09",
+      "id": "q4",
+      "question": "What angle in degrees is needed to align fragments KD8 and KD11 in the proposed dry fit?",
+      "scope": "current"
+    }
+  ]
+}

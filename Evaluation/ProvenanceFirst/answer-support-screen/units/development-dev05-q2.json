@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev05-q2",
+    "inputSHA256": "237f5393f01a3435d450b57fd2f03b4d474634c00cf3cb2bad8f9d8cce7657d8",
+    "rawSHA256": "f1e6f13bb2c7d279288677ceb87fd714ed91ed112ebfc4b9c250bd9565e46c3f",
+    "requestCount": 1,
+    "reservationSHA256": "ccb2b3bc997a9250a066fafc9918d8e3dd8318315a2b74e94590718ba37ec0c4",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.625407291663578,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "a34cee9cf94a05dc2a3ad8a0f37beceb4225f500bc9043f2e2be4917d03eeecb",
+            "quote": "At the Alder loop reading trial, we did not record any viewing-distance measurements. We discussed glare and moved the board under a tree. The trial did not choose a sign installer."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21413888,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev05-q2"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "f4719de8e3565c82c73b3700f2d5cd4d99bfac62e3bd859bcd9ea06890455fa3"
+}

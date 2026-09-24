@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev01-q3",
+    "inputSHA256": "6fdad0588ee06cae73bf8fb0f2c47dd644dd73b0941d802f98c8ec253d0dd90f",
+    "rawSHA256": "9610ef5fc89e332deb880330c4a6711ab785ce6b92899c5621ad45addf9c3476",
+    "requestCount": 1,
+    "reservationSHA256": "a80a9bddb698c878db87319ebf729edf2bc0ae3f65ad913affcfe25e5237b5ee",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 4.081914541660808,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "the sound operator's standby word was 'harbour'. Kept as a record of the first blocking session.",
+        "evidence": [
+          {
+            "candidateID": "d2c3ad1af8117649207f33f6a3047f4825f6734c9e3cea92a9e10b52068ac317",
+            "quote": "Old cue card, Glass Orchard scene 4: the sound operator's standby word was 'harbour'. Kept as a record of the first blocking session."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21413888,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev01-q3"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "97e5d3b5332adfff5da936ea578920f88eac41417dccd7f0447a95e67a3f9178"
+}

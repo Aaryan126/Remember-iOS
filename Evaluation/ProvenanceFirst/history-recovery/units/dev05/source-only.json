@@ -1,0 +1,122 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Label revision brief",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Bean patty allergen label revision is a fictional print exercise for Cedar School's lunch counter. Compare the approved ingredient sheet with every label proof. No actual food is being served in this exercise; the task is to track how the label copy changes."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Caption kickoff transcript, 00:05–00:24",
+      "modality": "voice",
+      "sourceId": "s02",
+      "text": "Lunch counter bilingual captions will pair the exercise's dish names with translations and readable type sizes. Ingredient certification remains with the label revision team. We need one joint proof round so captions do not cover the printed allergen box."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Draft label L1, page 1",
+      "modality": "pdf",
+      "sourceId": "s03",
+      "text": "Bean patty allergen label revision, proof L1: 'Contains wheat and milk.' The ingredient-sheet comparison has not happened yet. A red sticker marks this as a draft, and the fictional lunch counter must not use this sheet as the approved label."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Loose sticky note OCR",
+      "modality": "photo",
+      "sourceId": "s04",
+      "text": "Small sticky note: 'Remove the second line, keep sesame.' No dish name or proof number is visible. The note was found near both caption drafts and label printouts. Its wording alone does not establish what text it was intended to correct."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Joint proof checklist, page 2",
+      "modality": "pdf",
+      "sourceId": "s05",
+      "text": "Shared proof check for bean patty allergen label revision and lunch counter bilingual captions: reserve the bottom 16 mm for the allergen box. The translated dish name can wrap above it. Both teams must inspect the same physical proof before printing."
+    },
+    {
+      "assignedProjectRoots": [
+        "s01"
+      ],
+      "id": "e06",
+      "kind": "correct",
+      "reason": "The sticky note belongs to the bean patty allergen label revision. I wrote it while reviewing proof L1, not the bilingual captions.",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Approved label L2 text",
+      "modality": "note",
+      "sourceId": "s06",
+      "text": "Bean patty allergen label revision, approved proof L2: 'Contains wheat and sesame.' The verified exercise ingredient sheet has sesame and no milk ingredient; this proof replaces L1 for printing. Keep the discarded proof for documenting the copy correction."
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Layout check extracted narration, 00:18–00:33",
+      "modality": "video",
+      "sourceId": "s07",
+      "text": "Lunch counter bilingual captions layout check: use two lines for the long translated bean-patty name. Keep both lines left aligned. A later conversation about ordering real cafeteria meals is outside this fictional label exercise and changes none of this copy."
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "locator": "Fictional typography article, baseline section",
+      "modality": "link",
+      "sourceId": "s08",
+      "text": "Typography article retained as background for lunch counter bilingual captions. It discusses mixed-script baselines using street posters. The article offers no translations for the exercise and does not establish whether any ingredient is present in the bean patty."
+    },
+    {
+      "id": "e10",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Personal picnic reminder",
+      "modality": "note",
+      "sourceId": "s09",
+      "text": "Personal reminder: bring an empty lunch tin to the picnic and return the borrowed thermos. The shopping list will be written later. This reminder is not an ingredient declaration, label proof or translation request for the school exercise."
+    },
+    {
+      "id": "e12",
+      "kind": "restore",
+      "sourceId": "s03"
+    }
+  ],
+  "id": "dev05",
+  "queries": [
+    {
+      "atEvent": "e04",
+      "id": "q1",
+      "question": "Which dish label does the loose sesame sticky note amend?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e11",
+      "id": "q2",
+      "question": "What allergen wording appeared on archived draft proof L1, even though L2 replaced it?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "What allergen wording is approved for printing on proof L2 now?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Find the joint layout rule for the caption team's text and label team's allergen box.",
+      "scope": "current"
+    }
+  ]
+}

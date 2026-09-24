@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-090/raw.json",
+  "rawSHA256": "68add24f1a35a4868507b93ddbebf6c8fff04b02be2425671a1a500be14b8b76",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.762584625001182,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.833338607568294e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2207879583365866,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2703864583381801,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.271328208335035,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.761070375003328,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "de83b9c92481f8668e2c890b7f122920769bbb7246bcc9235d286aaf9a94a261",
+      "contextSize": 4096,
+      "generationSeconds": 4.489132875001815,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Cobalt Press commissioned a Portuguese translation of 'River Roads' under a separate publication contract.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "The editorial message approving 'the revised travel-book proofs' was for the Spanish edition, now 'Paths by Water'.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Source s02 describes a Portuguese translation under a separate contract, while s05 references approval for the Spanish edition, establishing distinct projects.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-090"
+  }
+}

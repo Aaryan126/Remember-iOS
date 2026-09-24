@@ -1,0 +1,38 @@
+{
+  "additionalSyntheticEvaluatorSmokePassed": true,
+  "cap": 256,
+  "confirmedGenerationsThisStage": 8,
+  "conservativeTotalAttemptCount": 11,
+  "controlPairs": 56,
+  "controlsComplete": 56,
+  "estimatedRemainingAfterRecoveryMinutes": [
+    35,
+    60
+  ],
+  "failedLaunchResultUnknown": true,
+  "fp16FP32DecisionDifferences": 0,
+  "generationReservationsThisStage": 9,
+  "nextAction": "Review a bounded transport recovery and explicit no-retry disposition of c7-004 before resuming unchanged requests",
+  "paused": true,
+  "pilotGenerationMaximumSeconds": 5.067974166660861,
+  "pilotGenerationMedianSeconds": 3.221864437502518,
+  "pilotInvalidQuotes": 2,
+  "pilotValidOutputs": 6,
+  "primaryRequired": 224,
+  "primaryResponses": 8,
+  "priorGenerationAttempts": 2,
+  "productionChanged": false,
+  "productionQualified": false,
+  "pythonTestsPassed": 64,
+  "qualityConclusion": "not available: incomplete frozen screen",
+  "repeatResponses": 0,
+  "repeatsRequired": 8,
+  "resources": {
+    "experimentBytes": 4675604830,
+    "freeBytes": 46393114624
+  },
+  "safeToClose": true,
+  "stage2Complete": false,
+  "status": "blocked-on-device-transport-after-operational-pilot",
+  "unattemptedScheduledGenerations": 223
+}

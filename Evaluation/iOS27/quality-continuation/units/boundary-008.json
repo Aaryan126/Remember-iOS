@@ -1,0 +1,68 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-008/raw.json",
+  "rawSHA256": "96a48844405c896e7e0d25ceef6132395a555151bdbf58c17eece4824ae4daa1",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.980667791664018,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 7.791670213919133e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22142604166583624,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2698059166650637,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2708599583347677,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.9795146666656365,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "1c6625a81ffee1f03e295a642005bb03eb180516ace679199ca0affae488aabb",
+      "contextSize": 4096,
+      "generationSeconds": 4.707980874998611,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Birchbank Trust funded the Elm Reach otter census. Camera placement, volunteer counts and the final population report are deliverables of grant OT-42.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Birchbank's Elm Reach reedbed survey is funded under another grant with its own habitat report. It is not part of the otter census, although volunteers use the same river transects.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Field recording: We finished the measurements at Elm Reach. The report can go in now.",
+            "sourceID": "s05"
+          },
+          {
+            "quote": "The field recording about finishing 'the measurements at Elm Reach' concerned the otter census camera counts and its population report. It did not describe the reedbed measurements.",
+            "sourceID": "s06"
+          }
+        ],
+        "rationale": "Both sources mention Elm Reach but describe distinct undertakings\u2014an otter census and a reedbed survey\u2014with unrelated deliverables and reports.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-008"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev06-q4",
+    "inputSHA256": "5b6d1cc4f493c02f811220c46d2efeb2b72e6d1769d0c084dfaf22976222c3ff",
+    "rawSHA256": "42c758ac4b7bfdeca34d62f7f3e7914d70fd29fa6c421d23d014207f712020e2",
+    "requestCount": 1,
+    "reservationSHA256": "ae78e8cb18c4d7215484183e2288e0c303f658997b7d7f0d7267538c37a16291",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.4238115416665096,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "9eda6cc3d4cd2f9a725eb0d56ccc01b80432af9aa6d7474b3f042bf95ca05f87",
+            "quote": "Mira's labelled tray was on the lower shelf. We are disputing the shelf record; there is no established move that reconciles the accounts."
+          }
+        ],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 21168128,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev06-q4"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "3f5d35582a072417c4f58cf7fc4a249018c6379c92eef880abab0eca2fc62dde"
+}

@@ -1,0 +1,4526 @@
+{
+  "schemaVersion": 1,
+  "split": "development",
+  "libraries": [
+    {
+      "id": "dev01",
+      "family": "shared-venue-separate-productions",
+      "description": "Two productions share a venue and crew but have separate creative approvals.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Glass Orchard play"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Winter Lantern foyer"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Glass Orchard is our spring stage play, directed by Mira. The current technical rehearsal is Monday at 18:00. The foyer team may lend us ladders, but their installation has a separate budget and approval.",
+          "modality": "note",
+          "locator": "Production brief",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Defines the stage production.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Glass Orchard is our spring stage play"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Winter Lantern is the foyer installation opening alongside the theatre season. We are building paper lanterns, not scenery for Glass Orchard. The installation lead signs off wiring independently; the play director has no approval role.",
+          "modality": "pdf",
+          "locator": "Installation brief page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Separate installation deliverable and authority.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Winter Lantern is the foyer installation"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "After the Glass Orchard run, the orchard door sticks during scene two. Move the hinge check before Monday's technical rehearsal. Actors can practise the crossing without the door tonight; this remains the same production.",
+          "modality": "voice",
+          "locator": "Transcript 00:12–00:29",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit stage-production continuation.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "After the Glass Orchard run"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Shared crew rota: Monday Jo checks the Glass Orchard stage door; Tuesday Jo hangs Winter Lantern in the foyer. Each lead approves their own work. This sheet coordinates two jobs without combining production budgets.",
+          "modality": "pdf",
+          "locator": "Rota page 1",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Direct tasks for both projects.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Monday Jo checks the Glass Orchard stage door; Tuesday Jo hangs Winter Lantern in the foyer"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [],
+          "text": "Corridor note: they approved moving the opening check to Wednesday. I wrote this after speaking with two different leads and did not record which one said it. No project name appears on the scrap.",
+          "modality": "note",
+          "locator": "Loose note",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "Missing referent.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "did not record which one said it"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "correct",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e05",
+            "e02"
+          ],
+          "assignments": [
+            "p2"
+          ],
+          "reason": "The corridor note records Winter Lantern wiring approval. Assign it only to Winter Lantern.",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The corridor note records Winter Lantern wiring approval. Assign it only to Winter Lantern.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Glass Orchard rehearsal plan: Wednesday at 18:00 replaces Monday for the technical rehearsal. Mira approved the move because the hinge repair ran late. The public opening date is unchanged; retain the earlier booking as history.",
+          "modality": "note",
+          "locator": "Rehearsal plan",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit schedule replacement.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "Wednesday at 18:00 replaces Monday"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "revise",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e07",
+            "e01"
+          ],
+          "text": "Glass Orchard rehearsal plan: Thursday at 18:00 replaces Wednesday for the technical rehearsal. Mira confirmed the booking to the cast. The public opening remains unchanged; the original Monday and intermediate Wednesday plans are historical.",
+          "locator": "Rehearsal plan revision 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Further explicit revision.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 1,
+                "quote": "Thursday at 18:00 replaces Wednesday"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Saved fire-safe decoration guide from another venue. Its clearance diagram may help Winter Lantern, but these are generic examples, not our installation instructions or approval. The sample opening date does not apply to our foyer.",
+          "modality": "link",
+          "locator": "Article section 2",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "Generic background only.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "not our installation instructions or approval"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e03",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit stage-production continuation.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "After the Glass Orchard run"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e10",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit stage-production continuation.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "After the Glass Orchard run"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Glass Orchard programme proof still prints Monday as technical rehearsal. This photograph records an obsolete proof from the print tray, not a decision to reverse Thursday's booking. The printer needs to correct the proof.",
+          "modality": "photo",
+          "locator": "Fictional OCR proof margin",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Later mention explicitly not a new schedule.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "not a decision to reverse Thursday's booking"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e05",
+          "mode": "uncertain",
+          "question": "Which production approved the Wednesday opening check?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No identifying evidence until later correction."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e08",
+          "mode": "current",
+          "question": "When is the technical rehearsal now?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 1,
+              "quote": "Thursday at 18:00 replaces Wednesday"
+            }
+          ],
+          "rationale": "Latest explicit revision."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e09",
+          "mode": "overlap",
+          "question": "Which rota coordinates both productions?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "Monday Jo checks the Glass Orchard stage door; Tuesday Jo hangs Winter Lantern in the foyer"
+            }
+          ],
+          "rationale": "Direct shared work without merging."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "historical",
+          "question": "What day was recorded before the Thursday correction?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 0,
+              "quote": "Wednesday at 18:00 replaces Monday"
+            }
+          ],
+          "rationale": "Historical revision requested."
+        }
+      ]
+    },
+    {
+      "id": "dev02",
+      "family": "reused-parts-distinct-deliverables",
+      "description": "Identical controllers do not make a moving competition robot and fixed weather station the same project.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Line-runner robot"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Courtyard weather station"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Line-runner robot must follow the black course and stop at the red marker. Our club owns the chassis and firmware. A spare temperature board is available, but courtyard weather collection is a separate science project.",
+          "modality": "note",
+          "locator": "Robot brief",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Defines competition deliverable.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Line-runner robot must follow the black course"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Courtyard weather station will log temperature every ten minutes from a fixed enclosure. Facilities must approve the mounting post. Its controller model is identical to the robot's, but this station never moves along a course.",
+          "modality": "pdf",
+          "locator": "Station brief page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Fixed weather logging is distinct.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Courtyard weather station will log temperature every ten minutes"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Tutorial about voltage drift on this controller model. The motor example comes from another school; none of these readings was taken on our robot or station. Both teams may use the calibration method as background.",
+          "modality": "link",
+          "locator": "Tutorial section 4",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1",
+              "p2"
+            ],
+            "rationale": "Method applicable to both but not their measurements.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "none of these readings was taken on our robot or station"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Shopping sheet: two motors for Line-runner and a humidity sensor for the Courtyard weather station. USB cables are shared stock. Keep separate grant columns even though one student places this combined order with the electronics shop.",
+          "modality": "photo",
+          "locator": "Fictional OCR shopping list",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Direct purchases for two projects.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "two motors for Line-runner and a humidity sensor for the Courtyard weather station"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [],
+          "text": "Bench memo: the board passed, so send it out tomorrow. A motor and fan are audible, but no board identifier is spoken. Both teams were testing that afternoon, and the recording does not name a build.",
+          "modality": "voice",
+          "locator": "Transcript 00:03–00:16",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "Background sounds cannot identify board.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "no board identifier is spoken"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Line-runner trial video: the robot overshoots the red marker by half a wheel. Reduce braking delay in the existing firmware. The temperature display behind the track belongs to a classroom lesson, not a new robot requirement.",
+          "modality": "video",
+          "locator": "Fictional transcript 00:22–00:40",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Continues track task.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "Line-runner trial video"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "correct",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e05",
+            "e02"
+          ],
+          "assignments": [
+            "p2"
+          ],
+          "reason": "The board in my bench memo was the Courtyard weather station board; assign the memo only there.",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The board in my bench memo was the Courtyard weather station board; assign the memo only there.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "archive",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e06",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Continues track task.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "Line-runner trial video"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Line-runner robot must now stop at the blue marker instead of red. Organizers changed this year's course rule, not our team or chassis. Apply the new stopping requirement to the existing competition build and preserve the earlier brief.",
+          "locator": "Robot brief revision 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Changed requirement preserves identity.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 1,
+                "quote": "stop at the blue marker instead of red"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "restore",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e08",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Continues track task.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "Line-runner trial video"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Notebook scan reads Line-runn3r, blue stop, brake delay 40 ms. OCR drops a vowel from the heading, but the annotated track drawing and blue-stop rule identify the revised competition task. Two successful runs are logged.",
+          "modality": "photo",
+          "locator": "Fictional OCR notebook page 8",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Noisy heading still grounded in deliverable.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "Line-runn3r, blue stop, brake delay 40 ms"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Courtyard weather station deployment: facilities approved the fixed mount. Sampling remains every ten minutes. A student suggested one-minute readings in conversation, but no change was approved and the deployed configuration stayed as written in the original station brief.",
+          "modality": "note",
+          "locator": "Deployment note",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicitly rejects implied update.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "Sampling remains every ten minutes"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e05",
+          "mode": "uncertain",
+          "question": "Which build passed the board test?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "Unknown before user clarification."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e09",
+          "mode": "historical",
+          "question": "Which marker did the original robot rule require?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 0,
+              "quote": "stop at the red marker"
+            }
+          ],
+          "rationale": "Old rule is requested."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e10",
+          "mode": "overlap",
+          "question": "Which record separates purchases for the two builds?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "Keep separate grant columns even though one student places this combined order"
+            }
+          ],
+          "rationale": "Shared order, separate undertakings."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "current",
+          "question": "What interval did the station actually deploy?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s08",
+              "revision": 0,
+              "quote": "Sampling remains every ten minutes"
+            }
+          ],
+          "rationale": "Suggestion was explicitly not adopted."
+        }
+      ]
+    },
+    {
+      "id": "dev03",
+      "family": "supplier-thread-two-equipment-jobs",
+      "description": "A common supplier coordinates distinct equipment repairs and partial acceptance.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Deck oven replacement"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Cold-room seal repair"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Deck oven replacement order OV-17 covers removing the old oven and fitting a two-deck unit. We reserved a 32-amp supply. The same supplier services our cold room, but each job has its own acceptance sheet.",
+          "modality": "pdf",
+          "locator": "OV-17 order page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Distinct oven order.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Deck oven replacement order OV-17"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Cold-room seal repair CR-8 replaces the torn magnetic gasket without changing the refrigeration unit. Photograph frost before removal and test the door overnight afterward. The oven has a different acceptance sheet despite sharing this supplier.",
+          "modality": "note",
+          "locator": "Repair note",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Repair has own deliverable.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Cold-room seal repair CR-8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Electrician visit sheet: isolate the oven for OV-17, then check the cold-room door heater for CR-8. Two work orders share one visit. A door-temperature check cannot count as the oven's commissioning result or close both jobs.",
+          "modality": "pdf",
+          "locator": "Visit sheet page 2",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Direct work in both jobs.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "isolate the oven for OV-17, then check the cold-room door heater for CR-8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [],
+          "text": "Supplier call: the replacement arrives Tuesday. The operator says our shop name but no order number. We await both an oven and a gasket from this supplier, so the message does not identify which delivery was confirmed.",
+          "modality": "voice",
+          "locator": "Transcript 00:08–00:21",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "Two compatible references remain.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "no order number"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "OV-17 commissioning checklist: electrician requires 40 amps instead of the reserved 32 amps. Do not energize the new oven before circuit inspection. This requirement belongs to the oven installation and says nothing about cold-room repair acceptance.",
+          "modality": "note",
+          "locator": "Oven checklist",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Specific changed requirement.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "requires 40 amps instead of the reserved 32 amps"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "correct",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e04",
+            "e02"
+          ],
+          "assignments": [
+            "p2"
+          ],
+          "reason": "The dispatcher confirmed CR-8: my Tuesday delivery memo concerns the gasket, not the oven.",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The dispatcher confirmed CR-8: my Tuesday delivery memo concerns the gasket, not the oven.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Gasket photograph label reads CR-8, lower corner split, frost line visible. Flour obscures the time on the bag. This is the cold-room condition before replacement and cannot establish whether the new oven passed its electrical inspection.",
+          "modality": "photo",
+          "locator": "Fictional OCR gasket label",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Pre-repair evidence.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "CR-8, lower corner split, frost line visible"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "archive",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e07",
+            "e02"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Pre-repair evidence.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "CR-8, lower corner split, frost line visible"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Generic bakery energy article covers cold-room door opening and oven idle periods. It has no serial numbers from our shop. Keep these tips as background, not proof that either of our equipment jobs has been completed or accepted.",
+          "modality": "link",
+          "locator": "Article energy tips",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1",
+              "p2"
+            ],
+            "rationale": "Generic efficiency background.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "not proof that either of our equipment jobs has been completed"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "revise",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e05",
+            "e01"
+          ],
+          "text": "OV-17 commissioning checklist: the new circuit passed inspection; oven energizing is approved. Temperature balance testing is still outstanding. This clears an electrical prerequisite only, and must not be presented as final acceptance of the new oven.",
+          "locator": "Checklist revision 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Partial completion, not overall acceptance.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 1,
+                "quote": "Temperature balance testing is still outstanding"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "restore",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e08",
+            "e02"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Pre-repair evidence.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "CR-8, lower corner split, frost line visible"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "CR-8 acceptance: the new gasket passed the overnight temperature test and the owner signed off the seal repair. Oven temperature balance is separate unfinished work. Do not use this cold-room sign-off to close the oven replacement order.",
+          "modality": "note",
+          "locator": "Repair acceptance",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Specific repair acceptance.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "the new gasket passed the overnight temperature test"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e04",
+          "mode": "uncertain",
+          "question": "Which replacement will arrive Tuesday?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "Order not identified."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e08",
+          "mode": "historical",
+          "question": "Show the damaged seal before replacement.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 0,
+              "quote": "CR-8, lower corner split, frost line visible"
+            }
+          ],
+          "rationale": "Historical task can recover archived source."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e10",
+          "mode": "current",
+          "question": "Is the oven fully accepted?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 1,
+              "quote": "Temperature balance testing is still outstanding"
+            }
+          ],
+          "rationale": "Electrical approval is incomplete acceptance."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "question": "Which sheet coordinates both equipment jobs?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "Two work orders share one visit"
+            }
+          ],
+          "rationale": "One source supports two separate jobs."
+        }
+      ]
+    },
+    {
+      "id": "dev04",
+      "family": "boundary-geography-versus-causal-connection",
+      "description": "Nearby flooding connects two interventions without proving common authority or success.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "North gully clearance"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Courtyard rain garden"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "North gully clearance NG-3 asks the council to remove leaves from the public drain at Alder Corner. Residents will photograph flood depth afterward. This is street maintenance, not the proposed courtyard planting project on private cooperative land.",
+          "modality": "note",
+          "locator": "Council request draft",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Specific maintenance undertaking.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "North gully clearance NG-3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Courtyard rain garden RG-6 converts the inner gravel strip to a planted soakaway. The cooperative owns this land. Council street-drain clearance may help nearby flooding, but is not a construction phase of our garden or an approval for it.",
+          "modality": "pdf",
+          "locator": "Cooperative proposal page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Separate landowner and approval.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Courtyard rain garden RG-6"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Rain video: water ponds above the north gully and crosses the courtyard gate. Evidence is needed for both NG-3 clearance and RG-6 overflow design. Shared flooding does not prove that either proposed remedy will solve the whole problem.",
+          "modality": "video",
+          "locator": "Fictional transcript/frame description 00:14–00:31",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Direct evidence for both interventions.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "both NG-3 clearance and RG-6 overflow design"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [],
+          "text": "Neighborhood chat says the corner work is approved. Both the garden vote and drain request appear above the reply, but its quoted message was deleted. The screenshot identifies neither the approving authority nor the particular work being approved.",
+          "modality": "photo",
+          "locator": "Fictional OCR chat reply",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "Reply target lost.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "its quoted message was deleted"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Hydrology primer explains soakaway overflow in compacted soil. Its example estate is elsewhere and has no Alder Corner measurements. The method could guide RG-6 planning, but the printed infiltration rate is not a reading from our garden.",
+          "modality": "link",
+          "locator": "Primer figure 3",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "Methodological background, not site evidence.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "the printed infiltration rate is not a reading from our garden"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "correct",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e04",
+            "e02"
+          ],
+          "assignments": [
+            "p2"
+          ],
+          "reason": "The chat author confirms the deleted reply concerned the cooperative's RG-6 vote, not NG-3 council work.",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The chat author confirms the deleted reply concerned the cooperative's RG-6 vote, not NG-3 council work.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "RG-6 work plan: volunteers dig on Saturday, subject to locating the buried cable. The council gully crew's timetable is unknown. This note plans garden work only, and cannot authorize excavation before the safety marker is in place.",
+          "modality": "note",
+          "locator": "Garden plan",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Specific garden plan.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "volunteers dig on Saturday"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "revise",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e07",
+            "e02"
+          ],
+          "text": "RG-6 work plan: Tuesday replaces Saturday because the cable survey is incomplete. Volunteers must wait for the marker before digging. Nothing in this garden update changes the council's independent NG-3 request or claims that the drain was cleared.",
+          "locator": "Garden plan revision 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit schedule revision.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 1,
+                "quote": "Tuesday replaces Saturday"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e03",
+            "e01",
+            "e02"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Direct evidence for both interventions.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "both NG-3 clearance and RG-6 overflow design"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Council voicemail for NG-3: the north gully was cleared this morning. Please photograph the next heavy rain; removing leaves does not establish that flooding is solved. The council has not inspected or approved the private courtyard garden.",
+          "modality": "voice",
+          "locator": "Transcript 00:01–00:24",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Bounded completion claim.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "the north gully was cleared this morning"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e09",
+            "e01",
+            "e02"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Direct evidence for both interventions.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "both NG-3 clearance and RG-6 overflow design"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "A neighbor repeated the old Saturday garden date while discussing the drain. This note records the misunderstanding: RG-6 still follows Tuesday's revised plan. Repeating an obsolete date is not a decision to reinstate it or delay council work.",
+          "modality": "note",
+          "locator": "Rumor correction",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicitly preserves current schedule.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "RG-6 still follows Tuesday's revised plan"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e04",
+          "mode": "uncertain",
+          "question": "Which corner project was approved in the chat?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "Neither approving authority nor reply target is known."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e08",
+          "mode": "current",
+          "question": "When should garden volunteers now dig?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 1,
+              "quote": "Tuesday replaces Saturday"
+            }
+          ],
+          "rationale": "Explicit updated plan."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e09",
+          "mode": "historical",
+          "question": "Show earlier flooding crossing the gate.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "water ponds above the north gully and crosses the courtyard gate"
+            }
+          ],
+          "rationale": "Archived observation requested as history."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e11",
+          "mode": "overlap",
+          "question": "What observation supported both interventions?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "both NG-3 clearance and RG-6 overflow design"
+            }
+          ],
+          "rationale": "One observation supports both without merging identities."
+        }
+      ]
+    },
+    {
+      "id": "dev05",
+      "family": "artifact-loan-versus-catalog-digitization",
+      "description": "A museum object appears in an exhibition loan and an independent catalog digitization effort.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "River Trades exhibition"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Catalog image digitization"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "River Trades exhibition will display the ferry bell under loan LB-24. The lender permits physical display through October, with a condition photograph before installation. The exhibition text concerns river workers; online catalog publication is a different permission process.",
+          "modality": "pdf",
+          "locator": "Loan agreement page 2",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Exhibition loan defines physical display undertaking.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "River Trades exhibition will display the ferry bell under loan LB-24"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Catalog image digitization batches old collection photographs for online publication. Ferry bell record C-611 is in this batch, but its reproduction permission is still pending. Museum display permission does not authorize online publication, even for the same artifact.",
+          "modality": "note",
+          "locator": "Digitization batch plan",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Separate digital deliverable and rights.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Catalog image digitization batches old collection photographs for online publication"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Condition image for LB-24: scratch below the bell handle, already present on arrival. The image documents the River Trades loan inspection and is not a publication master. The lender asked that this evidence remain attached to the loan record.",
+          "modality": "photo",
+          "locator": "Fictional image description and label",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Loan-specific condition evidence.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "scratch below the bell handle, already present on arrival"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Registrar memo: display rights approved; reproduction rights not approved. This refers to ferry bell LB-24 / C-611, connecting River Trades with the catalog digitization batch. Keep both permissions distinct so an exhibition approval never silently clears online image use.",
+          "modality": "note",
+          "locator": "Rights memo",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Specific joint rights record.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "display rights approved; reproduction rights not approved"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "River Trades label proof changes 'bronze bell' to 'brass bell' following the curator's material check. The lender's object identifier LB-24 is unchanged. This is a factual correction to the same display object, not acquisition of a second bell.",
+          "modality": "pdf",
+          "locator": "Label proof page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Identity persists despite descriptive correction.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "changes 'bronze bell' to 'brass bell'"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e03",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Loan-specific condition evidence.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "scratch below the bell handle, already present on arrival"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [],
+          "text": "Voice fragment from a busy registrar meeting: they said the image is fine. Several photographs and two rights requests were discussed, and the fragment does not name a record or permission type. Approval of display cannot safely be inferred as publication approval.",
+          "modality": "voice",
+          "locator": "Transcript 00:05–00:14",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "Missing artifact and approval type.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "does not name a record or permission type"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "General article about museum image licensing, saved while working on catalog digitization. It gives a sample license from another institution, not our lender. No sentence in this article grants permission to publish the ferry bell photographs.",
+          "modality": "link",
+          "locator": "Article licensing examples",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "External example is not authorization.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "No sentence in this article grants permission"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "Today's museum lunch receipt lists soup and bread for the registrar. It contains no exhibition purchase, object identifier, collection work, or project reimbursement. Keep it as an ordinary independent capture rather than forcing it into either active museum thread.",
+          "modality": "photo",
+          "locator": "Fictional OCR lunch receipt",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "Personal-style fictional receipt is not a project source.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "no exhibition purchase, object identifier, collection work, or project reimbursement"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Catalog publication email: the lender grants reproduction permission for C-611 from November onward. The October exhibition loan conditions are unchanged. Publish the catalog master only after November begins; this permission does not retroactively authorize earlier online use.",
+          "modality": "pdf",
+          "locator": "Permission email page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit prospective publication authorization.",
+            "evidence": [
+              {
+                "sourceId": "s09",
+                "revision": 0,
+                "quote": "grants reproduction permission for C-611 from November onward"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e06",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Loan-specific condition evidence.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "scratch below the bell handle, already present on arrival"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s10",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "River Trades installation clip shows LB-24 secured in its bracket. The curator reads the corrected brass-bell label and asks staff to preserve the arrival photograph. Online catalog publication is not discussed or approved by this installation check.",
+          "modality": "video",
+          "locator": "Fictional transcript 00:18–00:36",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Physical installation continuation.",
+            "evidence": [
+              {
+                "sourceId": "s10",
+                "revision": 0,
+                "quote": "LB-24 secured in its bracket"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e04",
+          "mode": "overlap",
+          "question": "Where can I check the two distinct permissions for the bell?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "display rights approved; reproduction rights not approved"
+            }
+          ],
+          "rationale": "Joint memo directly distinguishes authorization domains."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e07",
+          "mode": "uncertain",
+          "question": "Does the meeting fragment authorize publishing the bell image?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "It identifies neither item nor right; no authorization can be recovered."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e09",
+          "mode": "historical",
+          "question": "Show the arrival scratch recorded before installation.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "scratch below the bell handle, already present on arrival"
+            }
+          ],
+          "rationale": "Archived source is explicitly requested as historical evidence."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "current",
+          "question": "When can the catalog bell image be published?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s09",
+              "revision": 0,
+              "quote": "grants reproduction permission for C-611 from November onward"
+            }
+          ],
+          "rationale": "Specific permission is current and time-bounded."
+        }
+      ]
+    },
+    {
+      "id": "dev06",
+      "family": "contingency-route-preserves-expedition-identity",
+      "description": "An expedition changes routes while equipment lending remains a separate club service.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Granite Ridge expedition"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Club gear lending"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Granite Ridge expedition plan GR-9: six hikers traverse the high pass over two days. The objective is a safe overnight ridge journey, not reaching a particular summit at any cost. The initial meeting point is the east trailhead at 07:00.",
+          "modality": "note",
+          "locator": "Expedition plan",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Defines continuing expedition goal.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Granite Ridge expedition plan GR-9"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Club gear lending repairs and loans shared tents to all club outings. This month's inventory includes tents T4 and T9. GR-9 is one borrower, not the whole lending project; returns and repairs continue after that expedition ends.",
+          "modality": "pdf",
+          "locator": "Lending inventory page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Ongoing service distinct from one borrower.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Club gear lending repairs and loans shared tents to all club outings"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Weather bulletin for the region predicts strong winds above the high pass this weekend. It does not name GR-9 or close any specific trail. Save it as relevant planning background rather than a decision that the expedition is cancelled.",
+          "modality": "link",
+          "locator": "Bulletin ridge wind section",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "Generic contextual evidence, not expedition decision.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "does not name GR-9 or close any specific trail"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "GR-9 leader voice note: use the sheltered valley route instead of the high pass, with the same six hikers and overnight objective. This is our expedition's contingency, not a second outing. Meet at the west trailhead at 08:00.",
+          "modality": "voice",
+          "locator": "Transcript 00:10–00:28",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit continuity through substantial route change.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "This is our expedition's contingency, not a second outing"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Granite Ridge expedition plan GR-9 now uses the sheltered valley route. The leader confirmed the west trailhead at 08:00 instead of the east trailhead at 07:00. All six hikers remain booked, and the overnight objective is unchanged.",
+          "locator": "Expedition plan revision 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Synchronizes written plan to explicit route decision.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 1,
+                "quote": "west trailhead at 08:00 instead of the east trailhead at 07:00"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Gear checkout: GR-9 borrows T4 and T9 from Club gear lending. T9 already has a patched flysheet; hikers should inspect it before departure and record its condition on return. This sheet belongs to both the expedition and lending history.",
+          "modality": "photo",
+          "locator": "Fictional OCR checkout card",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Specific cross-project transaction.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "GR-9 borrows T4 and T9 from Club gear lending"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Trail video from GR-9: the valley footbridge is wet but passable, and all six walkers reach camp. The abandoned high-pass line remains on an old printed map visible in the clip; its appearance does not reverse our chosen route.",
+          "modality": "video",
+          "locator": "Fictional transcript 00:30–00:48",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Actual expedition evidence; old map is not decision.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "all six walkers reach camp"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Club gear lending return note: GR-9 returned T4 dry and T9 damp. Hang T9 before its next booking. The ridge trip itself is complete; this drying task continues the lending service and does not reopen expedition planning.",
+          "modality": "note",
+          "locator": "Return note",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Source records lending maintenance after completed expedition.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "Hang T9 before its next booking"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "Unlabeled voice memo says the replacement is ready for pickup. It was recorded near both a boot repair shop and the club store, without a name or item number. There is no reliable basis to connect it to GR-9 or tent maintenance.",
+          "modality": "voice",
+          "locator": "Transcript 00:01–00:11",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "No identifiable project or item.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "without a name or item number"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Club gear lending inspection of T9: the patched flysheet is holding, but one pole sleeve needs stitching. This service ticket belongs to the shared inventory regardless of the last borrower. The old GR-9 checkout label is still tied to the bag.",
+          "modality": "photo",
+          "locator": "Fictional OCR inspection ticket",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Maintenance identity follows inventory, not obsolete borrower label.",
+            "evidence": [
+              {
+                "sourceId": "s09",
+                "revision": 0,
+                "quote": "one pole sleeve needs stitching"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "correct",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e09",
+            "e02"
+          ],
+          "assignments": [
+            "p2"
+          ],
+          "reason": "The unlabeled pickup memo refers to Club gear lending's replacement tent sleeve. Add it to lending, not the completed expedition.",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The unlabeled pickup memo refers to Club gear lending's replacement tent sleeve. Add it to lending, not the completed expedition.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "revise",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e08",
+            "e02"
+          ],
+          "text": "Club gear lending return note: T9 is dry and the replacement sleeve is ready. The service ticket remains with lending. Someone wrote GR-9 on the old bag label; that does not move this explicitly assigned maintenance record into the completed expedition.",
+          "locator": "Return note revision 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Maintenance update retains lending membership despite repeated expedition words.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 1,
+                "quote": "T9 is dry and the replacement sleeve is ready"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e03",
+          "mode": "current",
+          "question": "What was the expedition meeting point before the route change?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 0,
+              "quote": "east trailhead at 07:00"
+            }
+          ],
+          "rationale": "At this prefix the original plan remains current."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e06",
+          "mode": "overlap",
+          "question": "Which tents did the expedition borrow from the club?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 0,
+              "quote": "GR-9 borrows T4 and T9 from Club gear lending"
+            }
+          ],
+          "rationale": "Checkout belongs to both contexts."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e09",
+          "mode": "uncertain",
+          "question": "What replacement is ready for pickup?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The recording supplies no item identity at this prefix."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "current",
+          "question": "What is the current state of the returned T9 tent?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s07",
+              "revision": 1,
+              "quote": "T9 is dry and the replacement sleeve is ready"
+            },
+            {
+              "sourceId": "s09",
+              "revision": 0,
+              "quote": "one pole sleeve needs stitching"
+            }
+          ],
+          "rationale": "Current sources distinguish drying and part readiness from completed stitching."
+        }
+      ]
+    },
+    {
+      "id": "dev07",
+      "family": "shared-participants-research-versus-remediation",
+      "description": "One accessibility study informs a product fix without becoming its delivery project.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Orbit checkout accessibility"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Screen-reader diary study"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Orbit checkout accessibility release A11 fixes focus order and announces payment errors. The app team ships the patch after regression tests. Interview findings can inform priorities, but participants' diary research has a different consent and reporting process.",
+          "modality": "note",
+          "locator": "Release scope",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Defines shipped remediation undertaking.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Orbit checkout accessibility release A11"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Screen-reader diary study DS-4 observes shopping frustrations over two weeks. Participants may discuss Orbit or other apps. The study deliverable is an anonymized research report; it is not responsible for shipping the Orbit checkout patch or choosing its release date.",
+          "modality": "pdf",
+          "locator": "Study protocol page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Study scope distinct from implementation.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Screen-reader diary study DS-4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Anonymized DS-4 clip describes focus disappearing after an Orbit payment error. The study log records the experience and A11 uses it as a regression case. Consent permits this extracted fictional example to support both records; other shopping anecdotes are outside A11 scope.",
+          "modality": "voice",
+          "locator": "Fictional transcript 00:20–00:42",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Specific shared evidence used for study and fix.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The study log records the experience and A11 uses it as a regression case"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "A11 test video: after payment rejection, focus returns to the error heading. The patch now announces the error once, not twice. This verifies a checkout behavior only; it cannot show that the entire diary study is complete or every app accessible.",
+          "modality": "video",
+          "locator": "Fictional test transcript 00:05–00:25",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Implementation verification.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "focus returns to the error heading"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Saved accessibility technique explains live-region announcements using a sample shopping app. It is background for A11, not a test result from Orbit. The example's duplicate announcement is illustrative and does not establish a regression in our release.",
+          "modality": "link",
+          "locator": "Technique section 3",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "Generic implementation guidance.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "not a test result from Orbit"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [],
+          "text": "Meeting scrap: approved for next week. A product release review and a study recruitment review happened consecutively, and I omitted the subject. No attendee, project code, or deliverable remains to identify which approval this records.",
+          "modality": "note",
+          "locator": "Meeting scrap",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "Two plausible approval targets.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "I omitted the subject"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "correct",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e06",
+            "e02"
+          ],
+          "assignments": [
+            "p2"
+          ],
+          "reason": "This scrap was my DS-4 recruitment approval, not permission to release Orbit. Keep its assignment with the study.",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "This scrap was my DS-4 recruitment approval, not permission to release Orbit. Keep its assignment with the study.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "revise",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e07",
+            "e02"
+          ],
+          "text": "Meeting scrap expanded: DS-4 recruitment is approved for next week. Orbit checkout was discussed in the preceding meeting, but no release approval was granted here. The additional Orbit terminology supplies context and does not override my study assignment.",
+          "locator": "Meeting scrap revision 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Revision retains authoritative correction even with rival project vocabulary.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 1,
+                "quote": "DS-4 recruitment is approved for next week"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "A11 release checklist says ship Friday if keyboard and screen-reader regression suites pass. Diary-study recruitment dates do not authorize deployment. The app owner will issue a separate release sign-off, and no such sign-off is attached to this checklist yet.",
+          "modality": "note",
+          "locator": "Release checklist",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Conditional plan, not approval.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "ship Friday if keyboard and screen-reader regression suites pass"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "DS-4 participant diary mentions another shopping app with a confusing coupon form. The entry is valid study evidence but does not reproduce any Orbit checkout defect. Do not turn every frustration from the same participant into an A11 implementation ticket.",
+          "modality": "voice",
+          "locator": "Fictional diary transcript day 5",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Participant identity does not imply same product defect.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "does not reproduce any Orbit checkout defect"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "archive",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e04",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Implementation verification.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "focus returns to the error heading"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "A11 release sign-off: both required regression suites passed and the owner approved Friday deployment. The DS-4 research report is still in progress. Product shipping and study completion are separate milestones even when the report later describes this fix.",
+          "modality": "pdf",
+          "locator": "Release sign-off page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit final release approval.",
+            "evidence": [
+              {
+                "sourceId": "s09",
+                "revision": 0,
+                "quote": "the owner approved Friday deployment"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e03",
+          "mode": "overlap",
+          "question": "Which diary evidence became a checkout regression case?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "The study log records the experience and A11 uses it as a regression case"
+            }
+          ],
+          "rationale": "Shared excerpt belongs to study and fix."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e06",
+          "mode": "uncertain",
+          "question": "What exactly was approved for next week?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "Missing subject before correction."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e11",
+          "mode": "historical",
+          "question": "Show the earlier focus-return test video.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "focus returns to the error heading"
+            }
+          ],
+          "rationale": "Archived result is deliberately requested as past evidence."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "current",
+          "question": "Do we have release approval, rather than just a conditional checklist?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s09",
+              "revision": 0,
+              "quote": "the owner approved Friday deployment"
+            }
+          ],
+          "rationale": "Explicit later sign-off answers, not the conditional plan."
+        }
+      ]
+    },
+    {
+      "id": "dev08",
+      "family": "repertoire-reuse-performance-versus-recording",
+      "description": "A choir reuses a song across a live concert and a separate archival recording.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Harbor Lights concert"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Choir archive recording"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Harbor Lights concert is the choir's live waterfront performance on 14 June. The initial running order ends with Night Crossing. Rehearsal attendance supports this concert; recording the ensemble for the archive is separately scheduled and needs its own release forms.",
+          "modality": "note",
+          "locator": "Concert running order",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Specific performance.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Harbor Lights concert is the choir's live waterfront performance"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Choir archive recording AR-2 preserves selected repertoire in the studio. Night Crossing appears here as well as in the concert, but the recording uses a different pianist. This project's deliverable is an edited archive master, not a live performance.",
+          "modality": "pdf",
+          "locator": "Recording brief page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Same song does not imply same deliverable.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Choir archive recording AR-2"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Audio rehearsal note for Harbor Lights: the sopranos enter early in Night Crossing's final verse. Practise that transition before the waterfront performance. This is a concert preparation take with audience timing, not a chosen archive master or studio approval.",
+          "modality": "voice",
+          "locator": "Transcript 00:18–00:35",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Performance-specific rehearsal evidence.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "before the waterfront performance"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Studio engineer note for AR-2: Night Crossing take 3 has clean endings but a chair squeak. Compare it with take 4 before choosing the archive master. The concert rehearsal take is not a substitute because its arrangement and pianist differ.",
+          "modality": "note",
+          "locator": "Studio take log",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Recording selection process.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Compare it with take 4 before choosing the archive master"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Harbor Lights concert running order now ends with Estuary Song rather than Night Crossing because the audience singalong fits the waterfront closing. Night Crossing remains earlier in the same concert. This change does not alter the separate AR-2 recording list.",
+          "locator": "Running order revision 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit reordered repertoire within same performance.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 1,
+                "quote": "ends with Estuary Song rather than Night Crossing"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Pronunciation guide for Estuary Song's old dialect words. This is an external linguistic resource, not our performance score or conductor's decision. The choir may consult it for Harbor Lights, but the guide's sample tempo is not a new concert instruction.",
+          "modality": "link",
+          "locator": "Guide vowel table",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "External reference only.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "not our performance score or conductor's decision"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Shared singer availability sheet covers Harbor Lights dress rehearsal on Monday and AR-2 studio retakes on Thursday. Availability for one date does not guarantee the other. Keep the two attendance columns because both projects still need separate commitments.",
+          "modality": "photo",
+          "locator": "Fictional OCR availability sheet",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Same source schedules direct participation in both.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "Harbor Lights dress rehearsal on Monday and AR-2 studio retakes on Thursday"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [],
+          "text": "Conductor's quick voice note says use the second version for the ending. We discussed the concert running order and the archive edit that morning. The note contains no song, take number, project title, or date that resolves its intended use.",
+          "modality": "voice",
+          "locator": "Transcript 00:02–00:12",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "Multiple versions across distinct deliverables.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "no song, take number, project title, or date"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e03",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Performance-specific rehearsal evidence.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "before the waterfront performance"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "AR-2 selection receipt: take 4 of Night Crossing is the approved archive master after noise review. The receipt is signed by the recording producer, not a revised concert order. Earlier discussion of take 3 is retained as selection history.",
+          "modality": "pdf",
+          "locator": "Master selection page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Final recording choice.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "take 4 of Night Crossing is the approved archive master"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e09",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Performance-specific rehearsal evidence.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "before the waterfront performance"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Harbor Lights programme photo still lists Night Crossing last. This is an old proof printed before the conductor reordered the show. Estuary Song remains the actual closing number; the photograph documents a printing error rather than another artistic change.",
+          "modality": "photo",
+          "locator": "Fictional OCR programme and annotation",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Old document observed later is not a new decision.",
+            "evidence": [
+              {
+                "sourceId": "s09",
+                "revision": 0,
+                "quote": "Estuary Song remains the actual closing number"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e05",
+          "mode": "historical",
+          "question": "What closed the original concert order?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 0,
+              "quote": "The initial running order ends with Night Crossing"
+            }
+          ],
+          "rationale": "Old revision answers historical order."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e07",
+          "mode": "overlap",
+          "question": "Where are both rehearsal and studio commitments listed?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 0,
+              "quote": "Harbor Lights dress rehearsal on Monday and AR-2 studio retakes on Thursday"
+            }
+          ],
+          "rationale": "Shared availability sheet, separate commitments."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e08",
+          "mode": "uncertain",
+          "question": "Which ending should use the second version?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "Reference remains genuinely unresolved."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "current",
+          "question": "What is the approved archive master?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s08",
+              "revision": 0,
+              "quote": "take 4 of Night Crossing is the approved archive master"
+            }
+          ],
+          "rationale": "Studio approval controls archive selection, not concert order."
+        }
+      ]
+    },
+    {
+      "id": "dev09",
+      "family": "experimental-arms-versus-instrument-calibration",
+      "description": "Control and treated trays are one experiment; sensor calibration is a distinct undertaking.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Cress salinity experiment"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Incubator sensor calibration"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Cress salinity experiment CS-2 compares fresh-water control trays with salt-treated trays from the same seed lot. Both arms answer one germination question. Initial protocol records emergence every morning at 09:00; tray letters distinguish conditions, not separate research projects.",
+          "modality": "note",
+          "locator": "Experiment protocol",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Treatment arms explicitly one undertaking.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Both arms answer one germination question"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Incubator sensor calibration IC-5 compares the built-in thermometer against a reference probe across three temperatures. The instrument also holds CS-2 trays, but calibration validates the sensor rather than testing salt effects on germination. Keep its tolerances in a separate equipment record.",
+          "modality": "pdf",
+          "locator": "Calibration protocol page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Separate instrument-validation goal.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Incubator sensor calibration IC-5"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Tray A scan: fresh water, 18 emerged at 09:00. Tray B scan: saline, 11 emerged at 09:00. The CS-2 labels identify control and treatment conditions. Do not split the experiment simply because these tray counts and water recipes differ.",
+          "modality": "photo",
+          "locator": "Fictional OCR observation sheet",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Control and treatment are within same project.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The CS-2 labels identify control and treatment conditions"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "IC-5 calibration readout shows the display reading 1.5 degrees above the reference probe. Repeat at the middle setpoint before accepting the offset. The cress trays happen to be visible behind the instrument, but no germination result is recorded here.",
+          "modality": "video",
+          "locator": "Fictional transcript 00:16–00:33",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Instrument test, not experiment observation.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "display reading 1.5 degrees above the reference probe"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Lab diary: IC-5 found an offset during the CS-2 run, so the germination report must record temperature uncertainty. No seed counts are changed by this note. This is a cross-reference between an instrument limitation and interpretation of the salt experiment.",
+          "modality": "note",
+          "locator": "Lab diary paragraph 2",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Direct consequence connecting distinct undertakings.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "IC-5 found an offset during the CS-2 run, so the germination report must record temperature uncertainty"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [],
+          "text": "Voice memo says the second batch is wrong and needs repeating. Two seed batches and two calibration sweeps were discussed that day. No tray, setpoint, instrument, or experiment name is audible, so the repeat instruction has no recoverable target.",
+          "modality": "voice",
+          "locator": "Transcript 00:04–00:13",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "Ambiguous target across workflows.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "the repeat instruction has no recoverable target"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "correct",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e06",
+            "e02"
+          ],
+          "assignments": [
+            "p2"
+          ],
+          "reason": "I meant the second IC-5 temperature sweep, not the second CS-2 seed batch. Attach this repeat instruction only to calibration.",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "I meant the second IC-5 temperature sweep, not the second CS-2 seed batch. Attach this repeat instruction only to calibration.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Cress salinity experiment CS-2 now records emergence at 10:00 instead of 09:00 because school access changed. Fresh-water control and salt-treated trays remain arms of one experiment. Earlier observations retain their original times; do not rewrite them as if taken at 10:00.",
+          "locator": "Protocol revision 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Schedule revision must not rewrite old evidence.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 1,
+                "quote": "records emergence at 10:00 instead of 09:00"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Saved germination handbook describes a salt dose response in a different plant species. Its example percentages are literature background for CS-2, not our cress observations. Similar treatment words do not make the published experiment part of our own experimental record.",
+          "modality": "link",
+          "locator": "Handbook chapter excerpt",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "External comparative evidence, not membership.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "not our cress observations"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "IC-5 final certificate accepts a correction of minus 1.5 degrees after the repeated sweep. The certificate validates the sensor only. It does not revise already recorded CS-2 counts or decide whether the observed salinity difference is statistically meaningful.",
+          "modality": "pdf",
+          "locator": "Calibration certificate page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Equipment certification limited in scope.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "accepts a correction of minus 1.5 degrees"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e03",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Control and treatment are within same project.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The CS-2 labels identify control and treatment conditions"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "CS-2 interpretation note: treated trays emerged more slowly in the recorded observations, but temperature uncertainty remains a limitation for this run. The new IC-5 certificate improves future readings; it is not evidence that past temperatures were measured differently.",
+          "modality": "note",
+          "locator": "Experiment interpretation",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Retains historical measurement limits.",
+            "evidence": [
+              {
+                "sourceId": "s09",
+                "revision": 0,
+                "quote": "temperature uncertainty remains a limitation for this run"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e03",
+          "mode": "current",
+          "question": "Where are the control and salt-tray counts from this morning?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "fresh water, 18 emerged at 09:00"
+            },
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "saline, 11 emerged at 09:00"
+            }
+          ],
+          "rationale": "Two arms of one experiment."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e05",
+          "mode": "overlap",
+          "question": "What linked calibration trouble to the germination report?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 0,
+              "quote": "IC-5 found an offset during the CS-2 run, so the germination report must record temperature uncertainty"
+            }
+          ],
+          "rationale": "Source bridges limitation and affected interpretation."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e06",
+          "mode": "uncertain",
+          "question": "Which second batch needs repeating?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No target available before correction."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "historical",
+          "question": "What time was specified before school access changed?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 0,
+              "quote": "Initial protocol records emergence every morning at 09:00"
+            }
+          ],
+          "rationale": "Older protocol revision is intentionally requested."
+        }
+      ]
+    },
+    {
+      "id": "dev10",
+      "family": "edition-lineage-versus-outreach-program",
+      "description": "A changed title remains one outreach program while a reusable printing job has distinct revisions.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Eastbank traveling library"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Large-print welcome pack"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Eastbank traveling library brings borrowed books to three community halls every fortnight. Working name: Book Van Wednesdays. The same rota and membership desk serve all three stops; route stops are not separate outreach projects. The first visit starts at 15:00.",
+          "modality": "note",
+          "locator": "Outreach rota brief",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "One continuing multi-stop service.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Working name: Book Van Wednesdays"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Large-print welcome pack LP-3 is a reusable set of joining instructions for library branches and outreach visits. Printing and accessibility checks form their own production job. The traveling library will distribute copies, but does not own every branch's use of this pack.",
+          "modality": "pdf",
+          "locator": "Print job brief page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Reusable publication distinct from distribution service.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Large-print welcome pack LP-3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Book Van Wednesdays visit log: twelve readers joined at Moss Hall and asked for larger text on forms. The log records this stop in the existing Eastbank traveling library rota, not a new hall-specific service or an approved redesign of LP-3.",
+          "modality": "voice",
+          "locator": "Fictional transcript visit 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Alias grounded in existing service.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "existing Eastbank traveling library rota"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Eastbank traveling library is now publicized as Books on Your Doorstep. This replaces the working name Book Van Wednesdays; the same three-hall service and membership desk continue. The first visit remains 15:00 despite the new title dropping the weekday reference.",
+          "locator": "Outreach brief revision 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Rename without identity or schedule change.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 1,
+                "quote": "This replaces the working name Book Van Wednesdays"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Distribution receipt: fifty LP-3 welcome packs were handed to the Eastbank traveling library coordinator. The pack production job records the supplied batch, and the outreach rota records stock received for visits. Unsold branch stock remains outside the outreach inventory.",
+          "modality": "photo",
+          "locator": "Fictional OCR signed receipt",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Direct handoff evidence supports both contexts.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "fifty LP-3 welcome packs were handed to the Eastbank traveling library coordinator"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "LP-3 proof note: joining instructions currently say bring photo identification. Accessibility review requests 18-point type but has not authorized changing the identification rule. The margin remark 'simplify it' is a proposal, not a revised joining policy or print approval.",
+          "modality": "note",
+          "locator": "Proof corrections",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Separates proposed visual edits from policy.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "currently say bring photo identification"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Video of Books on Your Doorstep at Birch Hall shows the same Eastbank membership desk unloading crates. A poster retains the old Book Van Wednesdays title. The old poster does not mean two outreach services are operating at the hall.",
+          "modality": "video",
+          "locator": "Fictional transcript 00:12–00:27",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Alias continuity corroborated by same service.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "same Eastbank membership desk"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "revise",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e06",
+            "e02"
+          ],
+          "text": "LP-3 proof note: policy owner approved 'bring any proof of address' instead of photo identification. Set the revised sentence in 18-point type. Archive the old proof for explanation of the change, but do not distribute it as the current welcome pack.",
+          "locator": "Proof corrections revision 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit approved policy and type update.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 1,
+                "quote": "bring any proof of address"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [],
+          "text": "Loose phone message says the second stop is cancelled, without a date, route, or caller. The coordinator also manages another volunteer route outside these projects. The note cannot identify an Eastbank visit cancellation merely from the word stop.",
+          "modality": "voice",
+          "locator": "Transcript 00:01–00:10",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "Missing route identity, not inferred from vocabulary.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "without a date, route, or caller"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e03",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Alias grounded in existing service.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "existing Eastbank traveling library rota"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "Library cafe receipt lists two teas paid personally after the outreach visit. It is not a project reimbursement or supply record and contains no publication work. Preserve it as an independent memory rather than making every same-day purchase part of outreach.",
+          "modality": "photo",
+          "locator": "Fictional OCR cafe receipt",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "Unrelated purchase remains unassigned.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "not a project reimbursement or supply record"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e10",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Alias grounded in existing service.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "existing Eastbank traveling library rota"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e04",
+          "mode": "historical",
+          "question": "What did we call the outreach service before its public rename?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 0,
+              "quote": "Working name: Book Van Wednesdays"
+            }
+          ],
+          "rationale": "Old title is recoverable through revision history."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e05",
+          "mode": "overlap",
+          "question": "Where is the welcome-pack handoff to outreach recorded?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "fifty LP-3 welcome packs were handed to the Eastbank traveling library coordinator"
+            }
+          ],
+          "rationale": "Same transaction relevant to production and distribution."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e08",
+          "mode": "current",
+          "question": "What identification wording is now approved for the pack?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 1,
+              "quote": "bring any proof of address"
+            }
+          ],
+          "rationale": "Explicit policy approval supersedes old proof."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "uncertain",
+          "question": "Which visit did the second-stop cancellation refer to?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No later evidence resolves the route or date."
+        }
+      ]
+    },
+    {
+      "id": "dev11",
+      "family": "asset-handoff-repair-versus-rider-instruction",
+      "description": "The same bicycle passes from a donation repair workflow to a separate beginner riding course.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Bicycle donation repairs"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Beginner cycling course"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Bicycle donation repairs refurbishes donated bikes before allocation. Bike B17 needs brake pads and a wheel true before it can leave the workshop. Our acceptance ends at a safe handover; teaching the eventual rider is a separate course team's responsibility.",
+          "modality": "note",
+          "locator": "Repair intake",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Workshop undertaking distinct from use after handoff.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Bike B17 needs brake pads and a wheel true"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Beginner cycling course BC-6 teaches starts, braking, and road positioning over four sessions. Some learners receive refurbished bikes, but the course assesses riding skills rather than repair workmanship. Keep attendance and rider consent with the course, not the workshop intake ledger.",
+          "modality": "pdf",
+          "locator": "Course plan page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Skill-teaching project independent of repair workflow.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Beginner cycling course BC-6"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "B17 workshop photograph: new pads fitted, front wheel still out of true. The sign-off box is empty. This image establishes partial repair progress only; it does not show that the bicycle is ready for a course learner or that a rider passed braking practice.",
+          "modality": "photo",
+          "locator": "Fictional OCR repair tag",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Incomplete physical repair.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "front wheel still out of true"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Workshop video shows B17 wheel truing complete and both brakes checked under load. The mechanic signs the safe-to-handover line. This is the donation repair acceptance, not a certification that the future learner can ride independently in traffic.",
+          "modality": "video",
+          "locator": "Fictional transcript 00:15–00:34",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Specific mechanical acceptance.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "both brakes checked under load"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Handover receipt: donation workshop releases B17 to the BC-6 course coordinator for a named fictional learner. The repair team records disposition and the course records its training bike. The two undertakings share this transfer, not all earlier repair and future lesson notes.",
+          "modality": "pdf",
+          "locator": "Handover page 1",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Asset transfer legitimately belongs in both contexts.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "donation workshop releases B17 to the BC-6 course coordinator"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "BC-6 lesson voice memo: B17's learner stops smoothly in the marked box but hesitates at junction signals. Schedule another supervised session. The bike identifier helps identify the learner's equipment, but this observation assesses riding skills and reports no mechanical defect.",
+          "modality": "voice",
+          "locator": "Transcript lesson 2",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Post-handoff observation belongs to course despite sameasset.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "reports no mechanical defect"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [],
+          "text": "Pocket note reads B17, check again Friday. It could refer to a mechanical recheck or the next learner assessment. There is no author, task, or location. The bicycle identifier alone cannot determine which continuing undertaking needs this reminder.",
+          "modality": "note",
+          "locator": "Pocket reminder",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "Shared asset does not disambiguate task.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "no author, task, or location"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "correct",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e07",
+            "e02"
+          ],
+          "assignments": [
+            "p2"
+          ],
+          "reason": "I wrote B17 check again Friday for the learner's supervised braking assessment, not a workshop repair recheck.",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "I wrote B17 check again Friday for the learner's supervised braking assessment, not a workshop repair recheck.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "General guide explains braking-distance demonstrations for beginner cyclists. Its sample bike also uses rim brakes, but its measured distances are not BC-6 learner results or B17 workshop acceptance data. Save as course teaching background rather than evidence of either completion.",
+          "modality": "link",
+          "locator": "Guide demonstration section",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "Pedagogical reference, not task result.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "Save as course teaching background"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "revise",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e08",
+            "e02"
+          ],
+          "text": "B17 reminder: Friday's supervised learner assessment moves to Sunday because the course instructor is away. A workshop address remains on the reused paper, but the reminder still concerns BC-6 riding skills and not another mechanical repair.",
+          "locator": "Pocket reminder revision 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Correction persists despite incidental workshop vocabulary.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 1,
+                "quote": "supervised learner assessment moves to Sunday"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e03",
+            "e01"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Incomplete physical repair.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "front wheel still out of true"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "BC-6 attendance note: the B17 learner completed Sunday's supervised assessment but has not yet attended road-positioning practice. Successful braking does not complete the full four-session course. The original workshop handover remains valid and no new repair issue was reported.",
+          "modality": "note",
+          "locator": "Course attendance",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Partial course progress must not become overall completion.",
+            "evidence": [
+              {
+                "sourceId": "s09",
+                "revision": 0,
+                "quote": "has not yet attended road-positioning practice"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e03",
+          "mode": "current",
+          "question": "Was B17 ready to hand over at this point?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "front wheel still out of true"
+            },
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "The sign-off box is empty"
+            }
+          ],
+          "rationale": "Contemporaneous partial repair evidence."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e05",
+          "mode": "overlap",
+          "question": "Where did the workshop transfer B17 into the course?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 0,
+              "quote": "donation workshop releases B17 to the BC-6 course coordinator"
+            }
+          ],
+          "rationale": "Joint handover, not merger."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e07",
+          "mode": "uncertain",
+          "question": "Does Friday's B17 check mean repair or riding assessment?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "Asset name alone insufficient before user correction."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "current",
+          "question": "Has the learner finished the entire course?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s09",
+              "revision": 0,
+              "quote": "has not yet attended road-positioning practice"
+            }
+          ],
+          "rationale": "Remaining required session prevents completion claim."
+        }
+      ]
+    },
+    {
+      "id": "dev12",
+      "family": "celestial-target-reuse-observation-versus-processing",
+      "description": "One celestial target occurs in an observing session and an independent processing-method comparison.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Autumn sky observing night"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Lunar stacking comparison"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Autumn sky observing night ON-12 introduces visitors to the Moon and double stars at the hill field. The public session begins at 19:30 if skies clear. Capturing a few lunar frames is optional documentation, not the event's entire purpose or a separate ticketed session.",
+          "modality": "note",
+          "locator": "Observing night plan",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Public observing undertaking.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Autumn sky observing night ON-12"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Lunar stacking comparison LS-7 compares two image-alignment methods on several existing lunar clips. The output is a methods report, not a public observing event. Include the same raw clip in both processing arms so alignment quality can be compared fairly.",
+          "modality": "pdf",
+          "locator": "Comparison protocol page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Analysis-method undertaking.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Lunar stacking comparison LS-7"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "ON-12 weather decision: the public session moves indoors at 19:30 because cloud is expected. Visitors will use a projected sky guide. This contingency continues the same booked event; it is not a cancellation followed by a new lecture project.",
+          "modality": "voice",
+          "locator": "Transcript coordinator message",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Change of activity keeps event identity.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "This contingency continues the same booked event"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Autumn sky observing night ON-12 now meets in the school hall at 19:30. Cloud forced an indoor projection session instead of field telescopes; existing visitor bookings remain valid. The optional lunar capture will use a short earlier setup clip, not new public-session footage.",
+          "locator": "Observing plan revision 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit venue and format update preserves identity.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 1,
+                "quote": "now meets in the school hall at 19:30"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Moon clip M-31 was captured during ON-12 setup before clouds arrived and selected as one LS-7 processing input. Preserve the unprocessed clip for both the event record and comparison reproducibility. Selecting it does not make all LS-7 experiments part of ON-12.",
+          "modality": "video",
+          "locator": "Fictional clip metadata and transcript 00:00–00:12",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "One raw media source has dual provenance.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "captured during ON-12 setup before clouds arrived and selected as one LS-7 processing input"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "LS-7 processing log: method A loses the crater rim when quality filtering removes too many frames. Method B keeps the rim on the same M-31 input. These are two experimental arms of one methods comparison, not two observing nights or two unrelated projects.",
+          "modality": "note",
+          "locator": "Processing log",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Different algorithms are arms of same question.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "two experimental arms of one methods comparison"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Saved astronomy article shows a dramatic sharpened Moon image from another telescope. The author gives no raw frames suitable for our comparison. It is general background for LS-7, not a result obtained with our methods or evidence of ON-12 sky conditions.",
+          "modality": "link",
+          "locator": "Article image caption",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "External illustration not local evidence.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "not a result obtained with our methods"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [],
+          "text": "Unlabeled note says keep the brighter one for tomorrow. It might refer to visitor slides, a processed lunar image, or a star chart. There is no file name or discussion context, so brightness alone cannot determine a project or approved version.",
+          "modality": "note",
+          "locator": "Loose selection note",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "Ambiguous artifact and purpose.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "no file name or discussion context"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "archive",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e05",
+            "e01",
+            "e02"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "One raw media source has dual provenance.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "captured during ON-12 setup before clouds arrived and selected as one LS-7 processing input"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "ON-12 hall photograph shows projected lunar slides and the same visitor sign-in sheet. A field map remains on a table as teaching material. Its presence does not move the completed event back outdoors or identify a new session.",
+          "modality": "photo",
+          "locator": "Fictional image description and sign-in OCR",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Observed event follows revised venue.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "ON-12 hall photograph shows projected lunar slides"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "restore",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e09",
+            "e01",
+            "e02"
+          ],
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "One raw media source has dual provenance.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "captured during ON-12 setup before clouds arrived and selected as one LS-7 processing input"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "LS-7 conclusion: method B preserves the crater rim on M-31 under the tested settings. No claim is made about all telescopes or every lunar clip. The public observing night's indoor success is unrelated to which image alignment method performed better.",
+          "modality": "pdf",
+          "locator": "Methods conclusion page 2",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Bounded analysis result.",
+            "evidence": [
+              {
+                "sourceId": "s09",
+                "revision": 0,
+                "quote": "method B preserves the crater rim on M-31 under the tested settings"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e04",
+          "mode": "historical",
+          "question": "Where were visitors originally meant to meet?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 0,
+              "quote": "at the hill field"
+            }
+          ],
+          "rationale": "Original venue requested from old revision."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e05",
+          "mode": "overlap",
+          "question": "Which raw clip supports both the event record and method comparison?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "Moon clip M-31"
+            },
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "captured during ON-12 setup before clouds arrived and selected as one LS-7 processing input"
+            }
+          ],
+          "rationale": "Shared clip provenance does not collapse projects."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e09",
+          "mode": "historical",
+          "question": "Recover the setup clip we archived.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "Moon clip M-31"
+            }
+          ],
+          "rationale": "Explicit historical request may use archived evidence."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "uncertain",
+          "question": "Which brighter item was approved for tomorrow?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No subsequent item identification resolves this instruction."
+        }
+      ]
+    }
+  ]
+}

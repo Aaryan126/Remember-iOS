@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev01-q4",
+    "inputSHA256": "e90f59d6e491f9bfcf6326127cd0ca27ceeb50eee53bcc620616d975fe787bde",
+    "rawSHA256": "87d024eabb968d6fa8766d514ff94bf7e96b3933a2358d8294ca706a0bdeb113",
+    "requestCount": 1,
+    "reservationSHA256": "fabbccd29df77264e73c7a8f622904c129c62f085c99be6ff5dffd7ab013565a",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 4.180135166665423,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Glass Orchard, scene 4. Before the dress rehearsal, the accepted trigger for LX 18 is the door slam.",
+        "evidence": [
+          {
+            "candidateID": "2cb4b9e1a068a0d0dbbb1ecf1312dafb853f97f3fb95b833994258a672ab3285",
+            "quote": "Glass Orchard, scene 4. Before the dress rehearsal, the accepted trigger for LX 18 is the door slam. This is the trigger in the rehearsal book, not a report of a live call."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21594112,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev01-q4"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "961a67320ece949bb8a9aafaa99c628889716381b43d3b4b3862dfbb356062bc"
+}

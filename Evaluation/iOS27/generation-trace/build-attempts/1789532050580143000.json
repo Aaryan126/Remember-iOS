@@ -1,0 +1,29 @@
+{
+  "command": [
+    "xcodebuild",
+    "-project",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/generation-trace/build/CompatibilityProbe.xcodeproj",
+    "-scheme",
+    "CompatibilityProbe",
+    "-destination",
+    "generic/platform=iOS",
+    "-derivedDataPath",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/generation-trace/build/device-build",
+    "-disableAutomaticPackageResolution",
+    "-skipPackageUpdates",
+    "build",
+    "-quiet"
+  ],
+  "platform": "phone",
+  "returnCode": 0,
+  "sources": {
+    "Evaluation/iOS27/readiness/closure.json": "06127c5a98d8b2ff7a285c5526c7b56a494e3b9e6ef33e854516eb30fc4bd0ed",
+    "scripts/ios27-evaluation/project.pbxproj.template": "71b3f27e8ff3d168e17862dc31ef675dc9b33cd181cb19412df12ee6149d9c34",
+    "scripts/ios27-evaluation/run.py": "9f480c0d6cd729248cc4395346e77ca150db56c0575859801b22ed651d502fdb",
+    "scripts/ios27-generation-trace/GenerationProbe.swift": "28d77fd16710b57535e4a87f33776001c734deaa6257ee0e39cdb75b55f0bc38",
+    "scripts/ios27-generation-trace/run.py": "114c38c965f9915376a3b8fb26b324fd0db9c11a50029f23832528300aeccc6a",
+    "scripts/ios27-generation-trace/test_run.py": "6d6cd66725b26c0aa9316d28d83e061fd04daa1bda90fae75725db28bc329d66"
+  },
+  "stderr": "2026-09-16 12:14:04.491 xcodebuild[28989:409175] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.\n",
+  "stdout": "error: the following command failed with exit code 0 but produced no further output\nSwiftCompile normal arm64 /Users/aaryan/Desktop/Gemini\\ Hackathon/Evaluation/iOS27/generation-trace/build/Sources/GenerationProbe.swift (in target 'CompatibilityProbe' from project 'CompatibilityProbe')\n/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/generation-trace/build/Sources/GenerationProbe.swift:138:30: warning: 'init(sampling:temperature:maximumResponseTokens:)' is deprecated: replaced by 'init(samplingMode:temperature:maximumResponseTokens:)' [#DeprecatedDeclaration]\n136 |                 let response = try await session.respond(to: \"Fictional receipt code: ORBIT-27.\",\n137 |                     generating: CompatibilityCode.self,\n138 |                     options: GenerationOptions(sampling: .greedy, maximumResponseTokens: 100))\n    |                              |- warning: 'init(sampling:temperature:maximumResponseTokens:)' is deprecated: replaced by 'init(samplingMode:temperature:maximumResponseTokens:)' [#DeprecatedDeclaration]\n    |                              `- note: use 'init(samplingMode:temperature:maximumResponseTokens:)' instead\n139 |                 recorder.mark(\"response_finished\", [\"applicationState\": UIApplication.shared.applicationState.rawValue])\n140 |                 recorder.finish(code: response.content.code, error: nil)\n\n[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>\n"
+}

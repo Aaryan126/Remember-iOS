@@ -1,0 +1,59 @@
+{
+  "rawPath": "attempts/phone/c7-001/raw.json",
+  "rawSHA256": "ab5d3c306385224786d7a72dbeb34dc558c42a24c41f4209687c128db9b02f39",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.3603858333372045,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.7083300412632525e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.32620650000171736,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37903495833597844,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3800868333346443,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.3592618749971734,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "0717075b375611849d50895c0f009bb3d242904ff5adcc8a839871de0c537791",
+      "contextSize": 4096,
+      "generationSeconds": 2.978558000002522,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Export mapping, rehearsal imports and cutover support belong to this migration engagement",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "support note: Marble Desk says the fix worked after the restart. we can close it",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference different tasks unrelated to the same migration engagement.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-001"
+  }
+}

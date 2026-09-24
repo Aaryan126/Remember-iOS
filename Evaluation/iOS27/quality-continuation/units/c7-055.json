@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-055/raw.json",
+  "rawSHA256": "3d95584a6d9488dccbefac7b54f830d06832e1edcc3448cf62ef58f87141dbb1",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.5723399166672607,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.083332896698266e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22129329166637035,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26838512499671197,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.26946474999567727,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.5711914583298494,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "8ae963f3608a19972036cf3813dd5e39c58a6f785e149fc07f3485576be55796",
+      "contextSize": 4096,
+      "generationSeconds": 3.301102458332025,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Survey, scaffold hire, slate replacement and final leak inspection are one roof-restoration contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Keep the roof inspection and glazing acceptance records with their separate contracts.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct contract categories: s01 lists a single restoration contract while s04 specifies separate records for inspection and glazing.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-055"
+  }
+}

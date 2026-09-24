@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Room lining test notebook, introduction",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Practice room acoustic lining test compares two removable wall panels using a fixed speaker position. This is an exploratory studio exercise, not a certified sound-isolation rating. Keep room measurements distinct from the portable booth build, even when the same microphone is used."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Booth build specification, page 1",
+      "modality": "pdf",
+      "sourceId": "s02",
+      "text": "Portable narration booth build aims to reduce room reflections around a standing narrator. Assemble a folding frame and removable lining. We will borrow the practice-room test kit, but the booth's transport weight is a separate design constraint."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Calibration card C0 OCR",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "Microphone calibration card C0 for the practice room acoustic lining test records a reference level of 93.6 dB. The reading belongs to the initial kit check before panel installation. The handwritten margin contains a battery inventory, not a second reference measurement."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Test-kit booking, procedure paragraph",
+      "modality": "note",
+      "sourceId": "s04",
+      "text": "Joint test-kit booking for the practice room acoustic lining test and portable narration booth build: leave the microphone stand at its marked height between sessions. Each project must save its own room description. A shared microphone does not make the two enclosures equivalent."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Unidentified measurement clip, 00:00–00:08",
+      "modality": "voice",
+      "sourceId": "s05",
+      "text": "Audio fragment: 'It fell by four after we moved it.' The file contains no frequency, unit, room name or equipment identifier. The speaker stops before explaining what moved. There is no supporting photograph attached to this isolated clip."
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Latest setup sheet, page 1",
+      "modality": "pdf",
+      "sourceId": "s06",
+      "text": "Practice room acoustic lining test latest sheet: keep the speaker 80 cm from the north wall for the next panel comparison. The previous trial was exploratory and did not establish a final attenuation value. Blank cells on the sheet remain unmeasured."
+    },
+    {
+      "assignedProjectRoots": [
+        "s02"
+      ],
+      "id": "e07",
+      "kind": "correct",
+      "reason": "That clip was recorded while moving the portable narration booth. Attach it to the booth build; I cannot supply the missing band or unit.",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Frame weigh-in extracted speech, 00:25–00:40",
+      "modality": "video",
+      "sourceId": "s07",
+      "text": "Portable narration booth build weigh-in: the frame without fabric weighs 8.4 kg. This is a transport measurement and says nothing about acoustic performance. The fabric and clips are still on the cutting table, so do not call it the total packed weight."
+    },
+    {
+      "id": "e09",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e10",
+      "kind": "restore",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Fictional reflection article, examples section",
+      "modality": "link",
+      "sourceId": "s08",
+      "text": "An article on reflection control was saved as background for the portable narration booth build. The examples concern fixed recording rooms with heavy wall treatment. They do not report measurements for our folding frame or establish its eventual acoustic result."
+    },
+    {
+      "id": "e12",
+      "kind": "archive",
+      "sourceId": "s03"
+    }
+  ],
+  "id": "dev06",
+  "queries": [
+    {
+      "atEvent": "e06",
+      "id": "q1",
+      "question": "What frequency band does the four-unit drop in the unidentified clip describe?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e09",
+      "id": "q2",
+      "question": "Recover the archived calibration card C0's initial reference level.",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "Where does the latest room-lining setup sheet say to put the speaker for the next comparison?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Recover the shared test-kit rule about the microphone stand.",
+      "scope": "current"
+    }
+  ]
+}

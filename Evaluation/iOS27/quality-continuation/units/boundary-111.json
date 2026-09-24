@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-111/raw.json",
+  "rawSHA256": "aed111e27fe10039a009a1927872adeb4a2b0eb62987a9fb34be36d7636f447c",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.602718249996542,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.583329766523093e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2211515833332669,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2730016249988694,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2740840416663559,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.600653708330356,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "fdec32c1e27aa7aef4ad461fd24e46357f5bfd6b5fe7f5992bb507ae941b28b1",
+      "contextSize": 4096,
+      "generationSeconds": 5.325894875000813,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal radio commissioned an oral-history episode about the harbour night shift. Record the dock workers, edit their interviews and clear the music for this episode.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Pine Signal also commissioned a harbour weather bulletin. It is a different programme from the night-shift oral history, with its own delivery and approval, even though the same dock recording supplies background sound.",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources describe distinct programmes\u2014an oral-history episode and a harbour weather bulletin\u2014commissioned separately with their own approvals.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-111"
+  }
+}

@@ -1,0 +1,691 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c2f9e214a797e44c98a91d3232a812e7a5f4002fe2d23b9772f858ab720405a8"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Shed roof rainwater collector, first layout note: put the collection barrel at the northeast corner. This fictional garden build captures runoff for a nonpotable demonstration. Record layout changes here; the rainfall-gauge study measures weather separately and does not control the collector design."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c2f9e214a797e44c98a91d3232a812e7a5f4002fe2d23b9772f858ab720405a8"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "pdf",
+        "text": "Garden rainfall gauge logging will compare manual readings with a small electronic counter over a month. The shed roof collector is a neighboring build, not a calibration reference. We will share a cable support if it leaves the gauge rim unobstructed."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c2f9e214a797e44c98a91d3232a812e7a5f4002fe2d23b9772f858ab720405a8"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c27f3832632c8e822b351827e830cf91b894d9e17acd1e9dc636757a10418b7a"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "Shed roof rainwater collector inspection photo: the northeast corner sits beside a door swing. The chalk rectangle is a proposed barrel footprint, not an installed tank. The note on the door says to keep the access path clear for moving garden tools."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "fc3383edfdb76ddfcf059192988a7411f4e1c03609489c4e362c25e38c36e11b"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c27f3832632c8e822b351827e830cf91b894d9e17acd1e9dc636757a10418b7a"
+        }
+      },
+      "id": "e04",
+      "kind": "revise",
+      "target": "localc01",
+      "text": "Shed roof rainwater collector, door-clearance revision: put the collection barrel at the northwest corner. Route the demonstration downpipe along the rear edge so the door can open. This replaces the first sketch; final mounting positions still need a site check."
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "fc3383edfdb76ddfcf059192988a7411f4e1c03609489c4e362c25e38c36e11b"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c27f3832632c8e822b351827e830cf91b894d9e17acd1e9dc636757a10418b7a"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "153ffed6ef2cf2f60ca856d258cc67342038472c0e608944ea0a7d9906ab6278"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "note",
+        "text": "Shared support plan for the shed roof rainwater collector and garden rainfall gauge logging: fix the gauge cable clips to the outer face of the collector's rear support. Leave the gauge rim clear. The shared support does not turn rainfall readings into collected-water measurements."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "fc3383edfdb76ddfcf059192988a7411f4e1c03609489c4e362c25e38c36e11b"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c27f3832632c8e822b351827e830cf91b894d9e17acd1e9dc636757a10418b7a"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "153ffed6ef2cf2f60ca856d258cc67342038472c0e608944ea0a7d9906ab6278"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "126f9ac4c994b37f5fd73db6aac5ff7a3665344bd2e8acbcbe6b90bc0a0f7b45"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "voice",
+        "text": "Gauge logging voice check: the counter registered 11 pulses during the hand-poured test. We did not record the poured volume. This verifies that pulses were counted, but it cannot establish millimeters per pulse or provide a calibrated rainfall conversion."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "fc3383edfdb76ddfcf059192988a7411f4e1c03609489c4e362c25e38c36e11b"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c27f3832632c8e822b351827e830cf91b894d9e17acd1e9dc636757a10418b7a"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "153ffed6ef2cf2f60ca856d258cc67342038472c0e608944ea0a7d9906ab6278"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "126f9ac4c994b37f5fd73db6aac5ff7a3665344bd2e8acbcbe6b90bc0a0f7b45"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54857ddc9b6bc677d9fb670440bd85c1747ef9b5a8c7f5c05fd1073fdbf8ea23"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "video",
+        "text": "Shed roof rainwater collector site check: the rear support has clear space on its west side for the final barrel pad. A stack of spare tiles has been moved away. This site observation informs the next layout decision without itself changing the written plan."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "56af920c1eaa862927400e6eed800112e99cac0757f92a0938a495cf730326c2"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c27f3832632c8e822b351827e830cf91b894d9e17acd1e9dc636757a10418b7a"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "153ffed6ef2cf2f60ca856d258cc67342038472c0e608944ea0a7d9906ab6278"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "126f9ac4c994b37f5fd73db6aac5ff7a3665344bd2e8acbcbe6b90bc0a0f7b45"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54857ddc9b6bc677d9fb670440bd85c1747ef9b5a8c7f5c05fd1073fdbf8ea23"
+        }
+      },
+      "id": "e08",
+      "kind": "revise",
+      "target": "localc01",
+      "text": "Shed roof rainwater collector, final layout note: put the collection barrel midway along the west wall. The pad fits the checked clearance beside the rear support. The gauge cable clips stay on the support's outer face under the separate shared support plan."
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "56af920c1eaa862927400e6eed800112e99cac0757f92a0938a495cf730326c2"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c27f3832632c8e822b351827e830cf91b894d9e17acd1e9dc636757a10418b7a"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "153ffed6ef2cf2f60ca856d258cc67342038472c0e608944ea0a7d9906ab6278"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "126f9ac4c994b37f5fd73db6aac5ff7a3665344bd2e8acbcbe6b90bc0a0f7b45"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54857ddc9b6bc677d9fb670440bd85c1747ef9b5a8c7f5c05fd1073fdbf8ea23"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f822f138f81b98104d5e06d1b6bde1f00db8b170319a4ec2e93a93125b1519e9"
+        }
+      },
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "image",
+        "text": "Garden rainfall gauge logging sheet: read the manual gauge at 08:00 each morning for this exercise. Leave a blank when nobody records a reading, rather than copying yesterday's value. The schedule is for observations and does not specify a conversion for counter pulses."
+      }
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "56af920c1eaa862927400e6eed800112e99cac0757f92a0938a495cf730326c2"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c27f3832632c8e822b351827e830cf91b894d9e17acd1e9dc636757a10418b7a"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "153ffed6ef2cf2f60ca856d258cc67342038472c0e608944ea0a7d9906ab6278"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "126f9ac4c994b37f5fd73db6aac5ff7a3665344bd2e8acbcbe6b90bc0a0f7b45"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54857ddc9b6bc677d9fb670440bd85c1747ef9b5a8c7f5c05fd1073fdbf8ea23"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f822f138f81b98104d5e06d1b6bde1f00db8b170319a4ec2e93a93125b1519e9"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "198fae4d09a01e92d6cccc69be4d1b9443c0e25be23a515754b1b22eb684823d"
+        }
+      },
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "image",
+        "text": "Small hardware bag label: 'four clips, rear support.' The project name is absent and both teams have ordered clips. The label does not identify the cable diameter or demonstrate which support face was intended. Keep its assignment open pending clarification."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "56af920c1eaa862927400e6eed800112e99cac0757f92a0938a495cf730326c2"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c27f3832632c8e822b351827e830cf91b894d9e17acd1e9dc636757a10418b7a"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "153ffed6ef2cf2f60ca856d258cc67342038472c0e608944ea0a7d9906ab6278"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "126f9ac4c994b37f5fd73db6aac5ff7a3665344bd2e8acbcbe6b90bc0a0f7b45"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54857ddc9b6bc677d9fb670440bd85c1747ef9b5a8c7f5c05fd1073fdbf8ea23"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f822f138f81b98104d5e06d1b6bde1f00db8b170319a4ec2e93a93125b1519e9"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "198fae4d09a01e92d6cccc69be4d1b9443c0e25be23a515754b1b22eb684823d"
+        }
+      },
+      "id": "e11",
+      "kind": "correct",
+      "target": "localc08"
+    },
+    {
+      "assignments": [
+        "t:c09"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "56af920c1eaa862927400e6eed800112e99cac0757f92a0938a495cf730326c2"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c27f3832632c8e822b351827e830cf91b894d9e17acd1e9dc636757a10418b7a"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "153ffed6ef2cf2f60ca856d258cc67342038472c0e608944ea0a7d9906ab6278"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "126f9ac4c994b37f5fd73db6aac5ff7a3665344bd2e8acbcbe6b90bc0a0f7b45"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54857ddc9b6bc677d9fb670440bd85c1747ef9b5a8c7f5c05fd1073fdbf8ea23"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f822f138f81b98104d5e06d1b6bde1f00db8b170319a4ec2e93a93125b1519e9"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "198fae4d09a01e92d6cccc69be4d1b9443c0e25be23a515754b1b22eb684823d"
+        },
+        "localc09": {
+          "archived": false,
+          "memberships": [
+            "t:c09"
+          ],
+          "revision": 0,
+          "textSHA256": "ee1019c294b52a3a7faa6886397f8dfa1a47fd5133a856b1d79ef17bcc331024"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc09",
+        "modality": "link",
+        "text": "An article about roof runoff losses is background for the shed roof rainwater collector. It uses an example roof much larger than our shed and gives no local collection measurement. Its sample tank placement is illustrative, not an amendment to our final layout."
+      }
+    }
+  ],
+  "id": "history-dev12-chronological",
+  "queries": [
+    {
+      "afterEvent": "e06",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e08",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

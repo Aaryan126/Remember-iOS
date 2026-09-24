@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-051/raw.json",
+  "rawSHA256": "6ac32bd73831e1d30c0284f58b04cc13fe1071fedae08fe56b52c237340996e4",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.654997249999724,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.833330993074924e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2218929583323188,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27169599999615457,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27260562499577645,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.6537924583317363,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "86881c8ee4de0fab896f256668cf7836010c1915a7244dbe117a35d44b1dc7a7",
+      "contextSize": 4096,
+      "generationSeconds": 3.380577916672337,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Northgate Library commissioned its window restoration under a different contract.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "The defect at Northgate is corrected.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference Northgate Library but discuss distinct tasks\u2014restoration and defect correction\u2014without shared project terminology.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-051"
+  }
+}

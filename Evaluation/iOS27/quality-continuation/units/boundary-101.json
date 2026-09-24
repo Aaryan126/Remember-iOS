@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-101/raw.json",
+  "rawSHA256": "5b76cf7f7900fa11350b6ca7104a8bbef309d68bde23aedbde44e2aa41ec2700",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.910775833333901,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.49999822396785e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22802424999827053,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.278367500002787,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27926487500371877,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.909235749997606,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "f1f44c8267a743351602ae5494839d25eb684adde58c889a94db77b5f75d7c81",
+      "contextSize": 4096,
+      "generationSeconds": 4.629367708337668,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Prototype machining, load tests and drawing approval are one engineering commission for the latch.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Workshop sheet allocates the same test rig to the folding-ladder latch and the toolbox hinge on successive days. File the results under their respective product approvals.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Source s01 links the latch to an engineering commission, while s04 shows the same test rig used for a separate toolbox hinge with distinct product approvals.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-101"
+  }
+}

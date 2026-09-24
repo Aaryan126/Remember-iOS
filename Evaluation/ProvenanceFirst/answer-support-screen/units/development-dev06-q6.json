@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev06-q6",
+    "inputSHA256": "06cc1d8e178e24c5859230c3f7724f82fae51f05af43c736dcaeb269a9f05ea4",
+    "rawSHA256": "fcc959c4696d710813107f61bf788ae09ccc41fbb4793a88d3e70c6b94a3a466",
+    "requestCount": 1,
+    "reservationSHA256": "62a3e3f5c18a341ad60ef554a65bd99d6ecea9cea152bc1bab6909302cd78b72",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.9208525833382737,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "table Willow",
+        "evidence": [
+          {
+            "candidateID": "c1de0b3f3c59ae06a593d3a22275e13b5983ea835b46f341bfade25ee563c2ef",
+            "quote": "Mira's first place card for the supper reads table Willow. This card was retired after the seating discussion; retain only as the first seating proposal."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21037056,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev06-q6"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "697fa4e5a49ccbd4e8e99298bb2589b7467e77b07365533a5f9be8ab11e85bbc"
+}

@@ -1,0 +1,44 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev03-q3",
+    "inputSHA256": "77daa468fe438d946d7a982d2e34be73b63653ee7db3169a2d224fed8deee3fa",
+    "rawSHA256": "9b15317679ff76b990e4f37e0ed6ccebf7c23191963b5ec6c1d3c828fd24fb1f",
+    "requestCount": 1,
+    "reservationSHA256": "dce9ae3b86eb88dcd87ea7c41c8c5c7091f5b76f6f30c5c244a0c8355dbcfe8f",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.807511583334417,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Bell with a brass finish",
+        "evidence": [
+          {
+            "candidateID": "437eed0700f5a59a71a34e5fcb434b571b716fb28505ef70ad406f49f1de85ba",
+            "quote": "Bicycle Juniper, intake tag 31: owner requests a bell with a brass finish. This old tag is retained for the cosmetic request, not for clearance to ride."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21577728,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev03-q3"
+    },
+    "validationError": {
+      "message": "answer outside evidence",
+      "type": "ValueError"
+    }
+  },
+  "payloadSHA256": "dce7ddba9cc6023f35a9a2933b6b5e3e55ed83515175188be7aeb8fec069934c"
+}

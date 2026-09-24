@@ -1,0 +1,1605 @@
+{
+  "corpusBindingSHA256": "5db8f6b08dd19e8ae6580c82e61857c8fc736d2abdc6ed3ba5367794b2eda74e",
+  "libraries": [
+    {
+      "id": "eval01",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "67bb9074e1668b99fd653646c5e8042ee80361553d076645545e536b581302f3",
+            "3feb306913b627077cf6e8dec3c4d66afdcbe35363e8609d978bf92703c5b92f",
+            "8912d07450bfbcc871d24fac3519b862fb971a7a243db41787e96bebb78ccd86"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "camera-not-permitted",
+                "answerSpans": [
+                  "attaching visitor cameras is not permitted"
+                ],
+                "quote": "attaching visitor cameras is not permitted.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "67bb9074e1668b99fd653646c5e8042ee80361553d076645545e536b581302f3",
+            "cc1aef5b0496c474e70dfd03700de5b31400f953d730279c0772248ab56d8fac",
+            "fed64b7140fd59ddc22754c0862808e25be7667fd6b91cc5964c0569b9b31e33"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "21:15",
+                "answerSpans": [
+                  "21:15"
+                ],
+                "quote": "visitors must leave the eyepiece queue at 21:15.",
+                "revision": 0,
+                "sourceId": "s01"
+              },
+              {
+                "answerKey": "21:15",
+                "answerSpans": [
+                  "21:15"
+                ],
+                "quote": "visitors must leave the eyepiece queue at 21:45, replacing 21:15.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "3feb306913b627077cf6e8dec3c4d66afdcbe35363e8609d978bf92703c5b92f",
+            "cc1aef5b0496c474e70dfd03700de5b31400f953d730279c0772248ab56d8fac",
+            "37387a0f568c23b9bc700fab2c9d12c86cb22d2e487944c81baf9bcf0eff351e"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "67bb9074e1668b99fd653646c5e8042ee80361553d076645545e536b581302f3",
+            "37387a0f568c23b9bc700fab2c9d12c86cb22d2e487944c81baf9bcf0eff351e",
+            "8912d07450bfbcc871d24fac3519b862fb971a7a243db41787e96bebb78ccd86"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "21:45",
+                "answerSpans": [
+                  "21:45"
+                ],
+                "quote": "visitors must leave the eyepiece queue at 21:45, replacing 21:15.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "67bb9074e1668b99fd653646c5e8042ee80361553d076645545e536b581302f3",
+            "8912d07450bfbcc871d24fac3519b862fb971a7a243db41787e96bebb78ccd86",
+            "37387a0f568c23b9bc700fab2c9d12c86cb22d2e487944c81baf9bcf0eff351e"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "14-visitors",
+                "answerSpans": [
+                  "14 visitors"
+                ],
+                "quote": "the 21 September public telescope session limit at 14 visitors.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "18-visitors",
+                "answerSpans": [
+                  "18 visitors"
+                ],
+                "quote": "PUBLIC SESSION / 21 SEPTEMBER / visitor limit: 18 visitors.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "3feb306913b627077cf6e8dec3c4d66afdcbe35363e8609d978bf92703c5b92f",
+            "67bb9074e1668b99fd653646c5e8042ee80361553d076645545e536b581302f3",
+            "37387a0f568c23b9bc700fab2c9d12c86cb22d2e487944c81baf9bcf0eff351e"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "d3bd6ff630d55dd0d4f788bef5a00549aee53bfb4c86723d09912b8cc768a32a",
+            "cc1aef5b0496c474e70dfd03700de5b31400f953d730279c0772248ab56d8fac",
+            "3feb306913b627077cf6e8dec3c4d66afdcbe35363e8609d978bf92703c5b92f"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "west-footgate",
+                "answerSpans": [
+                  "the west footgate"
+                ],
+                "quote": "Visitors entered through the west footgate, not the service entrance.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "fed64b7140fd59ddc22754c0862808e25be7667fd6b91cc5964c0569b9b31e33",
+            "67bb9074e1668b99fd653646c5e8042ee80361553d076645545e536b581302f3",
+            "3feb306913b627077cf6e8dec3c4d66afdcbe35363e8609d978bf92703c5b92f"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "No emergency contact telephone number was recorded.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q8"
+        }
+      ]
+    },
+    {
+      "id": "eval02",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "ed7b4cb4edfb8caa8253ba52c128880dd13743417fe43608df8d25c3ecc735bc",
+            "18b4d1b36bbfedf231bf9f8aafb8611258b8442cad0cdcb99cc574207b7177bb",
+            "00f172820b697a266341dc60ae782568aa3c5adb7f542295a41373e0894d985f"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "R-14",
+                "answerSpans": [
+                  "R-14"
+                ],
+                "quote": "the laboratory label for the footbridge sample is R-14.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "8c285f5f960d6813d6bf15ad19be9bf214112fbad35756c96ef5f93bec8ae854",
+            "68b4c5203b6327d91bfe53d7914fe7444498e7c73b2fc6b5d1cd3a210b45b5e0",
+            "ed7b4cb4edfb8caa8253ba52c128880dd13743417fe43608df8d25c3ecc735bc"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "not-measured",
+                "answerSpans": [
+                  "water temperature was not measured"
+                ],
+                "quote": "On 8 June the footbridge water temperature was not measured because the thermometer stayed at the depot.",
+                "revision": 0,
+                "sourceId": "s03"
+              },
+              {
+                "answerKey": "not-measured",
+                "answerSpans": [
+                  "water temperature was not measured"
+                ],
+                "quote": "water temperature was not measured.",
+                "revision": 0,
+                "sourceId": "s07"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "e2c42a1220c7bc95cbf722dd9ebe4d0136f37fea0d07fa97107f576e7fce7ff3",
+            "18b4d1b36bbfedf231bf9f8aafb8611258b8442cad0cdcb99cc574207b7177bb",
+            "8c285f5f960d6813d6bf15ad19be9bf214112fbad35756c96ef5f93bec8ae854"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "P-09",
+                "answerSpans": [
+                  "P-09"
+                ],
+                "quote": "the sample from beside the canoe steps carried label P-09.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "d51bf425fce54a3b9c0d80852940f7d73675048572c09e3e86fb7e6f3eabc57b",
+            "ed7b4cb4edfb8caa8253ba52c128880dd13743417fe43608df8d25c3ecc735bc",
+            "18b4d1b36bbfedf231bf9f8aafb8611258b8442cad0cdcb99cc574207b7177bb"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "R-41",
+                "answerSpans": [
+                  "R-41"
+                ],
+                "quote": "the laboratory label for the footbridge sample is R-41.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "8c285f5f960d6813d6bf15ad19be9bf214112fbad35756c96ef5f93bec8ae854",
+            "68b4c5203b6327d91bfe53d7914fe7444498e7c73b2fc6b5d1cd3a210b45b5e0",
+            "ed7b4cb4edfb8caa8253ba52c128880dd13743417fe43608df8d25c3ecc735bc"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "On 8 June the footbridge water temperature was not measured because the thermometer stayed at the depot.",
+                "revision": 0,
+                "sourceId": "s03"
+              },
+              {
+                "quote": "water temperature was not measured.",
+                "revision": 0,
+                "sourceId": "s07"
+              },
+              {
+                "quote": "The key does not record any water temperature.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "18b4d1b36bbfedf231bf9f8aafb8611258b8442cad0cdcb99cc574207b7177bb",
+            "8c285f5f960d6813d6bf15ad19be9bf214112fbad35756c96ef5f93bec8ae854",
+            "ed7b4cb4edfb8caa8253ba52c128880dd13743417fe43608df8d25c3ecc735bc"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "00f172820b697a266341dc60ae782568aa3c5adb7f542295a41373e0894d985f",
+            "a3d2b7bfac8de385e87fb50bb0994e7c2cfd3472180c048d8aab1d35b521a9ba",
+            "18b4d1b36bbfedf231bf9f8aafb8611258b8442cad0cdcb99cc574207b7177bb"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "ethanol",
+                "answerSpans": [
+                  "ethanol"
+                ],
+                "quote": "8 JUNE / FOOTBRIDGE / preservative: ethanol.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "formalin",
+                "answerSpans": [
+                  "formalin"
+                ],
+                "quote": "The receipt sheet records formalin as the preservative actually added to the 8 June footbridge bottle.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "18b4d1b36bbfedf231bf9f8aafb8611258b8442cad0cdcb99cc574207b7177bb",
+            "68b4c5203b6327d91bfe53d7914fe7444498e7c73b2fc6b5d1cd3a210b45b5e0",
+            "8c285f5f960d6813d6bf15ad19be9bf214112fbad35756c96ef5f93bec8ae854"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q8"
+        }
+      ]
+    },
+    {
+      "id": "eval03",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "422c0a82173013f8dbda3051def8e4b8f5653a042210a0df4780efc0a12063f4",
+            "cf220bec241069dd2f84948e9579875b69c5079305e2e7d27162bd1216614685",
+            "ec3d9e237f3e91b7853e1f83da8c5e4d8146e601376b28b872c1e097daaf903b"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "wooden-toggles",
+                "answerSpans": [
+                  "a row of wooden toggles",
+                  "wooden toggles"
+                ],
+                "quote": "The fastening on this green rehearsal tunic is a row of wooden toggles.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "643773f38066316acb8b7448d8d12bc43f5550e96ca5eea9c257ef1f5b1f7cbe",
+            "47fb6de5fac5dc71dde9de55338228a9301ce510772497ca25c120b23e1e28d5",
+            "ec3d9e237f3e91b7853e1f83da8c5e4d8146e601376b28b872c1e097daaf903b"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "room-2",
+                "answerSpans": [
+                  "Room 2"
+                ],
+                "quote": "Lina's final blue-jacket fitting on Friday is in Room 2.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "room-4",
+                "answerSpans": [
+                  "Room 4"
+                ],
+                "quote": "The fitting-room steward lists Room 4 for Lina's final blue-jacket fitting on Friday.",
+                "revision": 0,
+                "sourceId": "s05"
+              },
+              {
+                "answerKey": "room-2",
+                "answerSpans": [
+                  "Room 2"
+                ],
+                "quote": "The wardrobe coordinator still lists Room 2.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "ec3d9e237f3e91b7853e1f83da8c5e4d8146e601376b28b872c1e097daaf903b",
+            "643773f38066316acb8b7448d8d12bc43f5550e96ca5eea9c257ef1f5b1f7cbe",
+            "47fb6de5fac5dc71dde9de55338228a9301ce510772497ca25c120b23e1e28d5"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "313b8f99b81d0b28ed386fe7d19cf5ee3baffa0f3ef98d944f7cae57d1f359ae",
+            "ec3d9e237f3e91b7853e1f83da8c5e4d8146e601376b28b872c1e097daaf903b",
+            "643773f38066316acb8b7448d8d12bc43f5550e96ca5eea9c257ef1f5b1f7cbe"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "Heel height: not taken at this fitting.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "ec3d9e237f3e91b7853e1f83da8c5e4d8146e601376b28b872c1e097daaf903b",
+            "643773f38066316acb8b7448d8d12bc43f5550e96ca5eea9c257ef1f5b1f7cbe",
+            "47fb6de5fac5dc71dde9de55338228a9301ce510772497ca25c120b23e1e28d5"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "cf220bec241069dd2f84948e9579875b69c5079305e2e7d27162bd1216614685",
+            "a654c4bc54f720517264a3a20947f1101906af2842c1fcd5548a8815ce0d52a5",
+            "ec3d9e237f3e91b7853e1f83da8c5e4d8146e601376b28b872c1e097daaf903b"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "5-cm",
+                "answerSpans": [
+                  "5 cm"
+                ],
+                "quote": "the settled alteration for her blue performance jacket is a 5 cm movement allowance at the back pleat.",
+                "revision": 1,
+                "sourceId": "s01"
+              },
+              {
+                "answerKey": "5-cm",
+                "answerSpans": [
+                  "5 cm"
+                ],
+                "quote": "the approved back-pleat movement allowance is 5 cm.",
+                "revision": 0,
+                "sourceId": "s07"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "ec3d9e237f3e91b7853e1f83da8c5e4d8146e601376b28b872c1e097daaf903b",
+            "643773f38066316acb8b7448d8d12bc43f5550e96ca5eea9c257ef1f5b1f7cbe",
+            "47fb6de5fac5dc71dde9de55338228a9301ce510772497ca25c120b23e1e28d5"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "a654c4bc54f720517264a3a20947f1101906af2842c1fcd5548a8815ce0d52a5",
+            "836009584707819457a75ddeb96cfba160165b36c2c11daad6f2aefcde531940",
+            "cf220bec241069dd2f84948e9579875b69c5079305e2e7d27162bd1216614685"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "3-cm",
+                "answerSpans": [
+                  "3 cm"
+                ],
+                "quote": "leave a 3 cm movement allowance at the back pleat.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q8"
+        }
+      ]
+    },
+    {
+      "id": "eval04",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "f4788a61c2b2c0f01c638b7be37b3bec1cf2be591dc8f604422bfd4d64d794f0",
+            "4e93fc48fb81ddf270f774dfdfaf327d6c0d7cb9a16683172b169328482c2152",
+            "fa8d66b8b82e170922d1ae15dcaa84b873b590bd4a8eaaea1d6838ba02f9a0f1"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "new-zealand-only",
+                "answerSpans": [
+                  "New Zealand only"
+                ],
+                "quote": "The executed territory addendum now limits Winter Steps complete audiobook sales to New Zealand only.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "08155d1390ee350fc48051d2db0bb063d47f2242abbb25010c2a7eeffcc5c2e2",
+            "4e93fc48fb81ddf270f774dfdfaf327d6c0d7cb9a16683172b169328482c2152",
+            "fa8d66b8b82e170922d1ae15dcaa84b873b590bd4a8eaaea1d6838ba02f9a0f1"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "private-library-listening",
+                "answerSpans": [
+                  "private library listening sessions"
+                ],
+                "quote": "the licence permits private library listening sessions.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "fdd0bd72ebe8554a3d258ba63e43507d9696b17c33eb81ccede468606a40a47e",
+            "3003977364ff2128444170e58966d6eaf8b2c9682e8cff14ae6ac3f1cf4d0e47",
+            "4e93fc48fb81ddf270f774dfdfaf327d6c0d7cb9a16683172b169328482c2152"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "90-seconds",
+                "answerSpans": [
+                  "90 seconds"
+                ],
+                "quote": "the permitted excerpt length was 90 seconds.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "f4788a61c2b2c0f01c638b7be37b3bec1cf2be591dc8f604422bfd4d64d794f0",
+            "3003977364ff2128444170e58966d6eaf8b2c9682e8cff14ae6ac3f1cf4d0e47",
+            "08155d1390ee350fc48051d2db0bb063d47f2242abbb25010c2a7eeffcc5c2e2"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "ireland-only",
+                "answerSpans": [
+                  "Ireland only"
+                ],
+                "quote": "The Winter Steps complete audiobook licence covers sales in Ireland only.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "08155d1390ee350fc48051d2db0bb063d47f2242abbb25010c2a7eeffcc5c2e2",
+            "4e93fc48fb81ddf270f774dfdfaf327d6c0d7cb9a16683172b169328482c2152",
+            "adb00669b2ab064d4a05818d06d10dba202bf471eaef5ea928399ff731e5cfe6"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "The licence leaves the narrator credit spelling unspecified; the credit-name field was never completed.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "adb00669b2ab064d4a05818d06d10dba202bf471eaef5ea928399ff731e5cfe6",
+            "fa8d66b8b82e170922d1ae15dcaa84b873b590bd4a8eaaea1d6838ba02f9a0f1",
+            "08155d1390ee350fc48051d2db0bb063d47f2242abbb25010c2a7eeffcc5c2e2"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "4e93fc48fb81ddf270f774dfdfaf327d6c0d7cb9a16683172b169328482c2152",
+            "fa8d66b8b82e170922d1ae15dcaa84b873b590bd4a8eaaea1d6838ba02f9a0f1",
+            "adb00669b2ab064d4a05818d06d10dba202bf471eaef5ea928399ff731e5cfe6"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "12-percent-net",
+                "answerSpans": [
+                  "12 percent of net receipts"
+                ],
+                "quote": "the author royalty for the Winter Steps complete audiobook is 12 percent of net receipts.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "15-percent-net",
+                "answerSpans": [
+                  "15 percent of net receipts"
+                ],
+                "quote": "author royalty: 15 percent of net receipts.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "adb00669b2ab064d4a05818d06d10dba202bf471eaef5ea928399ff731e5cfe6",
+            "08155d1390ee350fc48051d2db0bb063d47f2242abbb25010c2a7eeffcc5c2e2",
+            "fa8d66b8b82e170922d1ae15dcaa84b873b590bd4a8eaaea1d6838ba02f9a0f1"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q8"
+        }
+      ]
+    },
+    {
+      "id": "eval05",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "60f905326c0a3ecbbb2efb95f7806406409f800afc0d0fa45d64bb64f5a2a8a2",
+            "ca9ace9c11f5632c609cc08a7b256b8f35893b2a4c220ba508f32fb06f38db16",
+            "211ef33dc48c7ba80e1198b61a33a4f5f2eb25eb597f076a78b34d901a6b1857"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "08:00-08:20",
+                "answerSpans": [
+                  "08:00 to 08:20"
+                ],
+                "quote": "the visitor arrival window is 08:00 to 08:20.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "60f905326c0a3ecbbb2efb95f7806406409f800afc0d0fa45d64bb64f5a2a8a2",
+            "571fc6d8130dd899358105f7fe94047ba5797f05653bcfb5c5dcf14c39e8fb9f",
+            "211ef33dc48c7ba80e1198b61a33a4f5f2eb25eb597f076a78b34d901a6b1857"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "09:10-09:30",
+                "answerSpans": [
+                  "09:10 to 09:30"
+                ],
+                "quote": "the revised visitor arrival window is 09:10 to 09:30.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "15cf9cc87ab3538a4efaac0dc5d0f4b51ee887486791cff6fcd887e788e26eac",
+            "211ef33dc48c7ba80e1198b61a33a4f5f2eb25eb597f076a78b34d901a6b1857",
+            "07410921d1f886c3a7b85f02cd2d0f0bdb2e4aaf5c0e674f8f023df2e0f03567"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "15cf9cc87ab3538a4efaac0dc5d0f4b51ee887486791cff6fcd887e788e26eac",
+            "211ef33dc48c7ba80e1198b61a33a4f5f2eb25eb597f076a78b34d901a6b1857",
+            "07410921d1f886c3a7b85f02cd2d0f0bdb2e4aaf5c0e674f8f023df2e0f03567"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "a0f2af320e24bc7459fee0e5e1006881384ec984de1cb459ed515b04112a6c8a",
+            "60f905326c0a3ecbbb2efb95f7806406409f800afc0d0fa45d64bb64f5a2a8a2",
+            "ca9ace9c11f5632c609cc08a7b256b8f35893b2a4c220ba508f32fb06f38db16"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "green-triangle",
+                "answerSpans": [
+                  "a green triangle",
+                  "green triangle"
+                ],
+                "quote": "visitor badge: a green triangle.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "571fc6d8130dd899358105f7fe94047ba5797f05653bcfb5c5dcf14c39e8fb9f",
+            "07410921d1f886c3a7b85f02cd2d0f0bdb2e4aaf5c0e674f8f023df2e0f03567",
+            "60f905326c0a3ecbbb2efb95f7806406409f800afc0d0fa45d64bb64f5a2a8a2"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "The name of the assigned escort has yet to be entered in the inspection record.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "07410921d1f886c3a7b85f02cd2d0f0bdb2e4aaf5c0e674f8f023df2e0f03567",
+            "211ef33dc48c7ba80e1198b61a33a4f5f2eb25eb597f076a78b34d901a6b1857",
+            "571fc6d8130dd899358105f7fe94047ba5797f05653bcfb5c5dcf14c39e8fb9f"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "concierge-counter",
+                "answerSpans": [
+                  "the concierge counter",
+                  "concierge counter"
+                ],
+                "quote": "collect the inspection key from the concierge counter.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "parcel-room",
+                "answerSpans": [
+                  "the parcel room",
+                  "parcel room"
+                ],
+                "quote": "collect the inspection key from the parcel room.",
+                "revision": 0,
+                "sourceId": "s05"
+              },
+              {
+                "answerKey": "concierge-counter",
+                "answerSpans": [
+                  "the concierge counter",
+                  "concierge counter"
+                ],
+                "quote": "The instruction to collect the inspection key from the concierge counter has not been withdrawn.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "571fc6d8130dd899358105f7fe94047ba5797f05653bcfb5c5dcf14c39e8fb9f",
+            "211ef33dc48c7ba80e1198b61a33a4f5f2eb25eb597f076a78b34d901a6b1857",
+            "07410921d1f886c3a7b85f02cd2d0f0bdb2e4aaf5c0e674f8f023df2e0f03567"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "building-escort",
+                "answerSpans": [
+                  "A building escort",
+                  "building escort"
+                ],
+                "quote": "A building escort must accompany visitors even if they carry a key.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q8"
+        }
+      ]
+    },
+    {
+      "id": "eval06",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "bd69b7cb3ccd40b3c101e86da0de4000bf60cb8eb04d28e287fcd0d7f53a44a7",
+            "079054b0fa872ba8bfca19c12784f6ca82415af71a295cb5ede4596113840ef9",
+            "f4d2c6a10f1bd49b685516378db581ae9a1b420ca60f60cf4a74016e90cedf72"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "O-2",
+                "answerSpans": [
+                  "O-2"
+                ],
+                "quote": "The Otter youth robotics team's checkout bin is now marked O-2 after relabelling.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "81d0508c115ff3f57dbff8c53b7b2b56b063b191db6004a15a607f59958a9d9d",
+            "2f5e1e0b28029d5c2f3f7dba72235e63715e5c9e82340ad78900330a7a4b435e",
+            "bd69b7cb3ccd40b3c101e86da0de4000bf60cb8eb04d28e287fcd0d7f53a44a7"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "motors-and-brackets-only",
+                "answerSpans": [
+                  "motors and brackets only"
+                ],
+                "quote": "I handed over motors and brackets only.",
+                "revision": 0,
+                "sourceId": "s07"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "0ab12dff9edfaea065c99cdf0bd73b8101750b093e2b804afcd8c5f2bfc777b8",
+            "81d0508c115ff3f57dbff8c53b7b2b56b063b191db6004a15a607f59958a9d9d",
+            "079054b0fa872ba8bfca19c12784f6ca82415af71a295cb5ede4596113840ef9"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "M3",
+                "answerSpans": [
+                  "M3 nuts",
+                  "M3"
+                ],
+                "quote": "the axle brackets used M3 nuts.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "bd69b7cb3ccd40b3c101e86da0de4000bf60cb8eb04d28e287fcd0d7f53a44a7",
+            "851532ba763a6bfeab247028650e5ae72acdec5582dd9041472524609acbc587",
+            "2f5e1e0b28029d5c2f3f7dba72235e63715e5c9e82340ad78900330a7a4b435e"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "O-7",
+                "answerSpans": [
+                  "O-7"
+                ],
+                "quote": "The Otter youth robotics team's checkout bin is marked O-7.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "2f5e1e0b28029d5c2f3f7dba72235e63715e5c9e82340ad78900330a7a4b435e",
+            "81d0508c115ff3f57dbff8c53b7b2b56b063b191db6004a15a607f59958a9d9d",
+            "bd69b7cb3ccd40b3c101e86da0de4000bf60cb8eb04d28e287fcd0d7f53a44a7"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "The motor serial-number field was left blank at checkout; individual motor serial numbers were not recorded.",
+                "revision": 0,
+                "sourceId": "s03"
+              },
+              {
+                "quote": "The motor serial-number boxes were left empty.",
+                "revision": 0,
+                "sourceId": "s07"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "9d954dbcb80aebf6edb7a1d97a349ccd9d61019c563c5e8441f64cf6feb5cd9f",
+            "81d0508c115ff3f57dbff8c53b7b2b56b063b191db6004a15a607f59958a9d9d",
+            "079054b0fa872ba8bfca19c12784f6ca82415af71a295cb5ede4596113840ef9"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "079054b0fa872ba8bfca19c12784f6ca82415af71a295cb5ede4596113840ef9",
+            "f4d2c6a10f1bd49b685516378db581ae9a1b420ca60f60cf4a74016e90cedf72",
+            "81d0508c115ff3f57dbff8c53b7b2b56b063b191db6004a15a607f59958a9d9d"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "6-ready-hubs",
+                "answerSpans": [
+                  "6 ready-to-use wheel hubs"
+                ],
+                "quote": "Checker A's signed opening count for Saturday lists 6 ready-to-use wheel hubs in the Otter kit.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "8-ready-hubs",
+                "answerSpans": [
+                  "8 ready-to-use wheel hubs"
+                ],
+                "quote": "Checker B's signed opening count for Saturday is 8 ready-to-use wheel hubs in the Otter kit, excluding loaned-out hubs and before any issue.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "9d954dbcb80aebf6edb7a1d97a349ccd9d61019c563c5e8441f64cf6feb5cd9f",
+            "f4d2c6a10f1bd49b685516378db581ae9a1b420ca60f60cf4a74016e90cedf72",
+            "079054b0fa872ba8bfca19c12784f6ca82415af71a295cb5ede4596113840ef9"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q8"
+        }
+      ]
+    },
+    {
+      "id": "eval07",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "c64093635e66be13ac44b0345af3ba0837513251be8f18c691e48ee6bd3e6038",
+            "bbf6c05021b63db9842c14b3ede3929c8266b91b3b7b12d76e99f198e8e214ca",
+            "0875ad5a944684fbe3c2e1ca01e0b721d80c9c7f00da3ba8eb03b7d6cccb6ed1"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "43f0f7181875250a821bdf0014621a7fb990c2f5283ef3170973d3d455e11afe",
+            "3f840e96d337e2dc41dc27bac4efeeb1b4f68e31a4bcc222cf23401039f5dab7",
+            "bbf6c05021b63db9842c14b3ede3929c8266b91b3b7b12d76e99f198e8e214ca"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "Harbour-Finch",
+                "answerSpans": [
+                  "Harbour Finch"
+                ],
+                "quote": "Ada's completed pilot interview was catalogued under the agreed pseudonym Harbour Finch.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "3f840e96d337e2dc41dc27bac4efeeb1b4f68e31a4bcc222cf23401039f5dab7",
+            "bbf6c05021b63db9842c14b3ede3929c8266b91b3b7b12d76e99f198e8e214ca",
+            "0875ad5a944684fbe3c2e1ca01e0b721d80c9c7f00da3ba8eb03b7d6cccb6ed1"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "Ada's surname was intentionally not recorded on this interview's consent form.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "bbf6c05021b63db9842c14b3ede3929c8266b91b3b7b12d76e99f198e8e214ca",
+            "0875ad5a944684fbe3c2e1ca01e0b721d80c9c7f00da3ba8eb03b7d6cccb6ed1",
+            "c64093635e66be13ac44b0345af3ba0837513251be8f18c691e48ee6bd3e6038"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "3f840e96d337e2dc41dc27bac4efeeb1b4f68e31a4bcc222cf23401039f5dab7",
+            "bbf6c05021b63db9842c14b3ede3929c8266b91b3b7b12d76e99f198e8e214ca",
+            "0875ad5a944684fbe3c2e1ca01e0b721d80c9c7f00da3ba8eb03b7d6cccb6ed1"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "surname-not-recorded",
+                "answerSpans": [
+                  "Ada's surname was intentionally not recorded",
+                  "intentionally not recorded"
+                ],
+                "quote": "Ada's surname was intentionally not recorded on this interview's consent form.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "272f3906679317612916a21ed87e90e3b23d616d1e4e7ddcc87a3d794f1b498d",
+            "43f0f7181875250a821bdf0014621a7fb990c2f5283ef3170973d3d455e11afe",
+            "c64093635e66be13ac44b0345af3ba0837513251be8f18c691e48ee6bd3e6038"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "registered-researchers-only",
+                "answerSpans": [
+                  "registered researchers only"
+                ],
+                "quote": "Ada's harbour interview transcript may be consulted by registered researchers only.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "c64093635e66be13ac44b0345af3ba0837513251be8f18c691e48ee6bd3e6038",
+            "3f840e96d337e2dc41dc27bac4efeeb1b4f68e31a4bcc222cf23401039f5dab7",
+            "ebf1a831c47046cf6835eb09263331f3bae43414bd0b1b6f60d4231740dfd67a"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "local-school-history-groups-only",
+                "answerSpans": [
+                  "local school history groups only"
+                ],
+                "quote": "Ada's amended consent permits consultation of the harbour interview transcript by local school history groups only.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "0875ad5a944684fbe3c2e1ca01e0b721d80c9c7f00da3ba8eb03b7d6cccb6ed1",
+            "bbf6c05021b63db9842c14b3ede3929c8266b91b3b7b12d76e99f198e8e214ca",
+            "ebf1a831c47046cf6835eb09263331f3bae43414bd0b1b6f60d4231740dfd67a"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "2028-03-01",
+                "answerSpans": [
+                  "1 March 2028"
+                ],
+                "quote": "transcript embargo ends: 1 March 2028.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "2028-05-01",
+                "answerSpans": [
+                  "1 May 2028"
+                ],
+                "quote": "Ada's harbour interview transcript embargo ends on 1 May 2028 according to the narrator's signed copy.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q8"
+        }
+      ]
+    },
+    {
+      "id": "eval08",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "55051cac3decc0b387914c6db51582e767fbcf989104ab46c761f4a913dc2d56",
+            "5c91585cf8db8028a966a9a1db8f3b371588d8918638d7474cf67ad02fabb9a8",
+            "7fde88951494afa2b2b5f843977006bbf2259904d574034648adb2d51e9116fb"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "lint-free-microfibre",
+                "answerSpans": [
+                  "a lint-free microfibre cloth",
+                  "lint-free microfibre cloth"
+                ],
+                "quote": "specifies a lint-free microfibre cloth.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "10cb3ac8a71287377f949aff48a33875e5c0ebb727862ba37ee9f3b3d5f91267",
+            "596aa7689015f0d064e5a2ce91fc55fc4cb9a04e029f9fd1da0470aa7ca52783",
+            "494a17c6e8b63057bb47b8385a5f72c7c324b2ed08d181bddcb366a4e5c488cc"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "not-removed",
+                "answerSpans": [
+                  "The wind vane was not removed during this visit."
+                ],
+                "quote": "The wind vane was not removed during this visit.",
+                "revision": 0,
+                "sourceId": "s03"
+              },
+              {
+                "answerKey": "not-removed",
+                "answerSpans": [
+                  "wind vane removal was not performed"
+                ],
+                "quote": "wind vane removal was not performed.",
+                "revision": 0,
+                "sourceId": "s07"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "fe35b1e8a2efb741a119f3d1445390055f9b9fa25c2566416d2c1a26c4cc208c",
+            "10cb3ac8a71287377f949aff48a33875e5c0ebb727862ba37ee9f3b3d5f91267",
+            "596aa7689015f0d064e5a2ce91fc55fc4cb9a04e029f9fd1da0470aa7ca52783"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "hex-key-H-5",
+                "answerSpans": [
+                  "hex key H-5"
+                ],
+                "quote": "cover fastener tool: hex key H-5.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "55051cac3decc0b387914c6db51582e767fbcf989104ab46c761f4a913dc2d56",
+            "0c918f71d050d86e29b20c3ef7f1a6ba3e79c5ba4a267b4a89be3d73e58198eb",
+            "596aa7689015f0d064e5a2ce91fc55fc4cb9a04e029f9fd1da0470aa7ca52783"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "woven-cotton",
+                "answerSpans": [
+                  "a woven cotton cloth",
+                  "woven cotton cloth"
+                ],
+                "quote": "The first cover-cleaning instruction for the rooftop weather station specifies a woven cotton cloth.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "10cb3ac8a71287377f949aff48a33875e5c0ebb727862ba37ee9f3b3d5f91267",
+            "596aa7689015f0d064e5a2ce91fc55fc4cb9a04e029f9fd1da0470aa7ca52783",
+            "494a17c6e8b63057bb47b8385a5f72c7c324b2ed08d181bddcb366a4e5c488cc"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "The bearing cartridge identification mark was unreadable, so its serial identifier could not be recorded.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "494a17c6e8b63057bb47b8385a5f72c7c324b2ed08d181bddcb366a4e5c488cc",
+            "10cb3ac8a71287377f949aff48a33875e5c0ebb727862ba37ee9f3b3d5f91267",
+            "7fde88951494afa2b2b5f843977006bbf2259904d574034648adb2d51e9116fb"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "5c91585cf8db8028a966a9a1db8f3b371588d8918638d7474cf67ad02fabb9a8",
+            "7fde88951494afa2b2b5f843977006bbf2259904d574034648adb2d51e9116fb",
+            "596aa7689015f0d064e5a2ce91fc55fc4cb9a04e029f9fd1da0470aa7ca52783"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "6-weeks",
+                "answerSpans": [
+                  "6 weeks"
+                ],
+                "quote": "specifies the next cover inspection after 6 weeks.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "10-weeks",
+                "answerSpans": [
+                  "10 weeks"
+                ],
+                "quote": "schedules the rooftop weather-station's next cover inspection after 10 weeks from completion of the June visit.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "494a17c6e8b63057bb47b8385a5f72c7c324b2ed08d181bddcb366a4e5c488cc",
+            "5c91585cf8db8028a966a9a1db8f3b371588d8918638d7474cf67ad02fabb9a8",
+            "596aa7689015f0d064e5a2ce91fc55fc4cb9a04e029f9fd1da0470aa7ca52783"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q8"
+        }
+      ]
+    }
+  ],
+  "retrievalFiles": {
+    "eval01": "426ce9e4b08e470deae03c58848f1199b38dd515c4f235dff0b2753087fcdf39",
+    "eval02": "a4f02a9cc11f723e9bbfcbc139be117b14b96b4a1f05cc8308791f1c60a33049",
+    "eval03": "6cfcf1a0a079ee5c200675ae09f19d471824ba2457f63dafda477d916982a304",
+    "eval04": "ab72553c92489a547e4d3abfeab519a45b8682674fb008362de79d21e974c17a",
+    "eval05": "217259237a56d64e81bc92389daf3e30eb886a53b193b862c2b03f5118c6f7cb",
+    "eval06": "17d18bcdec1f52f69d219fd37a5bb1d496a54884556b8a06c349a975d0e8b6ba",
+    "eval07": "e7d0576fb0fe5606784351915adda716b381b4c04db412e8dfe1ba3e78483152",
+    "eval08": "0549b0df3628754853843f354317833ed143dd8fc262b729afcafd1c8d93f3b7"
+  },
+  "split": "evaluation"
+}

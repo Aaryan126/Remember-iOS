@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-109/raw.json",
+  "rawSHA256": "619f8f74a1b260d16015c3241c2522c930b835070ba250625e434e178fcce117",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.151235291661578,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.291665729600936e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22222483332734555,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27231616666540504,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27332858333102195,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.149137416665326,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "fd3a80f316f175ea05d584bf85f5a7cbd4f89711219b63856c15659cfd1d235e",
+      "contextSize": 4096,
+      "generationSeconds": 3.8751138750012615,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The editorial message approving 'the revised travel-book proofs' was for the Spanish edition, now 'Paths by Water'.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference the Spanish edition of 'River Roads' and its revised proofs, establishing a shared publication contract.",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-109"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev08-q7",
+    "inputSHA256": "ddfc8ce701b0140f4137c9260ffde21632cc7288388022e33026b9593a4a9ecc",
+    "rawSHA256": "7ab5dd8262fb8e9a94eefde795ad4569a3ed80db30d81995105554dd8dd03c76",
+    "requestCount": 1,
+    "reservationSHA256": "bf5953c23d0e9be4e7ab97813bda6006304b7105fda11d7d034db50a1eb79f75",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.6293099583272124,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "The studio technician must do the loading.",
+        "evidence": [
+          {
+            "candidateID": "23a3d92dec595d2e3655cfa78de42da7acd3bc28550d4cc25fbe8728f2604502",
+            "quote": "Oriole group access agreement: visitors may not load the kiln themselves. The studio technician must do the loading. This applies to every Oriole booking slot."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21266432,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev08-q7"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "488c1d1c83a9502e03dd2146f2d6a020aa50b9a6529b8bfef43fd411ba3accb4"
+}

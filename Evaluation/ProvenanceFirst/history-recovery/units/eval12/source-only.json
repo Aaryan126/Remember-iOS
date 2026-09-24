@@ -1,0 +1,126 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Sedge batch docket, page 1",
+      "modality": "pdf",
+      "sourceId": "s01",
+      "text": "Highland sedge cryostorage batch follows the seed bank's labelled sedge packets through a fictional scheduling exercise. The record tracks staff handoffs and storage slots only. It provides no biological protocol and does not establish viability for any packet."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Pea batch scheduling book, opening entry",
+      "modality": "note",
+      "sourceId": "s02",
+      "text": "Coastal pea cryostorage batch follows a separate set of seed packets through the same scheduling room. Packet identifiers and batch records remain distinct from the highland sedge batch. The team will record the storage booking before considering a later viability assessment."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Sedge working schedule, initial booking",
+      "modality": "note",
+      "sourceId": "s03",
+      "text": "Highland sedge cryostorage batch initially books one handoff for all six cassettes on Tuesday at 14:00. This working schedule awaits the carrier-insert compatibility check. The booking groups packets for administration only; it says nothing about exposure duration, storage temperature, or treatment of the seeds."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Extracted trolley checkout sheet, batch list",
+      "modality": "photo",
+      "sourceId": "s04",
+      "text": "Highland sedge cryostorage batch and Coastal pea cryostorage batch share trolley ST8 during separate handoff slots. The booking clerk keeps one slot sheet for the trolley and separate batch records. Neither batch's completion can be inferred from the other's booking."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Extracted pea booking memo, 00:02–00:21",
+      "modality": "voice",
+      "sourceId": "s05",
+      "text": "Coastal pea cryostorage batch will bring its packet list to desk Willow for the booking check. The list remains inside a sealed document wallet. The memo records a desk destination only; no viability test has been requested or reported here."
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Sedge cassette compatibility manifest, carrier table",
+      "modality": "pdf",
+      "sourceId": "s11",
+      "text": "Highland sedge cryostorage batch cassettes H1–H4 fit the compact carrier insert, while H5–H6 require the long insert. The compatibility check found that one carrier cannot hold both inserts at once. This manifest identifies the two groups but does not allocate new handoff times."
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Fictional scheduling guide, example-sheet caption",
+      "modality": "link",
+      "sourceId": "s06",
+      "text": "A seed-bank scheduling guide is background for Highland sedge cryostorage batch and Coastal pea cryostorage batch. Its example slot sheet explains separate batch identifiers on a shared trolley. All times in that example are illustrative and do not reserve local equipment."
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Extracted pea insert checkout, 00:31–00:53",
+      "modality": "voice",
+      "sourceId": "s07",
+      "text": "Coastal pea cryostorage batch has its own cassette insert in the labelled side cupboard. The checkout clerk says to return trolley ST8 empty after each batch handoff. The pea insert is not an alternative for the sedge cassettes; no cross-batch substitution is authorised by this memo."
+    },
+    {
+      "id": "e09",
+      "kind": "revise",
+      "locator": "Sedge working schedule, carrier-group amendment",
+      "sourceId": "s03",
+      "text": "Highland sedge cryostorage batch now books H1–H4 for Tuesday at 14:00 and H5–H6 for Thursday at 10:00. This splits the provisional whole-batch handoff into the compact-insert and long-insert groups identified by the compatibility manifest. The two groups remain one batch with separate handoff receipts."
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Extracted pea paperwork demonstration, 00:15–00:33",
+      "modality": "video",
+      "sourceId": "s08",
+      "text": "Coastal pea cryostorage batch uses a white clip to hold its sealed packet-list wallet to the booking tray. The extracted demonstration shows no opened seed packet or test result. The clip is an administrative handling cue, not a condition of storage."
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Extracted stationery notice, complete text",
+      "modality": "photo",
+      "sourceId": "s09",
+      "text": "The seed-bank staff notice announces a cupboard inventory for spare stationery. It asks people to return unused pencils and blank envelopes. None of the boxes on the notice carries a batch name, biological identifier, or storage booking."
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Sedge receiving reminder, page 1",
+      "modality": "pdf",
+      "sourceId": "s10",
+      "text": "Highland sedge cryostorage batch uses one document wallet for each carrier group under docket HS. The receiving clerk will match each wallet to its separate handoff receipt. The working schedule supplies the two bookings; this reminder does not confirm that either handoff occurred."
+    }
+  ],
+  "id": "eval12",
+  "queries": [
+    {
+      "atEvent": "e12",
+      "id": "q1",
+      "question": "Which cassette groups and handoff times does the current Highland sedge working schedule specify?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e09",
+      "id": "q2",
+      "question": "Include previous versions: what whole-batch handoff did the initial Highland sedge working schedule book before the carrier-group amendment?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e10",
+      "id": "q3",
+      "question": "Which current checkout sheet identifies the trolley shared by the sedge and pea batches?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "What viability percentage was measured for the Coastal pea packets?",
+      "scope": "current"
+    }
+  ]
+}

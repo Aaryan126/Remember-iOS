@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev01-q6",
+    "inputSHA256": "21c00fa242b465bbe8ab98a7279fc830c1cb21f6a560e82f38a6e387dd520ffe",
+    "rawSHA256": "98ce2b3ce34e772107ca57661b2947e919d048c0c121ef34050fbecee2a33d68",
+    "requestCount": 1,
+    "reservationSHA256": "55bfc58459872855836d985e771f4d1e74df7479bc25d70533bcc856264a0ff2",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.6771203333337326,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "d285f7d944b892e5f9b527dec5cc17881eda58ec379a18237305639ebe7d7fc3",
+            "quote": "Glass Orchard tour outline: a matinee would require a separate crew call. The outline discusses staffing and travel; it makes no matinee booking or ticket-price decision."
+          }
+        ],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 21512192,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev01-q6"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "70e481a19e1d11997e0d8566db2f7717bebe5003f1c0a1eb2adbfae22ff36e0c"
+}

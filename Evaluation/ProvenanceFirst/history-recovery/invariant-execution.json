@@ -1,0 +1,23 @@
+{
+  "batchSHA256": "7032f341ed3c7fa3703b4fc28ae7153ae5e0591170c407182c29600745e51ba6",
+  "bindingsSHA256": "b3fecaf5a6829f53ac1493cd81231fde9353ea3a8cff6684944772ced6e6b329",
+  "command": [
+    "xcrun",
+    "simctl",
+    "launch",
+    "--console",
+    "C530FCC2-DD67-4115-97D9-C4E34807EC57",
+    "SimpleStudio.Remember.HistoryRecoveryProbe",
+    "--input",
+    "/Users/aaryan/Library/Developer/CoreSimulator/Devices/C530FCC2-DD67-4115-97D9-C4E34807EC57/data/Containers/Data/Application/60847DDE-0450-4C67-9B06-8B5DFC763A71/Documents/HistoryRecovery/7032f341ed3c7fa3703b4fc28ae7153ae5e0591170c407182c29600745e51ba6.json",
+    "--output",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/history-recovery/output",
+    "--max-runs",
+    "1",
+    "--invariants"
+  ],
+  "outputs": {
+    "Evaluation/ProvenanceFirst/runs/history-recovery/output/history-invariants.json": "9cdc231821f2374fa787d23f1d083e458e9bd4cb2519072a928e8c6b433ddad2",
+    "Evaluation/ProvenanceFirst/runs/history-recovery/output/invariants.receipt.json": "3afb019c47d07709f0967fe2cd25422dfdd44b47d841e80d6c37a2797630f178"
+  }
+}

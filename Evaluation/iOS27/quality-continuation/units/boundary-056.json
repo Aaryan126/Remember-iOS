@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-056/raw.json",
+  "rawSHA256": "106ad403789bf215258a7da23aa3b351b2ed9e76d8aad52e82bd1f79d2fdd307",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.270043666670972,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.375004548113793e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21915883333713282,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2692527500039432,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27034895833639894,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.2688570833342965,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "8c086aceda0b4610eba68c2205fd1b594210e40bbf34dfd760c024caf5b0b788",
+      "contextSize": 4096,
+      "generationSeconds": 3.9978057499974966,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Prototype machining, load tests and drawing approval are one engineering commission for the latch.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The hinge uses the latch's alloy and test rig, but its drawings and acceptance are for a separate product commission, not the folding-ladder redesign.",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources describe distinct product commissions: the latch redesign and a toolbox hinge, with no shared engineering commission or continuity.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-056"
+  }
+}

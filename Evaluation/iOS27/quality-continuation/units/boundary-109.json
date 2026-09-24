@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-109/raw.json",
+  "rawSHA256": "6459a12b02e02bd54bdefcbe2c4d55c4d1b60ac8e070cd5c4f03feddfaefa0b0",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.94678654166637,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.583329427987337e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22365287499997066,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27198166666494217,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27299154166394146,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.94462254166865,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "fd3a80f316f175ea05d584bf85f5a7cbd4f89711219b63856c15659cfd1d235e",
+      "contextSize": 4096,
+      "generationSeconds": 4.671021000001929,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The editorial message approving 'the revised travel-book proofs' was for the Spanish edition, now 'Paths by Water'.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "'The revised travel-book proofs' approval connects the Spanish contract (s01) to the renamed edition (s05), confirming continuity.",
+        "verdict": "same_project"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-109"
+  }
+}

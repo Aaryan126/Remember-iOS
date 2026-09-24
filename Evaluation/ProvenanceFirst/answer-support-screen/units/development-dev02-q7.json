@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev02-q7",
+    "inputSHA256": "7ba2a5d3a560c9666fdb156c673733f8604c73d67f4317862169654f185ea301",
+    "rawSHA256": "2a0632e467ac53a2b7e02e53a76ed813fe7ed108a4d953666a9f3284db5465bf",
+    "requestCount": 1,
+    "reservationSHA256": "6b4883dd59f5b118e7abaac5d7413943c76c279005beacb76612e81660764a60",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.9020108749973588,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Mossbridge 7",
+        "evidence": [
+          {
+            "candidateID": "cf9714da3b7e30cbfc51a737c3b4f6cd4513b21d46ba6afe19849d6a629ce265",
+            "quote": "Rill-62 collection envelope: collector's field identifier Mossbridge 7. This envelope will be retired after accessioning; it is not a seed-count certificate."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21266432,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev02-q7"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "bb3f9305660e5cdd1cb9a5a628b1509a5ffab56e055c598c2c312c8598b98d5c"
+}

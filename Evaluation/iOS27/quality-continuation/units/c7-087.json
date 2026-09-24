@@ -1,0 +1,64 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-087/raw.json",
+  "rawSHA256": "6ddde0d2e5bbb6b7dd9a699a7e0010457847bcb7fc295fd3e015cad0aac55b40",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.327766875001544,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.333335138857365e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21552425000118092,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2643086250027409,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2653045416736859,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.326313625002513,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "d7c5b54bb9a49e948b18b8e3fe504115b657c9a35c4f426c7cc1a99b56d9cb5c",
+      "contextSize": 4096,
+      "generationSeconds": 4.060410916667024,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Export mapping, rehearsal imports and cutover support belong to this migration engagement.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The access-revocation investigation has its own incident owner and closure criteria, outside the appointment-database migration.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Support note: Marble Desk says the fix worked after the restart. We can close it.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference distinct incidents unrelated to the ",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-087"
+  }
+}

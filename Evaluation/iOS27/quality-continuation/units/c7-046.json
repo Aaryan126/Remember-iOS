@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-046/raw.json",
+  "rawSHA256": "4156dcce82a9f14b89384496a76ab3bffbb3e879f156da9b09645cb490aedde6",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.7950004166632425,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.666667907964438e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3187967916674097,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.36874179166625254,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3697362916645943,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.7936285416653845,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "7e370d167d1972b4743d749de96c2a819929a59cc72f96184900b3051c0cf6af",
+      "contextSize": 4096,
+      "generationSeconds": 3.423298125002475,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal radio commissioned an oral-history episode about the harbour night shift. Record the dock workers, edit their interviews and clear the music for this episode.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Voice memo: The producer approved that harbour segment. Send the clean version tonight.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference the ",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-046"
+  }
+}

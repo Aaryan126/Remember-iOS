@@ -1,0 +1,68 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-024/raw.json",
+  "rawSHA256": "93fc9db84f9e224e9b7b1195115bfc26af3269ee51dca9e73c1495e6b18d90e7",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.5898367916670395,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.333335138857365e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21754758333554491,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26318495833402267,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2643709583353484,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.588591666666616,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "40c23333854b2d11c5768dc184f1192e3fd66243fd466ba9aaf8d59b07ee0200",
+      "contextSize": 4096,
+      "generationSeconds": 4.323466833331622,
+      "output": {
+        "evidence": [
+          {
+            "quote": "the access-revocation investigation has its own incident owner and closure criteria, outside the appointment-database migration",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Support note: Marble Desk says the fix worked after the restart. We can close it.",
+            "sourceID": "s05"
+          },
+          {
+            "quote": "The support note 'the fix worked after the restart' refers to the appointment migration's mapping fault and successful import. It does not resolve the access-revocation incident.",
+            "sourceID": "s06"
+          },
+          {
+            "quote": "Export mapping, rehearsal imports and cutover support belong to this migration engagement.",
+            "sourceID": "s01"
+          }
+        ],
+        "rationale": "Source s02 links to access-revocation investigation outside the migration, while s05 and s06 reference the migration's mapping fix, showing distinct project scopes.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-024"
+  }
+}

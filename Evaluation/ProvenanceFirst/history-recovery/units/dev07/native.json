@@ -1,0 +1,682 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b1b2e46e4efb14c9f4637b74fc0e7e7d050d7ace3a755fa000450d5eb77de999"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Glacier instrument kit packing, original manifest: allocate three rigid sample cases to the east sled. This fictional field exercise tracks packed instruments and their containers. Spare mittens are personal equipment and will not be counted in the instrument manifest."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b1b2e46e4efb14c9f4637b74fc0e7e7d050d7ace3a755fa000450d5eb77de999"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "pdf",
+        "text": "Glacier marker photography survey will repeat photographs of five artificial marker poles on a simulated ice course. The instrument-packing group is lending transport space, not conducting our photographs. Save viewpoints and marker labels in this survey record."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b1b2e46e4efb14c9f4637b74fc0e7e7d050d7ace3a755fa000450d5eb77de999"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0b7136d6890cbe01ecfc74c049ccdb27b422cea6816d53f81883bd2db72bc241"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "Shared sled allocation for glacier instrument kit packing and the glacier marker photography survey: camera bags travel under the blue cover while instrument cases use the exposed rack. Both teams will verify strap access before loading; each keeps its own equipment inventory."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "4ec484b4c0137ddd6beb574a659019654706d478524da77f4d36a5fbdc7b24fb"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0b7136d6890cbe01ecfc74c049ccdb27b422cea6816d53f81883bd2db72bc241"
+        }
+      },
+      "id": "e04",
+      "kind": "revise",
+      "target": "localc01",
+      "text": "Glacier instrument kit packing, revised manifest: allocate two rigid sample cases to the east sled. The third case has been replaced by a soft accessory pouch after the practice weigh-in. The pouch still belongs to the instrument kit and requires its own label."
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "4ec484b4c0137ddd6beb574a659019654706d478524da77f4d36a5fbdc7b24fb"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0b7136d6890cbe01ecfc74c049ccdb27b422cea6816d53f81883bd2db72bc241"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "654ff44f88e7006eb6f831eac9b20a09e2321d3b4e017b54584564f42aa3442d"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "voice",
+        "text": "Marker photography survey setup: marker M3 must be photographed from the orange tripod spot. The frame should include its entire label, even if that leaves more empty background. This instruction records a repeatable viewpoint rather than a change to the shared sled allocation."
+      }
+    },
+    {
+      "assignments": [
+        "t:c05"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "4ec484b4c0137ddd6beb574a659019654706d478524da77f4d36a5fbdc7b24fb"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0b7136d6890cbe01ecfc74c049ccdb27b422cea6816d53f81883bd2db72bc241"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "654ff44f88e7006eb6f831eac9b20a09e2321d3b4e017b54584564f42aa3442d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "58c62feda69e2078af0b2f0be49728c38134774c0b29306127781a2c49c45e10"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "image",
+        "text": "Packing-bench note: 'Take the spare, leave the tall one.' Two item names are covered by a coffee stain. Nothing visible identifies a marker, instrument or container. The note might concern personal clothing, so it has no confirmed project placement yet."
+      }
+    },
+    {
+      "assignments": [
+        "t:c06"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "4ec484b4c0137ddd6beb574a659019654706d478524da77f4d36a5fbdc7b24fb"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0b7136d6890cbe01ecfc74c049ccdb27b422cea6816d53f81883bd2db72bc241"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "654ff44f88e7006eb6f831eac9b20a09e2321d3b4e017b54584564f42aa3442d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "58c62feda69e2078af0b2f0be49728c38134774c0b29306127781a2c49c45e10"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ee88f6be93c3cb0fbf4c82074b67323713173e712ea5939eebd0ea702c21b719"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "link",
+        "text": "A camera battery guide is background reading for the glacier marker photography survey. The chart compares fictional cold-chamber trials, not our kit's measured endurance. Our survey has not yet recorded how long either camera battery lasts on the simulated course."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "4ec484b4c0137ddd6beb574a659019654706d478524da77f4d36a5fbdc7b24fb"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0b7136d6890cbe01ecfc74c049ccdb27b422cea6816d53f81883bd2db72bc241"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "654ff44f88e7006eb6f831eac9b20a09e2321d3b4e017b54584564f42aa3442d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "58c62feda69e2078af0b2f0be49728c38134774c0b29306127781a2c49c45e10"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ee88f6be93c3cb0fbf4c82074b67323713173e712ea5939eebd0ea702c21b719"
+        }
+      },
+      "id": "e08",
+      "kind": "correct",
+      "target": "localc05"
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "4ec484b4c0137ddd6beb574a659019654706d478524da77f4d36a5fbdc7b24fb"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0b7136d6890cbe01ecfc74c049ccdb27b422cea6816d53f81883bd2db72bc241"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "654ff44f88e7006eb6f831eac9b20a09e2321d3b4e017b54584564f42aa3442d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "58c62feda69e2078af0b2f0be49728c38134774c0b29306127781a2c49c45e10"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ee88f6be93c3cb0fbf4c82074b67323713173e712ea5939eebd0ea702c21b719"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6aa8770a66ef15859930c7fa43766f675e88a76edd9e81c28fb09b4eff347398"
+        }
+      },
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "pdf",
+        "text": "Glacier instrument kit packing weigh-in slip: the empty east sled weighs 6.2 kg. This excludes all containers, covers and straps. The slip is a measurement of the transport base and cannot be used as the final load weight."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "a406308449bba21d61c46e31159dbc0caf5d6341d04f6e34d657bf9bcc4e849b"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0b7136d6890cbe01ecfc74c049ccdb27b422cea6816d53f81883bd2db72bc241"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "654ff44f88e7006eb6f831eac9b20a09e2321d3b4e017b54584564f42aa3442d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "58c62feda69e2078af0b2f0be49728c38134774c0b29306127781a2c49c45e10"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ee88f6be93c3cb0fbf4c82074b67323713173e712ea5939eebd0ea702c21b719"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6aa8770a66ef15859930c7fa43766f675e88a76edd9e81c28fb09b4eff347398"
+        }
+      },
+      "id": "e10",
+      "kind": "revise",
+      "target": "localc01",
+      "text": "Glacier instrument kit packing, final practice manifest: allocate one rigid sample case to the east sled. A second soft pouch now holds the nonfragile accessories. Keep the rigid case nearest the tow end; the empty sled's weigh-in is recorded separately."
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "a406308449bba21d61c46e31159dbc0caf5d6341d04f6e34d657bf9bcc4e849b"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0b7136d6890cbe01ecfc74c049ccdb27b422cea6816d53f81883bd2db72bc241"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "654ff44f88e7006eb6f831eac9b20a09e2321d3b4e017b54584564f42aa3442d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "58c62feda69e2078af0b2f0be49728c38134774c0b29306127781a2c49c45e10"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ee88f6be93c3cb0fbf4c82074b67323713173e712ea5939eebd0ea702c21b719"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6aa8770a66ef15859930c7fa43766f675e88a76edd9e81c28fb09b4eff347398"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a83b25f37a3db654961ea02c90a88265faa6487d4aa2d326c5da5c86f5f83a06"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "image",
+        "text": "Glacier marker photography survey contact sheet: M2 has a blurred label and needs a repeat image. The neighboring M1 frame is legible. The accidental picture of a lunch flask carries no marker information and can be ignored during viewpoint comparison."
+      }
+    },
+    {
+      "assignments": [
+        "t:c09"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "a406308449bba21d61c46e31159dbc0caf5d6341d04f6e34d657bf9bcc4e849b"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0b7136d6890cbe01ecfc74c049ccdb27b422cea6816d53f81883bd2db72bc241"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "654ff44f88e7006eb6f831eac9b20a09e2321d3b4e017b54584564f42aa3442d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "58c62feda69e2078af0b2f0be49728c38134774c0b29306127781a2c49c45e10"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ee88f6be93c3cb0fbf4c82074b67323713173e712ea5939eebd0ea702c21b719"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6aa8770a66ef15859930c7fa43766f675e88a76edd9e81c28fb09b4eff347398"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a83b25f37a3db654961ea02c90a88265faa6487d4aa2d326c5da5c86f5f83a06"
+        },
+        "localc09": {
+          "archived": false,
+          "memberships": [
+            "t:c09"
+          ],
+          "revision": 0,
+          "textSHA256": "c294cd8e338838b106d04c43e49c1522b54397b1d6fe29ef6ec1c25ed1765f10"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc09",
+        "modality": "note",
+        "text": "Personal trip reminder: replace the zipper pull on the old green bag. The repair does not involve the simulated glacier field equipment or the camera survey. A paper receipt is in the bag's inner pocket beside a bus ticket."
+      }
+    }
+  ],
+  "id": "history-dev07-chronological",
+  "queries": [
+    {
+      "afterEvent": "e06",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e06",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

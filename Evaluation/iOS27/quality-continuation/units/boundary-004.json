@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-004/raw.json",
+  "rawSHA256": "e671337136ae4f72832364b6f6cb1278c74ea2293a337abf983c266ef635a386",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 6.04767812499631,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.333334800321609e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22652599999855738,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.33694620833557565,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.33853950000047917,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 6.046254499997303,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "1183f2dc8fbc692c392d04e0a1157f0eb8a719cdee769b4da626f73a8a4bb23b",
+      "contextSize": 4096,
+      "generationSeconds": 5.707220124997548,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Morrow Works is restoring the slate roof of Northgate Library. Survey, scaffold hire, slate replacement and final leak inspection are one roof-restoration contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Site voice note: The defect at Northgate is corrected. Ask the inspector to return tomorrow.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources mention Northgate Library but describe distinct tasks\u2014roof restoration versus defect correction\u2014without shared deliverables or corrective continuity.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-004"
+  }
+}

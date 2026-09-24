@@ -1,0 +1,43 @@
+{
+  "command": [
+    "xcodebuild",
+    "-project",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/embedding-recovery-v2/build/CompatibilityProbe.xcodeproj",
+    "-scheme",
+    "CompatibilityProbe",
+    "-destination",
+    "generic/platform=iOS",
+    "-derivedDataPath",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/embedding-recovery-v2/build/device-build",
+    "-disableAutomaticPackageResolution",
+    "-skipPackageUpdates",
+    "build",
+    "-quiet"
+  ],
+  "platform": "phone",
+  "returnCode": 0,
+  "sources": {
+    "Evaluation/AppMatcher/parity-inputs.json": "0ee555e86b0d55476c5544ae0692e8a963148aff9a7a726a7a34207ebc9396e8",
+    "Remember/Remember.xcodeproj/project.pbxproj": "09ae2f64d00fb716d93a43bfbde192a20efb50314b4c05879057120e3c27d498",
+    "Remember/Remember/D3Features.swift": "c8411b142c75114c7f3ac9a1304fd6f5a3da996f1810fe48afcff3a791044a36",
+    "Remember/Remember/D3OrganizationPolicy.swift": "906170c3d6a2f00d4821a7f7e474111f402153f68814406bb9825a08fe334608",
+    "Remember/Remember/D3PairMatcher.swift": "f081f369f021d3e2ead38191a5e4b2612d75fd482715bb9531efa346f0b1af57",
+    "Remember/Remember/D3Tokenizer.swift": "f0fb9064f307b580804076e42feaf48a95f8a23e90b7d7fdf7457048a1c6999f",
+    "Remember/Remember/MatcherAssets/D3Matcher.mlpackage/Data/com.apple.CoreML/model.mlmodel": "ddcb20d305f4ce74eb9837ea20585906cee807273ce75a94c9b5b785a672f5e9",
+    "Remember/Remember/MatcherAssets/D3Matcher.mlpackage/Data/com.apple.CoreML/weights/weight.bin": "2c0cfb576c006959aaa28003b1cea3ca1fcd851caf9614f4f840c15c9a23e698",
+    "Remember/Remember/MatcherAssets/D3Matcher.mlpackage/Manifest.json": "427e6d4a0745373fba9779e53c0aa493585abfe0e4ace5cb83ca32fec35189fa",
+    "Remember/Remember/MatcherAssets/D3ModelNotice.txt": "cd5f9311ed67f26f2c0f1e7bc8b689ac93d8e62f9526aa59cb94fedf840c2f37",
+    "Remember/Remember/MatcherAssets/D3Parameters.json": "4628fb5f6feddb512cce1f66efb729d5893bc92bbb8d3864dbffa20c08a46dec",
+    "Remember/Remember/MatcherAssets/D3Vocabulary.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "Remember/Remember/ProjectIntelligence.swift": "af97a2f30c5165753afa6def75874ba26594e031240c55dc75b158ab6668caf1",
+    "Remember/RememberTests/SentenceModelRecoveryTests.swift": "ba9db4fa85d5ae58ce31605630a2bf3aac8c10e22bec62e01ce52e9b176aa793",
+    "scripts/ios27-embedding-recovery-v2/run.py": "b16d3d70dce24eef0ab185597e8662de4e13ef32c3192e40b54b975fd60dee8c",
+    "scripts/ios27-embedding-recovery/run.py": "b9b575c8cf9b425f725166797e187d13db78bd9510d1c85c87060516fea2fbd6",
+    "scripts/ios27-evaluation/CompatibilityProbe.swift": "8f786ac2a51f1cc3ba697e708fa6bf766bc34479f102118d4d2ff4f780bd339c",
+    "scripts/ios27-evaluation/project.pbxproj.template": "71b3f27e8ff3d168e17862dc31ef675dc9b33cd181cb19412df12ee6149d9c34",
+    "scripts/ios27-evaluation/run.py": "9f480c0d6cd729248cc4395346e77ca150db56c0575859801b22ed651d502fdb",
+    "scripts/ios27-evaluation/test_runner.py": "983777ee6747bb4a04840a5ce2de9ec9dc2592321a3df16a1a84eae0381c2a36"
+  },
+  "stderr": "2026-09-16 11:40:46.578 xcodebuild[25264:353906] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.\n",
+  "stdout": "error: the following command failed with exit code 0 but produced no further output\nSwiftCompile normal arm64 /Users/aaryan/Desktop/Gemini\\ Hackathon/Evaluation/iOS27/embedding-recovery-v2/build/Sources/ProductionEmbedding.swift (in target 'CompatibilityProbe' from project 'CompatibilityProbe')\n/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/embedding-recovery-v2/build/Sources/ProductionEmbedding.swift:80:28: warning: consider using asynchronous alternative function\n 78 |             if assetRequests[contextual.modelIdentifier].map({ Date().timeIntervalSince($0) >= 300 }) ?? true {\n 79 |                 assetRequests[contextual.modelIdentifier] = Date()\n 80 |                 contextual.requestAssets { result, _ in\n    |                            `- warning: consider using asynchronous alternative function\n 81 |                     if result == .available {\n 82 |                         NotificationCenter.default.post(name: ProjectPreferences.embeddingsAvailable, object: nil)\n\n/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk/System/Library/Frameworks/NaturalLanguage.framework/Headers/NLContextualEmbedding.h:203:1: note: 'requestAssets()' declared here\n201 | /// You use a contextual embedding after loading the necessary assets onto the device. Use ``NLContextualEmbedding/hasAvailableAssets`` to determine whether assets are available.\n202 | /// This method returns immediately if the framework knows the state of the assets or if an error occurs.\n203 | - (void)requestEmbeddingAssetsWithCompletionHandler:(void (^)(NLContextualEmbeddingAssetsResult result, NSError * _Nullable error))completionHandler;\n    | `- note: 'requestAssets()' declared here\n204 | \n205 | @end\nerror: the following command failed with exit code 0 but produced no further output\nSwiftCompile normal arm64 /Users/aaryan/Desktop/Gemini\\ Hackathon/Evaluation/iOS27/embedding-recovery-v2/build/Sources/CompatibilityProbe.swift (in target 'CompatibilityProbe' from project 'CompatibilityProbe')\n/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/embedding-recovery-v2/build/Sources/CompatibilityProbe.swift:104:26: warning: 'init(sampling:temperature:maximumResponseTokens:)' is deprecated: replaced by 'init(samplingMode:temperature:maximumResponseTokens:)' [#DeprecatedDeclaration]\n102 |             let response = try await session.respond(to: \"Fictional receipt code: ORBIT-27.\",\n103 |                 generating: CompatibilityCode.self,\n104 |                 options: GenerationOptions(sampling: .greedy, maximumResponseTokens: 100))\n    |                          |- warning: 'init(sampling:temperature:maximumResponseTokens:)' is deprecated: replaced by 'init(samplingMode:temperature:maximumResponseTokens:)' [#DeprecatedDeclaration]\n    |                          `- note: use 'init(samplingMode:temperature:maximumResponseTokens:)' instead\n105 |             return [\"code\": response.content.code, \"passed\": response.content.code == \"ORBIT-27\",\n106 |                     \"generationSeconds\": ProcessInfo.processInfo.systemUptime - start,\n\n[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>\n"
+}

@@ -1,0 +1,20 @@
+{
+  "command": [
+    "xcodebuild",
+    "-project",
+    "Evaluation/iOS27/safeguards/build/Remember.xcodeproj",
+    "-scheme",
+    "Safeguards",
+    "-destination",
+    "id=00008150-000A123A2EC0C01C",
+    "-derivedDataPath",
+    "Evaluation/iOS27/safeguards/build/derived",
+    "-disableAutomaticPackageResolution",
+    "-skipPackageUpdates",
+    "build-for-testing",
+    "-quiet"
+  ],
+  "returnCode": 65,
+  "stderr": "** TEST BUILD FAILED **\n\n",
+  "stdout": "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/safeguards/build/Remember.xcodeproj: error: Signing for \"RememberTests\" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'RememberTests' from project 'Remember')\n"
+}

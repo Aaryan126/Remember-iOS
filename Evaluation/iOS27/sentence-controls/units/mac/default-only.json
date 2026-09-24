@@ -1,0 +1,49 @@
+{
+  "rawPath": "Evaluation/iOS27/sentence-controls/attempts/mac/default-only/raw.json",
+  "rawSHA256": "a4f64588dae7245a69e8078fe1ac9c62c0c8bda24f3bbb20235d3960cbe1f826",
+  "result": {
+    "os": "Version 27.0 (Build 26A428)",
+    "result": {
+      "assetDownloadRequested": false,
+      "observations": [
+        {
+          "call": "defaultFirst",
+          "model": {
+            "available": true,
+            "dimension": 512,
+            "finite": true,
+            "revision": 1,
+            "vectorCount": 512,
+            "vectorNorm": 6.080051120251058
+          }
+        },
+        {
+          "call": "defaultSecondImmediate",
+          "model": {
+            "available": true,
+            "dimension": 512,
+            "finite": true,
+            "revision": 1,
+            "vectorCount": 512,
+            "vectorNorm": 6.080051120251058
+          }
+        },
+        {
+          "call": "defaultAfterTwoSeconds",
+          "model": {
+            "available": true,
+            "dimension": 512,
+            "finite": true,
+            "revision": 1,
+            "vectorCount": 512,
+            "vectorNorm": 6.080051120251058
+          }
+        }
+      ]
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "default-only"
+  }
+}

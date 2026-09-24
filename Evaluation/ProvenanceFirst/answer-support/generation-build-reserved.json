@@ -1,0 +1,51 @@
+{
+  "command": [
+    "xcrun",
+    "swiftc",
+    "-parse-as-library",
+    "-O",
+    "-module-cache-path",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/generation-build/module-cache",
+    "/Users/aaryan/Desktop/Gemini Hackathon/scripts/provenance-first/answer-support/AnswerSupportProbe.swift",
+    "-o",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/generation-build/answer-support-probe"
+  ],
+  "controlsSHA256": "ed5bd3188b9a30e960818e2eac677e0d19e5e0682c8ffe14224ea91ef72620c4",
+  "instructionsSHA256": "23da74ac2f47d53cafd20ba06bc0579984c36eb9fd2ea0f99e91c3387cb761bf",
+  "readinessSHA256": "55cf27e7f3cf65c810eec32a3cc5922ab188c9022289ad9797c439854d27481e",
+  "runtime": {
+    "availability": "available",
+    "contextSize": 8192,
+    "os": "Version 27.0 (Build 26A428)"
+  },
+  "schema": {
+    "answerMaximum": 160,
+    "cancellationGraceSeconds": 2,
+    "evidenceMaximum": 3,
+    "fields": [
+      "verdict",
+      "answer",
+      "evidence"
+    ],
+    "hostDeadlineSeconds": 75,
+    "maximumResponseTokens": 768,
+    "nativeDeadlineSeconds": 60,
+    "quoteMaximum": 480,
+    "quoteMinimum": 4,
+    "sampling": "greedy",
+    "verdicts": [
+      "conflicting",
+      "explicit_missing",
+      "not_established",
+      "supported"
+    ]
+  },
+  "schemaSHA256": "28fb1c9612336d29b7ab6eee389acca246ccf1908dccb62682f981cc2617d040",
+  "sourceHashes": {
+    "scripts/provenance-first/answer-support/AnswerSupportProbe.swift": "f7bb135e3d74a365c2cf3fc5fab66ab68bdac59886e0b367c278abc271f5bc3d",
+    "scripts/provenance-first/answer-support/as_control.py": "c7bb369404aa26def81a8b8f96d983b7c6da2c3e9cb8d892bf3ce50f63712626",
+    "scripts/provenance-first/answer-support/as_generation.py": "3e3b92da58379738ac7556853ad0c2df55b254b3489b4f0f6fecdf10de3efd33",
+    "scripts/provenance-first/answer-support/as_native.py": "075a509083bca4863143f5776eb66c7fbbe969594347b47028b98f030f5987fd",
+    "scripts/provenance-first/answer-support/as_policy.py": "c1e0021220dbebd8f982d616acfecca44709f461ad22f923aaaf3b57e0ba859c"
+  }
+}

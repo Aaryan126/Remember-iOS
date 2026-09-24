@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-017/raw.json",
+  "rawSHA256": "f71be8f43030309007b5e1465f59c3158b2c229350989829646c2d56e00cf249",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.256753583329555,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.749999450519681e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.32151616666669725,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37369337499694666,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3746696666639764,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.25572262499918,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "30ab125b06ef113ef4416367afe1927307831c42c13ab77729a249017b8e652f",
+      "contextSize": 4096,
+      "generationSeconds": 2.8803797500004293,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal radio commissioned an oral-history episode about the harbour night shift.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Studio booking covers both Pine Signal programmes: mix 'When the Quay Sleeps' in the morning and record the harbour weather bulletin afterward.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention Pine Signal but describe distinct tasks without shared project linkage.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-017"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "K2 maintenance notebook, opening",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Kiln K2 controller maintenance starts after intermittent relay chatter during an empty warmup. Record service observations against the controller serial label. The next glaze firing may provide a witness run, but glaze recipes are outside this maintenance notebook."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Tile catalog brief, page 1",
+      "modality": "pdf",
+      "sourceId": "s02",
+      "text": "Ash glaze tile catalog will photograph and label the studio's twelve test tiles. We need repeatable firing records before assigning color descriptions. The K2 maintenance crew may use the same firing to check its controller, without taking ownership of our glaze comparisons."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "First fault ticket OCR",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "Kiln K2 controller maintenance, first fault ticket: relay R2 clicked six times during the empty warmup. A pencil sketch shows the lower terminal position. This ticket records the initial symptom only; it contains no diagnosis or authorization to replace a component."
+    },
+    {
+      "id": "e04",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Witness firing W plan",
+      "modality": "note",
+      "sourceId": "s04",
+      "text": "Kiln K2 controller maintenance and the ash glaze tile catalog will share witness firing W. Place a numbered witness cone beside the tile rack and log its bend before unloading. The maintenance result and glaze appearance must still be recorded as separate outcomes."
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Unlabeled bench clip, 00:04–00:12",
+      "modality": "voice",
+      "sourceId": "s05",
+      "text": "Audio from the bench: 'The lower one did it again, just after the red light.' A fan obscures the remaining words. There is no kiln number, firing identifier or speaker introduction, so the clip cannot yet be attached to a particular job."
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Tile A7 catalog OCR",
+      "modality": "photo",
+      "sourceId": "s06",
+      "text": "Ash glaze tile catalog entry for tile A7: the upper face is olive with a narrow amber rim. This is a visual description, not a firing-temperature reading. The reverse carries the same stamped tile identifier as the catalog photograph."
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Maintenance update, second entry",
+      "modality": "note",
+      "sourceId": "s07",
+      "text": "Kiln K2 controller maintenance update: the replacement terminal clamp is fitted; the next check is a cold continuity measurement. Do not confuse that pending check with a completed firing test. The spare relay remains boxed on the labeled shelf."
+    },
+    {
+      "assignedProjectRoots": [
+        "s01"
+      ],
+      "id": "e09",
+      "kind": "correct",
+      "reason": "I recorded the bench clip during K2 controller maintenance. File it there; the obscured words cannot be recovered.",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Fictional service handbook, example 3",
+      "modality": "link",
+      "sourceId": "s08",
+      "text": "Relay service handbook excerpt saved as background for kiln K2 controller maintenance. A loose terminal can imitate a relay failure. The handbook's example is a classroom training circuit; it does not diagnose the relay in our studio kiln."
+    },
+    {
+      "id": "e11",
+      "kind": "restore",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e12",
+      "kind": "archive",
+      "sourceId": "s03"
+    }
+  ],
+  "id": "dev04",
+  "queries": [
+    {
+      "atEvent": "e08",
+      "id": "q1",
+      "question": "Find the archived first K2 fault ticket: how many clicks did it record for relay R2?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e08",
+      "id": "q2",
+      "question": "Which kiln is identified by the unlabeled bench clip?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "Which check is still next in the current K2 maintenance update?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "What placement instruction belongs to the shared witness firing W?",
+      "scope": "current"
+    }
+  ]
+}

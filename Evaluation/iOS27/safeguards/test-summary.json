@@ -1,0 +1,41 @@
+{
+  "devicesAndConfigurations": [
+    {
+      "device": {
+        "architecture": "arm64e",
+        "modelName": "iPhone 17",
+        "osBuildNumber": "24A437",
+        "osVersion": "27.0",
+        "platform": "iOS"
+      },
+      "expectedFailures": 0,
+      "failedTests": 0,
+      "passedTests": 23,
+      "skippedTests": 0,
+      "testPlanConfiguration": {
+        "configurationId": "1",
+        "configurationName": "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription": "Safeguards \u00b7 Built with macOS 27.0",
+  "expectedFailures": 0,
+  "failedTests": 0,
+  "finishTime": 1789531533.312,
+  "passedTests": 23,
+  "result": "Passed",
+  "runtimeWarnings": [],
+  "skippedTests": 0,
+  "startTime": 1789531527.382,
+  "statistics": [],
+  "testFailures": [],
+  "title": "Test - Safeguards",
+  "topInsights": [
+    {
+      "category": "Longest Test Runs",
+      "impact": "58% of duration",
+      "text": "1 longest test run with outlier durations exceeding 0.14s (three standard deviations)"
+    }
+  ],
+  "totalTestCount": 23
+}

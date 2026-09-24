@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Inspection notebook, opening entry",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Morrow cable span inspection covers the exposed cable between markers M8 and M11. This season's job is to photograph abrasion rather than replace the cable. The vessel book keeps port arrangements separate from seabed observations."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Pelican work order, page 1",
+      "modality": "pdf",
+      "sourceId": "s02",
+      "text": "Pelican spur inspection follows the short eastern branch beyond the junction box. A small camera sled will check the new protective sleeve. Its route and completion sign-off remain separate from the Morrow span inspection."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Extracted pass-card lettering, front",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "The withdrawn Morrow pass card placed the first camera descent at marker M9. The handwritten margin says to approach from the sandy side because the rocky side obscures the sheath. It contains no water-depth measurement."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Extracted harbor briefing, 00:12–00:31",
+      "modality": "voice",
+      "sourceId": "s04",
+      "text": "Morrow cable span inspection and Pelican spur inspection share the port departure slot at 06:40. One deck briefing serves both crews, but their underwater tracks stay separate. The galley request for tea does not change the departure slot."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Extracted loose scrap, surviving center",
+      "modality": "photo",
+      "sourceId": "s05",
+      "text": "Box two needs a fresh seal before boarding. The scrap is unsigned and carries no route, vessel name, or cable identifier. A coffee ring covers what might once have been a job number; the remaining characters read only 'B-'."
+    },
+    {
+      "assignedProjectRoots": [
+        "s02"
+      ],
+      "id": "e06",
+      "kind": "correct",
+      "reason": "File my unsigned box-two seal scrap with Pelican spur inspection; I wrote it for that camera box.",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e07",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Fictional training page, glare paragraph",
+      "modality": "link",
+      "sourceId": "s06",
+      "text": "A training leaflet about camera glare may help Morrow cable span inspection. Its demonstration cable is in a tank at a different harbor, and none of its example marker numbers identify our survey. Treat the leaflet as technique background."
+    },
+    {
+      "id": "e09",
+      "kind": "archive",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e10",
+      "kind": "restore",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Extracted deck demonstration, 01:03–01:20",
+      "modality": "video",
+      "sourceId": "s07",
+      "text": "Morrow cable span inspection now uses a green tie on the camera tether to mark the turnaround point. This is a deck-handling cue, not a measured seabed coordinate. Leave the unmarked spare tether in the locker."
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Extracted cabin notice, whole text",
+      "modality": "photo",
+      "sourceId": "s08",
+      "text": "The cabin notice asks passengers to return enamel mugs before docking. It gives the washing-up rota and a drawing of the mug shelf. There are no cable identifiers, survey actions, or equipment assignments on the notice."
+    }
+  ],
+  "id": "eval01",
+  "queries": [
+    {
+      "atEvent": "e12",
+      "id": "q1",
+      "question": "In the current Morrow inspection material, what tether cue marks the turnaround point?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e08",
+      "id": "q2",
+      "question": "Include archived material: on the withdrawn Morrow pass card, which marker was specified for the first camera descent?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e10",
+      "id": "q3",
+      "question": "Which current briefing gives the shared port departure time for Morrow and Pelican?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e05",
+      "id": "q4",
+      "question": "Which cable inspection does the unsigned box-two seal scrap belong to, using what is recorded so far?",
+      "scope": "current"
+    }
+  ]
+}

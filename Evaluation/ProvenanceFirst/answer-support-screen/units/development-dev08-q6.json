@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev08-q6",
+    "inputSHA256": "05fb608c100cf3f52b7646fcb66d3a739429c99b0b349fb46eec0805f1084de3",
+    "rawSHA256": "5193dedc3a4d84eecc174a64cd787187660e6962f180db6b45a37675f3ea1ac7",
+    "requestCount": 1,
+    "reservationSHA256": "0f32c59cdfe468301d3e31b5f1716a4dad6582d5aa67c6b280d9e18d021759b5",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 5.650659625011031,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "679535e9b6decd085fe86217ccd9cf634df7164930630b31a8b1c1476bc4dea4",
+            "quote": "For Oriole's earlier trial firing, the peak temperature was never logged; this booking note cannot supply it."
+          },
+          {
+            "candidateID": "628dbb57fed284d2aee5bdb0f392e0ee411712197ec15c71bc7613a783c0b714",
+            "quote": "Heron group trial firing caption: recorded peak temperature 1040 degrees Celsius. This caption describes Heron's run, not Oriole's earlier trial."
+          }
+        ],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 21823488,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev08-q6"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "c363a5545934676947a670ed7a7f89df1edff6c748b8d55cdab59e5b5e53cc44"
+}

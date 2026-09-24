@@ -1,0 +1,37 @@
+{
+  "budgetUnchanged": true,
+  "capBytes": 4294967296,
+  "checkpoint2Complete": false,
+  "developmentExpected": {
+    "embeddings": 117,
+    "neural": 501,
+    "pairs": 501
+  },
+  "developmentUnits": {
+    "embeddings": 117,
+    "neural": 200,
+    "pairs": 0
+  },
+  "evaluationPrepared": false,
+  "failureReceipt": "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/checkpoint2/runs/failures/1789627215336145000.json",
+  "failureSHA256": "0273c4fee2ab3a3ea99a0df352e708f5d5a0507681bd72ac734ee19e876ea702",
+  "freeReserveBytes": 10737418240,
+  "manifestSHA256": "c5944a0a405df956437528c35e42497fea3f5b0df9fba8cfd994ed335cd55be2",
+  "pauseProofSHA256": "47ae1f06371397213b9ff6a1ad694f228daeea9c3bb738777fad45e14fd0b304",
+  "phoneUsed": false,
+  "predictionReceipts": 0,
+  "productionChanged": false,
+  "pythonTestsPassed": 131,
+  "reference": "d3-seed29-mac27-pf2-reference-v1",
+  "resources": {
+    "conservativeGrowthBytes": 4502552576,
+    "externalGrowthBytes": 2284302336,
+    "freeBytes": 40460414976,
+    "scopedBytes": 305229824
+  },
+  "resumeCommand": "'/Users/aaryan/Library/Application Support/RememberMatcherFeasibility/v1/venv/bin/python' -B scripts/provenance-first/checkpoint2/comparison/pc_runner.py cache --resume",
+  "safeToClose": true,
+  "semanticQualityMeasured": false,
+  "status": "paused-resource-limit",
+  "workersStopped": true
+}

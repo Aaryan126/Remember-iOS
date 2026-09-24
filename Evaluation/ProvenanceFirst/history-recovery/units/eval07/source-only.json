@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Lookout walk brief, page 1",
+      "modality": "pdf",
+      "sourceId": "s01",
+      "text": "West escarpment lookout walk is the team's pre-season route check between the lower gate and the lookout platform. The walk records access and sightlines, not fire response orders. Route changes belong in the working route note."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Relay setup log, opening entry",
+      "modality": "note",
+      "sourceId": "s02",
+      "text": "Pine hollow relay setup prepares the portable radio point below the lookout ridge. Its tasks are antenna placement and a short battery check. The relay team keeps its own setup record even when walkers carry a spare battery past the hollow."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Working route note, initial fork choice",
+      "modality": "note",
+      "sourceId": "s03",
+      "text": "For West escarpment lookout walk, take the footpath past the split cedar at the fork. This is the initial scouting route, pending a check of the old steps. The distance box is empty because nobody has measured the path yet."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Extracted morning coordination call, 00:17–00:39",
+      "modality": "voice",
+      "sourceId": "s04",
+      "text": "West escarpment lookout walk and Pine hollow relay setup share the gate key in pouch G2. The walker leaves the pouch with the relay lead after entry. Separate completion notes are still needed for route checking and radio setup."
+    },
+    {
+      "id": "e05",
+      "kind": "revise",
+      "locator": "Working route note, first route amendment",
+      "sourceId": "s03",
+      "text": "For West escarpment lookout walk, take the switchback beside the dry gully at the fork. The old steps on the split-cedar branch have loosened, so this replaces the initial choice. The distance box is still empty."
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Extracted radio check, 00:41–01:03",
+      "modality": "voice",
+      "sourceId": "s05",
+      "text": "During West escarpment lookout walk, the radio operator repeated 'split cedar' while reading yesterday's route card aloud. She then said the card was stale and asked for the amended directions. This recording is a quotation of an old plan, not a new routing instruction."
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Fictional trail-maintenance page, step sketch",
+      "modality": "link",
+      "sourceId": "s06",
+      "text": "A walking-path maintenance note offers background for West escarpment lookout walk. It describes generic timber step wear on another reserve's trail. The sketch is useful for recognising a loose tread, but it says nothing about which local fork to take."
+    },
+    {
+      "id": "e08",
+      "kind": "archive",
+      "sourceId": "s06"
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "locator": "Extracted setup board, battery line",
+      "modality": "photo",
+      "sourceId": "s07",
+      "text": "Pine hollow relay setup recorded the spare battery under the striped cloth beside the mast case. No capacity test result is written here. The note only records where the team put the battery before assembling the antenna support."
+    },
+    {
+      "id": "e10",
+      "kind": "revise",
+      "locator": "Working route note, second route amendment",
+      "sourceId": "s03",
+      "text": "For West escarpment lookout walk, take the marked contour path at the fork. Fresh inspection found a fallen limb across the dry-gully switchback, so the contour path replaces that route. The distance box remains empty pending measurement."
+    },
+    {
+      "id": "e11",
+      "kind": "restore",
+      "sourceId": "s06"
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Extracted platform setup, 00:05–00:19",
+      "modality": "video",
+      "sourceId": "s08",
+      "text": "The lookout platform video records a loose paper map being clipped to the West escarpment lookout walk clipboard. No route lines or distances can be read in the extract. The clip colour is white and the wind repeatedly lifts the paper edge."
+    }
+  ],
+  "id": "eval07",
+  "queries": [
+    {
+      "atEvent": "e12",
+      "id": "q1",
+      "question": "What path does the current West escarpment working route note choose at the fork?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e10",
+      "id": "q2",
+      "question": "Include prior versions: in the initial version of the working route note itself, before either amendment, which path was chosen at the fork?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e09",
+      "id": "q3",
+      "question": "Which current coordination recording identifies the key pouch shared by the lookout walk and relay setup?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "What is the actual length in metres of the currently chosen lookout contour route?",
+      "scope": "current"
+    }
+  ]
+}

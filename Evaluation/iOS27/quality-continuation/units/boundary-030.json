@@ -1,0 +1,64 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-030/raw.json",
+  "rawSHA256": "1c95b144b23d6d4a960940a33fc4e5423bee1dfaaf80db6792fdbe6c35e1fd25",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.951120916666696,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.250003934837878e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22734350000246195,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27692341666988796,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27791004166647326,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.94997079166933,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "55fe3754b4d2c44cd82313f5da8c3c44bbb1cb0753977d5588f2ab529e1aed0a",
+      "contextSize": 4096,
+      "generationSeconds": 4.671465416664432,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Camera placement, volunteer counts and the final population report are deliverables of grant OT-42",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Birchbank's Elm Reach reedbed survey is funded under another grant with its own habitat report. It is not part of the otter census, although volunteers use the same river transects.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Volunteer rota serves two Elm Reach grants: camera checks for the otter census on Tuesday, reed measurements for the reedbed survey on Thursday. Charge each session to its own grant.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Different sources identify distinct surveys\u2014otter census versus reedbed survey\u2014with separate funding and deliverables.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-030"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev03-q5",
+    "inputSHA256": "ad65da7f82d6e6a70e566c49a04427576c72945b70940e2b4547cf3d77841780",
+    "rawSHA256": "5067e872afd3c7dbac8f87eaf5446d2302bbca2c57161b43d1571f9a05e28e7c",
+    "requestCount": 1,
+    "reservationSHA256": "3abb5cfc2e79ccea93409011644cc7cc60bad12b3ba0ae49d7649e4d01df1fec",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 5.240670583341853,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "9cf66b9b3cc0827dfd7eac922aa7d0219dc1ff73d6861890c85abbad25df7fba",
+            "quote": "The rear rim's measured width was left blank because nobody measured it."
+          },
+          {
+            "candidateID": "f220fe8fd070ba05b7032a9e5f2e5230b6a9e8231bd7d8b6cfaa233b3637a536",
+            "quote": "Workshop clip caption, Rowan bicycle: rear rim measured width 24 mm. Rowan is the blue frame on the left, not Juniper."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21561344,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev03-q5"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "4000a143cbd234155d2abccbd1c7a0ee2d1f996d1adb470983ecabbcc47c3d70"
+}

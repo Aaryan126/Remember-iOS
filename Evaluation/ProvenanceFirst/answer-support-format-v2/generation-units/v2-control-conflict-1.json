@@ -1,0 +1,62 @@
+{
+  "bindingSHA256": "2554e088dd236e935782f509f38e96fe74aa8d47155e3f82c2f1fd1fac02a4d9",
+  "payload": {
+    "contentPassed": true,
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "v2-control-conflict-1",
+    "inputSHA256": "57120e6ffb4e33c5629ca0e57d2aaf677b6db59474162fe7db61c4f3bc3b0472",
+    "output": {
+      "answer": "",
+      "evidence": [
+        {
+          "candidateID": "format-v2-source-1",
+          "quote": "The festival opens at 10:30."
+        },
+        {
+          "candidateID": "format-v2-source-2",
+          "quote": "The festival opens at 11:00."
+        }
+      ],
+      "verdict": "conflicting"
+    },
+    "passed": true,
+    "rawSHA256": "e9e27bdfeb001bb6bc8102a3cdec0ecaa86d6afb878c5a0b6327951477ae9e1e",
+    "repeatMatched": null,
+    "requestCount": 1,
+    "reservationSHA256": "f39fa74d75ce325dc62296712d2900e779b00d663cab07d2c7c789dbe12ca7d8",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 2.1507134583371226,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "format-v2-source-1",
+            "quote": "The festival opens at 10:30."
+          },
+          {
+            "candidateID": "format-v2-source-2",
+            "quote": "The festival opens at 11:00."
+          }
+        ],
+        "verdict": "conflicting"
+      },
+      "peakResidentBytes": 21381120,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "v2-control-conflict-1"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "b414feef81d7681069d1a669619f1b70b141781b12e7e96ae24c98e396f2d345"
+}

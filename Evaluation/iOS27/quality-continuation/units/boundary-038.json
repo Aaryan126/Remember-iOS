@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-038/raw.json",
+  "rawSHA256": "35c68e179c406656679a1ca34e2e6888f66d02616961616cf4c0bc872cfa2b2c",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.02363141666865,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.333335138857365e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21667391666414915,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2718368333298713,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27330466666899156,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.022379624999303,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "65590af6a1bc30451a302ccf3477c12315516e7b4f293d07d1b750868d521698",
+      "contextSize": 4096,
+      "generationSeconds": 3.7479821250017267,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Export mapping, rehearsal imports and cutover support belong to this migration engagement",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "the access-revocation investigation has its own incident owner and closure criteria, outside the appointment-database migration",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources describe distinct undertakings: migration and security incident, with no shared project or continuity established.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-038"
+  }
+}

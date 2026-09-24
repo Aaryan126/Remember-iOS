@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev04-q8",
+    "inputSHA256": "137dc70666dcdcc4da732e94362300671ea8db6a98ef2ead839a03c858e8a525",
+    "rawSHA256": "f76a4a150e1e9a116f70b02007b1a23717e6203eb0f72ac0fd371b7720cb6141",
+    "requestCount": 1,
+    "reservationSHA256": "d957d8736edb87a2c354417f39d599de99a5dcbccef131debd6ddb0981e7be89",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.9665299999905983,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "line the cradle with plain cotton. This is the draft material choice for direct contact with the bowl.",
+        "evidence": [
+          {
+            "candidateID": "ed1e3355d951ad6cc9bfbafb7d01e6fa5c4115d7b381dbc0fb4406082f8b94b8",
+            "quote": "Loan L-14, the Tide Bowl. Initial cradle plan: line the cradle with plain cotton. This is the draft material choice for direct contact with the bowl."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21594112,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev04-q8"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "310510ed6ee72a0070c11f1560bbc30c9933cab61c116fd4b8073c2e645a330b"
+}

@@ -1,0 +1,25 @@
+{
+  "after": {
+    "fp16-00.json": {
+      "SHA256": "cef10a4ebd25a893c4fac42a3d7e2a5f37f051970888f255f28eaf755b8c63f2",
+      "mtimeNS": 1789531402575066267
+    },
+    "fp32-00.json": {
+      "SHA256": "a52b6507a98b4288ba8ba24d3d068770dd91a7697127df8c8e6b8a889501da4b",
+      "mtimeNS": 1789531404142634432
+    }
+  },
+  "before": {
+    "fp16-00.json": {
+      "SHA256": "cef10a4ebd25a893c4fac42a3d7e2a5f37f051970888f255f28eaf755b8c63f2",
+      "mtimeNS": 1789531402575066267
+    },
+    "fp32-00.json": {
+      "SHA256": "a52b6507a98b4288ba8ba24d3d068770dd91a7697127df8c8e6b8a889501da4b",
+      "mtimeNS": 1789531404142634432
+    }
+  },
+  "initialPausedRunStopped": "storage guard during simultaneous compiler temporary files; no inference dispatched",
+  "safeToClose": true,
+  "unchanged": true
+}

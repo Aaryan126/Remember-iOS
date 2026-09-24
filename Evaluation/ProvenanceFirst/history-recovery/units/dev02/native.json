@@ -1,0 +1,692 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Velvet cloak restoration concerns the faded green cloak from our fictional production The Lantern Gate. Stabilize the lining before attempting surface cleaning. The traveling costume crate will be refitted separately; this restoration notebook follows the garment itself."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "pdf",
+        "text": "Tour costume crate refit: replace the cracked inner rails and add a removable garment bar. The route has four stops, but transport planning is outside this file. We will measure the cloak after the restoration team has stabilized it."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "872c9e48bd0f0c5b4684db8a70d116f638686c8534be33052107d9b56000eafd"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "Restoration dye test, swatch C. The velvet cloak restoration team recorded a copper fringe after the test dried overnight. This sample was rejected for treatment, but its card should remain in the experiment record. No dye was applied to the cloak."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "872c9e48bd0f0c5b4684db8a70d116f638686c8534be33052107d9b56000eafd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "990feba067a1c13c7c2fb8903523ac1cce1bc0ca10e58e710a5e620945c24b54"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "video",
+        "text": "Velvet cloak restoration and tour costume crate refit share this hanging trial. The stabilized cloak needs a padded bar with a 38 cm clear drop below it. Measure the crate with its lid shut, keeping the original hanger as a labeled comparison."
+      }
+    },
+    {
+      "assignments": [
+        "t:c05"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "872c9e48bd0f0c5b4684db8a70d116f638686c8534be33052107d9b56000eafd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "990feba067a1c13c7c2fb8903523ac1cce1bc0ca10e58e710a5e620945c24b54"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "c8cd5786288882f953e8efe73100cdb54f223407d4f215df76b8c0b9dbf6f5d7"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "image",
+        "text": "Packing slip fragment: two soft sleeves, seven brass pins, green mark. The customer name has torn off. The slip could belong to the cloak work or to a different delivery; none of the remaining handwriting resolves that uncertainty."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "872c9e48bd0f0c5b4684db8a70d116f638686c8534be33052107d9b56000eafd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "990feba067a1c13c7c2fb8903523ac1cce1bc0ca10e58e710a5e620945c24b54"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "c8cd5786288882f953e8efe73100cdb54f223407d4f215df76b8c0b9dbf6f5d7"
+        }
+      },
+      "id": "e06",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c06"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "872c9e48bd0f0c5b4684db8a70d116f638686c8534be33052107d9b56000eafd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "990feba067a1c13c7c2fb8903523ac1cce1bc0ca10e58e710a5e620945c24b54"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "c8cd5786288882f953e8efe73100cdb54f223407d4f215df76b8c0b9dbf6f5d7"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "0a9689677d71737c93817b2cbf2a34a46391df214d037849042bbc3c7f2c4dfa"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "pdf",
+        "text": "Conservation lecture handout saved as background for the velvet cloak restoration. Historic velvets can lose pile when brushed against the nap. These examples are from a teaching collection, and the handout does not prescribe a treatment for our cloak."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "872c9e48bd0f0c5b4684db8a70d116f638686c8534be33052107d9b56000eafd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "990feba067a1c13c7c2fb8903523ac1cce1bc0ca10e58e710a5e620945c24b54"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "c8cd5786288882f953e8efe73100cdb54f223407d4f215df76b8c0b9dbf6f5d7"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "0a9689677d71737c93817b2cbf2a34a46391df214d037849042bbc3c7f2c4dfa"
+        }
+      },
+      "id": "e08",
+      "kind": "restore",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "872c9e48bd0f0c5b4684db8a70d116f638686c8534be33052107d9b56000eafd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "990feba067a1c13c7c2fb8903523ac1cce1bc0ca10e58e710a5e620945c24b54"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "c8cd5786288882f953e8efe73100cdb54f223407d4f215df76b8c0b9dbf6f5d7"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "0a9689677d71737c93817b2cbf2a34a46391df214d037849042bbc3c7f2c4dfa"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fe9ad9dd622b572b27eb3c7a0c8160028849141cdf28c64452102571bf9721f"
+        }
+      },
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "note",
+        "text": "Tour costume crate refit inspection: the removable bar now clears the closed lid by 12 mm. Keep the old rails with the workshop scrap until the final fit is accepted. These measurements were taken on the empty crate this morning."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "872c9e48bd0f0c5b4684db8a70d116f638686c8534be33052107d9b56000eafd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "990feba067a1c13c7c2fb8903523ac1cce1bc0ca10e58e710a5e620945c24b54"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "c8cd5786288882f953e8efe73100cdb54f223407d4f215df76b8c0b9dbf6f5d7"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "0a9689677d71737c93817b2cbf2a34a46391df214d037849042bbc3c7f2c4dfa"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fe9ad9dd622b572b27eb3c7a0c8160028849141cdf28c64452102571bf9721f"
+        }
+      },
+      "id": "e10",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "872c9e48bd0f0c5b4684db8a70d116f638686c8534be33052107d9b56000eafd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "990feba067a1c13c7c2fb8903523ac1cce1bc0ca10e58e710a5e620945c24b54"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "c8cd5786288882f953e8efe73100cdb54f223407d4f215df76b8c0b9dbf6f5d7"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "0a9689677d71737c93817b2cbf2a34a46391df214d037849042bbc3c7f2c4dfa"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fe9ad9dd622b572b27eb3c7a0c8160028849141cdf28c64452102571bf9721f"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "24a2db89a0aa6dfa6623ad4f44407f14a07e84ff79c26fe076d48b94fdcd4797"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "voice",
+        "text": "Velvet cloak restoration care card: support the hem on a folded cotton sling during inspection. We selected the sling after a dry fit; the lining stitches have not yet been tested under travel vibration. Keep the garment flat between sessions."
+      }
+    },
+    {
+      "assignments": [
+        "t:c09"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "872c9e48bd0f0c5b4684db8a70d116f638686c8534be33052107d9b56000eafd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "990feba067a1c13c7c2fb8903523ac1cce1bc0ca10e58e710a5e620945c24b54"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "c8cd5786288882f953e8efe73100cdb54f223407d4f215df76b8c0b9dbf6f5d7"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "0a9689677d71737c93817b2cbf2a34a46391df214d037849042bbc3c7f2c4dfa"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fe9ad9dd622b572b27eb3c7a0c8160028849141cdf28c64452102571bf9721f"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "24a2db89a0aa6dfa6623ad4f44407f14a07e84ff79c26fe076d48b94fdcd4797"
+        },
+        "localc09": {
+          "archived": false,
+          "memberships": [
+            "t:c09"
+          ],
+          "revision": 0,
+          "textSHA256": "47f447bfba8a9ffc9cfedca1f99fd176faa9f6cb858ffdebd8536081785e6a11"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc09",
+        "modality": "note",
+        "text": "Household sewing reminder: replace the missing button on my raincoat before the weekend walk. The thread is in the kitchen drawer beside the spare shoelaces. This is personal mending and has no connection to the theater's costume work."
+      }
+    }
+  ],
+  "id": "history-dev02-chronological",
+  "queries": [
+    {
+      "afterEvent": "e07",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e07",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

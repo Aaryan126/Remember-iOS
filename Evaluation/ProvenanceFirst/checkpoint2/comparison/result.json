@@ -1,0 +1,424 @@
+{
+  "costCaveat": "Native embedding subprocess duration and amortized neural batch forward-pass duration only; excludes model load, safety checks, policy/search/replay, interruption and human time. Not iPhone latency.",
+  "evaluationRetuned": false,
+  "gates": {
+    "B": {
+      "automaticChecks": {
+        "denominator": true,
+        "precision": false,
+        "retention": true,
+        "unsupported": false,
+        "wrongEdges": true
+      },
+      "automaticPointTargetsMet": false,
+      "missingCorrectEdges": [],
+      "nativeIntegrityStillRequired": true,
+      "recallGain": 0.09722222222222221,
+      "referenceCorrectEdges": 30,
+      "retainedCorrectEdges": 30,
+      "retention": 1.0,
+      "suggestionPointTargetsMet": false
+    },
+    "Coff": {
+      "automaticChecks": {
+        "denominator": false,
+        "precision": false,
+        "retention": false,
+        "unsupported": true,
+        "wrongEdges": true
+      },
+      "automaticPointTargetsMet": false,
+      "missingCorrectEdges": [
+        [
+          "eval01",
+          "alternate",
+          "e10",
+          "p1"
+        ],
+        [
+          "eval01",
+          "chronological",
+          "e03",
+          "p1"
+        ],
+        [
+          "eval01",
+          "chronological",
+          "e05",
+          "p1"
+        ],
+        [
+          "eval02",
+          "alternate",
+          "e11",
+          "p2"
+        ],
+        [
+          "eval02",
+          "chronological",
+          "e04",
+          "p2"
+        ],
+        [
+          "eval02",
+          "chronological",
+          "e09",
+          "p1"
+        ],
+        [
+          "eval03",
+          "alternate",
+          "e10",
+          "p1"
+        ],
+        [
+          "eval03",
+          "chronological",
+          "e03",
+          "p1"
+        ],
+        [
+          "eval04",
+          "alternate",
+          "e11",
+          "p2"
+        ],
+        [
+          "eval04",
+          "chronological",
+          "e11",
+          "p2"
+        ],
+        [
+          "eval05",
+          "alternate",
+          "e04",
+          "p2"
+        ],
+        [
+          "eval05",
+          "alternate",
+          "e05",
+          "p2"
+        ],
+        [
+          "eval05",
+          "chronological",
+          "e04",
+          "p1"
+        ],
+        [
+          "eval06",
+          "alternate",
+          "e03",
+          "p2"
+        ],
+        [
+          "eval06",
+          "alternate",
+          "e12",
+          "p2"
+        ],
+        [
+          "eval06",
+          "chronological",
+          "e03",
+          "p1"
+        ],
+        [
+          "eval06",
+          "chronological",
+          "e07",
+          "p1"
+        ],
+        [
+          "eval07",
+          "alternate",
+          "e05",
+          "p2"
+        ],
+        [
+          "eval07",
+          "alternate",
+          "e11",
+          "p2"
+        ],
+        [
+          "eval07",
+          "chronological",
+          "e02",
+          "p1"
+        ],
+        [
+          "eval07",
+          "chronological",
+          "e05",
+          "p1"
+        ],
+        [
+          "eval09",
+          "alternate",
+          "e05",
+          "p1"
+        ],
+        [
+          "eval09",
+          "alternate",
+          "e07",
+          "p2"
+        ],
+        [
+          "eval09",
+          "chronological",
+          "e03",
+          "p1"
+        ],
+        [
+          "eval09",
+          "chronological",
+          "e05",
+          "p1"
+        ],
+        [
+          "eval10",
+          "alternate",
+          "e07",
+          "p2"
+        ],
+        [
+          "eval11",
+          "alternate",
+          "e06",
+          "p2"
+        ],
+        [
+          "eval11",
+          "chronological",
+          "e02",
+          "p1"
+        ],
+        [
+          "eval11",
+          "chronological",
+          "e04",
+          "p1"
+        ],
+        [
+          "eval12",
+          "chronological",
+          "e04",
+          "p1"
+        ]
+      ],
+      "nativeIntegrityStillRequired": true,
+      "recallGain": 0.09722222222222221,
+      "referenceCorrectEdges": 30,
+      "retainedCorrectEdges": 0,
+      "retention": 0.0,
+      "suggestionPointTargetsMet": false
+    }
+  },
+  "historicalEvidenceAudit": [
+    {
+      "evidence": [
+        {
+          "archived": true,
+          "currentRevision": 0,
+          "expectedRevision": 0,
+          "sourceId": "s03"
+        }
+      ],
+      "library": "eval01",
+      "query": "q3"
+    },
+    {
+      "evidence": [
+        {
+          "archived": false,
+          "currentRevision": 1,
+          "expectedRevision": 0,
+          "sourceId": "s04"
+        }
+      ],
+      "library": "eval02",
+      "query": "q3"
+    },
+    {
+      "evidence": [
+        {
+          "archived": true,
+          "currentRevision": 0,
+          "expectedRevision": 0,
+          "sourceId": "s03"
+        }
+      ],
+      "library": "eval03",
+      "query": "q2"
+    },
+    {
+      "evidence": [
+        {
+          "archived": true,
+          "currentRevision": 0,
+          "expectedRevision": 0,
+          "sourceId": "s04"
+        }
+      ],
+      "library": "eval04",
+      "query": "q3"
+    },
+    {
+      "evidence": [
+        {
+          "archived": true,
+          "currentRevision": 0,
+          "expectedRevision": 0,
+          "sourceId": "s04"
+        }
+      ],
+      "library": "eval05",
+      "query": "q3"
+    },
+    {
+      "evidence": [
+        {
+          "archived": true,
+          "currentRevision": 0,
+          "expectedRevision": 0,
+          "sourceId": "s03"
+        }
+      ],
+      "library": "eval06",
+      "query": "q3"
+    },
+    {
+      "evidence": [
+        {
+          "archived": true,
+          "currentRevision": 0,
+          "expectedRevision": 0,
+          "sourceId": "s02"
+        }
+      ],
+      "library": "eval07",
+      "query": "q3"
+    },
+    {
+      "evidence": [
+        {
+          "archived": true,
+          "currentRevision": 0,
+          "expectedRevision": 0,
+          "sourceId": "s03"
+        }
+      ],
+      "library": "eval08",
+      "query": "q3"
+    },
+    {
+      "evidence": [
+        {
+          "archived": true,
+          "currentRevision": 0,
+          "expectedRevision": 0,
+          "sourceId": "s03"
+        }
+      ],
+      "library": "eval09",
+      "query": "q3"
+    },
+    {
+      "evidence": [
+        {
+          "archived": false,
+          "currentRevision": 1,
+          "expectedRevision": 0,
+          "sourceId": "s03"
+        }
+      ],
+      "library": "eval10",
+      "query": "q3"
+    },
+    {
+      "evidence": [
+        {
+          "archived": false,
+          "currentRevision": 1,
+          "expectedRevision": 0,
+          "sourceId": "s06"
+        }
+      ],
+      "library": "eval11",
+      "query": "q3"
+    },
+    {
+      "evidence": [
+        {
+          "archived": true,
+          "currentRevision": 0,
+          "expectedRevision": 0,
+          "sourceId": "s04"
+        }
+      ],
+      "library": "eval12",
+      "query": "q3"
+    }
+  ],
+  "manifestSHA256": "c5944a0a405df956437528c35e42497fea3f5b0df9fba8cfd994ed335cd55be2",
+  "metricsRecomputedIdenticallyWithoutInference": true,
+  "metricsSHA256": {
+    "development": "677ea949238c1d2d94c83636a83965d8cf31c2a5d037b0557c48099e40b02069",
+    "evaluation": "c5e7b7dd6adf0565973af9a566392beb9b152c1c15dccb8943b805ab897850f4"
+  },
+  "native": {
+    "BAliases": 48,
+    "currentPrefixes": 1152,
+    "historicalPrefixes": 1152,
+    "invariants": 31,
+    "restartChecks": 96,
+    "runs": 96
+  },
+  "nativeIntegrityPassed": true,
+  "nativeVerificationSHA256": "6620a126f51c7463e8cde8704f8530fe986b31d189a9a4d4c35c8d52562ff336",
+  "paidAPIUsed": false,
+  "phoneUsed": false,
+  "productionChanged": false,
+  "qualityAdvancementQualified": false,
+  "recordedMacInferenceCosts": {
+    "development": {
+      "embeddings": {
+        "count": 117,
+        "maxRecordedSeconds": 0.29608420799922897,
+        "medianSeconds": 0.16037179100385401,
+        "totalRecordedSeconds": 19.03312091497355
+      },
+      "neural": {
+        "count": 501,
+        "maxRecordedSeconds": 0.03846477500046604,
+        "medianSeconds": 0.008134624999911466,
+        "totalRecordedSeconds": 4.821935456020583
+      }
+    },
+    "evaluation": {
+      "embeddings": {
+        "count": 109,
+        "maxRecordedSeconds": 0.30279833300301107,
+        "medianSeconds": 0.1658728750044247,
+        "totalRecordedSeconds": 18.20459563004988
+      },
+      "neural": {
+        "count": 430,
+        "maxRecordedSeconds": 0.042216840333518725,
+        "medianSeconds": 0.007915781250630971,
+        "totalRecordedSeconds": 3.934214331988187
+      }
+    }
+  },
+  "reference": "d3-seed29-mac27-pf2-reference-v1",
+  "selectedPolicy": "Coff",
+  "selectionSHA256": "41477b7e5c912214dfc4ca62170d78330a6a1c7975a68f1424c03d59c125cb37",
+  "wrongReferenceEdgeCategories": {
+    "unsupported-anchor": 15,
+    "wrong-project": 39
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "candidate": "d3-seed29-fp32-ios27-evaluation-v1",
+  "candidateBoundaryGatePassed": true,
+  "freshPyTorchVsHistoricalDecisionChanges": 0,
+  "groups": {
+    "mac-fp16": {
+      "decisionChanges": [],
+      "directions": 48,
+      "directionsWithinOriginalBound": 45,
+      "maximumFreshVsFixedScoreDelta": 3.105065476061153e-05,
+      "maximumNeuralDeltaVsPyTorch": 0.011778175830841064,
+      "maximumOwnConversionScoreDelta": 8.07207078956651e-10,
+      "minimumFreshThresholdMargin": 0.0001932264132600281,
+      "ownConversionScoreGatePasses": 24,
+      "unchangedFixedDecisions": 24,
+      "unchangedFreshDecisions": 24
+    },
+    "mac-fp32": {
+      "decisionChanges": [],
+      "directions": 48,
+      "directionsWithinOriginalBound": 48,
+      "maximumFreshVsFixedScoreDelta": 3.1146049302099854e-05,
+      "maximumNeuralDeltaVsPyTorch": 4.172325134277344e-07,
+      "maximumOwnConversionScoreDelta": 8.082997604574871e-10,
+      "minimumFreshThresholdMargin": 4.7262930744196296e-05,
+      "ownConversionScoreGatePasses": 24,
+      "unchangedFixedDecisions": 24,
+      "unchangedFreshDecisions": 24
+    },
+    "phone-fp16": {
+      "decisionChanges": [],
+      "directions": 48,
+      "directionsWithinOriginalBound": 45,
+      "maximumFreshVsFixedScoreDelta": 0.0003212504658333115,
+      "maximumNeuralDeltaVsPyTorch": 0.011778175830841064,
+      "maximumOwnConversionScoreDelta": 8.07207078956651e-10,
+      "minimumFreshThresholdMargin": 0.0001567800645156936,
+      "ownConversionScoreGatePasses": 24,
+      "unchangedFixedDecisions": 24,
+      "unchangedFreshDecisions": 24
+    },
+    "phone-fp32": {
+      "decisionChanges": [],
+      "directions": 48,
+      "directionsWithinOriginalBound": 48,
+      "maximumFreshVsFixedScoreDelta": 0.0003130165899418724,
+      "maximumNeuralDeltaVsPyTorch": 4.172325134277344e-07,
+      "maximumOwnConversionScoreDelta": 8.082997604574871e-10,
+      "minimumFreshThresholdMargin": 1.0547544370242967e-05,
+      "ownConversionScoreGatePasses": 24,
+      "unchangedFixedDecisions": 24,
+      "unchangedFreshDecisions": 24
+    }
+  },
+  "libraries": 11,
+  "minimumHistoricalThresholdMargin": 4.7262678966042415e-05,
+  "pairs": 24,
+  "productionChanged": false,
+  "stage2Started": false
+}

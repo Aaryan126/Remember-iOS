@@ -1,0 +1,32 @@
+{
+  "bindingsSHA256": "70218acbe930761879a33f35938b466c5ea076327a1fbac127a79537d8954802",
+  "bundle": "SimpleStudio.Remember.AnswerSupportHistoryProbe",
+  "command": [
+    "xcodebuild",
+    "-project",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/native-project/AnswerSupportHistoryProbe.xcodeproj",
+    "-scheme",
+    "AnswerSupportHistoryProbe",
+    "-configuration",
+    "Debug",
+    "-sdk",
+    "iphonesimulator",
+    "-destination",
+    "id=C530FCC2-DD67-4115-97D9-C4E34807EC57",
+    "-derivedDataPath",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/native-build",
+    "-clonedSourcePackagesDirPath",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/native-build/SourcePackages",
+    "-disableAutomaticPackageResolution",
+    "-skipPackageUpdates",
+    "CODE_SIGNING_ALLOWED=NO",
+    "CLANG_MODULE_CACHE_PATH=/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/native-build/ModuleCache.noindex",
+    "SWIFT_MODULE_CACHE_PATH=/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/native-build/ModuleCache.noindex",
+    "build"
+  ],
+  "executableSHA256": "4ba60f28ac7ca134c23c671061ac9b819c556fce824b08be9bd32521a5767c1f",
+  "installed": false,
+  "rebuilt": true,
+  "reservationSHA256": "fac47d0d16cb3cd83158acec5ff5d69f11c2ff5fcd0450fced8993a9829e125a",
+  "simulator": "C530FCC2-DD67-4115-97D9-C4E34807EC57"
+}

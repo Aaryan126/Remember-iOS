@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-075/raw.json",
+  "rawSHA256": "80cc6bb3c15bfd3d9308da9ad13e25a03ac11a6c3f96aa50978a5a934361099e",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.3543078749935376,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.166665116325021e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3231972499997937,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37742733333288925,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3783995416670223,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.352876249999099,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "b9db842b790cbd3ca0f3e28b1e4349f6351c504f475910a05eb5a1c02c07c73c",
+      "contextSize": 4096,
+      "generationSeconds": 3.9739279999994324,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Record the dock workers, edit their interviews and clear the music for this episode",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The producer approved that harbour segment. Send the clean version tonight.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference the approved harbour segment and the night-shift oral-history episode titled 'When the Quay Sleeps'.",
+        "verdict": "same_project"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-075"
+  }
+}

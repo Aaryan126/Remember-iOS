@@ -1,5 +1,20 @@
 # Provenance and Project
 
+## Provenance-first direction — 17 September 2026
+
+The approved product emphasis is **Save anything. Recover the right context. See
+how your projects developed—with evidence.** The next isolated experiment tests
+overlapping project relationships, uncertainty, and evidence recovery before any
+app change. Optional River review is proposed, not shipped. Current D3 placements,
+ledger schema, and user corrections are unchanged. See the
+[provenance-first plan and checkpoint status](provenance-first.md).
+
+The initial two-checkpoint study is complete. Native ledger/history checks passed,
+but neither candidate policy qualified for integration. Current-source retrieval
+missed all 12 held-out historical tasks because their evidence was archived or
+superseded. See the [comparison report](../Evaluation/ProvenanceFirst/checkpoint2/comparison/REPORT.md)
+before interpreting ledger integrity as evidence of semantic organization quality.
+
 ## Changed files
 
 App files below are under `Remember/Remember/`.

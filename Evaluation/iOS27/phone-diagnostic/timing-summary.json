@@ -1,0 +1,24 @@
+{
+  "coldBootLatencyMeasured": false,
+  "firstInferenceSeconds": {
+    "max": 0.11457595833053347,
+    "median": 0.02396983333164826,
+    "min": 0.02220237500296207
+  },
+  "modelLoadSeconds": {
+    "max": 0.21881408333138097,
+    "median": 0.0027165416649950203,
+    "min": 0.0024239166668849066
+  },
+  "peakMemoryMeasured": false,
+  "residentAfterBytes": {
+    "max": 44810240,
+    "median": 37855232.0,
+    "min": 37781504
+  },
+  "secondInferenceSeconds": {
+    "max": 0.022018291667336598,
+    "median": 0.017319645838142605,
+    "min": 0.016846916667418554
+  }
+}

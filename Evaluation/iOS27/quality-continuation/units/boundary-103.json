@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-103/raw.json",
+  "rawSHA256": "e309fa640b4fc722e1cf7bc4fe00ac8fd424fb87229de03d63c03edc0c0ab5d7",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.409720749994449,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.3333278628997505e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22348199999396456,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2719505416607717,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2735700416669715,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.4081045416605775,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "f2a26495884a2e3e676c0ab52e32a570835220721c45e39f43da3e15df27dd4f",
+      "contextSize": 4096,
+      "generationSeconds": 5.133733291666431,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Morrow Works is restoring the slate roof of Northgate Library. Survey, scaffold hire, slate replacement and final leak inspection are one roof-restoration contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Site voice note: The defect at Northgate is corrected. Ask the inspector to return tomorrow.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources mention Northgate Library but describe distinct tasks\u2014roof restoration versus defect correction unrelated to the roof work\u2014with no shared contract or corrective linkage.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-103"
+  }
+}

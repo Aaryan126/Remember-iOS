@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev08-q2",
+    "inputSHA256": "37bb6ac3c8b0e44eb4ae7424debada8ee5b013e3e91582c6f60d183ebf3c2c4b",
+    "rawSHA256": "05f3a2989434012eba971300b3a505608e8d2f454170a6d3b1ee0c0a4f99e4f3",
+    "requestCount": 1,
+    "reservationSHA256": "0c4ee3537d8786370f488b49d539392fcb53d5f7ef9551b413ad745d060ff531",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.635346249997383,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Oriole group's rescheduled kiln reservation: Thursday afternoon.",
+        "evidence": [
+          {
+            "candidateID": "679535e9b6decd085fe86217ccd9cf634df7164930630b31a8b1c1476bc4dea4",
+            "quote": "Oriole group's rescheduled kiln reservation: Thursday afternoon. This supersedes the first reservation slot."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21479424,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev08-q2"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "99b030c8081ba70e1ef1cc735274650d986a1edaced09bc8704d7bbc216b67f3"
+}

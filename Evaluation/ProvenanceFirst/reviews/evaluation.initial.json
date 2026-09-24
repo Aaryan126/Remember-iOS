@@ -1,0 +1,40 @@
+{
+  "reviewer": "/root/pf_review_eval",
+  "author": "/root/pf_author_eval",
+  "split": "evaluation",
+  "inputSHA256": "f51bff0d02c06100afb21a46d525cfccd1a538773efc6f93e1cfcba81e9238a9",
+  "validation": "fixtures.validate_split passed; all 12 libraries, 144 events and 48 tasks inspected without model predictions or development-split access.",
+  "libraries": [
+    {"id":"eval01","verdict":"pass","issues":[]},
+    {"id":"eval02","verdict":"pass","issues":[]},
+    {"id":"eval03","verdict":"pass","issues":[]},
+    {"id":"eval04","verdict":"pass","issues":[]},
+    {"id":"eval05","verdict":"fail","issues":[
+      {"location":"eval05/family and e06","severity":"error","reason":"The oral-history versus bulletin setup and 'The producer approved that harbour segment' ambiguity substantially repeat the previously exposed boundary-095 example already described in the project discussion. A new fictional name or bulletin subtype does not establish a fresh scenario mechanism.","suggestedFix":"Replace this library with a substantively different reserved evaluation mechanism and domain, including different ambiguity and evidence-recovery tasks. Root should independently adjudicate this freshness issue without considering model predictions; do not relabel the old challenge as new held-out evidence."}
+    ]},
+    {"id":"eval06","verdict":"pass","issues":[]},
+    {"id":"eval07","verdict":"pass","issues":[
+      {"location":"eval07/e05, e08 and e10","severity":"warning","reason":"The transfer 'closes the restoration handover evidence' and the captions 'have already been handled', yet the later revision moves the restoration folder handover for caption proofreading. Physical-object handover can differ from paperwork delivery, but that distinction is not explicit and may look like contradictory chronology.","suggestedFix":"Clarify that e05 completes only physical custody transfer and that caption handling in e08 means allocation to the restoration workstream rather than completed proofreading. Preserve the later documentation-delivery change."}
+    ]},
+    {"id":"eval08","verdict":"fail","issues":[
+      {"location":"eval08/e11/dependsOn","severity":"error","reason":"The driver 'finally signed' continuation resolves the east-pantry receipt explicitly recorded as missing in e03, but depends only on e01. The alternative order can therefore put completion before the outstanding-receipt evidence it resolves.","suggestedFix":"Add e03 to e11.dependsOn, preserving root dependencies and unrelated capture freedom."}
+    ]},
+    {"id":"eval09","verdict":"pass","issues":[]},
+    {"id":"eval10","verdict":"fail","issues":[
+      {"location":"eval10/q2/expectedEvidence","severity":"error","reason":"At e11, s08 explicitly shows the new side-by-side proof and records the manager confirming it as the approved arrangement. This current, independent confirmation answers beside-versus-below, but only s03 revision 1 is labeled relevant.","suggestedFix":"Include s08 revision 0 with a quote establishing the new side-by-side proof and approval, alongside s03 revision 1; update rationale to treat both as valid supporting evidence."},
+      {"location":"eval10/q3/expectedEvidence","severity":"error","reason":"The question asks the previous layout, not exclusively the original artifact. s03 revision 1 explicitly says 'not below it' and 'supersedes the previous stacked proof instruction', so the current revision also supports the requested historical layout.","suggestedFix":"Include s03 revision 1's explicit retrospective statement as an eligible source revision alongside revision 0, or narrowly ask to retrieve the original superseded instruction artifact rather than any evidence of the prior layout."}
+    ]},
+    {"id":"eval11","verdict":"fail","issues":[
+      {"location":"eval11/q2/expectedEvidence","severity":"error","reason":"At e12, s08 states the loose-card prototype predates the approved leaflet-panel change and that its contents do not reinstate the removed card. This independently answers that the final pack has no separate reference card, but the relevant set includes only s06 revision 1.","suggestedFix":"Add s08 revision 0's explicit removed-card/final-pack statement as valid current corroborating evidence."},
+      {"location":"eval11/q3/expectedEvidence","severity":"error","reason":"The revised packing note states that the previously separate reference card was replaced by a leaflet panel and still gives six route cards. It therefore also supports the broad factual question about the prior packing contents; it is excluded from the relevant set.","suggestedFix":"Include the retrospective s06 revision 1 evidence, or explicitly request the original packing-note revision as an artifact so the original revision alone is the intended target."}
+    ]},
+    {"id":"eval12","verdict":"fail","issues":[
+      {"location":"eval12/q2/expectedEvidence","severity":"error","reason":"s02 is an unarchived, edition-specific checked sign proof identifying the west entrance. It has not been superseded. s08 confirms the same fact, so excluding s02 would penalize valid evidence recovery.","suggestedFix":"Add s02 revision 0's west-entrance statement alongside s08 revision 0 and explain both remain valid current evidence."},
+      {"location":"eval12/e09/dependsOn","severity":"error","reason":"The clarification says the west entrance 'remains' current and responds to the previously saved prior-year brochure, but depends only on the project root. A dependency-valid alternative order may place this clarification before the checked current sign and the circulated-background setup it addresses.","suggestedFix":"Add e02 and e06 to e09.dependsOn, or rewrite e09 as an independent initial location confirmation with no causal reliance on the earlier sign/brochure events."}
+    ]}
+  ],
+  "crossLibraryIssues": [
+    {"location":"evaluation/libraries[*].tasks","severity":"warning","reason":"Every library contains one uncertain, one current, one historical and one overlap task; most answers concern a single archived or revised source. The uniform task mix and broad repeated pattern of two explicit project roots, shared logistics, missing identifier, generic reference and clarification limit scenario diversity despite varying domains.","suggestedFix":"Report this controlled-fixture limitation and avoid claiming natural-library representativeness; later expand mixed task distributions and multi-source evidence recovery before release qualification."},
+    {"location":"evaluation/libraries[*].events[*].text","severity":"warning","reason":"Many fictional inputs explicitly narrate their own uncertainty or nonmembership, for example 'cannot identify', 'not part of' and 'generic background'. This is useful for contract stress tests but easier and more artificial than typical unannotated user captures.","suggestedFix":"Document the synthetic explicit-cue bias. Do not infer real-user quality or calibrated confidence from these fixtures; future broader evaluation should include less self-explanatory capture text."}
+  ]
+}

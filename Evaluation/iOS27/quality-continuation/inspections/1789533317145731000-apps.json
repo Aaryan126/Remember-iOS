@@ -1,0 +1,18 @@
+{
+  "command": [
+    "xcrun",
+    "devicectl",
+    "device",
+    "info",
+    "apps",
+    "--device",
+    "00008150-000A123A2EC0C01C",
+    "--bundle-id",
+    "SimpleStudio.Remember.GroupingQuality",
+    "--json-output",
+    "-"
+  ],
+  "returnCode": 0,
+  "stderr": "Apps installed:\nName               Bundle Identifier                       Version   Bundle Version\n----------------   -------------------------------------   -------   --------------\nGrouping Quality   SimpleStudio.Remember.GroupingQuality   1.0       1             \n",
+  "stdout": "{\n  \"info\" : {\n    \"arguments\" : [\n      \"devicectl\",\n      \"device\",\n      \"info\",\n      \"apps\",\n      \"--device\",\n      \"00008150-000A123A2EC0C01C\",\n      \"--bundle-id\",\n      \"SimpleStudio.Remember.GroupingQuality\",\n      \"--json-output\",\n      \"-\"\n    ],\n    \"commandType\" : \"devicectl.device.info.apps\",\n    \"environment\" : {\n      \"TERM\" : \"xterm-256color\"\n    },\n    \"jsonVersion\" : 5,\n    \"outcome\" : \"success\",\n    \"version\" : \"642.16\"\n  },\n  \"result\" : {\n    \"apps\" : [\n      {\n        \"appClip\" : false,\n        \"builtByDeveloper\" : true,\n        \"bundleIdentifier\" : \"SimpleStudio.Remember.GroupingQuality\",\n        \"bundleVersion\" : \"1\",\n        \"containerAccessible\" : true,\n        \"defaultApp\" : false,\n        \"hidden\" : false,\n        \"internalApp\" : false,\n        \"name\" : \"Grouping Quality\",\n        \"removable\" : true,\n        \"url\" : \"file:///private/var/containers/Bundle/Application/3B971987-7D2D-42D9-B037-765C267409D5/CompatibilityProbe.app/\",\n        \"version\" : \"1.0\"\n      }\n    ],\n    \"defaultAppsIncluded\" : false,\n    \"deviceIdentifier\" : \"5675C6C5-EBD9-59AF-B61D-F36F22C8D2B4\",\n    \"hiddenAppsIncluded\" : false,\n    \"internalAppsIncluded\" : false,\n    \"matchingBundleIdentifier\" : \"SimpleStudio.Remember.GroupingQuality\",\n    \"removableAppsIncluded\" : true\n  }\n}\n"
+}

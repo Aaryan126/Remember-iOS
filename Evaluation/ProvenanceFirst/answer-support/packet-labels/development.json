@@ -1,0 +1,1545 @@
+{
+  "corpusBindingSHA256": "5db8f6b08dd19e8ae6580c82e61857c8fc736d2abdc6ed3ba5367794b2eda74e",
+  "libraries": [
+    {
+      "id": "dev01",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "b2376c7f19ea1bf3bf1d914ffb966c0e8eaf046ff8f347fe9d25a2e923e43c24",
+            "7e5c56cd66b8c6bd29e5cf0d393df38f6a2b1aec0532d04b8ecf1da3d5b5ffee",
+            "a9e2e38abe6116d04b53f31f1df00838b0a08592f0c2a2e64aed3aae9791380c"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "letter-touch",
+                "answerSpans": [
+                  "the actor touching the letter"
+                ],
+                "quote": "Following the dress rehearsal, the accepted trigger for LX 18 is the actor touching the letter.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "7e5c56cd66b8c6bd29e5cf0d393df38f6a2b1aec0532d04b8ecf1da3d5b5ffee",
+            "2cb4b9e1a068a0d0dbbb1ecf1312dafb853f97f3fb95b833994258a672ab3285",
+            "a9e2e38abe6116d04b53f31f1df00838b0a08592f0c2a2e64aed3aae9791380c"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "not-recorded",
+                "answerSpans": [
+                  "We did not record a sound level for the door slam."
+                ],
+                "quote": "We did not record a sound level for the door slam.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "d2c3ad1af8117649207f33f6a3047f4825f6734c9e3cea92a9e10b52068ac317",
+            "7e5c56cd66b8c6bd29e5cf0d393df38f6a2b1aec0532d04b8ecf1da3d5b5ffee",
+            "d7d49ed333370a2960e492ce5d4f710516781ceb0aeac57f6d0531c965357361"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "harbour",
+                "answerSpans": [
+                  "harbour"
+                ],
+                "quote": "the sound operator's standby word was 'harbour'.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "2cb4b9e1a068a0d0dbbb1ecf1312dafb853f97f3fb95b833994258a672ab3285",
+            "b2376c7f19ea1bf3bf1d914ffb966c0e8eaf046ff8f347fe9d25a2e923e43c24",
+            "7e5c56cd66b8c6bd29e5cf0d393df38f6a2b1aec0532d04b8ecf1da3d5b5ffee"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "door-slam",
+                "answerSpans": [
+                  "the door slam"
+                ],
+                "quote": "Before the dress rehearsal, the accepted trigger for LX 18 is the door slam.",
+                "revision": 0,
+                "sourceId": "s01"
+              },
+              {
+                "answerKey": "door-slam",
+                "answerSpans": [
+                  "the door-slam trigger"
+                ],
+                "quote": "This explicitly replaces the door-slam trigger.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "7e5c56cd66b8c6bd29e5cf0d393df38f6a2b1aec0532d04b8ecf1da3d5b5ffee",
+            "b2376c7f19ea1bf3bf1d914ffb966c0e8eaf046ff8f347fe9d25a2e923e43c24",
+            "d7d49ed333370a2960e492ce5d4f710516781ceb0aeac57f6d0531c965357361"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "We did not record a sound level for the door slam.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "d285f7d944b892e5f9b527dec5cc17881eda58ec379a18237305639ebe7d7fc3",
+            "d7d49ed333370a2960e492ce5d4f710516781ceb0aeac57f6d0531c965357361",
+            "a9e2e38abe6116d04b53f31f1df00838b0a08592f0c2a2e64aed3aae9791380c"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "7e5c56cd66b8c6bd29e5cf0d393df38f6a2b1aec0532d04b8ecf1da3d5b5ffee",
+            "a9e2e38abe6116d04b53f31f1df00838b0a08592f0c2a2e64aed3aae9791380c",
+            "b2376c7f19ea1bf3bf1d914ffb966c0e8eaf046ff8f347fe9d25a2e923e43c24"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "20:14",
+                "answerSpans": [
+                  "20:14"
+                ],
+                "quote": "Glass Orchard dress run on Friday: I called LX 18 at 20:14.",
+                "revision": 0,
+                "sourceId": "s03"
+              },
+              {
+                "answerKey": "20:16",
+                "answerSpans": [
+                  "20:16"
+                ],
+                "quote": "My Friday Glass Orchard dress-run sheet puts the actual LX 18 call at 20:16.",
+                "revision": 0,
+                "sourceId": "s04"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "d7d49ed333370a2960e492ce5d4f710516781ceb0aeac57f6d0531c965357361",
+            "d285f7d944b892e5f9b527dec5cc17881eda58ec379a18237305639ebe7d7fc3",
+            "7e5c56cd66b8c6bd29e5cf0d393df38f6a2b1aec0532d04b8ecf1da3d5b5ffee"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q8"
+        }
+      ]
+    },
+    {
+      "id": "dev02",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "edafb7fdae614030523f98699556e31b4eca6241db7691026ef9f70e8e3390ef",
+            "7755ff0c22cc8ce6fcfcd7554d21927efb10adfbbac995c508f6461c532b4d08",
+            "11925a46954b9b5b1ecb1747dd6dd1c52d81e12541f6db1c509935e88bb0188a"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "cabinet-K",
+                "answerSpans": [
+                  "cabinet K"
+                ],
+                "quote": "Rill-62 after drying: store in cabinet K.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "da40b4f3d5d8a4198017087050aa08fcd3c0a4191b984ff5b199ed43a7cc581a",
+            "edafb7fdae614030523f98699556e31b4eca6241db7691026ef9f70e8e3390ef",
+            "b26d4a80e7fdab66247d14745437c9da7669a40a96fd709ded53e3b7dac98e87"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "distribution-forbidden",
+                "answerSpans": [
+                  "distribution is not permitted"
+                ],
+                "quote": "Donor permission slip for Rill-62: distribution is not permitted.",
+                "revision": 0,
+                "sourceId": "s07"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "cf9714da3b7e30cbfc51a737c3b4f6cd4513b21d46ba6afe19849d6a629ce265",
+            "edafb7fdae614030523f98699556e31b4eca6241db7691026ef9f70e8e3390ef",
+            "7755ff0c22cc8ce6fcfcd7554d21927efb10adfbbac995c508f6461c532b4d08"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "Mossbridge-7",
+                "answerSpans": [
+                  "Mossbridge 7"
+                ],
+                "quote": "Rill-62 collection envelope: collector's field identifier Mossbridge 7.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "d079e2487f71a87c83fa879a6f05c3c385a03d03546a48275f9e5def03067630",
+            "7755ff0c22cc8ce6fcfcd7554d21927efb10adfbbac995c508f6461c532b4d08",
+            "edafb7fdae614030523f98699556e31b4eca6241db7691026ef9f70e8e3390ef"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "cabinet-H",
+                "answerSpans": [
+                  "cabinet H"
+                ],
+                "quote": "Rill-62 intake plan, before drying: retain the accession in cabinet H.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "7755ff0c22cc8ce6fcfcd7554d21927efb10adfbbac995c508f6461c532b4d08",
+            "edafb7fdae614030523f98699556e31b4eca6241db7691026ef9f70e8e3390ef",
+            "da40b4f3d5d8a4198017087050aa08fcd3c0a4191b984ff5b199ed43a7cc581a"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "The germination percentage was not measured; do not infer it from appearance.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q8"
+        },
+        {
+          "candidateIDs": [
+            "b26d4a80e7fdab66247d14745437c9da7669a40a96fd709ded53e3b7dac98e87",
+            "7755ff0c22cc8ce6fcfcd7554d21927efb10adfbbac995c508f6461c532b4d08",
+            "edafb7fdae614030523f98699556e31b4eca6241db7691026ef9f70e8e3390ef"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "4eac1edf132206a98673ca1890db8461399f75cd815327f7b82a9f82a8259cb0",
+            "11925a46954b9b5b1ecb1747dd6dd1c52d81e12541f6db1c509935e88bb0188a",
+            "da40b4f3d5d8a4198017087050aa08fcd3c0a4191b984ff5b199ed43a7cc581a"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "43-packets",
+                "answerSpans": [
+                  "43 sealed packets"
+                ],
+                "quote": "Rill-62, Tuesday closing inventory [scan]: 43 sealed packets.",
+                "revision": 0,
+                "sourceId": "s03"
+              },
+              {
+                "answerKey": "47-packets",
+                "answerSpans": [
+                  "47 sealed packets"
+                ],
+                "quote": "I checked Rill-62 at Tuesday closing, 17:00, and counted 47 sealed packets.",
+                "revision": 0,
+                "sourceId": "s04"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "edafb7fdae614030523f98699556e31b4eca6241db7691026ef9f70e8e3390ef",
+            "7755ff0c22cc8ce6fcfcd7554d21927efb10adfbbac995c508f6461c532b4d08",
+            "da40b4f3d5d8a4198017087050aa08fcd3c0a4191b984ff5b199ed43a7cc581a"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q6"
+        }
+      ]
+    },
+    {
+      "id": "dev03",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "9cf66b9b3cc0827dfd7eac922aa7d0219dc1ff73d6861890c85abbad25df7fba",
+            "e0ad52986dd72e866724689da0b6b9f703153f4804fe6566cb2000de9fbac34e",
+            "1236f7796083281e3e8b763ab70e10930a57b3f1a63f589aa3772fdb8c384681"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "front-housing",
+                "answerSpans": [
+                  "replace the front housing",
+                  "the front housing",
+                  "front housing"
+                ],
+                "quote": "Juniper's approved work plan: replace the front housing.",
+                "revision": 1,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "9cf66b9b3cc0827dfd7eac922aa7d0219dc1ff73d6861890c85abbad25df7fba",
+            "1236f7796083281e3e8b763ab70e10930a57b3f1a63f589aa3772fdb8c384681",
+            "f220fe8fd070ba05b7032a9e5f2e5230b6a9e8231bd7d8b6cfaa233b3637a536"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "bench-steward",
+                "answerSpans": [
+                  "the bench steward",
+                  "bench steward"
+                ],
+                "quote": "The release key is held by the bench steward.",
+                "revision": 1,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "437eed0700f5a59a71a34e5fcb434b571b716fb28505ef70ad406f49f1de85ba",
+            "f220fe8fd070ba05b7032a9e5f2e5230b6a9e8231bd7d8b6cfaa233b3637a536",
+            "e0ad52986dd72e866724689da0b6b9f703153f4804fe6566cb2000de9fbac34e"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "brass",
+                "answerSpans": [
+                  "a brass finish",
+                  "brass finish",
+                  "brass"
+                ],
+                "quote": "owner requests a bell with a brass finish.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "f399f7cebab21b7901d6eff8244f77571c451237bd76a5dc3d61d834250c1d23",
+            "9cf66b9b3cc0827dfd7eac922aa7d0219dc1ff73d6861890c85abbad25df7fba",
+            "f220fe8fd070ba05b7032a9e5f2e5230b6a9e8231bd7d8b6cfaa233b3637a536"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "front-cable",
+                "answerSpans": [
+                  "the front cable",
+                  "front cable"
+                ],
+                "quote": "Juniper's first work plan: replace the front cable.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "9cf66b9b3cc0827dfd7eac922aa7d0219dc1ff73d6861890c85abbad25df7fba",
+            "f220fe8fd070ba05b7032a9e5f2e5230b6a9e8231bd7d8b6cfaa233b3637a536",
+            "1236f7796083281e3e8b763ab70e10930a57b3f1a63f589aa3772fdb8c384681"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "The rear rim's measured width was left blank because nobody measured it.",
+                "revision": 1,
+                "sourceId": "s02"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "e0ad52986dd72e866724689da0b6b9f703153f4804fe6566cb2000de9fbac34e",
+            "1236f7796083281e3e8b763ab70e10930a57b3f1a63f589aa3772fdb8c384681",
+            "9cf66b9b3cc0827dfd7eac922aa7d0219dc1ff73d6861890c85abbad25df7fba"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "3292bac3e143cffc684216d1d86f334b56f8497c9b908e6d3c4a5f4674519504",
+            "1236f7796083281e3e8b763ab70e10930a57b3f1a63f589aa3772fdb8c384681",
+            "9cf66b9b3cc0827dfd7eac922aa7d0219dc1ff73d6861890c85abbad25df7fba"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "touching",
+                "answerSpans": [
+                  "the front brake pad touching the tyre"
+                ],
+                "quote": "At the Juniper morning inspection I saw the front brake pad touching the tyre.",
+                "revision": 0,
+                "sourceId": "s03"
+              },
+              {
+                "answerKey": "clear",
+                "answerSpans": [
+                  "the front brake pad was clear of the tyre"
+                ],
+                "quote": "Juniper morning inspection, same final check: the front brake pad was clear of the tyre.",
+                "revision": 0,
+                "sourceId": "s04"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "f399f7cebab21b7901d6eff8244f77571c451237bd76a5dc3d61d834250c1d23",
+            "1236f7796083281e3e8b763ab70e10930a57b3f1a63f589aa3772fdb8c384681",
+            "3292bac3e143cffc684216d1d86f334b56f8497c9b908e6d3c4a5f4674519504"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q8"
+        }
+      ]
+    },
+    {
+      "id": "dev04",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "ae30a12f17688e25132965f29b9f3b2d353fa2b3e036cf9313f5abf43b557820",
+            "37b248e7831b881fdee72798780005d27e3608df4376858e26f1112457a1af46",
+            "2af5c47a2d52e7ae52bcf2afa2099ebed43dfc80cf7af3fa5918a1b8dc060376"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "undyed-linen",
+                "answerSpans": [
+                  "undyed linen"
+                ],
+                "quote": "Final authorized cradle lining: undyed linen.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "37b248e7831b881fdee72798780005d27e3608df4376858e26f1112457a1af46",
+            "017189df1e1a198a5c3b68976d291c75cb9556c4c91d1addc0133ad17e37b346",
+            "aa2565c7c1a773cadc1c5255661cced3e32cf03307048e83eb95752f98c36b5b"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "outer-carton",
+                "answerSpans": [
+                  "the outer carton",
+                  "outer carton"
+                ],
+                "quote": "Tape may close the outer carton.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "09260b842f654032d45886d9776473bb1138ec3b31a5c386bcf9b5f83bda7245",
+            "017189df1e1a198a5c3b68976d291c75cb9556c4c91d1addc0133ad17e37b346",
+            "2af5c47a2d52e7ae52bcf2afa2099ebed43dfc80cf7af3fa5918a1b8dc060376"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "FOLD-9",
+                "answerSpans": [
+                  "FOLD-9"
+                ],
+                "quote": "Discarded first wrapper for Tide Bowl L-14, label visible: handling code FOLD-9.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "ed1e3355d951ad6cc9bfbafb7d01e6fa5c4115d7b381dbc0fb4406082f8b94b8",
+            "37b248e7831b881fdee72798780005d27e3608df4376858e26f1112457a1af46",
+            "ae30a12f17688e25132965f29b9f3b2d353fa2b3e036cf9313f5abf43b557820"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "plain-cotton",
+                "answerSpans": [
+                  "plain cotton"
+                ],
+                "quote": "Initial cradle plan: line the cradle with plain cotton.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q8"
+        },
+        {
+          "candidateIDs": [
+            "ae30a12f17688e25132965f29b9f3b2d353fa2b3e036cf9313f5abf43b557820",
+            "017189df1e1a198a5c3b68976d291c75cb9556c4c91d1addc0133ad17e37b346",
+            "aa2565c7c1a773cadc1c5255661cced3e32cf03307048e83eb95752f98c36b5b"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "The packed crate's gross weight has not been recorded.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "aa2565c7c1a773cadc1c5255661cced3e32cf03307048e83eb95752f98c36b5b",
+            "2af5c47a2d52e7ae52bcf2afa2099ebed43dfc80cf7af3fa5918a1b8dc060376",
+            "ae30a12f17688e25132965f29b9f3b2d353fa2b3e036cf9313f5abf43b557820"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "017189df1e1a198a5c3b68976d291c75cb9556c4c91d1addc0133ad17e37b346",
+            "85e550378202f1517bd08c8fa488fcfef23397203827f9c58f337eddab8485e0",
+            "ae30a12f17688e25132965f29b9f3b2d353fa2b3e036cf9313f5abf43b557820"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "K208",
+                "answerSpans": [
+                  "K208"
+                ],
+                "quote": "At the sealed Tide Bowl crate handover on Monday, the seal number was K208.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "K280",
+                "answerSpans": [
+                  "K280"
+                ],
+                "quote": "Driver's Monday Tide Bowl handover record: sole seal number K280.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "aa2565c7c1a773cadc1c5255661cced3e32cf03307048e83eb95752f98c36b5b",
+            "2af5c47a2d52e7ae52bcf2afa2099ebed43dfc80cf7af3fa5918a1b8dc060376",
+            "ae30a12f17688e25132965f29b9f3b2d353fa2b3e036cf9313f5abf43b557820"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q4"
+        }
+      ]
+    },
+    {
+      "id": "dev05",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "54db3378d032ee7280bc0ea32e4801bf940a71e9938d9244f36b403f96a74956",
+            "801e771878693045516fed02dbcb154a0589f7d5cfc289cb729553be2a1ccfe8",
+            "21a1ef348a3dcf61a2682c3f4d9f3e87e8cabefb0a9fb543c73a6af4094c6eb2"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "garden-circuit",
+                "answerSpans": [
+                  "Garden circuit"
+                ],
+                "quote": "Alder loop entrance sign, approved lettering proof: heading 'Garden circuit'.",
+                "revision": 1,
+                "sourceId": "s01"
+              },
+              {
+                "answerKey": "garden-circuit",
+                "answerSpans": [
+                  "Garden circuit"
+                ],
+                "quote": "Alder loop sign-copy approval: use the heading 'Garden circuit'.",
+                "revision": 0,
+                "sourceId": "s04"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "a34cee9cf94a05dc2a3ad8a0f37beceb4225f500bc9043f2e2be4917d03eeecb",
+            "5084de815fb2a11664d5cf4f22ed24807a1e0177cc92a229aba4142acdd867ce",
+            "54db3378d032ee7280bc0ea32e4801bf940a71e9938d9244f36b403f96a74956"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "not-recorded",
+                "answerSpans": [
+                  "we did not record any viewing-distance measurements"
+                ],
+                "quote": "At the Alder loop reading trial, we did not record any viewing-distance measurements.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "21a1ef348a3dcf61a2682c3f4d9f3e87e8cabefb0a9fb543c73a6af4094c6eb2",
+            "5084de815fb2a11664d5cf4f22ed24807a1e0177cc92a229aba4142acdd867ce",
+            "14cc16bd99c9682eae2b1890a8e333c729782e4580d447027386b35d437f33ce"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "CREAM-3",
+                "answerSpans": [
+                  "CREAM-3"
+                ],
+                "quote": "Alder loop retired lettering test board [OCR]: test stock CREAM-3.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "26e572aed69aa2a12571164a8fdcdb0242698b7c7e701033312c7e49f036a806",
+            "54db3378d032ee7280bc0ea32e4801bf940a71e9938d9244f36b403f96a74956",
+            "801e771878693045516fed02dbcb154a0589f7d5cfc289cb729553be2a1ccfe8"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "short-circuit",
+                "answerSpans": [
+                  "Short circuit"
+                ],
+                "quote": "Alder loop entrance sign, first lettering proof: heading 'Short circuit'.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "5084de815fb2a11664d5cf4f22ed24807a1e0177cc92a229aba4142acdd867ce",
+            "a34cee9cf94a05dc2a3ad8a0f37beceb4225f500bc9043f2e2be4917d03eeecb",
+            "14cc16bd99c9682eae2b1890a8e333c729782e4580d447027386b35d437f33ce"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "At the Alder loop reading trial, we did not record any viewing-distance measurements.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "a34cee9cf94a05dc2a3ad8a0f37beceb4225f500bc9043f2e2be4917d03eeecb",
+            "14cc16bd99c9682eae2b1890a8e333c729782e4580d447027386b35d437f33ce",
+            "b9b6a8b1ac31535c4de9bbcbc185f2071ff8bc76d939b7ad94d715ac9d4f0dc2"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "14cc16bd99c9682eae2b1890a8e333c729782e4580d447027386b35d437f33ce",
+            "b9b6a8b1ac31535c4de9bbcbc185f2071ff8bc76d939b7ad94d715ac9d4f0dc2",
+            "801e771878693045516fed02dbcb154a0589f7d5cfc289cb729553be2a1ccfe8"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "white",
+                "answerSpans": [
+                  "white"
+                ],
+                "quote": "Alder entrance sign, Wednesday sunset inspection: its pole was painted white.",
+                "revision": 0,
+                "sourceId": "s05"
+              },
+              {
+                "answerKey": "black",
+                "answerSpans": [
+                  "black"
+                ],
+                "quote": "Spoken caption for the same Wednesday sunset Alder entrance inspection: the installed pole was black.",
+                "revision": 0,
+                "sourceId": "s06"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "5084de815fb2a11664d5cf4f22ed24807a1e0177cc92a229aba4142acdd867ce",
+            "a34cee9cf94a05dc2a3ad8a0f37beceb4225f500bc9043f2e2be4917d03eeecb",
+            "14cc16bd99c9682eae2b1890a8e333c729782e4580d447027386b35d437f33ce"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q8"
+        }
+      ]
+    },
+    {
+      "id": "dev06",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "594fa73509efb555ad6a951edc7bf106791e8528cff5ffd8b507c5fd12ffe739",
+            "bf323b2165bad589ec6dfb831ce943ce7a23654f97c07212ac678a36415168ce",
+            "9eda6cc3d4cd2f9a725eb0d56ccc01b80432af9aa6d7474b3f042bf95ca05f87"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "lentil-bowl",
+                "answerSpans": [
+                  "lentil bowl"
+                ],
+                "quote": "Mira's final meal request for the volunteer supper: lentil bowl.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q8"
+        },
+        {
+          "candidateIDs": [
+            "95952a20a0e88d77bce760a362e73ea4a57f908fa4b7ea718b8fd8ea119ecf38",
+            "9eda6cc3d4cd2f9a725eb0d56ccc01b80432af9aa6d7474b3f042bf95ca05f87",
+            "df3aea1ab15e9865576448882f9a5d4cc0d3aaca346cb2e4119b825c6f0c8ab1"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "c1de0b3f3c59ae06a593d3a22275e13b5983ea835b46f341bfade25ee563c2ef",
+            "9eda6cc3d4cd2f9a725eb0d56ccc01b80432af9aa6d7474b3f042bf95ca05f87",
+            "594fa73509efb555ad6a951edc7bf106791e8528cff5ffd8b507c5fd12ffe739"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "Willow",
+                "answerSpans": [
+                  "table Willow",
+                  "Willow"
+                ],
+                "quote": "Mira's first place card for the supper reads table Willow.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "594fa73509efb555ad6a951edc7bf106791e8528cff5ffd8b507c5fd12ffe739",
+            "bf323b2165bad589ec6dfb831ce943ce7a23654f97c07212ac678a36415168ce",
+            "95952a20a0e88d77bce760a362e73ea4a57f908fa4b7ea718b8fd8ea119ecf38"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "594fa73509efb555ad6a951edc7bf106791e8528cff5ffd8b507c5fd12ffe739",
+            "9eda6cc3d4cd2f9a725eb0d56ccc01b80432af9aa6d7474b3f042bf95ca05f87",
+            "bf323b2165bad589ec6dfb831ce943ce7a23654f97c07212ac678a36415168ce"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "The sauce's full ingredient list was not recorded on our intake sheet; we have not verified it.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "2c8550364c014c9f979a3460a6ae3f04d483f38d4a416b1d56828e24374d4f1c",
+            "bf323b2165bad589ec6dfb831ce943ce7a23654f97c07212ac678a36415168ce",
+            "594fa73509efb555ad6a951edc7bf106791e8528cff5ffd8b507c5fd12ffe739"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "9eda6cc3d4cd2f9a725eb0d56ccc01b80432af9aa6d7474b3f042bf95ca05f87",
+            "df3aea1ab15e9865576448882f9a5d4cc0d3aaca346cb2e4119b825c6f0c8ab1",
+            "bf323b2165bad589ec6dfb831ce943ce7a23654f97c07212ac678a36415168ce"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "upper",
+                "answerSpans": [
+                  "the upper shelf",
+                  "upper shelf"
+                ],
+                "quote": "Volunteer supper, 18:10 before collection: I put Mira's labelled tray on the upper shelf.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "lower",
+                "answerSpans": [
+                  "the lower shelf",
+                  "lower shelf"
+                ],
+                "quote": "Volunteer supper handover caption, 18:10 before collection: Mira's labelled tray was on the lower shelf.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "95952a20a0e88d77bce760a362e73ea4a57f908fa4b7ea718b8fd8ea119ecf38",
+            "9eda6cc3d4cd2f9a725eb0d56ccc01b80432af9aa6d7474b3f042bf95ca05f87",
+            "bf323b2165bad589ec6dfb831ce943ce7a23654f97c07212ac678a36415168ce"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q3"
+        }
+      ]
+    },
+    {
+      "id": "dev07",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "d8535c54b1de30851cfd3a6f8af52d350a7e07405a7bef9fc8b4bbf4560b62ca",
+            "2a5d1affb72f73e3d9220896f331eb9dcea26f09935a0ae300aaccd5b384e4e8",
+            "ed928062f9900408a8fa0f3236b1cb1f73887e83afcc25c0274eccd1975e2b7e"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "QX4MN",
+                "answerSpans": [
+                  "QX4MN"
+                ],
+                "quote": "Fictional radio club exercise, contact 17 corrected entry: remote callsign QX4MN.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "2a5d1affb72f73e3d9220896f331eb9dcea26f09935a0ae300aaccd5b384e4e8",
+            "c1568a5bebaaca2e2d0b4d66473f2aea7795cc6311b5cba7e41de36c5e2da492",
+            "b2aa350c37371498e9aa2924ae59ae889a5f73739e0f70aa7251859020e35992"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "not-measured",
+                "answerSpans": [
+                  "no transmitter output-power measurement was taken"
+                ],
+                "quote": "For practice contact 17, no transmitter output-power measurement was taken.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "78d56e353ff74587c2689908330cadba868f9b705a8b1933b5d1960c2d3a7457",
+            "ed928062f9900408a8fa0f3236b1cb1f73887e83afcc25c0274eccd1975e2b7e",
+            "b2aa350c37371498e9aa2924ae59ae889a5f73739e0f70aa7251859020e35992"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "copper",
+                "answerSpans": [
+                  "copper"
+                ],
+                "quote": "Practice contact 17, retired check card: exchange word 'copper'.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "2a5d1affb72f73e3d9220896f331eb9dcea26f09935a0ae300aaccd5b384e4e8",
+            "a447eab3c0d4134240ac6b515cb5dd4d9b261b148bd19c1c4494c0d7683b34fe",
+            "d8535c54b1de30851cfd3a6f8af52d350a7e07405a7bef9fc8b4bbf4560b62ca"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "QX4LM",
+                "answerSpans": [
+                  "QX4LM"
+                ],
+                "quote": "Fictional radio club exercise, contact 17 initial entry: remote callsign QX4LM.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "2a5d1affb72f73e3d9220896f331eb9dcea26f09935a0ae300aaccd5b384e4e8",
+            "c1568a5bebaaca2e2d0b4d66473f2aea7795cc6311b5cba7e41de36c5e2da492",
+            "b2aa350c37371498e9aa2924ae59ae889a5f73739e0f70aa7251859020e35992"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "For practice contact 17, no transmitter output-power measurement was taken.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "2a5d1affb72f73e3d9220896f331eb9dcea26f09935a0ae300aaccd5b384e4e8",
+            "b2aa350c37371498e9aa2924ae59ae889a5f73739e0f70aa7251859020e35992",
+            "c1568a5bebaaca2e2d0b4d66473f2aea7795cc6311b5cba7e41de36c5e2da492"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q6"
+        },
+        {
+          "candidateIDs": [
+            "b2aa350c37371498e9aa2924ae59ae889a5f73739e0f70aa7251859020e35992",
+            "ed928062f9900408a8fa0f3236b1cb1f73887e83afcc25c0274eccd1975e2b7e",
+            "2a5d1affb72f73e3d9220896f331eb9dcea26f09935a0ae300aaccd5b384e4e8"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "FM",
+                "answerSpans": [
+                  "FM"
+                ],
+                "quote": "Practice contact 18, complete exchange at 11:20: operating mode FM.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "AM",
+                "answerSpans": [
+                  "AM"
+                ],
+                "quote": "Practice contact 18, complete 11:20 exchange: operating mode AM.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "78d56e353ff74587c2689908330cadba868f9b705a8b1933b5d1960c2d3a7457",
+            "a447eab3c0d4134240ac6b515cb5dd4d9b261b148bd19c1c4494c0d7683b34fe",
+            "2a5d1affb72f73e3d9220896f331eb9dcea26f09935a0ae300aaccd5b384e4e8"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q8"
+        }
+      ]
+    },
+    {
+      "id": "dev08",
+      "tasks": [
+        {
+          "candidateIDs": [
+            "679535e9b6decd085fe86217ccd9cf634df7164930630b31a8b1c1476bc4dea4",
+            "0dcce4aaf437ede68fb3963090e488a79df7324b5198866f06b4b3e3fc5c6f13",
+            "23a3d92dec595d2e3655cfa78de42da7acd3bc28550d4cc25fbe8728f2604502"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "Thursday-afternoon",
+                "answerSpans": [
+                  "Thursday afternoon"
+                ],
+                "quote": "Oriole group's rescheduled kiln reservation: Thursday afternoon.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q2"
+        },
+        {
+          "candidateIDs": [
+            "23a3d92dec595d2e3655cfa78de42da7acd3bc28550d4cc25fbe8728f2604502",
+            "679535e9b6decd085fe86217ccd9cf634df7164930630b31a8b1c1476bc4dea4",
+            "0dcce4aaf437ede68fb3963090e488a79df7324b5198866f06b4b3e3fc5c6f13"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "studio-technician",
+                "answerSpans": [
+                  "The studio technician",
+                  "studio technician"
+                ],
+                "quote": "The studio technician must do the loading.",
+                "revision": 0,
+                "sourceId": "s03"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q7"
+        },
+        {
+          "candidateIDs": [
+            "85048b3f23ddb5d51bf460db748d6e68297a6c169b5ea07aa32c6e4284b6176e",
+            "04a8522325c85d6d008c652fd73ee8c454d6eac9d5c89532d09b7517f2453d07",
+            "679535e9b6decd085fe86217ccd9cf634df7164930630b31a8b1c1476bc4dea4"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "46",
+                "answerSpans": [
+                  "46"
+                ],
+                "quote": "Retired Oriole booking queue token: number 46.",
+                "revision": 0,
+                "sourceId": "s02"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q4"
+        },
+        {
+          "candidateIDs": [
+            "679535e9b6decd085fe86217ccd9cf634df7164930630b31a8b1c1476bc4dea4",
+            "04a8522325c85d6d008c652fd73ee8c454d6eac9d5c89532d09b7517f2453d07",
+            "0dcce4aaf437ede68fb3963090e488a79df7324b5198866f06b4b3e3fc5c6f13"
+          ],
+          "corpusVerdict": "supported",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "Tuesday-morning",
+                "answerSpans": [
+                  "Tuesday morning"
+                ],
+                "quote": "Oriole group first kiln reservation: Tuesday morning.",
+                "revision": 0,
+                "sourceId": "s01"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "supported"
+          },
+          "id": "q5"
+        },
+        {
+          "candidateIDs": [
+            "679535e9b6decd085fe86217ccd9cf634df7164930630b31a8b1c1476bc4dea4",
+            "628dbb57fed284d2aee5bdb0f392e0ee411712197ec15c71bc7613a783c0b714",
+            "0dcce4aaf437ede68fb3963090e488a79df7324b5198866f06b4b3e3fc5c6f13"
+          ],
+          "corpusVerdict": "explicit_missing",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [
+              {
+                "quote": "For Oriole's earlier trial firing, the peak temperature was never logged; this booking note cannot supply it.",
+                "revision": 1,
+                "sourceId": "s01"
+              }
+            ],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "explicit_missing"
+          },
+          "id": "q1"
+        },
+        {
+          "candidateIDs": [
+            "980fc2c70029e8f2fee1b9601e293716d8f30bbcd90152b3f1bc1d73fc4ae495",
+            "679535e9b6decd085fe86217ccd9cf634df7164930630b31a8b1c1476bc4dea4",
+            "628dbb57fed284d2aee5bdb0f392e0ee411712197ec15c71bc7613a783c0b714"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q3"
+        },
+        {
+          "candidateIDs": [
+            "0dcce4aaf437ede68fb3963090e488a79df7324b5198866f06b4b3e3fc5c6f13",
+            "8bf44a30cd64afdea80be45900f3edb8ec528c3e113f225af66193c0586b1efe",
+            "628dbb57fed284d2aee5bdb0f392e0ee411712197ec15c71bc7613a783c0b714"
+          ],
+          "corpusVerdict": "conflicting",
+          "gold": {
+            "answers": [
+              {
+                "answerKey": "30-tokens",
+                "answerSpans": [
+                  "30 tokens"
+                ],
+                "quote": "Oriole reservation, single deposit received at reception on Monday: 30 tokens.",
+                "revision": 0,
+                "sourceId": "s04"
+              },
+              {
+                "answerKey": "40-tokens",
+                "answerSpans": [
+                  "40 tokens"
+                ],
+                "quote": "Oriole reservation, Monday reception deposit: 40 tokens received.",
+                "revision": 0,
+                "sourceId": "s05"
+              }
+            ],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "conflicting"
+          },
+          "id": "q8"
+        },
+        {
+          "candidateIDs": [
+            "679535e9b6decd085fe86217ccd9cf634df7164930630b31a8b1c1476bc4dea4",
+            "628dbb57fed284d2aee5bdb0f392e0ee411712197ec15c71bc7613a783c0b714",
+            "980fc2c70029e8f2fee1b9601e293716d8f30bbcd90152b3f1bc1d73fc4ae495"
+          ],
+          "corpusVerdict": "not_established",
+          "gold": {
+            "answers": [],
+            "missingEvidence": [],
+            "rationale": "Derived from frozen corpus annotations and fixed packet; requires independent packet review.",
+            "verdict": "not_established"
+          },
+          "id": "q6"
+        }
+      ]
+    }
+  ],
+  "retrievalFiles": {
+    "dev01": "7fcf05da62d7e91f5ad463806138c2099551675db2e21f659550330cc84bf5d8",
+    "dev02": "1dd321ff2184b73f19d67d3692cd682e69e7d062997beb85c54fd1bf327ece1a",
+    "dev03": "cf0603076171d5c126fbc2433ee6cbcf0b100dec66635b990ca833a68ec3d352",
+    "dev04": "0d1f012266f96cbbefcff142691532f637559ee9f8829db9919cdd59f66a464a",
+    "dev05": "f9dee26568bfbbda05575f195c00e5061f6e2cbe1fd337dfca687952ddc1fa39",
+    "dev06": "a7226638680ee2c3ce7358302489e5981729a056f714180010773a896caa28d8",
+    "dev07": "d00d10121d534ac801aee22ae97dbb41e0e6af1ddfcd12fd5d8f791fa6c8476b",
+    "dev08": "4a5ca474ea8dd55bafc808fcd0cb3269c706029d4844d4369dbf5db0fc823c0e"
+  },
+  "split": "development"
+}

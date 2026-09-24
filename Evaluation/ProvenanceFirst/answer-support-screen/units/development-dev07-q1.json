@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev07-q1",
+    "inputSHA256": "850f699fdf6605301f1a5804b9933aae630be3b7a307ef12d83bad221b82bf5b",
+    "rawSHA256": "391aa48b649db338dbefc455b84a1806ba6e3710b69e7c97e288ca7863fac8cc",
+    "requestCount": 1,
+    "reservationSHA256": "cf431ef45c0b658601ed82730bfcc26a168fa2bb36ecf3af2fe3be0c9fc5c554",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.9784398750052787,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "remote callsign QX4MN",
+        "evidence": [
+          {
+            "candidateID": "d8535c54b1de30851cfd3a6f8af52d350a7e07405a7bef9fc8b4bbf4560b62ca",
+            "quote": "Fictional radio club exercise, contact 17 corrected entry: remote callsign QX4MN. This corrects the initial transcription after replaying the practice audio; all entries concern an exercise, not a real station contact."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21463040,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev07-q1"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "5f7fd25f76ae7c387eff3b19cc07b9d01cc5e84afb0ef7eadc51d21399dfd872"
+}

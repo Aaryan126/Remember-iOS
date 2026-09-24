@@ -1,0 +1,122 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Return-policy trial brief",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Tool library return-policy trial will track whether clearer return reminders reduce overdue items. The trial covers loan wording and reminder cards. Repair diagnosis remains a separate activity, although borrowers may bring tools to the Saturday clinic when returning them."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Repair clinic kickoff, 00:00–00:20",
+      "modality": "voice",
+      "sourceId": "s02",
+      "text": "Saturday drill repair clinic will inspect three donated cordless drills and document repair decisions. Borrower loan history is relevant only when a returned drill enters the clinic. The clinic is volunteer maintenance work, not an extension of every tool-library loan."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Unheaded counter intake form OCR",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "Counter intake sheet: record the tool number, return condition and inspection queue position. The form has no printed project heading, and its footer is smudged. It could support returns or repairs; the surviving text does not establish which team adopted it."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Return wording note, first approval",
+      "modality": "note",
+      "sourceId": "s04",
+      "text": "Tool library return-policy trial, first approved wording: allow a two-day grace period after the due date. Send the reminder on the following morning. This is a fictional process trial; no actual borrower account or fee is changed by this document."
+    },
+    {
+      "assignedProjectRoots": [
+        "s01",
+        "s02"
+      ],
+      "id": "e05",
+      "kind": "correct",
+      "reason": "Use the counter intake sheet for both the tool library return-policy trial and Saturday drill repair clinic. We adopted one form for returns that enter the repair queue.",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Drill D2 inspection card, page 1",
+      "modality": "pdf",
+      "sourceId": "s05",
+      "text": "Saturday drill repair clinic inspection card D2: the chuck sleeve binds when turned by hand. The battery pack was removed before this observation. No replacement part has been selected, and this card does not authorize lending the drill again."
+    },
+    {
+      "id": "e07",
+      "kind": "revise",
+      "locator": "Return wording note, closed-day revision",
+      "sourceId": "s04",
+      "text": "Tool library return-policy trial, updated approval: allow a four-day grace period after the due date. The trial coordinator extended the allowance to cover the new closed day. Reminder wording must use this current interval; the earlier approval remains part of the record."
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Reminder card mockup OCR",
+      "modality": "photo",
+      "sourceId": "s06",
+      "text": "Tool library return-policy trial reminder layout: put the due date above the return location in large type. The illustration of a drill is decorative and does not identify an item in the repair clinic. Borrower names will be filled in outside this fictional example."
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "locator": "Fictional drill-parts catalog, sleeves page",
+      "modality": "link",
+      "sourceId": "s07",
+      "text": "A drill-parts catalog is background reading for the Saturday drill repair clinic. Several models use similar-looking chuck sleeves. The page does not identify the model of D2 or prove that any listed sleeve will fit the donated tool."
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Unidentified crack memo, 00:03–00:11",
+      "modality": "voice",
+      "sourceId": "s08",
+      "text": "Loose voice memo: 'Ask the owner about the crack underneath.' No tool number, owner name or location is spoken. A drawer closing hides the preceding sentence. The memo cannot establish whether the crack belongs to a drill, its case or something else."
+    },
+    {
+      "id": "e11",
+      "kind": "archive",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e12",
+      "kind": "restore",
+      "sourceId": "s05"
+    }
+  ],
+  "id": "dev08",
+  "queries": [
+    {
+      "atEvent": "e08",
+      "id": "q1",
+      "question": "Recover the first approved return-wording note before its closed-day revision: what grace period did it allow?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q2",
+      "question": "How long is the grace period in the currently approved return-wording note?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "Find the active intake sheet explicitly adopted for both the return-policy trial and repair clinic.",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Which tool number is mentioned in the loose crack memo?",
+      "scope": "current"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "rawPath": "attempts/phone/generation/raw.json",
+  "rawSHA256": "5ffa78929029df925b092e44b637b74ce5b37e7f070f310c78d9e70cd939f9fc",
+  "result": {
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "code": "ORBIT-27",
+      "deadlineFired": false,
+      "elapsedSeconds": 3.923192124995694,
+      "error": null,
+      "events": [
+        {
+          "applicationState": 1,
+          "elapsedSeconds": 0.00023787499958416447,
+          "phase": "app_task_entered",
+          "protectedDataAvailable": true
+        },
+        {
+          "applicationState": 0,
+          "elapsedSeconds": 0.32819666666182457,
+          "phase": "foreground_verified",
+          "protectedDataAvailable": true
+        },
+        {
+          "elapsedSeconds": 0.33156812499510124,
+          "phase": "model_lookup_started"
+        },
+        {
+          "elapsedSeconds": 0.34353495833056513,
+          "phase": "model_lookup_finished"
+        },
+        {
+          "elapsedSeconds": 0.3456475833299919,
+          "phase": "availability_check_started"
+        },
+        {
+          "availability": "available",
+          "contextSize": 4096,
+          "elapsedSeconds": 0.3966764583310578,
+          "phase": "availability_check_finished"
+        },
+        {
+          "elapsedSeconds": 0.397402583330404,
+          "phase": "session_init_started"
+        },
+        {
+          "elapsedSeconds": 0.3986401250003837,
+          "phase": "session_init_finished"
+        },
+        {
+          "applicationState": 0,
+          "elapsedSeconds": 0.3991762083314825,
+          "maximumResponseTokens": 100,
+          "phase": "response_started",
+          "prewarmUsed": false
+        },
+        {
+          "applicationState": 0,
+          "elapsedSeconds": 3.9220388749963604,
+          "phase": "response_finished"
+        }
+      ],
+      "lastPhase": "response_finished",
+      "passed": true,
+      "phaseAtDeadline": null,
+      "watchdogControl": false
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "generation"
+  }
+}

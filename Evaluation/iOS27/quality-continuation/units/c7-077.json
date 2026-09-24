@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-077/raw.json",
+  "rawSHA256": "dd7ae94287a4a91c9c9de2fcca96ccecfccc686ea5045c78b36afbf9b9891ea5",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 11.5549240416658,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.083333573769778e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3220069999952102,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.375754541666538,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3767770833292161,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 11.552858916664263,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "c14cdb56f0548101967ab4926ffae365d68be348364f18e0b5d10ead3cc850a3",
+      "contextSize": 4096,
+      "generationSeconds": 11.175389416668622,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Survey, scaffold hire, slate replacement and final leak inspection are one roof-restoration contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Northgate Library commissioned its window restoration under a different contract.",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources mention distinct contracts: s01's ",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-077"
+  }
+}

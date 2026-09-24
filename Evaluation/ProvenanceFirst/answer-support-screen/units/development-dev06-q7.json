@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev06-q7",
+    "inputSHA256": "ab347f072fc43999c333cb9e22ba6940ffb4d05dd325c626b255edf1cd0521c9",
+    "rawSHA256": "64e6b03f52a916884560c47113a293f0d76d529a423f37aa4049685581a3ef55",
+    "requestCount": 1,
+    "reservationSHA256": "da81ae5a424f9398ee227b536b145955c8c0938d00969edbf26a65fbffd8c938",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.400916499987943,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "594fa73509efb555ad6a951edc7bf106791e8528cff5ffd8b507c5fd12ffe739",
+            "quote": "The sauce's full ingredient list was not recorded on our intake sheet; we have not verified it."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21495808,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev06-q7"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "fd1bc3d2f7bccaab41e71ef9fd0bc93392be3e3d0e7034b539ea8e4036d2f6d3"
+}

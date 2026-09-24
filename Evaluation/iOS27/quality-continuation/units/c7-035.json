@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-035/raw.json",
+  "rawSHA256": "70f9fcf36bc514ba5f171456430dae1d3e1770eb702ed2e83c2c8bbebf57066d",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.6218838333297754,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.0000013541430235e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.31690762499783887,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.36776025000290247,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.36876487499830546,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.6207850416685687,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "61faa3fb91bcbb16f1b774bacfd462c903d699ceb2e06a63c0831e83f1af4ec1",
+      "contextSize": 4096,
+      "generationSeconds": 3.2513510416611098,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Translator draft, copy-editing and Spanish page proofs form one publication contract",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Editorial message: The revised travel-book proofs are approved. Please send the final pages.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference 'travel-book proofs' and a single publication contract, indicating the same translation project.",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-035"
+  }
+}

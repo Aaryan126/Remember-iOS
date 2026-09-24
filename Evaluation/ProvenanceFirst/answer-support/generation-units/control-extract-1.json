@@ -1,0 +1,52 @@
+{
+  "bindingSHA256": "540d0f266c0ee6ccbf3759963d1450349253f99433f32d71a0056ec4fd2911da",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "control-extract-1",
+    "inputSHA256": "f3185d8a7dbd7cf7ea89cc94d35f39ba4cdc85a2ec124afe5fb23d7a336a44ac",
+    "output": {
+      "answer": "Receipt code: ORBIT-27.",
+      "evidence": [
+        {
+          "candidateID": "control-source-1",
+          "quote": "Receipt code: ORBIT-27."
+        }
+      ],
+      "verdict": "supported"
+    },
+    "passed": false,
+    "rawSHA256": "25d1b766962639f60f1f80211df1b88de50914b8fa3772c3202a13b94804e15e",
+    "requestCount": 1,
+    "reservationSHA256": "d0151a821a413e76e37b641176c34c40f8262f48d7950ece911f4616e21be70c",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.18056941665418,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Receipt code: ORBIT-27.",
+        "evidence": [
+          {
+            "candidateID": "control-source-1",
+            "quote": "Receipt code: ORBIT-27."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 19677184,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "control-extract-1"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "984846bace1d8655a13824d757b88610f6939af90cde9f1a138cca8f0c165e04"
+}

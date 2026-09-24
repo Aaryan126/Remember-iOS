@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev02-q1",
+    "inputSHA256": "16213c30ee44622aa4c7bc73b9792c43b72c670ef2ebe0542c6abbf3958b75ef",
+    "rawSHA256": "d1490f78a40ba1d0a2a0f978f6b44ffe031c367cac00ce6493fa10bf3b069fe5",
+    "requestCount": 1,
+    "reservationSHA256": "7112a66d8647c2046bf6bbc4eab72a759978f2298027b6fae488c1c5d93eda01",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.7244259166764095,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "da40b4f3d5d8a4198017087050aa08fcd3c0a4191b984ff5b199ed43a7cc581a",
+            "quote": "Donor permission slip for Rill-62: distribution is not permitted. Permission to retain and display unopened packets does not include permission to give seeds away."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21495808,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev02-q1"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "36f964913e9105de0d46e67d82465c4b52133d111119ad904d2416f805c3afcf"
+}

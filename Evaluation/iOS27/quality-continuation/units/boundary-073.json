@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-073/raw.json",
+  "rawSHA256": "f3115a0ae93bb6c50ac6b886eef6e0a62c3fc3675a8ceaa6225c795a5e749019",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.59089170833613,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.0416641645133495e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3176804583345074,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37173087499832036,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3727534583376837,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.588748750000377,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "b493acd0afe17a836f8568c401a9edb998a4d718154691977b6df0a26a83026c",
+      "contextSize": 4096,
+      "generationSeconds": 4.215371291669726,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Export mapping, rehearsal imports and cutover support belong to this migration engagement",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Operations diary coordinates the migration cutover and the access-revocation incident review",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct undertakings\u2014migration cutover and access-revocation incident\u2014without shared coordination or naming.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-073"
+  }
+}

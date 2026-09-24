@@ -1,0 +1,729 @@
+{
+  "corpusSHA256": "43557eebefa52c35c9d0e69fc25038ea00ff7e34470cb7bf0d3d853fc5e0af0b",
+  "entries": [
+    {
+      "acceptedAnswers": [
+        "the actor touching the letter",
+        "Following the dress rehearsal, the accepted trigger for LX 18 is the actor touching the letter."
+      ],
+      "answerKey": "letter-touch",
+      "id": "dev01:q1:s01:r1:0",
+      "legacyAnswers": [
+        "the actor touching the letter"
+      ],
+      "library": "dev01",
+      "passageApproved": true,
+      "proposedAnswer": "Following the dress rehearsal, the accepted trigger for LX 18 is the actor touching the letter.",
+      "question": "q1",
+      "questionText": "What is the accepted LX 18 trigger for Glass Orchard after the dress rehearsal?",
+      "reason": "Directly identifies LX 18's accepted post-rehearsal trigger, preserving the temporal qualifier and adding no claim about disputed live call times.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "Following the dress rehearsal, the accepted trigger for LX 18 is the actor touching the letter."
+    },
+    {
+      "acceptedAnswers": [
+        "We did not record a sound level for the door slam."
+      ],
+      "answerKey": "not-recorded",
+      "id": "dev01:q2:s03:r0:0",
+      "legacyAnswers": [
+        "We did not record a sound level for the door slam."
+      ],
+      "library": "dev01",
+      "passageApproved": true,
+      "proposedAnswer": "We did not record a sound level for the door slam.",
+      "question": "q2",
+      "questionText": "Was the Glass Orchard door-slam sound level recorded?",
+      "reason": "Already a legacy accepted answer; the entire sentence directly answers the recording yes/no question negatively and preserves the door-slam measurement scope.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "We did not record a sound level for the door slam."
+    },
+    {
+      "acceptedAnswers": [
+        "harbour",
+        "the sound operator's standby word was 'harbour'."
+      ],
+      "answerKey": "harbour",
+      "id": "dev01:q3:s02:r0:0",
+      "legacyAnswers": [
+        "harbour"
+      ],
+      "library": "dev01",
+      "passageApproved": true,
+      "proposedAnswer": "the sound operator's standby word was 'harbour'.",
+      "question": "q3",
+      "questionText": "What standby word appears on the old Glass Orchard sound cue card?",
+      "reason": "Names the sound operator's standby word from the archived card, retaining the role and historical wording without importing the current lighting trigger.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "the sound operator's standby word was 'harbour'."
+    },
+    {
+      "acceptedAnswers": [
+        "the door slam",
+        "Before the dress rehearsal, the accepted trigger for LX 18 is the door slam."
+      ],
+      "answerKey": "door-slam",
+      "id": "dev01:q4:s01:r0:0",
+      "legacyAnswers": [
+        "the door slam"
+      ],
+      "library": "dev01",
+      "passageApproved": true,
+      "proposedAnswer": "Before the dress rehearsal, the accepted trigger for LX 18 is the door slam.",
+      "question": "q4",
+      "questionText": "Before the dress rehearsal, what trigger did the Glass Orchard rehearsal book accept for LX 18?",
+      "reason": "Explicitly answers the before-rehearsal trigger question and preserves both the cue identifier and the requested historical period.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "Before the dress rehearsal, the accepted trigger for LX 18 is the door slam."
+    },
+    {
+      "acceptedAnswers": [
+        "the door-slam trigger",
+        "This explicitly replaces the door-slam trigger."
+      ],
+      "answerKey": "door-slam",
+      "id": "dev01:q4:s01:r1:1",
+      "legacyAnswers": [
+        "the door-slam trigger"
+      ],
+      "library": "dev01",
+      "passageApproved": true,
+      "proposedAnswer": "This explicitly replaces the door-slam trigger.",
+      "question": "q4",
+      "questionText": "Before the dress rehearsal, what trigger did the Glass Orchard rehearsal book accept for LX 18?",
+      "reason": "In the cited amendment, the sentence directly identifies the displaced door-slam trigger. The replacement relation is relevant to the historical question; it does not claim that the old trigger remains current.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "This explicitly replaces the door-slam trigger."
+    },
+    {
+      "acceptedAnswers": [
+        "cabinet K",
+        "Rill-62 after drying: store in cabinet K."
+      ],
+      "answerKey": "cabinet-K",
+      "id": "dev02:q5:s01:r1:0",
+      "legacyAnswers": [
+        "cabinet K"
+      ],
+      "library": "dev02",
+      "passageApproved": true,
+      "proposedAnswer": "Rill-62 after drying: store in cabinet K.",
+      "question": "q5",
+      "questionText": "Where is Rill-62 to be stored after drying?",
+      "reason": "Names the correct accession, post-drying stage and cabinet K instruction in one focused extract.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "Rill-62 after drying: store in cabinet K."
+    },
+    {
+      "acceptedAnswers": [
+        "Distribution is not permitted",
+        "Distribution is not permitted: the donor has withheld permission."
+      ],
+      "answerKey": "distribution-forbidden",
+      "id": "dev02:q1:s01:r1:0",
+      "legacyAnswers": [
+        "Distribution is not permitted"
+      ],
+      "library": "dev02",
+      "passageApproved": true,
+      "proposedAnswer": "Distribution is not permitted: the donor has withheld permission.",
+      "question": "q1",
+      "questionText": "May Rill-62 seeds be distributed?",
+      "reason": "Preserves the prohibition and its directly relevant donor-permission basis, without turning retention or display permission into distribution permission.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "Distribution is not permitted: the donor has withheld permission."
+    },
+    {
+      "acceptedAnswers": [
+        "distribution is not permitted",
+        "Donor permission slip for Rill-62: distribution is not permitted."
+      ],
+      "answerKey": "distribution-forbidden",
+      "id": "dev02:q1:s07:r0:1",
+      "legacyAnswers": [
+        "distribution is not permitted"
+      ],
+      "library": "dev02",
+      "passageApproved": true,
+      "proposedAnswer": "Donor permission slip for Rill-62: distribution is not permitted.",
+      "question": "q1",
+      "questionText": "May Rill-62 seeds be distributed?",
+      "reason": "The permission-slip sentence explicitly answers for Rill-62 and preserves the negative distribution restriction.",
+      "revision": 0,
+      "sourceId": "s07",
+      "supportQuote": "Donor permission slip for Rill-62: distribution is not permitted."
+    },
+    {
+      "acceptedAnswers": [
+        "Mossbridge 7",
+        "Rill-62 collection envelope: collector's field identifier Mossbridge 7."
+      ],
+      "answerKey": "Mossbridge-7",
+      "id": "dev02:q7:s02:r0:0",
+      "legacyAnswers": [
+        "Mossbridge 7"
+      ],
+      "library": "dev02",
+      "passageApproved": true,
+      "proposedAnswer": "Rill-62 collection envelope: collector's field identifier Mossbridge 7.",
+      "question": "q7",
+      "questionText": "Which collector's field identifier is written on the retired Rill-62 envelope?",
+      "reason": "Provides the exact field identifier on the retired envelope with the accession and collector-field role intact.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "Rill-62 collection envelope: collector's field identifier Mossbridge 7."
+    },
+    {
+      "acceptedAnswers": [
+        "cabinet H",
+        "Rill-62 intake plan, before drying: retain the accession in cabinet H."
+      ],
+      "answerKey": "cabinet-H",
+      "id": "dev02:q3:s01:r0:0",
+      "legacyAnswers": [
+        "cabinet H"
+      ],
+      "library": "dev02",
+      "passageApproved": true,
+      "proposedAnswer": "Rill-62 intake plan, before drying: retain the accession in cabinet H.",
+      "question": "q3",
+      "questionText": "What cabinet did the Rill-62 intake plan specify before drying?",
+      "reason": "Explicitly attributes cabinet H to the before-drying intake plan. The question asks what that plan specified, not whether the provisional location remained current.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "Rill-62 intake plan, before drying: retain the accession in cabinet H."
+    },
+    {
+      "acceptedAnswers": [
+        "replace the front housing",
+        "the front housing",
+        "front housing",
+        "Juniper's approved work plan: replace the front housing."
+      ],
+      "answerKey": "front-housing",
+      "id": "dev03:q1:s02:r1:0",
+      "legacyAnswers": [
+        "replace the front housing",
+        "the front housing",
+        "front housing"
+      ],
+      "library": "dev03",
+      "passageApproved": true,
+      "proposedAnswer": "Juniper's approved work plan: replace the front housing.",
+      "question": "q1",
+      "questionText": "What replacement does the approved Juniper work plan call for?",
+      "reason": "Identifies the approved Juniper replacement as front housing, preserving the approval status rather than substituting the earlier proposed cable.",
+      "revision": 1,
+      "sourceId": "s02",
+      "supportQuote": "Juniper's approved work plan: replace the front housing."
+    },
+    {
+      "acceptedAnswers": [
+        "the bench steward",
+        "bench steward",
+        "The release key is held by the bench steward."
+      ],
+      "answerKey": "bench-steward",
+      "id": "dev03:q2:s02:r1:0",
+      "legacyAnswers": [
+        "the bench steward",
+        "bench steward"
+      ],
+      "library": "dev03",
+      "passageApproved": true,
+      "proposedAnswer": "The release key is held by the bench steward.",
+      "question": "q2",
+      "questionText": "Who holds Juniper's release key?",
+      "reason": "Directly names the release-key holder; holding the key is not presented as permission to release the disputed bicycle.",
+      "revision": 1,
+      "sourceId": "s02",
+      "supportQuote": "The release key is held by the bench steward."
+    },
+    {
+      "acceptedAnswers": [
+        "a brass finish",
+        "brass finish",
+        "brass",
+        "owner requests a bell with a brass finish."
+      ],
+      "answerKey": "brass",
+      "id": "dev03:q3:s01:r0:0",
+      "legacyAnswers": [
+        "a brass finish",
+        "brass finish",
+        "brass"
+      ],
+      "library": "dev03",
+      "passageApproved": true,
+      "proposedAnswer": "owner requests a bell with a brass finish.",
+      "question": "q3",
+      "questionText": "What bell finish did Juniper's owner request on intake tag 31?",
+      "reason": "Describes the owner's requested brass bell finish from the archived intake tag without asserting that the finish was installed.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "owner requests a bell with a brass finish."
+    },
+    {
+      "acceptedAnswers": [
+        "the front cable",
+        "front cable",
+        "Juniper's first work plan: replace the front cable."
+      ],
+      "answerKey": "front-cable",
+      "id": "dev03:q4:s02:r0:0",
+      "legacyAnswers": [
+        "the front cable",
+        "front cable"
+      ],
+      "library": "dev03",
+      "passageApproved": true,
+      "proposedAnswer": "Juniper's first work plan: replace the front cable.",
+      "question": "q4",
+      "questionText": "What did Juniper's first, not-yet-authorized work plan propose replacing?",
+      "reason": "Attributes the front-cable replacement to the first work plan, matching the question's proposal scope without calling it authorized.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "Juniper's first work plan: replace the front cable."
+    },
+    {
+      "acceptedAnswers": [
+        "undyed linen",
+        "Final authorized cradle lining: undyed linen."
+      ],
+      "answerKey": "undyed-linen",
+      "id": "dev04:q3:s01:r1:0",
+      "legacyAnswers": [
+        "undyed linen"
+      ],
+      "library": "dev04",
+      "passageApproved": true,
+      "proposedAnswer": "Final authorized cradle lining: undyed linen.",
+      "question": "q3",
+      "questionText": "Which lining is finally authorized for the Tide Bowl cradle?",
+      "reason": "States the final authorized cradle lining and material, preserving finality and authorization rather than the superseded draft choice.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "Final authorized cradle lining: undyed linen."
+    },
+    {
+      "acceptedAnswers": [
+        "the outer carton",
+        "outer carton",
+        "Tape may close the outer carton."
+      ],
+      "answerKey": "outer-carton",
+      "id": "dev04:q6:s02:r0:0",
+      "legacyAnswers": [
+        "the outer carton",
+        "outer carton"
+      ],
+      "library": "dev04",
+      "passageApproved": true,
+      "proposedAnswer": "Tape may close the outer carton.",
+      "question": "q6",
+      "questionText": "What may adhesive tape be used to close when packing the Tide Bowl?",
+      "reason": "Directly identifies the permitted outer-carton closure use; it does not extend tape permission to contact with the bowl.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "Tape may close the outer carton."
+    },
+    {
+      "acceptedAnswers": [
+        "FOLD-9",
+        "Discarded first wrapper for Tide Bowl L-14, label visible: handling code FOLD-9."
+      ],
+      "answerKey": "FOLD-9",
+      "id": "dev04:q1:s03:r0:0",
+      "legacyAnswers": [
+        "FOLD-9"
+      ],
+      "library": "dev04",
+      "passageApproved": true,
+      "proposedAnswer": "Discarded first wrapper for Tide Bowl L-14, label visible: handling code FOLD-9.",
+      "question": "q1",
+      "questionText": "What handling code was on the discarded first Tide Bowl wrapper?",
+      "reason": "Retains the discarded-wrapper identity, Tide Bowl loan identifier and exact handling code; the label context supports the requested historical code.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "Discarded first wrapper for Tide Bowl L-14, label visible: handling code FOLD-9."
+    },
+    {
+      "acceptedAnswers": [
+        "plain cotton",
+        "Initial cradle plan: line the cradle with plain cotton."
+      ],
+      "answerKey": "plain-cotton",
+      "id": "dev04:q8:s01:r0:0",
+      "legacyAnswers": [
+        "plain cotton"
+      ],
+      "library": "dev04",
+      "passageApproved": true,
+      "proposedAnswer": "Initial cradle plan: line the cradle with plain cotton.",
+      "question": "q8",
+      "questionText": "What direct-contact lining did the initial Tide Bowl cradle plan choose?",
+      "reason": "Keeps the initial-plan qualifier while naming plain cotton, so the historical draft is not presented as the current authorized lining.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "Initial cradle plan: line the cradle with plain cotton."
+    },
+    {
+      "acceptedAnswers": [
+        "Garden circuit",
+        "Alder loop entrance sign, approved lettering proof: heading 'Garden circuit'."
+      ],
+      "answerKey": "garden-circuit",
+      "id": "dev05:q1:s01:r1:0",
+      "legacyAnswers": [
+        "Garden circuit"
+      ],
+      "library": "dev05",
+      "passageApproved": true,
+      "proposedAnswer": "Alder loop entrance sign, approved lettering proof: heading 'Garden circuit'.",
+      "question": "q1",
+      "questionText": "What heading was approved for the Alder loop entrance sign?",
+      "reason": "The approved proof sentence directly gives the Alder entrance heading; proof context is relevant and makes no installation claim.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "Alder loop entrance sign, approved lettering proof: heading 'Garden circuit'."
+    },
+    {
+      "acceptedAnswers": [
+        "Garden circuit",
+        "Alder loop sign-copy approval: use the heading 'Garden circuit'."
+      ],
+      "answerKey": "garden-circuit",
+      "id": "dev05:q1:s04:r0:1",
+      "legacyAnswers": [
+        "Garden circuit"
+      ],
+      "library": "dev05",
+      "passageApproved": true,
+      "proposedAnswer": "Alder loop sign-copy approval: use the heading 'Garden circuit'.",
+      "question": "q1",
+      "questionText": "What heading was approved for the Alder loop entrance sign?",
+      "reason": "The independent sign-copy approval gives the same approved heading, with approval limited to the requested sign wording.",
+      "revision": 0,
+      "sourceId": "s04",
+      "supportQuote": "Alder loop sign-copy approval: use the heading 'Garden circuit'."
+    },
+    {
+      "acceptedAnswers": [
+        "we did not record any viewing-distance measurements",
+        "At the Alder loop reading trial, we did not record any viewing-distance measurements."
+      ],
+      "answerKey": "not-recorded",
+      "id": "dev05:q2:s03:r0:0",
+      "legacyAnswers": [
+        "we did not record any viewing-distance measurements"
+      ],
+      "library": "dev05",
+      "passageApproved": true,
+      "proposedAnswer": "At the Alder loop reading trial, we did not record any viewing-distance measurements.",
+      "question": "q2",
+      "questionText": "Did the Alder loop reading trial record viewing-distance measurements?",
+      "reason": "Preserves trial identity and explicit non-recording, directly answering the yes/no question rather than inventing a distance.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "At the Alder loop reading trial, we did not record any viewing-distance measurements."
+    },
+    {
+      "acceptedAnswers": [
+        "CREAM-3",
+        "Alder loop retired lettering test board [OCR]: test stock CREAM-3."
+      ],
+      "answerKey": "CREAM-3",
+      "id": "dev05:q3:s02:r0:0",
+      "legacyAnswers": [
+        "CREAM-3"
+      ],
+      "library": "dev05",
+      "passageApproved": true,
+      "proposedAnswer": "Alder loop retired lettering test board [OCR]: test stock CREAM-3.",
+      "question": "q3",
+      "questionText": "What test stock was used on the retired Alder lettering board?",
+      "reason": "Names the historical test stock with board identity intact. The short OCR label is source context, not a distracting factual claim.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "Alder loop retired lettering test board [OCR]: test stock CREAM-3."
+    },
+    {
+      "acceptedAnswers": [
+        "Short circuit",
+        "Alder loop entrance sign, first lettering proof: heading 'Short circuit'."
+      ],
+      "answerKey": "short-circuit",
+      "id": "dev05:q4:s01:r0:0",
+      "legacyAnswers": [
+        "Short circuit"
+      ],
+      "library": "dev05",
+      "passageApproved": true,
+      "proposedAnswer": "Alder loop entrance sign, first lettering proof: heading 'Short circuit'.",
+      "question": "q4",
+      "questionText": "What heading did the first Alder entrance lettering proof use?",
+      "reason": "The extract explicitly identifies the first lettering proof and its heading, retaining the historical qualifier.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "Alder loop entrance sign, first lettering proof: heading 'Short circuit'."
+    },
+    {
+      "acceptedAnswers": [
+        "lentil bowl",
+        "Mira's final meal request for the volunteer supper: lentil bowl."
+      ],
+      "answerKey": "lentil-bowl",
+      "id": "dev06:q8:s01:r1:0",
+      "legacyAnswers": [
+        "lentil bowl"
+      ],
+      "library": "dev06",
+      "passageApproved": true,
+      "proposedAnswer": "Mira's final meal request for the volunteer supper: lentil bowl.",
+      "question": "q8",
+      "questionText": "Which main course did Mira finally request for the volunteer supper?",
+      "reason": "States Mira's final main-course request for the relevant supper, without asserting ingredient verification or actual service.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "Mira's final meal request for the volunteer supper: lentil bowl."
+    },
+    {
+      "acceptedAnswers": [
+        "the side hatch",
+        "side hatch",
+        "Mira's requested collection point is the side hatch."
+      ],
+      "answerKey": "side-hatch",
+      "id": "dev06:q4:s02:r0:0",
+      "legacyAnswers": [
+        "the side hatch",
+        "side hatch"
+      ],
+      "library": "dev06",
+      "passageApproved": true,
+      "proposedAnswer": "Mira's requested collection point is the side hatch.",
+      "question": "q4",
+      "questionText": "Where did Mira request to collect her supper tray?",
+      "reason": "Directly gives Mira's requested collection point; it does not confuse that request with the disputed storage shelf. Approval adds no missing source to retrieval.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "Mira's requested collection point is the side hatch."
+    },
+    {
+      "acceptedAnswers": [
+        "table Willow",
+        "Willow",
+        "Mira's first place card for the supper reads table Willow."
+      ],
+      "answerKey": "Willow",
+      "id": "dev06:q6:s03:r0:0",
+      "legacyAnswers": [
+        "table Willow",
+        "Willow"
+      ],
+      "library": "dev06",
+      "passageApproved": true,
+      "proposedAnswer": "Mira's first place card for the supper reads table Willow.",
+      "question": "q6",
+      "questionText": "Which table was printed on Mira's first, retired supper place card?",
+      "reason": "Names the table printed on Mira's first card, explicitly preserving the first-card scope rather than claiming a current assignment.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "Mira's first place card for the supper reads table Willow."
+    },
+    {
+      "acceptedAnswers": [
+        "rice bowl",
+        "Mira's original meal request for the volunteer supper: rice bowl."
+      ],
+      "answerKey": "rice-bowl",
+      "id": "dev06:q2:s01:r0:0",
+      "legacyAnswers": [
+        "rice bowl"
+      ],
+      "library": "dev06",
+      "passageApproved": true,
+      "proposedAnswer": "Mira's original meal request for the volunteer supper: rice bowl.",
+      "question": "q2",
+      "questionText": "Which main course had Mira originally requested for the supper?",
+      "reason": "Directly identifies Mira's original rice-bowl request with the original-period qualifier retained. This approval does not repair its existing retrieval miss.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "Mira's original meal request for the volunteer supper: rice bowl."
+    },
+    {
+      "acceptedAnswers": [
+        "QX4MN",
+        "Fictional radio club exercise, contact 17 corrected entry: remote callsign QX4MN."
+      ],
+      "answerKey": "QX4MN",
+      "id": "dev07:q1:s01:r1:0",
+      "legacyAnswers": [
+        "QX4MN"
+      ],
+      "library": "dev07",
+      "passageApproved": true,
+      "proposedAnswer": "Fictional radio club exercise, contact 17 corrected entry: remote callsign QX4MN.",
+      "question": "q1",
+      "questionText": "What remote callsign is in the corrected entry for practice contact 17?",
+      "reason": "Identifies the corrected callsign for exercise contact 17, preserving both corrected status and fictional exercise context.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "Fictional radio club exercise, contact 17 corrected entry: remote callsign QX4MN."
+    },
+    {
+      "acceptedAnswers": [
+        "no transmitter output-power measurement was taken",
+        "For practice contact 17, no transmitter output-power measurement was taken."
+      ],
+      "answerKey": "not-measured",
+      "id": "dev07:q2:s03:r0:0",
+      "legacyAnswers": [
+        "no transmitter output-power measurement was taken"
+      ],
+      "library": "dev07",
+      "passageApproved": true,
+      "proposedAnswer": "For practice contact 17, no transmitter output-power measurement was taken.",
+      "question": "q2",
+      "questionText": "Was transmitter output power measured for practice contact 17?",
+      "reason": "Directly answers no for contact 17's power measurement and retains the measurement type and contact identity.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "For practice contact 17, no transmitter output-power measurement was taken."
+    },
+    {
+      "acceptedAnswers": [
+        "copper",
+        "Practice contact 17, retired check card: exchange word 'copper'."
+      ],
+      "answerKey": "copper",
+      "id": "dev07:q3:s02:r0:0",
+      "legacyAnswers": [
+        "copper"
+      ],
+      "library": "dev07",
+      "passageApproved": true,
+      "proposedAnswer": "Practice contact 17, retired check card: exchange word 'copper'.",
+      "question": "q3",
+      "questionText": "What exchange word is on the retired first check card for practice contact 17?",
+      "reason": "Names the retired check card's exchange word for contact 17 without substituting a callsign or another contact's details.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "Practice contact 17, retired check card: exchange word 'copper'."
+    },
+    {
+      "acceptedAnswers": [
+        "QX4LM",
+        "Fictional radio club exercise, contact 17 initial entry: remote callsign QX4LM."
+      ],
+      "answerKey": "QX4LM",
+      "id": "dev07:q4:s01:r0:0",
+      "legacyAnswers": [
+        "QX4LM"
+      ],
+      "library": "dev07",
+      "passageApproved": true,
+      "proposedAnswer": "Fictional radio club exercise, contact 17 initial entry: remote callsign QX4LM.",
+      "question": "q4",
+      "questionText": "What remote callsign was initially written for practice contact 17, before correction?",
+      "reason": "Preserves the initial-entry qualifier and exercise contact identity while giving the original callsign.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "Fictional radio club exercise, contact 17 initial entry: remote callsign QX4LM."
+    },
+    {
+      "acceptedAnswers": [
+        "Thursday afternoon",
+        "Oriole group's rescheduled kiln reservation: Thursday afternoon."
+      ],
+      "answerKey": "Thursday-afternoon",
+      "id": "dev08:q2:s01:r1:0",
+      "legacyAnswers": [
+        "Thursday afternoon"
+      ],
+      "library": "dev08",
+      "passageApproved": true,
+      "proposedAnswer": "Oriole group's rescheduled kiln reservation: Thursday afternoon.",
+      "question": "q2",
+      "questionText": "Which kiln slot does Oriole's rescheduled reservation hold?",
+      "reason": "Directly gives Oriole's rescheduled booking slot and does not assert that a firing occurred.",
+      "revision": 1,
+      "sourceId": "s01",
+      "supportQuote": "Oriole group's rescheduled kiln reservation: Thursday afternoon."
+    },
+    {
+      "acceptedAnswers": [
+        "The studio technician",
+        "studio technician",
+        "The studio technician must do the loading."
+      ],
+      "answerKey": "studio-technician",
+      "id": "dev08:q7:s03:r0:0",
+      "legacyAnswers": [
+        "The studio technician",
+        "studio technician"
+      ],
+      "library": "dev08",
+      "passageApproved": true,
+      "proposedAnswer": "The studio technician must do the loading.",
+      "question": "q7",
+      "questionText": "Who must load the kiln for Oriole's booking?",
+      "reason": "Positively identifies the studio technician as the assigned loader; the obligation remains intact and no visitor permission is implied.",
+      "revision": 0,
+      "sourceId": "s03",
+      "supportQuote": "The studio technician must do the loading."
+    },
+    {
+      "acceptedAnswers": [
+        "46",
+        "Retired Oriole booking queue token: number 46."
+      ],
+      "answerKey": "46",
+      "id": "dev08:q4:s02:r0:0",
+      "legacyAnswers": [
+        "46"
+      ],
+      "library": "dev08",
+      "passageApproved": true,
+      "proposedAnswer": "Retired Oriole booking queue token: number 46.",
+      "question": "q4",
+      "questionText": "What number is on Oriole's retired first booking queue token?",
+      "reason": "Gives the retired Oriole queue-token number with its historical token identity, not a current job priority.",
+      "revision": 0,
+      "sourceId": "s02",
+      "supportQuote": "Retired Oriole booking queue token: number 46."
+    },
+    {
+      "acceptedAnswers": [
+        "Tuesday morning",
+        "Oriole group first kiln reservation: Tuesday morning."
+      ],
+      "answerKey": "Tuesday-morning",
+      "id": "dev08:q5:s01:r0:0",
+      "legacyAnswers": [
+        "Tuesday morning"
+      ],
+      "library": "dev08",
+      "passageApproved": true,
+      "proposedAnswer": "Oriole group first kiln reservation: Tuesday morning.",
+      "question": "q5",
+      "questionText": "Which kiln slot did Oriole's first reservation hold before rescheduling?",
+      "reason": "Names the first Oriole reservation slot, preserving its original-booking scope rather than confusing it with the rescheduled slot.",
+      "revision": 0,
+      "sourceId": "s01",
+      "supportQuote": "Oriole group first kiln reservation: Tuesday morning."
+    }
+  ],
+  "packetLabelsSHA256": "7472f6f18cb0e144f0b9ccb2e601fddadcd362c50d737c90ae905bcdc666db20",
+  "proposalSHA256": "99cac55c11fbd8a9eb08ca6bca96e84be446cae9e38a578e2a868b0c75cdfa29",
+  "reviewer": "/root/support_author_eval",
+  "schemaVersion": 2,
+  "split": "development"
+}

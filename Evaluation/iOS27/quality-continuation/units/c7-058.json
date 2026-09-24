@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-058/raw.json",
+  "rawSHA256": "f69d6dd0ce7ecce8d2c7ea0bb88777968f6ebedc0076bec8e76b3b77b3006213",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.7315720833285013,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.3333278628997505e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21322154166409746,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26606024999637157,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.26723983333067736,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.7301232916652225,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "92496a3d6fa842b93a15f18f6a012649080195848488bdc8c555fa7e8ca4fdb1",
+      "contextSize": 4096,
+      "generationSeconds": 3.46225725000113,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Fernbridge runs an independent basil irrigation trial.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Lab rota schedules weighing for both basil experiments: the light-duration groups first and the irrigation groups afterward.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct basil projects\u2014irrigation and light-duration\u2014without shared project identifiers or coordinated schedules.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-058"
+  }
+}

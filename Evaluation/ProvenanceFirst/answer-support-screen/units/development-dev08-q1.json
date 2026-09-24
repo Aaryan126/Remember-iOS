@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev08-q1",
+    "inputSHA256": "3de605569fffaeef15dc79328682023602f7c55941adffe9b5a6f4d001b89cba",
+    "rawSHA256": "37d35d337a7f89d8b1a2d5f477ffaaa3cea3d102540ce411dd2cdd3d37f5c455",
+    "requestCount": 1,
+    "reservationSHA256": "c085e7184a1864a27803ebf51a8196e430d9fc0a96d31aea9196d1b7b5fba0f6",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.3956162499962375,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "679535e9b6decd085fe86217ccd9cf634df7164930630b31a8b1c1476bc4dea4",
+            "quote": "For Oriole's earlier trial firing, the peak temperature was never logged; this booking note cannot supply it."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21299200,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev08-q1"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "74140f63a6772e956de7c401048caf30524343e81e2130a8da62121d14878912"
+}

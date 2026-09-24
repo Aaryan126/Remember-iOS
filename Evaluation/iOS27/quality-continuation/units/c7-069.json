@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-069/raw.json",
+  "rawSHA256": "36fde5fc6d122b39fd3fe709df0003f34e43921d189a3649323f71e15d579616",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.390084416671016,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.166664777789265e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3236529999994673,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3749030416656751,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37595016666455194,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.388749708334217,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "b0067401b9672e24d1804137e62d172ac88ce7c354e75cbede5b66450903501a",
+      "contextSize": 4096,
+      "generationSeconds": 3.012184500003059,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Prototype machining, load tests and drawing approval are one engineering commission for the latch.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Machine revision C and repeat the test under the original latch commission; this rework is not a new toolbox-hinge order.",
+            "sourceID": "s03"
+          }
+        ],
+        "rationale": "Both sources reference the ",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-069"
+  }
+}

@@ -1,0 +1,650 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04c7a3b6da9fa890fc896de3452f8d9ebd81703fd7df47209e8e92140f0c832e"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Canal sprint timing calibration checks the shore timing pair before the practice races. The initial correction offset is plus 0.08 seconds. This working note holds the calibration setting; competitor results and finish orders belong in separate race records."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04c7a3b6da9fa890fc896de3452f8d9ebd81703fd7df47209e8e92140f0c832e"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75611f362ac67c5b015f9ceb84ff63e4eb3e679209ad2add05c34abee7928249"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "pdf",
+        "text": "Velodrome pursuit timing calibration checks the track timing pair during the empty-track session. The operator will record loop alignment and trigger response separately. This undertaking has no authority over the canal sprint pair even though equipment cases look alike."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04c7a3b6da9fa890fc896de3452f8d9ebd81703fd7df47209e8e92140f0c832e"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75611f362ac67c5b015f9ceb84ff63e4eb3e679209ad2add05c34abee7928249"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fa64cbb08c727b5ef03d3610f604da9ec193663a76dd50aa28f0fa53a01f722"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "Canal sprint timing calibration and Velodrome pursuit timing calibration share reference pulse unit RP3 for their bench checks. The unit travels in a foam case with two adapters. Each timing pair still receives its own setting and acceptance record."
+      }
+    },
+    {
+      "assignments": [
+        "t:c04"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04c7a3b6da9fa890fc896de3452f8d9ebd81703fd7df47209e8e92140f0c832e"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75611f362ac67c5b015f9ceb84ff63e4eb3e679209ad2add05c34abee7928249"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fa64cbb08c727b5ef03d3610f604da9ec193663a76dd50aa28f0fa53a01f722"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "1681b6f9ebae9ecc793d8807c0739c29572ad915822981c0d3e6440479c6cb49"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "voice",
+        "text": "The spare adapter is taped beneath the bench lip for the next run. The recording calls it 'the short one' and does not name a venue or device. A dropped word after 'for' prevents the assignment from being recovered."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04c7a3b6da9fa890fc896de3452f8d9ebd81703fd7df47209e8e92140f0c832e"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75611f362ac67c5b015f9ceb84ff63e4eb3e679209ad2add05c34abee7928249"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fa64cbb08c727b5ef03d3610f604da9ec193663a76dd50aa28f0fa53a01f722"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1681b6f9ebae9ecc793d8807c0739c29572ad915822981c0d3e6440479c6cb49"
+        }
+      },
+      "id": "e05",
+      "kind": "correct",
+      "target": "localc04"
+    },
+    {
+      "assignments": [
+        "t:c05"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04c7a3b6da9fa890fc896de3452f8d9ebd81703fd7df47209e8e92140f0c832e"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75611f362ac67c5b015f9ceb84ff63e4eb3e679209ad2add05c34abee7928249"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fa64cbb08c727b5ef03d3610f604da9ec193663a76dd50aa28f0fa53a01f722"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1681b6f9ebae9ecc793d8807c0739c29572ad915822981c0d3e6440479c6cb49"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "277df31ce4d215704c7a76d17a705d684641f4e34058831223e36e8abdaf2e4b"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "link",
+        "text": "A pulse-generator manual is background for Canal sprint timing calibration and Velodrome pursuit timing calibration. The extract explains how its indicator flashes during a bench check. Its sample correction values are illustrative and are not measured offsets for either timing pair."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "2148eff8668c7ce590d7333587f6b57987b7d88d01f75ef92f5b9b691cf6cb81"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75611f362ac67c5b015f9ceb84ff63e4eb3e679209ad2add05c34abee7928249"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fa64cbb08c727b5ef03d3610f604da9ec193663a76dd50aa28f0fa53a01f722"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1681b6f9ebae9ecc793d8807c0739c29572ad915822981c0d3e6440479c6cb49"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "277df31ce4d215704c7a76d17a705d684641f4e34058831223e36e8abdaf2e4b"
+        }
+      },
+      "id": "e07",
+      "kind": "revise",
+      "target": "localc01",
+      "text": "Canal sprint timing calibration now uses a correction offset of minus 0.03 seconds. A replacement cable changed the measured delay, so this setting replaces the initial offset. Record this working-note setting before the next practice race; no competitor results are included."
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "2148eff8668c7ce590d7333587f6b57987b7d88d01f75ef92f5b9b691cf6cb81"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75611f362ac67c5b015f9ceb84ff63e4eb3e679209ad2add05c34abee7928249"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fa64cbb08c727b5ef03d3610f604da9ec193663a76dd50aa28f0fa53a01f722"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1681b6f9ebae9ecc793d8807c0739c29572ad915822981c0d3e6440479c6cb49"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "277df31ce4d215704c7a76d17a705d684641f4e34058831223e36e8abdaf2e4b"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "bafded1686bba80f1f075b1e2ccc90172afd4887624df06750d09bab92fccbb7"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "video",
+        "text": "The Canal sprint timing calibration display video still shows plus 0.08 seconds on the frozen status screen. The operator says the display has not refreshed since the cable swap and directs the recorder to the amended working note. No new calibration is performed in the clip."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "2148eff8668c7ce590d7333587f6b57987b7d88d01f75ef92f5b9b691cf6cb81"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75611f362ac67c5b015f9ceb84ff63e4eb3e679209ad2add05c34abee7928249"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fa64cbb08c727b5ef03d3610f604da9ec193663a76dd50aa28f0fa53a01f722"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1681b6f9ebae9ecc793d8807c0739c29572ad915822981c0d3e6440479c6cb49"
+        },
+        "localc05": {
+          "archived": true,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "277df31ce4d215704c7a76d17a705d684641f4e34058831223e36e8abdaf2e4b"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "bafded1686bba80f1f075b1e2ccc90172afd4887624df06750d09bab92fccbb7"
+        }
+      },
+      "id": "e09",
+      "kind": "archive",
+      "target": "localc05"
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "2148eff8668c7ce590d7333587f6b57987b7d88d01f75ef92f5b9b691cf6cb81"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75611f362ac67c5b015f9ceb84ff63e4eb3e679209ad2add05c34abee7928249"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fa64cbb08c727b5ef03d3610f604da9ec193663a76dd50aa28f0fa53a01f722"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1681b6f9ebae9ecc793d8807c0739c29572ad915822981c0d3e6440479c6cb49"
+        },
+        "localc05": {
+          "archived": true,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "277df31ce4d215704c7a76d17a705d684641f4e34058831223e36e8abdaf2e4b"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "bafded1686bba80f1f075b1e2ccc90172afd4887624df06750d09bab92fccbb7"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0525483b7327cb27d24db63d0ef72073cf4e2e622ecead8f6b54c2463eb86c2d"
+        }
+      },
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "image",
+        "text": "Velodrome pursuit timing calibration puts the loop-alignment marker beside lane line two for the empty-track check. The record does not give a trigger-latency measurement yet. A smudged lower row is unreadable and cannot be used as a result."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "2148eff8668c7ce590d7333587f6b57987b7d88d01f75ef92f5b9b691cf6cb81"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75611f362ac67c5b015f9ceb84ff63e4eb3e679209ad2add05c34abee7928249"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fa64cbb08c727b5ef03d3610f604da9ec193663a76dd50aa28f0fa53a01f722"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1681b6f9ebae9ecc793d8807c0739c29572ad915822981c0d3e6440479c6cb49"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "277df31ce4d215704c7a76d17a705d684641f4e34058831223e36e8abdaf2e4b"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "bafded1686bba80f1f075b1e2ccc90172afd4887624df06750d09bab92fccbb7"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0525483b7327cb27d24db63d0ef72073cf4e2e622ecead8f6b54c2463eb86c2d"
+        }
+      },
+      "id": "e11",
+      "kind": "restore",
+      "target": "localc05"
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "2148eff8668c7ce590d7333587f6b57987b7d88d01f75ef92f5b9b691cf6cb81"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75611f362ac67c5b015f9ceb84ff63e4eb3e679209ad2add05c34abee7928249"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9fa64cbb08c727b5ef03d3610f604da9ec193663a76dd50aa28f0fa53a01f722"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1681b6f9ebae9ecc793d8807c0739c29572ad915822981c0d3e6440479c6cb49"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "277df31ce4d215704c7a76d17a705d684641f4e34058831223e36e8abdaf2e4b"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "bafded1686bba80f1f075b1e2ccc90172afd4887624df06750d09bab92fccbb7"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0525483b7327cb27d24db63d0ef72073cf4e2e622ecead8f6b54c2463eb86c2d"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "28a9055a7533c67911e399569c35f81e0c9ac443a8a2cae6a25fc275c6985c3b"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "note",
+        "text": "The boathouse notice asks spectators to leave folding chairs inside the marked rectangle. It gives a sketch of the walkway and says nothing about timing devices, pulse units, or calibration runs. The same paper advertises a lost scarf."
+      }
+    }
+  ],
+  "id": "history-eval09-chronological",
+  "queries": [
+    {
+      "afterEvent": "e12",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e08",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e10",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

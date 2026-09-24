@@ -1,0 +1,9 @@
+# Local builds, simulator receipts/databases and machine-specific coordinator state.
+# Keep reviewed fictional fixtures, frozen manifests and human-readable reports.
+/runs/
+/units/
+/resources.json
+/worker.json
+/worker.lock
+/status.json
+/pause.request.json*

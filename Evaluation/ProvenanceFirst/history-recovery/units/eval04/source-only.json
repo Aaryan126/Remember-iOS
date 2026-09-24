@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Quartet transfer book, opening entry",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Larch quartet instrument transfer covers four borrowed string instruments travelling to the hill hall. Each case travels with a paper condition slip. Players' personal luggage is outside this transfer, even when it rides on the same vehicle."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Withdrawn quartet manifest, page 1 cello row",
+      "modality": "pdf",
+      "sourceId": "s03",
+      "text": "The first Larch quartet instrument transfer manifest assigned the cello case to bay C. That loading arrangement was withdrawn before departure. A corner of the sheet is torn, but the bay letter and cello line remain fully legible."
+    },
+    {
+      "id": "e03",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Quintet freight notebook, first entry",
+      "modality": "note",
+      "sourceId": "s02",
+      "text": "Copper wind quintet tour freight moves the ensemble's instrument cases and spare stands to the hill hall. The quintet has its own destination receipt. Sharing a driver with the quartet does not transfer custody of the wind instruments."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Extracted strap reminder card, front",
+      "modality": "photo",
+      "sourceId": "s04",
+      "text": "The long case needs a second strap before the vehicle doors close. The handwritten card has no instrument name, ensemble name, or destination. A fragment of a printed shipping label underneath it cannot be read from this angle."
+    },
+    {
+      "id": "e06",
+      "kind": "restore",
+      "sourceId": "s03"
+    },
+    {
+      "assignedProjectRoots": [
+        "s01"
+      ],
+      "id": "e07",
+      "kind": "correct",
+      "reason": "My long-case strap card is for the Larch quartet instrument transfer. Please file it with the quartet, not the wind freight.",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Extracted joint loading call, 00:21–00:44",
+      "modality": "voice",
+      "sourceId": "s05",
+      "text": "Larch quartet instrument transfer and Copper wind quintet tour freight share vehicle Rowan for the outbound journey. The loading lead keeps separate bay sheets for the two ensembles. A packet of spare straps sits in the front cab."
+    },
+    {
+      "id": "e09",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Replacement quartet dispatch slip, cello row",
+      "modality": "pdf",
+      "sourceId": "s06",
+      "text": "The live Larch quartet instrument transfer dispatch slip places the cello case in bay A. This is the replacement loading instruction after the abandoned first manifest. Keep the case handle facing the aisle so the receiving steward can check its tag."
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Extracted quintet unloading plan, 00:02–00:20",
+      "modality": "voice",
+      "sourceId": "s07",
+      "text": "Copper wind quintet tour freight will unload the bassoon case first at the hill hall. The steward will meet the driver inside the covered entrance. No receipt signature is present yet; this is a proposed unloading order, not delivery confirmation."
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Fictional case-care guide, foam section",
+      "modality": "link",
+      "sourceId": "s08",
+      "text": "A packing guide discusses curved foam supports as background for both Larch quartet instrument transfer and Copper wind quintet tour freight. Its sample case belongs to a teaching collection elsewhere. The guide contains no booking or custody instructions for this journey."
+    }
+  ],
+  "id": "eval04",
+  "queries": [
+    {
+      "atEvent": "e12",
+      "id": "q1",
+      "question": "Which bay does the live quartet dispatch slip assign to the cello case now?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e09",
+      "id": "q2",
+      "question": "Include archived history: which bay did the first quartet manifest assign to the cello before that arrangement was withdrawn?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e08",
+      "id": "q3",
+      "question": "Which current loading-call record names the vehicle shared by the quartet transfer and wind quintet freight?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e11",
+      "id": "q4",
+      "question": "What is the manufacturer's serial number on the Copper wind quintet bassoon case?",
+      "scope": "current"
+    }
+  ]
+}

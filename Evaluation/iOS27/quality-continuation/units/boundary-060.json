@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-060/raw.json",
+  "rawSHA256": "91486451418cc1c0dbfbadce275f31532dc1822198d571ffff4f48a0ebf31030",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.712149124999996,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.1250029830262065e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2253604583311244,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27606474999629427,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27705479166615987,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.710758666667971,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "986a7cc491fffb5b012107ca8acc06e465065cb37d7b7a52354a61288f0c14d1",
+      "contextSize": 4096,
+      "generationSeconds": 4.433132250000199,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Cobalt Press commissioned a Spanish translation of the travel book 'River Roads'. Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Editorial message: The revised travel-book proofs are approved. Please send the final pages.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources mention separate proof phases: s01 describes proofing within a Spanish contract, while s05 refers to revised proofs for an unspecified travel book, indicating distinct undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-060"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "rawPath": "attempts/phone/c7-002/raw.json",
+  "rawSHA256": "b8fb7bcf7950e2453e54ae8b9d89c39984316e5481358361facf4d0d2ba70ae7",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.0331848749992787,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.666667907964438e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3211771249989397,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37383454166410957,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3749045833319542,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.0319931666672346,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "0b486aff0c7557a58d6bf335466125d7f129e80a1a67f47acfa0e80cb31beb71",
+      "contextSize": 4096,
+      "generationSeconds": 2.6564203333327896,
+      "output": {
+        "evidence": [
+          {
+            "quote": "The club is separately planning the 2029 Winter Exchange.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Winter Exchange hall payment settled.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources mention 'Winter Exchange' but reference distinct years and administrative steps indicating unrelated undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-002"
+  }
+}

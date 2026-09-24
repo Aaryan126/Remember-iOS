@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-042/raw.json",
+  "rawSHA256": "ca23eee992d4b9ed5790a71dc6b1df2fb0019e59959668d6fd5d98ac3e98fb92",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.1659063333281665,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.833330993074924e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.32204858332988806,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3752215416607214,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37672037499578437,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.164683374998276,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "72441956b046c327fd4189985bcbc8a18b0d175fafcbdf6f30405abb8694153c",
+      "contextSize": 4096,
+      "generationSeconds": 3.7868656249993364,
+      "output": {
+        "evidence": [
+          {
+            "quote": "its drawings and acceptance are for a separate product commission, not the folding-ladder redesign",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Workshop sheet allocates the same test rig to the folding-ladder latch and the toolbox hinge on successive days. File the results under their respective product approvals.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct product approvals: s02 refers to a separate product commission and s04 allocates results under separate product approvals.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-042"
+  }
+}

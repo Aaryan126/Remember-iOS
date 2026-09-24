@@ -1,0 +1,127 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Collector layout note, first sketch transcription",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Shed roof rainwater collector, first layout note: put the collection barrel at the northeast corner. This fictional garden build captures runoff for a nonpotable demonstration. Record layout changes here; the rainfall-gauge study measures weather separately and does not control the collector design."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Gauge logging brief, page 1",
+      "modality": "pdf",
+      "sourceId": "s02",
+      "text": "Garden rainfall gauge logging will compare manual readings with a small electronic counter over a month. The shed roof collector is a neighboring build, not a calibration reference. We will share a cable support if it leaves the gauge rim unobstructed."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Northeast corner inspection OCR",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "Shed roof rainwater collector inspection photo: the northeast corner sits beside a door swing. The chalk rectangle is a proposed barrel footprint, not an installed tank. The note on the door says to keep the access path clear for moving garden tools."
+    },
+    {
+      "id": "e04",
+      "kind": "revise",
+      "locator": "Collector layout note, door-clearance revision",
+      "sourceId": "s01",
+      "text": "Shed roof rainwater collector, door-clearance revision: put the collection barrel at the northwest corner. Route the demonstration downpipe along the rear edge so the door can open. This replaces the first sketch; final mounting positions still need a site check."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Shared rear-support plan",
+      "modality": "note",
+      "sourceId": "s04",
+      "text": "Shared support plan for the shed roof rainwater collector and garden rainfall gauge logging: fix the gauge cable clips to the outer face of the collector's rear support. Leave the gauge rim clear. The shared support does not turn rainfall readings into collected-water measurements."
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Counter test transcript, 00:04–00:22",
+      "modality": "voice",
+      "sourceId": "s05",
+      "text": "Gauge logging voice check: the counter registered 11 pulses during the hand-poured test. We did not record the poured volume. This verifies that pulses were counted, but it cannot establish millimeters per pulse or provide a calibrated rainfall conversion."
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Rear support site check, narration 00:12–00:30",
+      "modality": "video",
+      "sourceId": "s06",
+      "text": "Shed roof rainwater collector site check: the rear support has clear space on its west side for the final barrel pad. A stack of spare tiles has been moved away. This site observation informs the next layout decision without itself changing the written plan."
+    },
+    {
+      "id": "e08",
+      "kind": "revise",
+      "locator": "Collector layout note, final site approval",
+      "sourceId": "s01",
+      "text": "Shed roof rainwater collector, final layout note: put the collection barrel midway along the west wall. The pad fits the checked clearance beside the rear support. The gauge cable clips stay on the support's outer face under the separate shared support plan."
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "locator": "Gauge observation sheet OCR, instructions",
+      "modality": "photo",
+      "sourceId": "s07",
+      "text": "Garden rainfall gauge logging sheet: read the manual gauge at 08:00 each morning for this exercise. Leave a blank when nobody records a reading, rather than copying yesterday's value. The schedule is for observations and does not specify a conversion for counter pulses."
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Unassigned hardware bag OCR",
+      "modality": "photo",
+      "sourceId": "s08",
+      "text": "Small hardware bag label: 'four clips, rear support.' The project name is absent and both teams have ordered clips. The label does not identify the cable diameter or demonstrate which support face was intended. Keep its assignment open pending clarification."
+    },
+    {
+      "assignedProjectRoots": [
+        "s01",
+        "s02"
+      ],
+      "id": "e11",
+      "kind": "correct",
+      "reason": "The four clips in that bag are for the shared rear support used by both the roof collector and rainfall gauge logging. Attach the bag label to both projects.",
+      "sourceId": "s08"
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Fictional runoff article, worked example",
+      "modality": "link",
+      "sourceId": "s09",
+      "text": "An article about roof runoff losses is background for the shed roof rainwater collector. It uses an example roof much larger than our shed and gives no local collection measurement. Its sample tank placement is illustrative, not an amendment to our final layout."
+    }
+  ],
+  "id": "dev12",
+  "queries": [
+    {
+      "atEvent": "e06",
+      "id": "q1",
+      "question": "What millimeters-per-pulse calibration follows from the hand-poured counter test?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e08",
+      "id": "q2",
+      "question": "Where did the collector's original first-layout note place the barrel, before either revision?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "Where does the final current collector layout note put the barrel?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Recover the shared support plan's instruction for where to fasten the gauge cable clips.",
+      "scope": "current"
+    }
+  ]
+}

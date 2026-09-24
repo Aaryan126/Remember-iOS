@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-037/raw.json",
+  "rawSHA256": "3be31d7874598f8598309730ae6f54b1e65ecfe025935c8f0ccf3c4efe1d4224",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.07831191666628,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.083333573769778e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3205699999962235,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3738030833337689,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3748353333285195,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.07728637499531,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "654435e3a89e5296f71a9ab4ec9000b443306b96de8ae2210af7a6be6e7d6e51",
+      "contextSize": 4096,
+      "generationSeconds": 3.701761208336393,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Set up lamps, record weekly leaf mass and write the light-duration result as one experiment",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Lab rota schedules weighing for both basil experiments: the light-duration groups first and the irrigation groups afterward. Keep their control-group labels and results separate.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Different experimental objectives are stated: light-duration versus irrigation, with distinct scheduling and labeling.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-037"
+  }
+}

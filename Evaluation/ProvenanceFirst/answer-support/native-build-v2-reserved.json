@@ -1,0 +1,40 @@
+{
+  "bindingsSHA256": "70218acbe930761879a33f35938b466c5ea076327a1fbac127a79537d8954802",
+  "command": [
+    "xcodebuild",
+    "-project",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/native-project/AnswerSupportHistoryProbe.xcodeproj",
+    "-scheme",
+    "AnswerSupportHistoryProbe",
+    "-configuration",
+    "Debug",
+    "-sdk",
+    "iphonesimulator",
+    "-destination",
+    "id=C530FCC2-DD67-4115-97D9-C4E34807EC57",
+    "-derivedDataPath",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/native-build",
+    "-clonedSourcePackagesDirPath",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/native-build/SourcePackages",
+    "-disableAutomaticPackageResolution",
+    "-skipPackageUpdates",
+    "CODE_SIGNING_ALLOWED=NO",
+    "CLANG_MODULE_CACHE_PATH=/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/native-build/ModuleCache.noindex",
+    "SWIFT_MODULE_CACHE_PATH=/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support/native-build/ModuleCache.noindex",
+    "build"
+  ],
+  "estimatedAdditionalBytes": 536870912,
+  "resources": {
+    "capBytes": 20401094656,
+    "conservativeGrowthBytes": 19398533120,
+    "externalGrowthBytes": 2746306560,
+    "freeBytes": 25564434432,
+    "reserveBytes": 10737418240,
+    "scopedBytes": 754667520
+  },
+  "tooling": {
+    "scripts/provenance-first/answer-support/as_control.py": "c7bb369404aa26def81a8b8f96d983b7c6da2c3e9cb8d892bf3ce50f63712626",
+    "scripts/provenance-first/answer-support/as_native.py": "075a509083bca4863143f5776eb66c7fbbe969594347b47028b98f030f5987fd",
+    "scripts/provenance-first/answer-support/as_native_build.py": "9b0b55d607e3fd04bad12530f996dd8a962e7df991b58e391d301525bd1cbb3c"
+  }
+}

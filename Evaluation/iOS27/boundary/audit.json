@@ -1,0 +1,24 @@
+{
+  "crossPlatformMaxNeuralDelta": {
+    "fp16": 0.0,
+    "fp32": 0.0
+  },
+  "featureChecks": {
+    "mac-fp16": {
+      "maximumDelta": 2.985582225889516e-09,
+      "withinOriginal1e8Tolerance": 24
+    },
+    "mac-fp32": {
+      "maximumDelta": 2.985582225889516e-09,
+      "withinOriginal1e8Tolerance": 24
+    },
+    "phone-fp16": {
+      "maximumDelta": 2.985582225889516e-09,
+      "withinOriginal1e8Tolerance": 24
+    },
+    "phone-fp32": {
+      "maximumDelta": 2.985582225889516e-09,
+      "withinOriginal1e8Tolerance": 24
+    }
+  }
+}

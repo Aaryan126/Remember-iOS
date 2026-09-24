@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev05-q4",
+    "inputSHA256": "ac82de24eeb2923fb106dc726314fa672fb31d87f1d9c3e4b75a3d2525d26028",
+    "rawSHA256": "0512bbaeb01bc6621c52be9e2e4fcd7e5473a2c7e85c994e71f934b6e25988fa",
+    "requestCount": 1,
+    "reservationSHA256": "d5a8d4c1f736adf4c766612f1c78296368ac903ee721810a80db2c68d6c8914a",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.537947916673147,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "heading 'Short circuit'.",
+        "evidence": [
+          {
+            "candidateID": "26e572aed69aa2a12571164a8fdcdb0242698b7c7e701033312c7e49f036a806",
+            "quote": "Alder loop entrance sign, first lettering proof: heading 'Short circuit'. The route itself is unchanged."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21299200,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev05-q4"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "df28352e90f905942446bd83f571cb4cb85099eca3b218fd32720130e8e068e0"
+}

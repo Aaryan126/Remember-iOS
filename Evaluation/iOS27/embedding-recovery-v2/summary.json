@@ -1,0 +1,36 @@
+{
+  "maximumLoadAttempts": 2,
+  "platforms": {
+    "mac": {
+      "compatibleSpaces": 16,
+      "completedPairs": 16,
+      "maximumFeatureDelta": 9.686008619613773e-06,
+      "maximumScoreDeltaWithFrozenNeural": 5.896182738371336e-06,
+      "maximumVectorComponentDelta": {
+        "contextual": 8.963547280216137e-05,
+        "sentence": 7.3982238668612865e-09
+      },
+      "medianUnitSeconds": 0.27736600000025646,
+      "minimumContextualCosine": 0.9999998566728993,
+      "minimumSentenceCosine": 1,
+      "unchangedDecisions": 16
+    },
+    "phone": {
+      "compatibleSpaces": 16,
+      "completedPairs": 16,
+      "maximumFeatureDelta": 0.00030106044226263506,
+      "maximumScoreDeltaWithFrozenNeural": 0.00030991645462703776,
+      "maximumVectorComponentDelta": {
+        "contextual": 0.00153750925807572,
+        "sentence": 7.3982238668612865e-09
+      },
+      "medianUnitSeconds": 0.48984320833551465,
+      "minimumContextualCosine": 0.9999835358098745,
+      "minimumSentenceCosine": 1,
+      "unchangedDecisions": 16
+    }
+  },
+  "productionRetryMilliseconds": 200,
+  "stage1Complete": false,
+  "stage2Started": false
+}

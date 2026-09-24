@@ -1,0 +1,122 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Tuesday schedule brief",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Tuesday community radio schedule coordinates the fictional station's evening broadcast blocks. Log every approved slot change and leave unfinished edits to their production teams. The oral-history segment is one item in the running order, not the whole scheduling project."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Editing kickoff transcript, 00:02–00:21",
+      "modality": "voice",
+      "sourceId": "s02",
+      "text": "Oral history segment editing will assemble a six-minute story about the old riverside workshop. Our sources are fictional interview transcripts. The schedule team decides the broadcast slot; this editing notebook tracks cuts, attribution and the final audio handoff."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Running order note, rehearsal approval",
+      "modality": "note",
+      "sourceId": "s03",
+      "text": "Tuesday community radio schedule, first running order: place the oral-history segment at 19:12. Follow it with the volunteer announcements. This initial order is approved for rehearsal; a later approved edit may change the slot before the fictional transmission."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Shared audio handoff checklist, page 1",
+      "modality": "pdf",
+      "sourceId": "s04",
+      "text": "Joint handoff for Tuesday community radio schedule and oral history segment editing: deliver a six-minute file with three seconds of clean room tone at the tail. The schedule operator checks duration while the editor checks that no interview word was clipped."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Segment cut list, bell passage",
+      "modality": "note",
+      "sourceId": "s05",
+      "text": "Oral history segment editing cut list: retain the narrator's sentence about the workshop bell. The interviewee's next line is truncated in the supplied transcript and must not be reconstructed from memory. The editor has left a flagged gap in the assembly."
+    },
+    {
+      "id": "e06",
+      "kind": "revise",
+      "locator": "Running order note, first slot swap",
+      "sourceId": "s03",
+      "text": "Tuesday community radio schedule, first slot swap: place the oral-history segment at 19:26. The announcements move ahead of it to accommodate a volunteer's arrival. This revision replaces the rehearsal running order; the audio handoff length remains unchanged."
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Poster-check memo, 00:00–00:15",
+      "modality": "voice",
+      "sourceId": "s06",
+      "text": "Poster-check voice memo for Tuesday community radio schedule: 'The rehearsal poster still says 19:12 for the oral history.' This is a report about an old poster, not approval to revert the running order. The poster photograph itself was not saved."
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Listening check extracted speech, 00:31–00:46",
+      "modality": "video",
+      "sourceId": "s07",
+      "text": "Oral history segment editing listening check: the opening music masks the first consonant of the introduction. Lower the music under that sentence. This mix note does not give a broadcast time and does not change the schedule team's running order."
+    },
+    {
+      "id": "e09",
+      "kind": "revise",
+      "locator": "Running order note, final approval",
+      "sourceId": "s03",
+      "text": "Tuesday community radio schedule, final running order: place the oral-history segment at 19:30. A four-minute station notice now precedes it. This final approval supersedes the first slot swap; the segment's six-minute content and clean tail are unchanged."
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Fictional radio pacing article, pause examples",
+      "modality": "link",
+      "sourceId": "s08",
+      "text": "A pacing article is background for oral history segment editing. It compares pauses in unrelated radio documentaries. Its sample running orders belong to those productions and do not alter the Tuesday community station's final schedule or supply missing interview words."
+    },
+    {
+      "id": "e11",
+      "kind": "archive",
+      "sourceId": "s06"
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Operator cue card OCR",
+      "modality": "photo",
+      "sourceId": "s09",
+      "text": "Tuesday community radio schedule operator card: cue the identification jingle before opening the evening blocks. The card points to the current running-order note for times and intentionally repeats no slot figures. A penciled coffee order in the margin is unrelated."
+    }
+  ],
+  "id": "dev11",
+  "queries": [
+    {
+      "atEvent": "e07",
+      "id": "q1",
+      "question": "Recover the first approved running-order note itself, before the slot swap: what time did it assign the oral-history segment?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e07",
+      "id": "q2",
+      "question": "What were the interviewee's missing words after the workshop-bell passage?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "What time does the final current running-order note assign to the oral-history segment?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Recover the current shared audio-delivery requirement for the schedule operator and segment editor.",
+      "scope": "current"
+    }
+  ]
+}

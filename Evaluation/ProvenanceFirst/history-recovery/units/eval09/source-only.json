@@ -1,0 +1,121 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Sprint calibration working note, initial setting",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Canal sprint timing calibration checks the shore timing pair before the practice races. The initial correction offset is plus 0.08 seconds. This working note holds the calibration setting; competitor results and finish orders belong in separate race records."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Pursuit calibration work sheet, page 1",
+      "modality": "pdf",
+      "sourceId": "s02",
+      "text": "Velodrome pursuit timing calibration checks the track timing pair during the empty-track session. The operator will record loop alignment and trigger response separately. This undertaking has no authority over the canal sprint pair even though equipment cases look alike."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Extracted equipment checkout card, pulse-unit row",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "Canal sprint timing calibration and Velodrome pursuit timing calibration share reference pulse unit RP3 for their bench checks. The unit travels in a foam case with two adapters. Each timing pair still receives its own setting and acceptance record."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Extracted adapter memo, 00:03–00:15",
+      "modality": "voice",
+      "sourceId": "s04",
+      "text": "The spare adapter is taped beneath the bench lip for the next run. The recording calls it 'the short one' and does not name a venue or device. A dropped word after 'for' prevents the assignment from being recovered."
+    },
+    {
+      "assignedProjectRoots": [
+        "s01"
+      ],
+      "id": "e05",
+      "kind": "correct",
+      "reason": "Put the short-adapter voice memo under Canal sprint timing calibration; it describes the shore bench.",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Fictional pulse-unit manual, indicator paragraph",
+      "modality": "link",
+      "sourceId": "s05",
+      "text": "A pulse-generator manual is background for Canal sprint timing calibration and Velodrome pursuit timing calibration. The extract explains how its indicator flashes during a bench check. Its sample correction values are illustrative and are not measured offsets for either timing pair."
+    },
+    {
+      "id": "e07",
+      "kind": "revise",
+      "locator": "Sprint calibration working note, cable-swap amendment",
+      "sourceId": "s01",
+      "text": "Canal sprint timing calibration now uses a correction offset of minus 0.03 seconds. A replacement cable changed the measured delay, so this setting replaces the initial offset. Record this working-note setting before the next practice race; no competitor results are included."
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Extracted frozen-display clip, 00:20–00:44",
+      "modality": "video",
+      "sourceId": "s06",
+      "text": "The Canal sprint timing calibration display video still shows plus 0.08 seconds on the frozen status screen. The operator says the display has not refreshed since the cable swap and directs the recorder to the amended working note. No new calibration is performed in the clip."
+    },
+    {
+      "id": "e09",
+      "kind": "archive",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Extracted track setup slate, upper row",
+      "modality": "photo",
+      "sourceId": "s07",
+      "text": "Velodrome pursuit timing calibration puts the loop-alignment marker beside lane line two for the empty-track check. The record does not give a trigger-latency measurement yet. A smudged lower row is unreadable and cannot be used as a result."
+    },
+    {
+      "id": "e11",
+      "kind": "restore",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Boathouse notice transcription",
+      "modality": "note",
+      "sourceId": "s08",
+      "text": "The boathouse notice asks spectators to leave folding chairs inside the marked rectangle. It gives a sketch of the walkway and says nothing about timing devices, pulse units, or calibration runs. The same paper advertises a lost scarf."
+    }
+  ],
+  "id": "eval09",
+  "queries": [
+    {
+      "atEvent": "e12",
+      "id": "q1",
+      "question": "What correction offset does the current Canal sprint calibration working note require?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e08",
+      "id": "q2",
+      "question": "Include prior versions: recover the initial correction offset from the original Canal sprint working note, before its cable-swap amendment.",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e10",
+      "id": "q3",
+      "question": "Which current equipment checkout record identifies the reference pulse unit shared by the canal and velodrome calibrations?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "What trigger-latency measurement has been recorded for the velodrome pursuit timing pair?",
+      "scope": "current"
+    }
+  ]
+}

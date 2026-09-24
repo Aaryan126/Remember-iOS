@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-082/raw.json",
+  "rawSHA256": "ad05357cd9c993a06486a1c8418906471fb46b87655c95b6a5c59afad9ae3b45",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.708133041669498,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.374996933620423e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22044241667026654,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27231975000177044,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2733182083320571,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.7067224999991595,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "d06faf3bfc70c0486d52d137a224952e484f2527f9ff33845bd418d4378e2beb",
+      "contextSize": 4096,
+      "generationSeconds": 3.4327929583378136,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Set up lamps, record weekly leaf mass and write the light-duration result as one experiment",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The second set has larger leaves. Include this in the basil result",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Different project descriptions mention basil growth under light durations versus leaf size, indicating distinct undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-082"
+  }
+}

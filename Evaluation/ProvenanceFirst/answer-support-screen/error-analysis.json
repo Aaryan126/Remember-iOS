@@ -1,0 +1,215 @@
+{
+  "caveat": "Qualified citations do not automatically approve an unreviewed answer form; no rescoring or new model calls.",
+  "decisionSHA256": "8e7bb3f38fbedba06eac120fd80d8c7d437f55d65b0b78d1f945173373a17994",
+  "postHocDiagnosticOnly": true,
+  "primaryScoreUnchanged": true,
+  "repeats": [
+    {
+      "id": "development-dev01-q1-repeat",
+      "originalAnswerLength": 167,
+      "originalValidationError": {
+        "message": "invalid answer span",
+        "type": "ValueError"
+      },
+      "rawOutputIdentical": true,
+      "repeatAnswerLength": 167,
+      "repeatValidationError": {
+        "message": "invalid answer span",
+        "type": "ValueError"
+      }
+    },
+    {
+      "id": "development-dev02-q7-repeat",
+      "originalAnswerLength": 12,
+      "originalValidationError": null,
+      "rawOutputIdentical": true,
+      "repeatAnswerLength": 12,
+      "repeatValidationError": null
+    },
+    {
+      "id": "development-dev03-q5-repeat",
+      "originalAnswerLength": 0,
+      "originalValidationError": null,
+      "rawOutputIdentical": true,
+      "repeatAnswerLength": 0,
+      "repeatValidationError": null
+    },
+    {
+      "id": "development-dev04-q5-repeat",
+      "originalAnswerLength": 0,
+      "originalValidationError": null,
+      "rawOutputIdentical": true,
+      "repeatAnswerLength": 0,
+      "repeatValidationError": null
+    }
+  ],
+  "rows": [
+    {
+      "category": "host_validation_error",
+      "library": "dev01",
+      "question": "q1"
+    },
+    {
+      "category": "wrong_nonanswering_state_with_support_retrieved",
+      "library": "dev01",
+      "question": "q2"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev01",
+      "question": "q3"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev01",
+      "question": "q4"
+    },
+    {
+      "category": "wrong_nonanswering_state_with_support_retrieved",
+      "library": "dev02",
+      "question": "q5"
+    },
+    {
+      "category": "wrong_nonanswering_state_with_support_retrieved",
+      "library": "dev02",
+      "question": "q1"
+    },
+    {
+      "category": "primary_correct",
+      "library": "dev02",
+      "question": "q7"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev02",
+      "question": "q3"
+    },
+    {
+      "category": "primary_correct",
+      "library": "dev03",
+      "question": "q1"
+    },
+    {
+      "category": "primary_correct",
+      "library": "dev03",
+      "question": "q2"
+    },
+    {
+      "category": "host_validation_error",
+      "library": "dev03",
+      "question": "q3"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev03",
+      "question": "q4"
+    },
+    {
+      "category": "primary_correct",
+      "library": "dev04",
+      "question": "q3"
+    },
+    {
+      "category": "primary_correct",
+      "library": "dev04",
+      "question": "q6"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev04",
+      "question": "q1"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev04",
+      "question": "q8"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev05",
+      "question": "q1"
+    },
+    {
+      "category": "wrong_nonanswering_state_with_support_retrieved",
+      "library": "dev05",
+      "question": "q2"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev05",
+      "question": "q3"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev05",
+      "question": "q4"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev06",
+      "question": "q8"
+    },
+    {
+      "category": "retrieval_miss",
+      "library": "dev06",
+      "question": "q4"
+    },
+    {
+      "category": "primary_correct",
+      "library": "dev06",
+      "question": "q6"
+    },
+    {
+      "category": "retrieval_miss",
+      "library": "dev06",
+      "question": "q2"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev07",
+      "question": "q1"
+    },
+    {
+      "category": "wrong_nonanswering_state_with_support_retrieved",
+      "library": "dev07",
+      "question": "q2"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev07",
+      "question": "q3"
+    },
+    {
+      "category": "host_validation_error",
+      "library": "dev07",
+      "question": "q4"
+    },
+    {
+      "category": "primary_correct",
+      "library": "dev08",
+      "question": "q2"
+    },
+    {
+      "category": "primary_correct",
+      "library": "dev08",
+      "question": "q7"
+    },
+    {
+      "category": "unapproved_answer_form_with_qualified_citations",
+      "library": "dev08",
+      "question": "q4"
+    },
+    {
+      "category": "primary_correct",
+      "library": "dev08",
+      "question": "q5"
+    }
+  ],
+  "supportedBreakdown": {
+    "host_validation_error": 3,
+    "primary_correct": 9,
+    "retrieval_miss": 2,
+    "unapproved_answer_form_with_qualified_citations": 13,
+    "wrong_nonanswering_state_with_support_retrieved": 5
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev02-q4",
+    "inputSHA256": "3d9a2002dd549d1279cfd7ec70a179464d84b00efa9834cf4aa40601328ef75f",
+    "rawSHA256": "7aa7b3522a2fdb41d8d3e6df1ecd2601f20e97953d254dcc06ebd09868df0093",
+    "requestCount": 1,
+    "reservationSHA256": "7aa3db39ca94f278586fb162287fbab410a1f6c00922b7a1fc3f98cfadf25b25",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.784435499997926,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "47 sealed packets",
+        "evidence": [
+          {
+            "candidateID": "4eac1edf132206a98673ca1890db8461399f75cd815327f7b82a9f82a8259cb0",
+            "quote": "I checked Rill-62 at Tuesday closing, 17:00, and counted 47 sealed packets. Closing tally signed by Fen."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21430272,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev02-q4"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "4ba98d18681b4799fcc7a45c0da3ee456309f9406a127e910ba388d2952ffd68"
+}

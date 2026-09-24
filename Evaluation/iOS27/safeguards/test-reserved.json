@@ -1,0 +1,16 @@
+{
+  "command": [
+    "xcodebuild",
+    "-xctestrun",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/safeguards/build/derived/Build/Products/Safeguards_iphoneos27.0-arm64.xctestrun",
+    "-destination",
+    "id=00008150-000A123A2EC0C01C",
+    "-parallel-testing-enabled",
+    "NO",
+    "-resultBundlePath",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/safeguards/build/phone-tests.xcresult",
+    "test-without-building",
+    "-quiet"
+  ],
+  "inputSHA256": "836042257d5e40a9219d71c664999449fcf42f338231373956748471e000db7b"
+}

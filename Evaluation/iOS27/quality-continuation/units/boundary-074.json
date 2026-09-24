@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-074/raw.json",
+  "rawSHA256": "951601a2edd705955424f156d4741643e230b344b66ff3766a9e841d443ccf5c",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.868152708331763,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.49999822396785e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22055791666934965,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2707762083373382,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2716655833355617,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.866634916666953,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "b4adba49db85034772a84e64bf7890517c82b373ef5aa9e41ae8a09894af0262",
+      "contextSize": 4096,
+      "generationSeconds": 4.594349583334406,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Cobalt Press commissioned a Spanish translation of the travel book 'River Roads'. Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Cobalt renamed the Spanish edition 'Paths by Water' during copy-editing. The title change does not open another translation contract; finish the Spanish proofs under the original 'River Roads' commission.",
+            "sourceID": "s03"
+          }
+        ],
+        "rationale": "Both sources reference the 'River Roads' commission and confirm the Spanish proofs remain under the original title, indicating continuity.",
+        "verdict": "same_project"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-074"
+  }
+}

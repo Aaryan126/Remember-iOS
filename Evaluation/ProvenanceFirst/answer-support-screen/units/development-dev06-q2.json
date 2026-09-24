@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev06-q2",
+    "inputSHA256": "c4af89997f0e7a9f903cb09ac3e546988c09e73ba544397e32d31ca530644d03",
+    "rawSHA256": "ac7ecdb70580f5f6fd8c04d8c5fc18989bee62909b0abe62294c26ab4d6b8ffa",
+    "requestCount": 1,
+    "reservationSHA256": "b18ca14d24f3ae995a1fa464733dcc651f0a7ddf0284e1827f07003f68c02fa2",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.836955291670165,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "594fa73509efb555ad6a951edc7bf106791e8528cff5ffd8b507c5fd12ffe739",
+            "quote": "Mira's final meal request for the volunteer supper: lentil bowl. This replaces the original main-course preference. The sauce's full ingredient list was not recorded on our intake sheet; we have not verified it."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21577728,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev06-q2"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "b1c9295259581b1ce1e36b06dd5ce04dc5cdc114922b4f497e749cbb1bfd977f"
+}

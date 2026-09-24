@@ -1,0 +1,49 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev06-q5",
+    "inputSHA256": "a45be626562cc4372323d9a2d5dbcbf28fe705a534104d36ff0992fbba8e9129",
+    "rawSHA256": "c416c4c03129c0ac6c275861f02f54fdb98e916b4a033df364f0ed251bdc068b",
+    "requestCount": 1,
+    "reservationSHA256": "1e3a69b101c0afe6684fbb56992ae81c853baefa9c2f87f207ca5fb8f5cb6b7e",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 7.7705387083406094,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "2c8550364c014c9f979a3460a6ae3f04d483f38d4a416b1d56828e24374d4f1c",
+            "quote": "Volunteer supper ambience notes: a quiet playlist might help conversation. Several volunteers liked the idea of acoustic tracks while clearing tables."
+          },
+          {
+            "candidateID": "bf323b2165bad589ec6dfb831ce943ce7a23654f97c07212ac678a36415168ce",
+            "quote": "Mira confirmed for the volunteer supper: no onion garnish, please. The garnish request says nothing about ingredients already in the sauce."
+          },
+          {
+            "candidateID": "594fa73509efb555ad6a951edc7bf106791e8528cff5ffd8b507c5fd12ffe739",
+            "quote": "Mira's final meal request for the volunteer supper: lentil bowl. This replaces the original main-course preference. The sauce's full ingredient list was not recorded on our intake sheet; we have not verified it."
+          }
+        ],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 22102016,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev06-q5"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "9de983e62b7c1b0a5299db523dfef952cb18d5b821b66265140bb3c71be3ca79"
+}

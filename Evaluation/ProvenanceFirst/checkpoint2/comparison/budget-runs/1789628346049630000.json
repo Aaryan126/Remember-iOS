@@ -1,0 +1,14 @@
+{
+  "approvalSHA256": "3589d831e06d5c1d20ffd1d18bc3f296911121940bbc8d6cf1828d9cdc8cc530",
+  "arguments": [
+    "cache",
+    "--split",
+    "evaluation"
+  ],
+  "failure": {
+    "message": "approved new-write budget above 5 GiB; stop, do not clean automatically",
+    "type": "InvalidFixture"
+  },
+  "mode": "model",
+  "peakPassingGrowthBytes": 4527464448
+}

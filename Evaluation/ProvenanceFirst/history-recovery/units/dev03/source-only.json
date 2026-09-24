@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Signage brief, page 1",
+      "modality": "pdf",
+      "sourceId": "s01",
+      "text": "West Quay timetable signage replaces the weathered panels at the ferry shelter. Our deliverable is a readable departure board and a matching map inset. This is a fictional service; panel proofs are working documents, not public travel information."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Survey notebook, opening paragraph",
+      "modality": "note",
+      "sourceId": "s02",
+      "text": "West Quay passenger wayfinding survey will observe how volunteers find the correct boarding gate. Record hesitation at the map and the timetable separately. We can use the new signage mockups, but survey conclusions belong to this research file."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Printer proof A OCR, lower panel",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "West Quay timetable signage, printer proof A: the last fictional northbound departure is printed as 21:10. This is an unapproved proof for contrast review. Its crop marks overlap the edge of the accessibility symbol on the lower panel."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Mockup session transcript, 00:14–00:36",
+      "modality": "voice",
+      "sourceId": "s04",
+      "text": "Joint mockup session for West Quay timetable signage and the West Quay passenger wayfinding survey. Place the departure panel beside the gate map, then ask volunteers to trace their route without prompts. Keep observations separate from printer corrections."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Approved panel B transcription",
+      "modality": "note",
+      "sourceId": "s05",
+      "text": "Panel B says 21:40 for the final northbound boat in West Quay timetable signage. This approved fictional schedule replaces proof A for the installed departure board. The map inset remains unchanged, and the printer has confirmed that the crop marks will be removed."
+    },
+    {
+      "id": "e06",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Unidentified audio fragment, 00:00–00:09",
+      "modality": "voice",
+      "sourceId": "s06",
+      "text": "Survey audio fragment: 'They kept looking left, after the second one.' The first half of the recording is missing. Neither the location nor the object being counted is named, and the survey volunteer list was not attached to this clip."
+    },
+    {
+      "assignedProjectRoots": [
+        "s02"
+      ],
+      "id": "e08",
+      "kind": "correct",
+      "reason": "That fragment is from our West Quay passenger wayfinding survey. Attach it there; I still do not know which gate they meant.",
+      "sourceId": "s06"
+    },
+    {
+      "id": "e09",
+      "kind": "restore",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Observation sheet, page 2",
+      "modality": "pdf",
+      "sourceId": "s07",
+      "text": "West Quay passenger wayfinding survey observation sheet: volunteers paused longest at the unlabeled gate fork. The observer marked durations with tally strokes, not seconds. A later count of people passing the shelter is unrelated to this observation session."
+    },
+    {
+      "id": "e11",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Fictional glare article, results section",
+      "modality": "link",
+      "sourceId": "s08",
+      "text": "A background article on coastal sign glare is saved for West Quay timetable signage. It compares matte and glossy materials in a different harbor. Its photographed departure times describe that harbor and should not be read as changes to our fictional timetable."
+    }
+  ],
+  "id": "dev03",
+  "queries": [
+    {
+      "atEvent": "e07",
+      "id": "q1",
+      "question": "What final northbound time appeared on the archived printer proof A itself?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e07",
+      "id": "q2",
+      "question": "Which gate were the people in the unidentified audio fragment looking toward?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "What time does the currently approved panel B give for the final northbound boat?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Recover the mockup-session instructions shared by the signage and survey projects.",
+      "scope": "current"
+    }
+  ]
+}

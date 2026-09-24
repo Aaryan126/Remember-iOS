@@ -1,0 +1,67 @@
+{
+  "groupingQualityEvaluated": false,
+  "macFirstLookupSuccesses": 4,
+  "macProcesses": 4,
+  "observations": [
+    {
+      "file": "Evaluation/iOS27/sentence-diagnostic/units/phone/snapshot-0.json",
+      "firstLookupAvailable": false,
+      "laterLookupAvailable": true,
+      "platform": "phone",
+      "sha256": "3df5a76a391d278473f2f4aabf0dce706ef686539bd696901893d90b97737fc3"
+    },
+    {
+      "file": "Evaluation/iOS27/sentence-diagnostic/units/phone/snapshot-1.json",
+      "firstLookupAvailable": false,
+      "laterLookupAvailable": true,
+      "platform": "phone",
+      "sha256": "a8d129456f3ca047cec65e81a4e78db9c03a31e1504a627fdc81f356a554e24e"
+    },
+    {
+      "file": "Evaluation/iOS27/sentence-controls/units/phone/default-only.json",
+      "firstLookupAvailable": false,
+      "laterLookupAvailable": true,
+      "platform": "phone",
+      "sha256": "bd8aa2f1b372cfcf711632730c403184c4cd56356c5fdb309b4bf83a0cdc99c2"
+    },
+    {
+      "file": "Evaluation/iOS27/sentence-controls/units/phone/revision-first.json",
+      "firstLookupAvailable": false,
+      "laterLookupAvailable": true,
+      "platform": "phone",
+      "sha256": "7bd2cf117cd3a6a5899fc1331da7b9fb5314c0435459959e5b1b95e26b1b3241"
+    },
+    {
+      "file": "Evaluation/iOS27/sentence-diagnostic/units/mac/snapshot-0.json",
+      "firstLookupAvailable": true,
+      "laterLookupAvailable": true,
+      "platform": "mac",
+      "sha256": "f5a192d73c6e8779d7e43837be224b99dff863a0bcdd08513ccfbc1ca14122b8"
+    },
+    {
+      "file": "Evaluation/iOS27/sentence-diagnostic/units/mac/snapshot-1.json",
+      "firstLookupAvailable": true,
+      "laterLookupAvailable": true,
+      "platform": "mac",
+      "sha256": "26a4a748214d9bf812a300a9273790508e07c86ea7b52297dcc86db916ca87f6"
+    },
+    {
+      "file": "Evaluation/iOS27/sentence-controls/units/mac/default-only.json",
+      "firstLookupAvailable": true,
+      "laterLookupAvailable": true,
+      "platform": "mac",
+      "sha256": "f3bdb1de4c25ffeddd9844f547ae112f7c4dd66bfd69696de0adb0f457132db9"
+    },
+    {
+      "file": "Evaluation/iOS27/sentence-controls/units/mac/revision-first.json",
+      "firstLookupAvailable": true,
+      "laterLookupAvailable": true,
+      "platform": "mac",
+      "sha256": "774594f327169fb40fce076a06f024ae3293c3cbaf6f41b58fc2b8dc7483c62a"
+    }
+  ],
+  "phoneFirstLookupFailures": 4,
+  "phoneProcesses": 4,
+  "phoneRecoveredProcesses": 4,
+  "productionChanged": false
+}

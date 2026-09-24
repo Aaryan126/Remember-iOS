@@ -29,6 +29,29 @@ multi-thread suggestion/acceptance screen.
 
 ## Existing libraries and safeguards
 
+- The [completed Stage 2 iOS 27 grouping screen](../Evaluation/iOS27/quality-continuation/REPORT.md)
+  retains identical FP16/FP32 decisions on 56 fresh pair controls, but neither
+  generative reviewer nor any tested D3/reviewer policy passes the safety gate.
+  In the context-rich challenge view, the boundary reviewer recognizes 12/32 true
+  continuations versus D3's 25/32, falsely separates 15/32, and makes unsupported
+  decisions on 15/16 uncertain cases. Do not add an automatic local-reviewer veto
+  or split path based on this experiment. The exposed pair controls do not exercise
+  the full organizer policy and are not representative whole-app accuracy.
+- The [iOS 27 device checkpoint](../Evaluation/iOS27/CHECKPOINT-2026-09-16.md) executed
+  23 selected tests against copied current sources and isolated real SQLite stores:
+  organizer protections, readiness-cache behavior, append-only triggers and exact
+  threshold semantics passed. This is not the full app suite or a new quality score.
+  The separate local-generation smoke request initially timed out; a later
+  [instrumented foreground check](../Evaluation/iOS27/generation-trace/REPORT.md)
+  completed correctly in 3.52 seconds of generation. This establishes narrow
+  evaluation readiness, not reasoning quality. No generative reviewer has been
+  added to the production placement path.
+- Sentence-model initialization retries once after a cancellation-aware 200 ms
+  asynchronous wait, only if the first lookup fails. Successful models stay cached
+  per language inside the embedding actor; persistent failure still defers matching.
+  This addresses the observed iOS 27 readiness race without changing embedding
+  spaces or D3 thresholds. See the [device recovery checkpoint](../Evaluation/iOS27/embedding-recovery-v2/REPORT.md)
+  for tests, vector drift and outstanding numerical compatibility limitations.
 - Existing placement events are not migrated, rescored or rewritten. Correcting a
   previous grouping remains a manual action; installing this does not fix old groups.
 - Captures without a placement are processed in stable creation-time/ID order.
@@ -46,6 +69,14 @@ multi-thread suggestion/acceptance screen.
 - No database migration, event-schema replacement or deletion of originals is needed.
 
 ## Scope and limitations
+
+The [iOS 27 precision diagnostic](../Evaluation/iOS27/precision/REPORT.md) found
+that an experimental FP32 conversion reproduces the original neural outputs more
+closely than the current FP16 export, at approximately double model storage and
+2.36× measured phone warm inference time. Sixteen reference decisions stayed
+unchanged with either precision. This is not a quality benchmark or a production
+replacement: this app still uses the existing FP16 artifact and frozen threshold.
+Historical numerical compatibility remains an explicit open qualification item.
 
 The matcher currently accepts automatically detected English text up to 16,000
 Unicode scalars. Both Apple embedding vectors must be available and share the same

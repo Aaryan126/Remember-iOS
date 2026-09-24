@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev03-q4",
+    "inputSHA256": "e4506d6131d23c22515c930e55be53ddfb6fff3a18d9201032a410549e132d10",
+    "rawSHA256": "3d027d864c4789868254563206b08fd116ff2dfe82d2ee0add248f1eb942374c",
+    "requestCount": 1,
+    "reservationSHA256": "ea7a33dd8fa70917dd21d1eb4c467e9880716f979925b636f239932f60e65f81",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.464420833333861,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "replace the front cable",
+        "evidence": [
+          {
+            "candidateID": "f399f7cebab21b7901d6eff8244f77571c451237bd76a5dc3d61d834250c1d23",
+            "quote": "Juniper's first work plan: replace the front cable. No work has yet been authorized."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21463040,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev03-q4"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "11f71d73528a356346fa9fdd4b4536eb2d00f7b8f06b3b92b29af864b9c7cb91"
+}

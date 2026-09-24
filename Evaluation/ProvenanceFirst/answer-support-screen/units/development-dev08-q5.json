@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev08-q5",
+    "inputSHA256": "0b1e6eee3893e3d20e3e1167caaa1208a147793b4c8093a266d860800b737ebc",
+    "rawSHA256": "6687ce1ad6255d1168e843a5ac37366648dfb74962d1ff78dcb5ac7fb403189f",
+    "requestCount": 1,
+    "reservationSHA256": "a61f9a49764a00b31abbdf5288ba4e65c8419b2d603084efa8a804aa3be80308",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.7905097083275905,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Oriole group first kiln reservation: Tuesday morning.",
+        "evidence": [
+          {
+            "candidateID": "04a8522325c85d6d008c652fd73ee8c454d6eac9d5c89532d09b7517f2453d07",
+            "quote": "Oriole group first kiln reservation: Tuesday morning. This is a booking slot, not a claim that firing has already occurred."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21512192,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev08-q5"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "3a08448388530b8f7ef90440a3fe47bea12af8c665168db392b6d4bd30829780"
+}

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "xcodebuild",
+    "-project",
+    "Evaluation/iOS27/safeguards/build/signing-retry/Remember.xcodeproj",
+    "-scheme",
+    "Safeguards",
+    "-destination",
+    "id=00008150-000A123A2EC0C01C",
+    "-derivedDataPath",
+    "Evaluation/iOS27/safeguards/build/derived",
+    "-disableAutomaticPackageResolution",
+    "-skipPackageUpdates",
+    "build-for-testing",
+    "-quiet"
+  ],
+  "configurationSHA256": "bb3db34f4a044accd942dad0f884a163a1fe0865ac5f7fed9c6e3ff5f976b3f4"
+}

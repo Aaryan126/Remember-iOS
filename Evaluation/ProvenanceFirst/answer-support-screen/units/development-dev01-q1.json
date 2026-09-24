@@ -1,0 +1,44 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev01-q1",
+    "inputSHA256": "648f52f29004202107584ec660e519da2362e01fe255bf24d513f8c2a586aefa",
+    "rawSHA256": "5947034559f3e9a34d4994c8301a60351387f6a91a2ad0adf6f376dabde68a5e",
+    "requestCount": 1,
+    "reservationSHA256": "fd4de59d6c78e5983439270e81589a5a6300531b4e0888fe9eaa730f844bef57",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 5.815483541664435,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Glass Orchard, scene 4. Following the dress rehearsal, the accepted trigger for LX 18 is the actor touching the letter. This explicitly replaces the door-slam trigger.",
+        "evidence": [
+          {
+            "candidateID": "b2376c7f19ea1bf3bf1d914ffb966c0e8eaf046ff8f347fe9d25a2e923e43c24",
+            "quote": "Glass Orchard, scene 4. Following the dress rehearsal, the accepted trigger for LX 18 is the actor touching the letter. This explicitly replaces the door-slam trigger."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 20267008,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev01-q1"
+    },
+    "validationError": {
+      "message": "invalid answer span",
+      "type": "ValueError"
+    }
+  },
+  "payloadSHA256": "ae86d1dc8b94ef4d4213ac524cf0113f98cee82684da453a2c55f899c69975a6"
+}

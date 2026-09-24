@@ -1,5 +1,71 @@
 # iOS 27: free-tier capability and evaluation assessment
 
+Latest checkpoint: [Stage 2 reviewer screen complete — no-go](../Evaluation/iOS27/quality-continuation/REPORT.md).
+The frozen comparison completed with 231 returned responses plus the one retained
+transport-error outcome; no uncertain request was retried. Neither prompt nor any
+D3 combination passes the safety gate. On the 80 context-rich challenge packets,
+D3 recognizes 25/32 true same-project relationships, versus 10/32 for C7 and 12/32
+for the boundary reviewer. The latter correctly separates 27/32 separate relationships
+but falsely separates 15/32 true continuations and asserts decisions on 15/16 uncertain
+cases. These exposed pair diagnostics are not whole-app accuracy. All 75 runner tests
+pass; production remains unchanged and the phone is safe to disconnect. The next
+useful step is an offline relation-contract/error review, not automatic integration
+or another prompt/training sweep. Full qualification and historical FP16 numerical
+compatibility are still separate open work.
+
+Previous checkpoint: [Stage 2 phone controls and interrupted reviewer pilot](../Evaluation/iOS27/quality/REPORT.md).
+All 56 fresh pair controls completed; FP16 and FP32 retain the same decisions on
+this set. Eight reviewer requests completed (six structurally valid, two invalid
+quotations), then the next launch lost the CoreDevice connection. No retry or
+prompt change occurred. The screen is incomplete; no iOS 27 quality improvement
+can yet be claimed. Evidence is saved and the probe is safely stopped for review.
+The production organizer remains unchanged.
+
+Previous checkpoint: [instrumented local-generation smoke passed](../Evaluation/iOS27/generation-trace/REPORT.md).
+After explicitly waiting for active foreground state, the same fictional request
+returned the correct code in 3.52 seconds of generation. The new isolated wrapper
+records progress and has a separately tested independent deadline. This clears
+the immediate generation-readiness blocker, not a grouping-quality gate; the old
+timeout's cause remains unproven. The next step is the bounded Stage 2 reviewer
+screen, with current D3 and the separate FP32 reference clearly identified. Neither
+the production artifact nor the failed historical FP16 score gate was changed.
+
+Previous checkpoint: [boundary checks and organizer safeguards passed; local generation blocked](../Evaluation/iOS27/CHECKPOINT-2026-09-16.md).
+All 24 threshold-near decisions remain unchanged across both precisions on phone
+and Mac, and 23 selected organizer/store/readiness-cache tests pass on the physical
+phone. FP32 stays within the original neural tolerance for all 48 directions;
+FP16 misses it three times. No quality uplift is claimed and production is unchanged.
+The remaining Stage 1 blocker is a 120-second timeout on one tiny generation smoke
+request despite Foundation Models reporting available. The isolated process was
+safely stopped. Diagnose generation readiness before the Stage 2 reasoning screen.
+
+Previous experiment: [FP16/FP32 comparison on the upgraded Mac and phone](../Evaluation/iOS27/precision/REPORT.md).
+FP32 reproduces original PyTorch neural outputs within 0.000000283 on all 32
+directions; existing FP16 reaches 0.002117813, exceeding the original 0.002 bound
+once. Both retain 16/16 fixed and fresh-embedding decisions. FP32 requires ~133.6 MB
+compiled model storage versus ~66.9 MB and median phone warm inference of 42.3 ms
+versus 17.9 ms per direction. No quality gain is established. FP32 is an isolated
+candidate, not the new production default, and its own conversion-reference parity
+does not turn the failed historical FP16 score gate into a pass. Stage 1 remains
+incomplete; review the candidate identity and remaining safeguards before Stage 2.
+
+Previous implementation: [bounded readiness recovery verified](../Evaluation/iOS27/embedding-recovery-v2/REPORT.md).
+The production provider now waits 200 ms asynchronously after an initial sentence-model
+failure and retries once. Unlike the initial API-only controls, the real provider
+needed a brief readiness wait; a tight immediate retry failed. All 16 phone and 16 Mac
+embedding fixtures completed with matching spaces and unchanged reference-neural
+decisions. Seven Swift regression tests passed. This fixes the observed availability
+path, not the separate neural score-parity issue. Small contextual-vector differences
+remain recorded. The main app was not reinstalled; full Stage 1 remains incomplete.
+
+16 September follow-up: [physical iPhone compatibility results](../Evaluation/iOS27/phone-diagnostic/REPORT.md).
+Foundation Models reports available with a 4,096-token context. All 16 D3 reference
+decisions are unchanged, but numeric failures reproduce identically to the Mac.
+The phone's English sentence embedding was unavailable, and the first production
+embedding check failed. Investigate that availability blocker before a precision
+conversion experiment. Stage 1 is still incomplete; no new grouping-quality score
+or production behavior change is claimed.
+
 Implementation follow-up: the toolchain upgrade is complete. The
 [Stage 1 checkpoint](../Evaluation/iOS27/stage1/REPORT.md) records successful probe
 builds and safety tests, but a small Mac numeric-parity failure, an unready Mac language

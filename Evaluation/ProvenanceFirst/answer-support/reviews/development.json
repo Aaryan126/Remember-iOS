@@ -1,0 +1,21 @@
+{
+  "reviewer":"/root/support_author_eval",
+  "author":"/root/support_author_dev",
+  "split":"development",
+  "inputSHA256":"43557eebefa52c35c9d0e69fc25038ea00ff7e34470cb7bf0d3d853fc5e0af0b",
+  "libraries":[
+    {"id":"dev01","verdict":"pass","issues":[{"location":"q4","severity":"warning","reason":"The active amendment also identifies the former door-slam trigger. Both accepted historical-answer citations are valid, but this task does not require historical-only retrieval.","suggestedFix":"Retain both supports and distinguish current-also-sufficient historical questions in reporting."}]},
+    {"id":"dev02","verdict":"pass","issues":[]},
+    {"id":"dev03","verdict":"pass","issues":[]},
+    {"id":"dev04","verdict":"pass","issues":[]},
+    {"id":"dev05","verdict":"pass","issues":[{"location":"q6","severity":"warning","reason":"The source says the reading trial did not choose an installer, whereas this question asks about the team's appointment generally. Not-established remains correct at the full-corpus boundary; the trial statement cannot prove nobody was ever appointed.","suggestedFix":"Preserve the present verdict and question scope in packet review; do not upgrade that narrower statement into an answer about all later appointments."}]},
+    {"id":"dev06","verdict":"pass","issues":[]},
+    {"id":"dev07","verdict":"pass","issues":[]},
+    {"id":"dev08","verdict":"pass","issues":[]}
+  ],
+  "crossLibraryIssues":[
+    {"location":"independent re-review of pre-freeze revisions","severity":"warning","reason":"Re-reviewed all changed sources, questions, answer passages, IDs and rationales against the entire eligible corpus. Four current_b tasks now have affirmative answers: dev03 key holder, dev04 permitted carton closure, dev06 requested collection point, dev08 assigned kiln loader. Dev01/dev05/dev07 retain meaningful negative-versus-missing contrasts. Dev01/dev02/dev04/dev08 now require recognizing disagreements between ordinary records without editorial conflict declarations. All verdicts remain semantically supported and all alternative direct citations found are annotated. Requested minimal variants were added before predictions.","suggestedFix":"Preserve development.initial.json and this final hash-bound review as the prediction-blind adjudication record. Do not describe these changes as model-driven improvements."},
+    {"location":"remaining corpus design limitations","severity":"warning","reason":"The mandated eight-category structure still creates correlated examples, with recurring revision, archived fact, missing measurement and competing-record mechanisms. Four libraries vary category-to-ID mappings; IDs and categories must remain absent from inference prompts. Distinct scenario contexts are not independence from every abstract semantic template. Four conflicts still explicitly announce disagreement, and wrong-entity distractors often explain their scope.","suggestedFix":"Use library-level uncertainty and present this as a controlled short-text feasibility screen. Any broader natural-data, subtle-conflict or real-user reliability claim needs fresh validation under separate approval."},
+    {"location":"review provenance","severity":"warning","reason":"The reviewer authored evaluation examples but independently checked development source histories and labels without verifier outputs, ranking results or scorer tuning. Agent consensus is not human ground truth. Exact accepted spans may still omit unforeseen semantically correct wording even after adding obvious minimal variants.","suggestedFix":"Report authorship, independent review, limited sample size and the predefined-span scoring limitation. Log unexpected valid variants for later review without changing the frozen primary metric after predictions."}
+  ]
+}

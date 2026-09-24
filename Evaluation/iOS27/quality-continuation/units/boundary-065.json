@@ -1,0 +1,64 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-065/raw.json",
+  "rawSHA256": "4f195339037881eb5da2cd3dd01f523a7b9aea0a242127ab15e1445dc103e1f0",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.1941331250054645,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.5416679717600346e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22581333333801012,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27517629166686675,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27617400000599446,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.192628791672178,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "a05b79adb3db0ff2df70d859bbc076d5feb4dd6be68a35d9690a0d746b5fd131",
+      "contextSize": 4096,
+      "generationSeconds": 4.915777833331958,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Export mapping, rehearsal imports and cutover support belong to this migration engagement.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The access-revocation investigation has its own incident owner and closure criteria, outside the appointment-database migration.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Operations diary coordinates the migration cutover and the access-revocation incident review.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources describe distinct undertakings\u2014migration and access-revocation investigation\u2014that share coordination but are not part of the same project.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-065"
+  }
+}

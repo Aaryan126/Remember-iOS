@@ -1,0 +1,64 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-087/raw.json",
+  "rawSHA256": "61a7fe689a21a625a00fd992a72323d54c070a3f0e123f68ff9f7893da154b32",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.661034208336787,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.7083379942923784e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22386491666838992,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2700905000019702,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27116870833560824,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.658791125002608,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "d7c5b54bb9a49e948b18b8e3fe504115b657c9a35c4f426c7cc1a99b56d9cb5c",
+      "contextSize": 4096,
+      "generationSeconds": 5.386949375002587,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Export mapping, rehearsal imports and cutover support belong to this migration engagement.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The access-revocation investigation has its own incident owner and closure criteria, outside the appointment-database migration.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Support note: Marble Desk says the fix worked after the restart. We can close it.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Source s01 links migration to appointment database; s02 defines a separate access-revocation incident; s05 confirms closure for a distinct fix, showing no shared project continuity.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-087"
+  }
+}

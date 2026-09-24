@@ -1,0 +1,118 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Rye run notebook, cover entry",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Juniper rye fermentation run is our three-day check of the rye starter before Saturday's bake. Each jar gets a temperature strip and its own lid. The handwritten run name matters because the next bench holds an unrelated wheat starter."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Extracted original bench sheet, top half",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "Juniper rye fermentation run used jar J4 for the first inoculation on the original bench sheet. A flour smear hides the feeding quantity, so that number is unreadable. The sheet asks the next shift to keep the jar upright."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Brioche trial notebook, first entry",
+      "modality": "note",
+      "sourceId": "s02",
+      "text": "Evening brioche proof trial compares the tall and shallow covered trays after mixing. It is a separate dough experiment from the rye run. The team will record tray position before considering any adjustment to proof duration."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Extracted unidentified shift memo, 00:00–00:18",
+      "modality": "voice",
+      "sourceId": "s04",
+      "text": "The rack was moved away from the warm wall after the second check. The voice memo says 'our dough' but gives no run name or tray mark. Fan noise masks the speaker's final sentence completely."
+    },
+    {
+      "id": "e05",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Hygiene handoff sheet, page 1",
+      "modality": "pdf",
+      "sourceId": "s05",
+      "text": "Juniper rye fermentation run and Evening brioche proof trial share the cleaned thermometer after a fresh wipe between uses. The handoff is at the sink, not on either dough bench. Separate log sheets prevent their readings from being combined."
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Brioche shift note, original entry",
+      "modality": "note",
+      "sourceId": "s06",
+      "text": "For Evening brioche proof trial, the next observation is scheduled at 19:10. Write tray height before opening the cover. The notebook still has an empty space for humidity; nobody has supplied a reading for that field."
+    },
+    {
+      "assignedProjectRoots": [
+        "s02"
+      ],
+      "id": "e08",
+      "kind": "correct",
+      "reason": "The rack-movement memo is mine and belongs to Evening brioche proof trial.",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e09",
+      "kind": "revise",
+      "locator": "Brioche shift note, amended entry",
+      "sourceId": "s06",
+      "text": "For Evening brioche proof trial, the next observation is rescheduled to 19:25. The mixer cleanup delayed tray placement. Write tray height before opening the cover; the humidity field remains blank because no reading was taken."
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Fictional supplier article, reusable strips section",
+      "modality": "link",
+      "sourceId": "s07",
+      "text": "A bakery supply article discusses washable temperature strips as background for Juniper rye fermentation run. Its photographs show a demonstration kitchen and are not observations of our jars. The price table is cropped out of this extract."
+    },
+    {
+      "id": "e11",
+      "kind": "archive",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e12",
+      "kind": "restore",
+      "sourceId": "s05"
+    }
+  ],
+  "id": "eval02",
+  "queries": [
+    {
+      "atEvent": "e10",
+      "id": "q1",
+      "question": "What is the currently scheduled next observation time for the Evening brioche proof trial?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e06",
+      "id": "q2",
+      "question": "Include history and find the jar identifier on the archived original bench sheet for the first Juniper rye inoculation.",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "What current handoff document links the rye run and brioche trial through a shared instrument?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e07",
+      "id": "q4",
+      "question": "What was the actual relative humidity beside the brioche trays at the next-observation check?",
+      "scope": "current"
+    }
+  ]
+}

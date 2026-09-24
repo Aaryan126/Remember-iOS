@@ -1,0 +1,36 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev05-q8",
+    "inputSHA256": "f8c122f0b2828f3fb1c5e468b1a627a9a47f5c7ca2f7005fe90d3b0c0afcefaa",
+    "rawSHA256": "b5055faae02193c605c81cb22dff59376940278e91366fb572a97d9957a27ef2",
+    "requestCount": 1,
+    "reservationSHA256": "9d1379596000de67d5efc4601224293b2b9e6d37b6fdbf27bd3a5ac55eedcc4c",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 1.507721624991973,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 20922368,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev05-q8"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "0260b34d4c003c673bec1d4682a4f31e34039a6eeee3c16e5073af0159b27a9b"
+}

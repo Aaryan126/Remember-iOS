@@ -1,0 +1,70 @@
+{
+  "benchmarkGenerationAllowed": false,
+  "binarySHA256": "de336d56ac27d5b2108793b2cd8b18857074c81e1913b08f48ef4ff87c08aac5",
+  "buildOutput": "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support-format-v2/generation-build/AnswerSupportProbe.swift:119:34: warning: 'init(sampling:temperature:maximumResponseTokens:)' is deprecated: replaced by 'init(samplingMode:temperature:maximumResponseTokens:)' [#DeprecatedDeclaration]\n117 |                     try Task.checkCancellation()\n118 |                     let response = try await session.respond(to: request.packet, generating: SupportOutput.self,\n119 |                         options: GenerationOptions(sampling: .greedy, maximumResponseTokens: 768))\n    |                                  |- warning: 'init(sampling:temperature:maximumResponseTokens:)' is deprecated: replaced by 'init(samplingMode:temperature:maximumResponseTokens:)' [#DeprecatedDeclaration]\n    |                                  `- note: use 'init(samplingMode:temperature:maximumResponseTokens:)' instead\n120 |                     try Task.checkCancellation()\n121 |                     recorder.finish(response.content)\n\n[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>\n",
+  "cancellationGraceSeconds": 2,
+  "checkpointRequestLimit": 8,
+  "command": [
+    "xcrun",
+    "swiftc",
+    "-parse-as-library",
+    "-O",
+    "-module-cache-path",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support-format-v2/generation-build/module-cache",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support-format-v2/generation-build/AnswerSupportProbe.swift",
+    "-o",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/answer-support-format-v2/generation-build/answer-support-format-v2-probe"
+  ],
+  "controlsSHA256": "b8bb9daee67b67aef0fc887541c57b10e8fffe8fe89b41729b680106a3dee522",
+  "cumulativeRequestLimit": 145,
+  "hostDeadlineSeconds": 75,
+  "instructionsSHA256": "1a40f02f5879b88c19f7d67893ce355bec3078a2cb1a90766e69a4ecd464ce94",
+  "nativeDeadlineSeconds": 60,
+  "oldBuildSHA256": "540d0f266c0ee6ccbf3759963d1450349253f99433f32d71a0056ec4fd2911da",
+  "reservationSHA256": "492010f19a03ed0dbe33eaf948a9aca5444338c4ac4fb74d092c201ac65de9aa",
+  "runtime": {
+    "availability": "available",
+    "contextSize": 8192,
+    "os": "Version 27.0 (Build 26A428)"
+  },
+  "schema": {
+    "answerMaximum": 160,
+    "cancellationGraceSeconds": 2,
+    "evidenceMaximum": 3,
+    "fields": [
+      "verdict",
+      "answer",
+      "evidence"
+    ],
+    "hostDeadlineSeconds": 75,
+    "maximumResponseTokens": 768,
+    "nativeDeadlineSeconds": 60,
+    "quoteMaximum": 480,
+    "quoteMinimum": 4,
+    "sampling": "greedy",
+    "verdicts": [
+      "conflicting",
+      "explicit_missing",
+      "not_established",
+      "supported"
+    ]
+  },
+  "schemaSHA256": "28fb1c9612336d29b7ab6eee389acca246ccf1908dccb62682f981cc2617d040",
+  "source": {
+    "generatedSwiftSHA256": "dd81782553624c0b68e7877f1ccdd4a89a1f722424c1be9d81374d19c861a39b",
+    "oldSwiftSHA256": "f7bb135e3d74a365c2cf3fc5fab66ab68bdac59886e0b367c278abc271f5bc3d",
+    "soleGuideChange": {
+      "new": "Concise verbatim answer extract up to 160 characters when supported, otherwise the empty string",
+      "old": "Minimal verbatim answer span up to 160 characters when supported, otherwise the empty string"
+    }
+  },
+  "sourceHashes": {
+    "scripts/provenance-first/answer-support-format-v2/v2_control.py": "eaf2fb18274868e115737a9f0e974cb55ef5401c5ccc793a723521618e4e3399",
+    "scripts/provenance-first/answer-support-format-v2/v2_generation.py": "6419c25b6782138bbc888438c0bfce59d27b0c4c3105407b7e22ca5317dfa1da",
+    "scripts/provenance-first/answer-support/AnswerSupportProbe.swift": "f7bb135e3d74a365c2cf3fc5fab66ab68bdac59886e0b367c278abc271f5bc3d",
+    "scripts/provenance-first/answer-support/as_generation.py": "3e3b92da58379738ac7556853ad0c2df55b254b3489b4f0f6fecdf10de3efd33",
+    "scripts/provenance-first/answer-support/as_native.py": "075a509083bca4863143f5776eb66c7fbbe969594347b47028b98f030f5987fd",
+    "scripts/provenance-first/answer-support/as_policy.py": "c1e0021220dbebd8f982d616acfecca44709f461ad22f923aaaf3b57e0ba859c"
+  },
+  "terminalSHA256": "ff8b5f711a0bfa2f90089d64691d5800e22aaca522fd44b15662510e244e6ea4"
+}

@@ -1,0 +1,60 @@
+{
+  "rawPath": "attempts/phone/control-29/raw.json",
+  "rawSHA256": "b4af9635c263f9483ecc552f92f2a73d852d6c2e3a5b402bfc8ec2dc888d9ec6",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 0.8023914583318401,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 7.750000804662704e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2242850416660076,
+        "phase": "foreground_verified"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "features": [
+        0.9353160327293588,
+        0.44173809608712467,
+        0.10945222647931796,
+        0.13953488372093023,
+        0,
+        0.3932038834951456,
+        0,
+        0,
+        1,
+        0
+      ],
+      "key": "2aeefdcf5ed372bce966b664e891f19e06f77e83c912b5bec7649e122b5aafc0--3202618ee11b1ed2d7638d3421a6fed9b08bcbc3ad655215fae908c428ac991e",
+      "scores": {
+        "fp16": {
+          "accepted": false,
+          "probabilities": [
+            0.97509765625,
+            0.984375
+          ],
+          "score": 0.9746032737934968
+        },
+        "fp32": {
+          "accepted": false,
+          "probabilities": [
+            0.9747622609138489,
+            0.9845967888832092
+          ],
+          "score": 0.974567780878484
+        }
+      },
+      "space": "apple-dual:en:5C45D94E-BAB4-4927-94B6-8B5745C46289:1:512:1:512:token64-sentence256-v3",
+      "threshold": 0.9804276486193665
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "control-29"
+  }
+}

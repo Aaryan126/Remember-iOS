@@ -1,0 +1,1730 @@
+{
+  "appIntegrationAllowed": false,
+  "baseline": {
+    "answerable": 36,
+    "correct": 23,
+    "correctHits": 23,
+    "expected": 36,
+    "falseReturnRate": 1.0,
+    "falseReturns": 12,
+    "hitCoverage": 0.6388888888888888,
+    "libraries": [
+      {
+        "id": "eval01",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval02",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval03",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval04",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval05",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval06",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval07",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval08",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval09",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval10",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval11",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval12",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      }
+    ],
+    "librariesWithReturns": 12,
+    "macroRecall": 0.6388888888888888,
+    "modeRecall": {
+      "current": 1.0,
+      "historical": 0.0,
+      "overlap": 0.9166666666666666
+    },
+    "precision": 0.1597222222222222,
+    "returned": 144,
+    "returnedDistribution": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 48
+    },
+    "unanswerable": 12
+  },
+  "bindingSHA256": "dfda382d4b312e899a891c1aeda99d189f6ef88c87df89873fe13035989fabcf",
+  "comparisons": {
+    "B": {
+      "developmentQualified": false,
+      "gates": {
+        "abstention": true,
+        "coverage": false,
+        "current": false,
+        "historical": false,
+        "overlap": false,
+        "precision": true,
+        "recallGain": false,
+        "support": false
+      },
+      "metrics": {
+        "answerable": 36,
+        "correct": 5,
+        "correctHits": 5,
+        "expected": 36,
+        "falseReturnRate": 0.0,
+        "falseReturns": 0,
+        "hitCoverage": 0.1388888888888889,
+        "libraries": [
+          {
+            "id": "eval01",
+            "queries": [
+              {
+                "correct": 1,
+                "id": "q1",
+                "mode": "current",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval02",
+            "queries": [
+              {
+                "correct": 1,
+                "id": "q1",
+                "mode": "current",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval03",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval04",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval05",
+            "queries": [
+              {
+                "correct": 1,
+                "id": "q1",
+                "mode": "current",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval06",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval07",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval08",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval09",
+            "queries": [
+              {
+                "correct": 1,
+                "id": "q1",
+                "mode": "current",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval10",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval11",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval12",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          }
+        ],
+        "librariesWithReturns": 5,
+        "macroRecall": 0.13888888888888887,
+        "modeRecall": {
+          "current": 0.3333333333333333,
+          "historical": 0.08333333333333333,
+          "overlap": 0.0
+        },
+        "precision": 1.0,
+        "returned": 5,
+        "returnedDistribution": {
+          "0": 43,
+          "1": 5,
+          "2": 0,
+          "3": 0
+        },
+        "unanswerable": 12
+      }
+    },
+    "C": {
+      "developmentQualified": false,
+      "gates": {
+        "abstention": true,
+        "coverage": false,
+        "current": false,
+        "historical": false,
+        "overlap": false,
+        "precision": true,
+        "recallGain": false,
+        "support": false
+      },
+      "metrics": {
+        "answerable": 36,
+        "correct": 3,
+        "correctHits": 3,
+        "expected": 36,
+        "falseReturnRate": 0.0,
+        "falseReturns": 0,
+        "hitCoverage": 0.08333333333333333,
+        "libraries": [
+          {
+            "id": "eval01",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval02",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval03",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval04",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval05",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval06",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval07",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval08",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval09",
+            "queries": [
+              {
+                "correct": 1,
+                "id": "q1",
+                "mode": "current",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval10",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval11",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "eval12",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              }
+            ]
+          }
+        ],
+        "librariesWithReturns": 2,
+        "macroRecall": 0.08333333333333333,
+        "modeRecall": {
+          "current": 0.08333333333333333,
+          "historical": 0.0,
+          "overlap": 0.16666666666666666
+        },
+        "precision": 1.0,
+        "returned": 3,
+        "returnedDistribution": {
+          "0": 45,
+          "1": 3,
+          "2": 0,
+          "3": 0
+        },
+        "unanswerable": 12
+      }
+    }
+  },
+  "historyControl": {
+    "answerable": 36,
+    "correct": 35,
+    "correctHits": 35,
+    "expected": 36,
+    "falseReturnRate": 1.0,
+    "falseReturns": 12,
+    "hitCoverage": 0.9722222222222222,
+    "libraries": [
+      {
+        "id": "eval01",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval02",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval03",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval04",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval05",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval06",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval07",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval08",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval09",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval10",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval11",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "eval12",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      }
+    ],
+    "librariesWithReturns": 12,
+    "macroRecall": 0.9722222222222222,
+    "modeRecall": {
+      "current": 1.0,
+      "historical": 1.0,
+      "overlap": 0.9166666666666666
+    },
+    "precision": 0.24305555555555555,
+    "returned": 144,
+    "returnedDistribution": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 48
+    },
+    "unanswerable": 12
+  },
+  "outsideRiverGateMeasured": false,
+  "predictionsSHA256": "051dd63fded4001da050c411eda22a16f5b829e8d9f813d93f12b51e318f5e41",
+  "recoveryQualified": false,
+  "selectedWinner": null,
+  "selectionSHA256": "a9bf5530c6487fccb09078b34138d341f70515e0edd436ec35408e69f4974b45",
+  "status": "complete-awaiting-user-review"
+}

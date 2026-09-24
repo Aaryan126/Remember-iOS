@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-061/raw.json",
+  "rawSHA256": "30782126df47e48580afa20213c2d1b0a9f47174f2c136f58760701df2cde520",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.8434530416634516,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.083332896698266e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22248608333029551,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.269261125002231,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2703244166696095,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.8419864583338494,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "9a361a44843effe49230ff666c429c357acb81c4585f33590ff694d6ceff7743",
+      "contextSize": 4096,
+      "generationSeconds": 3.5709536666690838,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Record the dock workers, edit their interviews and clear the music for this episode.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Send the clean version tonight.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference the same task: editing dock worker interviews and sending the clean version.",
+        "verdict": "same_project"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-061"
+  }
+}

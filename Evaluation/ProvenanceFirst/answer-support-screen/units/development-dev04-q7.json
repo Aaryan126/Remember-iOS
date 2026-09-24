@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev04-q7",
+    "inputSHA256": "d4428ed7d70ced8499853308bf434de534e803dec4ae04d85b41fc35e6bdc27a",
+    "rawSHA256": "338d547ebf7f2b8421a5e1663f0b347c106bbea3317a292a1fdb56680e4e8cc0",
+    "requestCount": 1,
+    "reservationSHA256": "6a4def737642e34e6eb6bc3ab8dc96c76100569b593bdff582c54f1192d89792",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 6.203664125001524,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "2af5c47a2d52e7ae52bcf2afa2099ebed43dfc80cf7af3fa5918a1b8dc060376",
+            "quote": "Display proposal for Tide Bowl L-14: the bowl could sit on either the low shelf or a plinth. The room mock-up shows both options, with lighting studies still underway."
+          },
+          {
+            "candidateID": "ae30a12f17688e25132965f29b9f3b2d353fa2b3e036cf9313f5abf43b557820",
+            "quote": "Loan L-14, the Tide Bowl. Final authorized cradle lining: undyed linen. This revision supersedes the draft lining choice. The packed crate's gross weight has not been recorded."
+          }
+        ],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 21856256,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev04-q7"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "5033ff823a27fefb78c14d22cdbfda76e04e178a6c0481a326481d496b05c286"
+}

@@ -1,0 +1,588 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Larch quartet instrument transfer covers four borrowed string instruments travelling to the hill hall. Each case travels with a paper condition slip. Players' personal luggage is outside this transfer, even when it rides on the same vehicle."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54ef0eca2ccb0aa98263b3b40c0bee333695339f9a30e71ef60eb10f2335568f"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "pdf",
+        "text": "The first Larch quartet instrument transfer manifest assigned the cello case to bay C. That loading arrangement was withdrawn before departure. A corner of the sheet is torn, but the bay letter and cello line remain fully legible."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54ef0eca2ccb0aa98263b3b40c0bee333695339f9a30e71ef60eb10f2335568f"
+        }
+      },
+      "id": "e03",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "72f920faa5cecb6f4e75c8f9ea25bc5fa2b98f35be9df5941c8a10b7a2338502"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54ef0eca2ccb0aa98263b3b40c0bee333695339f9a30e71ef60eb10f2335568f"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "note",
+        "text": "Copper wind quintet tour freight moves the ensemble's instrument cases and spare stands to the hill hall. The quintet has its own destination receipt. Sharing a driver with the quartet does not transfer custody of the wind instruments."
+      }
+    },
+    {
+      "assignments": [
+        "t:c04"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "72f920faa5cecb6f4e75c8f9ea25bc5fa2b98f35be9df5941c8a10b7a2338502"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54ef0eca2ccb0aa98263b3b40c0bee333695339f9a30e71ef60eb10f2335568f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "8e99890edc87dd9aabf2de0050e174bc5474b348a7d5bc7e3770f2af1bff4afd"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "image",
+        "text": "The long case needs a second strap before the vehicle doors close. The handwritten card has no instrument name, ensemble name, or destination. A fragment of a printed shipping label underneath it cannot be read from this angle."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "72f920faa5cecb6f4e75c8f9ea25bc5fa2b98f35be9df5941c8a10b7a2338502"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54ef0eca2ccb0aa98263b3b40c0bee333695339f9a30e71ef60eb10f2335568f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "8e99890edc87dd9aabf2de0050e174bc5474b348a7d5bc7e3770f2af1bff4afd"
+        }
+      },
+      "id": "e06",
+      "kind": "restore",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "72f920faa5cecb6f4e75c8f9ea25bc5fa2b98f35be9df5941c8a10b7a2338502"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54ef0eca2ccb0aa98263b3b40c0bee333695339f9a30e71ef60eb10f2335568f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "8e99890edc87dd9aabf2de0050e174bc5474b348a7d5bc7e3770f2af1bff4afd"
+        }
+      },
+      "id": "e07",
+      "kind": "correct",
+      "target": "localc04"
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "72f920faa5cecb6f4e75c8f9ea25bc5fa2b98f35be9df5941c8a10b7a2338502"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54ef0eca2ccb0aa98263b3b40c0bee333695339f9a30e71ef60eb10f2335568f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "8e99890edc87dd9aabf2de0050e174bc5474b348a7d5bc7e3770f2af1bff4afd"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "12b51fa3ac0aa985c1badfc62cc6bdb32a3d590df5e35b66a42cde5687297fb5"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "voice",
+        "text": "Larch quartet instrument transfer and Copper wind quintet tour freight share vehicle Rowan for the outbound journey. The loading lead keeps separate bay sheets for the two ensembles. A packet of spare straps sits in the front cab."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "72f920faa5cecb6f4e75c8f9ea25bc5fa2b98f35be9df5941c8a10b7a2338502"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54ef0eca2ccb0aa98263b3b40c0bee333695339f9a30e71ef60eb10f2335568f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "8e99890edc87dd9aabf2de0050e174bc5474b348a7d5bc7e3770f2af1bff4afd"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "12b51fa3ac0aa985c1badfc62cc6bdb32a3d590df5e35b66a42cde5687297fb5"
+        }
+      },
+      "id": "e09",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "72f920faa5cecb6f4e75c8f9ea25bc5fa2b98f35be9df5941c8a10b7a2338502"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54ef0eca2ccb0aa98263b3b40c0bee333695339f9a30e71ef60eb10f2335568f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "8e99890edc87dd9aabf2de0050e174bc5474b348a7d5bc7e3770f2af1bff4afd"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "12b51fa3ac0aa985c1badfc62cc6bdb32a3d590df5e35b66a42cde5687297fb5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6012e92f628232c487ebd5944a26e77811db4b6e534389555ca624732929be01"
+        }
+      },
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "pdf",
+        "text": "The live Larch quartet instrument transfer dispatch slip places the cello case in bay A. This is the replacement loading instruction after the abandoned first manifest. Keep the case handle facing the aisle so the receiving steward can check its tag."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "72f920faa5cecb6f4e75c8f9ea25bc5fa2b98f35be9df5941c8a10b7a2338502"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54ef0eca2ccb0aa98263b3b40c0bee333695339f9a30e71ef60eb10f2335568f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "8e99890edc87dd9aabf2de0050e174bc5474b348a7d5bc7e3770f2af1bff4afd"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "12b51fa3ac0aa985c1badfc62cc6bdb32a3d590df5e35b66a42cde5687297fb5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6012e92f628232c487ebd5944a26e77811db4b6e534389555ca624732929be01"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d7c7adbe41eda7e153f624815cb41bd7f4189f4ee453a454ed7584e7f88dada9"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "voice",
+        "text": "Copper wind quintet tour freight will unload the bassoon case first at the hill hall. The steward will meet the driver inside the covered entrance. No receipt signature is present yet; this is a proposed unloading order, not delivery confirmation."
+      }
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d09001a1a32da3e99a226e058d9019cd283efe11ca634a7246509a4fde270b0"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "72f920faa5cecb6f4e75c8f9ea25bc5fa2b98f35be9df5941c8a10b7a2338502"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "54ef0eca2ccb0aa98263b3b40c0bee333695339f9a30e71ef60eb10f2335568f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "8e99890edc87dd9aabf2de0050e174bc5474b348a7d5bc7e3770f2af1bff4afd"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "12b51fa3ac0aa985c1badfc62cc6bdb32a3d590df5e35b66a42cde5687297fb5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6012e92f628232c487ebd5944a26e77811db4b6e534389555ca624732929be01"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d7c7adbe41eda7e153f624815cb41bd7f4189f4ee453a454ed7584e7f88dada9"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "cfb668cfaf617e9e93d649ce75a333ef19e9d0c0fe876cc5d7a9cfb6c89b5d52"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "link",
+        "text": "A packing guide discusses curved foam supports as background for both Larch quartet instrument transfer and Copper wind quintet tour freight. Its sample case belongs to a teaching collection elsewhere. The guide contains no booking or custody instructions for this journey."
+      }
+    }
+  ],
+  "id": "history-eval04-chronological",
+  "queries": [
+    {
+      "afterEvent": "e12",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e09",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e08",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e11",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

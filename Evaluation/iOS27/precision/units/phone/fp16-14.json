@@ -1,0 +1,70 @@
+{
+  "rawPath": "attempts/phone/fp16-14/raw.json",
+  "rawSHA256": "8a344d8c2692893192a0b101c326b4e70601c2d652908d0939dd0a8d7a283e6d",
+  "result": {
+    "elapsedSeconds": 0.5423257500006002,
+    "memoryAfter": {
+      "processPeakResident": 127614976,
+      "resident": 53116928
+    },
+    "memoryBefore": {
+      "processPeakResident": 28229632,
+      "resident": 28229632
+    },
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "computeUnits": "cpuOnly",
+      "embeddingSeconds": 0.4501204999978654,
+      "fixedDecisionUnchanged": true,
+      "fixedFeatures": [
+        0.9615293376700594,
+        0.596037413665165,
+        0.07000883691264521,
+        0.10486891385767791,
+        0,
+        0.8304093567251462,
+        0,
+        0,
+        1,
+        0
+      ],
+      "fixedScore": 0.8698156669673068,
+      "fixture": "hv19a-i01--hv19a-i16",
+      "freshDecisionUnchanged": true,
+      "freshFeatures": [
+        0.9615815372365737,
+        0.596037413665165,
+        0.07000883691264521,
+        0.10486891385767791,
+        0,
+        0.8304093567251462,
+        0,
+        0,
+        1,
+        0
+      ],
+      "freshScore": 0.869900700132178,
+      "inferenceSeconds": [
+        0.021642125000653323,
+        0.017955541661649477
+      ],
+      "loadSeconds": 0.0014536250018863939,
+      "maximumNeuralDelta": 0.00020307302474975586,
+      "originalNeuralBoundMet": true,
+      "originalStrictGatePassed": true,
+      "precision": "fp16",
+      "probabilities": [
+        0.97802734375,
+        0.97900390625
+      ],
+      "space": "apple-dual:en:5C45D94E-BAB4-4927-94B6-8B5745C46289:1:512:1:512:token64-sentence256-v3",
+      "tokenParity": true,
+      "warmRepeatDelta": 0,
+      "warmRepeatSeconds": 0.017978583331569098
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "fp16-14"
+  }
+}

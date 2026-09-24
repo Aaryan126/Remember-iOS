@@ -1,0 +1,68 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-070/raw.json",
+  "rawSHA256": "f7a0f0834bf436ada4822e30485b9ce14a8dc6a6b4afea79107d3e373a8054d9",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.650396416669537,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.66666858503595e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22533845833095256,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27062920833122917,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2716682916652644,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.648329791663855,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "b1617b463a9d20572e9634132a895b9d6deb4f656c23c02039f03c2ad42386cc",
+      "contextSize": 4096,
+      "generationSeconds": 4.375975625000137,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Cedar Forge placed another order for a toolbox hinge.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Bench memo: Revision C survived the load cycle.",
+            "sourceID": "s05"
+          },
+          {
+            "quote": "The hinge uses the latch's alloy and test rig, but its drawings and acceptance are for a separate product commission, not the folding-ladder redesign.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Send the approval drawing to Cedar Forge.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Source s02 links a toolbox hinge to a separate product commission, while s05 references a bench revision unrelated to the latch or hinge orders.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-070"
+  }
+}

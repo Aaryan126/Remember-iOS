@@ -1,0 +1,679 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Kiln K2 controller maintenance starts after intermittent relay chatter during an empty warmup. Record service observations against the controller serial label. The next glaze firing may provide a witness run, but glaze recipes are outside this maintenance notebook."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "pdf",
+        "text": "Ash glaze tile catalog will photograph and label the studio's twelve test tiles. We need repeatable firing records before assigning color descriptions. The K2 maintenance crew may use the same firing to check its controller, without taking ownership of our glaze comparisons."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d781c768267eef010d10f02271d1ba1636d6e5ccab20d41a5610bd09ce9444da"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "Kiln K2 controller maintenance, first fault ticket: relay R2 clicked six times during the empty warmup. A pencil sketch shows the lower terminal position. This ticket records the initial symptom only; it contains no diagnosis or authorization to replace a component."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d781c768267eef010d10f02271d1ba1636d6e5ccab20d41a5610bd09ce9444da"
+        }
+      },
+      "id": "e04",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d781c768267eef010d10f02271d1ba1636d6e5ccab20d41a5610bd09ce9444da"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "235e76a0793e094436ba3b14c5d8b089fa686d3e7454ee59d613dca00cbda554"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "note",
+        "text": "Kiln K2 controller maintenance and the ash glaze tile catalog will share witness firing W. Place a numbered witness cone beside the tile rack and log its bend before unloading. The maintenance result and glaze appearance must still be recorded as separate outcomes."
+      }
+    },
+    {
+      "assignments": [
+        "t:c05"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d781c768267eef010d10f02271d1ba1636d6e5ccab20d41a5610bd09ce9444da"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "235e76a0793e094436ba3b14c5d8b089fa686d3e7454ee59d613dca00cbda554"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "6adf9ec9ddea9cf1254a485ab16f4cc0e2336cb7d48e9a61533e88bb3a867420"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "voice",
+        "text": "Audio from the bench: 'The lower one did it again, just after the red light.' A fan obscures the remaining words. There is no kiln number, firing identifier or speaker introduction, so the clip cannot yet be attached to a particular job."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d781c768267eef010d10f02271d1ba1636d6e5ccab20d41a5610bd09ce9444da"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "235e76a0793e094436ba3b14c5d8b089fa686d3e7454ee59d613dca00cbda554"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "6adf9ec9ddea9cf1254a485ab16f4cc0e2336cb7d48e9a61533e88bb3a867420"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6cf6c7818250631c4829f031c214b759d91c42a11a52ab2ed0cac76b11fe2f32"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "image",
+        "text": "Ash glaze tile catalog entry for tile A7: the upper face is olive with a narrow amber rim. This is a visual description, not a firing-temperature reading. The reverse carries the same stamped tile identifier as the catalog photograph."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d781c768267eef010d10f02271d1ba1636d6e5ccab20d41a5610bd09ce9444da"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "235e76a0793e094436ba3b14c5d8b089fa686d3e7454ee59d613dca00cbda554"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "6adf9ec9ddea9cf1254a485ab16f4cc0e2336cb7d48e9a61533e88bb3a867420"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6cf6c7818250631c4829f031c214b759d91c42a11a52ab2ed0cac76b11fe2f32"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "75c2ba5ab492b07005bab959faa00539097ee2a48e03eed9372748ed00acc5f1"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "note",
+        "text": "Kiln K2 controller maintenance update: the replacement terminal clamp is fitted; the next check is a cold continuity measurement. Do not confuse that pending check with a completed firing test. The spare relay remains boxed on the labeled shelf."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d781c768267eef010d10f02271d1ba1636d6e5ccab20d41a5610bd09ce9444da"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "235e76a0793e094436ba3b14c5d8b089fa686d3e7454ee59d613dca00cbda554"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6adf9ec9ddea9cf1254a485ab16f4cc0e2336cb7d48e9a61533e88bb3a867420"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6cf6c7818250631c4829f031c214b759d91c42a11a52ab2ed0cac76b11fe2f32"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "75c2ba5ab492b07005bab959faa00539097ee2a48e03eed9372748ed00acc5f1"
+        }
+      },
+      "id": "e09",
+      "kind": "correct",
+      "target": "localc05"
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d781c768267eef010d10f02271d1ba1636d6e5ccab20d41a5610bd09ce9444da"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "235e76a0793e094436ba3b14c5d8b089fa686d3e7454ee59d613dca00cbda554"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6adf9ec9ddea9cf1254a485ab16f4cc0e2336cb7d48e9a61533e88bb3a867420"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6cf6c7818250631c4829f031c214b759d91c42a11a52ab2ed0cac76b11fe2f32"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "75c2ba5ab492b07005bab959faa00539097ee2a48e03eed9372748ed00acc5f1"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "ad66b8f2aaf6a6f2d9dbafeef4bfb378c7d351d908e805aec9368a0a4098d4ba"
+        }
+      },
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "link",
+        "text": "Relay service handbook excerpt saved as background for kiln K2 controller maintenance. A loose terminal can imitate a relay failure. The handbook's example is a classroom training circuit; it does not diagnose the relay in our studio kiln."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d781c768267eef010d10f02271d1ba1636d6e5ccab20d41a5610bd09ce9444da"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "235e76a0793e094436ba3b14c5d8b089fa686d3e7454ee59d613dca00cbda554"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6adf9ec9ddea9cf1254a485ab16f4cc0e2336cb7d48e9a61533e88bb3a867420"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6cf6c7818250631c4829f031c214b759d91c42a11a52ab2ed0cac76b11fe2f32"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "75c2ba5ab492b07005bab959faa00539097ee2a48e03eed9372748ed00acc5f1"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "ad66b8f2aaf6a6f2d9dbafeef4bfb378c7d351d908e805aec9368a0a4098d4ba"
+        }
+      },
+      "id": "e11",
+      "kind": "restore",
+      "target": "localc03"
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d781c768267eef010d10f02271d1ba1636d6e5ccab20d41a5610bd09ce9444da"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "235e76a0793e094436ba3b14c5d8b089fa686d3e7454ee59d613dca00cbda554"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6adf9ec9ddea9cf1254a485ab16f4cc0e2336cb7d48e9a61533e88bb3a867420"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6cf6c7818250631c4829f031c214b759d91c42a11a52ab2ed0cac76b11fe2f32"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "75c2ba5ab492b07005bab959faa00539097ee2a48e03eed9372748ed00acc5f1"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "ad66b8f2aaf6a6f2d9dbafeef4bfb378c7d351d908e805aec9368a0a4098d4ba"
+        }
+      },
+      "id": "e12",
+      "kind": "archive",
+      "target": "localc03"
+    }
+  ],
+  "id": "history-dev04-chronological",
+  "queries": [
+    {
+      "afterEvent": "e08",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e08",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-071/raw.json",
+  "rawSHA256": "3d4985e677fb1bb0766d3d4222ccb77d8f541f7c1efc36818e46695fbb758444",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.693724083328561,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.5833290894515812e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22031883332965663,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2651370416642749,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2662517499993555,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.692168708330428,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "b1a674de41ade9792e96913b723235a0b5b4e9ca369cc042d32bff951020ac0f",
+      "contextSize": 4096,
+      "generationSeconds": 4.425258750001376,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Birchbank Trust funded the Elm Reach otter census. Camera placement, volunteer counts and the final population report are deliverables of grant OT-42.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Volunteer rota serves two Elm Reach grants: camera checks for the otter census on Tuesday, reed measurements for the reedbed survey on Thursday. Charge each session to its own grant.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention the Elm Reach otter census and link camera checks to grant OT-42, establishing a shared continuing undertaking.",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-071"
+  }
+}

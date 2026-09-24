@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-022/raw.json",
+  "rawSHA256": "b59574af25d26e1a844846819bc5735478a03449bb2f1bf504ec80153c4a111d",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.0820144999961485,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.124995707068592e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22082937500090338,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2656395000012708,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.26667766666651005,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.080962583328073,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "3e8551a1126acd5ceca2e500e42f6601b36e15b7bba6653cae97d1f31f3f017c",
+      "contextSize": 4096,
+      "generationSeconds": 3.813436249998631,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Birchbank Trust funded the Elm Reach otter census. Camera placement, volunteer counts and the final population report are deliverables of grant OT-42.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Field recording: We finished the measurements at Elm Reach. The report can go in now.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Source s01 links otter census deliverables to grant OT-42, while s05 describes field recording at Elm Reach without mentioning otter census or OT-42.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-022"
+  }
+}

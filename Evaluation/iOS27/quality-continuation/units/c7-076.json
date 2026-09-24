@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-076/raw.json",
+  "rawSHA256": "9ba4db0e51af4f441ca74960a39fb05ad04acf3a65aa6f8c03c4ec5c77c7d48b",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.576453041663626,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.541667294688523e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3228695833313395,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.37496275000012247,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37596312499954365,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.574958999997762,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "bab7ba5ec563ef9e834ff06b8c1045717d8a1c905b1b70990b51527c9fed17e1",
+      "contextSize": 4096,
+      "generationSeconds": 4.198315166664543,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Cobalt Press commissioned a Portuguese translation of 'River Roads' under a separate publication contract. It shares the source manuscript, but has its own translator, proofs and approval, outside the Spanish contract.",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources mention separate publication contracts for 'River Roads' translations, indicating distinct undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-076"
+  }
+}

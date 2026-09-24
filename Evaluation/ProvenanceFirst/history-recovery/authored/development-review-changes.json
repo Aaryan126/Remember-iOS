@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "split": "development",
+  "author": "/root/history_author_dev",
+  "reviewer": "/root/history_author_eval",
+  "previousSHA256": "4137507aad02204aebbe2a71328a02d67568fba07b490f9bc1be2322b27168f6",
+  "correctedSHA256": "a74baacf34b6cbe489a9720f1ad955449093f99c82b418ee4222ed5f253215ee",
+  "changes": [
+    {
+      "library": "dev01",
+      "location": "events/e10/dependsOn",
+      "before": [
+        "e01"
+      ],
+      "after": [
+        "e01",
+        "e03"
+      ],
+      "reason": "Preserve the first inspection card antecedent."
+    },
+    {
+      "library": "dev01",
+      "location": "events/e11/dependsOn",
+      "before": [
+        "e02"
+      ],
+      "after": [
+        "e02",
+        "e04"
+      ],
+      "reason": "Preserve the shared bench allocation antecedent."
+    },
+    {
+      "library": "dev07",
+      "location": "events/e05/dependsOn",
+      "before": [
+        "e02"
+      ],
+      "after": [
+        "e02",
+        "e03"
+      ],
+      "reason": "Preserve the shared sled allocation antecedent."
+    },
+    {
+      "library": "dev08",
+      "location": "events/e09/dependsOn",
+      "before": [
+        "e02"
+      ],
+      "after": [
+        "e02",
+        "e06"
+      ],
+      "reason": "Preserve the D2 inspection record antecedent."
+    },
+    {
+      "library": "dev10",
+      "location": "events/e11/dependsOn",
+      "before": [
+        "e02"
+      ],
+      "after": [
+        "e02",
+        "e04"
+      ],
+      "reason": "Preserve the captured S4 frame antecedent."
+    },
+    {
+      "library": "dev12",
+      "location": "tasks/q4/rationale",
+      "before": "Only the shared plan specifies the support face; the shared hardware label is not equally informative.",
+      "after": "The question specifically requests the shared support plan, so the layout note's later repetition of the support face is not the requested document. The hardware label does not specify the face.",
+      "reason": "Document identity, rather than exclusive factual coverage, explains the expected source."
+    }
+  ],
+  "validation": [
+    "validate_split passed",
+    "explicit scope and archived/superseded prefix assertions passed",
+    "five alternate-schedule predecessor assertions passed"
+  ],
+  "independentRereview": "pending"
+}

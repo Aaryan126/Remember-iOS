@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev05-q1",
+    "inputSHA256": "2d6061ab2d071543d660c277485623b8eaad27341f52052bec7b56d2a097166d",
+    "rawSHA256": "99aa8b3de4f30927cc91d82e78d219c498d38ffc6588721550bd87a0ce652951",
+    "requestCount": 1,
+    "reservationSHA256": "33e875722e64c27edea2ca78fa6e87c250e26383f082bff222e2b442ab975ec3",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 5.666518250000081,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "heading 'Garden circuit'.",
+        "evidence": [
+          {
+            "candidateID": "54db3378d032ee7280bc0ea32e4801bf940a71e9938d9244f36b403f96a74956",
+            "quote": "Alder loop entrance sign, approved lettering proof: heading 'Garden circuit'. This replaces the first heading; it does not change the path."
+          },
+          {
+            "candidateID": "801e771878693045516fed02dbcb154a0589f7d5cfc289cb729553be2a1ccfe8",
+            "quote": "Alder loop sign-copy approval: use the heading 'Garden circuit'. Approval concerns wording only, not the pole or installation date."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21741568,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev05-q1"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "621f1b6a8b46bdd16bd1fc7f6733ef126e40cc65c56ca8bbb596057ecbe92665"
+}

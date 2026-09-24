@@ -1,0 +1,57 @@
+{
+  "rawPath": "Evaluation/iOS27/sentence-context/attempts/phone/main-first/raw.json",
+  "rawSHA256": "d5e402fd7509dcb1e9e43582064f4b5b6448b08b6b8dd438c183dc8afbcb1cdf",
+  "result": {
+    "result": [
+      {
+        "available": false,
+        "mainThread": true,
+        "name": "main-first"
+      },
+      {
+        "available": false,
+        "mainThread": true,
+        "name": "main-second"
+      },
+      {
+        "available": true,
+        "dimension": 512,
+        "mainThread": false,
+        "name": "actor-first",
+        "revision": 1
+      },
+      {
+        "available": true,
+        "dimension": 512,
+        "mainThread": false,
+        "name": "actor-second",
+        "revision": 1
+      },
+      {
+        "available": true,
+        "dimension": 512,
+        "mainThread": false,
+        "name": "actor-after200ms",
+        "revision": 1
+      },
+      {
+        "available": true,
+        "dimension": 512,
+        "mainThread": false,
+        "name": "actor-explicit",
+        "revision": 1
+      },
+      {
+        "available": true,
+        "dimension": 512,
+        "mainThread": true,
+        "name": "main-explicit",
+        "revision": 1
+      }
+    ],
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "main-first"
+  }
+}

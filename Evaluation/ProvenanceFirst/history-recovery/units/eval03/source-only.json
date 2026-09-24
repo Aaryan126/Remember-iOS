@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Shutter service docket, page 1",
+      "modality": "pdf",
+      "sourceId": "s01",
+      "text": "North dome shutter service will free the sticking lower shutter without altering the telescope mount. The job begins with a visual check of the latch and rail. A separate optical alignment crew is using the annex tonight."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Alignment workpad, opening entry",
+      "modality": "note",
+      "sourceId": "s02",
+      "text": "Guide-camera bracket realignment concerns the small camera under the north telescope saddle. The work stops at the bracket interface and excludes shutter repair. Record the mounting washers in order before undoing the retaining nut."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Extracted intake image annotation, lower-left label",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "The North dome shutter service intake photograph shows a violet chalk cross beside the old lower latch. The time stamp is partly cropped, but the chalk mark is clear. This image predates cleaning and is retained only as intake evidence."
+    },
+    {
+      "id": "e04",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Isolation permit D17, work list",
+      "modality": "pdf",
+      "sourceId": "s04",
+      "text": "North dome shutter service and Guide-camera bracket realignment use isolation permit D17 for the shared dome power cutoff. Each crew must sign its own completion box before power returns. The permit does not combine the repair and alignment records."
+    },
+    {
+      "id": "e06",
+      "kind": "archive",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Extracted packet envelope, readable face",
+      "modality": "photo",
+      "sourceId": "s05",
+      "text": "The small fastener packet belongs on the upper shelf, away from loose washers. No equipment name appears on the envelope. Its pencilled initials are smeared, and the photograph does not show the surrounding bench or any docket number."
+    },
+    {
+      "assignedProjectRoots": [
+        "s02"
+      ],
+      "id": "e08",
+      "kind": "correct",
+      "reason": "Assign the upper-shelf fastener packet photo to Guide-camera bracket realignment; that packet holds its bracket screws.",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e09",
+      "kind": "restore",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e10",
+      "kind": "capture",
+      "locator": "Extracted dry-check memo, 00:08–00:29",
+      "modality": "voice",
+      "sourceId": "s06",
+      "text": "North dome shutter service completed its dry travel check with the shutter stopped at the yellow rail tab. The technician heard no scrape at that position. This note reports the stop cue only; it gives neither motor current nor rail clearance."
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Fictional maintenance primer, cloth caution",
+      "modality": "link",
+      "sourceId": "s07",
+      "text": "An observatory maintenance primer is background reading for North dome shutter service. The example shutter uses a different drive and latch, so its dimensions cannot be transferred to ours. The relevant paragraph describes keeping loose cloth away from rails."
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Extracted annex noticeboard, poster text",
+      "modality": "photo",
+      "sourceId": "s08",
+      "text": "The annex notice lists a public stargazing talk and asks visitors to use the side stairs. Its little moon diagram is a decoration. There are no service dockets, camera bracket details, or crew assignments in the notice."
+    }
+  ],
+  "id": "eval03",
+  "queries": [
+    {
+      "atEvent": "e12",
+      "id": "q1",
+      "question": "In the current North dome shutter dry-check memo, what marked the stopping position?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e05",
+      "id": "q2",
+      "question": "Search archived history: what chalk mark was visible beside the old lower latch in the North dome intake photograph?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e09",
+      "id": "q3",
+      "question": "Which currently available permit covers the power cutoff for both the shutter service and camera bracket work?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e10",
+      "id": "q4",
+      "question": "What motor-current value was measured during the North dome shutter dry travel check?",
+      "scope": "current"
+    }
+  ]
+}

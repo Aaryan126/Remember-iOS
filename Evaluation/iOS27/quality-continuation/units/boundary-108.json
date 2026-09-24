@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-108/raw.json",
+  "rawSHA256": "d75f2392056c621e4047793a9f7754eacdcce5dc26b62375d7c819462e55f88b",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.570049541667686,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.124995707068592e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22839999999996508,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.28064099999755854,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.28152350000164006,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.567888249999669,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "f8d2e9061e5b9efdb61e688141475e0ca5ef45fea0038169c926c09226687fff",
+      "contextSize": 4096,
+      "generationSeconds": 4.285765874999925,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Fernbridge runs an independent basil irrigation trial.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Lab note: The second set has larger leaves. Include this in the basil result.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources mention basil but describe distinct activities\u2014irrigation testing versus leaf measurement\u2014without shared continuity or renaming.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-108"
+  }
+}

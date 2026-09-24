@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-033/raw.json",
+  "rawSHA256": "83748ebaff9ce93ab60cfe3089e73c84ba32ef65915f539442c1ea70e6cb0933",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.6908159166632686,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.374996595084667e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.31940858333109645,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3751577916700626,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37614520833449205,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.689767791664053,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "5ce93dad6bfb6740af9a9a979cd987e687586cac89b4bf1c15d28b73f7571f62",
+      "contextSize": 4096,
+      "generationSeconds": 3.312939583331172,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Cobalt Press's warehouse fire-door replacement uses order RR-3, which also appears in the Spanish translation notes.",
+            "sourceID": "s07"
+          }
+        ],
+        "rationale": "Different projects are referenced: a Spanish translation contract and a warehouse fire-door replacement.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-033"
+  }
+}

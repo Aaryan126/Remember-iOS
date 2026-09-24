@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-102/raw.json",
+  "rawSHA256": "67d3dee3920057ce8fa59b5b3db4892b5fa5410b048e565391627e1b4a30ef2c",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.35372029167047,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.750000127591193e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21606404166959692,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26694750000024214,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2678873333352385,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.352248833340127,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "f29740fc7d55eb5bf9156e9453a32628c3f7de22e669303d3854dae855ceef7e",
+      "contextSize": 4096,
+      "generationSeconds": 4.083810583331797,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Birchbank's Elm Reach reedbed survey is funded under another grant with its own habitat report. It is not part of the otter census, although volunteers use the same river transects.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Field recording: We finished the measurements at Elm Reach. The report can go in now.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference Elm Reach but mention distinct surveys and unrelated reporting tasks, indicating different undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-102"
+  }
+}

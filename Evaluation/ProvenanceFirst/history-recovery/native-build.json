@@ -1,0 +1,23 @@
+{
+  "bindingsSHA256": "b3fecaf5a6829f53ac1493cd81231fde9353ea3a8cff6684944772ced6e6b329",
+  "command": [
+    "xcodebuild",
+    "-project",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/history-recovery/project/HistoryRecoveryProbe.xcodeproj",
+    "-scheme",
+    "HistoryRecoveryProbe",
+    "-configuration",
+    "Debug",
+    "-sdk",
+    "iphonesimulator",
+    "-destination",
+    "id=C530FCC2-DD67-4115-97D9-C4E34807EC57",
+    "-derivedDataPath",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/runs/history-recovery/build",
+    "-disableAutomaticPackageResolution",
+    "-skipPackageUpdates",
+    "CODE_SIGNING_ALLOWED=NO",
+    "build"
+  ],
+  "executableSHA256": "0274e68436164333fcc6c5f4dc9db34219dcc24954d07a44fb0deb2507035394"
+}

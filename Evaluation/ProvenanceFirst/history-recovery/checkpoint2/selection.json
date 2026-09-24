@@ -1,0 +1,1916 @@
+{
+  "baseline": {
+    "answerable": 36,
+    "correct": 23,
+    "correctHits": 23,
+    "expected": 36,
+    "falseReturnRate": 1.0,
+    "falseReturns": 12,
+    "hitCoverage": 0.6388888888888888,
+    "libraries": [
+      {
+        "id": "dev01",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev02",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev03",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev04",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev05",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev06",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev07",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev08",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev09",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q3",
+            "mode": "current",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev10",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev11",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev12",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      }
+    ],
+    "librariesWithReturns": 12,
+    "macroRecall": 0.6388888888888888,
+    "modeRecall": {
+      "current": 0.9166666666666666,
+      "historical": 0.0,
+      "overlap": 1.0
+    },
+    "precision": 0.1597222222222222,
+    "returned": 144,
+    "returnedDistribution": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 48
+    },
+    "unanswerable": 12
+  },
+  "bindingSHA256": "dfda382d4b312e899a891c1aeda99d189f6ef88c87df89873fe13035989fabcf",
+  "compatibilitySHA256": "7044bb3f8ebb00bec15369f3c63f66f71a6192b8264e203b32b10f064192e19b",
+  "developmentFiles": {
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/catalogue.json": "678b698df9c8501e18d292525581764cf3b913027c361fd052a127bbf6b592c7",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/0123f2ee27e24aeecba46dc9f5dd327a3fb1d0e40d0d2584685775c24178ecf5.json": "858b92366ce42a3d7780b182ece06393884d2e40139bc27cc0dcd6d08169c9fb",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/034ddfd3eb929bbf8c7bed58085d718ff4a97acc61787c2f8b914f5cedaec0b5.json": "6c6b3ef0b2b69fa4190c1b96a94cbfe064924c57b28a8faa8afd41d556481eb5",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/0498aa135cceaf6354d750268b97d0174e528f0fa6b94f7761f439b3f984adef.json": "35928e7cf5b53bd2a1eedb8b5ed696c9cb265b8be71c3fb04ede99cc398e0e8a",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/04f1bd4b9f03070f11c817c535449f06f20d68643e049dfdf4c72bff3e3f428f.json": "60e28b3f8edb496eecf32769a4962ad0f726253feb78153d2903607cc580b8d6",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/073cae16fbf285c87cd5e3224428efad911347c08242fc3410b878b215ba0b78.json": "7894cd177cfb9f1691cd62132d630eeb4effa34f94feff303e693c169b7b923a",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/07aaaebd03979b86992d6195d826ef8593d135436599669f6ea8355697b2f97d.json": "fabeb4c65791730776db8c8142065f8b8a99a44a52a0251549c63c512fc9bf18",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb.json": "3f02f5162078903359dd04959b2b18d3ad2b8e29a02fe40261aa3e48559f2d0a",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/0a9689677d71737c93817b2cbf2a34a46391df214d037849042bbc3c7f2c4dfa.json": "5c431768d9fe99955c46522aa2ed8a60c4647eee3f87f82e273dbec27f0005c0",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/0b7136d6890cbe01ecfc74c049ccdb27b422cea6816d53f81883bd2db72bc241.json": "f7f8dc828eb8bdfb3d25631444e5615e499aca4c096ff2b150c0f06023fa4d41",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/0d002ab47e3c56b46706f8ad0199d33909dd2b35798d6da5ed276fa3862b26d0.json": "e6b7de6ff26774075adbbd3902d6b9b1fd094561bfefc3a10786127b15a5d54b",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/0f121303cd10a5750b53939da847aac4e8eccf6f44c9ba8d5a90f2544c284b10.json": "3d6f81d73747a8972780ff19e89dd354f4488116a6dfb0bc88450686b96d7f10",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/10b30366591def2b1b5ffdd72e2d18a9ecfaad177c20ea1ab337e20b3b909243.json": "901d519db59e393e601407186d6959c1696ebee869fa86482bd78da9d5913ccb",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/124f079105ffad224d3b0b5f149f98a1d3da350e76dddf70dc18eda57d18d6e4.json": "eef26a6a7093e59220de96d0814c0d1d6211414f3c04d9c641829407c756e836",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/126f9ac4c994b37f5fd73db6aac5ff7a3665344bd2e8acbcbe6b90bc0a0f7b45.json": "a236628c333f23fd320d607e5248ad283599a177522e9ed7959a0b57d08113c4",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/129b7c173b9fd51fff808f9ef172ec2f4dba74bd014387edb5da17c4566d2380.json": "1dec75d44d55fc37f86cfd5c8d30f6eafa82348e8cb58d66e78bbfd879499027",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/134e67ab8d3c6455e86b9071f4b41456ccb9b8dd5b8563fe74d9228115ca1777.json": "36b9528f20c9371f1551d000f1826d0a937b859107349334ceedd6d42ba8d0f3",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6.json": "2371bf66f661fbc070563fd1031ee8dd89ed86573717faaae299cfc3e8f5b5e9",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/1526b47e63839285207e7d4d507ca468d7b4be57a24808e863b2ab072caa51df.json": "dbbbac057ed7bccf210debf9fdedd79436af9728f6027218e58d11c8e28e5a10",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/153ffed6ef2cf2f60ca856d258cc67342038472c0e608944ea0a7d9906ab6278.json": "79778521b0d48387eb06708e0ff5adcf6e93def1857d84d53a36bd924708b1ef",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/15b4ccad1c3fc4e09de8c35f08caf463d2cb25ce1032213cdbc26d6f5dfc22cf.json": "0742b5f06b191c4e81304f81fbd4623e0e1ca5624882c84d0cc1e264caed654a",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/172efc1633d35aa105f36415c885c2be208fe0ee2732b866f54f82e61ab90466.json": "970b9d10867cc89c76a5fb1d616e6d95b54f7f8a5a3d31bd0e3cb15bb2f3f6c3",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/198fae4d09a01e92d6cccc69be4d1b9443c0e25be23a515754b1b22eb684823d.json": "dc19a2233abbc2e9d23440b1de192d6e72d8c1173eae95c7c29130eb9e6ea7f3",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/1a543148672ada37963f9d1abe7fdd243b4e847c2605f57f2bdc31ef628209f0.json": "8fde84a2cb82d1fe29a6339cf85e1571a5dac5422dd32d163145a9b03dbe5001",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/1bb96cefd7d7bea69bc337e930e046a745e793d6f6643a943e36ea0704dc04c4.json": "c9f406c8ffdc79be4dd6f227653fa8aafcf8e6ffdf7d2a53043dfd5b08a994ef",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/1c125d8d2c1ce5c267282b7800e60c2393377ec209dd9ad40d8d77e7937cab4d.json": "7a9794a3beadc13a2e041e94eec5262a593a0e7b96d07d7a1af0c5524e6d7f53",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/1d7700262e16bc7aefab7d7a243905e15e2f8a13d17e92588808f39d675a7b2f.json": "0fd4b899482ee092b7e6200841cc515b7e77cd1e4c1ea0ce587cee602800a9a7",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/1e10a5d9e0256a289fda9d71c6141b0fcd3c1bccb597174d3c5c81608838663b.json": "840c99bee51619953a991842c8acb84648fdc9d7a0e3dfce5cb6dabdc687aaeb",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/206558eae2d5807a8c9f0aad3b8f98ce45cb2de933e7ea5ed908b1788fe7fad5.json": "1cbc9ec713c8cf6053f7ced798198bcadf406bd18ed1eca94a32ded295e46120",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/20bcd710949374a458c3aaf27c9e3dec03388a38c4136e9924e5a3b9e8ce76e6.json": "4bd294ccad262b2daf321c805694182cf845bbe7c55726efb7f9ffd40ba05778",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/235e76a0793e094436ba3b14c5d8b089fa686d3e7454ee59d613dca00cbda554.json": "70b641ba9739e7b3309fd938f05e7634d92c1b56baa2bdddd8c394964cbc67a7",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/24447462f07dc8b4d9ae2a7f57c0dd5d3985d90ea1d5697deab4d278d7fdb993.json": "d8b620514f3cb2b44784859514ada7b14f23db8fa22fad4b3b6fe559b2c44dca",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/24a2db89a0aa6dfa6623ad4f44407f14a07e84ff79c26fe076d48b94fdcd4797.json": "91d4fa0a3ef8154931ac41c107ad3c914e89f84c2245499f9a80f1482bc329f8",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/25748c00b133a3a372987715abb2be9ef5af670b21dfe3296dcff4dd94cb6903.json": "fe81c7f3569ee6fb02416cd41f565eca5141a37f9a19aa455c5f50ea09091646",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3.json": "d5ed06a494b99efd34f6bd2848711bc1c660050c78279b28cd3c471ac2eeca20",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/28f10d39bd051884234bb5534d9465cb010deddea69f48a41564c56b5a1dd107.json": "b9647dc9f4bf486b08b2feff9822c9083f4458196524eb201e24507aa88bfe0c",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138.json": "582af917d31687442e86f99aac89cd287d0624e70e5b7d994287499ef5a303b4",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/2efe93ecfe301af073886366554e4cedad3557f8dc691bbcd02e87dac7ac7185.json": "0dad15df442a9d7a614d552a53ff77e9d4d18fdcf658c84f0e04ceca955dd665",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/3012a804e83f8a5bfe5463e4356a167964e5986378432fb2b2dd5522087d8b09.json": "11910631c91fb843c33141ffb86dd01e13da19606a1f9314a2d1a327ff87897e",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/307d46f777efdfa5a84cb912e969a6d02b2f483e8c95c21d43f6846260e5ed9e.json": "2db6590a8d03a69d2ec1d31364458d60a262adbdaf2458f0fb5fcc44c4f760ac",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/30b0c6732305135c2118bf6f44293ff7fc049f5c8992b9378a0bdab94cd4e98b.json": "f21480554e1179905b64349b28ae2218d9fa33fbb2352b241a8fd8d959025cba",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/31d2cadf1e319846e108eae64d08218a5356c32ee065a4ebec063eb08c323bf1.json": "3a51ce8ee8f0de510b1bee879b59145c5dbf67458b3877dee97f089511a84fd7",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5.json": "68f8a3505d51cfecdc4784efb9c87904530a802cc674a91633ae0d6abb2ff8d7",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51.json": "895a9fb2fd33ca7f5e1512eaa0bfd13bd7b850b2186dd6e626c51cfef3b4ea87",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/3a9be966e7b7c97ebbae4912e6aa9112dbaaee3070625f9e6a59295517350279.json": "81469a99efacb1d0c4c78a339f779ca35124b9204fe001e6352fc78b792c657d",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/432d193c3226c3ff151fe8cc3daa5dfa05a9465b9c4047126330d935643541b3.json": "dfab4d83e3baeb8cc6da1f7519692142a09b7a5d64190387daa7ccd1ba99ee53",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/456ad02097f27bbf64de838149776e12ec264a93b17ee2f1a6904aa8177a7458.json": "958505b03a47c374beb14ace0c1609628129505c2838cbb3c74aab3f93a94bab",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/475ca12b70039bca64be5f4ef0149adda7bad4338e8512dda4ead5dbb0d88be9.json": "164ad859862a6a52898700802d6303ff7cce5e8c3df591d52b05d85665238145",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/47f447bfba8a9ffc9cfedca1f99fd176faa9f6cb858ffdebd8536081785e6a11.json": "daa48b26b2a6b3701e70e197077c6fdc14c3ccd76f71411b08f88004931800ac",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/489c4f63a2d38c1632c1b9f834544b82c7cda938d90834791c3d831e14b94f03.json": "ee698ae05a4c2cd6e8594cf7688d9316a81ef423f51112597a814e75212b751d",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/4bc9190dc968204029838ab16fd2a5e4e872ff242389fad26b8b575b1b83b17b.json": "d3ea549035f8a6ad8ba8b57fd0bc81d76606780da96d85cbdd0d3d26e8f77f08",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/4e300b052e603dc319ea4cee082c1492c54b5aeee5015e0221e4ac30f394f520.json": "ca2541dd3adb7ab3c5af4c6699b82fd8fcae8cf2776940098b825abc282c1619",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/4ec484b4c0137ddd6beb574a659019654706d478524da77f4d36a5fbdc7b24fb.json": "b7f706f9870e0c0e958e806724a7a905f01a5a4ab43d76f4d66965181d61245a",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/4f339a84e084a2ec8bf48c9c604a3c6f079a4848571a3c688d992484684b0763.json": "d3dae966e33bc2204f4013fa742bca61181ef32d5f276a77dd31d2a85c665a70",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/522ab7d7b2ba40259cced8bcf58da6c1ba190bf90e319e86b30a9681501467ae.json": "1f8c4de98e1b9abf620a1e5da82fb38af193642a1e7560b0668528ac58f1696b",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/54857ddc9b6bc677d9fb670440bd85c1747ef9b5a8c7f5c05fd1073fdbf8ea23.json": "aaed457ab0c2e79c580889ea711d07eb1b0be0919e559b3ae789ec42c77d9fbc",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/55c9b62d30a42e4624dd3d42c97c8e9ae8986a52aa3e30d19b6f51dc722d4884.json": "5738c65883b9b77d89a4509d3d04635b2bf41d34d610d637441eaff435c53f79",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/56708539baa1d49e814870a04d1b4cfa0ea1beacb9393f6ab480e7dc19c3e1f3.json": "82b9768e5d87ad5e76f5153b984cfd7514d9af386449c33d898578ad52127a1a",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/56af920c1eaa862927400e6eed800112e99cac0757f92a0938a495cf730326c2.json": "c34f50f27da70be3d7b72df3b6e71142cabc05201d2c63ba027baa36b84b88c2",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/58c62feda69e2078af0b2f0be49728c38134774c0b29306127781a2c49c45e10.json": "8e86b5b2ae9b6b7783367f12603f6491318d6301738c7a761ffc9e34ca513290",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/5b8bde378e8809616b5b7606c9df7167eb733222e02a6998dc0aa4b1adb942f6.json": "954242a6980c0635868d706ba669879cb78ace34599ab79e11f33a5a7fe7b138",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de.json": "7b1449c665a3abf44d232c70dade8b0f1421a4f8b1ec8775b8d72d91454cb23b",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/5c771a3630ea7bbf93c93c66563f013b04334f65fb839b6b86fc5045990af389.json": "16f80538983f8339f0af1e69540c8c3388034cbf3ff76a14cebf4e63beb97501",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/5e21a86ea51df203f9ea5c33a21a40e1886df7ed4140890cb090072edd5f0466.json": "48b514d9999a716d9e10deeb84e33b60c25559af2d8cc6e19f44480ee50c0c99",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/6038d91754ce93136b7b19d4b0e892eb1c44a433a8767051ca92b054963d36ae.json": "1d867d13325722c134fcc5f8d66119999a18feea2a68077d5556da2737ba4bdc",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/617d08b81a37d10440f4e0f31a482f84b1cb2e4524f4a6b0f7ea0e6f078fdf55.json": "158f39e8ebbed4529da1519063ee5ec266d01c26e54e8c3784e8969b53c205fb",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/6304d442893e63d33a5cecd0b27a21a41e212b9d3046a89065635441438e59c6.json": "fc25ebaa210aeba8fc9d3512c8e21655fe3849d569fb62c2a6ea63c442900705",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/654ff44f88e7006eb6f831eac9b20a09e2321d3b4e017b54584564f42aa3442d.json": "860a3cf2286da6b758717261b110a1e1b5dcc2ae6c36fb2427e3baa951fe82d2",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/668d4e75f0ad120d1e5748251db1b93be4e1ec651550275ee5646ba63c108742.json": "1c2a55f61ded9642fa3a7d9d7aa11323bc4e52ac97b637be0314e406fcac3a74",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/68e5030ecfb37ffb81823775ada258cfdd83b6a74e1581f9017587f3cfdf249c.json": "face37afa16d870b213bd10019da089d43a3a26c71b84cb3c427fcc1b45021bd",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/6aa8770a66ef15859930c7fa43766f675e88a76edd9e81c28fb09b4eff347398.json": "081587213ed11288c037aa0a9164f28587f07b7f8c4c8e7928b699a44a0c5c20",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/6adf9ec9ddea9cf1254a485ab16f4cc0e2336cb7d48e9a61533e88bb3a867420.json": "17eb8b418bba602075ba606dafb0a7ff31a87ec888cac4fe5925353938833f78",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/6c55a71856c80b3ed3b9595091ce9154b745ba5206e871d96e3cd18b0c6e8ad4.json": "858c60b4a4045befa76908afe98759e946df26086f8cefcb824ca4ad13c5f0ec",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/6cd50f4cfb420945a06cc249c5161cda5346f158a0615c07b7ef967e03ca84e1.json": "6c5a6853890b417a54d75a0f76edcca112e24422af211435a5d8e51ccd0d1972",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/6cf6c7818250631c4829f031c214b759d91c42a11a52ab2ed0cac76b11fe2f32.json": "66b2a4ef24f0848c1af82981b16506dd0ef53fafff76ec89f37a8f18fd35913f",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/6d825d614b8764903fb3766595257c7a7a6b164de06cb67ff6cbc02cfe286278.json": "e26463cb87d4d99d92886f0bb9675ad722ecb4d7a806ac4bbf49ef60f9e970a7",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/726e502b2ff491f73b0ae440881347f75131ed7bd3b3b60f459808b296162f62.json": "97353b427ccc20d05461ef49b49ccfa43646975995c58b37257466e90c4f3bea",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/7416ec3b3e14bd523dd103859f94909e715b9b7227420fafe0d5af53ed7c10a6.json": "66e83644cf26c4dac3d00bb023809cb9a58598a1f0609d295ab0e1708649b714",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/750a3ae92bb470c3b11d1aa6dde7df7e79d801d1896f72dff7e4f75059941d61.json": "c6ff5552dbca7fed1c3a8054f920788291076571b6f492e22bbb00db1596cf8f",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/75c2ba5ab492b07005bab959faa00539097ee2a48e03eed9372748ed00acc5f1.json": "0031a146ad1eb0e1776bcf1aeabefd9d1b1915ac856e012b30c83fd542bd2da4",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/7b1e6e59c2cf6970e2595ee171d6b4e46720c946177153b0353afd450d6bb81e.json": "15db5801bf2192735325a0fbc384a6073568f0e73f26bce02b43ebed53d73b68",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/7d603b9ede5cd8c9461a0ee9b87b8ad3bd5eff459f9434049eb545133a10c4a6.json": "44a8f4b6a580480b7a88550b31e58c479d3140bb8412240b67de385fe228c4ba",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/7ebeca1bfb4aff6ec64f820682f4866c3959aef2487aff0a6c3f721f84f91123.json": "3cc4e166e9dd859cef395acdff1825548554b5d3f63653f9e68b4379fc20dea5",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/80ffc02541c3b10e1577138c0dab266d48a3f2c9ff39624e01f65cf8362e141d.json": "f3e537ca00fcaa54cb02e9ace34049078bebbb8ff4142b20c079f0ae7be12732",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/839d946b0e0dabe76d95daaf9348cb5fe2bfb5601c57fc56956b0e6ac58ec772.json": "d94b30ad18c7d1435a0fe53e8cde98b5613aa5212bce59b346e01dd1a6e4b3d5",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/83ac04087df73c5a4c1bec936dd759856c89353c0fad7b31dc9cf0202bcb99d8.json": "35fedb31c253ad2754e845a90aa36b10474f6a652eace281a06a443633fe3c32",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/847f4c2ed5ba30067ec2bf8d577a76a5e854fce200f81c9cd57b1bacb6a95966.json": "7e9d5a4523a9e054b532a34e0e03486d852dfc9e65bb44c8a81b0b250c47bed7",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/872c9e48bd0f0c5b4684db8a70d116f638686c8534be33052107d9b56000eafd.json": "c798eab23ca6364095129146f8cde5d1e8cf3f6d0517e8f013da475040c7c321",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/8b138bf99be9db07613ca9a75e019be5d85c3b5b02b1e1333b7b9160a71693d6.json": "52a3cebdc0542253fcb4731bd0232b3eb8083a4691ec2ecbb9df575a42dd3753",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/8c9290ae9e993f4c891a1681ea33867a6fb767d64fa7ef53ab0db02e62896af7.json": "bd729829285f9a42f08c80377ab2d680c7d5c7d3efc082e63b2a471fe00c29ec",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/92ab3376219c6484df8f56552cd1188538b04a2342f937a626b4219b4d0a8fe6.json": "a22aab3f094ad406ea43fbfa51568f593273ec33a84649eaa6c356814614e313",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4.json": "9aea4d2b451365f5c5251b1ea226e4dad7b459d39323414983144cdfb2073850",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/9692ea5188cb876912b9cda510b755a4b2b0a84135ea0824e090cd3941567948.json": "2e4caf9cf0d31af2a6eea7581672e20b786e743cbc5debb0b0148351e208d0ae",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/990feba067a1c13c7c2fb8903523ac1cce1bc0ca10e58e710a5e620945c24b54.json": "ae8c07850140187ef2d7e978733cb167949155f83ac5d493a12c606614433324",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/9fe9ad9dd622b572b27eb3c7a0c8160028849141cdf28c64452102571bf9721f.json": "0d652fbf5d89f7924e40d1683a3f3b32e7eafd8aca86354b038fb2aa71f3a5bb",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/a0a8cf190d2f66e1719c5a1609bd818cf722360f0e47f2b09e702dd68394c7a3.json": "073da1eb68861e4c6eef6638c669d2a1e3cc4e2007a2481a32ff491345ed8509",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/a406308449bba21d61c46e31159dbc0caf5d6341d04f6e34d657bf9bcc4e849b.json": "a6416b4b8cbcb34133398454ed566b25b45b6882d57f8339adfdf90444071d50",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/a46539ae4d23928a1553f4cd8873305f48283998c41fed9bb86358bb9a746f77.json": "e85520102238d191e618b04984f3a437cbda7bdb677adbde2c62bb84072ff103",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/a4d876aac1a22498f19d9b35285da0389f1cf52688da4cfdbac22e832e74e7cf.json": "8504e6166f8b8115d039c1e18daec60a70cbd9ec33f77e655c38f9d0389780ef",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/a4e63c8b68b8303b6bb9394be841d8f637d0d0f478951e6156bc4fe5841a541f.json": "d095c4621812e9c6fe8d4d686939b55c79248f54eaf3eea94c003ee487d6a7bf",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/a7bf9c1802ec624b89814ed06aecf0ac45fb833f810a54f3b6bba4d1e92bb90d.json": "a398631f0cefb522aab9659f2de9c4b046c1e3dc6a3e55b1a0ad990539d25efe",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/a83b25f37a3db654961ea02c90a88265faa6487d4aa2d326c5da5c86f5f83a06.json": "2d418de470287ec8b5bb0a1f1f83e15cc390c384250ef5f6c8b5e1d2bc9bb7ec",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/a8b01c8e3c2e054799a6c77425203b4ee66c1d2367b6a756ef30defe0c3612f7.json": "0ab13d5ce271b4b62bb732fc7d8c7a558272432b17fcbb7c36b2f83674cb0af3",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/a8e0d51a615c0b7dbe4ac0cfb4488c3f5d5e11db7c0318ee6227ac9b93962eef.json": "7e5b6a7426b17a762e23bbc49b0fa1e140883905992670e4b7a1567a321e5d4a",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/aa2357664b0616be5fd760dbfa93f3b86d47b7983554a87b8a50f41d20c3afcb.json": "ee1a4778325e19e19313d7cf603516d33957fef96408eafa2bb38f5993a6b25b",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/ad66b8f2aaf6a6f2d9dbafeef4bfb378c7d351d908e805aec9368a0a4098d4ba.json": "26e1114b7a45ca19742bf98348ed76fda5d5e9b5aae2e4e22b254cae0cb0bbc6",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/b0012ecc47d1989541dee1bd45e55e3680161e206dda3c15835e691da974ecd8.json": "c933d7bb5d90319cdfa21c4dd99899d5413d53b9493e73e73a0b4da7cd800cda",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/b179361f6a814240118d4fe7e2b989e41c68bf62afbced2530d75b80d8e34246.json": "9b971b807a13f07499d6c460662719b026e8d866b488aaa7a9a05286da52b676",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/b1a33dc3e5722992e930d7c17014e564aee003bfdb0dd13154135d20d76b1e06.json": "55f075759baba4ef44fa9cbf52ad3bc5de04114c1010750272387b8f54f8e2f5",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/b1b2e46e4efb14c9f4637b74fc0e7e7d050d7ace3a755fa000450d5eb77de999.json": "926cd9432d517bb86feb72d80a96cd020ee817d3eda3d5b7b5850007cab14c6e",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/b2c4f996d6251ddbd540edf908e7ae28a730efc04f19d72944a4172c34320dc9.json": "cf2cdadb64f6dc9d9d0d34704bf9adff27a2a7e337ae1d1a8d9c59b78c0d9f86",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/b402d3fd6f66b0df110b1af6c9dcc93bae07fdae963d8c4adbdb55c2350650a9.json": "eb28cabc27e859a6c5c224e5761ebb11de25715686cf5e1a74fbf62fd0ad9031",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/b4341c7e83dd297456fcdb8cc9707473a921094614b23e1167be4b1d314d38a1.json": "35b21c8fa6f9c0595edbb32931722a592ba426ef6a86593c6a19bc9ea96f9045",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/b5105aaa7c1187f87378d1caccad9849507282542605af028ebfa8a4f919967c.json": "008a2e21190d0164ca19d42f6eb6258b597d3e2f32bd9ec9139340f39a65970c",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/b7de680fcae657f4750b86fd132c4152254ce4e508027d261edbe2919cf52964.json": "c9fbc0acc26e142d147d17290f485dcc63cb22ce4b060adb96e38ba009546f47",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/b90a9398db16f59adac45af5513a8115bf14325d3ea77ddb139174a7ba5af90b.json": "502f669c035a575a448ad3278b24e383d8199690dff01bdeabaf273d91df960d",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/bddcac04258b7975ed36bd3256b669a13f59fd7a8124da4d038563c46154c09a.json": "6d0ac1ecc7d054724a37a5ac93e7078e1c580730d63ae5fa70a899b48252dbf2",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/be64c533c92bf1f98958a7ccf13c5ed64edd5803ef780b1701c9e468212ee0dd.json": "0c2e3c0e418b3714f29145ddc01c17ad528c1302502a902486770b1570dcb16f",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/bf1700a6e6256d26c4d8be58a81348b97b3bac2fa4e58aac13f8fae5f75c1ecc.json": "a6a0451968b34b5169de8adaa3d3b71046958186a060d6ad731305553fad69a7",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/bfb494ba4f56f49bee4ca56eb60a31d82ba79e25b3b2d7e48318e0ac84dd9fb8.json": "424936e10966ee5a145f556ac7828862392fd2a7b33f766cc1315d72675704b2",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/c0fc065a0d3118927b714fd607f5085e2edaece31bc04dae9229596d0ff66ea2.json": "c3cc790632dd8741df9352afd282449c4aec237a715149c6b8db2a668cfd3933",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/c133492957e1a4361b92a3763af173d011686b1b21558a53a29d3b8ebc0076a3.json": "84a2245d4150f680532cd2e39d1fb2e0349cad81dca86985b78cffe057721c08",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/c27f3832632c8e822b351827e830cf91b894d9e17acd1e9dc636757a10418b7a.json": "d4aafa489eed6a8ce05f9c482f81ed1e9ee0d8bbf1320daa694ec58ae3112ef6",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/c294cd8e338838b106d04c43e49c1522b54397b1d6fe29ef6ec1c25ed1765f10.json": "d738d50a51b7bea47a0f597cb7179aae33bd3d013cb23f4d5d91122da3dbd2f9",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/c2f9e214a797e44c98a91d3232a812e7a5f4002fe2d23b9772f858ab720405a8.json": "887b2b1d6b7bb6e45d54d4a814f094fb92429b9636425cb8fdb571d923772076",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/c7d8177f8622b9118f0e7704c5f18011bbc7a170db553e39e3de3d324c7ab62e.json": "55c4c5ad8bc358d7456421674ab895b9d4e12e5bf38a44927dd0395f9b21ffb2",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/c8cd5786288882f953e8efe73100cdb54f223407d4f215df76b8c0b9dbf6f5d7.json": "5e1a7e14f6350e83cbd310d084cb6b5a6aeb56f0307194b3ce58eb503f6ebe38",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/c9665d1e4e2dd608cde226308cd78a629aa5e54e3167ba45360f372d546754ca.json": "e332e571aebfc68e6ef00a2595cd0ec7d2be67b21b8b868b621ae68a46989d79",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/ccf97fa17de71fdd2062cfab3b15c1bd5cea988c677d49ad7a63b29b6b18a888.json": "a05e1fce91de386c982badbba69de0745947a35365947b975c5d8e48b5ea0881",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/ce682fef330ea974fe2bbadb50eacb975b3c9f0db152a9f754b2820fc97245e1.json": "7ac81eb96352b62ab6f762a25794d1802be3795db7684e65d7ec15be99a43df7",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/cf2bea6d88f28c35868068e27a7cad395489c2905531e2afcd559b3ef0ff711a.json": "79c61bba570ef7a4a8aa3fba1f14b69a753cf0ad083cce6cd5385b4ff163212b",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/cfdce7cd801f24538947f44ce07e2b5d885de36585cf1b50a5c1ae471c80585d.json": "c64488001926215a0cd1c6a891773dfc9f65858d23047e4dcc820c54ac35d6de",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/d1b2757feac1177d27458a89cc47f030d5a82d8769b4ae7266b4c79f63de226e.json": "bc3999b0d8e34da210eb78a01387eee4d5ac9bb3a01f848d379e3bfa29a035bf",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/d3f4ab5fd9ab56c5f118aae46cc3b78b1bad7ce8ee65d44e1f4929d9ed2a0c0d.json": "27f26953531ebbe569a7ff2cd4c427612af45ad2819114f002888dae6fbe1dbc",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/d4fc3a7c092e8c7a7057920b2c4eba311a8875a2d2680230764caa1270008d0b.json": "8995636edb56d7bfc213a52d3445a0ef7bb737cf251f906ffac0c4354a2b74f2",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/d5f58e0cebd7c0c2d5785533c497b0d0da493e1032d921d3785c86580a8790c2.json": "018d9fe0c68674810389131bb76496ee701af740e67f9beda1f8f239392a822f",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733.json": "08841a995cb0454f44be069641955c6bc1bc6e4d40403bc2672ba2d3d24a0b81",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/d781c768267eef010d10f02271d1ba1636d6e5ccab20d41a5610bd09ce9444da.json": "d9d7c5030621637058b6226e190e9925f716c533d6d3ff927a202afe51a26240",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/d7992f9c2fa2cebd04c18c007e003c1191ff0652d6804b07820e703fec47ab4d.json": "2dde7a09f9fb2a1a7ebc775ef0cfd9caac7bde35070694f010c1da11d0800b7d",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/d8251983a6c9994e590bcd225fd31a1543b08ae8549f96451286113edd43f978.json": "812b8c828deaa51437e8f27baef4e1e8090dd0112ba536a28ee3db003005603e",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/d88b3026edfdcfefa16a790b65eb18a70cc69acc8874bbdd3c780d748052dca3.json": "5893e6a4aea0603523f40d2fa30fadb8f9202c9760680c2cb1cdaed860f970ef",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/d8c45e78570a52b414531257dddb7868501cfbaccdf41125838a3403b8a7c349.json": "46995e7ad998163905636d26f25eca8b243a37c71213ba6c809972ec8b7355b0",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/d9786bd9b29be71aaf8f97517377cd3a8e99e4d3b89c7209393dd199a13497ac.json": "d8b12502be3035483898214a27833289f045daaca5ce0b8978b06f33309f0301",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/db656930ea0a83e235eaf37dca00d1191e2e0baaead0020b81c1ef6b89942319.json": "cd8802ee935f01375e5689510547f2d5030776b4c919a8d742a61125411c425d",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/de0abf97dcac97a89ac015a60f58b9a7012e94c7ed5404f7d28d824e9a099b1a.json": "262140a590e152bc794f8ab348f43adb8f247c165e6960a3f3cbb1a1dd6b746b",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/de22ccbd7685c29776c0186e89b692ce2f11ef5bd1baa647f8962506fe87ffc9.json": "b115664873681318a0aa26d42e48fa0dd45fea871fb3dabfd859cc4fc821c527",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/e52dd60a917c9f110d30247016a76dae641d7ba3217a8eecbed536d90c985bcc.json": "f821f1384ebb4502c1791010044e91909c04de047e8877cb30581f0e18632907",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/e559a88c7bf1fc512e60031393f1d16133486dea4286d1005c2b20c276038481.json": "21853e7ca66d0ac62fead6930f44be0c6b5ae5f7d043adc67619d80563879608",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/e6ae8cc1491321d133000f1d7efa924dcaa14aee49359402bc8c0f5ccc3b291b.json": "d0a8af4280e648bb89aeb2fe62bdf93fa77ae431460ca2dcd869946e2ee5c5f5",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/eab7c278a0aa674dd8351db5d89df99b4b2d00ed426e9482679c9c77399f074c.json": "260d42caea53882c8702e997f62660e796da8c1cbad1604f9d11f890ec448f98",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/eab98d54a8c287db9a697457264c85f8a5e52ac4be05912b9c9a4a488b41f72c.json": "511d7c89a885c6da0333c34e9474652eadb642d7dc7e671a73ede7048d763121",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/ee1019c294b52a3a7faa6886397f8dfa1a47fd5133a856b1d79ef17bcc331024.json": "b97130a68be55d72f28713d3716a8bf3f7cfc187b33378a873ce372a67920bf9",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/ee88f6be93c3cb0fbf4c82074b67323713173e712ea5939eebd0ea702c21b719.json": "60bf9fcc79e81a4370d3923bb47f4a7fbc17b6a342e2d67a437f7fa624df117e",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/f081d0e10669399e94cbb342835f448d1006c782c93dbce22f58928c8d2aa011.json": "ee00209f80d86e351142ff6c00112fc81f9b13fa7348903344a5c975f8ca7bad",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/f226a0beaeabb45c793decd84e3bd1434036c6b538a243646e3f316ab88afc69.json": "b256e9071112203d193b8bfcae4d040caa2080b97d5536c88aba7de2d6db6db2",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/f321ececf52f9479217e5ae249fbe1177b3404ccb0210670a2cc13d73164a112.json": "66d7a7b70bceb8233e15572f1d0ad825eb5b04ad2a506872d5f48a0bf04cba07",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4.json": "5e7026e4fd8788cb7e0291690b215bce13931e694fc118278a79ae38f84cccab",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/f767ebeffe5360b67c3b0c3bec3411fdf396ca50e390e1fc454e7db474cfc0db.json": "aae8373bd7fc63b4a1fd048b700a227565bc652bdcfb326fdd8f7ba5f7693aed",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/f822f138f81b98104d5e06d1b6bde1f00db8b170319a4ec2e93a93125b1519e9.json": "8cf8b46f0452fae12f4fa82e5574f3d421b84c6b55352fc959f94f15b28eea32",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/fc3383edfdb76ddfcf059192988a7411f4e1c03609489c4e362c25e38c36e11b.json": "9f7a0771742d9084ce9549e306943665a1181a5448938d86fbd6b2b1526006dc",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/embeddings/fe466e56ea272554c6721106eae0686455e4a5174b1d53e0081b8fa013247c52.json": "0d6f4e23db7f87281341486299debbac755284a1ca99b977a5425e6e98d731ac",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/grid.json": "0db343b946c43206a44b6c3369a0978e9ec21030ba61d268e88db385e974a9f4",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev01.json": "a06e7504e4e02f29d55e02bcaa962b96a46d8bad8770bbfcc29970c1e7161552",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev02.json": "7dac22a6636b673a4521b3a85adb3988cf51fff234ffd035d1fe8a30c5a8e9c6",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev03.json": "4f145d0ad71ae1c913b85f987d8f0097af87d4f01a2ed4519a150f29e188c931",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev04.json": "4a92fc03ba64f80120b8cb65477bc698d2a7d006e738eef287dc42fd2de623be",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev05.json": "b130d96f04d47c582dcf5d59277e772dc270649572333b6b5f254360c3168855",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev06.json": "3bfc943cbb37682e02f83d7eb28f35b1e05370893234faf8e758fe761fbfdc00",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev07.json": "806c08c971f28de44d9d5a503beb9887a496f1d26669a6f4d8af316479b8d3a8",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev08.json": "d4b84b7b855689e994ed1e9b779db4b49a8842e029fac8aa7c9364cbdd2e0980",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev09.json": "889d9b468a15c7f8cfefea64f7f3e512958ae5da1a834f8d66e1e2775ff6b966",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev10.json": "7b705612179ff02aa566a072c44c1196de62df3bc28754d567259c908ef49240",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev11.json": "7822b38835deb9a3689b4a997199fde3d5b44a5e421258916191fa25bde86538",
+    "Evaluation/ProvenanceFirst/runs/history-ranking/development/scores/dev12.json": "bee2b537548f16884a3057911c825a48c870eb784cb418ef750b6c21a65b7c5f"
+  },
+  "diagnosticControl": {
+    "answerable": 36,
+    "correct": 35,
+    "correctHits": 35,
+    "expected": 36,
+    "falseReturnRate": 1.0,
+    "falseReturns": 12,
+    "hitCoverage": 0.9722222222222222,
+    "libraries": [
+      {
+        "id": "dev01",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev02",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev03",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev04",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev05",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev06",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev07",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev08",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q4",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev09",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q3",
+            "mode": "current",
+            "recall": 0.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev10",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev11",
+        "queries": [
+          {
+            "correct": 1,
+            "id": "q1",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 0,
+            "id": "q2",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      },
+      {
+        "id": "dev12",
+        "queries": [
+          {
+            "correct": 0,
+            "id": "q1",
+            "mode": "uncertain",
+            "recall": null,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q2",
+            "mode": "historical",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q3",
+            "mode": "current",
+            "recall": 1.0,
+            "returned": 3
+          },
+          {
+            "correct": 1,
+            "id": "q4",
+            "mode": "overlap",
+            "recall": 1.0,
+            "returned": 3
+          }
+        ]
+      }
+    ],
+    "librariesWithReturns": 12,
+    "macroRecall": 0.9722222222222222,
+    "modeRecall": {
+      "current": 0.9166666666666666,
+      "historical": 1.0,
+      "overlap": 1.0
+    },
+    "precision": 0.24305555555555555,
+    "returned": 144,
+    "returnedDistribution": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 48
+    },
+    "unanswerable": 12
+  },
+  "evaluationOpened": false,
+  "families": {
+    "B": {
+      "config": {
+        "family": "B",
+        "limit": 1,
+        "margin": 0.1,
+        "minScore": 0.5
+      },
+      "diagnosticOnly": true,
+      "gates": {
+        "abstention": false,
+        "coverage": false,
+        "current": false,
+        "historical": false,
+        "overlap": false,
+        "precision": false,
+        "recallGain": false,
+        "support": false
+      },
+      "metrics": {
+        "answerable": 36,
+        "correct": 7,
+        "correctHits": 7,
+        "expected": 36,
+        "falseReturnRate": 0.25,
+        "falseReturns": 3,
+        "hitCoverage": 0.19444444444444445,
+        "libraries": [
+          {
+            "id": "dev01",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q3",
+                "mode": "current",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev02",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev03",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev04",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev05",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev06",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 1.0,
+                "returned": 1
+              }
+            ]
+          },
+          {
+            "id": "dev07",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q3",
+                "mode": "current",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev08",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 1
+              }
+            ]
+          },
+          {
+            "id": "dev09",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 1.0,
+                "returned": 1
+              }
+            ]
+          },
+          {
+            "id": "dev10",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev11",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev12",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q3",
+                "mode": "current",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 1,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 1.0,
+                "returned": 1
+              }
+            ]
+          }
+        ],
+        "librariesWithReturns": 7,
+        "macroRecall": 0.19444444444444442,
+        "modeRecall": {
+          "current": 0.25,
+          "historical": 0.08333333333333333,
+          "overlap": 0.25
+        },
+        "precision": 0.7,
+        "returned": 10,
+        "returnedDistribution": {
+          "0": 38,
+          "1": 10,
+          "2": 0,
+          "3": 0
+        },
+        "unanswerable": 12
+      },
+      "qualified": false
+    },
+    "C": {
+      "config": {
+        "family": "C",
+        "limit": 1,
+        "margin": 0.1,
+        "minScore": 0.5
+      },
+      "diagnosticOnly": true,
+      "gates": {
+        "abstention": false,
+        "coverage": false,
+        "current": false,
+        "historical": false,
+        "overlap": false,
+        "precision": false,
+        "recallGain": false,
+        "support": false
+      },
+      "metrics": {
+        "answerable": 36,
+        "correct": 6,
+        "correctHits": 6,
+        "expected": 36,
+        "falseReturnRate": 0.16666666666666666,
+        "falseReturns": 2,
+        "hitCoverage": 0.16666666666666666,
+        "libraries": [
+          {
+            "id": "dev01",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q3",
+                "mode": "current",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev02",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev03",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev04",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev05",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev06",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 1.0,
+                "returned": 1
+              }
+            ]
+          },
+          {
+            "id": "dev07",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q3",
+                "mode": "current",
+                "recall": 1.0,
+                "returned": 1
+              },
+              {
+                "correct": 1,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 1.0,
+                "returned": 1
+              }
+            ]
+          },
+          {
+            "id": "dev08",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 1
+              }
+            ]
+          },
+          {
+            "id": "dev09",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 1,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 1.0,
+                "returned": 1
+              }
+            ]
+          },
+          {
+            "id": "dev10",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev11",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          },
+          {
+            "id": "dev12",
+            "queries": [
+              {
+                "correct": 0,
+                "id": "q1",
+                "mode": "uncertain",
+                "recall": null,
+                "returned": 1
+              },
+              {
+                "correct": 0,
+                "id": "q2",
+                "mode": "historical",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q3",
+                "mode": "current",
+                "recall": 0.0,
+                "returned": 0
+              },
+              {
+                "correct": 0,
+                "id": "q4",
+                "mode": "overlap",
+                "recall": 0.0,
+                "returned": 0
+              }
+            ]
+          }
+        ],
+        "librariesWithReturns": 6,
+        "macroRecall": 0.16666666666666666,
+        "modeRecall": {
+          "current": 0.16666666666666666,
+          "historical": 0.08333333333333333,
+          "overlap": 0.25
+        },
+        "precision": 0.75,
+        "returned": 8,
+        "returnedDistribution": {
+          "0": 40,
+          "1": 8,
+          "2": 0,
+          "3": 0
+        },
+        "unanswerable": 12
+      },
+      "qualified": false
+    }
+  },
+  "winnerFamily": null
+}

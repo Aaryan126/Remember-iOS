@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-096/raw.json",
+  "rawSHA256": "a3d847e0c8e6f5a9df82399ab5b1c77d478f150897b640d70a64e2428b3d03bf",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.012640749999264,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.29166539106518e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3163887499977136,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3704092083280557,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3714282083310536,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.011107333331893,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "e609e5a740a779f74db33f9a4f70cc1542d45378260a15f246344a71f98c7673",
+      "contextSize": 4096,
+      "generationSeconds": 3.6389636666644947,
+      "output": {
+        "evidence": [
+          {
+            "quote": "The club is separately planning the 2029 Winter Exchange.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Receipt photo transcription: Winter Exchange hall payment settled. Juniper Club treasurer signed.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources mention distinct Winter Exchange events with different dates and administrative roles, indicating separate undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-096"
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Tool library return-policy trial will track whether clearer return reminders reduce overdue items. The trial covers loan wording and reminder cards. Repair diagnosis remains a separate activity, although borrowers may bring tools to the Saturday clinic when returning them."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "voice",
+        "text": "Saturday drill repair clinic will inspect three donated cordless drills and document repair decisions. Borrower loan history is relevant only when a returned drill enters the clinic. The clinic is volunteer maintenance work, not an extension of every tool-library loan."
+      }
+    },
+    {
+      "assignments": [
+        "t:c03"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c03"
+          ],
+          "revision": 0,
+          "textSHA256": "be64c533c92bf1f98958a7ccf13c5ed64edd5803ef780b1701c9e468212ee0dd"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "Counter intake sheet: record the tool number, return condition and inspection queue position. The form has no printed project heading, and its footer is smudged. It could support returns or repairs; the surviving text does not establish which team adopted it."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c03"
+          ],
+          "revision": 0,
+          "textSHA256": "be64c533c92bf1f98958a7ccf13c5ed64edd5803ef780b1701c9e468212ee0dd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ce682fef330ea974fe2bbadb50eacb975b3c9f0db152a9f754b2820fc97245e1"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "note",
+        "text": "Tool library return-policy trial, first approved wording: allow a two-day grace period after the due date. Send the reminder on the following morning. This is a fictional process trial; no actual borrower account or fee is changed by this document."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "be64c533c92bf1f98958a7ccf13c5ed64edd5803ef780b1701c9e468212ee0dd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ce682fef330ea974fe2bbadb50eacb975b3c9f0db152a9f754b2820fc97245e1"
+        }
+      },
+      "id": "e05",
+      "kind": "correct",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "be64c533c92bf1f98958a7ccf13c5ed64edd5803ef780b1701c9e468212ee0dd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ce682fef330ea974fe2bbadb50eacb975b3c9f0db152a9f754b2820fc97245e1"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "172efc1633d35aa105f36415c885c2be208fe0ee2732b866f54f82e61ab90466"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "pdf",
+        "text": "Saturday drill repair clinic inspection card D2: the chuck sleeve binds when turned by hand. The battery pack was removed before this observation. No replacement part has been selected, and this card does not authorize lending the drill again."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "be64c533c92bf1f98958a7ccf13c5ed64edd5803ef780b1701c9e468212ee0dd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "522ab7d7b2ba40259cced8bcf58da6c1ba190bf90e319e86b30a9681501467ae"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "172efc1633d35aa105f36415c885c2be208fe0ee2732b866f54f82e61ab90466"
+        }
+      },
+      "id": "e07",
+      "kind": "revise",
+      "target": "localc04",
+      "text": "Tool library return-policy trial, updated approval: allow a four-day grace period after the due date. The trial coordinator extended the allowance to cover the new closed day. Reminder wording must use this current interval; the earlier approval remains part of the record."
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "be64c533c92bf1f98958a7ccf13c5ed64edd5803ef780b1701c9e468212ee0dd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "522ab7d7b2ba40259cced8bcf58da6c1ba190bf90e319e86b30a9681501467ae"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "172efc1633d35aa105f36415c885c2be208fe0ee2732b866f54f82e61ab90466"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6d825d614b8764903fb3766595257c7a7a6b164de06cb67ff6cbc02cfe286278"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "image",
+        "text": "Tool library return-policy trial reminder layout: put the due date above the return location in large type. The illustration of a drill is decorative and does not identify an item in the repair clinic. Borrower names will be filled in outside this fictional example."
+      }
+    },
+    {
+      "assignments": [
+        "t:c07"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "be64c533c92bf1f98958a7ccf13c5ed64edd5803ef780b1701c9e468212ee0dd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "522ab7d7b2ba40259cced8bcf58da6c1ba190bf90e319e86b30a9681501467ae"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "172efc1633d35aa105f36415c885c2be208fe0ee2732b866f54f82e61ab90466"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6d825d614b8764903fb3766595257c7a7a6b164de06cb67ff6cbc02cfe286278"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "3a9be966e7b7c97ebbae4912e6aa9112dbaaee3070625f9e6a59295517350279"
+        }
+      },
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "link",
+        "text": "A drill-parts catalog is background reading for the Saturday drill repair clinic. Several models use similar-looking chuck sleeves. The page does not identify the model of D2 or prove that any listed sleeve will fit the donated tool."
+      }
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "be64c533c92bf1f98958a7ccf13c5ed64edd5803ef780b1701c9e468212ee0dd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "522ab7d7b2ba40259cced8bcf58da6c1ba190bf90e319e86b30a9681501467ae"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "172efc1633d35aa105f36415c885c2be208fe0ee2732b866f54f82e61ab90466"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6d825d614b8764903fb3766595257c7a7a6b164de06cb67ff6cbc02cfe286278"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "3a9be966e7b7c97ebbae4912e6aa9112dbaaee3070625f9e6a59295517350279"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "f321ececf52f9479217e5ae249fbe1177b3404ccb0210670a2cc13d73164a112"
+        }
+      },
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "voice",
+        "text": "Loose voice memo: 'Ask the owner about the crack underneath.' No tool number, owner name or location is spoken. A drawer closing hides the preceding sentence. The memo cannot establish whether the crack belongs to a drill, its case or something else."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "be64c533c92bf1f98958a7ccf13c5ed64edd5803ef780b1701c9e468212ee0dd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "522ab7d7b2ba40259cced8bcf58da6c1ba190bf90e319e86b30a9681501467ae"
+        },
+        "localc05": {
+          "archived": true,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "172efc1633d35aa105f36415c885c2be208fe0ee2732b866f54f82e61ab90466"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6d825d614b8764903fb3766595257c7a7a6b164de06cb67ff6cbc02cfe286278"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "3a9be966e7b7c97ebbae4912e6aa9112dbaaee3070625f9e6a59295517350279"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "f321ececf52f9479217e5ae249fbe1177b3404ccb0210670a2cc13d73164a112"
+        }
+      },
+      "id": "e11",
+      "kind": "archive",
+      "target": "localc05"
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "26d41986d2433fcff8b2ed5c24adef7fdd71b6545835cf977f629b075bb88cf3"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "95fae2d928a3d9921bf7dac2782c6516789b8ee8f09a3857db095a8d55e9d5c4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "be64c533c92bf1f98958a7ccf13c5ed64edd5803ef780b1701c9e468212ee0dd"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "522ab7d7b2ba40259cced8bcf58da6c1ba190bf90e319e86b30a9681501467ae"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "172efc1633d35aa105f36415c885c2be208fe0ee2732b866f54f82e61ab90466"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "6d825d614b8764903fb3766595257c7a7a6b164de06cb67ff6cbc02cfe286278"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "3a9be966e7b7c97ebbae4912e6aa9112dbaaee3070625f9e6a59295517350279"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "f321ececf52f9479217e5ae249fbe1177b3404ccb0210670a2cc13d73164a112"
+        }
+      },
+      "id": "e12",
+      "kind": "restore",
+      "target": "localc05"
+    }
+  ],
+  "id": "history-dev08-chronological",
+  "queries": [
+    {
+      "afterEvent": "e08",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

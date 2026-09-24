@@ -1,0 +1,4478 @@
+{
+  "schemaVersion": 1,
+  "split": "development",
+  "libraries": [
+    {
+      "id": "dev01",
+      "family": "graft-union-observation-coldframe-handoff",
+      "description": "A graft trial retains a retired observation card while sharing protected space with a seedling study.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Pear graft union trial"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Coldframe seedling hardening"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Pear graft union trial: compare whip and saddle joins on six labeled rootstocks. This notebook tracks union inspection and tying material. We are not testing fruit yield this season; the seedling hardening group owns the other half of the coldframe.",
+          "modality": "note",
+          "locator": "Graft notebook, opening page",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Pear graft union trial: compare whip and saddle joins on six labeled rootstocks.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Pear graft union trial: compare whip and saddle joins on six labeled rootstocks."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Coldframe seedling hardening begins with trays H and J. Track vent openings and leaf scorch before outdoor transfer. Grafted trees are a separate trial, even though the teams will share the same sheltered frame during the wet spell.",
+          "modality": "voice",
+          "locator": "Hardening kickoff transcript, 00:08–00:26",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Coldframe seedling hardening begins with trays H and J.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Coldframe seedling hardening begins with trays H and J."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Pear graft union trial, first inspection card. Saddle join G4 showed a pale callus ring on day nine. The card was written before the inspection sheet was redesigned. Soil moisture and the spare labels are listed on its reverse side.",
+          "modality": "photo",
+          "locator": "First inspection card, front OCR",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Saddle join G4 showed a pale callus ring on day nine.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Saddle join G4 showed a pale callus ring on day nine."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Shared coldframe arrangement for the pear graft union trial and coldframe seedling hardening: graft pots take the east bench and seedling trays take the west bench. Both teams check the single vent at midday, recording their own observations afterward.",
+          "modality": "pdf",
+          "locator": "Coldframe arrangement, page 1",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Shared coldframe arrangement for the pear graft union trial and coldframe seedling hardening:",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Shared coldframe arrangement for the pear graft union trial and coldframe seedling hardening:"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [],
+          "text": "Blue loop, 14, shade until Friday. The handwriting below the number has washed away. A tray edge appears in the photograph but no trial name or specimen identifier survives. The photographer cannot remember which bench this tag came from.",
+          "modality": "photo",
+          "locator": "Loose tag OCR, whole image",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Saddle join G4 showed a pale callus ring on day nine."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "correct",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02",
+            "e05"
+          ],
+          "assignments": [
+            "p2"
+          ],
+          "reason": "I took that blue-loop tag from seedling tray H. File it with coldframe seedling hardening only.",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit user correction is the authority for these memberships.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "General propagation guide: callus develops differently across species and humidity conditions. This page is background reading for the pear graft union trial, not a record of its rootstocks. Its orchard pictures show mature trees from an unrelated demonstration site.",
+          "modality": "link",
+          "locator": "Fictional propagation guide, section 2",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The captured text supports this relationship: This page is background reading for the pear graft union trial, not a record of its rootstocks.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "This page is background reading for the pear graft union trial, not a record of its rootstocks."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e06"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Saddle join G4 showed a pale callus ring on day nine."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "text": "Pear graft union trial, current handling instruction: loosen the outer ties on G4 at the next inspection. Keep the inner support in place. This instruction concerns the live tree and does not replace the observations written on the first inspection card.",
+          "modality": "note",
+          "locator": "Handling notebook, entry 5",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: loosen the outer ties on G4 at the next inspection.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "loosen the outer ties on G4 at the next inspection."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02",
+            "e04"
+          ],
+          "text": "Coldframe seedling hardening: tray J can move outside after two scorch-free afternoons. The east bench must remain clear for the graft pots. A missing watering-can rose has delayed washing, but that does not change the transfer criterion.",
+          "modality": "voice",
+          "locator": "Tray J update transcript, 00:03–00:21",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: tray J can move outside after two scorch-free afternoons.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "tray J can move outside after two scorch-free afternoons."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e09"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Saddle join G4 showed a pale callus ring on day nine."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e06",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Find the archived first inspection card: what did it record for saddle join G4 on day nine?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "Saddle join G4 showed a pale callus ring on day nine."
+            }
+          ],
+          "rationale": "The specifically named first inspection card is archived and has no revisions."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e06",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "Which of the two trials owns the loose blue-loop tag?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "Neither visible handwriting nor surrounding context identifies a trial at this prefix."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What is the current handling instruction for the outer ties on G4?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s07",
+              "revision": 0,
+              "quote": "loosen the outer ties on G4 at the next inspection."
+            }
+          ],
+          "rationale": "The active handling note is the only instruction about loosening the ties."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Recover the active arrangement that allocates benches to both coldframe projects.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "graft pots take the east bench and seedling trays take the west bench."
+            }
+          ],
+          "rationale": "This shared plan explicitly coordinates the separate projects."
+        }
+      ]
+    },
+    {
+      "id": "dev02",
+      "family": "costume-dye-swatches-tour-crate-continuity",
+      "description": "Restoration records distinguish a retired dye swatch from current care instructions and a shared touring crate.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Velvet cloak restoration"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Tour costume crate refit"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Velvet cloak restoration concerns the faded green cloak from our fictional production The Lantern Gate. Stabilize the lining before attempting surface cleaning. The traveling costume crate will be refitted separately; this restoration notebook follows the garment itself.",
+          "modality": "note",
+          "locator": "Restoration notebook, first entry",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Velvet cloak restoration concerns the faded green cloak",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Velvet cloak restoration concerns the faded green cloak"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Tour costume crate refit: replace the cracked inner rails and add a removable garment bar. The route has four stops, but transport planning is outside this file. We will measure the cloak after the restoration team has stabilized it.",
+          "modality": "pdf",
+          "locator": "Crate work order, page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Tour costume crate refit: replace the cracked inner rails and add a removable garment bar.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Tour costume crate refit: replace the cracked inner rails and add a removable garment bar."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Restoration dye test, swatch C. The velvet cloak restoration team recorded a copper fringe after the test dried overnight. This sample was rejected for treatment, but its card should remain in the experiment record. No dye was applied to the cloak.",
+          "modality": "photo",
+          "locator": "Rejected swatch C card OCR",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: The velvet cloak restoration team recorded a copper fringe after the test dried overnight.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The velvet cloak restoration team recorded a copper fringe after the test dried overnight."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Velvet cloak restoration and tour costume crate refit share this hanging trial. The stabilized cloak needs a padded bar with a 38 cm clear drop below it. Measure the crate with its lid shut, keeping the original hanger as a labeled comparison.",
+          "modality": "video",
+          "locator": "Hanging trial extracted speech, 00:41–01:02",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Velvet cloak restoration and tour costume crate refit share this hanging trial.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Velvet cloak restoration and tour costume crate refit share this hanging trial."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [],
+          "text": "Packing slip fragment: two soft sleeves, seven brass pins, green mark. The customer name has torn off. The slip could belong to the cloak work or to a different delivery; none of the remaining handwriting resolves that uncertainty.",
+          "modality": "photo",
+          "locator": "Torn packing slip OCR",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The velvet cloak restoration team recorded a copper fringe after the test dried overnight."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Conservation lecture handout saved as background for the velvet cloak restoration. Historic velvets can lose pile when brushed against the nap. These examples are from a teaching collection, and the handout does not prescribe a treatment for our cloak.",
+          "modality": "pdf",
+          "locator": "Fictional conservation lecture, page 4",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The captured text supports this relationship: saved as background for the velvet cloak restoration.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "saved as background for the velvet cloak restoration."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e06"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The velvet cloak restoration team recorded a copper fringe after the test dried overnight."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Tour costume crate refit inspection: the removable bar now clears the closed lid by 12 mm. Keep the old rails with the workshop scrap until the final fit is accepted. These measurements were taken on the empty crate this morning.",
+          "modality": "note",
+          "locator": "Crate inspection, measurement paragraph",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the removable bar now clears the closed lid by 12 mm.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "the removable bar now clears the closed lid by 12 mm."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e08"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "The velvet cloak restoration team recorded a copper fringe after the test dried overnight."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Velvet cloak restoration care card: support the hem on a folded cotton sling during inspection. We selected the sling after a dry fit; the lining stitches have not yet been tested under travel vibration. Keep the garment flat between sessions.",
+          "modality": "voice",
+          "locator": "Care card dictation, 00:00–00:18",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: support the hem on a folded cotton sling during inspection.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "support the hem on a folded cotton sling during inspection."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [],
+          "text": "Household sewing reminder: replace the missing button on my raincoat before the weekend walk. The thread is in the kitchen drawer beside the spare shoelaces. This is personal mending and has no connection to the theater's costume work.",
+          "modality": "note",
+          "locator": "Personal reminder, paragraph 1",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e07",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Retrieve the archived rejected swatch C card and its observed fringe color.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "a copper fringe after the test dried overnight."
+            }
+          ],
+          "rationale": "The request singles out the archived test card, not a later care instruction."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e07",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "Who was the customer on the torn packing slip?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The identifying portion is missing; the retained sources do not name the customer."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What support does the active cloak care card specify for inspecting the hem?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s08",
+              "revision": 0,
+              "quote": "support the hem on a folded cotton sling during inspection."
+            }
+          ],
+          "rationale": "Only the current care card prescribes inspection support."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Find the hanging trial used jointly for cloak restoration and crate refitting.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "The stabilized cloak needs a padded bar with a 38 cm clear drop below it."
+            }
+          ],
+          "rationale": "The single active trial source is explicitly shared."
+        }
+      ]
+    },
+    {
+      "id": "dev03",
+      "family": "ferry-signage-proof-passenger-survey-separation",
+      "description": "A retired timetable proof and a current panel coexist with passenger research using the same stop names.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "West Quay timetable signage"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "West Quay passenger wayfinding survey"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "West Quay timetable signage replaces the weathered panels at the ferry shelter. Our deliverable is a readable departure board and a matching map inset. This is a fictional service; panel proofs are working documents, not public travel information.",
+          "modality": "pdf",
+          "locator": "Signage brief, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: West Quay timetable signage replaces the weathered panels at the ferry shelter.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "West Quay timetable signage replaces the weathered panels at the ferry shelter."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "West Quay passenger wayfinding survey will observe how volunteers find the correct boarding gate. Record hesitation at the map and the timetable separately. We can use the new signage mockups, but survey conclusions belong to this research file.",
+          "modality": "note",
+          "locator": "Survey notebook, opening paragraph",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: West Quay passenger wayfinding survey will observe how volunteers find the correct boarding gate.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "West Quay passenger wayfinding survey will observe how volunteers find the correct boarding gate."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "West Quay timetable signage, printer proof A: the last fictional northbound departure is printed as 21:10. This is an unapproved proof for contrast review. Its crop marks overlap the edge of the accessibility symbol on the lower panel.",
+          "modality": "photo",
+          "locator": "Printer proof A OCR, lower panel",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the last fictional northbound departure is printed as 21:10.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "the last fictional northbound departure is printed as 21:10."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Joint mockup session for West Quay timetable signage and the West Quay passenger wayfinding survey. Place the departure panel beside the gate map, then ask volunteers to trace their route without prompts. Keep observations separate from printer corrections.",
+          "modality": "voice",
+          "locator": "Mockup session transcript, 00:14–00:36",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Joint mockup session for West Quay timetable signage and the West Quay passenger wayfinding survey.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Joint mockup session for West Quay timetable signage and the West Quay passenger wayfinding survey."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "text": "Panel B says 21:40 for the final northbound boat in West Quay timetable signage. This approved fictional schedule replaces proof A for the installed departure board. The map inset remains unchanged, and the printer has confirmed that the crop marks will be removed.",
+          "modality": "note",
+          "locator": "Approved panel B transcription",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Panel B says 21:40 for the final northbound boat in West Quay timetable signage.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "Panel B says 21:40 for the final northbound boat in West Quay timetable signage."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "the last fictional northbound departure is printed as 21:10."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [],
+          "text": "Survey audio fragment: 'They kept looking left, after the second one.' The first half of the recording is missing. Neither the location nor the object being counted is named, and the survey volunteer list was not attached to this clip.",
+          "modality": "voice",
+          "locator": "Unidentified audio fragment, 00:00–00:09",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "correct",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e02",
+            "e07"
+          ],
+          "assignments": [
+            "p2"
+          ],
+          "reason": "That fragment is from our West Quay passenger wayfinding survey. Attach it there; I still do not know which gate they meant.",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit user correction is the authority for these memberships.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e06"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "the last fictional northbound departure is printed as 21:10."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "West Quay passenger wayfinding survey observation sheet: volunteers paused longest at the unlabeled gate fork. The observer marked durations with tally strokes, not seconds. A later count of people passing the shelter is unrelated to this observation session.",
+          "modality": "pdf",
+          "locator": "Observation sheet, page 2",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: volunteers paused longest at the unlabeled gate fork.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "volunteers paused longest at the unlabeled gate fork."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e09"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "the last fictional northbound departure is printed as 21:10."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "A background article on coastal sign glare is saved for West Quay timetable signage. It compares matte and glossy materials in a different harbor. Its photographed departure times describe that harbor and should not be read as changes to our fictional timetable.",
+          "modality": "link",
+          "locator": "Fictional glare article, results section",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The captured text supports this relationship: A background article on coastal sign glare is saved for West Quay timetable signage.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "A background article on coastal sign glare is saved for West Quay timetable signage."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e07",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "What final northbound time appeared on the archived printer proof A itself?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "the last fictional northbound departure is printed as 21:10."
+            }
+          ],
+          "rationale": "The original proof is specifically requested and is archived without revision."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e07",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "Which gate were the people in the unidentified audio fragment looking toward?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The fragment does not identify a gate or establish that it describes this quay."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What time does the currently approved panel B give for the final northbound boat?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 0,
+              "quote": "Panel B says 21:40 for the final northbound boat in West Quay timetable signage."
+            }
+          ],
+          "rationale": "The active approval explicitly supersedes the old proof for installation."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Recover the mockup-session instructions shared by the signage and survey projects.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "Place the departure panel beside the gate map, then ask volunteers to trace their route without prompts."
+            }
+          ],
+          "rationale": "Only the joint session gives this shared procedure."
+        }
+      ]
+    },
+    {
+      "id": "dev04",
+      "family": "kiln-controller-service-glaze-witness-fire",
+      "description": "Kiln service and glaze cataloging share a witness firing while a retired fault ticket remains historically recoverable.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Kiln K2 controller maintenance"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Ash glaze tile catalog"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Kiln K2 controller maintenance starts after intermittent relay chatter during an empty warmup. Record service observations against the controller serial label. The next glaze firing may provide a witness run, but glaze recipes are outside this maintenance notebook.",
+          "modality": "note",
+          "locator": "K2 maintenance notebook, opening",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Kiln K2 controller maintenance starts after intermittent relay chatter",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Kiln K2 controller maintenance starts after intermittent relay chatter"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Ash glaze tile catalog will photograph and label the studio's twelve test tiles. We need repeatable firing records before assigning color descriptions. The K2 maintenance crew may use the same firing to check its controller, without taking ownership of our glaze comparisons.",
+          "modality": "pdf",
+          "locator": "Tile catalog brief, page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Ash glaze tile catalog will photograph and label the studio's twelve test tiles.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Ash glaze tile catalog will photograph and label the studio's twelve test tiles."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Kiln K2 controller maintenance, first fault ticket: relay R2 clicked six times during the empty warmup. A pencil sketch shows the lower terminal position. This ticket records the initial symptom only; it contains no diagnosis or authorization to replace a component.",
+          "modality": "photo",
+          "locator": "First fault ticket OCR",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: relay R2 clicked six times during the empty warmup.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "relay R2 clicked six times during the empty warmup."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "relay R2 clicked six times during the empty warmup."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Kiln K2 controller maintenance and the ash glaze tile catalog will share witness firing W. Place a numbered witness cone beside the tile rack and log its bend before unloading. The maintenance result and glaze appearance must still be recorded as separate outcomes.",
+          "modality": "note",
+          "locator": "Witness firing W plan",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Kiln K2 controller maintenance and the ash glaze tile catalog will share witness firing W.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Kiln K2 controller maintenance and the ash glaze tile catalog will share witness firing W."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [],
+          "text": "Audio from the bench: 'The lower one did it again, just after the red light.' A fan obscures the remaining words. There is no kiln number, firing identifier or speaker introduction, so the clip cannot yet be attached to a particular job.",
+          "modality": "voice",
+          "locator": "Unlabeled bench clip, 00:04–00:12",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Ash glaze tile catalog entry for tile A7: the upper face is olive with a narrow amber rim. This is a visual description, not a firing-temperature reading. The reverse carries the same stamped tile identifier as the catalog photograph.",
+          "modality": "photo",
+          "locator": "Tile A7 catalog OCR",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the upper face is olive with a narrow amber rim.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "the upper face is olive with a narrow amber rim."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Kiln K2 controller maintenance update: the replacement terminal clamp is fitted; the next check is a cold continuity measurement. Do not confuse that pending check with a completed firing test. The spare relay remains boxed on the labeled shelf.",
+          "modality": "note",
+          "locator": "Maintenance update, second entry",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the next check is a cold continuity measurement.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "the next check is a cold continuity measurement."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "correct",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e06"
+          ],
+          "assignments": [
+            "p1"
+          ],
+          "reason": "I recorded the bench clip during K2 controller maintenance. File it there; the obscured words cannot be recovered.",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit user correction is the authority for these memberships.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Relay service handbook excerpt saved as background for kiln K2 controller maintenance. A loose terminal can imitate a relay failure. The handbook's example is a classroom training circuit; it does not diagnose the relay in our studio kiln.",
+          "modality": "link",
+          "locator": "Fictional service handbook, example 3",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The captured text supports this relationship: saved as background for kiln K2 controller maintenance.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "saved as background for kiln K2 controller maintenance."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e04"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "relay R2 clicked six times during the empty warmup."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e11"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "relay R2 clicked six times during the empty warmup."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e08",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Find the archived first K2 fault ticket: how many clicks did it record for relay R2?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "relay R2 clicked six times during the empty warmup."
+            }
+          ],
+          "rationale": "The original archived fault ticket alone records the requested symptom count."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e08",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "Which kiln is identified by the unlabeled bench clip?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The clip gives no kiln identifier and no attribution has been supplied."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "Which check is still next in the current K2 maintenance update?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s07",
+              "revision": 0,
+              "quote": "the next check is a cold continuity measurement."
+            }
+          ],
+          "rationale": "The active update clearly distinguishes a pending check from a finished test."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "What placement instruction belongs to the shared witness firing W?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "Place a numbered witness cone beside the tile rack and log its bend before unloading."
+            }
+          ],
+          "rationale": "The joint witness plan connects maintenance and glaze cataloging without merging them."
+        }
+      ]
+    },
+    {
+      "id": "dev05",
+      "family": "meal-label-proof-translation-allergen-correction",
+      "description": "Fictional school label production keeps an erroneous printed proof as an archived artifact alongside a bilingual review.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Bean patty allergen label revision"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Lunch counter bilingual captions"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Bean patty allergen label revision is a fictional print exercise for Cedar School's lunch counter. Compare the approved ingredient sheet with every label proof. No actual food is being served in this exercise; the task is to track how the label copy changes.",
+          "modality": "note",
+          "locator": "Label revision brief",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Bean patty allergen label revision is a fictional print exercise",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Bean patty allergen label revision is a fictional print exercise"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Lunch counter bilingual captions will pair the exercise's dish names with translations and readable type sizes. Ingredient certification remains with the label revision team. We need one joint proof round so captions do not cover the printed allergen box.",
+          "modality": "voice",
+          "locator": "Caption kickoff transcript, 00:05–00:24",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Lunch counter bilingual captions will pair the exercise's dish names with translations",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Lunch counter bilingual captions will pair the exercise's dish names with translations"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Bean patty allergen label revision, proof L1: 'Contains wheat and milk.' The ingredient-sheet comparison has not happened yet. A red sticker marks this as a draft, and the fictional lunch counter must not use this sheet as the approved label.",
+          "modality": "pdf",
+          "locator": "Draft label L1, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Contains wheat and milk.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Contains wheat and milk."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [],
+          "text": "Small sticky note: 'Remove the second line, keep sesame.' No dish name or proof number is visible. The note was found near both caption drafts and label printouts. Its wording alone does not establish what text it was intended to correct.",
+          "modality": "photo",
+          "locator": "Loose sticky note OCR",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Shared proof check for bean patty allergen label revision and lunch counter bilingual captions: reserve the bottom 16 mm for the allergen box. The translated dish name can wrap above it. Both teams must inspect the same physical proof before printing.",
+          "modality": "pdf",
+          "locator": "Joint proof checklist, page 2",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Shared proof check for bean patty allergen label revision and lunch counter bilingual captions:",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "Shared proof check for bean patty allergen label revision and lunch counter bilingual captions:"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "correct",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e04"
+          ],
+          "assignments": [
+            "p1"
+          ],
+          "reason": "The sticky note belongs to the bean patty allergen label revision. I wrote it while reviewing proof L1, not the bilingual captions.",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit user correction is the authority for these memberships.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e06"
+          ],
+          "text": "Bean patty allergen label revision, approved proof L2: 'Contains wheat and sesame.' The verified exercise ingredient sheet has sesame and no milk ingredient; this proof replaces L1 for printing. Keep the discarded proof for documenting the copy correction.",
+          "modality": "note",
+          "locator": "Approved label L2 text",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Contains wheat and sesame.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "Contains wheat and sesame."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Lunch counter bilingual captions layout check: use two lines for the long translated bean-patty name. Keep both lines left aligned. A later conversation about ordering real cafeteria meals is outside this fictional label exercise and changes none of this copy.",
+          "modality": "video",
+          "locator": "Layout check extracted narration, 00:18–00:33",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: use two lines for the long translated bean-patty name.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "use two lines for the long translated bean-patty name."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Typography article retained as background for lunch counter bilingual captions. It discusses mixed-script baselines using street posters. The article offers no translations for the exercise and does not establish whether any ingredient is present in the bean patty.",
+          "modality": "link",
+          "locator": "Fictional typography article, baseline section",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "The captured text supports this relationship: retained as background for lunch counter bilingual captions.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "retained as background for lunch counter bilingual captions."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Contains wheat and milk."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [],
+          "text": "Personal reminder: bring an empty lunch tin to the picnic and return the borrowed thermos. The shopping list will be written later. This reminder is not an ingredient declaration, label proof or translation request for the school exercise.",
+          "modality": "note",
+          "locator": "Personal picnic reminder",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e10"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Contains wheat and milk."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e04",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "Which dish label does the loose sesame sticky note amend?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No dish or proof identifier connects this note to a particular label."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e11",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "What allergen wording appeared on archived draft proof L1, even though L2 replaced it?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "Contains wheat and milk."
+            }
+          ],
+          "rationale": "The question explicitly asks for the obsolete draft's wording, not current allergen truth."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What allergen wording is approved for printing on proof L2 now?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 0,
+              "quote": "Contains wheat and sesame."
+            }
+          ],
+          "rationale": "The active L2 source explicitly replaces the draft; restored L1 is not approved."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Find the joint layout rule for the caption team's text and label team's allergen box.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 0,
+              "quote": "reserve the bottom 16 mm for the allergen box."
+            }
+          ],
+          "rationale": "The shared checklist names both undertakings and a common physical constraint."
+        }
+      ]
+    },
+    {
+      "id": "dev06",
+      "family": "acoustic-room-fixture-calibration-separate-outcomes",
+      "description": "Insulation measurements and a portable booth build share a test setup without confusing a retired calibration artifact with current outcomes.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Practice room acoustic lining test"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Portable narration booth build"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Practice room acoustic lining test compares two removable wall panels using a fixed speaker position. This is an exploratory studio exercise, not a certified sound-isolation rating. Keep room measurements distinct from the portable booth build, even when the same microphone is used.",
+          "modality": "note",
+          "locator": "Room lining test notebook, introduction",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Practice room acoustic lining test compares two removable wall panels",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Practice room acoustic lining test compares two removable wall panels"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Portable narration booth build aims to reduce room reflections around a standing narrator. Assemble a folding frame and removable lining. We will borrow the practice-room test kit, but the booth's transport weight is a separate design constraint.",
+          "modality": "pdf",
+          "locator": "Booth build specification, page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Portable narration booth build aims to reduce room reflections",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Portable narration booth build aims to reduce room reflections"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Microphone calibration card C0 for the practice room acoustic lining test records a reference level of 93.6 dB. The reading belongs to the initial kit check before panel installation. The handwritten margin contains a battery inventory, not a second reference measurement.",
+          "modality": "photo",
+          "locator": "Calibration card C0 OCR",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: records a reference level of 93.6 dB.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "records a reference level of 93.6 dB."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Joint test-kit booking for the practice room acoustic lining test and portable narration booth build: leave the microphone stand at its marked height between sessions. Each project must save its own room description. A shared microphone does not make the two enclosures equivalent.",
+          "modality": "note",
+          "locator": "Test-kit booking, procedure paragraph",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Joint test-kit booking for the practice room acoustic lining test and portable narration booth build:",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Joint test-kit booking for the practice room acoustic lining test and portable narration booth build:"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [],
+          "text": "Audio fragment: 'It fell by four after we moved it.' The file contains no frequency, unit, room name or equipment identifier. The speaker stops before explaining what moved. There is no supporting photograph attached to this isolated clip.",
+          "modality": "voice",
+          "locator": "Unidentified measurement clip, 00:00–00:08",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Practice room acoustic lining test latest sheet: keep the speaker 80 cm from the north wall for the next panel comparison. The previous trial was exploratory and did not establish a final attenuation value. Blank cells on the sheet remain unmeasured.",
+          "modality": "pdf",
+          "locator": "Latest setup sheet, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: keep the speaker 80 cm from the north wall for the next panel comparison.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "keep the speaker 80 cm from the north wall for the next panel comparison."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "correct",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02",
+            "e05"
+          ],
+          "assignments": [
+            "p2"
+          ],
+          "reason": "That clip was recorded while moving the portable narration booth. Attach it to the booth build; I cannot supply the missing band or unit.",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit user correction is the authority for these memberships.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Portable narration booth build weigh-in: the frame without fabric weighs 8.4 kg. This is a transport measurement and says nothing about acoustic performance. The fabric and clips are still on the cutting table, so do not call it the total packed weight.",
+          "modality": "video",
+          "locator": "Frame weigh-in extracted speech, 00:25–00:40",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the frame without fabric weighs 8.4 kg.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "the frame without fabric weighs 8.4 kg."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "records a reference level of 93.6 dB."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "restore",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e09"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "records a reference level of 93.6 dB."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "An article on reflection control was saved as background for the portable narration booth build. The examples concern fixed recording rooms with heavy wall treatment. They do not report measurements for our folding frame or establish its eventual acoustic result.",
+          "modality": "link",
+          "locator": "Fictional reflection article, examples section",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "The captured text supports this relationship: saved as background for the portable narration booth build.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "saved as background for the portable narration booth build."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "archive",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e10"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "records a reference level of 93.6 dB."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e06",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What frequency band does the four-unit drop in the unidentified clip describe?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No frequency band or unit is stated; neither can be inferred from the projects."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e09",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Recover the archived calibration card C0's initial reference level.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "records a reference level of 93.6 dB."
+            }
+          ],
+          "rationale": "C0 is an archived, unrevised initial calibration artifact at this prefix."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "Where does the latest room-lining setup sheet say to put the speaker for the next comparison?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s06",
+              "revision": 0,
+              "quote": "keep the speaker 80 cm from the north wall for the next panel comparison."
+            }
+          ],
+          "rationale": "The latest active setup sheet uniquely supplies the requested placement."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Recover the shared test-kit rule about the microphone stand.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "leave the microphone stand at its marked height between sessions."
+            }
+          ],
+          "rationale": "The kit booking is a genuine coordination source for both projects."
+        }
+      ]
+    },
+    {
+      "id": "dev07",
+      "family": "glacier-kit-manifest-weight-substitution",
+      "description": "An equipment manifest changes twice while a marker survey shares only a transport allocation.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Glacier instrument kit packing"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Glacier marker photography survey"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Glacier instrument kit packing, original manifest: allocate three rigid sample cases to the east sled. This fictional field exercise tracks packed instruments and their containers. Spare mittens are personal equipment and will not be counted in the instrument manifest.",
+          "modality": "note",
+          "locator": "Kit manifest, original text",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: allocate three rigid sample cases to the east sled.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "allocate three rigid sample cases to the east sled."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Glacier marker photography survey will repeat photographs of five artificial marker poles on a simulated ice course. The instrument-packing group is lending transport space, not conducting our photographs. Save viewpoints and marker labels in this survey record.",
+          "modality": "pdf",
+          "locator": "Marker photography brief, page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Glacier marker photography survey will repeat photographs of five artificial marker poles",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Glacier marker photography survey will repeat photographs of five artificial marker poles"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Shared sled allocation for glacier instrument kit packing and the glacier marker photography survey: camera bags travel under the blue cover while instrument cases use the exposed rack. Both teams will verify strap access before loading; each keeps its own equipment inventory.",
+          "modality": "photo",
+          "locator": "Shared sled sketch OCR, caption",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Shared sled allocation for glacier instrument kit packing and the glacier marker photography survey:",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Shared sled allocation for glacier instrument kit packing and the glacier marker photography survey:"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Glacier instrument kit packing, revised manifest: allocate two rigid sample cases to the east sled. The third case has been replaced by a soft accessory pouch after the practice weigh-in. The pouch still belongs to the instrument kit and requires its own label.",
+          "locator": "Kit manifest, revision after practice weigh-in",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "This note revision changes content while preserving its established memberships.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 1,
+                "quote": "allocate two rigid sample cases to the east sled."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e02",
+            "e03"
+          ],
+          "text": "Marker photography survey setup: marker M3 must be photographed from the orange tripod spot. The frame should include its entire label, even if that leaves more empty background. This instruction records a repeatable viewpoint rather than a change to the shared sled allocation.",
+          "modality": "voice",
+          "locator": "M3 viewpoint dictation, 00:10–00:27",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: marker M3 must be photographed from the orange tripod spot.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "marker M3 must be photographed from the orange tripod spot."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [],
+          "text": "Packing-bench note: 'Take the spare, leave the tall one.' Two item names are covered by a coffee stain. Nothing visible identifies a marker, instrument or container. The note might concern personal clothing, so it has no confirmed project placement yet.",
+          "modality": "photo",
+          "locator": "Coffee-stained bench note OCR",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "A camera battery guide is background reading for the glacier marker photography survey. The chart compares fictional cold-chamber trials, not our kit's measured endurance. Our survey has not yet recorded how long either camera battery lasts on the simulated course.",
+          "modality": "link",
+          "locator": "Fictional battery guide, cold-chamber chart",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "The captured text supports this relationship: background reading for the glacier marker photography survey.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "background reading for the glacier marker photography survey."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "correct",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e06"
+          ],
+          "assignments": [
+            "p1"
+          ],
+          "reason": "File the stained note with glacier instrument kit packing. I wrote it at that bench, but the covered item names are no longer legible.",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit user correction is the authority for these memberships.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Glacier instrument kit packing weigh-in slip: the empty east sled weighs 6.2 kg. This excludes all containers, covers and straps. The slip is a measurement of the transport base and cannot be used as the final load weight.",
+          "modality": "pdf",
+          "locator": "Empty-sled weigh-in slip, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the empty east sled weighs 6.2 kg.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "the empty east sled weighs 6.2 kg."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01",
+            "e04",
+            "e09"
+          ],
+          "text": "Glacier instrument kit packing, final practice manifest: allocate one rigid sample case to the east sled. A second soft pouch now holds the nonfragile accessories. Keep the rigid case nearest the tow end; the empty sled's weigh-in is recorded separately.",
+          "locator": "Kit manifest, final practice revision",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "This note revision changes content while preserving its established memberships.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 2,
+                "quote": "allocate one rigid sample case to the east sled."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Glacier marker photography survey contact sheet: M2 has a blurred label and needs a repeat image. The neighboring M1 frame is legible. The accidental picture of a lunch flask carries no marker information and can be ignored during viewpoint comparison.",
+          "modality": "photo",
+          "locator": "Marker contact sheet OCR, annotations",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: M2 has a blurred label and needs a repeat image.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "M2 has a blurred label and needs a repeat image."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [],
+          "text": "Personal trip reminder: replace the zipper pull on the old green bag. The repair does not involve the simulated glacier field equipment or the camera survey. A paper receipt is in the bag's inner pocket beside a bus ticket.",
+          "modality": "note",
+          "locator": "Personal zipper reminder",
+          "gold": {
+            "memberships": [],
+            "disposition": "independent",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e06",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "In the original kit manifest before any revisions, how many rigid sample cases were allocated to the east sled?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 0,
+              "quote": "allocate three rigid sample cases to the east sled."
+            }
+          ],
+          "rationale": "The original manifest is superseded by revision 1 but its source is active."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e06",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "Which item is called 'the tall one' on the stained packing-bench note?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The item names are physically obscured and no other source decodes them."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What does the final practice manifest currently allocate to the east sled in rigid sample cases?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 2,
+              "quote": "allocate one rigid sample case to the east sled."
+            }
+          ],
+          "rationale": "Only revision 2 is current; earlier manifest counts are retained history."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Recover the active shared allocation separating camera bags from instrument cases on the sled.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "camera bags travel under the blue cover while instrument cases use the exposed rack."
+            }
+          ],
+          "rationale": "The coordination sketch explicitly belongs to both projects."
+        }
+      ]
+    },
+    {
+      "id": "dev08",
+      "family": "tool-loan-grace-policy-repair-intake-link",
+      "description": "A neighborhood tool library changes its return allowance while a repair day shares intake paperwork.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Tool library return-policy trial"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Saturday drill repair clinic"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Tool library return-policy trial will track whether clearer return reminders reduce overdue items. The trial covers loan wording and reminder cards. Repair diagnosis remains a separate activity, although borrowers may bring tools to the Saturday clinic when returning them.",
+          "modality": "note",
+          "locator": "Return-policy trial brief",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Tool library return-policy trial will track whether clearer return reminders reduce overdue items.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Tool library return-policy trial will track whether clearer return reminders reduce overdue items."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Saturday drill repair clinic will inspect three donated cordless drills and document repair decisions. Borrower loan history is relevant only when a returned drill enters the clinic. The clinic is volunteer maintenance work, not an extension of every tool-library loan.",
+          "modality": "voice",
+          "locator": "Repair clinic kickoff, 00:00–00:20",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Saturday drill repair clinic will inspect three donated cordless drills",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Saturday drill repair clinic will inspect three donated cordless drills"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [],
+          "text": "Counter intake sheet: record the tool number, return condition and inspection queue position. The form has no printed project heading, and its footer is smudged. It could support returns or repairs; the surviving text does not establish which team adopted it.",
+          "modality": "photo",
+          "locator": "Unheaded counter intake form OCR",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Tool library return-policy trial, first approved wording: allow a two-day grace period after the due date. Send the reminder on the following morning. This is a fictional process trial; no actual borrower account or fee is changed by this document.",
+          "modality": "note",
+          "locator": "Return wording note, first approval",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: allow a two-day grace period after the due date.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "allow a two-day grace period after the due date."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "correct",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e03"
+          ],
+          "assignments": [
+            "p1",
+            "p2"
+          ],
+          "reason": "Use the counter intake sheet for both the tool library return-policy trial and Saturday drill repair clinic. We adopted one form for returns that enter the repair queue.",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit user correction is the authority for these memberships.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Saturday drill repair clinic inspection card D2: the chuck sleeve binds when turned by hand. The battery pack was removed before this observation. No replacement part has been selected, and this card does not authorize lending the drill again.",
+          "modality": "pdf",
+          "locator": "Drill D2 inspection card, page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the chuck sleeve binds when turned by hand.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "the chuck sleeve binds when turned by hand."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "revise",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e04"
+          ],
+          "text": "Tool library return-policy trial, updated approval: allow a four-day grace period after the due date. The trial coordinator extended the allowance to cover the new closed day. Reminder wording must use this current interval; the earlier approval remains part of the record.",
+          "locator": "Return wording note, closed-day revision",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "This note revision changes content while preserving its established memberships.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 1,
+                "quote": "allow a four-day grace period after the due date."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Tool library return-policy trial reminder layout: put the due date above the return location in large type. The illustration of a drill is decorative and does not identify an item in the repair clinic. Borrower names will be filled in outside this fictional example.",
+          "modality": "photo",
+          "locator": "Reminder card mockup OCR",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: put the due date above the return location in large type.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "put the due date above the return location in large type."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02",
+            "e06"
+          ],
+          "text": "A drill-parts catalog is background reading for the Saturday drill repair clinic. Several models use similar-looking chuck sleeves. The page does not identify the model of D2 or prove that any listed sleeve will fit the donated tool.",
+          "modality": "link",
+          "locator": "Fictional drill-parts catalog, sleeves page",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "The captured text supports this relationship: background reading for the Saturday drill repair clinic.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "background reading for the Saturday drill repair clinic."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "Loose voice memo: 'Ask the owner about the crack underneath.' No tool number, owner name or location is spoken. A drawer closing hides the preceding sentence. The memo cannot establish whether the crack belongs to a drill, its case or something else.",
+          "modality": "voice",
+          "locator": "Unidentified crack memo, 00:03–00:11",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "archive",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02",
+            "e06"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "the chuck sleeve binds when turned by hand."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "restore",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02",
+            "e06",
+            "e11"
+          ],
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "the chuck sleeve binds when turned by hand."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e08",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Recover the first approved return-wording note before its closed-day revision: what grace period did it allow?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "allow a two-day grace period after the due date."
+            }
+          ],
+          "rationale": "The original approval is a superseded revision of an active note."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "How long is the grace period in the currently approved return-wording note?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 1,
+              "quote": "allow a four-day grace period after the due date."
+            }
+          ],
+          "rationale": "Revision 1 is the active approval and uniquely answers the requested policy interval."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Find the active intake sheet explicitly adopted for both the return-policy trial and repair clinic.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "record the tool number, return condition and inspection queue position."
+            }
+          ],
+          "rationale": "The explicit correction authorizes shared membership even though the form itself lacks a heading."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "Which tool number is mentioned in the loose crack memo?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "No tool number is audible, and no clarification identifies the tool."
+        }
+      ]
+    },
+    {
+      "id": "dev09",
+      "family": "print-edition-numbering-proof-exhibition-boundary",
+      "description": "An edition's numbered run changes while exhibition captions reuse an approved proof without turning display copy into a numbering decision.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Estuary linocut edition numbering"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Estuary print exhibition captions"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Estuary linocut edition numbering, initial plan: number the sale edition from 1/24 through 24/24. Artist proofs remain outside that sequence and use lettered marks. The work is a fictional printmaking exercise; this notebook records numbering decisions as they evolve.",
+          "modality": "note",
+          "locator": "Edition numbering notebook, initial plan",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: number the sale edition from 1/24 through 24/24.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "number the sale edition from 1/24 through 24/24."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Estuary print exhibition captions will explain the linocut's process and distinguish editioned prints from artist proofs. We are writing gallery labels, not deciding how many prints to sell. The numbering notebook is controlled by the printmaker.",
+          "modality": "pdf",
+          "locator": "Exhibition caption brief, page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Estuary print exhibition captions will explain the linocut's process",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Estuary print exhibition captions will explain the linocut's process"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Proof approval sheet for Estuary linocut edition numbering and Estuary print exhibition captions: use artist proof B as the visual reference. Its margin shows the intended signature position; the exhibition photographer will crop outside that margin only for the wall illustration.",
+          "modality": "photo",
+          "locator": "Joint proof approval sheet OCR",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Proof approval sheet for Estuary linocut edition numbering and Estuary print exhibition captions:",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Proof approval sheet for Estuary linocut edition numbering and Estuary print exhibition captions:"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [],
+          "text": "Numbering bench clip: 'Stop before the damaged corner.' The camera was facing the ceiling, and the next words are inaudible. There is no sheet count or print identifier in the extraction. The damaged object could be a print, mount or packing board.",
+          "modality": "video",
+          "locator": "Unidentified bench clip, extracted speech 00:17–00:25",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Estuary linocut edition numbering, paper-loss revision: number the sale edition from 1/20 through 20/20. Four sheets failed the final margin check before numbering began. Artist proofs remain lettered and are not included in this reduced sale edition.",
+          "locator": "Edition numbering notebook, paper-loss revision",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "This note revision changes content while preserving its established memberships.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 1,
+                "quote": "number the sale edition from 1/20 through 20/20."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Estuary print exhibition captions draft: the wall text should call the process a two-block linocut. Describe the pale ink layer before the darker key block. This draft does not state an edition size, because numbering is still controlled in the printmaker's notebook.",
+          "modality": "note",
+          "locator": "Wall caption draft, process paragraph",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the wall text should call the process a two-block linocut.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "the wall text should call the process a two-block linocut."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Estuary linocut edition numbering desk photograph: completed numbers are written below the image on the left. The photographed sheet is partly under tissue, so its actual fraction cannot be read. The photo confirms placement only, not the total edition count.",
+          "modality": "photo",
+          "locator": "Numbering desk OCR, annotation",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: completed numbers are written below the image on the left.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "completed numbers are written below the image on the left."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "correct",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e04"
+          ],
+          "assignments": [
+            "p1"
+          ],
+          "reason": "The ceiling-facing bench clip belongs to Estuary linocut edition numbering. I cannot recover a sheet count from it; attach it only as a workshop record.",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit user correction is the authority for these memberships.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "A printmakers' glossary is background for Estuary print exhibition captions. It defines key block and registration marks using unrelated examples. The glossary does not establish facts about the Estuary edition or authorize changing the printmaker's numbering range.",
+          "modality": "link",
+          "locator": "Fictional printmakers glossary, key block entry",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "The captured text supports this relationship: background for Estuary print exhibition captions.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "background for Estuary print exhibition captions."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Estuary linocut edition numbering checkout: keep lettered artist proofs in the flat drawer, separate from the numbered sale prints. A shopping receipt tucked beside them belongs to the framing supplier and is not part of the edition record.",
+          "modality": "voice",
+          "locator": "Drawer checkout dictation, 00:05–00:21",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: keep lettered artist proofs in the flat drawer, separate from the numbered sale prints.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "keep lettered artist proofs in the flat drawer, separate from the numbered sale prints."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "archive",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e07"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "completed numbers are written below the image on the left."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "restore",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e07",
+            "e11"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "completed numbers are written below the image on the left."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e08",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "What numbering range did the initial Estuary edition plan specify before the paper-loss revision?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 0,
+              "quote": "number the sale edition from 1/24 through 24/24."
+            }
+          ],
+          "rationale": "The initial active-note revision is retained but superseded by revision 1."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e08",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "How many sheets does the ceiling-facing bench clip say had damaged corners?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The clip says no count; later assignment does not invent the missing words."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What sale-edition numbering range is currently approved in the Estuary numbering notebook?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 1,
+              "quote": "number the sale edition from 1/20 through 20/20."
+            }
+          ],
+          "rationale": "The paper-loss revision is current; caption and placement sources contain no competing range."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Which artist proof is the active shared visual reference for numbering and exhibition captions?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "use artist proof B as the visual reference."
+            }
+          ],
+          "rationale": "The approval sheet explicitly coordinates both uses of the proof."
+        }
+      ]
+    },
+    {
+      "id": "dev10",
+      "family": "insect-loan-extension-imaging-crate-handoff",
+      "description": "A specimen loan's return date changes without altering identification evidence, while an imaging project shares crate handling.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Cabinet beetle teaching loan"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Beetle specimen label imaging"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Cabinet beetle teaching loan will send a fictional drawer of pinned beetle specimens to a classroom display. Track loan terms and packing condition here. The label-imaging group is documenting the same drawer before departure, with its own image-quality checklist.",
+          "modality": "pdf",
+          "locator": "Teaching loan brief, page 1",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Cabinet beetle teaching loan will send a fictional drawer of pinned beetle specimens",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Cabinet beetle teaching loan will send a fictional drawer of pinned beetle specimens"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Beetle specimen label imaging will create readable photographs of the labels beneath six pinned specimens. This undertaking preserves label text; it does not identify specimens from appearance. The teaching loan team controls transport and return terms for the drawer.",
+          "modality": "note",
+          "locator": "Label imaging notebook, introduction",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Beetle specimen label imaging will create readable photographs of the labels beneath six pinned specimens.",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Beetle specimen label imaging will create readable photographs of the labels beneath six pinned specimens."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Drawer travel checklist for the cabinet beetle teaching loan and beetle specimen label imaging: photograph the closed drawer before fitting its foam corner blocks. The image team records seal condition; the loan team records who packed the blocks. Keep both records with their projects.",
+          "modality": "photo",
+          "locator": "Joint drawer travel checklist OCR",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Drawer travel checklist for the cabinet beetle teaching loan and beetle specimen label imaging:",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "Drawer travel checklist for the cabinet beetle teaching loan and beetle specimen label imaging:"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Beetle specimen label imaging test frame S4: the locality line is readable but the taxon line is hidden behind a pin. The extraction contains 'Ridge box 7' and a month only. No separate identification record accompanies this fictional specimen.",
+          "modality": "photo",
+          "locator": "S4 test-frame OCR, visible label lines",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the taxon line is hidden behind a pin.",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "the taxon line is hidden behind a pin."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Cabinet beetle teaching loan terms, first signed note: return the drawer by 18 November. The classroom display lasts one week. Keep the foam blocks in the transport box during display, and notify the lending cabinet before moving any pins.",
+          "modality": "note",
+          "locator": "Loan terms note, original",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: return the drawer by 18 November.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "return the drawer by 18 November."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Cabinet beetle teaching loan packing observation: the left front foam block has a shallow split and should be replaced before shipment. The drawer itself has no recorded damage. This is a packing-material observation, not an alteration of the agreed loan term.",
+          "modality": "voice",
+          "locator": "Packing observation, 00:09–00:24",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the left front foam block has a shallow split",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "the left front foam block has a shallow split"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "revise",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e01",
+            "e05",
+            "e06"
+          ],
+          "text": "Cabinet beetle teaching loan terms, signed extension: return the drawer by 25 November. The lender approved an extra display week. Keep the foam blocks in the transport box during display; the separate packing observation must be resolved before shipment.",
+          "locator": "Loan terms note, signed extension",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "This note revision changes content while preserving its established memberships.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 1,
+                "quote": "return the drawer by 25 November."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Beetle specimen label imaging settings card: use a neutral gray backing for label photographs. The camera's vivid preview is disabled so faded ink remains visible. This card is a capture procedure and cannot reconstruct label characters hidden by a pin.",
+          "modality": "pdf",
+          "locator": "Imaging settings card, page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: use a neutral gray backing for label photographs.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "use a neutral gray backing for label photographs."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "Loose transport slip: 'Box 3 to the side door.' No destination, collection name or drawer number is legible. Similar slips are used for teaching kits and cleaning supplies. The words do not establish a connection to this specimen loan.",
+          "modality": "photo",
+          "locator": "Loose transport slip OCR",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "correct",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01",
+            "e09"
+          ],
+          "assignments": [
+            "p1"
+          ],
+          "reason": "The box-3 slip belongs to the cabinet beetle teaching loan packing, not the imaging project. It still does not name the destination.",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit user correction is the authority for these memberships.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [
+            "e02",
+            "e04"
+          ],
+          "text": "A mounting guide is background reading for beetle specimen label imaging. It illustrates labels at several heights using unrelated insect examples. The depicted species names do not identify specimen S4, whose taxon line remains hidden in our captured frame.",
+          "modality": "link",
+          "locator": "Fictional mounting guide, label-height examples",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "The captured text supports this relationship: background reading for beetle specimen label imaging.",
+            "evidence": [
+              {
+                "sourceId": "s09",
+                "revision": 0,
+                "quote": "background reading for beetle specimen label imaging."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s10",
+          "dependsOn": [
+            "e01",
+            "e06",
+            "e07"
+          ],
+          "text": "Cabinet beetle teaching loan completion note: the replacement corner block is fitted and the drawer is ready for dispatch inspection. The final dispatch signature has not been recorded yet. The signed extension remains the source of the return deadline.",
+          "modality": "note",
+          "locator": "Loan packing completion note",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the replacement corner block is fitted",
+            "evidence": [
+              {
+                "sourceId": "s10",
+                "revision": 0,
+                "quote": "the replacement corner block is fitted"
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e05",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What species name is written on specimen S4's hidden taxon line?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The hidden line is not available in extracted text and there is no identification record."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e08",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Before the signed extension, what return date did the original loan-terms note require?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 0,
+              "quote": "return the drawer by 18 November."
+            }
+          ],
+          "rationale": "The source stays active while its first revision is superseded."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What return date is required by the current signed loan-terms note?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s05",
+              "revision": 1,
+              "quote": "return the drawer by 25 November."
+            }
+          ],
+          "rationale": "Revision 1 alone supplies the current deadline; the completion note merely refers to it."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Find the shared instruction that orders drawer photography before foam-block fitting.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "photograph the closed drawer before fitting its foam corner blocks."
+            }
+          ],
+          "rationale": "The joint checklist directly coordinates imaging and the teaching loan."
+        }
+      ]
+    },
+    {
+      "id": "dev11",
+      "family": "radio-slot-swap-transcript-original-poster",
+      "description": "A radio schedule swaps slots while an oral-history segment retains its separate editing work and a stale poster mention.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Tuesday community radio schedule"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Oral history segment editing"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Tuesday community radio schedule coordinates the fictional station's evening broadcast blocks. Log every approved slot change and leave unfinished edits to their production teams. The oral-history segment is one item in the running order, not the whole scheduling project.",
+          "modality": "note",
+          "locator": "Tuesday schedule brief",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Tuesday community radio schedule coordinates the fictional station's evening broadcast blocks.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "Tuesday community radio schedule coordinates the fictional station's evening broadcast blocks."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Oral history segment editing will assemble a six-minute story about the old riverside workshop. Our sources are fictional interview transcripts. The schedule team decides the broadcast slot; this editing notebook tracks cuts, attribution and the final audio handoff.",
+          "modality": "voice",
+          "locator": "Editing kickoff transcript, 00:02–00:21",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Oral history segment editing will assemble a six-minute story",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Oral history segment editing will assemble a six-minute story"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Tuesday community radio schedule, first running order: place the oral-history segment at 19:12. Follow it with the volunteer announcements. This initial order is approved for rehearsal; a later approved edit may change the slot before the fictional transmission.",
+          "modality": "note",
+          "locator": "Running order note, rehearsal approval",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: place the oral-history segment at 19:12.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "place the oral-history segment at 19:12."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02"
+          ],
+          "text": "Joint handoff for Tuesday community radio schedule and oral history segment editing: deliver a six-minute file with three seconds of clean room tone at the tail. The schedule operator checks duration while the editor checks that no interview word was clipped.",
+          "modality": "pdf",
+          "locator": "Shared audio handoff checklist, page 1",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Joint handoff for Tuesday community radio schedule and oral history segment editing:",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Joint handoff for Tuesday community radio schedule and oral history segment editing:"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Oral history segment editing cut list: retain the narrator's sentence about the workshop bell. The interviewee's next line is truncated in the supplied transcript and must not be reconstructed from memory. The editor has left a flagged gap in the assembly.",
+          "modality": "note",
+          "locator": "Segment cut list, bell passage",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: retain the narrator's sentence about the workshop bell.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "retain the narrator's sentence about the workshop bell."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "revise",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e04"
+          ],
+          "text": "Tuesday community radio schedule, first slot swap: place the oral-history segment at 19:26. The announcements move ahead of it to accommodate a volunteer's arrival. This revision replaces the rehearsal running order; the audio handoff length remains unchanged.",
+          "locator": "Running order note, first slot swap",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "This note revision changes content while preserving its established memberships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 1,
+                "quote": "place the oral-history segment at 19:26."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e03",
+            "e06"
+          ],
+          "text": "Poster-check voice memo for Tuesday community radio schedule: 'The rehearsal poster still says 19:12 for the oral history.' This is a report about an old poster, not approval to revert the running order. The poster photograph itself was not saved.",
+          "modality": "voice",
+          "locator": "Poster-check memo, 00:00–00:15",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: This is a report about an old poster, not approval to revert the running order.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "This is a report about an old poster, not approval to revert the running order."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Oral history segment editing listening check: the opening music masks the first consonant of the introduction. Lower the music under that sentence. This mix note does not give a broadcast time and does not change the schedule team's running order.",
+          "modality": "video",
+          "locator": "Listening check extracted speech, 00:31–00:46",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Lower the music under that sentence.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "Lower the music under that sentence."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "revise",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01",
+            "e04",
+            "e06"
+          ],
+          "text": "Tuesday community radio schedule, final running order: place the oral-history segment at 19:30. A four-minute station notice now precedes it. This final approval supersedes the first slot swap; the segment's six-minute content and clean tail are unchanged.",
+          "locator": "Running order note, final approval",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "This note revision changes content while preserving its established memberships.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 2,
+                "quote": "place the oral-history segment at 19:30."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "A pacing article is background for oral history segment editing. It compares pauses in unrelated radio documentaries. Its sample running orders belong to those productions and do not alter the Tuesday community station's final schedule or supply missing interview words.",
+          "modality": "link",
+          "locator": "Fictional radio pacing article, pause examples",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p2"
+            ],
+            "rationale": "The captured text supports this relationship: background for oral history segment editing.",
+            "evidence": [
+              {
+                "sourceId": "s08",
+                "revision": 0,
+                "quote": "background for oral history segment editing."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "archive",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e07"
+          ],
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Visibility changes only; preserve source revision and established relationships.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "This is a report about an old poster, not approval to revert the running order."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [
+            "e01",
+            "e09"
+          ],
+          "text": "Tuesday community radio schedule operator card: cue the identification jingle before opening the evening blocks. The card points to the current running-order note for times and intentionally repeats no slot figures. A penciled coffee order in the margin is unrelated.",
+          "modality": "photo",
+          "locator": "Operator cue card OCR",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: cue the identification jingle before opening the evening blocks.",
+            "evidence": [
+              {
+                "sourceId": "s09",
+                "revision": 0,
+                "quote": "cue the identification jingle before opening the evening blocks."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e07",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Recover the first approved running-order note itself, before the slot swap: what time did it assign the oral-history segment?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 0,
+              "quote": "place the oral-history segment at 19:12."
+            }
+          ],
+          "rationale": "The question specifically requests the original note, excluding the later poster report; its source is active and revision 0 is superseded."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e07",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What were the interviewee's missing words after the workshop-bell passage?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "The transcript is truncated and no captured source supplies those words."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "What time does the final current running-order note assign to the oral-history segment?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s03",
+              "revision": 2,
+              "quote": "place the oral-history segment at 19:30."
+            }
+          ],
+          "rationale": "The final revision is authoritative; a newer mention of the old poster never superseded it."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Recover the current shared audio-delivery requirement for the schedule operator and segment editor.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "deliver a six-minute file with three seconds of clean room tone at the tail."
+            }
+          ],
+          "rationale": "The active handoff checklist remains valid across slot changes."
+        }
+      ]
+    },
+    {
+      "id": "dev12",
+      "family": "roof-runoff-layout-gauge-cable-revision",
+      "description": "A roof collection sketch changes outlet position while an independent gauge study shares a mounting route.",
+      "projects": [
+        {
+          "id": "p1",
+          "rootSourceId": "s01",
+          "title": "Shed roof rainwater collector"
+        },
+        {
+          "id": "p2",
+          "rootSourceId": "s02",
+          "title": "Garden rainfall gauge logging"
+        }
+      ],
+      "events": [
+        {
+          "id": "e01",
+          "kind": "capture",
+          "sourceId": "s01",
+          "dependsOn": [],
+          "text": "Shed roof rainwater collector, first layout note: put the collection barrel at the northeast corner. This fictional garden build captures runoff for a nonpotable demonstration. Record layout changes here; the rainfall-gauge study measures weather separately and does not control the collector design.",
+          "modality": "note",
+          "locator": "Collector layout note, first sketch transcription",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: put the collection barrel at the northeast corner.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 0,
+                "quote": "put the collection barrel at the northeast corner."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e02",
+          "kind": "capture",
+          "sourceId": "s02",
+          "dependsOn": [],
+          "text": "Garden rainfall gauge logging will compare manual readings with a small electronic counter over a month. The shed roof collector is a neighboring build, not a calibration reference. We will share a cable support if it leaves the gauge rim unobstructed.",
+          "modality": "pdf",
+          "locator": "Gauge logging brief, page 1",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Garden rainfall gauge logging will compare manual readings with a small electronic counter",
+            "evidence": [
+              {
+                "sourceId": "s02",
+                "revision": 0,
+                "quote": "Garden rainfall gauge logging will compare manual readings with a small electronic counter"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e03",
+          "kind": "capture",
+          "sourceId": "s03",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "Shed roof rainwater collector inspection photo: the northeast corner sits beside a door swing. The chalk rectangle is a proposed barrel footprint, not an installed tank. The note on the door says to keep the access path clear for moving garden tools.",
+          "modality": "photo",
+          "locator": "Northeast corner inspection OCR",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the northeast corner sits beside a door swing.",
+            "evidence": [
+              {
+                "sourceId": "s03",
+                "revision": 0,
+                "quote": "the northeast corner sits beside a door swing."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e04",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01",
+            "e03"
+          ],
+          "text": "Shed roof rainwater collector, door-clearance revision: put the collection barrel at the northwest corner. Route the demonstration downpipe along the rear edge so the door can open. This replaces the first sketch; final mounting positions still need a site check.",
+          "locator": "Collector layout note, door-clearance revision",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "This note revision changes content while preserving its established memberships.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 1,
+                "quote": "put the collection barrel at the northwest corner."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e05",
+          "kind": "capture",
+          "sourceId": "s04",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e04"
+          ],
+          "text": "Shared support plan for the shed roof rainwater collector and garden rainfall gauge logging: fix the gauge cable clips to the outer face of the collector's rear support. Leave the gauge rim clear. The shared support does not turn rainfall readings into collected-water measurements.",
+          "modality": "note",
+          "locator": "Shared rear-support plan",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: Shared support plan for the shed roof rainwater collector and garden rainfall gauge logging:",
+            "evidence": [
+              {
+                "sourceId": "s04",
+                "revision": 0,
+                "quote": "Shared support plan for the shed roof rainwater collector and garden rainfall gauge logging:"
+              }
+            ]
+          }
+        },
+        {
+          "id": "e06",
+          "kind": "capture",
+          "sourceId": "s05",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Gauge logging voice check: the counter registered 11 pulses during the hand-poured test. We did not record the poured volume. This verifies that pulses were counted, but it cannot establish millimeters per pulse or provide a calibrated rainfall conversion.",
+          "modality": "voice",
+          "locator": "Counter test transcript, 00:04–00:22",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: We did not record the poured volume.",
+            "evidence": [
+              {
+                "sourceId": "s05",
+                "revision": 0,
+                "quote": "We did not record the poured volume."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e07",
+          "kind": "capture",
+          "sourceId": "s06",
+          "dependsOn": [
+            "e01",
+            "e04"
+          ],
+          "text": "Shed roof rainwater collector site check: the rear support has clear space on its west side for the final barrel pad. A stack of spare tiles has been moved away. This site observation informs the next layout decision without itself changing the written plan.",
+          "modality": "video",
+          "locator": "Rear support site check, narration 00:12–00:30",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: the rear support has clear space on its west side for the final barrel pad.",
+            "evidence": [
+              {
+                "sourceId": "s06",
+                "revision": 0,
+                "quote": "the rear support has clear space on its west side for the final barrel pad."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e08",
+          "kind": "revise",
+          "sourceId": "s01",
+          "dependsOn": [
+            "e01",
+            "e04",
+            "e05",
+            "e07"
+          ],
+          "text": "Shed roof rainwater collector, final layout note: put the collection barrel midway along the west wall. The pad fits the checked clearance beside the rear support. The gauge cable clips stay on the support's outer face under the separate shared support plan.",
+          "locator": "Collector layout note, final site approval",
+          "gold": {
+            "memberships": [
+              "p1"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "This note revision changes content while preserving its established memberships.",
+            "evidence": [
+              {
+                "sourceId": "s01",
+                "revision": 2,
+                "quote": "put the collection barrel midway along the west wall."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e09",
+          "kind": "capture",
+          "sourceId": "s07",
+          "dependsOn": [
+            "e02"
+          ],
+          "text": "Garden rainfall gauge logging sheet: read the manual gauge at 08:00 each morning for this exercise. Leave a blank when nobody records a reading, rather than copying yesterday's value. The schedule is for observations and does not specify a conversion for counter pulses.",
+          "modality": "photo",
+          "locator": "Gauge observation sheet OCR, instructions",
+          "gold": {
+            "memberships": [
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "The captured text supports this relationship: read the manual gauge at 08:00 each morning for this exercise.",
+            "evidence": [
+              {
+                "sourceId": "s07",
+                "revision": 0,
+                "quote": "read the manual gauge at 08:00 each morning for this exercise."
+              }
+            ]
+          }
+        },
+        {
+          "id": "e10",
+          "kind": "capture",
+          "sourceId": "s08",
+          "dependsOn": [],
+          "text": "Small hardware bag label: 'four clips, rear support.' The project name is absent and both teams have ordered clips. The label does not identify the cable diameter or demonstrate which support face was intended. Keep its assignment open pending clarification.",
+          "modality": "photo",
+          "locator": "Unassigned hardware bag OCR",
+          "gold": {
+            "memberships": [],
+            "disposition": "unresolved",
+            "relatedProjects": [],
+            "rationale": "The available text does not identify a continuing undertaking.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e11",
+          "kind": "correct",
+          "sourceId": "s08",
+          "dependsOn": [
+            "e01",
+            "e02",
+            "e05",
+            "e10"
+          ],
+          "assignments": [
+            "p1",
+            "p2"
+          ],
+          "reason": "The four clips in that bag are for the shared rear support used by both the roof collector and rainfall gauge logging. Attach the bag label to both projects.",
+          "gold": {
+            "memberships": [
+              "p1",
+              "p2"
+            ],
+            "disposition": "confirmed",
+            "relatedProjects": [],
+            "rationale": "Explicit user correction is the authority for these memberships.",
+            "evidence": []
+          }
+        },
+        {
+          "id": "e12",
+          "kind": "capture",
+          "sourceId": "s09",
+          "dependsOn": [
+            "e01"
+          ],
+          "text": "An article about roof runoff losses is background for the shed roof rainwater collector. It uses an example roof much larger than our shed and gives no local collection measurement. Its sample tank placement is illustrative, not an amendment to our final layout.",
+          "modality": "link",
+          "locator": "Fictional runoff article, worked example",
+          "gold": {
+            "memberships": [],
+            "disposition": "related",
+            "relatedProjects": [
+              "p1"
+            ],
+            "rationale": "The captured text supports this relationship: background for the shed roof rainwater collector.",
+            "evidence": [
+              {
+                "sourceId": "s09",
+                "revision": 0,
+                "quote": "background for the shed roof rainwater collector."
+              }
+            ]
+          }
+        }
+      ],
+      "tasks": [
+        {
+          "id": "q1",
+          "atEvent": "e06",
+          "mode": "uncertain",
+          "scope": "current",
+          "question": "What millimeters-per-pulse calibration follows from the hand-poured counter test?",
+          "answerable": false,
+          "expectedEvidence": [],
+          "rationale": "Neither poured volume nor a calibration factor is recorded, so the pulses alone cannot answer."
+        },
+        {
+          "id": "q2",
+          "atEvent": "e08",
+          "mode": "historical",
+          "scope": "includeHistory",
+          "question": "Where did the collector's original first-layout note place the barrel, before either revision?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 0,
+              "quote": "put the collection barrel at the northeast corner."
+            }
+          ],
+          "rationale": "Revision 0 of the active layout note is superseded twice; the question disambiguates it from the later site photo."
+        },
+        {
+          "id": "q3",
+          "atEvent": "e12",
+          "mode": "current",
+          "scope": "current",
+          "question": "Where does the final current collector layout note put the barrel?",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s01",
+              "revision": 2,
+              "quote": "put the collection barrel midway along the west wall."
+            }
+          ],
+          "rationale": "The final revision establishes the current position; background examples and earlier observations do not change it."
+        },
+        {
+          "id": "q4",
+          "atEvent": "e12",
+          "mode": "overlap",
+          "scope": "current",
+          "question": "Recover the shared support plan's instruction for where to fasten the gauge cable clips.",
+          "answerable": true,
+          "expectedEvidence": [
+            {
+              "sourceId": "s04",
+              "revision": 0,
+              "quote": "fix the gauge cable clips to the outer face of the collector's rear support."
+            }
+          ],
+          "rationale": "The question specifically requests the shared support plan, so the layout note's later repetition of the support face is not the requested document. The hardware label does not specify the face."
+        }
+      ]
+    }
+  ]
+}

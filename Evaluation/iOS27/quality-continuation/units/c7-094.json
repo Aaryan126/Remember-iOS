@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-094/raw.json",
+  "rawSHA256": "9a66c516d7fb3e585d09afb88b142b6ca0193925a4a8fc3f8dad0453e8069700",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.689304041668947,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.750000127591193e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22215187500114553,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26962358333548764,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2706792500030133,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.6877606666676,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "e4f460ccd162dec78249af9324468d3da9b47edde80153d4ecbaa561c3669439",
+      "contextSize": 4096,
+      "generationSeconds": 4.416391041668248,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Camera placement, volunteer counts and the final population report are deliverables of grant OT-42",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "It is not part of the otter census, although volunteers use the same river transects",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources mention distinct survey types\u2014otter census and reedbed survey\u2014with no shared project identifier.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-094"
+  }
+}

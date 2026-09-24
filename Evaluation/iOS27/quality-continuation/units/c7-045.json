@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-045/raw.json",
+  "rawSHA256": "eb178673b51b96d0740b97c33bad9c6d6b78bce90df1a3afdd10e4a577527d4d",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.3005341250027413,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.166672053746879e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22289483333588578,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2689200000022538,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2699028749993886,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.2994072916699224,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "7ddfb30d85e0d906688fa000858364f8af91ac8332a10a2614d91095c692bf5c",
+      "contextSize": 4096,
+      "generationSeconds": 3.0288974166687694,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal also commissioned a harbour weather bulletin.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "The producer approved that harbour segment.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference distinct programmes: 'harbour weather bulletin' and 'night-shift oral-history episode'.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-045"
+  }
+}

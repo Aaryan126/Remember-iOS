@@ -1,0 +1,688 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "pdf",
+        "text": "Courtyard ceramic catalogue records pottery recovered from the gridded courtyard trench. Each entry preserves the find bag identifier even when a vessel interpretation changes. The catalogue is not the refit study of material from the separate kiln dump."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7323c8de2be80af5bdc87e5e64495d4551ce9ef9065a5b2f803ee60bd8ce6be4"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "note",
+        "text": "Kiln dump refit study tests joins among fragments collected outside the old firing chamber. Refits receive temporary letters before a final drawing. The study retains its own find records rather than treating all ceramic pieces as one assemblage."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7323c8de2be80af5bdc87e5e64495d4551ce9ef9065a5b2f803ee60bd8ce6be4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ee2e87c6e3db6903f554f63042848d30d2c112fba291eace4b4080901ee57c5e"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "note",
+        "text": "Courtyard ceramic catalogue provisionally lists sherd C27 as a bowl rim. The curved edge looks finished, but the break beneath it has not been checked under magnification. Keep the provisional description beside the bag identifier until that inspection is complete."
+      }
+    },
+    {
+      "assignments": [
+        "t:c04"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7323c8de2be80af5bdc87e5e64495d4551ce9ef9065a5b2f803ee60bd8ce6be4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ee2e87c6e3db6903f554f63042848d30d2c112fba291eace4b4080901ee57c5e"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "12f62441f6eb80782d1a0b55c5b6f37c15b93997668a461c7a9e21686c001211"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "image",
+        "text": "A scale strip lies next to a reddish fragment with a blackened edge. The photograph crops out the bag label and the tray name. Only the scale ticks and a pencilled question mark are legible; the fragment cannot be assigned from this extraction."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7323c8de2be80af5bdc87e5e64495d4551ce9ef9065a5b2f803ee60bd8ce6be4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ee2e87c6e3db6903f554f63042848d30d2c112fba291eace4b4080901ee57c5e"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "12f62441f6eb80782d1a0b55c5b6f37c15b93997668a461c7a9e21686c001211"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "21ff9872690d25acce41502a47e2654cced440f79b089e5f606c70263c5956c5"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "voice",
+        "text": "Courtyard ceramic catalogue and Kiln dump refit study share photography board PB4 during the afternoon documentation session. Each tray is photographed separately with its own label. Sharing the board is a practical arrangement, not evidence that the fragments join."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7323c8de2be80af5bdc87e5e64495d4551ce9ef9065a5b2f803ee60bd8ce6be4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "18df194a283869cd1054674e2c8d73c4de6fd8f6100c92979d77eedb0f87050b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "12f62441f6eb80782d1a0b55c5b6f37c15b93997668a461c7a9e21686c001211"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "21ff9872690d25acce41502a47e2654cced440f79b089e5f606c70263c5956c5"
+        }
+      },
+      "id": "e06",
+      "kind": "revise",
+      "target": "localc03",
+      "text": "Courtyard ceramic catalogue now lists sherd C27 as a jar shoulder fragment. Magnification revealed that the apparent finished edge is a break. This replaces the provisional bowl-rim description while retaining the original find bag identifier."
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7323c8de2be80af5bdc87e5e64495d4551ce9ef9065a5b2f803ee60bd8ce6be4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "18df194a283869cd1054674e2c8d73c4de6fd8f6100c92979d77eedb0f87050b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "12f62441f6eb80782d1a0b55c5b6f37c15b93997668a461c7a9e21686c001211"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "21ff9872690d25acce41502a47e2654cced440f79b089e5f606c70263c5956c5"
+        }
+      },
+      "id": "e07",
+      "kind": "correct",
+      "target": "localc04"
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7323c8de2be80af5bdc87e5e64495d4551ce9ef9065a5b2f803ee60bd8ce6be4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "18df194a283869cd1054674e2c8d73c4de6fd8f6100c92979d77eedb0f87050b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "12f62441f6eb80782d1a0b55c5b6f37c15b93997668a461c7a9e21686c001211"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "21ff9872690d25acce41502a47e2654cced440f79b089e5f606c70263c5956c5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9d190b77d3b77bf5fe8a21b47a0d61990744b6076f522600aea65e620e7b0e5b"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "video",
+        "text": "Kiln dump refit study records a possible join between fragments KD8 and KD11. The dry fit has not been secured or assigned a final refit letter. A blank drawing box leaves room for the join orientation after another examination."
+      }
+    },
+    {
+      "assignments": [
+        "t:c07"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7323c8de2be80af5bdc87e5e64495d4551ce9ef9065a5b2f803ee60bd8ce6be4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "18df194a283869cd1054674e2c8d73c4de6fd8f6100c92979d77eedb0f87050b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "12f62441f6eb80782d1a0b55c5b6f37c15b93997668a461c7a9e21686c001211"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "21ff9872690d25acce41502a47e2654cced440f79b089e5f606c70263c5956c5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9d190b77d3b77bf5fe8a21b47a0d61990744b6076f522600aea65e620e7b0e5b"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "56370c1094d10eda7c635b88393a251d27a05889710e1fbdfbbab93315e4495f"
+        }
+      },
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "link",
+        "text": "A ceramic anatomy chart is background for Courtyard ceramic catalogue. It labels rims, shoulders and bases on a teaching vessel from elsewhere. Its terms help describe fragments but do not independently identify C27 or any courtyard find bag."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7323c8de2be80af5bdc87e5e64495d4551ce9ef9065a5b2f803ee60bd8ce6be4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "211aadd6b44b4e904f19f0263c2dbf018a991e75a603d0620c82140e9df38bea"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "12f62441f6eb80782d1a0b55c5b6f37c15b93997668a461c7a9e21686c001211"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "21ff9872690d25acce41502a47e2654cced440f79b089e5f606c70263c5956c5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9d190b77d3b77bf5fe8a21b47a0d61990744b6076f522600aea65e620e7b0e5b"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "56370c1094d10eda7c635b88393a251d27a05889710e1fbdfbbab93315e4495f"
+        }
+      },
+      "id": "e10",
+      "kind": "revise",
+      "target": "localc03",
+      "text": "Courtyard ceramic catalogue now lists sherd C27 as a storage-jar shoulder fragment with an applied ridge. A matching profile clarified the vessel form without changing its find context. This refines the earlier jar-shoulder description; the bag identifier remains C27."
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7323c8de2be80af5bdc87e5e64495d4551ce9ef9065a5b2f803ee60bd8ce6be4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "211aadd6b44b4e904f19f0263c2dbf018a991e75a603d0620c82140e9df38bea"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "12f62441f6eb80782d1a0b55c5b6f37c15b93997668a461c7a9e21686c001211"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "21ff9872690d25acce41502a47e2654cced440f79b089e5f606c70263c5956c5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9d190b77d3b77bf5fe8a21b47a0d61990744b6076f522600aea65e620e7b0e5b"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "56370c1094d10eda7c635b88393a251d27a05889710e1fbdfbbab93315e4495f"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c74f751c959b90fc244e698682220a8ea23b4c28fb91313e4a2563bd451b9dcd"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "image",
+        "text": "Courtyard ceramic catalogue stores the C27 working drawing in the grey folio. The location card describes the drawing's filing place only. It deliberately omits a vessel type so later catalogue refinements will not make the filing label misleading."
+      }
+    },
+    {
+      "assignments": [
+        "t:c09"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0cd6fd2f3f7919a02239f69a576690035dbe246a6c23dc357f9dee129853ef8f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7323c8de2be80af5bdc87e5e64495d4551ce9ef9065a5b2f803ee60bd8ce6be4"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "211aadd6b44b4e904f19f0263c2dbf018a991e75a603d0620c82140e9df38bea"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "12f62441f6eb80782d1a0b55c5b6f37c15b93997668a461c7a9e21686c001211"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "21ff9872690d25acce41502a47e2654cced440f79b089e5f606c70263c5956c5"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "9d190b77d3b77bf5fe8a21b47a0d61990744b6076f522600aea65e620e7b0e5b"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "56370c1094d10eda7c635b88393a251d27a05889710e1fbdfbbab93315e4495f"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c74f751c959b90fc244e698682220a8ea23b4c28fb91313e4a2563bd451b9dcd"
+        },
+        "localc09": {
+          "archived": false,
+          "memberships": [
+            "t:c09"
+          ],
+          "revision": 0,
+          "textSHA256": "88b870099db29c45cd938395e90eeb70190b0d2d890c7f527180810c9cfc3e9d"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc09",
+        "modality": "note",
+        "text": "The dig-house notice requests that empty tea tins go to the kitchen shelf. It has a sketch of a mug and no excavation grid, bag identifier, or pottery description. The note is ordinary accommodation housekeeping."
+      }
+    }
+  ],
+  "id": "history-eval08-chronological",
+  "queries": [
+    {
+      "afterEvent": "e12",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e10",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e08",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e09",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

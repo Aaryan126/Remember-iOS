@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Settling pilot cover sheet, page 1",
+      "modality": "pdf",
+      "sourceId": "s01",
+      "text": "Indigo rinse settling pilot follows one dye-house rinse batch through the small settling tub. This is an observation run, not permission to discharge water. Label every sample with the pilot name because the neighboring tub holds a different dye rinse."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Charcoal pilot notebook, first entry",
+      "modality": "note",
+      "sourceId": "s02",
+      "text": "Madder rinse charcoal pilot tracks the bench column that receives the red rinse batch. Its bottle labels and notes stay separate from the indigo settling run. The current plan is to compare appearances before deciding which laboratory analyses to request."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Extracted initial dye strip, bottle label",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "The first Indigo rinse settling pilot strip labels the sample bottle IS-2. The strip shows a pale blue smear beside the identifier, but no concentration scale. It belongs to the initial sampling round that was later set aside."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Extracted sample-room walkthrough, 00:40–01:00",
+      "modality": "video",
+      "sourceId": "s04",
+      "text": "Indigo rinse settling pilot and Madder rinse charcoal pilot share collection tray T6 beneath their sealed sample bottles. The bottles remain closed and retain separate labels. A tray spill would be logged for both pilots without declaring the samples identical."
+    },
+    {
+      "id": "e05",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Extracted cupboard memo, 00:00–00:13",
+      "modality": "voice",
+      "sourceId": "s05",
+      "text": "Please return the custody envelope to the clean cupboard after scanning it. The short memo never names a dye, bottle, or pilot. The speaker stops when someone enters the room, before explaining which analysis request the envelope belongs to."
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Charcoal pilot dispatch note",
+      "modality": "note",
+      "sourceId": "s06",
+      "text": "Madder rinse charcoal pilot will send its next sealed bottle to the bench labelled Cedar. The technician has not yet assigned a laboratory accession number. The instruction is about internal routing only, and does not report an analytical result."
+    },
+    {
+      "assignedProjectRoots": [
+        "s02"
+      ],
+      "id": "e08",
+      "kind": "correct",
+      "reason": "The custody-envelope memo is for Madder rinse charcoal pilot. Keep the indigo paperwork separate.",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "locator": "Fictional handbook, settling diagram caption",
+      "modality": "link",
+      "sourceId": "s07",
+      "text": "A treatment handbook offers settling diagrams relevant to Indigo rinse settling pilot. The diagrams use generic colored liquid and are not measurements from the dye house. Its example retention times are teaching examples, not the pilot's chosen operating settings."
+    },
+    {
+      "id": "e10",
+      "kind": "archive",
+      "sourceId": "s04"
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Extracted staff notice, complete poster",
+      "modality": "photo",
+      "sourceId": "s08",
+      "text": "The dye-room notice announces replacement hooks for coats and aprons next week. It asks staff to empty their pockets before hanging garments. It gives no sample handling instructions, pilot identifiers, or dates for any water collection."
+    },
+    {
+      "id": "e12",
+      "kind": "restore",
+      "sourceId": "s04"
+    }
+  ],
+  "id": "eval05",
+  "queries": [
+    {
+      "atEvent": "e09",
+      "id": "q1",
+      "question": "Where does the current Madder charcoal dispatch note send the next sealed bottle?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e07",
+      "id": "q2",
+      "question": "Include archived records: what bottle identifier appears on the first indigo settling strip from the round that was set aside?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "Which currently available walkthrough identifies the collection tray shared by both rinse pilots?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e07",
+      "id": "q4",
+      "question": "What is the dye concentration in the next sealed Madder charcoal-pilot sample?",
+      "scope": "current"
+    }
+  ]
+}

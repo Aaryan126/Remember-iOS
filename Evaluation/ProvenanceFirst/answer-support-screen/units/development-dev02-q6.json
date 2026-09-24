@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev02-q6",
+    "inputSHA256": "4fb4577ccd655ee9de9c09972b1db58be7a48770d6266fe7b96e89f2b26568bd",
+    "rawSHA256": "d067ad7fbdb98e600aea5263d4bf6db3f96f6ced20b43d58d2340ec297073198",
+    "requestCount": 1,
+    "reservationSHA256": "897a0cc9a4b4012eaef9233baa921aeae801a5cff4282d1612e0b97ab3085050",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 4.078767833329039,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "edafb7fdae614030523f98699556e31b4eca6241db7691026ef9f70e8e3390ef",
+            "quote": "Rill-26, a different accession from Rill-62: the measured germination percentage is 82 percent. Rill-26 received a test; this result must not be copied to other accessions."
+          }
+        ],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 21512192,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev02-q6"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "d05fb3a55ef614122a2ddaf5d4e4d080e73dd6a8ef9f9196ba8188731071fda6"
+}

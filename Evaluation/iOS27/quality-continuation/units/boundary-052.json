@@ -1,0 +1,64 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-052/raw.json",
+  "rawSHA256": "fb96dbb91f4abf0d4c11464014cce54cf198994a73c53057da03aa96f8ff7a18",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.879395875002956,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.166672392282635e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22120949999953154,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.273231625003973,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27422045833372977,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.878184333334502,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "885990108584f49992e0e36a7b8ba3ec3bae6f6ca5c1ad49c1b7eaa2c5417da2",
+      "contextSize": 4096,
+      "generationSeconds": 5.603350083329133,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Juniper Club's 2028 Winter Exchange is a single event: collect donated coats, book the hall and run the exchange on 6 December. Its receipts go into the 2028 event account.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The club is separately planning the 2029 Winter Exchange. It reuses last year's coat racks, but has a new event date and its own account; do not include it in the 2028 event settlement.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Storage handover records the coat racks leaving the closed 2028 Winter Exchange and being reserved for the separate 2029 edition. Both event teams must sign the handover.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources describe distinct undertakings: s01's 2028 Winter Exchange and s02's 2029 Winter Exchange, with no shared deliverable or continuity.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-052"
+  }
+}

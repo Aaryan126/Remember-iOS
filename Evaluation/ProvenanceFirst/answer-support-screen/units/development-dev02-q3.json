@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev02-q3",
+    "inputSHA256": "d82844d5862604c7a501920898f6a0c8ea0020946608a7286b086dc2af1cd75a",
+    "rawSHA256": "300f6076a13b6c30cb85680dc96f602cb0bf7c815840e0e9cad17c2958af4a97",
+    "requestCount": 1,
+    "reservationSHA256": "742c24ee827495190ce3fd835a1f7ea10f478fd27f4958d21e29863603eac383",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.8485439583309926,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "retain the accession in cabinet H. The location is provisional pending the drying check.",
+        "evidence": [
+          {
+            "candidateID": "d079e2487f71a87c83fa879a6f05c3c385a03d03546a48275f9e5def03067630",
+            "quote": "Rill-62 intake plan, before drying: retain the accession in cabinet H. The location is provisional pending the drying check."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21299200,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev02-q3"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "54f34fb31376c9c7ea46350bf0ddca24c3bbd44d3cd9af79455003a4c540010f"
+}

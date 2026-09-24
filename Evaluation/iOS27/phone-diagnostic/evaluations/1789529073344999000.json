@@ -1,0 +1,369 @@
+{
+  "embeddingUnitsPassed": 0,
+  "embeddingUnitsSaved": 1,
+  "environment": {
+    "contextSize": 4096,
+    "contextualAssetsAvailable": true,
+    "contextualDimension": 512,
+    "contextualIdentifier": "5C45D94E-BAB4-4927-94B6-8B5745C46289",
+    "contextualRevision": 1,
+    "expectedEmbeddingSpace": "apple-dual:en:5C45D94E-BAB4-4927-94B6-8B5745C46289:1:512:1:512:token64-sentence256-v3",
+    "foundationModels": "available",
+    "foundationModelsAvailable": true,
+    "pcc": "not-requested; entitlement-and-account-eligibility-unverified",
+    "sentenceDimension": null,
+    "sentenceRevision": null
+  },
+  "macComparison": [
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-00"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-01"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-02"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 1.0408340855860843e-17,
+      "unit": "parity-03"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-04"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-05"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-06"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-07"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-08"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-09"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-10"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-11"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-12"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-13"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-14"
+    },
+    {
+      "probabilitiesExactlyEqual": true,
+      "scoreDelta": 0.0,
+      "unit": "parity-15"
+    }
+  ],
+  "maximumCombinedDeltaVsOldCoreML": 0.00017920495071518938,
+  "maximumNeuralDeltaVsPyTorch": 0.0021178126335144043,
+  "nativeErrors": {
+    "embedding-00": "unavailable"
+  },
+  "pairs": [
+    {
+      "combinedDeltaVsOldCoreML": 7.204914263918283e-06,
+      "combinedDeltaVsPyTorch": 5.554653545599558e-05,
+      "distanceFromThreshold": 0.937166030230161,
+      "featureDelta": 9.02387053969278e-10,
+      "fixture": "hv19a-i01--hv19a-i02",
+      "independentCombinerDelta": 5.337355418744139e-10,
+      "maxNeuralDeltaVsPyTorch": 2.8287293389439583e-05,
+      "newAccepted": false,
+      "newScore": 0.043268823303469435,
+      "oldAccepted": false,
+      "oldScore": 0.04326161838920552,
+      "originalPyTorchCombinerReconstructionDelta": 6.938893903907228e-18,
+      "originalStrictGatePassed": false,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 3.7773669230394685e-05,
+      "combinedDeltaVsPyTorch": 6.693290362274826e-05,
+      "distanceFromThreshold": 0.9494405509884556,
+      "featureDelta": 1.1700722613028347e-09,
+      "fixture": "hv19a-i01--hv19a-i03",
+      "independentCombinerDelta": 4.785461575618211e-10,
+      "maxNeuralDeltaVsPyTorch": 0.0002206210047006607,
+      "newAccepted": false,
+      "newScore": 0.031024871300141282,
+      "oldAccepted": false,
+      "oldScore": 0.030987097630910888,
+      "originalPyTorchCombinerReconstructionDelta": 3.469446951953614e-18,
+      "originalStrictGatePassed": false,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 4.5343074892116586e-05,
+      "combinedDeltaVsPyTorch": 6.050303819274752e-05,
+      "distanceFromThreshold": 0.9501209756530112,
+      "featureDelta": 6.39241659605716e-10,
+      "fixture": "hv19a-i01--hv19a-i04",
+      "independentCombinerDelta": 2.643896143683655e-10,
+      "maxNeuralDeltaVsPyTorch": 4.4022221118211746e-05,
+      "newAccepted": false,
+      "newScore": 0.030352016041247414,
+      "oldAccepted": false,
+      "oldScore": 0.030306672966355298,
+      "originalPyTorchCombinerReconstructionDelta": 3.469446951953614e-18,
+      "originalStrictGatePassed": false,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 2.516310640350572e-05,
+      "combinedDeltaVsPyTorch": 0.0001514204015112819,
+      "distanceFromThreshold": 0.9618095322610091,
+      "featureDelta": 1.8784958033535304e-09,
+      "fixture": "hv19a-i01--hv19a-i05",
+      "independentCombinerDelta": 3.0547205043252035e-10,
+      "maxNeuralDeltaVsPyTorch": 3.7724850699305534e-05,
+      "newAccepted": false,
+      "newScore": 0.01864327946476088,
+      "oldAccepted": false,
+      "oldScore": 0.018618116358357376,
+      "originalPyTorchCombinerReconstructionDelta": 3.469446951953614e-18,
+      "originalStrictGatePassed": false,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 9.298576184874063e-05,
+      "combinedDeltaVsPyTorch": 0.00010763582146650075,
+      "distanceFromThreshold": 0.9462144344560115,
+      "featureDelta": 2.033811730139945e-09,
+      "fixture": "hv19a-i01--hv19a-i06",
+      "independentCombinerDelta": 1.6048577050620239e-10,
+      "maxNeuralDeltaVsPyTorch": 3.66696622222662e-05,
+      "newAccepted": false,
+      "newScore": 0.0341202284015062,
+      "oldAccepted": false,
+      "oldScore": 0.03421321416335494,
+      "originalPyTorchCombinerReconstructionDelta": 6.938893903907228e-18,
+      "originalStrictGatePassed": false,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 5.6321391994629266e-11,
+      "combinedDeltaVsPyTorch": 0.00012744780941142952,
+      "distanceFromThreshold": 0.011367515960164498,
+      "featureDelta": 1.789138615038155e-09,
+      "fixture": "hv19a-i01--hv19a-i07",
+      "independentCombinerDelta": 5.6321391994629266e-11,
+      "maxNeuralDeltaVsPyTorch": 0.0004451870918273926,
+      "newAccepted": true,
+      "newScore": 0.9917951646358524,
+      "oldAccepted": true,
+      "oldScore": 0.991795164579531,
+      "originalPyTorchCombinerReconstructionDelta": 1.1102230246251565e-16,
+      "originalStrictGatePassed": true,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 8.281789490305336e-11,
+      "combinedDeltaVsPyTorch": 2.0176028633286935e-06,
+      "distanceFromThreshold": 0.9557796876920863,
+      "featureDelta": 3.1661073762734304e-10,
+      "fixture": "hv19a-i01--hv19a-i08",
+      "independentCombinerDelta": 8.281789837250031e-11,
+      "maxNeuralDeltaVsPyTorch": 8.933991193771362e-05,
+      "newAccepted": false,
+      "newScore": 0.024647961010098116,
+      "oldAccepted": false,
+      "oldScore": 0.02464796092728022,
+      "originalPyTorchCombinerReconstructionDelta": 3.469446951953614e-18,
+      "originalStrictGatePassed": true,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 3.600683466664645e-11,
+      "combinedDeltaVsPyTorch": 5.2914220837448414e-05,
+      "distanceFromThreshold": 0.9703193730552375,
+      "featureDelta": 8.364892667422907e-10,
+      "fixture": "hv19a-i01--hv19a-i09",
+      "independentCombinerDelta": 3.6006831197199496e-11,
+      "maxNeuralDeltaVsPyTorch": 4.562339745461941e-05,
+      "newAccepted": false,
+      "newScore": 0.010108275528122133,
+      "oldAccepted": false,
+      "oldScore": 0.010108275564128967,
+      "originalPyTorchCombinerReconstructionDelta": 1.734723475976807e-18,
+      "originalStrictGatePassed": true,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 0.00015612120888147674,
+      "combinedDeltaVsPyTorch": 0.0002712713057724178,
+      "distanceFromThreshold": 0.9212368942375868,
+      "featureDelta": 1.5975732958750655e-09,
+      "fixture": "hv19a-i01--hv19a-i10",
+      "independentCombinerDelta": 5.118360457689874e-10,
+      "maxNeuralDeltaVsPyTorch": 0.0021178126335144043,
+      "newAccepted": false,
+      "newScore": 0.05934687559066117,
+      "oldAccepted": false,
+      "oldScore": 0.059190754381779696,
+      "originalPyTorchCombinerReconstructionDelta": 6.938893903907228e-18,
+      "originalStrictGatePassed": false,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 0.00010970678954132576,
+      "combinedDeltaVsPyTorch": 0.00010058377422763123,
+      "distanceFromThreshold": 0.9599137245568511,
+      "featureDelta": 9.183288018910218e-10,
+      "fixture": "hv19a-i01--hv19a-i11",
+      "independentCombinerDelta": 3.6213004817042815e-11,
+      "maxNeuralDeltaVsPyTorch": 3.833719529211521e-05,
+      "newAccepted": false,
+      "newScore": 0.02062363085205673,
+      "oldAccepted": false,
+      "oldScore": 0.020513924062515405,
+      "originalPyTorchCombinerReconstructionDelta": 6.938893903907228e-18,
+      "originalStrictGatePassed": false,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 1.6719099802164905e-05,
+      "combinedDeltaVsPyTorch": 2.42171483952891e-05,
+      "distanceFromThreshold": 0.017572981224484918,
+      "featureDelta": 9.116085664118145e-11,
+      "fixture": "hv19a-i01--hv19a-i12",
+      "independentCombinerDelta": 1.454392162258955e-13,
+      "maxNeuralDeltaVsPyTorch": 0.0008425116539001465,
+      "newAccepted": true,
+      "newScore": 0.9980173489436536,
+      "oldAccepted": true,
+      "oldScore": 0.9980006298438514,
+      "originalPyTorchCombinerReconstructionDelta": 1.1102230246251565e-16,
+      "originalStrictGatePassed": false,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 1.71692340900087e-10,
+      "combinedDeltaVsPyTorch": 5.902831064417621e-05,
+      "distanceFromThreshold": 0.9580214464292289,
+      "featureDelta": 1.524173731670686e-09,
+      "fixture": "hv19a-i01--hv19a-i13",
+      "independentCombinerDelta": 1.7169235130842786e-10,
+      "maxNeuralDeltaVsPyTorch": 5.077570676803589e-05,
+      "newAccepted": false,
+      "newScore": 0.022406202018445273,
+      "oldAccepted": false,
+      "oldScore": 0.022406202190137614,
+      "originalPyTorchCombinerReconstructionDelta": 1.0408340855860843e-17,
+      "originalStrictGatePassed": true,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 1.8170854994762134e-05,
+      "combinedDeltaVsPyTorch": 8.471106160014286e-06,
+      "distanceFromThreshold": 0.9680219022271792,
+      "featureDelta": 1.0004054251666616e-09,
+      "fixture": "hv19a-i01--hv19a-i14",
+      "independentCombinerDelta": 1.7583434708257073e-12,
+      "maxNeuralDeltaVsPyTorch": 5.249166861176491e-06,
+      "newAccepted": false,
+      "newScore": 0.01242391724718205,
+      "oldAccepted": false,
+      "oldScore": 0.012405746392187288,
+      "originalPyTorchCombinerReconstructionDelta": 0.0,
+      "originalStrictGatePassed": false,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 0.00017920495071518938,
+      "combinedDeltaVsPyTorch": 0.000557169685658096,
+      "distanceFromThreshold": 0.9030985578363256,
+      "featureDelta": 6.282934172929799e-10,
+      "fixture": "hv19a-i01--hv19a-i15",
+      "independentCombinerDelta": 1.5670652275812103e-10,
+      "maxNeuralDeltaVsPyTorch": 0.0005870461463928223,
+      "newAccepted": false,
+      "newScore": 0.07714988583232561,
+      "oldAccepted": false,
+      "oldScore": 0.0773290907830408,
+      "originalPyTorchCombinerReconstructionDelta": 2.7755575615628914e-17,
+      "originalStrictGatePassed": false,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 1.5085366289468993e-10,
+      "combinedDeltaVsPyTorch": 0.00025278538618811464,
+      "distanceFromThreshold": 0.11061198150120599,
+      "featureDelta": 7.969157556075857e-10,
+      "fixture": "hv19a-i01--hv19a-i16",
+      "independentCombinerDelta": 1.5085366289468993e-10,
+      "maxNeuralDeltaVsPyTorch": 0.00020307302474975586,
+      "newAccepted": false,
+      "newScore": 0.8698156669673068,
+      "oldAccepted": false,
+      "oldScore": 0.8698156671181605,
+      "originalPyTorchCombinerReconstructionDelta": 1.1102230246251565e-16,
+      "originalStrictGatePassed": true,
+      "tokenParity": true
+    },
+    {
+      "combinedDeltaVsOldCoreML": 3.082165066168284e-05,
+      "combinedDeltaVsPyTorch": 4.432146683191682e-05,
+      "distanceFromThreshold": 0.9687124159917805,
+      "featureDelta": 1.962311035885733e-09,
+      "fixture": "hv19a-i01--hv19a-i17",
+      "independentCombinerDelta": 3.155952183614419e-10,
+      "maxNeuralDeltaVsPyTorch": 2.9063550755381584e-05,
+      "newAccepted": false,
+      "newScore": 0.01174605427824774,
+      "oldAccepted": false,
+      "oldScore": 0.011715232627586057,
+      "originalPyTorchCombinerReconstructionDelta": 8.673617379884035e-18,
+      "originalStrictGatePassed": false,
+      "tokenParity": true
+    }
+  ],
+  "parityCollectionComplete": true,
+  "plannedUnits": 33,
+  "savedUnits": 18,
+  "stage1Complete": false,
+  "stage2Started": false,
+  "strictGatePasses": 5,
+  "unchangedDecisions": 16
+}

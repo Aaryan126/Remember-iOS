@@ -1,0 +1,654 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Alder tower dial conservation covers the painted face and its brass hand collars. The conservation notebook follows surface work without authorizing changes to the tower mechanism. Removed screws go into the dial tray with a paper location sketch."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f615c4f30a74fc893ceffef69867ab80deabeadd652a9cc76257e6422fc2aebe"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "pdf",
+        "text": "Alder chime train conservation concerns the striking mechanism behind the dial wall. Its parts inventory is separate from the painted-face treatment. The conservator will document each hammer linkage before deciding whether any worn bush needs replacement."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f615c4f30a74fc893ceffef69867ab80deabeadd652a9cc76257e6422fc2aebe"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "49ee77bf30bc46c9bd383e55f501f6849c1bae0ea3fc4367645e3b0102f44e33"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "The Alder tower dial conservation intake card records a red pencil dot below the numeral XI. The dot is an old alignment aid, not a painted feature to reconstruct. The card predates surface cleaning and contains no pigment identification."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f615c4f30a74fc893ceffef69867ab80deabeadd652a9cc76257e6422fc2aebe"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "49ee77bf30bc46c9bd383e55f501f6849c1bae0ea3fc4367645e3b0102f44e33"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "24f2af7660070de72e2edc1997187c7a0eee1316b692d395b10315e16254bf58"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "voice",
+        "text": "Alder tower dial conservation and Alder chime train conservation share the linen dust enclosure around the open tower work area. Each team signs the enclosure log after entering. The enclosure joins their access arrangements without joining their treatment decisions."
+      }
+    },
+    {
+      "assignments": [
+        "t:c05"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f615c4f30a74fc893ceffef69867ab80deabeadd652a9cc76257e6422fc2aebe"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "49ee77bf30bc46c9bd383e55f501f6849c1bae0ea3fc4367645e3b0102f44e33"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "24f2af7660070de72e2edc1997187c7a0eee1316b692d395b10315e16254bf58"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "6c72a338bb29efde563b111b9f93d66a572e5b3e6da17aee54aa9c2d3c1734c6"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "link",
+        "text": "A dial-care pamphlet is background for Alder tower dial conservation. Its photograph depicts a station clock with different numerals and a modern finish. The pamphlet recommends documenting markings before cleaning but does not identify pigments in the Alder clock."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f615c4f30a74fc893ceffef69867ab80deabeadd652a9cc76257e6422fc2aebe"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "49ee77bf30bc46c9bd383e55f501f6849c1bae0ea3fc4367645e3b0102f44e33"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "24f2af7660070de72e2edc1997187c7a0eee1316b692d395b10315e16254bf58"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "6c72a338bb29efde563b111b9f93d66a572e5b3e6da17aee54aa9c2d3c1734c6"
+        }
+      },
+      "id": "e06",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f615c4f30a74fc893ceffef69867ab80deabeadd652a9cc76257e6422fc2aebe"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "49ee77bf30bc46c9bd383e55f501f6849c1bae0ea3fc4367645e3b0102f44e33"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "24f2af7660070de72e2edc1997187c7a0eee1316b692d395b10315e16254bf58"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "6c72a338bb29efde563b111b9f93d66a572e5b3e6da17aee54aa9c2d3c1734c6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "056a99aa037569f7b778f5740469c9f01f158a9aae70e22fb2920ad9895fa962"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "note",
+        "text": "Alder chime train conservation will inspect the third hammer linkage first on the next bench session. Numbered paper tags follow the inventory order. The conservator has left the wear measurement column blank until the mechanism can be supported safely."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f615c4f30a74fc893ceffef69867ab80deabeadd652a9cc76257e6422fc2aebe"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "49ee77bf30bc46c9bd383e55f501f6849c1bae0ea3fc4367645e3b0102f44e33"
+        },
+        "localc04": {
+          "archived": true,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "24f2af7660070de72e2edc1997187c7a0eee1316b692d395b10315e16254bf58"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "6c72a338bb29efde563b111b9f93d66a572e5b3e6da17aee54aa9c2d3c1734c6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "056a99aa037569f7b778f5740469c9f01f158a9aae70e22fb2920ad9895fa962"
+        }
+      },
+      "id": "e08",
+      "kind": "archive",
+      "target": "localc04"
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f615c4f30a74fc893ceffef69867ab80deabeadd652a9cc76257e6422fc2aebe"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "49ee77bf30bc46c9bd383e55f501f6849c1bae0ea3fc4367645e3b0102f44e33"
+        },
+        "localc04": {
+          "archived": true,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "24f2af7660070de72e2edc1997187c7a0eee1316b692d395b10315e16254bf58"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "6c72a338bb29efde563b111b9f93d66a572e5b3e6da17aee54aa9c2d3c1734c6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "d353545ad0136a387b5dddb3da30c93852673c428167d02ae35066c269bd89ba"
+        }
+      },
+      "id": "e09",
+      "kind": "revise",
+      "target": "localc06",
+      "text": "Alder chime train conservation will inspect the first hammer linkage first on the next bench session. The support cradle now leaves that linkage accessible. This replaces the earlier inspection order; the wear measurement column remains blank."
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f615c4f30a74fc893ceffef69867ab80deabeadd652a9cc76257e6422fc2aebe"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "49ee77bf30bc46c9bd383e55f501f6849c1bae0ea3fc4367645e3b0102f44e33"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "24f2af7660070de72e2edc1997187c7a0eee1316b692d395b10315e16254bf58"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "6c72a338bb29efde563b111b9f93d66a572e5b3e6da17aee54aa9c2d3c1734c6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "d353545ad0136a387b5dddb3da30c93852673c428167d02ae35066c269bd89ba"
+        }
+      },
+      "id": "e10",
+      "kind": "restore",
+      "target": "localc04"
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f615c4f30a74fc893ceffef69867ab80deabeadd652a9cc76257e6422fc2aebe"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "49ee77bf30bc46c9bd383e55f501f6849c1bae0ea3fc4367645e3b0102f44e33"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "24f2af7660070de72e2edc1997187c7a0eee1316b692d395b10315e16254bf58"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "6c72a338bb29efde563b111b9f93d66a572e5b3e6da17aee54aa9c2d3c1734c6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "d353545ad0136a387b5dddb3da30c93852673c428167d02ae35066c269bd89ba"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "817d2068bf9aa6932ae3a41f37d49b8bb7d204399a7a0293fe2cbb00139f961d"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "video",
+        "text": "The Alder tower dial conservation wrapping demonstration places each detached hand in a separate unbleached paper sleeve. No adhesive touches the painted surfaces. The demonstration ends before the hands are placed into storage, so it supplies no storage location."
+      }
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e74b888777ea97c83618d522876a8b6e69afb4ad7cec46c5ef3e427ac065e72f"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "f615c4f30a74fc893ceffef69867ab80deabeadd652a9cc76257e6422fc2aebe"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "49ee77bf30bc46c9bd383e55f501f6849c1bae0ea3fc4367645e3b0102f44e33"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "24f2af7660070de72e2edc1997187c7a0eee1316b692d395b10315e16254bf58"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "6c72a338bb29efde563b111b9f93d66a572e5b3e6da17aee54aa9c2d3c1734c6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "d353545ad0136a387b5dddb3da30c93852673c428167d02ae35066c269bd89ba"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "817d2068bf9aa6932ae3a41f37d49b8bb7d204399a7a0293fe2cbb00139f961d"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "fa8c1e2a019f0ed02a27c54ea84662eac532a9c03fb5b550d334d06c304dbf83"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "pdf",
+        "text": "The tower visitor leaflet explains the staircase count and where to leave umbrellas. A small clock illustration marks the meeting point. The leaflet contains no conservation docket, bench action, or permission to handle any mechanism parts."
+      }
+    }
+  ],
+  "id": "history-eval06-chronological",
+  "queries": [
+    {
+      "afterEvent": "e12",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e07",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e10",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

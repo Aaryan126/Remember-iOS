@@ -1,0 +1,49 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev01-q7",
+    "inputSHA256": "32a17ee2f709506e73b6244d93feaaae74de5cddbe52526a830bea9780017461",
+    "rawSHA256": "1d74b472d196508283163287afed3f2cd8f42cefc0e259b4e27dfb0ce885b6bc",
+    "requestCount": 1,
+    "reservationSHA256": "e514d80f945d3f3e14b9006a507d02d75b2520fc7f7e41a614ab0fd9ff7a6d25",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 7.112210041668732,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "7e5c56cd66b8c6bd29e5cf0d393df38f6a2b1aec0532d04b8ecf1da3d5b5ffee",
+            "quote": "We did not record a sound level for the door slam."
+          },
+          {
+            "candidateID": "a9e2e38abe6116d04b53f31f1df00838b0a08592f0c2a2e64aed3aae9791380c",
+            "quote": "My Friday Glass Orchard dress-run sheet puts the actual LX 18 call at 20:16."
+          },
+          {
+            "candidateID": "b2376c7f19ea1bf3bf1d914ffb966c0e8eaf046ff8f347fe9d25a2e923e43c24",
+            "quote": "Following the dress rehearsal, the accepted trigger for LX 18 is the actor touching the letter. This explicitly replaces the door-slam trigger."
+          }
+        ],
+        "verdict": "conflicting"
+      },
+      "peakResidentBytes": 21544960,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev01-q7"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "8f07355fda3f14de91eedccfb76a80a6b554adc1752adf1c7e8dc48db227b666"
+}

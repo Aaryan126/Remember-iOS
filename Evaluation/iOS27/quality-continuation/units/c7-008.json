@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-008/raw.json",
+  "rawSHA256": "06860cc217db324ddb7a3e9654d0192b5bbace0f3de4e0308120b9d5393e6b70",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.552209416666301,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.45833575213328e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3170568333371193,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.36982500000158325,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.370902250004292,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.5511687500038533,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "1c6625a81ffee1f03e295a642005bb03eb180516ace679199ca0affae488aabb",
+      "contextSize": 4096,
+      "generationSeconds": 3.1796424583299085,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Birchbank's Elm Reach reedbed survey is funded under another grant with its own habitat report. It is not part of the otter census, although volunteers use the same river transects.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "The field recording about finishing 'the measurements at Elm Reach' concerned the otter census camera counts and its population report. It did not describe the reedbed measurements.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Source s02 links the project to a reedbed survey unrelated to the otter census, while s05 focuses on otter census measurements not tied to reedbed data.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-008"
+  }
+}

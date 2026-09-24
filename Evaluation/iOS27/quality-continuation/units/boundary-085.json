@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-085/raw.json",
+  "rawSHA256": "c2c88446cb5acd1f560f5cc14ebc79c2e195b1dc60e7c371c80786df00439844",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.784753041669319,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.583329766523093e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21958224999980303,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2709936250030296,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2719305416685529,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.783283791664871,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "d3fe5698715858367f4019936a2d414d7cb7a669f091a579b7c38d5efa4eefa0",
+      "contextSize": 4096,
+      "generationSeconds": 4.510771291665151,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Set up lamps, record weekly leaf mass and write the light-duration result as one experiment",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "A faulty lamp invalidated week two of the light-duration trial. Repeat that week under the original experiment design; this is not a new irrigation trial despite using the same basil benches",
+            "sourceID": "s03"
+          }
+        ],
+        "rationale": "Both sources reference the 'light-duration trial' and the repetition is framed as continuing the same experiment.",
+        "verdict": "same_project"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-085"
+  }
+}

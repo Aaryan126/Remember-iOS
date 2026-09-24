@@ -1,0 +1,664 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "pdf",
+        "text": "West Quay timetable signage replaces the weathered panels at the ferry shelter. Our deliverable is a readable departure board and a matching map inset. This is a fictional service; panel proofs are working documents, not public travel information."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "note",
+        "text": "West Quay passenger wayfinding survey will observe how volunteers find the correct boarding gate. Record hesitation at the map and the timetable separately. We can use the new signage mockups, but survey conclusions belong to this research file."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04f1bd4b9f03070f11c817c535449f06f20d68643e049dfdf4c72bff3e3f428f"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "West Quay timetable signage, printer proof A: the last fictional northbound departure is printed as 21:10. This is an unapproved proof for contrast review. Its crop marks overlap the edge of the accessibility symbol on the lower panel."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04f1bd4b9f03070f11c817c535449f06f20d68643e049dfdf4c72bff3e3f428f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "83ac04087df73c5a4c1bec936dd759856c89353c0fad7b31dc9cf0202bcb99d8"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "voice",
+        "text": "Joint mockup session for West Quay timetable signage and the West Quay passenger wayfinding survey. Place the departure panel beside the gate map, then ask volunteers to trace their route without prompts. Keep observations separate from printer corrections."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04f1bd4b9f03070f11c817c535449f06f20d68643e049dfdf4c72bff3e3f428f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "83ac04087df73c5a4c1bec936dd759856c89353c0fad7b31dc9cf0202bcb99d8"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a4e63c8b68b8303b6bb9394be841d8f637d0d0f478951e6156bc4fe5841a541f"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "note",
+        "text": "Panel B says 21:40 for the final northbound boat in West Quay timetable signage. This approved fictional schedule replaces proof A for the installed departure board. The map inset remains unchanged, and the printer has confirmed that the crop marks will be removed."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04f1bd4b9f03070f11c817c535449f06f20d68643e049dfdf4c72bff3e3f428f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "83ac04087df73c5a4c1bec936dd759856c89353c0fad7b31dc9cf0202bcb99d8"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a4e63c8b68b8303b6bb9394be841d8f637d0d0f478951e6156bc4fe5841a541f"
+        }
+      },
+      "id": "e06",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c06"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04f1bd4b9f03070f11c817c535449f06f20d68643e049dfdf4c72bff3e3f428f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "83ac04087df73c5a4c1bec936dd759856c89353c0fad7b31dc9cf0202bcb99d8"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a4e63c8b68b8303b6bb9394be841d8f637d0d0f478951e6156bc4fe5841a541f"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "b0012ecc47d1989541dee1bd45e55e3680161e206dda3c15835e691da974ecd8"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "voice",
+        "text": "Survey audio fragment: 'They kept looking left, after the second one.' The first half of the recording is missing. Neither the location nor the object being counted is named, and the survey volunteer list was not attached to this clip."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04f1bd4b9f03070f11c817c535449f06f20d68643e049dfdf4c72bff3e3f428f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "83ac04087df73c5a4c1bec936dd759856c89353c0fad7b31dc9cf0202bcb99d8"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a4e63c8b68b8303b6bb9394be841d8f637d0d0f478951e6156bc4fe5841a541f"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b0012ecc47d1989541dee1bd45e55e3680161e206dda3c15835e691da974ecd8"
+        }
+      },
+      "id": "e08",
+      "kind": "correct",
+      "target": "localc06"
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04f1bd4b9f03070f11c817c535449f06f20d68643e049dfdf4c72bff3e3f428f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "83ac04087df73c5a4c1bec936dd759856c89353c0fad7b31dc9cf0202bcb99d8"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a4e63c8b68b8303b6bb9394be841d8f637d0d0f478951e6156bc4fe5841a541f"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b0012ecc47d1989541dee1bd45e55e3680161e206dda3c15835e691da974ecd8"
+        }
+      },
+      "id": "e09",
+      "kind": "restore",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04f1bd4b9f03070f11c817c535449f06f20d68643e049dfdf4c72bff3e3f428f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "83ac04087df73c5a4c1bec936dd759856c89353c0fad7b31dc9cf0202bcb99d8"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a4e63c8b68b8303b6bb9394be841d8f637d0d0f478951e6156bc4fe5841a541f"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b0012ecc47d1989541dee1bd45e55e3680161e206dda3c15835e691da974ecd8"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6c55a71856c80b3ed3b9595091ce9154b745ba5206e871d96e3cd18b0c6e8ad4"
+        }
+      },
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "pdf",
+        "text": "West Quay passenger wayfinding survey observation sheet: volunteers paused longest at the unlabeled gate fork. The observer marked durations with tally strokes, not seconds. A later count of people passing the shelter is unrelated to this observation session."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04f1bd4b9f03070f11c817c535449f06f20d68643e049dfdf4c72bff3e3f428f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "83ac04087df73c5a4c1bec936dd759856c89353c0fad7b31dc9cf0202bcb99d8"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a4e63c8b68b8303b6bb9394be841d8f637d0d0f478951e6156bc4fe5841a541f"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b0012ecc47d1989541dee1bd45e55e3680161e206dda3c15835e691da974ecd8"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6c55a71856c80b3ed3b9595091ce9154b745ba5206e871d96e3cd18b0c6e8ad4"
+        }
+      },
+      "id": "e11",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "2d9a9e8fb81bb04a94e32df56132052377bef61eb619cfe87078cc7b25277138"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "38b64305f3b16f823cb0e424b62ef6aecbf3ba6a07cc1b2124abc5f4fbd2da51"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "04f1bd4b9f03070f11c817c535449f06f20d68643e049dfdf4c72bff3e3f428f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "83ac04087df73c5a4c1bec936dd759856c89353c0fad7b31dc9cf0202bcb99d8"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a4e63c8b68b8303b6bb9394be841d8f637d0d0f478951e6156bc4fe5841a541f"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b0012ecc47d1989541dee1bd45e55e3680161e206dda3c15835e691da974ecd8"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "6c55a71856c80b3ed3b9595091ce9154b745ba5206e871d96e3cd18b0c6e8ad4"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "7ebeca1bfb4aff6ec64f820682f4866c3959aef2487aff0a6c3f721f84f91123"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "link",
+        "text": "A background article on coastal sign glare is saved for West Quay timetable signage. It compares matte and glossy materials in a different harbor. Its photographed departure times describe that harbor and should not be read as changes to our fictional timetable."
+      }
+    }
+  ],
+  "id": "history-dev03-chronological",
+  "queries": [
+    {
+      "afterEvent": "e07",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e07",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

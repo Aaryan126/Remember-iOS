@@ -1,0 +1,64 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-077/raw.json",
+  "rawSHA256": "9559e212df5f742cff74a38ac57371dd86027e6508469baa813e3737746911f8",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.893435041667544,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.083332896698266e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22408554166759131,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2762979999970412,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27724716666853055,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.891982541666948,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "c14cdb56f0548101967ab4926ffae365d68be348364f18e0b5d10ead3cc850a3",
+      "contextSize": 4096,
+      "generationSeconds": 4.614152499998454,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Survey, scaffold hire, slate replacement and final leak inspection are one roof-restoration contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Northgate Library commissioned its window restoration under a different contract.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Keep the roof inspection and glazing acceptance records with their separate contracts.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources describe distinct contracts: slate-roof work and window restoration are documented as separate undertakings with independent records.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-077"
+  }
+}

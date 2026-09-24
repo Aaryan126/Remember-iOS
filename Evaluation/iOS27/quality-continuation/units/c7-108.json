@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-108/raw.json",
+  "rawSHA256": "609adee6f8982a0acc7bbc2cca8b241784996d16b1184d3173f637097217d8f3",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.385732916663983,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.5416603572666645e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21854262499982724,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26346704166644486,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2645141666653217,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.383624083333416,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "f8d2e9061e5b9efdb61e688141475e0ca5ef45fea0038169c926c09226687fff",
+      "contextSize": 4096,
+      "generationSeconds": 4.118406250003318,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Fernbridge runs an independent basil irrigation trial.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Lab note: The second set has larger leaves. Include this in the basil result.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources mention basil but lack shared planning notes or documented connections to the same continuing undertaking.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-108"
+  }
+}

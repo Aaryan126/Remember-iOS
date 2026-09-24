@@ -1,0 +1,59 @@
+{
+  "rawPath": "attempts/phone/boundary-002/raw.json",
+  "rawSHA256": "fb90177f5eec4d267a151b298fc5cc5f57702df6176414a29ea9e149176ddafb",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.5039517916666227,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.833330993074924e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22570024999731686,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2696768749956391,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27071199999772944,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.502904083332396,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "0b486aff0c7557a58d6bf335466125d7f129e80a1a67f47acfa0e80cb31beb71",
+      "contextSize": 4096,
+      "generationSeconds": 3.2315039166714996,
+      "output": {
+        "evidence": [
+          {
+            "quote": "The club is separately planning the 2029 Winter Exchange. It reuses last year's coat racks, but has a new event date and its own account; do not include it in the 2028 event settlement.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Receipt photo transcription: Winter Exchange hall payment settled. Juniper Club treasurer signed.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference the ",
+        "verdict": "same_project"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-002"
+  }
+}

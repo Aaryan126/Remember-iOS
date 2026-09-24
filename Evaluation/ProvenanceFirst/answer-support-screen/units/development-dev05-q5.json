@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev05-q5",
+    "inputSHA256": "3ddca4ecc494a12e1358d896838ddd9874ddbc94f4bf49b1e3e831bdc6b3e6cc",
+    "rawSHA256": "67e9d6105a8b895129a466f55c8dc875f15fb70061c63ca6a55d6de37a69817a",
+    "requestCount": 1,
+    "reservationSHA256": "cb61cdcdb1f165697e0eca4b4145ccdce500a69d891424c1552ffdc5d72fc6f1",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.296120125000016,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "a34cee9cf94a05dc2a3ad8a0f37beceb4225f500bc9043f2e2be4917d03eeecb",
+            "quote": "At the Alder loop reading trial, we did not record any viewing-distance measurements."
+          }
+        ],
+        "verdict": "explicit_missing"
+      },
+      "peakResidentBytes": 21184512,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev05-q5"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "12107789ed2b1d644992161d490e570053f8f6da7d63081ad812610e4b3de26d"
+}

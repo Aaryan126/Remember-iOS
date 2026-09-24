@@ -1,0 +1,51 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/aaryan/Desktop/Gemini Hackathon/scripts/provenance-first/answer-support-screen/sb_runner.py",
+        "pause"
+      ],
+      "exitCode": 0,
+      "stderr": "",
+      "stdout": "Pause requested; wait for owned-process exit and worker stopped confirmation.\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/aaryan/Desktop/Gemini Hackathon/scripts/provenance-first/answer-support-screen/sb_runner.py",
+        "prepare"
+      ],
+      "exitCode": 0,
+      "stderr": "",
+      "stdout": "{\"status\": \"paused\", \"reason\": \"saved Stage B boundary\", \"workerStopped\": true}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/Users/aaryan/Desktop/Gemini Hackathon/scripts/provenance-first/answer-support-screen/sb_runner.py",
+        "prepare",
+        "--resume"
+      ],
+      "exitCode": 0,
+      "stderr": "",
+      "stdout": "{\"command\": \"prepare\", \"workerStopped\": true, \"result\": null}\n"
+    }
+  ],
+  "files": {
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/answer-support-screen/schedules/development.json": {
+      "mtime": 1789815514669838519,
+      "sha": "fa05b251321854f9758fab3942ee44ef5111cde00ed4f812226207a1c6c3af9e"
+    },
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/ProvenanceFirst/answer-support-screen/schedules/evaluation.json": {
+      "mtime": 1789815515767586020,
+      "sha": "6b91becc8a6e923583c1c5ab8dc32fc0b73f9648f94d1f2cd5de8a97823d4c37"
+    }
+  },
+  "modelRequests": 0,
+  "schedulesUnchanged": true,
+  "workerStopped": true
+}

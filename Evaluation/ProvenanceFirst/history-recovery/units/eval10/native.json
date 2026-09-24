@@ -1,0 +1,617 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "pdf",
+        "text": "Brine train A membrane cleaning covers the first demonstration skid's removable membrane housing. This fictional exercise records cleaning-stage handoffs only. The housing remains separate from train B, and the log does not authorize operation of a real plant."
+      }
+    },
+    {
+      "assignments": [
+        "t:c03"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c03"
+          ],
+          "revision": 0,
+          "textSHA256": "b8993c1ceb80fab60042201f1e94771b608e27de5c9036203805c3834f788bf9"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "note",
+        "text": "The initial shared hold is labelled Blue pause on the control-room scratch note. Do not copy a duration from the old wall chart; that chart has not been checked. The scratch note itself carries no train name or docket number."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "430d1ef50fcf1ad3ed74066537937351e7b08120b4df1868dbb1371d5695bf39"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c03"
+          ],
+          "revision": 0,
+          "textSHA256": "b8993c1ceb80fab60042201f1e94771b608e27de5c9036203805c3834f788bf9"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "note",
+        "text": "Brine train B membrane cleaning covers the second demonstration skid's removable membrane housing. The operator keeps a separate cleaning log and isolation tag for this train. Its sample labels are not interchangeable with those from the adjacent train A."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "430d1ef50fcf1ad3ed74066537937351e7b08120b4df1868dbb1371d5695bf39"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b8993c1ceb80fab60042201f1e94771b608e27de5c9036203805c3834f788bf9"
+        }
+      },
+      "id": "e04",
+      "kind": "correct",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "430d1ef50fcf1ad3ed74066537937351e7b08120b4df1868dbb1371d5695bf39"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b8993c1ceb80fab60042201f1e94771b608e27de5c9036203805c3834f788bf9"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e0ba672d667c6f8021ea29723e96ccf4d5a1dedfca3ccf2a497f2ae0b0138677"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "image",
+        "text": "Brine train A membrane cleaning records its removed housing on padded bench Birch. The extracted bench photograph gives the bench name and train tag clearly. Glare hides the lower checklist, so it does not establish which cleaning stages have been completed."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "430d1ef50fcf1ad3ed74066537937351e7b08120b4df1868dbb1371d5695bf39"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "3aaa9a3b91f3c7bacb704258480ca8dbe84c0122db6f648d6ed1c419f9db5092"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e0ba672d667c6f8021ea29723e96ccf4d5a1dedfca3ccf2a497f2ae0b0138677"
+        }
+      },
+      "id": "e06",
+      "kind": "revise",
+      "target": "localc03",
+      "text": "The shared hold for Brine train A membrane cleaning and Brine train B membrane cleaning is now labelled Amber pause. This label replaces Blue pause after the board was reorganised. The note still specifies no duration and provides no cleaning-chemistry instruction."
+    },
+    {
+      "assignments": [
+        "t:c05"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "430d1ef50fcf1ad3ed74066537937351e7b08120b4df1868dbb1371d5695bf39"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "3aaa9a3b91f3c7bacb704258480ca8dbe84c0122db6f648d6ed1c419f9db5092"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e0ba672d667c6f8021ea29723e96ccf4d5a1dedfca3ccf2a497f2ae0b0138677"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "ad141f8f0428539e2c83afdf39d63dd55cd16289c5872a5e7bd0967db65245b6"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "link",
+        "text": "A membrane-housing diagram provides background for Brine train B membrane cleaning. It shows a different demonstration model and labels inlet and outlet ends. It supplies neither a cleaning recipe nor evidence that any stage of the local cleaning run is complete."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "430d1ef50fcf1ad3ed74066537937351e7b08120b4df1868dbb1371d5695bf39"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "3aaa9a3b91f3c7bacb704258480ca8dbe84c0122db6f648d6ed1c419f9db5092"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e0ba672d667c6f8021ea29723e96ccf4d5a1dedfca3ccf2a497f2ae0b0138677"
+        },
+        "localc05": {
+          "archived": true,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "ad141f8f0428539e2c83afdf39d63dd55cd16289c5872a5e7bd0967db65245b6"
+        }
+      },
+      "id": "e08",
+      "kind": "archive",
+      "target": "localc05"
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "430d1ef50fcf1ad3ed74066537937351e7b08120b4df1868dbb1371d5695bf39"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "3aaa9a3b91f3c7bacb704258480ca8dbe84c0122db6f648d6ed1c419f9db5092"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e0ba672d667c6f8021ea29723e96ccf4d5a1dedfca3ccf2a497f2ae0b0138677"
+        },
+        "localc05": {
+          "archived": true,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "ad141f8f0428539e2c83afdf39d63dd55cd16289c5872a5e7bd0967db65245b6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2fbc4961d731e814ea6e7ba24191a914226dc307c4b8f1adabfcf3177f3877aa"
+        }
+      },
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "voice",
+        "text": "Brine train B membrane cleaning places the next sample bottle in rack RB2 pending a label check. The audio stops before the checker answers. It reports a staging location only, with no concentration, temperature, or completion measurement."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "430d1ef50fcf1ad3ed74066537937351e7b08120b4df1868dbb1371d5695bf39"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "3aaa9a3b91f3c7bacb704258480ca8dbe84c0122db6f648d6ed1c419f9db5092"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e0ba672d667c6f8021ea29723e96ccf4d5a1dedfca3ccf2a497f2ae0b0138677"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "ad141f8f0428539e2c83afdf39d63dd55cd16289c5872a5e7bd0967db65245b6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2fbc4961d731e814ea6e7ba24191a914226dc307c4b8f1adabfcf3177f3877aa"
+        }
+      },
+      "id": "e10",
+      "kind": "restore",
+      "target": "localc05"
+    },
+    {
+      "assignments": [
+        "t:c07"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "430d1ef50fcf1ad3ed74066537937351e7b08120b4df1868dbb1371d5695bf39"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "3aaa9a3b91f3c7bacb704258480ca8dbe84c0122db6f648d6ed1c419f9db5092"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e0ba672d667c6f8021ea29723e96ccf4d5a1dedfca3ccf2a497f2ae0b0138677"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "ad141f8f0428539e2c83afdf39d63dd55cd16289c5872a5e7bd0967db65245b6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2fbc4961d731e814ea6e7ba24191a914226dc307c4b8f1adabfcf3177f3877aa"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "47920c47bc5b16c3a4ac2a74d31b16a4b4b9f9be0b496ea0aed147c51ec50ccf"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "image",
+        "text": "The control-room notice assigns the spare chair to the visitor desk and asks staff not to block the exit. Its handwritten arrows point to furniture. It mentions neither membrane train nor cleaning work and provides no process instructions."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "96c54044ea2c0b57dd21c9bb21bfc462a348ffc444ad90324f92bbe58ec77121"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "430d1ef50fcf1ad3ed74066537937351e7b08120b4df1868dbb1371d5695bf39"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "3aaa9a3b91f3c7bacb704258480ca8dbe84c0122db6f648d6ed1c419f9db5092"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e0ba672d667c6f8021ea29723e96ccf4d5a1dedfca3ccf2a497f2ae0b0138677"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "ad141f8f0428539e2c83afdf39d63dd55cd16289c5872a5e7bd0967db65245b6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2fbc4961d731e814ea6e7ba24191a914226dc307c4b8f1adabfcf3177f3877aa"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "47920c47bc5b16c3a4ac2a74d31b16a4b4b9f9be0b496ea0aed147c51ec50ccf"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5d59025c33cc47666646765781f425b0227d95cfa22df82c1df906037f4400d2"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "pdf",
+        "text": "Brine train A membrane cleaning has an empty completion-signature box on its handoff sheet. The operator has initialled the equipment-identification row only. Those initials confirm which housing was recorded, not that the cleaning run is finished."
+      }
+    }
+  ],
+  "id": "history-eval10-chronological",
+  "queries": [
+    {
+      "afterEvent": "e12",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e06",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e09",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev08-q3",
+    "inputSHA256": "840a9554c96ebd6d5a0b4e23c47955a06e62a492b858047920106215db7f1bec",
+    "rawSHA256": "acd2a81ebc2bede2cdb6c2d593ff14f801d79ae1f6f9f673944732eacb2f08fd",
+    "requestCount": 1,
+    "reservationSHA256": "60be93a32624f7f86518eca53a39152749330db1eb356c9cc525aa59172e68f5",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 5.874212916663964,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "980fc2c70029e8f2fee1b9601e293716d8f30bbcd90152b3f1bc1d73fc4ae495",
+            "quote": "Oriole glaze discussion: several sample tiles were arranged in pairs so the group could think about a coherent finish. The conversation explored matte and glossy surfaces."
+          },
+          {
+            "candidateID": "679535e9b6decd085fe86217ccd9cf634df7164930630b31a8b1c1476bc4dea4",
+            "quote": "Oriole group's rescheduled kiln reservation: Thursday afternoon. This supersedes the first reservation slot. For Oriole's earlier trial firing, the peak temperature was never logged; this booking note cannot supply it."
+          }
+        ],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 21889024,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev08-q3"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "1314f7e4072d14ba6ae392109e4070e9f9ab797ecf607f741a695a3799b522ea"
+}

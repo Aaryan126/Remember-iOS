@@ -1,0 +1,64 @@
+{
+  "additionalRequests": 0,
+  "completedScheduledRequests": 8,
+  "noGoldBasedSelection": true,
+  "noPromptChanges": true,
+  "rows": [
+    {
+      "generationSeconds": 5.067974166660861,
+      "nativeStatus": "ok",
+      "unit": "c7-000",
+      "validationError": null,
+      "validationStatus": "ok"
+    },
+    {
+      "generationSeconds": 3.212224958333536,
+      "nativeStatus": "ok",
+      "unit": "boundary-000",
+      "validationError": null,
+      "validationStatus": "ok"
+    },
+    {
+      "generationSeconds": 3.3280942916680942,
+      "nativeStatus": "ok",
+      "unit": "boundary-001",
+      "validationError": "Evidence quote is not grounded",
+      "validationStatus": "error"
+    },
+    {
+      "generationSeconds": 2.978558000002522,
+      "nativeStatus": "ok",
+      "unit": "c7-001",
+      "validationError": "Evidence quote is not grounded",
+      "validationStatus": "error"
+    },
+    {
+      "generationSeconds": 2.6564203333327896,
+      "nativeStatus": "ok",
+      "unit": "c7-002",
+      "validationError": null,
+      "validationStatus": "ok"
+    },
+    {
+      "generationSeconds": 3.2315039166714996,
+      "nativeStatus": "ok",
+      "unit": "boundary-002",
+      "validationError": null,
+      "validationStatus": "ok"
+    },
+    {
+      "generationSeconds": 5.039133833328378,
+      "nativeStatus": "ok",
+      "unit": "boundary-003",
+      "validationError": null,
+      "validationStatus": "ok"
+    },
+    {
+      "generationSeconds": 2.7563538333342876,
+      "nativeStatus": "ok",
+      "unit": "c7-003",
+      "validationError": null,
+      "validationStatus": "ok"
+    }
+  ]
+}

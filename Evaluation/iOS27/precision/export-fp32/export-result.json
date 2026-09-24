@@ -1,0 +1,124 @@
+{
+  "files": {
+    "models/D3MatcherFP32.mlpackage/Data/com.apple.CoreML/model.mlmodel": "908c0ae927957f54e4753fbc12744eaf34b57636bc77249a5312e42d9349494a",
+    "models/D3MatcherFP32.mlpackage/Data/com.apple.CoreML/weights/weight.bin": "0a840b11bdb44466db2daf30686fb39f720492af6393e00efee83b0051076bb8",
+    "models/D3MatcherFP32.mlpackage/Manifest.json": "7cdfabab03588f7a6e1071a6876ea36b7ead243e263beca6f06fb7c26aaaafd3"
+  },
+  "maximumNeuralDeltaVsPyTorch": 2.8312206268310547e-07,
+  "originalConversionBoundMet": true,
+  "packageBytes": 133584226,
+  "rows": [
+    {
+      "fixture": "hv19a-i01--hv19a-i02",
+      "probabilities": [
+        0.0028169387951493263,
+        0.002710027154535055
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i03",
+      "probabilities": [
+        0.017769508063793182,
+        0.032017312943935394
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i04",
+      "probabilities": [
+        0.005105805117636919,
+        0.0035961270332336426
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i05",
+      "probabilities": [
+        0.0021300853695720434,
+        0.002123837126418948
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i06",
+      "probabilities": [
+        0.0029502343386411667,
+        0.002783983713015914
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i07",
+      "probabilities": [
+        0.9887264370918274,
+        0.9885539412498474
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i08",
+      "probabilities": [
+        0.032198257744312286,
+        0.05467129126191139
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i09",
+      "probabilities": [
+        0.0021537072025239468,
+        0.0026129097677767277
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i10",
+      "probabilities": [
+        0.07313857227563858,
+        0.09279707074165344
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i11",
+      "probabilities": [
+        0.0022584907710552216,
+        0.0023896521888673306
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i12",
+      "probabilities": [
+        0.9871706366539001,
+        0.984233021736145
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i13",
+      "probabilities": [
+        0.004066830035299063,
+        0.004094356670975685
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i14",
+      "probabilities": [
+        0.003009326057508588,
+        0.0028332648798823357
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i15",
+      "probabilities": [
+        0.014496793039143085,
+        0.026405014097690582
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i16",
+      "probabilities": [
+        0.9778242707252502,
+        0.9790195822715759
+      ]
+    },
+    {
+      "fixture": "hv19a-i01--hv19a-i17",
+      "probabilities": [
+        0.0022351150400936604,
+        0.003597706090658903
+      ]
+    }
+  ]
+}

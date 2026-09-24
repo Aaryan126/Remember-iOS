@@ -1,0 +1,118 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Restoration notebook, first entry",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Velvet cloak restoration concerns the faded green cloak from our fictional production The Lantern Gate. Stabilize the lining before attempting surface cleaning. The traveling costume crate will be refitted separately; this restoration notebook follows the garment itself."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Crate work order, page 1",
+      "modality": "pdf",
+      "sourceId": "s02",
+      "text": "Tour costume crate refit: replace the cracked inner rails and add a removable garment bar. The route has four stops, but transport planning is outside this file. We will measure the cloak after the restoration team has stabilized it."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Rejected swatch C card OCR",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "Restoration dye test, swatch C. The velvet cloak restoration team recorded a copper fringe after the test dried overnight. This sample was rejected for treatment, but its card should remain in the experiment record. No dye was applied to the cloak."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "Hanging trial extracted speech, 00:41–01:02",
+      "modality": "video",
+      "sourceId": "s04",
+      "text": "Velvet cloak restoration and tour costume crate refit share this hanging trial. The stabilized cloak needs a padded bar with a 38 cm clear drop below it. Measure the crate with its lid shut, keeping the original hanger as a labeled comparison."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Torn packing slip OCR",
+      "modality": "photo",
+      "sourceId": "s05",
+      "text": "Packing slip fragment: two soft sleeves, seven brass pins, green mark. The customer name has torn off. The slip could belong to the cloak work or to a different delivery; none of the remaining handwriting resolves that uncertainty."
+    },
+    {
+      "id": "e06",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Fictional conservation lecture, page 4",
+      "modality": "pdf",
+      "sourceId": "s06",
+      "text": "Conservation lecture handout saved as background for the velvet cloak restoration. Historic velvets can lose pile when brushed against the nap. These examples are from a teaching collection, and the handout does not prescribe a treatment for our cloak."
+    },
+    {
+      "id": "e08",
+      "kind": "restore",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "locator": "Crate inspection, measurement paragraph",
+      "modality": "note",
+      "sourceId": "s07",
+      "text": "Tour costume crate refit inspection: the removable bar now clears the closed lid by 12 mm. Keep the old rails with the workshop scrap until the final fit is accepted. These measurements were taken on the empty crate this morning."
+    },
+    {
+      "id": "e10",
+      "kind": "archive",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Care card dictation, 00:00–00:18",
+      "modality": "voice",
+      "sourceId": "s08",
+      "text": "Velvet cloak restoration care card: support the hem on a folded cotton sling during inspection. We selected the sling after a dry fit; the lining stitches have not yet been tested under travel vibration. Keep the garment flat between sessions."
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Personal reminder, paragraph 1",
+      "modality": "note",
+      "sourceId": "s09",
+      "text": "Household sewing reminder: replace the missing button on my raincoat before the weekend walk. The thread is in the kitchen drawer beside the spare shoelaces. This is personal mending and has no connection to the theater's costume work."
+    }
+  ],
+  "id": "dev02",
+  "queries": [
+    {
+      "atEvent": "e07",
+      "id": "q1",
+      "question": "Retrieve the archived rejected swatch C card and its observed fringe color.",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e07",
+      "id": "q2",
+      "question": "Who was the customer on the torn packing slip?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "What support does the active cloak care card specify for inspecting the hem?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Find the hanging trial used jointly for cloak restoration and crate refitting.",
+      "scope": "current"
+    }
+  ]
+}

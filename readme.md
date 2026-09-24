@@ -2,7 +2,7 @@
 
 # Remember
 
-**Save the moment. Find the context. Keep the story.**
+**Save anything. Recover the right context. See how your projects developed—with evidence.**
 
 A native iPhone memory vault that turns scattered notes, photos, videos, links, PDFs, and voice recordings into searchable memories and connected threads.
 
@@ -21,6 +21,20 @@ Remember brings those fragments into one place: preserve the original, extract u
 **Our objective is a personal memory system that earns trust:** useful connections, clear evidence, and control over what stays local and what is shared with AI services.
 
 > **Project status:** actively developed iOS prototype. Capture, search, Threads, history, and optional cloud assistance are implemented. Automatic organization is experimental; Remember Pro organization remains a research direction.
+
+The next product emphasis is **provenance-first project memory**, not forcing every
+capture into one folder. A shared source may concern several distinct projects;
+uncertain associations should remain searchable and reviewable. An isolated,
+agent-reviewed offline study is validating these relationships before any app
+integration. Optional review inside a River is planned, not shipped; D3 remains
+the current organizer. The first two-checkpoint study is complete: ledger integrity
+passed, but the new relationship/retrieval policies did not meet their quality gates.
+The current source build brings retained-source browsing into **Search your memories**:
+use **Include history** for earlier revisions/archived sources or **Source text only**
+to exclude generated metadata. Matches open the exact saved version. **Ask AI** stays
+separate; this does not enable a new answer verifier or cloud history retrieval.
+[Unified search: behavior and verification](docs/unified-memory-search.md).
+[Plan, results, and boundaries](docs/provenance-first.md)
 
 ## The experience
 
@@ -156,13 +170,13 @@ The next objective is to move from a working memory vault to a dependable daily 
 
 | Priority | Next objective | Evidence needed before rollout |
 | --- | --- | --- |
-| **More reliable local organization** | Improve project-boundary recognition and recover missed connections | Fresh held-out libraries, chronological replay, fewer false attachments, and preserved user corrections |
+| **Provenance-first project memory** | Represent overlap and uncertainty, recover source-linked context, and keep project history trustworthy | Two offline checkpoints: reviewed relationship fixtures and ideal-label replay, then frozen-policy/retrieval comparison; optional River review only after separate approval |
 | **Device and scale readiness** | Resolve runtime parity and measure the integrated organizer on real iPhones | Cold/warm latency, peak memory, thermal behavior, and large-library tests |
 | **Richer local understanding** | Evaluate newer Apple models for context review and image/video evidence | Measured gains over D3, explicit uncertainty, and asset/language compatibility checks |
 | **Remember Pro** | Offer opt-in cloud context review as evidence-backed suggestions | Fresh end-to-end evaluation, user acceptance, authenticated entitlements, quotas, and bounded costs |
 | **Release readiness** | Harden the cloud boundary and make setup reproducible | Authenticated proxy access, privacy documentation, and a documented model-asset distribution path |
 
-These are development objectives, not shipped features or release-date commitments. [Local organization design](docs/d3-organization.md) · [Pro launch requirements](docs/premium-organization-api.md)
+These are development objectives, not shipped features or release-date commitments. New specialist training and RL remain deferred until an observed bottleneck justifies them. [Provenance-first checkpoints](docs/provenance-first.md) · [Local organization design](docs/d3-organization.md) · [Pro launch requirements](docs/premium-organization-api.md)
 
 ## Run locally
 

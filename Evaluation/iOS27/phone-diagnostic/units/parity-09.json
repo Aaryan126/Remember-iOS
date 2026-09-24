@@ -1,0 +1,35 @@
+{
+  "origin": "new-device-observation",
+  "rawPath": "Evaluation/iOS27/phone-diagnostic/attempts/parity-09/raw.json",
+  "rawSHA256": "bb64bb0cc6cd2df179f5d7a16de5eeae29941e3af3757904e0a8b243c4165859",
+  "result": {
+    "elapsedSeconds": 0.07294574999832548,
+    "os": "Version 27.0 (Build 24A437)",
+    "policy": "d3-p2-seed29-corroborated-v1",
+    "residentAfterBytes": 37781504,
+    "residentBeforeBytes": 28016640,
+    "result": {
+      "computeUnits": "cpuOnly",
+      "decisionParity": true,
+      "fixture": "hv19a-i01--hv19a-i11",
+      "inferenceSeconds": [
+        0.02368341666442575,
+        0.017045125001459382
+      ],
+      "loadSeconds": 0.0026250833325320855,
+      "maximumFeatureDelta": 9.183288018910218e-10,
+      "maximumNativeScoreDelta": 0.00010970678954132576,
+      "passed": false,
+      "probabilities": [
+        0.00222015380859375,
+        0.0023822784423828125
+      ],
+      "score": 0.02062363085205673,
+      "tokenParity": true
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "parity-09"
+  }
+}

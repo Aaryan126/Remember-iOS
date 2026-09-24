@@ -1,0 +1,648 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Morrow cable span inspection covers the exposed cable between markers M8 and M11. This season's job is to photograph abrasion rather than replace the cable. The vessel book keeps port arrangements separate from seabed observations."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75105a56f5db57b526d9654da4023974e06d25cba10cc5708ecad10595f0038d"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "pdf",
+        "text": "Pelican spur inspection follows the short eastern branch beyond the junction box. A small camera sled will check the new protective sleeve. Its route and completion sign-off remain separate from the Morrow span inspection."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75105a56f5db57b526d9654da4023974e06d25cba10cc5708ecad10595f0038d"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "23cf2b1c93f4b8c65df8ef2a87344585028a852e65a8679340488876a7b32cea"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "The withdrawn Morrow pass card placed the first camera descent at marker M9. The handwritten margin says to approach from the sandy side because the rocky side obscures the sheath. It contains no water-depth measurement."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75105a56f5db57b526d9654da4023974e06d25cba10cc5708ecad10595f0038d"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "23cf2b1c93f4b8c65df8ef2a87344585028a852e65a8679340488876a7b32cea"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4300c54dbc0bf4c92c2dd100e00ea4ec48e577dada2639d13f9903d667047263"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "voice",
+        "text": "Morrow cable span inspection and Pelican spur inspection share the port departure slot at 06:40. One deck briefing serves both crews, but their underwater tracks stay separate. The galley request for tea does not change the departure slot."
+      }
+    },
+    {
+      "assignments": [
+        "t:c05"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75105a56f5db57b526d9654da4023974e06d25cba10cc5708ecad10595f0038d"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "23cf2b1c93f4b8c65df8ef2a87344585028a852e65a8679340488876a7b32cea"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4300c54dbc0bf4c92c2dd100e00ea4ec48e577dada2639d13f9903d667047263"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "b1e6e7606d44bb88fec8f75e45ace8accea7f5a3743606de6b3079ebc76d6e52"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "image",
+        "text": "Box two needs a fresh seal before boarding. The scrap is unsigned and carries no route, vessel name, or cable identifier. A coffee ring covers what might once have been a job number; the remaining characters read only 'B-'."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75105a56f5db57b526d9654da4023974e06d25cba10cc5708ecad10595f0038d"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "23cf2b1c93f4b8c65df8ef2a87344585028a852e65a8679340488876a7b32cea"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4300c54dbc0bf4c92c2dd100e00ea4ec48e577dada2639d13f9903d667047263"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b1e6e7606d44bb88fec8f75e45ace8accea7f5a3743606de6b3079ebc76d6e52"
+        }
+      },
+      "id": "e06",
+      "kind": "correct",
+      "target": "localc05"
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75105a56f5db57b526d9654da4023974e06d25cba10cc5708ecad10595f0038d"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "23cf2b1c93f4b8c65df8ef2a87344585028a852e65a8679340488876a7b32cea"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4300c54dbc0bf4c92c2dd100e00ea4ec48e577dada2639d13f9903d667047263"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b1e6e7606d44bb88fec8f75e45ace8accea7f5a3743606de6b3079ebc76d6e52"
+        }
+      },
+      "id": "e07",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c06"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75105a56f5db57b526d9654da4023974e06d25cba10cc5708ecad10595f0038d"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "23cf2b1c93f4b8c65df8ef2a87344585028a852e65a8679340488876a7b32cea"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4300c54dbc0bf4c92c2dd100e00ea4ec48e577dada2639d13f9903d667047263"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b1e6e7606d44bb88fec8f75e45ace8accea7f5a3743606de6b3079ebc76d6e52"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "152064dcdde29a1c1314d967bd8d2926fe957dd3af331a8bb1a9a9308a6be31b"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "link",
+        "text": "A training leaflet about camera glare may help Morrow cable span inspection. Its demonstration cable is in a tank at a different harbor, and none of its example marker numbers identify our survey. Treat the leaflet as technique background."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75105a56f5db57b526d9654da4023974e06d25cba10cc5708ecad10595f0038d"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "23cf2b1c93f4b8c65df8ef2a87344585028a852e65a8679340488876a7b32cea"
+        },
+        "localc04": {
+          "archived": true,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4300c54dbc0bf4c92c2dd100e00ea4ec48e577dada2639d13f9903d667047263"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b1e6e7606d44bb88fec8f75e45ace8accea7f5a3743606de6b3079ebc76d6e52"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "152064dcdde29a1c1314d967bd8d2926fe957dd3af331a8bb1a9a9308a6be31b"
+        }
+      },
+      "id": "e09",
+      "kind": "archive",
+      "target": "localc04"
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75105a56f5db57b526d9654da4023974e06d25cba10cc5708ecad10595f0038d"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "23cf2b1c93f4b8c65df8ef2a87344585028a852e65a8679340488876a7b32cea"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4300c54dbc0bf4c92c2dd100e00ea4ec48e577dada2639d13f9903d667047263"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b1e6e7606d44bb88fec8f75e45ace8accea7f5a3743606de6b3079ebc76d6e52"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "152064dcdde29a1c1314d967bd8d2926fe957dd3af331a8bb1a9a9308a6be31b"
+        }
+      },
+      "id": "e10",
+      "kind": "restore",
+      "target": "localc04"
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75105a56f5db57b526d9654da4023974e06d25cba10cc5708ecad10595f0038d"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "23cf2b1c93f4b8c65df8ef2a87344585028a852e65a8679340488876a7b32cea"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4300c54dbc0bf4c92c2dd100e00ea4ec48e577dada2639d13f9903d667047263"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b1e6e7606d44bb88fec8f75e45ace8accea7f5a3743606de6b3079ebc76d6e52"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "152064dcdde29a1c1314d967bd8d2926fe957dd3af331a8bb1a9a9308a6be31b"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "8e76957ff4c166be456c1baa63bf493396a417af37f15060d4656e9540f37ff0"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "video",
+        "text": "Morrow cable span inspection now uses a green tie on the camera tether to mark the turnaround point. This is a deck-handling cue, not a measured seabed coordinate. Leave the unmarked spare tether in the locker."
+      }
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "3d83b82e42838572da8e1c9091f8f0e95bf1969adb4cfaa868548b8872d74654"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "75105a56f5db57b526d9654da4023974e06d25cba10cc5708ecad10595f0038d"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "23cf2b1c93f4b8c65df8ef2a87344585028a852e65a8679340488876a7b32cea"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4300c54dbc0bf4c92c2dd100e00ea4ec48e577dada2639d13f9903d667047263"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b1e6e7606d44bb88fec8f75e45ace8accea7f5a3743606de6b3079ebc76d6e52"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "152064dcdde29a1c1314d967bd8d2926fe957dd3af331a8bb1a9a9308a6be31b"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "8e76957ff4c166be456c1baa63bf493396a417af37f15060d4656e9540f37ff0"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "f870b17ed7fd41fd59394df922531df96255da3cefbab57e04a85d1b55a8a428"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "image",
+        "text": "The cabin notice asks passengers to return enamel mugs before docking. It gives the washing-up rota and a drawing of the mug shelf. There are no cable identifiers, survey actions, or equipment assignments on the notice."
+      }
+    }
+  ],
+  "id": "history-eval01-chronological",
+  "queries": [
+    {
+      "afterEvent": "e12",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e08",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e10",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e05",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-041/raw.json",
+  "rawSHA256": "e60c4c7cc9ce5e2f666f716191a0073627cac1fb06af8572c55dbdd91ec89e53",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.067796041672409,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.958339220844209e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21934783333563246,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2668225000015809,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.26779741667269263,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.066755958338035,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "6e653a6db96849efc31da3da50275a2b0d5290313a6ff831228b18194923fbd6",
+      "contextSize": 4096,
+      "generationSeconds": 3.798291250001057,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Morrow Works is restoring the slate roof of Northgate Library. Survey, scaffold hire, slate replacement and final leak inspection are one roof-restoration contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Morrow Works printed NL-6 on a delivery docket for a school playground slide. The library roof file uses NL-6 too; the playground supply order is an unrelated site and contract.",
+            "sourceID": "s07"
+          }
+        ],
+        "rationale": "The sources mention distinct projects: ",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-041"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "cancellationGraceSeconds": 2,
+  "controlDeadlineSeconds": 2,
+  "generationDeadlineSeconds": 60,
+  "maximumModelRequests": 1,
+  "prewarmUsed": false,
+  "productionChanged": false,
+  "samePromptAndSchemaAsPrior": true,
+  "stage2Started": false,
+  "syntheticOnly": true,
+  "units": [
+    "watchdog-control",
+    "generation"
+  ]
+}

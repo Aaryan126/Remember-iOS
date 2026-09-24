@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-020/raw.json",
+  "rawSHA256": "ae5ad6b4ba77087d7df344cce7085cf93071d2754389c1e58ee2b2a2cc3abd09",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.5636710000035237,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.083333235234022e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21603791666711913,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2704120000053081,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.271388166671386,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.5626043750016834,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "3dbc7e38688ef7de7f1bbdae9a5710cd6d1d69f30553283a476f54f388386f33",
+      "contextSize": 4096,
+      "generationSeconds": 3.290593458332296,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Survey, scaffold hire, slate replacement and final leak inspection are one roof-restoration contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The roof's final leak inspection found one defective flashing. Correct it under the existing roof-restoration warranty; this is not an extra window-restoration contract.",
+            "sourceID": "s03"
+          }
+        ],
+        "rationale": "Both sources reference the ",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-020"
+  }
+}

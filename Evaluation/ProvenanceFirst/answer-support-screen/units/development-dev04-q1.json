@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev04-q1",
+    "inputSHA256": "312b2c5c36778fe83753247241af2ef9403096306af1babbd69e26e8d82a32ef",
+    "rawSHA256": "7ab7e1f008a1f08cbda576c19726b23641026621b1c6eeb8d160843699f23f17",
+    "requestCount": 1,
+    "reservationSHA256": "d13123075c251a22961a12d73194caa146d4577a7319daf844520258594c342a",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.848993249994237,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "handling code FOLD-9",
+        "evidence": [
+          {
+            "candidateID": "09260b842f654032d45886d9776473bb1138ec3b31a5c386bcf9b5f83bda7245",
+            "quote": "Discarded first wrapper for Tide Bowl L-14, label visible: handling code FOLD-9. The wrapper is no longer used; this photo preserves its code."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21315584,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev04-q1"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "fe491a49400a23e9e8533fecb5c5a2940a6ece107e1aa5c814c64ca42078d553"
+}

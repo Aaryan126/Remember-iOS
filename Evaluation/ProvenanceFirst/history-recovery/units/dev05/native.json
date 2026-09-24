@@ -1,0 +1,726 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Bean patty allergen label revision is a fictional print exercise for Cedar School's lunch counter. Compare the approved ingredient sheet with every label proof. No actual food is being served in this exercise; the task is to track how the label copy changes."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "voice",
+        "text": "Lunch counter bilingual captions will pair the exercise's dish names with translations and readable type sizes. Ingredient certification remains with the label revision team. We need one joint proof round so captions do not cover the printed allergen box."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "4bc9190dc968204029838ab16fd2a5e4e872ff242389fad26b8b575b1b83b17b"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "pdf",
+        "text": "Bean patty allergen label revision, proof L1: 'Contains wheat and milk.' The ingredient-sheet comparison has not happened yet. A red sticker marks this as a draft, and the fictional lunch counter must not use this sheet as the approved label."
+      }
+    },
+    {
+      "assignments": [
+        "t:c04"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "4bc9190dc968204029838ab16fd2a5e4e872ff242389fad26b8b575b1b83b17b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "e6ae8cc1491321d133000f1d7efa924dcaa14aee49359402bc8c0f5ccc3b291b"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "image",
+        "text": "Small sticky note: 'Remove the second line, keep sesame.' No dish name or proof number is visible. The note was found near both caption drafts and label printouts. Its wording alone does not establish what text it was intended to correct."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "4bc9190dc968204029838ab16fd2a5e4e872ff242389fad26b8b575b1b83b17b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "e6ae8cc1491321d133000f1d7efa924dcaa14aee49359402bc8c0f5ccc3b291b"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3012a804e83f8a5bfe5463e4356a167964e5986378432fb2b2dd5522087d8b09"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "pdf",
+        "text": "Shared proof check for bean patty allergen label revision and lunch counter bilingual captions: reserve the bottom 16 mm for the allergen box. The translated dish name can wrap above it. Both teams must inspect the same physical proof before printing."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "4bc9190dc968204029838ab16fd2a5e4e872ff242389fad26b8b575b1b83b17b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e6ae8cc1491321d133000f1d7efa924dcaa14aee49359402bc8c0f5ccc3b291b"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3012a804e83f8a5bfe5463e4356a167964e5986378432fb2b2dd5522087d8b09"
+        }
+      },
+      "id": "e06",
+      "kind": "correct",
+      "target": "localc04"
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "4bc9190dc968204029838ab16fd2a5e4e872ff242389fad26b8b575b1b83b17b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e6ae8cc1491321d133000f1d7efa924dcaa14aee49359402bc8c0f5ccc3b291b"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3012a804e83f8a5bfe5463e4356a167964e5986378432fb2b2dd5522087d8b09"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cfdce7cd801f24538947f44ce07e2b5d885de36585cf1b50a5c1ae471c80585d"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "note",
+        "text": "Bean patty allergen label revision, approved proof L2: 'Contains wheat and sesame.' The verified exercise ingredient sheet has sesame and no milk ingredient; this proof replaces L1 for printing. Keep the discarded proof for documenting the copy correction."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "4bc9190dc968204029838ab16fd2a5e4e872ff242389fad26b8b575b1b83b17b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e6ae8cc1491321d133000f1d7efa924dcaa14aee49359402bc8c0f5ccc3b291b"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3012a804e83f8a5bfe5463e4356a167964e5986378432fb2b2dd5522087d8b09"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cfdce7cd801f24538947f44ce07e2b5d885de36585cf1b50a5c1ae471c80585d"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "30b0c6732305135c2118bf6f44293ff7fc049f5c8992b9378a0bdab94cd4e98b"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "video",
+        "text": "Lunch counter bilingual captions layout check: use two lines for the long translated bean-patty name. Keep both lines left aligned. A later conversation about ordering real cafeteria meals is outside this fictional label exercise and changes none of this copy."
+      }
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "4bc9190dc968204029838ab16fd2a5e4e872ff242389fad26b8b575b1b83b17b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e6ae8cc1491321d133000f1d7efa924dcaa14aee49359402bc8c0f5ccc3b291b"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3012a804e83f8a5bfe5463e4356a167964e5986378432fb2b2dd5522087d8b09"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cfdce7cd801f24538947f44ce07e2b5d885de36585cf1b50a5c1ae471c80585d"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "30b0c6732305135c2118bf6f44293ff7fc049f5c8992b9378a0bdab94cd4e98b"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "b7de680fcae657f4750b86fd132c4152254ce4e508027d261edbe2919cf52964"
+        }
+      },
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "link",
+        "text": "Typography article retained as background for lunch counter bilingual captions. It discusses mixed-script baselines using street posters. The article offers no translations for the exercise and does not establish whether any ingredient is present in the bean patty."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "4bc9190dc968204029838ab16fd2a5e4e872ff242389fad26b8b575b1b83b17b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e6ae8cc1491321d133000f1d7efa924dcaa14aee49359402bc8c0f5ccc3b291b"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3012a804e83f8a5bfe5463e4356a167964e5986378432fb2b2dd5522087d8b09"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cfdce7cd801f24538947f44ce07e2b5d885de36585cf1b50a5c1ae471c80585d"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "30b0c6732305135c2118bf6f44293ff7fc049f5c8992b9378a0bdab94cd4e98b"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "b7de680fcae657f4750b86fd132c4152254ce4e508027d261edbe2919cf52964"
+        }
+      },
+      "id": "e10",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c09"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "4bc9190dc968204029838ab16fd2a5e4e872ff242389fad26b8b575b1b83b17b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e6ae8cc1491321d133000f1d7efa924dcaa14aee49359402bc8c0f5ccc3b291b"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3012a804e83f8a5bfe5463e4356a167964e5986378432fb2b2dd5522087d8b09"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cfdce7cd801f24538947f44ce07e2b5d885de36585cf1b50a5c1ae471c80585d"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "30b0c6732305135c2118bf6f44293ff7fc049f5c8992b9378a0bdab94cd4e98b"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "b7de680fcae657f4750b86fd132c4152254ce4e508027d261edbe2919cf52964"
+        },
+        "localc09": {
+          "archived": false,
+          "memberships": [
+            "t:c09"
+          ],
+          "revision": 0,
+          "textSHA256": "0d002ab47e3c56b46706f8ad0199d33909dd2b35798d6da5ed276fa3862b26d0"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc09",
+        "modality": "note",
+        "text": "Personal reminder: bring an empty lunch tin to the picnic and return the borrowed thermos. The shopping list will be written later. This reminder is not an ingredient declaration, label proof or translation request for the school exercise."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "f49243ddf0320597f03223bbd3d3cc7582164ca9e0c62c249d01d102435fa1d4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "0a7457add3e70d1462820c942387ef1298d78356841570adf54b5f7948d7c2bb"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "4bc9190dc968204029838ab16fd2a5e4e872ff242389fad26b8b575b1b83b17b"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e6ae8cc1491321d133000f1d7efa924dcaa14aee49359402bc8c0f5ccc3b291b"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3012a804e83f8a5bfe5463e4356a167964e5986378432fb2b2dd5522087d8b09"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cfdce7cd801f24538947f44ce07e2b5d885de36585cf1b50a5c1ae471c80585d"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "30b0c6732305135c2118bf6f44293ff7fc049f5c8992b9378a0bdab94cd4e98b"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "b7de680fcae657f4750b86fd132c4152254ce4e508027d261edbe2919cf52964"
+        },
+        "localc09": {
+          "archived": false,
+          "memberships": [
+            "t:c09"
+          ],
+          "revision": 0,
+          "textSHA256": "0d002ab47e3c56b46706f8ad0199d33909dd2b35798d6da5ed276fa3862b26d0"
+        }
+      },
+      "id": "e12",
+      "kind": "restore",
+      "target": "localc03"
+    }
+  ],
+  "id": "history-dev05-chronological",
+  "queries": [
+    {
+      "afterEvent": "e04",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e11",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

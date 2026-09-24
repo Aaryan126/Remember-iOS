@@ -1,0 +1,664 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Pear graft union trial: compare whip and saddle joins on six labeled rootstocks. This notebook tracks union inspection and tying material. We are not testing fruit yield this season; the seedling hardening group owns the other half of the coldframe."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "voice",
+        "text": "Coldframe seedling hardening begins with trays H and J. Track vent openings and leaf scorch before outdoor transfer. Grafted trees are a separate trial, even though the teams will share the same sheltered frame during the wet spell."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5b8bde378e8809616b5b7606c9df7167eb733222e02a6998dc0aa4b1adb942f6"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "Pear graft union trial, first inspection card. Saddle join G4 showed a pale callus ring on day nine. The card was written before the inspection sheet was redesigned. Soil moisture and the spare labels are listed on its reverse side."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5b8bde378e8809616b5b7606c9df7167eb733222e02a6998dc0aa4b1adb942f6"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "10b30366591def2b1b5ffdd72e2d18a9ecfaad177c20ea1ab337e20b3b909243"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "pdf",
+        "text": "Shared coldframe arrangement for the pear graft union trial and coldframe seedling hardening: graft pots take the east bench and seedling trays take the west bench. Both teams check the single vent at midday, recording their own observations afterward."
+      }
+    },
+    {
+      "assignments": [
+        "t:c05"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5b8bde378e8809616b5b7606c9df7167eb733222e02a6998dc0aa4b1adb942f6"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "10b30366591def2b1b5ffdd72e2d18a9ecfaad177c20ea1ab337e20b3b909243"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "bfb494ba4f56f49bee4ca56eb60a31d82ba79e25b3b2d7e48318e0ac84dd9fb8"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "image",
+        "text": "Blue loop, 14, shade until Friday. The handwriting below the number has washed away. A tray edge appears in the photograph but no trial name or specimen identifier survives. The photographer cannot remember which bench this tag came from."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5b8bde378e8809616b5b7606c9df7167eb733222e02a6998dc0aa4b1adb942f6"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "10b30366591def2b1b5ffdd72e2d18a9ecfaad177c20ea1ab337e20b3b909243"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "bfb494ba4f56f49bee4ca56eb60a31d82ba79e25b3b2d7e48318e0ac84dd9fb8"
+        }
+      },
+      "id": "e06",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5b8bde378e8809616b5b7606c9df7167eb733222e02a6998dc0aa4b1adb942f6"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "10b30366591def2b1b5ffdd72e2d18a9ecfaad177c20ea1ab337e20b3b909243"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "bfb494ba4f56f49bee4ca56eb60a31d82ba79e25b3b2d7e48318e0ac84dd9fb8"
+        }
+      },
+      "id": "e07",
+      "kind": "correct",
+      "target": "localc05"
+    },
+    {
+      "assignments": [
+        "t:c06"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5b8bde378e8809616b5b7606c9df7167eb733222e02a6998dc0aa4b1adb942f6"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "10b30366591def2b1b5ffdd72e2d18a9ecfaad177c20ea1ab337e20b3b909243"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "bfb494ba4f56f49bee4ca56eb60a31d82ba79e25b3b2d7e48318e0ac84dd9fb8"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "d8251983a6c9994e590bcd225fd31a1543b08ae8549f96451286113edd43f978"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "link",
+        "text": "General propagation guide: callus develops differently across species and humidity conditions. This page is background reading for the pear graft union trial, not a record of its rootstocks. Its orchard pictures show mature trees from an unrelated demonstration site."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5b8bde378e8809616b5b7606c9df7167eb733222e02a6998dc0aa4b1adb942f6"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "10b30366591def2b1b5ffdd72e2d18a9ecfaad177c20ea1ab337e20b3b909243"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "bfb494ba4f56f49bee4ca56eb60a31d82ba79e25b3b2d7e48318e0ac84dd9fb8"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "d8251983a6c9994e590bcd225fd31a1543b08ae8549f96451286113edd43f978"
+        }
+      },
+      "id": "e09",
+      "kind": "restore",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5b8bde378e8809616b5b7606c9df7167eb733222e02a6998dc0aa4b1adb942f6"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "10b30366591def2b1b5ffdd72e2d18a9ecfaad177c20ea1ab337e20b3b909243"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "bfb494ba4f56f49bee4ca56eb60a31d82ba79e25b3b2d7e48318e0ac84dd9fb8"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "d8251983a6c9994e590bcd225fd31a1543b08ae8549f96451286113edd43f978"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c7d8177f8622b9118f0e7704c5f18011bbc7a170db553e39e3de3d324c7ab62e"
+        }
+      },
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "note",
+        "text": "Pear graft union trial, current handling instruction: loosen the outer ties on G4 at the next inspection. Keep the inner support in place. This instruction concerns the live tree and does not replace the observations written on the first inspection card."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5b8bde378e8809616b5b7606c9df7167eb733222e02a6998dc0aa4b1adb942f6"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "10b30366591def2b1b5ffdd72e2d18a9ecfaad177c20ea1ab337e20b3b909243"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "bfb494ba4f56f49bee4ca56eb60a31d82ba79e25b3b2d7e48318e0ac84dd9fb8"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "d8251983a6c9994e590bcd225fd31a1543b08ae8549f96451286113edd43f978"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c7d8177f8622b9118f0e7704c5f18011bbc7a170db553e39e3de3d324c7ab62e"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b90a9398db16f59adac45af5513a8115bf14325d3ea77ddb139174a7ba5af90b"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "voice",
+        "text": "Coldframe seedling hardening: tray J can move outside after two scorch-free afternoons. The east bench must remain clear for the graft pots. A missing watering-can rose has delayed washing, but that does not change the transfer criterion."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5bc9ab991ab36e7aa567500d30e8af2ba5646f7806ec954959cff1b8f7ede2de"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "135f953fc5565c5887c95aaba4249085b569acb74e64434d055adac6d5947bd6"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "5b8bde378e8809616b5b7606c9df7167eb733222e02a6998dc0aa4b1adb942f6"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "10b30366591def2b1b5ffdd72e2d18a9ecfaad177c20ea1ab337e20b3b909243"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "bfb494ba4f56f49bee4ca56eb60a31d82ba79e25b3b2d7e48318e0ac84dd9fb8"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "d8251983a6c9994e590bcd225fd31a1543b08ae8549f96451286113edd43f978"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "c7d8177f8622b9118f0e7704c5f18011bbc7a170db553e39e3de3d324c7ab62e"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b90a9398db16f59adac45af5513a8115bf14325d3ea77ddb139174a7ba5af90b"
+        }
+      },
+      "id": "e12",
+      "kind": "archive",
+      "target": "localc03"
+    }
+  ],
+  "id": "history-dev01-chronological",
+  "queries": [
+    {
+      "afterEvent": "e06",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e06",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "command": [
+    "xcodebuild",
+    "-project",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/sentence-controls/build/SentenceProbe.xcodeproj",
+    "-scheme",
+    "SentenceProbe",
+    "-destination",
+    "generic/platform=iOS",
+    "-derivedDataPath",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/sentence-controls/build/device-build",
+    "-disableAutomaticPackageResolution",
+    "-skipPackageUpdates",
+    "build",
+    "-quiet"
+  ],
+  "returnCode": 0,
+  "stderr": "2026-09-16 11:29:49.681 xcodebuild[21843:327005] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.\n",
+  "stdout": ""
+}

@@ -1,0 +1,122 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Train A cleaning docket, page 1",
+      "modality": "pdf",
+      "sourceId": "s01",
+      "text": "Brine train A membrane cleaning covers the first demonstration skid's removable membrane housing. This fictional exercise records cleaning-stage handoffs only. The housing remains separate from train B, and the log does not authorize operation of a real plant."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Control-room scratch note, initial label",
+      "modality": "note",
+      "sourceId": "s03",
+      "text": "The initial shared hold is labelled Blue pause on the control-room scratch note. Do not copy a duration from the old wall chart; that chart has not been checked. The scratch note itself carries no train name or docket number."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Train B cleaning log, opening entry",
+      "modality": "note",
+      "sourceId": "s02",
+      "text": "Brine train B membrane cleaning covers the second demonstration skid's removable membrane housing. The operator keeps a separate cleaning log and isolation tag for this train. Its sample labels are not interchangeable with those from the adjacent train A."
+    },
+    {
+      "assignedProjectRoots": [
+        "s01",
+        "s02"
+      ],
+      "id": "e04",
+      "kind": "correct",
+      "reason": "The control-room scratch note is the joint hold for Brine train A membrane cleaning and Brine train B membrane cleaning. Assign it to both.",
+      "sourceId": "s03"
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Extracted train A bench photograph, upper labels",
+      "modality": "photo",
+      "sourceId": "s04",
+      "text": "Brine train A membrane cleaning records its removed housing on padded bench Birch. The extracted bench photograph gives the bench name and train tag clearly. Glare hides the lower checklist, so it does not establish which cleaning stages have been completed."
+    },
+    {
+      "id": "e06",
+      "kind": "revise",
+      "locator": "Control-room scratch note, relabelled joint hold",
+      "sourceId": "s03",
+      "text": "The shared hold for Brine train A membrane cleaning and Brine train B membrane cleaning is now labelled Amber pause. This label replaces Blue pause after the board was reorganised. The note still specifies no duration and provides no cleaning-chemistry instruction."
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Fictional demonstration manual, housing diagram",
+      "modality": "link",
+      "sourceId": "s05",
+      "text": "A membrane-housing diagram provides background for Brine train B membrane cleaning. It shows a different demonstration model and labels inlet and outlet ends. It supplies neither a cleaning recipe nor evidence that any stage of the local cleaning run is complete."
+    },
+    {
+      "id": "e08",
+      "kind": "archive",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "locator": "Extracted train B handoff, 00:09–00:26",
+      "modality": "voice",
+      "sourceId": "s06",
+      "text": "Brine train B membrane cleaning places the next sample bottle in rack RB2 pending a label check. The audio stops before the checker answers. It reports a staging location only, with no concentration, temperature, or completion measurement."
+    },
+    {
+      "id": "e10",
+      "kind": "restore",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Extracted furniture notice, complete text",
+      "modality": "photo",
+      "sourceId": "s07",
+      "text": "The control-room notice assigns the spare chair to the visitor desk and asks staff not to block the exit. Its handwritten arrows point to furniture. It mentions neither membrane train nor cleaning work and provides no process instructions."
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Train A handoff sheet, signature section",
+      "modality": "pdf",
+      "sourceId": "s08",
+      "text": "Brine train A membrane cleaning has an empty completion-signature box on its handoff sheet. The operator has initialled the equipment-identification row only. Those initials confirm which housing was recorded, not that the cleaning run is finished."
+    }
+  ],
+  "id": "eval10",
+  "queries": [
+    {
+      "atEvent": "e12",
+      "id": "q1",
+      "question": "What label does the current control-room scratch note use for the shared cleaning hold?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e06",
+      "id": "q2",
+      "question": "Include previous versions: what hold label appeared in the initial control-room scratch note, before it was relabelled?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e09",
+      "id": "q3",
+      "question": "Which currently available note explicitly names the hold shared by both membrane-cleaning runs?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "What is the internal bore diameter, in millimetres, of the train B membrane housing?",
+      "scope": "current"
+    }
+  ]
+}

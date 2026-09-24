@@ -1,0 +1,35 @@
+{
+  "candidateOwnConversionGatePassed": true,
+  "evidenceSHA256": {
+    "REPORT.md": "0a4b32643c08151d6629b9d4148b02fa2c927338c554020a4426e534aaea64d1",
+    "audit.json": "ea6eb78fefe0d0bd742a43aa666e080ac655f943fa1998286a4c4cabe4735b56",
+    "export-fp32/environment-override.json": "88f0cc87c3a4c98acb466db736074524f3452819cb0ef093981f2ad42360477d",
+    "export-fp32/export-inputs.json": "596ee496c7de0c83344f99ac3a90886af4a7a28c4dfb7e74d1fb368f6cfe833f",
+    "export-fp32/export-result.json": "6714ebdd0598492998cc2d086f6897e29caf76fc9ad8bd3dfed30c1390ed7399",
+    "export-fp32/pytorch-reference.json": "640ba013b177134b43f46d160ee8f9c5d93995c43af2d519bfce95d4f71824f2",
+    "manifest.json": "db6f73e40b3d6f0fefcb25bcec8ec546d258512b758fe4bdccd67da4ca980fa6",
+    "pause-resume-proof.json": "58cb510e31a2a169560830244f5be085b04e7c6c0becd176d5cc4a1afcffb167",
+    "summary.json": "1aecab9dd8ee84c58c1ec1dc77bdb7109fa4de4a4c15e2b87226cab0f7941ece"
+  },
+  "experimentBytes": 2621966341,
+  "exportReferencePredictions": {
+    "coreML": 32,
+    "pytorch": 32
+  },
+  "freeBytes": 50532270080,
+  "mainAppInstalled": false,
+  "nativePredictions": 192,
+  "nativeUnits": {
+    "mac": 32,
+    "phone": 32
+  },
+  "nextAction": "Review FP32 as a separately versioned evaluation candidate; finish organizer safeguards and boundary-sensitive regression before Stage 2",
+  "originalStrictGatePassed": false,
+  "productionModelChanged": false,
+  "pythonTestsPassed": 39,
+  "safeToClose": true,
+  "stage1Complete": false,
+  "stage2Started": false,
+  "status": "numerical-diagnostic-complete-stopped-for-review",
+  "thresholdChanged": false
+}

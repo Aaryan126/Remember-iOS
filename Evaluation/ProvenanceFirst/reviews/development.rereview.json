@@ -1,0 +1,40 @@
+{
+  "reviewer": "/root/pf_review_dev",
+  "author": "/root/pf_author_dev",
+  "split": "development",
+  "inputSHA256": "09992feb5dccf0ab6e3d51498f53a9281900a5aa28ceab788d0099c0c49d7dd2",
+  "reviewType": "independent prediction-blind full-fixture re-review",
+  "priorReview": "development.initial.json",
+  "validation": {"result": "pass", "method": "fixtures.validate_split; inspected all 12 reverse-ready alternate schedules"},
+  "resolvedInitialFindings": [
+    "Added equally relevant source revisions to broad historical questions in dev01, dev02, dev08, dev09, dev10.",
+    "Added individual rights documents to dev05/q1, and reframed dev05/q2 to ask for the unknown referent rather than an answerable authorization denial.",
+    "Added the safety condition to dev04/q2 evidence.",
+    "dev06 return/completion and its revision now retain both project memberships; later inventory-only maintenance remains separate.",
+    "All explicitly listed initial causal dependencies are fixed. Additional changes removed selected label-like source instructions and identify combined capture annotations."
+  ],
+  "libraries": [
+    {"id": "dev01", "verdict": "pass", "issues": []},
+    {"id": "dev02", "verdict": "pass", "issues": []},
+    {"id": "dev03", "verdict": "pass", "issues": []},
+    {"id": "dev04", "verdict": "pass", "issues": []},
+    {"id": "dev05", "verdict": "pass", "issues": []},
+    {"id": "dev06", "verdict": "fail", "issues": [
+      {"location": "dev06/e02 text and gold", "severity": "error", "reason": "The edited root now says GR-9 has reserved T4 and T9 this weekend. This is a specific transaction for the expedition, unlike the former general statement that GR-9 is one borrower. Gold remains lending-only, contradicting the direct shared checkout and return membership policy. The format also intentionally requires a project root to introduce only its own project.", "suggestedFix": "Keep e02 as a general lending inventory/service description without this specific GR-9 reservation transaction; retain specific expedition checkout facts at e06. Do not force an actual joint transaction into root-only gold."},
+      {"location": "dev06/e11 dependsOn", "severity": "error", "reason": "The user correction explicitly distinguishes lending from the completed expedition, but reverse-ready order currently puts this correction before even the expedition root. User assignment authority is valid, yet the stated completion context violates the intended causal progression rather than testing independent late arrival.", "suggestedFix": "Add e08 (return and expedition completion) to e11 dependencies. Existing e09 and e02 dependencies remain."}
+    ]},
+    {"id": "dev07", "verdict": "pass", "issues": []},
+    {"id": "dev08", "verdict": "pass", "issues": []},
+    {"id": "dev09", "verdict": "fail", "issues": [
+      {"location": "dev09/e08 dependsOn", "severity": "error", "reason": "The protocol revision preserves earlier observations at their original times, but the concrete 09:00 observations e03 are not a dependency. Reverse-ready order currently applies the revised 10:00 protocol before the observations described as earlier. This is the same causal-current-versus-historical boundary the fixture intends to exercise.", "suggestedFix": "Add e03 to e08 dependencies, preserving independent calibration events and other unrelated reorderings."}
+    ]},
+    {"id": "dev10", "verdict": "pass", "issues": []},
+    {"id": "dev11", "verdict": "pass", "issues": []},
+    {"id": "dev12", "verdict": "pass", "issues": []}
+  ],
+  "crossLibraryIssues": [
+    {"location": "METRICS.md historical-task definition", "severity": "warning", "reason": "The statement that a historical task explicitly asks for an old source/version is narrower than the reviewed questions, which can ask a past fact and accept a later source explicitly describing that fact.", "suggestedFix": "Distinguish historical-state recovery from explicit original-version retrieval; allow current revisions as eligible evidence when they directly establish the requested historical fact, and do not claim all historical tasks require archive retrieval."},
+    {"location": "development screening scope", "severity": "warning", "reason": "Mechanisms and schedules vary, but all libraries still begin with two contrasted project roots and contain a shared source plus an overtly ambiguous reference. Some observed annotations state unusually explicit boundary information.", "suggestedFix": "Preserve this as a disclosed agent-reviewed representational screening suite. Do not describe it as representative user data, natural ASR/OCR quality evidence, or proof of calibrated deployment performance."}
+  ],
+  "limitations": ["No model inference, prediction inspection, evaluation-split access, or author-file edits performed.", "Independent review of fictional expected behavior is not human-validated user preference evidence."]
+}

@@ -1,0 +1,696 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Practice room acoustic lining test compares two removable wall panels using a fixed speaker position. This is an exploratory studio exercise, not a certified sound-isolation rating. Keep room measurements distinct from the portable booth build, even when the same microphone is used."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "pdf",
+        "text": "Portable narration booth build aims to reduce room reflections around a standing narrator. Assemble a folding frame and removable lining. We will borrow the practice-room test kit, but the booth's transport weight is a separate design constraint."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d7700262e16bc7aefab7d7a243905e15e2f8a13d17e92588808f39d675a7b2f"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "Microphone calibration card C0 for the practice room acoustic lining test records a reference level of 93.6 dB. The reading belongs to the initial kit check before panel installation. The handwritten margin contains a battery inventory, not a second reference measurement."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d7700262e16bc7aefab7d7a243905e15e2f8a13d17e92588808f39d675a7b2f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a7bf9c1802ec624b89814ed06aecf0ac45fb833f810a54f3b6bba4d1e92bb90d"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "note",
+        "text": "Joint test-kit booking for the practice room acoustic lining test and portable narration booth build: leave the microphone stand at its marked height between sessions. Each project must save its own room description. A shared microphone does not make the two enclosures equivalent."
+      }
+    },
+    {
+      "assignments": [
+        "t:c05"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d7700262e16bc7aefab7d7a243905e15e2f8a13d17e92588808f39d675a7b2f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a7bf9c1802ec624b89814ed06aecf0ac45fb833f810a54f3b6bba4d1e92bb90d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "7d603b9ede5cd8c9461a0ee9b87b8ad3bd5eff459f9434049eb545133a10c4a6"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "voice",
+        "text": "Audio fragment: 'It fell by four after we moved it.' The file contains no frequency, unit, room name or equipment identifier. The speaker stops before explaining what moved. There is no supporting photograph attached to this isolated clip."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d7700262e16bc7aefab7d7a243905e15e2f8a13d17e92588808f39d675a7b2f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a7bf9c1802ec624b89814ed06aecf0ac45fb833f810a54f3b6bba4d1e92bb90d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c05"
+          ],
+          "revision": 0,
+          "textSHA256": "7d603b9ede5cd8c9461a0ee9b87b8ad3bd5eff459f9434049eb545133a10c4a6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "617d08b81a37d10440f4e0f31a482f84b1cb2e4524f4a6b0f7ea0e6f078fdf55"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "pdf",
+        "text": "Practice room acoustic lining test latest sheet: keep the speaker 80 cm from the north wall for the next panel comparison. The previous trial was exploratory and did not establish a final attenuation value. Blank cells on the sheet remain unmeasured."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d7700262e16bc7aefab7d7a243905e15e2f8a13d17e92588808f39d675a7b2f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a7bf9c1802ec624b89814ed06aecf0ac45fb833f810a54f3b6bba4d1e92bb90d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7d603b9ede5cd8c9461a0ee9b87b8ad3bd5eff459f9434049eb545133a10c4a6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "617d08b81a37d10440f4e0f31a482f84b1cb2e4524f4a6b0f7ea0e6f078fdf55"
+        }
+      },
+      "id": "e07",
+      "kind": "correct",
+      "target": "localc05"
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d7700262e16bc7aefab7d7a243905e15e2f8a13d17e92588808f39d675a7b2f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a7bf9c1802ec624b89814ed06aecf0ac45fb833f810a54f3b6bba4d1e92bb90d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7d603b9ede5cd8c9461a0ee9b87b8ad3bd5eff459f9434049eb545133a10c4a6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "617d08b81a37d10440f4e0f31a482f84b1cb2e4524f4a6b0f7ea0e6f078fdf55"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "de0abf97dcac97a89ac015a60f58b9a7012e94c7ed5404f7d28d824e9a099b1a"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "video",
+        "text": "Portable narration booth build weigh-in: the frame without fabric weighs 8.4 kg. This is a transport measurement and says nothing about acoustic performance. The fabric and clips are still on the cutting table, so do not call it the total packed weight."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d7700262e16bc7aefab7d7a243905e15e2f8a13d17e92588808f39d675a7b2f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a7bf9c1802ec624b89814ed06aecf0ac45fb833f810a54f3b6bba4d1e92bb90d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7d603b9ede5cd8c9461a0ee9b87b8ad3bd5eff459f9434049eb545133a10c4a6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "617d08b81a37d10440f4e0f31a482f84b1cb2e4524f4a6b0f7ea0e6f078fdf55"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "de0abf97dcac97a89ac015a60f58b9a7012e94c7ed5404f7d28d824e9a099b1a"
+        }
+      },
+      "id": "e09",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d7700262e16bc7aefab7d7a243905e15e2f8a13d17e92588808f39d675a7b2f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a7bf9c1802ec624b89814ed06aecf0ac45fb833f810a54f3b6bba4d1e92bb90d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7d603b9ede5cd8c9461a0ee9b87b8ad3bd5eff459f9434049eb545133a10c4a6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "617d08b81a37d10440f4e0f31a482f84b1cb2e4524f4a6b0f7ea0e6f078fdf55"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "de0abf97dcac97a89ac015a60f58b9a7012e94c7ed5404f7d28d824e9a099b1a"
+        }
+      },
+      "id": "e10",
+      "kind": "restore",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c08"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d7700262e16bc7aefab7d7a243905e15e2f8a13d17e92588808f39d675a7b2f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a7bf9c1802ec624b89814ed06aecf0ac45fb833f810a54f3b6bba4d1e92bb90d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7d603b9ede5cd8c9461a0ee9b87b8ad3bd5eff459f9434049eb545133a10c4a6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "617d08b81a37d10440f4e0f31a482f84b1cb2e4524f4a6b0f7ea0e6f078fdf55"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "de0abf97dcac97a89ac015a60f58b9a7012e94c7ed5404f7d28d824e9a099b1a"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "847f4c2ed5ba30067ec2bf8d577a76a5e854fce200f81c9cd57b1bacb6a95966"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "link",
+        "text": "An article on reflection control was saved as background for the portable narration booth build. The examples concern fixed recording rooms with heavy wall treatment. They do not report measurements for our folding frame or establish its eventual acoustic result."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "d73bf58ef16a7dccbd0fa6315bfffeedced50e908c9c2f835d18c5a1e8eea733"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "3696a7579f0a07290f555e4ecd184fb239f173645b9482c4474a8cda1db75fd5"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "1d7700262e16bc7aefab7d7a243905e15e2f8a13d17e92588808f39d675a7b2f"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a7bf9c1802ec624b89814ed06aecf0ac45fb833f810a54f3b6bba4d1e92bb90d"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "7d603b9ede5cd8c9461a0ee9b87b8ad3bd5eff459f9434049eb545133a10c4a6"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "617d08b81a37d10440f4e0f31a482f84b1cb2e4524f4a6b0f7ea0e6f078fdf55"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "de0abf97dcac97a89ac015a60f58b9a7012e94c7ed5404f7d28d824e9a099b1a"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c08"
+          ],
+          "revision": 0,
+          "textSHA256": "847f4c2ed5ba30067ec2bf8d577a76a5e854fce200f81c9cd57b1bacb6a95966"
+        }
+      },
+      "id": "e12",
+      "kind": "archive",
+      "target": "localc03"
+    }
+  ],
+  "id": "history-dev06-chronological",
+  "queries": [
+    {
+      "afterEvent": "e06",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e09",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

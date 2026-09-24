@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-064/raw.json",
+  "rawSHA256": "bf1be9a4868747da6fbaab0c22ee342c8f0751414069dd8f959056dc37769382",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.108334625001589,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.749999450519681e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2215808333348832,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27367029166634893,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2747144166714861,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.106801666668616,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "9ed6a83884e3eeb62089910cf9d7b47aeb5b22dc4bef6f77d66a3906a24eae95",
+      "contextSize": 4096,
+      "generationSeconds": 4.831506791670108,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Juniper Club's 2028 Winter Exchange is a single event: collect donated coats, book the hall and run the exchange on 6 December. Its receipts go into the 2028 event account.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The 2028 Winter Exchange's hall refund arrived in January 2029. Close the 2028 event account with this refund; the payment date does not make it part of the new 2029 event.",
+            "sourceID": "s03"
+          }
+        ],
+        "rationale": "Both sources reference 'the 2028 Winter Exchange' as a continuing event requiring account closure and refund processing.",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-064"
+  }
+}

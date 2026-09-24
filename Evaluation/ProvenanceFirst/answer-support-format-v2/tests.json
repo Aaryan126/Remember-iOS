@@ -1,0 +1,168 @@
+{
+  "sourceHashes": {
+    "scripts/provenance-first/answer-support-format-v2/test_generation_v2.py": "156e97598661e81de7ff08b6f839b546459bbd14058e661fe5d55010112217cc",
+    "scripts/provenance-first/answer-support-format-v2/test_policy_v2.py": "7ebdebfec9550991a6ea49c7b0dd90bd14c9c2f3892c96e96bfb161ce972302b",
+    "scripts/provenance-first/answer-support-format-v2/v2_control.py": "eaf2fb18274868e115737a9f0e974cb55ef5401c5ccc793a723521618e4e3399",
+    "scripts/provenance-first/answer-support-format-v2/v2_generation.py": "6419c25b6782138bbc888438c0bfce59d27b0c4c3105407b7e22ca5317dfa1da",
+    "scripts/provenance-first/answer-support-format-v2/v2_policy.py": "fbe18def5c572b51607dfdf4708c79a88362f320567d149079b2c0568d8ea147",
+    "scripts/provenance-first/answer-support-format-v2/v2_qa.py": "5a0645dc3b1d19b11a09902aa1d9007ccf600343d8055dcfae77a69488886d50",
+    "scripts/provenance-first/answer-support-format-v2/v2_runner.py": "64985197f98d5bc279a1ed43bce9291ca1aef8bf200e41f4928fb66e0276c13a"
+  },
+  "status": "passed",
+  "suites": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/provenance-first",
+        "-p",
+        "test_*.py"
+      ],
+      "count": 55,
+      "exitCode": 0,
+      "stderr": ".......................................................\n----------------------------------------------------------------------\nRan 55 tests in 1.690s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/provenance-first/checkpoint2",
+        "-p",
+        "test_*.py"
+      ],
+      "count": 31,
+      "exitCode": 0,
+      "stderr": "...............................\n----------------------------------------------------------------------\nRan 31 tests in 0.027s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/provenance-first/checkpoint2/comparison",
+        "-p",
+        "test_*.py"
+      ],
+      "count": 45,
+      "exitCode": 0,
+      "stderr": ".............................................\n----------------------------------------------------------------------\nRan 45 tests in 0.670s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/provenance-first/checkpoint2/budget5",
+        "-p",
+        "test_*.py"
+      ],
+      "count": 6,
+      "exitCode": 0,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/provenance-first/checkpoint2/budget8",
+        "-p",
+        "test_*.py"
+      ],
+      "count": 6,
+      "exitCode": 0,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/provenance-first/history",
+        "-p",
+        "test_*.py"
+      ],
+      "count": 22,
+      "exitCode": 0,
+      "stderr": "......................\n----------------------------------------------------------------------\nRan 22 tests in 0.017s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/provenance-first/history-ranking",
+        "-p",
+        "test_*.py"
+      ],
+      "count": 31,
+      "exitCode": 0,
+      "stderr": "...............................\n----------------------------------------------------------------------\nRan 31 tests in 0.008s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/provenance-first/answer-support",
+        "-p",
+        "test_*.py"
+      ],
+      "count": 80,
+      "exitCode": 0,
+      "stderr": "................................................................................\n----------------------------------------------------------------------\nRan 80 tests in 0.547s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/provenance-first/answer-support-format-v2",
+        "-p",
+        "test_*.py"
+      ],
+      "count": 41,
+      "exitCode": 0,
+      "stderr": ".........................................\n----------------------------------------------------------------------\nRan 41 tests in 0.170s\n\nOK\n",
+      "stdout": ""
+    }
+  ],
+  "testCount": 317
+}

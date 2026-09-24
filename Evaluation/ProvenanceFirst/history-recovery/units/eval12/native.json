@@ -1,0 +1,795 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "pdf",
+        "text": "Highland sedge cryostorage batch follows the seed bank's labelled sedge packets through a fictional scheduling exercise. The record tracks staff handoffs and storage slots only. It provides no biological protocol and does not establish viability for any packet."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "26aa0520665d28d8dcfcceef0e131498214d150eb93816cdcce98d8b69e363ff"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "note",
+        "text": "Coastal pea cryostorage batch follows a separate set of seed packets through the same scheduling room. Packet identifiers and batch records remain distinct from the highland sedge batch. The team will record the storage booking before considering a later viability assessment."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "26aa0520665d28d8dcfcceef0e131498214d150eb93816cdcce98d8b69e363ff"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cff23cc3bc0dc480981a9373f4893b9a88241f4c99b05124fce639aa3698445c"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "note",
+        "text": "Highland sedge cryostorage batch initially books one handoff for all six cassettes on Tuesday at 14:00. This working schedule awaits the carrier-insert compatibility check. The booking groups packets for administration only; it says nothing about exposure duration, storage temperature, or treatment of the seeds."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "26aa0520665d28d8dcfcceef0e131498214d150eb93816cdcce98d8b69e363ff"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cff23cc3bc0dc480981a9373f4893b9a88241f4c99b05124fce639aa3698445c"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2b9f0a6bde128d7064879123741d5b068688d69c702afc9d52a67d33ce37cad9"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "image",
+        "text": "Highland sedge cryostorage batch and Coastal pea cryostorage batch share trolley ST8 during separate handoff slots. The booking clerk keeps one slot sheet for the trolley and separate batch records. Neither batch's completion can be inferred from the other's booking."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "26aa0520665d28d8dcfcceef0e131498214d150eb93816cdcce98d8b69e363ff"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cff23cc3bc0dc480981a9373f4893b9a88241f4c99b05124fce639aa3698445c"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2b9f0a6bde128d7064879123741d5b068688d69c702afc9d52a67d33ce37cad9"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b3e81b01266d7a8ea5f223cfbe0269ee2971f1e89decaffa49d2834dd262f9f9"
+        }
+      },
+      "id": "e05",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "voice",
+        "text": "Coastal pea cryostorage batch will bring its packet list to desk Willow for the booking check. The list remains inside a sealed document wallet. The memo records a desk destination only; no viability test has been requested or reported here."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "26aa0520665d28d8dcfcceef0e131498214d150eb93816cdcce98d8b69e363ff"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cff23cc3bc0dc480981a9373f4893b9a88241f4c99b05124fce639aa3698445c"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2b9f0a6bde128d7064879123741d5b068688d69c702afc9d52a67d33ce37cad9"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b3e81b01266d7a8ea5f223cfbe0269ee2971f1e89decaffa49d2834dd262f9f9"
+        },
+        "localc11": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b9f29ec029adcbaf4094cf59456eb8e8f7530c2308d8471e653323bb4bc0fe1c"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc11",
+        "modality": "pdf",
+        "text": "Highland sedge cryostorage batch cassettes H1–H4 fit the compact carrier insert, while H5–H6 require the long insert. The compatibility check found that one carrier cannot hold both inserts at once. This manifest identifies the two groups but does not allocate new handoff times."
+      }
+    },
+    {
+      "assignments": [
+        "t:c06"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "26aa0520665d28d8dcfcceef0e131498214d150eb93816cdcce98d8b69e363ff"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cff23cc3bc0dc480981a9373f4893b9a88241f4c99b05124fce639aa3698445c"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2b9f0a6bde128d7064879123741d5b068688d69c702afc9d52a67d33ce37cad9"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b3e81b01266d7a8ea5f223cfbe0269ee2971f1e89decaffa49d2834dd262f9f9"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "884a07ebca1ef4b8cee4b2e0e3caf326b6a30269cfb1811bd30dc42b12a22cf0"
+        },
+        "localc11": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b9f29ec029adcbaf4094cf59456eb8e8f7530c2308d8471e653323bb4bc0fe1c"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "link",
+        "text": "A seed-bank scheduling guide is background for Highland sedge cryostorage batch and Coastal pea cryostorage batch. Its example slot sheet explains separate batch identifiers on a shared trolley. All times in that example are illustrative and do not reserve local equipment."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "26aa0520665d28d8dcfcceef0e131498214d150eb93816cdcce98d8b69e363ff"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "cff23cc3bc0dc480981a9373f4893b9a88241f4c99b05124fce639aa3698445c"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2b9f0a6bde128d7064879123741d5b068688d69c702afc9d52a67d33ce37cad9"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b3e81b01266d7a8ea5f223cfbe0269ee2971f1e89decaffa49d2834dd262f9f9"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "884a07ebca1ef4b8cee4b2e0e3caf326b6a30269cfb1811bd30dc42b12a22cf0"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e0baa2eac39a300689cd1af55dd89be619bd73f82403cb92935ee8b465b1cf5e"
+        },
+        "localc11": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b9f29ec029adcbaf4094cf59456eb8e8f7530c2308d8471e653323bb4bc0fe1c"
+        }
+      },
+      "id": "e08",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "voice",
+        "text": "Coastal pea cryostorage batch has its own cassette insert in the labelled side cupboard. The checkout clerk says to return trolley ST8 empty after each batch handoff. The pea insert is not an alternative for the sedge cassettes; no cross-batch substitution is authorised by this memo."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "26aa0520665d28d8dcfcceef0e131498214d150eb93816cdcce98d8b69e363ff"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "c94f549272a4c0766a1164f9bfa377e44e5b1e2a7cebdb1278fd9b2b375584c5"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2b9f0a6bde128d7064879123741d5b068688d69c702afc9d52a67d33ce37cad9"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b3e81b01266d7a8ea5f223cfbe0269ee2971f1e89decaffa49d2834dd262f9f9"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "884a07ebca1ef4b8cee4b2e0e3caf326b6a30269cfb1811bd30dc42b12a22cf0"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e0baa2eac39a300689cd1af55dd89be619bd73f82403cb92935ee8b465b1cf5e"
+        },
+        "localc11": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b9f29ec029adcbaf4094cf59456eb8e8f7530c2308d8471e653323bb4bc0fe1c"
+        }
+      },
+      "id": "e09",
+      "kind": "revise",
+      "target": "localc03",
+      "text": "Highland sedge cryostorage batch now books H1–H4 for Tuesday at 14:00 and H5–H6 for Thursday at 10:00. This splits the provisional whole-batch handoff into the compact-insert and long-insert groups identified by the compatibility manifest. The two groups remain one batch with separate handoff receipts."
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "26aa0520665d28d8dcfcceef0e131498214d150eb93816cdcce98d8b69e363ff"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "c94f549272a4c0766a1164f9bfa377e44e5b1e2a7cebdb1278fd9b2b375584c5"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2b9f0a6bde128d7064879123741d5b068688d69c702afc9d52a67d33ce37cad9"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b3e81b01266d7a8ea5f223cfbe0269ee2971f1e89decaffa49d2834dd262f9f9"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "884a07ebca1ef4b8cee4b2e0e3caf326b6a30269cfb1811bd30dc42b12a22cf0"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e0baa2eac39a300689cd1af55dd89be619bd73f82403cb92935ee8b465b1cf5e"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "555a0b93900599a34ea4285328260930bf03bd29a81d3b80226023dacf9179cf"
+        },
+        "localc11": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b9f29ec029adcbaf4094cf59456eb8e8f7530c2308d8471e653323bb4bc0fe1c"
+        }
+      },
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "video",
+        "text": "Coastal pea cryostorage batch uses a white clip to hold its sealed packet-list wallet to the booking tray. The extracted demonstration shows no opened seed packet or test result. The clip is an administrative handling cue, not a condition of storage."
+      }
+    },
+    {
+      "assignments": [
+        "t:c09"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "26aa0520665d28d8dcfcceef0e131498214d150eb93816cdcce98d8b69e363ff"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "c94f549272a4c0766a1164f9bfa377e44e5b1e2a7cebdb1278fd9b2b375584c5"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2b9f0a6bde128d7064879123741d5b068688d69c702afc9d52a67d33ce37cad9"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b3e81b01266d7a8ea5f223cfbe0269ee2971f1e89decaffa49d2834dd262f9f9"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "884a07ebca1ef4b8cee4b2e0e3caf326b6a30269cfb1811bd30dc42b12a22cf0"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e0baa2eac39a300689cd1af55dd89be619bd73f82403cb92935ee8b465b1cf5e"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "555a0b93900599a34ea4285328260930bf03bd29a81d3b80226023dacf9179cf"
+        },
+        "localc09": {
+          "archived": false,
+          "memberships": [
+            "t:c09"
+          ],
+          "revision": 0,
+          "textSHA256": "0b81a65ca235effc312a6920bfbe08a4439650b3dbe755b5dc352e1df7ffc377"
+        },
+        "localc11": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b9f29ec029adcbaf4094cf59456eb8e8f7530c2308d8471e653323bb4bc0fe1c"
+        }
+      },
+      "id": "e11",
+      "kind": "capture",
+      "source": {
+        "id": "localc09",
+        "modality": "image",
+        "text": "The seed-bank staff notice announces a cupboard inventory for spare stationery. It asks people to return unused pencils and blank envelopes. None of the boxes on the notice carries a batch name, biological identifier, or storage booking."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "225025676c143e7f423bf00dfbfbd60d1e319e69913a8b0310b2cce4b5232a92"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "26aa0520665d28d8dcfcceef0e131498214d150eb93816cdcce98d8b69e363ff"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "c94f549272a4c0766a1164f9bfa377e44e5b1e2a7cebdb1278fd9b2b375584c5"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "2b9f0a6bde128d7064879123741d5b068688d69c702afc9d52a67d33ce37cad9"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "b3e81b01266d7a8ea5f223cfbe0269ee2971f1e89decaffa49d2834dd262f9f9"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "884a07ebca1ef4b8cee4b2e0e3caf326b6a30269cfb1811bd30dc42b12a22cf0"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "e0baa2eac39a300689cd1af55dd89be619bd73f82403cb92935ee8b465b1cf5e"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "555a0b93900599a34ea4285328260930bf03bd29a81d3b80226023dacf9179cf"
+        },
+        "localc09": {
+          "archived": false,
+          "memberships": [
+            "t:c09"
+          ],
+          "revision": 0,
+          "textSHA256": "0b81a65ca235effc312a6920bfbe08a4439650b3dbe755b5dc352e1df7ffc377"
+        },
+        "localc10": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "8050dd428716c0d8d7fcbd0420fe7d18b8c805c92f9dc944e92187e7632e6e45"
+        },
+        "localc11": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "b9f29ec029adcbaf4094cf59456eb8e8f7530c2308d8471e653323bb4bc0fe1c"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc10",
+        "modality": "pdf",
+        "text": "Highland sedge cryostorage batch uses one document wallet for each carrier group under docket HS. The receiving clerk will match each wallet to its separate handoff receipt. The working schedule supplies the two bookings; this reminder does not confirm that either handoff occurred."
+      }
+    }
+  ],
+  "id": "history-eval12-chronological",
+  "queries": [
+    {
+      "afterEvent": "e12",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e09",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e10",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

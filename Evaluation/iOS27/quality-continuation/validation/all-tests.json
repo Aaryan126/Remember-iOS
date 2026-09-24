@@ -1,0 +1,149 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "command": [
+        "/Users/aaryan/.local/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/ios27-boundary",
+        "-p",
+        "test_*.py"
+      ],
+      "returnCode": 0,
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "/Users/aaryan/.local/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/ios27-evaluation",
+        "-p",
+        "test_*.py"
+      ],
+      "returnCode": 0,
+      "stderr": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.033s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "/Users/aaryan/.local/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/ios27-generation-trace",
+        "-p",
+        "test_*.py"
+      ],
+      "returnCode": 0,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "/Users/aaryan/.local/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/ios27-parity-diagnostic",
+        "-p",
+        "test_*.py"
+      ],
+      "returnCode": 0,
+      "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.016s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "/Users/aaryan/.local/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/ios27-phone-diagnostic",
+        "-p",
+        "test_*.py"
+      ],
+      "returnCode": 0,
+      "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.008s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "/Users/aaryan/.local/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/ios27-precision",
+        "-p",
+        "test_*.py"
+      ],
+      "returnCode": 0,
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "/Users/aaryan/.local/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/ios27-quality",
+        "-p",
+        "test_*.py"
+      ],
+      "returnCode": 0,
+      "stderr": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.368s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "/Users/aaryan/.local/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/ios27-quality-continuation",
+        "-p",
+        "test_*.py"
+      ],
+      "returnCode": 0,
+      "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.572s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "/Users/aaryan/.local/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts/ios27-sentence-diagnostic",
+        "-p",
+        "test_*.py"
+      ],
+      "returnCode": 0,
+      "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.007s\n\nOK\n",
+      "stdout": ""
+    }
+  ]
+}

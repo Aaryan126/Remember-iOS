@@ -1,0 +1,31 @@
+{
+  "budgetApprovalSHA256": "cd076e2a738cee563a70203708260c07c91cdd43fa5ae9925087ce7b7a372668",
+  "gitDiffCheckPassed": true,
+  "manifestSHA256": "c5944a0a405df956437528c35e42497fea3f5b0df9fba8cfd994ed335cd55be2",
+  "metricsRecomputedIdentically": true,
+  "nativeRunsVerified": 96,
+  "priorQualificationAndCheckpoint1Unchanged": true,
+  "tests": [
+    {
+      "command": "python3 -B -m unittest discover -s scripts/provenance-first -p 'test_*.py'",
+      "passed": 55
+    },
+    {
+      "command": "python3 -B -m unittest discover -s scripts/provenance-first/checkpoint2 -p 'test_*.py'",
+      "passed": 31
+    },
+    {
+      "command": "python3 -B -m unittest discover -s scripts/provenance-first/checkpoint2/comparison -p 'test_*.py'",
+      "passed": 45
+    },
+    {
+      "command": "python3 -B -m unittest discover -s scripts/provenance-first/checkpoint2/budget5 -p 'test_*.py'",
+      "passed": 6
+    },
+    {
+      "command": "python3 -B -m unittest discover -s scripts/provenance-first/checkpoint2/budget8 -p 'test_*.py'",
+      "passed": 6
+    }
+  ],
+  "totalPassed": 143
+}

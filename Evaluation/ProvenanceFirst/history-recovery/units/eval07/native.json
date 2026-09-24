@@ -1,0 +1,663 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "pdf",
+        "text": "West escarpment lookout walk is the team's pre-season route check between the lower gate and the lookout platform. The walk records access and sightlines, not fire response orders. Route changes belong in the working route note."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4ccaad59bd0d96c3d4839ad21fcd6103db7098260bf2b83971aa9f3bbbb7fcc7"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "note",
+        "text": "Pine hollow relay setup prepares the portable radio point below the lookout ridge. Its tasks are antenna placement and a short battery check. The relay team keeps its own setup record even when walkers carry a spare battery past the hollow."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4ccaad59bd0d96c3d4839ad21fcd6103db7098260bf2b83971aa9f3bbbb7fcc7"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0f3f06aa97e8980ec4097710fbf8b5185f26046364570fd16ec36034da29b12a"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "note",
+        "text": "For West escarpment lookout walk, take the footpath past the split cedar at the fork. This is the initial scouting route, pending a check of the old steps. The distance box is empty because nobody has measured the path yet."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4ccaad59bd0d96c3d4839ad21fcd6103db7098260bf2b83971aa9f3bbbb7fcc7"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "0f3f06aa97e8980ec4097710fbf8b5185f26046364570fd16ec36034da29b12a"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "c4d03e7c101cad5e1be73fb15a94fb4760130bab2b7a0af5805f1ed931dc8879"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "voice",
+        "text": "West escarpment lookout walk and Pine hollow relay setup share the gate key in pouch G2. The walker leaves the pouch with the relay lead after entry. Separate completion notes are still needed for route checking and radio setup."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4ccaad59bd0d96c3d4839ad21fcd6103db7098260bf2b83971aa9f3bbbb7fcc7"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "80621a16af9c67934c55ef0dbc0e706003ce64117604aa55fa58dd3d462e89ab"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "c4d03e7c101cad5e1be73fb15a94fb4760130bab2b7a0af5805f1ed931dc8879"
+        }
+      },
+      "id": "e05",
+      "kind": "revise",
+      "target": "localc03",
+      "text": "For West escarpment lookout walk, take the switchback beside the dry gully at the fork. The old steps on the split-cedar branch have loosened, so this replaces the initial choice. The distance box is still empty."
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4ccaad59bd0d96c3d4839ad21fcd6103db7098260bf2b83971aa9f3bbbb7fcc7"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "80621a16af9c67934c55ef0dbc0e706003ce64117604aa55fa58dd3d462e89ab"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "c4d03e7c101cad5e1be73fb15a94fb4760130bab2b7a0af5805f1ed931dc8879"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "76a8d359deae11d732dda8ccbdea9b7c89274ecbd97707b73bfe1316ec677398"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "voice",
+        "text": "During West escarpment lookout walk, the radio operator repeated 'split cedar' while reading yesterday's route card aloud. She then said the card was stale and asked for the amended directions. This recording is a quotation of an old plan, not a new routing instruction."
+      }
+    },
+    {
+      "assignments": [
+        "t:c06"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4ccaad59bd0d96c3d4839ad21fcd6103db7098260bf2b83971aa9f3bbbb7fcc7"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "80621a16af9c67934c55ef0dbc0e706003ce64117604aa55fa58dd3d462e89ab"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "c4d03e7c101cad5e1be73fb15a94fb4760130bab2b7a0af5805f1ed931dc8879"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "76a8d359deae11d732dda8ccbdea9b7c89274ecbd97707b73bfe1316ec677398"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ac25a91f0057801bd0da162e21bf98a7c4d15627598ad0822c61062c7fff32a8"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "link",
+        "text": "A walking-path maintenance note offers background for West escarpment lookout walk. It describes generic timber step wear on another reserve's trail. The sketch is useful for recognising a loose tread, but it says nothing about which local fork to take."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4ccaad59bd0d96c3d4839ad21fcd6103db7098260bf2b83971aa9f3bbbb7fcc7"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "80621a16af9c67934c55ef0dbc0e706003ce64117604aa55fa58dd3d462e89ab"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "c4d03e7c101cad5e1be73fb15a94fb4760130bab2b7a0af5805f1ed931dc8879"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "76a8d359deae11d732dda8ccbdea9b7c89274ecbd97707b73bfe1316ec677398"
+        },
+        "localc06": {
+          "archived": true,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ac25a91f0057801bd0da162e21bf98a7c4d15627598ad0822c61062c7fff32a8"
+        }
+      },
+      "id": "e08",
+      "kind": "archive",
+      "target": "localc06"
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4ccaad59bd0d96c3d4839ad21fcd6103db7098260bf2b83971aa9f3bbbb7fcc7"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 1,
+          "textSHA256": "80621a16af9c67934c55ef0dbc0e706003ce64117604aa55fa58dd3d462e89ab"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "c4d03e7c101cad5e1be73fb15a94fb4760130bab2b7a0af5805f1ed931dc8879"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "76a8d359deae11d732dda8ccbdea9b7c89274ecbd97707b73bfe1316ec677398"
+        },
+        "localc06": {
+          "archived": true,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ac25a91f0057801bd0da162e21bf98a7c4d15627598ad0822c61062c7fff32a8"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a3a09a9c35a3374dfce1c63d1641c0f4844d87e89899613dd9b69b9dce98e853"
+        }
+      },
+      "id": "e09",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "image",
+        "text": "Pine hollow relay setup recorded the spare battery under the striped cloth beside the mast case. No capacity test result is written here. The note only records where the team put the battery before assembling the antenna support."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4ccaad59bd0d96c3d4839ad21fcd6103db7098260bf2b83971aa9f3bbbb7fcc7"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "5ce23b886962490c63fccf44f4d585f5bddcdb2be56eddca34a38a9ce4f3bf07"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "c4d03e7c101cad5e1be73fb15a94fb4760130bab2b7a0af5805f1ed931dc8879"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "76a8d359deae11d732dda8ccbdea9b7c89274ecbd97707b73bfe1316ec677398"
+        },
+        "localc06": {
+          "archived": true,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ac25a91f0057801bd0da162e21bf98a7c4d15627598ad0822c61062c7fff32a8"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a3a09a9c35a3374dfce1c63d1641c0f4844d87e89899613dd9b69b9dce98e853"
+        }
+      },
+      "id": "e10",
+      "kind": "revise",
+      "target": "localc03",
+      "text": "For West escarpment lookout walk, take the marked contour path at the fork. Fresh inspection found a fallen limb across the dry-gully switchback, so the contour path replaces that route. The distance box remains empty pending measurement."
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4ccaad59bd0d96c3d4839ad21fcd6103db7098260bf2b83971aa9f3bbbb7fcc7"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "5ce23b886962490c63fccf44f4d585f5bddcdb2be56eddca34a38a9ce4f3bf07"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "c4d03e7c101cad5e1be73fb15a94fb4760130bab2b7a0af5805f1ed931dc8879"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "76a8d359deae11d732dda8ccbdea9b7c89274ecbd97707b73bfe1316ec677398"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ac25a91f0057801bd0da162e21bf98a7c4d15627598ad0822c61062c7fff32a8"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a3a09a9c35a3374dfce1c63d1641c0f4844d87e89899613dd9b69b9dce98e853"
+        }
+      },
+      "id": "e11",
+      "kind": "restore",
+      "target": "localc06"
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "fb90c6729c3c847b332ab9a3ca113eed9737f0d36eb755672096ab7e6c4a49e4"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "4ccaad59bd0d96c3d4839ad21fcd6103db7098260bf2b83971aa9f3bbbb7fcc7"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 2,
+          "textSHA256": "5ce23b886962490c63fccf44f4d585f5bddcdb2be56eddca34a38a9ce4f3bf07"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "c4d03e7c101cad5e1be73fb15a94fb4760130bab2b7a0af5805f1ed931dc8879"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "76a8d359deae11d732dda8ccbdea9b7c89274ecbd97707b73bfe1316ec677398"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c06"
+          ],
+          "revision": 0,
+          "textSHA256": "ac25a91f0057801bd0da162e21bf98a7c4d15627598ad0822c61062c7fff32a8"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "a3a09a9c35a3374dfce1c63d1641c0f4844d87e89899613dd9b69b9dce98e853"
+        },
+        "localc08": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "e22b8c67abafd0092ef90746eb238240712dd3b4a412d24f43eb881138de00fd"
+        }
+      },
+      "id": "e12",
+      "kind": "capture",
+      "source": {
+        "id": "localc08",
+        "modality": "video",
+        "text": "The lookout platform video records a loose paper map being clipped to the West escarpment lookout walk clipboard. No route lines or distances can be read in the extract. The clip colour is white and the wind repeatedly lifts the paper edge."
+      }
+    }
+  ],
+  "id": "history-eval07-chronological",
+  "queries": [
+    {
+      "afterEvent": "e12",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e10",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e09",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

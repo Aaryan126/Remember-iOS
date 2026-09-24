@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-079/raw.json",
+  "rawSHA256": "aab11dbb798b6b8e40b6f14cc7c96c4741a42dd97c5b6bc30d374c9e0a5b4c88",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.812217666665674,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.3333278628997505e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2227103333279956,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27413791666185716,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27511004166444764,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.810740041662939,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "c2b105b8318f72d6619b16d11aeef02368a28e90a810d24cd763bc0d547d2426",
+      "contextSize": 4096,
+      "generationSeconds": 4.534971749999386,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Translator draft, copy-editing and Spanish page proofs form one publication contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Cobalt Press commissioned a Portuguese translation of 'River Roads' under a separate publication contract. It shares the source manuscript, but has its own translator, proofs and approval, outside the Spanish contract.",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "'Cobalt Press commissioned a Spanish translation... under a separate publication contract' and 'Cobalt Press commissioned a Portuguese translation... under a separate publication contract' show distinct contracts with different translators and proofs.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-079"
+  }
+}

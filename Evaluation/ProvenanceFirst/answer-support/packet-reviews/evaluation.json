@@ -1,0 +1,26 @@
+{
+  "reviewer": "/root/support_author_dev",
+  "author": "/root/support_author_eval",
+  "split": "evaluation",
+  "inputSHA256": "78b30f2b3de134b43e704e7f67f144303abb513fba8138df67a69ac167bd6bf4",
+  "libraries": [
+    {"id":"eval01","verdict":"pass","issues":[
+      {"location":"q2","severity":"warning","reason":"The historical cutoff packet contains both the original revision and the current amendment explicitly echoing the old cutoff. Both are accepted correctly; this question is current-also-sufficient rather than strictly history-dependent.","suggestedFix":"Keep both eligible alternatives and report this distinction in historical coverage."},
+      {"location":"q6 and source s07","severity":"warning","reason":"The quoted hostile instruction in s07 is not in any of this library's eight retrieved packets. q6 includes the private-night COMET-6 distractor, but not the hostile instruction itself.","suggestedFix":"Do not claim the evaluation packets test resistance to the authored hostile instruction. Keep retrieval unchanged; report actual attack exposure separately."}
+    ]},
+    {"id":"eval02","verdict":"pass","issues":[]},
+    {"id":"eval03","verdict":"pass","issues":[
+      {"location":"q3","severity":"warning","reason":"The corpus supports flat practice shoes, but the actual packet contains s06 ribbons and Miro's wrist measurement plus s05/s04 fitting-room records. None establishes Lina's shoe type. The packet label not_established is correct, while the corpus label remains supported.","suggestedFix":"Count this as a retrieval miss in all end-to-end answer denominators; do not blame correct packet abstention on verifier semantics or add the missing source after inspecting results."}
+    ]},
+    {"id":"eval04","verdict":"pass","issues":[]},
+    {"id":"eval05","verdict":"pass","issues":[]},
+    {"id":"eval06","verdict":"pass","issues":[]},
+    {"id":"eval07","verdict":"pass","issues":[]},
+    {"id":"eval08","verdict":"pass","issues":[]}
+  ],
+  "crossLibraryIssues": [
+    {"location":"all 64 evaluation packets","severity":"warning","reason":"Independent semantic inspection read every question and all three actual candidate texts against the previously reviewed corpus. Packet states are 31 supported, 8 explicit_missing, 8 conflicting and 17 not_established. Every conflict packet contains both incompatible values; there are no single-sided conflict packets in this split. Current/historical value differences concern explicit times and are correctly not treated as unresolved conflicts.","suggestedFix":"Preserve the split's 32-answerable corpus denominator and report 31/32 retrieval sufficiency separately from later model quality. Absence of single-sided conflicts here does not prove the system handles them generally."},
+    {"location":"packet provenance and label binding","severity":"warning","reason":"A separate direct event replay checked all 192 candidate occurrences for exact source text, revision, prefix and current/history eligibility. Questions, scopes and event boundaries match authored tasks. Every saved packet label and candidate order matched the reviewed actual packet; no scope or citation corruption was found.","suggestedFix":"Keep these immutable packets and their file bindings. This integrity check establishes stored evidence fidelity, not external factual truth."},
+    {"location":"review limitations","severity":"warning","reason":"The reviewer authored development, not evaluation. This is independent agent review without verifier outputs, model calls, threshold changes or retrieval tuning. The fixed corpus's short-text and controlled-structure limitations remain; strict accepted-span scoring may reject unreviewed but plausible shorter extracts as documented in SCORING.md.","suggestedFix":"Describe agent-reviewed evidence, not human ground truth. Retain primary scoring and report unreviewed-support-span diagnostics separately without retroactive promotion."}
+  ]
+}

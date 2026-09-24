@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-081/raw.json",
+  "rawSHA256": "04647620a45ccc008a849116eea35b58608279445804dbda2b0878de6b9ecf50",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.423273666667228,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.2083338485099375e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22058695833402453,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2694946250048815,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.270905583332933,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.42172979166935,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "cb69fda940aa19d664d4a2457f25a79d22e2cef2f5e2e1642434456c4b2aaec7",
+      "contextSize": 4096,
+      "generationSeconds": 4.149580583332863,
+      "output": {
+        "evidence": [
+          {
+            "quote": "access-revocation investigation has its own incident owner and closure criteria, outside the appointment-database migration",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Operations diary coordinates the migration cutover and the access-revocation incident review",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct projects: 'access-revocation investigation' and 'migration cutover', with separate owners and coordination roles.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-081"
+  }
+}

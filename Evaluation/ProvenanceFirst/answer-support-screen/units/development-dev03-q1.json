@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev03-q1",
+    "inputSHA256": "53a8e2352f402feb28915480af28d7809c61f183e7da0928a0854fd71deea628",
+    "rawSHA256": "31dfb9ce0d6810a15c64f902f4ebbb6e1533580461a08511ccf58fbed3e0aeb2",
+    "requestCount": 1,
+    "reservationSHA256": "6873b1141816671daa296bca2e614e1588a126a86a4c1fd7c44e5195dab4e77a",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.3628460000036284,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "replace the front housing",
+        "evidence": [
+          {
+            "candidateID": "9cf66b9b3cc0827dfd7eac922aa7d0219dc1ff73d6861890c85abbad25df7fba",
+            "quote": "Juniper's approved work plan: replace the front housing. This replaces the initial work plan."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21381120,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev03-q1"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "905517f1c9252df84fb2d464b92ede05ee2eae44a135191603bf61e365290363"
+}

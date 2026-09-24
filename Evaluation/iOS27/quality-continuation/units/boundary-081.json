@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-081/raw.json",
+  "rawSHA256": "18a8ed917a7badf7ca29a7556f7448233984739937cfdcdecdd1520e9639f6b0",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.786710749998747,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.083332896698266e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22182099999918137,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27031862500007264,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27132829166657757,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.7852673750021495,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "cb69fda940aa19d664d4a2457f25a79d22e2cef2f5e2e1642434456c4b2aaec7",
+      "contextSize": 4096,
+      "generationSeconds": 4.513326791668078,
+      "output": {
+        "evidence": [
+          {
+            "quote": "access-revocation investigation has its own incident owner and closure criteria, outside the appointment-database migration",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Operations diary coordinates the migration cutover and the access-revocation incident review. They share a maintenance window, but the migration lead and incident owner will sign off their own work",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct incident ownership and coordination roles for unrelated tasks, with no indication of shared continuity.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-081"
+  }
+}

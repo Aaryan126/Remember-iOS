@@ -1,0 +1,640 @@
+{
+  "events": [
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        }
+      },
+      "id": "e01",
+      "kind": "capture",
+      "source": {
+        "id": "localc01",
+        "modality": "note",
+        "text": "Juniper rye fermentation run is our three-day check of the rye starter before Saturday's bake. Each jar gets a temperature strip and its own lid. The handwritten run name matters because the next bench holds an unrelated wheat starter."
+      }
+    },
+    {
+      "assignments": [
+        "t:c01"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a811ae6511870281c8338dc5b1d3eb9c91c07dceb756f1380b9086e3a9710e81"
+        }
+      },
+      "id": "e02",
+      "kind": "capture",
+      "source": {
+        "id": "localc03",
+        "modality": "image",
+        "text": "Juniper rye fermentation run used jar J4 for the first inoculation on the original bench sheet. A flour smear hides the feeding quantity, so that number is unreadable. The sheet asks the next shift to keep the jar upright."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "cc8f270c573660043e597a34978de8045ac6d12f739bc607e6d44507d7ecc552"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a811ae6511870281c8338dc5b1d3eb9c91c07dceb756f1380b9086e3a9710e81"
+        }
+      },
+      "id": "e03",
+      "kind": "capture",
+      "source": {
+        "id": "localc02",
+        "modality": "note",
+        "text": "Evening brioche proof trial compares the tall and shallow covered trays after mixing. It is a separate dough experiment from the rye run. The team will record tray position before considering any adjustment to proof duration."
+      }
+    },
+    {
+      "assignments": [
+        "t:c04"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "cc8f270c573660043e597a34978de8045ac6d12f739bc607e6d44507d7ecc552"
+        },
+        "localc03": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a811ae6511870281c8338dc5b1d3eb9c91c07dceb756f1380b9086e3a9710e81"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "d345738a8c0d9655ceb109a7e1d7c5824797ee31c9e88857e1ce0fc78041002f"
+        }
+      },
+      "id": "e04",
+      "kind": "capture",
+      "source": {
+        "id": "localc04",
+        "modality": "voice",
+        "text": "The rack was moved away from the warm wall after the second check. The voice memo says 'our dough' but gives no run name or tray mark. Fan noise masks the speaker's final sentence completely."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "cc8f270c573660043e597a34978de8045ac6d12f739bc607e6d44507d7ecc552"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a811ae6511870281c8338dc5b1d3eb9c91c07dceb756f1380b9086e3a9710e81"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "d345738a8c0d9655ceb109a7e1d7c5824797ee31c9e88857e1ce0fc78041002f"
+        }
+      },
+      "id": "e05",
+      "kind": "archive",
+      "target": "localc03"
+    },
+    {
+      "assignments": [
+        "t:c01",
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "cc8f270c573660043e597a34978de8045ac6d12f739bc607e6d44507d7ecc552"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a811ae6511870281c8338dc5b1d3eb9c91c07dceb756f1380b9086e3a9710e81"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "d345738a8c0d9655ceb109a7e1d7c5824797ee31c9e88857e1ce0fc78041002f"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "70ba49e682bb7eb1de0f21b291738e4f2d1d763eecce8039c28b9be425a99135"
+        }
+      },
+      "id": "e06",
+      "kind": "capture",
+      "source": {
+        "id": "localc05",
+        "modality": "pdf",
+        "text": "Juniper rye fermentation run and Evening brioche proof trial share the cleaned thermometer after a fresh wipe between uses. The handoff is at the sink, not on either dough bench. Separate log sheets prevent their readings from being combined."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "cc8f270c573660043e597a34978de8045ac6d12f739bc607e6d44507d7ecc552"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a811ae6511870281c8338dc5b1d3eb9c91c07dceb756f1380b9086e3a9710e81"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c04"
+          ],
+          "revision": 0,
+          "textSHA256": "d345738a8c0d9655ceb109a7e1d7c5824797ee31c9e88857e1ce0fc78041002f"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "70ba49e682bb7eb1de0f21b291738e4f2d1d763eecce8039c28b9be425a99135"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "5a90bb1e0b9537f30cf48bf28ca27654d9907423981a464f164266e1a5355f9a"
+        }
+      },
+      "id": "e07",
+      "kind": "capture",
+      "source": {
+        "id": "localc06",
+        "modality": "note",
+        "text": "For Evening brioche proof trial, the next observation is scheduled at 19:10. Write tray height before opening the cover. The notebook still has an empty space for humidity; nobody has supplied a reading for that field."
+      }
+    },
+    {
+      "assignments": [
+        "t:c02"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "cc8f270c573660043e597a34978de8045ac6d12f739bc607e6d44507d7ecc552"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a811ae6511870281c8338dc5b1d3eb9c91c07dceb756f1380b9086e3a9710e81"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d345738a8c0d9655ceb109a7e1d7c5824797ee31c9e88857e1ce0fc78041002f"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "70ba49e682bb7eb1de0f21b291738e4f2d1d763eecce8039c28b9be425a99135"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "5a90bb1e0b9537f30cf48bf28ca27654d9907423981a464f164266e1a5355f9a"
+        }
+      },
+      "id": "e08",
+      "kind": "correct",
+      "target": "localc04"
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "cc8f270c573660043e597a34978de8045ac6d12f739bc607e6d44507d7ecc552"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a811ae6511870281c8338dc5b1d3eb9c91c07dceb756f1380b9086e3a9710e81"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d345738a8c0d9655ceb109a7e1d7c5824797ee31c9e88857e1ce0fc78041002f"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "70ba49e682bb7eb1de0f21b291738e4f2d1d763eecce8039c28b9be425a99135"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "00cf528a00ee3cd25aa94d9da3bb3b3eeb425250eabf24f160ac42603e3629af"
+        }
+      },
+      "id": "e09",
+      "kind": "revise",
+      "target": "localc06",
+      "text": "For Evening brioche proof trial, the next observation is rescheduled to 19:25. The mixer cleanup delayed tray placement. Write tray height before opening the cover; the humidity field remains blank because no reading was taken."
+    },
+    {
+      "assignments": [
+        "t:c07"
+      ],
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "cc8f270c573660043e597a34978de8045ac6d12f739bc607e6d44507d7ecc552"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a811ae6511870281c8338dc5b1d3eb9c91c07dceb756f1380b9086e3a9710e81"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d345738a8c0d9655ceb109a7e1d7c5824797ee31c9e88857e1ce0fc78041002f"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "70ba49e682bb7eb1de0f21b291738e4f2d1d763eecce8039c28b9be425a99135"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "00cf528a00ee3cd25aa94d9da3bb3b3eeb425250eabf24f160ac42603e3629af"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "509bd9841d6f8f7595cc30a310fa92008ee765c61563f71944f1559cda6762ee"
+        }
+      },
+      "id": "e10",
+      "kind": "capture",
+      "source": {
+        "id": "localc07",
+        "modality": "link",
+        "text": "A bakery supply article discusses washable temperature strips as background for Juniper rye fermentation run. Its photographs show a demonstration kitchen and are not observations of our jars. The price table is cropped out of this extract."
+      }
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "cc8f270c573660043e597a34978de8045ac6d12f739bc607e6d44507d7ecc552"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a811ae6511870281c8338dc5b1d3eb9c91c07dceb756f1380b9086e3a9710e81"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d345738a8c0d9655ceb109a7e1d7c5824797ee31c9e88857e1ce0fc78041002f"
+        },
+        "localc05": {
+          "archived": true,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "70ba49e682bb7eb1de0f21b291738e4f2d1d763eecce8039c28b9be425a99135"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "00cf528a00ee3cd25aa94d9da3bb3b3eeb425250eabf24f160ac42603e3629af"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "509bd9841d6f8f7595cc30a310fa92008ee765c61563f71944f1559cda6762ee"
+        }
+      },
+      "id": "e11",
+      "kind": "archive",
+      "target": "localc05"
+    },
+    {
+      "expectedState": {
+        "localc01": {
+          "archived": false,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "ef4c2fe09eac4208f109e2c2e994674c3dde1409f79bcc718189e185ea8f7a70"
+        },
+        "localc02": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "cc8f270c573660043e597a34978de8045ac6d12f739bc607e6d44507d7ecc552"
+        },
+        "localc03": {
+          "archived": true,
+          "memberships": [
+            "t:c01"
+          ],
+          "revision": 0,
+          "textSHA256": "a811ae6511870281c8338dc5b1d3eb9c91c07dceb756f1380b9086e3a9710e81"
+        },
+        "localc04": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "d345738a8c0d9655ceb109a7e1d7c5824797ee31c9e88857e1ce0fc78041002f"
+        },
+        "localc05": {
+          "archived": false,
+          "memberships": [
+            "t:c01",
+            "t:c02"
+          ],
+          "revision": 0,
+          "textSHA256": "70ba49e682bb7eb1de0f21b291738e4f2d1d763eecce8039c28b9be425a99135"
+        },
+        "localc06": {
+          "archived": false,
+          "memberships": [
+            "t:c02"
+          ],
+          "revision": 1,
+          "textSHA256": "00cf528a00ee3cd25aa94d9da3bb3b3eeb425250eabf24f160ac42603e3629af"
+        },
+        "localc07": {
+          "archived": false,
+          "memberships": [
+            "t:c07"
+          ],
+          "revision": 0,
+          "textSHA256": "509bd9841d6f8f7595cc30a310fa92008ee765c61563f71944f1559cda6762ee"
+        }
+      },
+      "id": "e12",
+      "kind": "restore",
+      "target": "localc05"
+    }
+  ],
+  "id": "history-eval02-chronological",
+  "queries": [
+    {
+      "afterEvent": "e10",
+      "id": "q1",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e06",
+      "id": "q2",
+      "limit": 10000,
+      "scope": "includeHistory"
+    },
+    {
+      "afterEvent": "e12",
+      "id": "q3",
+      "limit": 10000,
+      "scope": "current"
+    },
+    {
+      "afterEvent": "e07",
+      "id": "q4",
+      "limit": 10000,
+      "scope": "current"
+    }
+  ]
+}

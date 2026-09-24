@@ -1,0 +1,81 @@
+{
+  "reviewer": "/root/support_author_dev",
+  "author": "/root/support_author_eval",
+  "split": "evaluation",
+  "inputSHA256": "bce7607b0d3a2f6c72d188adae21714e662b4631bf5a4727b5ceec61c2f0c65a",
+  "libraries": [
+    {
+      "id": "eval01",
+      "verdict": "pass",
+      "issues": [
+        {
+          "location": "tasks.q2",
+          "severity": "warning",
+          "reason": "The current amendment repeats the superseded cutoff and is correctly accepted alongside the original revision. This question does not require old-only retrieval.",
+          "suggestedFix": "Report current-also-sufficient historical questions separately; retain both valid citations."
+        }
+      ]
+    },
+    {
+      "id": "eval02",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval03",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval04",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval05",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval06",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval07",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "id": "eval08",
+      "verdict": "pass",
+      "issues": []
+    }
+  ],
+  "crossLibraryIssues": [
+    {
+      "location": "final corpus strengthening before freeze",
+      "severity": "warning",
+      "reason": "Re-review confirmed four affirmative current_b questions (eval03 shoes, eval04 listening sessions, eval05 escort role, eval06 issued items), two explicit polarity contrasts (eval02 temperature and eval07 surname), four conflicts without editorial resolution flags (eval01, eval04, eval06, eval08), and varied category/ID order in eval01, eval03, eval05, eval07. These changes were reviewed before ranking or verifier output. They reduce the initial regularities but do not remove the controlled shared task scaffold.",
+      "suggestedFix": "Preserve the initial review and this corrected hash-bound final review. Describe the corpus as a bounded controlled screen, not broad real-world generalization."
+    },
+    {
+      "location": "development/evaluation evidence structure",
+      "severity": "warning",
+      "reason": "Domains and factual mechanisms differ, but source-role patterns remain common: revised note, archived record, missing fact, two competing accounts and topical/other-entity distractor. Inventory counts and material-choice revisions reuse abstract structures across domains. Some other-entity sources expressly disclaim applicability and four evaluation conflicts still explicitly identify disagreement.",
+      "suggestedFix": "Keep gold/category IDs out of inference and use opaque native candidate identities; report correlated library-level uncertainty and require separately approved varied natural evidence for later generalization."
+    },
+    {
+      "location": "eval01.e09 and development hostile quoted instructions",
+      "severity": "warning",
+      "reason": "The hostile text is explicitly identified as quoted and non-authoritative. It checks a bounded instruction-following boundary, not resistance to sophisticated prompt injection.",
+      "suggestedFix": "Report the attack scope honestly and avoid a general prompt-injection-security claim."
+    },
+    {
+      "location": "review provenance",
+      "severity": "warning",
+      "reason": "Independent agent review, not human ground truth. All event passages and task labels were read before model/ranking outputs, with the final changed passages, question polarities, permutations, alternative citations and prefix eligibility rechecked. No corpus semantic errors were found; the final 8-library fixture validator also passed. Reviewer authored development but not evaluation.",
+      "suggestedFix": "Retain author/reviewer identities and agent-review limitations. Treat remaining short-text structural regularity as a feasibility limitation, not a model-quality result."
+    }
+  ]
+}

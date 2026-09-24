@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-016/raw.json",
+  "rawSHA256": "338fbe0294b2a83d0764d041201a12b3a891cef717607cc77adaca5742d2fc8a",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.117965416662628,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 6.5416679717600346e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.23000683332793415,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.27929395833052695,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2803374166614958,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.1169404166648746,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "2f39abe5a0ca484c5807082de142731f82b34ac9890e5cad433819a3f4702d33",
+      "contextSize": 4096,
+      "generationSeconds": 2.835978333336243,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Cobalt Press commissioned a Portuguese translation of 'River Roads' under a separate publication contract.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Editorial message: The revised travel-book proofs are approved. Please send the final pages.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Different contracts for Spanish and Portuguese translations indicate distinct publication undertakings without a shared project.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-016"
+  }
+}

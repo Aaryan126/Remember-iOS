@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-042/raw.json",
+  "rawSHA256": "9bdcf34e24ac42e69d1ec33d33c262c1039759b0cd96859f9fc3f3735398460c",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.475166208336304,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.541667633224279e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3197877916682046,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.3726254166685976,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.37381158333300846,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.474008583332761,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "72441956b046c327fd4189985bcbc8a18b0d175fafcbdf6f30405abb8694153c",
+      "contextSize": 4096,
+      "generationSeconds": 4.099506750004366,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Cedar Forge placed another order for a toolbox hinge. The hinge uses the latch's alloy and test rig, but its drawings and acceptance are for a separate product commission, not the folding-ladder redesign.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Workshop sheet allocates the same test rig to the folding-ladder latch and the toolbox hinge on successive days. File the results under their respective product approvals.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources describe different product commissions: the toolbox hinge and the folding-ladder latch, with distinct approval processes.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-042"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-054/raw.json",
+  "rawSHA256": "81bc812e2e6bc462090dba44f0a7ae9e64637256f56b93ff91d990fafb2338b8",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.5475992083374877,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.375004548113793e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22184170833497774,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2735991666704649,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2746521250010119,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.546527333332051,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "8a34ef826c64650bd38cd72582f27539ed27a416b55ddb15a7d734e1ab3889e6",
+      "contextSize": 4096,
+      "generationSeconds": 3.2712472083367174,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Birchbank's Elm Reach reedbed survey is funded under another grant with its own habitat report.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Field recording: We finished the measurements at Elm Reach. The report can go in now.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference Elm Reach and report related fieldwork, indicating a shared continuing project focused on river habitat assessment.",
+        "verdict": "same_project"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-054"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev03-q6",
+    "inputSHA256": "c3ee5ce682b61bd79169d32de10ce7fbcb5b51798c32aea823f98f683d62e7ec",
+    "rawSHA256": "ee93c5c236e5ec5e33abef74d7f37e91a37af815447c9f6cda5609c81235d957",
+    "requestCount": 1,
+    "reservationSHA256": "6033e28a942a13f656fd4fd78c145143d6f2e5fb72d6cea1b088647e683d77bf",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 5.911952333335648,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "e0ad52986dd72e866724689da0b6b9f703153f4804fe6566cb2000de9fbac34e",
+            "quote": "Juniper paint discussion: green samples were placed beside the frame to compare them in daylight. The owner will return after the weekend."
+          },
+          {
+            "candidateID": "1236f7796083281e3e8b763ab70e10930a57b3f1a63f589aa3772fdb8c384681",
+            "quote": "Juniper morning inspection, same final check: the front brake pad was clear of the tyre. This conflicts with the other inspector's observation and neither finding has been withdrawn. No adjustment took place between the observations."
+          }
+        ],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 21856256,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev03-q6"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "3ffa73d972dc8498da34bed73befdec6ddb2029faa3504beed57323166c984bd"
+}

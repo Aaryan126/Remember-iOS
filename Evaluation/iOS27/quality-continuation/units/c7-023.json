@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-023/raw.json",
+  "rawSHA256": "3c7e3b92445158357e1be7d4c1965564814dde96872051c5a6229a9d30e8ad5b",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.438310041667137,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.958339220844209e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3179212916729739,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.36833966666745255,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3692967500028317,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.437163958340534,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "3ed040158ab4bae1001f425bc74819e9ba5dd611fd9b294668393f19752aad21",
+      "contextSize": 4096,
+      "generationSeconds": 4.06720433333976,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal also commissioned a harbour weather bulletin. It is a different programme from the night-shift oral history, with its own delivery and approval, even though the same dock recording supplies background sound.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Studio booking covers both Pine Signal programmes: mix 'When the Quay Sleeps' in the morning and record the harbour weather bulletin afterward. Keep their separate programme approvals.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct programmes\u2014'harbour weather bulletin' and 'night-shift oral history'\u2014with separate approvals and bookings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-023"
+  }
+}

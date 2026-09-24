@@ -1,0 +1,45 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev05-q7",
+    "inputSHA256": "af408d5c1335e14f2f0ad8ec8c12901b7c85b40132d5ff98820aeb5a0206d3fd",
+    "rawSHA256": "df9608f0d041b650e34cc9e09f2893b8f1b0559d000363d58b359f296e8f64d6",
+    "requestCount": 1,
+    "reservationSHA256": "779c4bd04be9209ec1abfcf996e75015cd369ab1599772c1c1fafad229aed83a",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 5.347014874991146,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "14cc16bd99c9682eae2b1890a8e333c729782e4580d447027386b35d437f33ce",
+            "quote": "the installed pole was black. The team has not resolved the two different colour accounts; no repaint occurred between them."
+          },
+          {
+            "candidateID": "b9b6a8b1ac31535c4de9bbcbc185f2071ff8bc76d939b7ad94d715ac9d4f0dc2",
+            "quote": "Alder entrance sign, Wednesday sunset inspection: its pole was painted white. This is my observation of the installed pole after the work crew left."
+          }
+        ],
+        "verdict": "conflicting"
+      },
+      "peakResidentBytes": 21561344,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev05-q7"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "8a856572a04f10b2eab491b6ac544d1f28fb7ccd977c0332b437146cbefb457a"
+}

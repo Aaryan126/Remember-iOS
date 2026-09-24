@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev07-q3",
+    "inputSHA256": "2594d2f8fc6cadafc0e27489239a89e667824be50936ff13f91099492f56fbae",
+    "rawSHA256": "5026569df0705f282ab96c38492720ef11e12ec85448accf2cf0d548bb9d8cfb",
+    "requestCount": 1,
+    "reservationSHA256": "48e979297fcf4130c563bd6e42302eba59a296f7cd569181560e09249c326879",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.974029333330691,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "exchange word 'copper'. This card belongs to the first check, not the corrected callsign entry.",
+        "evidence": [
+          {
+            "candidateID": "78d56e353ff74587c2689908330cadba868f9b705a8b1933b5d1960c2d3a7457",
+            "quote": "Practice contact 17, retired check card: exchange word 'copper'. This card belongs to the first check, not the corrected callsign entry."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21528576,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev07-q3"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "24f14212721ce6e3c406948ff48361022e9ecd071a04fe65a278e105f7a16986"
+}

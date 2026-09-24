@@ -1,0 +1,127 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Teaching loan brief, page 1",
+      "modality": "pdf",
+      "sourceId": "s01",
+      "text": "Cabinet beetle teaching loan will send a fictional drawer of pinned beetle specimens to a classroom display. Track loan terms and packing condition here. The label-imaging group is documenting the same drawer before departure, with its own image-quality checklist."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Label imaging notebook, introduction",
+      "modality": "note",
+      "sourceId": "s02",
+      "text": "Beetle specimen label imaging will create readable photographs of the labels beneath six pinned specimens. This undertaking preserves label text; it does not identify specimens from appearance. The teaching loan team controls transport and return terms for the drawer."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Joint drawer travel checklist OCR",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "Drawer travel checklist for the cabinet beetle teaching loan and beetle specimen label imaging: photograph the closed drawer before fitting its foam corner blocks. The image team records seal condition; the loan team records who packed the blocks. Keep both records with their projects."
+    },
+    {
+      "id": "e04",
+      "kind": "capture",
+      "locator": "S4 test-frame OCR, visible label lines",
+      "modality": "photo",
+      "sourceId": "s04",
+      "text": "Beetle specimen label imaging test frame S4: the locality line is readable but the taxon line is hidden behind a pin. The extraction contains 'Ridge box 7' and a month only. No separate identification record accompanies this fictional specimen."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "Loan terms note, original",
+      "modality": "note",
+      "sourceId": "s05",
+      "text": "Cabinet beetle teaching loan terms, first signed note: return the drawer by 18 November. The classroom display lasts one week. Keep the foam blocks in the transport box during display, and notify the lending cabinet before moving any pins."
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Packing observation, 00:09–00:24",
+      "modality": "voice",
+      "sourceId": "s06",
+      "text": "Cabinet beetle teaching loan packing observation: the left front foam block has a shallow split and should be replaced before shipment. The drawer itself has no recorded damage. This is a packing-material observation, not an alteration of the agreed loan term."
+    },
+    {
+      "id": "e07",
+      "kind": "revise",
+      "locator": "Loan terms note, signed extension",
+      "sourceId": "s05",
+      "text": "Cabinet beetle teaching loan terms, signed extension: return the drawer by 25 November. The lender approved an extra display week. Keep the foam blocks in the transport box during display; the separate packing observation must be resolved before shipment."
+    },
+    {
+      "id": "e08",
+      "kind": "capture",
+      "locator": "Imaging settings card, page 1",
+      "modality": "pdf",
+      "sourceId": "s07",
+      "text": "Beetle specimen label imaging settings card: use a neutral gray backing for label photographs. The camera's vivid preview is disabled so faded ink remains visible. This card is a capture procedure and cannot reconstruct label characters hidden by a pin."
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "locator": "Loose transport slip OCR",
+      "modality": "photo",
+      "sourceId": "s08",
+      "text": "Loose transport slip: 'Box 3 to the side door.' No destination, collection name or drawer number is legible. Similar slips are used for teaching kits and cleaning supplies. The words do not establish a connection to this specimen loan."
+    },
+    {
+      "assignedProjectRoots": [
+        "s01"
+      ],
+      "id": "e10",
+      "kind": "correct",
+      "reason": "The box-3 slip belongs to the cabinet beetle teaching loan packing, not the imaging project. It still does not name the destination.",
+      "sourceId": "s08"
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Fictional mounting guide, label-height examples",
+      "modality": "link",
+      "sourceId": "s09",
+      "text": "A mounting guide is background reading for beetle specimen label imaging. It illustrates labels at several heights using unrelated insect examples. The depicted species names do not identify specimen S4, whose taxon line remains hidden in our captured frame."
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Loan packing completion note",
+      "modality": "note",
+      "sourceId": "s10",
+      "text": "Cabinet beetle teaching loan completion note: the replacement corner block is fitted and the drawer is ready for dispatch inspection. The final dispatch signature has not been recorded yet. The signed extension remains the source of the return deadline."
+    }
+  ],
+  "id": "dev10",
+  "queries": [
+    {
+      "atEvent": "e05",
+      "id": "q1",
+      "question": "What species name is written on specimen S4's hidden taxon line?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e08",
+      "id": "q2",
+      "question": "Before the signed extension, what return date did the original loan-terms note require?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "What return date is required by the current signed loan-terms note?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Find the shared instruction that orders drawer photography before foam-block fitting.",
+      "scope": "current"
+    }
+  ]
+}

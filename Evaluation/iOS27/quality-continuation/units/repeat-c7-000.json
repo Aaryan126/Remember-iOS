@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/repeat-c7-000/raw.json",
+  "rawSHA256": "372bb207fe3b5be7b018d3007b6d261490c5ac12951c6d6f38c7e9cfe23ad2ae",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.699411291665456,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.083332896698266e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.3221859166660579,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.375447708334832,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.3764362500005518,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.697745666671835,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "063e2ad2e3d8060c31c77b3ac86f8fbd3ea6c10f16195999c13eb49b57eebf91",
+      "contextSize": 4096,
+      "generationSeconds": 4.32070295833546,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Export mapping, rehearsal imports and cutover support belong to this migration engagement.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The flooring contractor's job is a facilities purchase, not the database engagement or security incident.",
+            "sourceID": "s07"
+          }
+        ],
+        "rationale": "Different project descriptions appear: database migration vs. facilities purchase, with no shared continuing undertaking.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "repeat-c7-000"
+  }
+}

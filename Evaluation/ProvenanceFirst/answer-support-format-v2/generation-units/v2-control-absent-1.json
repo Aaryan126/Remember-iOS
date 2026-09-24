@@ -1,0 +1,44 @@
+{
+  "bindingSHA256": "2554e088dd236e935782f509f38e96fe74aa8d47155e3f82c2f1fd1fac02a4d9",
+  "payload": {
+    "contentPassed": true,
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "v2-control-absent-1",
+    "inputSHA256": "6979dc1c804247b38e7da47cde6856f5705d17db5ebe49af24f3561dd967edc6",
+    "output": {
+      "answer": "",
+      "evidence": [],
+      "verdict": "not_established"
+    },
+    "passed": true,
+    "rawSHA256": "a9ddf94126c94fb05c36dd79cb0dc7a84ef69252e25a09794c39b40e90acaea8",
+    "repeatMatched": null,
+    "requestCount": 1,
+    "reservationSHA256": "4732d109257bc6c51cb8cc8c06911c272ed6ef5fd2f9c621c1bbd9fb90a60ffc",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 0.9927893333369866,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 21037056,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "v2-control-absent-1"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "7abc5cb1dd7d87cb5e8758d57bb2e2c1e9b853c5d06f634376b1e98903e4ed45"
+}

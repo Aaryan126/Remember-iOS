@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-103/raw.json",
+  "rawSHA256": "b5644ff1a19cb3b0b7931cf4029af9638e5c2694f21aa176ff3bf8abce50737b",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.58145012499881,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.624998837243766e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.220811416664219,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2690390416610171,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27020658332912717,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.580012416663521,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "f2a26495884a2e3e676c0ab52e32a570835220721c45e39f43da3e15df27dd4f",
+      "contextSize": 4096,
+      "generationSeconds": 4.309114708332345,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Survey, scaffold hire, slate replacement and final leak inspection are one roof-restoration contract.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "The defect at Northgate is corrected.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Source s01 links the slate roof to a single contract, while s05 references a defect unrelated to that roof work.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-103"
+  }
+}

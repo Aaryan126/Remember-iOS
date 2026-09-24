@@ -12,7 +12,7 @@ struct ContentView: View {
 
     var body: some View {
         TabView {
-            MemoryLibraryView(viewModel: viewModel, onAsk: openAssistant)
+            MemoryLibraryView(viewModel: viewModel, onAsk: openAssistant, projectModel: projectModel)
                 .tabItem {
                     Label("Memories", systemImage: "square.grid.2x2")
                 }
@@ -69,9 +69,11 @@ struct ContentView: View {
 struct MemoryLibraryView: View {
     let viewModel: LibraryViewModel
     let onAsk: () -> Void
+    var projectModel: ProjectViewModel? = nil
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.accessibilityReduceTransparency) private var reduceTransparency
     @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.scenePhase) private var scenePhase
     @State private var showsVoiceCapture = false
     @State private var showsNoteCapture = false
     @State private var showsCamera = false
@@ -82,17 +84,36 @@ struct MemoryLibraryView: View {
     @State private var pendingMediaCleanupURL: URL?
     @State private var isLoadingPhoto = false
     @State private var isSearchPresented = false
+    @State private var searchHandoff = SearchResultsHandoff()
+    @State private var libraryScrollPosition = ScrollPosition()
+    @State private var currentLibraryOffset: CGFloat = 0
+    @State private var savedBrowsingOffset: CGFloat = 0
+    @State private var restoresBrowsingPosition = false
+    @State private var searchSources = SourceEvidenceBrowserModel()
+    @State private var searchOptions = UnifiedMemorySearchOptions()
     @State private var isCaptureMenuExpanded = false
     @State private var detailPath: [UUID] = []
 
+    private var showsSearchResults: Bool {
+        // Focusing an empty field must not replace the grid while UIKit animates
+        // the search bar and keyboard. Results begin only with an actual query.
+        viewModel.searchRequest.isActive
+    }
+
     var body: some View {
         NavigationStack(path: $detailPath) {
-            Group {
-                if viewModel.items.isEmpty, !viewModel.isSynchronizing {
+            // One native scroll container owns both search and browsing insets.
+            // A second results ScrollView made UIKit reparent/animate the library.
+            library
+            .overlay {
+                if !showsSearchResults && viewModel.items.isEmpty && !viewModel.isSynchronizing {
                     emptyLibrary
-                } else {
-                    library
                 }
+            }
+            .overlay {
+                SearchResultsHandoffOverlay(handoff: searchHandoff)
+                    .allowsHitTesting(false)
+                    .accessibilityHidden(true)
             }
             .rememberCanvas(dark: .systemBackground)
             .navigationTitle("")
@@ -103,7 +124,23 @@ struct MemoryLibraryView: View {
             .searchable(
                 text: Binding(
                     get: { viewModel.searchQuery },
-                    set: { viewModel.searchQuery = $0 }
+                    set: { query in
+                        let hadResults = showsSearchResults
+                        let willShowResults = !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+                        if hadResults && !willShowResults {
+                            searchHandoff.begin(reduceMotion: reduceMotion)
+                        } else if !query.isEmpty {
+                            searchHandoff.cancel()
+                        }
+                        if !hadResults && willShowResults {
+                            if !restoresBrowsingPosition { savedBrowsingOffset = currentLibraryOffset }
+                            restoresBrowsingPosition = false
+                            searchSources = SourceEvidenceBrowserModel()
+                        }
+                        if hadResults && !willShowResults { restoresBrowsingPosition = true }
+                        viewModel.searchQuery = query
+                        if !hadResults && willShowResults { libraryScrollPosition.scrollTo(y: 0) }
+                    }
                 ),
                 isPresented: $isSearchPresented,
                 placement: .navigationBarDrawer(displayMode: .always),
@@ -185,7 +222,8 @@ struct MemoryLibraryView: View {
                 await viewModel.search()
             }
             .onSubmit(of: .search) {
-                Task { await viewModel.searchWithAI() }
+                // Submitting an ordinary search must not implicitly invoke AI/cloud search.
+                Task { await viewModel.search() }
             }
             .task(id: selectedPhoto) {
                 guard let item = selectedPhoto else { isLoadingPhoto = false; return }
@@ -244,7 +282,7 @@ struct MemoryLibraryView: View {
             }
         }
         .overlay(alignment: .bottomTrailing) {
-            if detailPath.isEmpty && !isLoadingPhoto {
+            if detailPath.isEmpty && !isLoadingPhoto && !isSearchPresented && !viewModel.searchRequest.isActive {
                 CaptureMenuButton(
                     isExpanded: $isCaptureMenuExpanded,
                     onSelect: selectCaptureAction
@@ -252,7 +290,22 @@ struct MemoryLibraryView: View {
             }
         }
         .onChange(of: detailPath) { _, path in
-            if !path.isEmpty { isCaptureMenuExpanded = false }
+            if !path.isEmpty {
+                isCaptureMenuExpanded = false
+                searchHandoff.cancel()
+            }
+        }
+        .onChange(of: isSearchPresented) { _, presented in
+            if presented { searchHandoff.cancel() }
+        }
+        .onChange(of: scenePhase) { _, phase in
+            if phase != .active { searchHandoff.cancel() }
+        }
+        .onDisappear { searchHandoff.cancel() }
+        .onChange(of: isSearchPresented || viewModel.searchRequest.isActive) { _, active in
+            // Clearing text is still the same session. Only Cancel resets filters;
+            // pushing a source detail with a retained query must not reset them.
+            if !active { searchOptions = UnifiedMemorySearchOptions() }
         }
     }
 
@@ -267,85 +320,72 @@ struct MemoryLibraryView: View {
 
     private var library: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
-                if viewModel.isSynchronizing {
-                    HStack(spacing: 10) {
-                        ProgressView()
-                        Text("Importing and analyzing your memory")
-                            .font(.subheadline)
-                            .foregroundStyle(RememberPalette.secondaryText)
-                    }
-                    .accessibilityElement(children: .combine)
-                }
-
-                if viewModel.searchRequest.isActive {
-                    searchStatus
-                }
-
-                if viewModel.visibleItems.isEmpty, viewModel.searchRequest.isActive, !viewModel.isSearching {
-                    noSearchResults
-                } else {
-                    MasonryLayout(spacing: 18) {
-                        ForEach(viewModel.visibleItems) { item in
-                            NavigationLink(value: item.id) {
-                                MemoryCard(item: item)
-                            }
-                            .buttonStyle(.plain)
-                            .accessibilityIdentifier("library-memory-\(item.id)")
-                        }
-                    }
-                    .padding(.top, 10)
-                }
+            if showsSearchResults {
+                UnifiedMemorySearchView(viewModel: viewModel, projectModel: projectModel,
+                                        options: $searchOptions, sources: searchSources)
+            } else {
+                browsingContent
             }
-            .padding(.horizontal, 16)
-            .padding(.bottom, 24)
         }
+        // Replace content/restore its offset together, not through an animated
+        // short-page layout. Empty focus leaves this value unchanged and native.
+        .transaction(value: showsSearchResults) { transaction in
+            transaction.animation = nil
+            transaction.disablesAnimations = true
+        }
+        .scrollPosition($libraryScrollPosition)
+        .onScrollGeometryChange(for: CGFloat.self) { geometry in
+            geometry.contentOffset.y + geometry.contentInsets.top
+        } action: { _, offset in
+            currentLibraryOffset = max(0, offset)
+        }
+        .accessibilityIdentifier(showsSearchResults ? "unified-memory-search" : "memory-library-scroll")
         .scrollDismissesKeyboard(.interactively)
         .refreshable {
-            await viewModel.synchronize()
+            if showsSearchResults {
+                let sources = searchSources
+                await viewModel.reloadLibraryProjection()
+                guard showsSearchResults, searchSources === sources else { return }
+                await sources.search(force: true)
+            } else {
+                await viewModel.synchronize()
+            }
         }
     }
 
-    private var searchStatus: some View {
-        HStack(spacing: 8) {
-            if viewModel.isSearching {
-                ProgressView()
-                    .controlSize(.small)
-                Text(viewModel.isAISearching ? "Understanding your query…" : "Searching your memories…")
-            } else {
-                Text("\(viewModel.visibleItems.count) \(viewModel.visibleItems.count == 1 ? "result" : "results")")
-            }
-            Spacer()
-            if viewModel.usedAIForCurrentSearch {
-                Label("AI-assisted", systemImage: "sparkles")
-                    .foregroundStyle(RememberPalette.action)
-            } else if !viewModel.searchRequest.normalizedQuery.isEmpty {
-                Button("Try AI search", systemImage: "sparkles") {
-                    Task { await viewModel.searchWithAI() }
+    private var browsingContent: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            if viewModel.isSynchronizing {
+                HStack(spacing: 10) {
+                    ProgressView()
+                    Text("Importing and analyzing your memory")
+                        .font(.subheadline)
+                        .foregroundStyle(RememberPalette.secondaryText)
                 }
-                .disabled(viewModel.isSearching)
-            } else {
-                Label("Private", systemImage: "lock.fill")
-                    .foregroundStyle(RememberPalette.success)
+                .accessibilityElement(children: .combine)
             }
-        }
-        .font(.caption.weight(.semibold))
-        .foregroundStyle(RememberPalette.secondaryText)
-    }
 
-    private var noSearchResults: some View {
-        ContentUnavailableView {
-            Label("No matching memories", systemImage: "magnifyingglass")
-        } description: {
-            Text("Try different words or clear one of the filters. Only memories that have finished analyzing are searchable.")
-        } actions: {
-            Button("Clear Search") {
-                viewModel.clearSearch()
+            MasonryLayout(spacing: 18) {
+                // Browsing always restores the complete library, not matches.
+                ForEach(viewModel.items) { item in
+                    NavigationLink(value: item.id) {
+                        MemoryCard(item: item)
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityIdentifier("library-memory-\(item.id)")
+                }
             }
-            .buttonStyle(.bordered)
+            .padding(.top, 10)
         }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 40)
+        .padding(.horizontal, 16)
+        .padding(.bottom, 24)
+        .onGeometryChange(for: CGFloat.self) { $0.size.height } action: { _ in
+            // Wait for the returning library's layout: a no-results page is too
+            // short and would clamp an earlier restoration request to the top.
+            guard restoresBrowsingPosition, !showsSearchResults else { return }
+            restoresBrowsingPosition = false
+            libraryScrollPosition.scrollTo(y: savedBrowsingOffset)
+        }
     }
 
     private var emptyLibrary: some View {
@@ -471,7 +511,7 @@ private enum CaptureUIError: LocalizedError {
     }
 }
 
-private struct MemoryCard: View {
+struct MemoryCard: View {
     let item: MemoryLibraryItem
 
     var body: some View {
@@ -555,7 +595,7 @@ private struct MemoryCard: View {
     }
 }
 
-private struct MasonryLayout: Layout {
+struct MasonryLayout: Layout {
     let spacing: CGFloat
 
     func sizeThatFits(

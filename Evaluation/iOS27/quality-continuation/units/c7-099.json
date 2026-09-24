@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-099/raw.json",
+  "rawSHA256": "0a127ea682e698068686221dbf60fba4385ff26fd776c0555a3151e651c90f98",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.737182541670336,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.29166539106518e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2242556249984773,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2757769166637445,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27667491666943533,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.735672708331549,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "ee45c8cfe52cd6fc13ce025736fb4cd2bf727579848635a65dad4d2ce68fff38",
+      "contextSize": 4096,
+      "generationSeconds": 3.458380791671516,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Northgate Library commissioned its window restoration under a different contract.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Site voice note: The defect at Northgate is corrected.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference Northgate Library without linking the restoration contract or defect correction to the slate roof work.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-099"
+  }
+}

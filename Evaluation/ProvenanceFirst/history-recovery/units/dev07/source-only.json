@@ -1,0 +1,126 @@
+{
+  "events": [
+    {
+      "id": "e01",
+      "kind": "capture",
+      "locator": "Kit manifest, original text",
+      "modality": "note",
+      "sourceId": "s01",
+      "text": "Glacier instrument kit packing, original manifest: allocate three rigid sample cases to the east sled. This fictional field exercise tracks packed instruments and their containers. Spare mittens are personal equipment and will not be counted in the instrument manifest."
+    },
+    {
+      "id": "e02",
+      "kind": "capture",
+      "locator": "Marker photography brief, page 1",
+      "modality": "pdf",
+      "sourceId": "s02",
+      "text": "Glacier marker photography survey will repeat photographs of five artificial marker poles on a simulated ice course. The instrument-packing group is lending transport space, not conducting our photographs. Save viewpoints and marker labels in this survey record."
+    },
+    {
+      "id": "e03",
+      "kind": "capture",
+      "locator": "Shared sled sketch OCR, caption",
+      "modality": "photo",
+      "sourceId": "s03",
+      "text": "Shared sled allocation for glacier instrument kit packing and the glacier marker photography survey: camera bags travel under the blue cover while instrument cases use the exposed rack. Both teams will verify strap access before loading; each keeps its own equipment inventory."
+    },
+    {
+      "id": "e04",
+      "kind": "revise",
+      "locator": "Kit manifest, revision after practice weigh-in",
+      "sourceId": "s01",
+      "text": "Glacier instrument kit packing, revised manifest: allocate two rigid sample cases to the east sled. The third case has been replaced by a soft accessory pouch after the practice weigh-in. The pouch still belongs to the instrument kit and requires its own label."
+    },
+    {
+      "id": "e05",
+      "kind": "capture",
+      "locator": "M3 viewpoint dictation, 00:10–00:27",
+      "modality": "voice",
+      "sourceId": "s04",
+      "text": "Marker photography survey setup: marker M3 must be photographed from the orange tripod spot. The frame should include its entire label, even if that leaves more empty background. This instruction records a repeatable viewpoint rather than a change to the shared sled allocation."
+    },
+    {
+      "id": "e06",
+      "kind": "capture",
+      "locator": "Coffee-stained bench note OCR",
+      "modality": "photo",
+      "sourceId": "s05",
+      "text": "Packing-bench note: 'Take the spare, leave the tall one.' Two item names are covered by a coffee stain. Nothing visible identifies a marker, instrument or container. The note might concern personal clothing, so it has no confirmed project placement yet."
+    },
+    {
+      "id": "e07",
+      "kind": "capture",
+      "locator": "Fictional battery guide, cold-chamber chart",
+      "modality": "link",
+      "sourceId": "s06",
+      "text": "A camera battery guide is background reading for the glacier marker photography survey. The chart compares fictional cold-chamber trials, not our kit's measured endurance. Our survey has not yet recorded how long either camera battery lasts on the simulated course."
+    },
+    {
+      "assignedProjectRoots": [
+        "s01"
+      ],
+      "id": "e08",
+      "kind": "correct",
+      "reason": "File the stained note with glacier instrument kit packing. I wrote it at that bench, but the covered item names are no longer legible.",
+      "sourceId": "s05"
+    },
+    {
+      "id": "e09",
+      "kind": "capture",
+      "locator": "Empty-sled weigh-in slip, page 1",
+      "modality": "pdf",
+      "sourceId": "s07",
+      "text": "Glacier instrument kit packing weigh-in slip: the empty east sled weighs 6.2 kg. This excludes all containers, covers and straps. The slip is a measurement of the transport base and cannot be used as the final load weight."
+    },
+    {
+      "id": "e10",
+      "kind": "revise",
+      "locator": "Kit manifest, final practice revision",
+      "sourceId": "s01",
+      "text": "Glacier instrument kit packing, final practice manifest: allocate one rigid sample case to the east sled. A second soft pouch now holds the nonfragile accessories. Keep the rigid case nearest the tow end; the empty sled's weigh-in is recorded separately."
+    },
+    {
+      "id": "e11",
+      "kind": "capture",
+      "locator": "Marker contact sheet OCR, annotations",
+      "modality": "photo",
+      "sourceId": "s08",
+      "text": "Glacier marker photography survey contact sheet: M2 has a blurred label and needs a repeat image. The neighboring M1 frame is legible. The accidental picture of a lunch flask carries no marker information and can be ignored during viewpoint comparison."
+    },
+    {
+      "id": "e12",
+      "kind": "capture",
+      "locator": "Personal zipper reminder",
+      "modality": "note",
+      "sourceId": "s09",
+      "text": "Personal trip reminder: replace the zipper pull on the old green bag. The repair does not involve the simulated glacier field equipment or the camera survey. A paper receipt is in the bag's inner pocket beside a bus ticket."
+    }
+  ],
+  "id": "dev07",
+  "queries": [
+    {
+      "atEvent": "e06",
+      "id": "q1",
+      "question": "In the original kit manifest before any revisions, how many rigid sample cases were allocated to the east sled?",
+      "scope": "includeHistory"
+    },
+    {
+      "atEvent": "e06",
+      "id": "q2",
+      "question": "Which item is called 'the tall one' on the stained packing-bench note?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q3",
+      "question": "What does the final practice manifest currently allocate to the east sled in rigid sample cases?",
+      "scope": "current"
+    },
+    {
+      "atEvent": "e12",
+      "id": "q4",
+      "question": "Recover the active shared allocation separating camera bags from instrument cases on the sled.",
+      "scope": "current"
+    }
+  ]
+}

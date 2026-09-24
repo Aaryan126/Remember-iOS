@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev08-q8",
+    "inputSHA256": "c3c4f270f72a34ad3574658e6a601004e99d5aa5f3047818f6128f8809f5dd95",
+    "rawSHA256": "9ca29e8d7d168e75d537cbc4823b4000071c5bddf75ce0a88545df586dea1d78",
+    "requestCount": 1,
+    "reservationSHA256": "d8cdaa280e23df759e4a75299c7a0c834cf2b17777275f93918bd5b2dfc33546",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.5608452083397424,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "40 tokens received.",
+        "evidence": [
+          {
+            "candidateID": "0dcce4aaf437ede68fb3963090e488a79df7324b5198866f06b4b3e3fc5c6f13",
+            "quote": "Oriole reservation, Monday reception deposit: 40 tokens received. Single-deposit line in the studio's Monday cash sheet, signed by the cashier."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21315584,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev08-q8"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "52470329fd056a20909c454a96169d384d7b0ce16c73f25036112aade58eba32"
+}

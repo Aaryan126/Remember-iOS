@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-050/raw.json",
+  "rawSHA256": "810d813168f99e415f411c50da6721b4252cdacf39aaa2c427b7474a1acff493",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.202976208332984,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 5.333335138857365e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22024970833444968,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.26910762499755947,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27011912500165636,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.201861916662892,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "850ce2f7259399ba2fc4e421884a9b1d4989c20ec264ab1b4e4fae4df5ee9509",
+      "contextSize": 4096,
+      "generationSeconds": 3.9311443750048056,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Camera placement, volunteer counts and the final population report are deliverables of grant OT-42",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Birchbank's Elm Reach reedbed survey is funded under another grant with its own habitat report. It is not part of the otter census, although volunteers use the same river transects.",
+            "sourceID": "s02"
+          }
+        ],
+        "rationale": "Both sources mention distinct surveys\u2014otter census and reedbed survey\u2014without shared deliverables or project identifiers.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-050"
+  }
+}

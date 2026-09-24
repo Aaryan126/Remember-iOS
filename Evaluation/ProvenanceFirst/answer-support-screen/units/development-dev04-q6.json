@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev04-q6",
+    "inputSHA256": "25895d0a6d1079cfa097e9aa6c3e663579c0a1e4009ae11686c7d12ec74c6d84",
+    "rawSHA256": "3596e202ac0e524c7efd9ceee60699cef213d31fd37e549b9c98046ee335e384",
+    "requestCount": 1,
+    "reservationSHA256": "62269f4e01b2bb64c45dc70c20d397fe418d7ad4dcc487d570d50424ee2a8142",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.317913958337158,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "Tape may close the outer carton.",
+        "evidence": [
+          {
+            "candidateID": "37b248e7831b881fdee72798780005d27e3608df4376858e26f1112457a1af46",
+            "quote": "Tape may close the outer carton."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21495808,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev04-q6"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "02ce0f4a6af6dd0e330a96deb86c61ac8fdabfaab4c6cd7fd69b2f13828cf531"
+}

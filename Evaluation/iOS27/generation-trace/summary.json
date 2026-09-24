@@ -1,0 +1,21 @@
+{
+  "code": "ORBIT-27",
+  "evaluationReadinessPassed": true,
+  "foregroundVerifiedSeconds": 0.32819666666182457,
+  "generationPassed": true,
+  "historicalCheckpointSHA256": "040f2081262ee12f1ad552c790a878407e3d9182c662cb10748e75c692196940",
+  "maximumResponseTokens": 100,
+  "modelRequestsIncludingPriorReadiness": 2,
+  "modelRequestsThisCheckpoint": 1,
+  "originalFP16HistoricalGatePassed": false,
+  "prewarmUsed": false,
+  "priorTimeoutCause": "unproven; foreground scheduling and changing model/service readiness remain possibilities",
+  "productionChanged": false,
+  "pythonTestsPassed": 48,
+  "responseSeconds": 3.522862666664878,
+  "sessionInitializationSeconds": 0.0012375416699796915,
+  "stage2Started": false,
+  "totalSeconds": 3.923192124995694,
+  "watchdogControlElapsedSeconds": 4.219529583337135,
+  "watchdogControlPassed": true
+}

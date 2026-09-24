@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-066/raw.json",
+  "rawSHA256": "8a04637d3f09db33961efb0feed847dd065cba505af97104e8c8d58b817ed050",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.163476041663671,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.7916615838184953e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.22471891666646115,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2782977916649543,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27935912500106497,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.162069874997542,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "a15508a28b217de94caffa98e268c7899be85322eba0a3458e8dab80309e2b51",
+      "contextSize": 4096,
+      "generationSeconds": 3.8820203750001383,
+      "output": {
+        "evidence": [
+          {
+            "quote": "'Cobalt Press commissioned a Portuguese translation of 'River Roads' under a separate publication contract.'",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "'Rights memo covers source-image permissions for both the Spanish and Portuguese editions of 'River Roads'.'",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct publication approvals for 'River Roads' translations, indicating separate undertakings.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-066"
+  }
+}

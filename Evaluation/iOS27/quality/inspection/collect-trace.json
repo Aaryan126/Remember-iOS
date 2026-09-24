@@ -1,0 +1,23 @@
+{
+  "command": [
+    "xcrun",
+    "devicectl",
+    "device",
+    "copy",
+    "from",
+    "--device",
+    "00008150-000A123A2EC0C01C",
+    "--source",
+    "Documents/trace-c7-004.json",
+    "--destination",
+    "/Users/aaryan/Desktop/Gemini Hackathon/Evaluation/iOS27/quality/inspection/recovered-trace-c7-004.json",
+    "--domain-type",
+    "appDataContainer",
+    "--domain-identifier",
+    "SimpleStudio.Remember.GroupingQuality"
+  ],
+  "fileExists": false,
+  "returnCode": 1,
+  "stderr": "ERROR: Failed to retrieve the file node for Documents/trace-c7-004.json (com.apple.dt.CoreDeviceError error 7000 (0x1B58))\n",
+  "stdout": ""
+}

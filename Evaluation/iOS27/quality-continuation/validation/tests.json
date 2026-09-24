@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Users/aaryan/.local/bin/python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "scripts/ios27-quality-continuation",
+    "-p",
+    "test_*.py"
+  ],
+  "returnCode": 0,
+  "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.576s\n\nOK\n",
+  "stdout": ""
+}

@@ -4,6 +4,7 @@
 .env.*
 !.env.example
 !.env.sample
+!.env.*.example
 *.pem
 *.key
 *.p12
@@ -18,6 +19,7 @@ secrets/
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
 Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
@@ -168,6 +170,19 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 *.xcresult/
+*.app/
+*.xctest/
+*.xcarchive/
+*.profraw
+*.profdata
+*.xccovreport
+*.xccovarchive/
+# Local SwiftPM configuration; keep Package.resolved and shared schemes visible.
+**/.swiftpm/configuration/
+# Local signing profiles and Apple service keys.
+*.mobileprovision
+*.provisionprofile
+*.p8
 
 # Local ML model weights and caches
 models/
@@ -180,6 +195,17 @@ models/
 *.pth
 *.pt.gz
 *.pth.gz
+*.mlmodel
+*.onnx
+*.tflite
+*.keras
+*.ckpt
+*.h5
+*.hdf5
+pytorch_model*.bin
+tf_model*.h5
+checkpoints/
+.huggingface/
 
 # Evaluation execution artifacts stay local; curated reports, fictional datasets,
 # review packets, protocols and source code remain versionable.
@@ -191,6 +217,15 @@ models/
 /Evaluation/Organization/results/
 /Evaluation/OrganizationDiagnostics/runs/
 /Evaluation/**/worker.lock
+# Process IDs and live pause controls belong to the local evaluation runner.
+/Evaluation/**/worker.json
+/Evaluation/**/pause.request.json
+# Local builds, model caches, device logs and private app-container backups.
+# Keep curated evaluation reports, fixtures and reproducible scripts visible.
+/Evaluation/ProvenanceFirst/runs/
+/Evaluation/iOS27/runs/
+# Checkpoint archives can contain copies of private execution receipts too.
+/Evaluation/**/baseline/**/runs/
 
 # Ruby
 .bundle/

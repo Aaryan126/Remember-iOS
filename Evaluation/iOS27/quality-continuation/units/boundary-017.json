@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-017/raw.json",
+  "rawSHA256": "d6ecca9df4249fca62a1e61a391acbf97e5c6e4c827b2df97e50b5b8c2898086",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 4.050973333331058,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.666667907964438e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2249525833321968,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2730443749969709,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27409608333255164,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 4.0498993750006775,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "30ab125b06ef113ef4416367afe1927307831c42c13ab77729a249017b8e652f",
+      "contextSize": 4096,
+      "generationSeconds": 3.7750999166673864,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Pine Signal radio commissioned an oral-history episode about the harbour night shift. Record the dock workers, edit their interviews and clear the music for this episode.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Studio booking covers both Pine Signal programmes: mix 'When the Quay Sleeps' in the morning and record the harbour weather bulletin afterward. Keep their separate programme approvals.",
+            "sourceID": "s04"
+          }
+        ],
+        "rationale": "Both sources mention distinct programme activities\u2014an oral-history episode and a weather bulletin\u2014without indicating shared planning or continuity.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-017"
+  }
+}

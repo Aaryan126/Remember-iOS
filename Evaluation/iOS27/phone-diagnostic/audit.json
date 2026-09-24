@@ -1,0 +1,15 @@
+{
+  "evaluation": "evaluations/1789529073344999000.json",
+  "evaluationSHA256": "bd84c95060f90bda6cbe90b34863abba45ddd8e1af1ce0156a1c2887962f5af8",
+  "independentCombinerMaximumDelta": 5.337355557522017e-10,
+  "neuralBoundExceptions": [
+    {
+      "delta": 0.0021178126335144043,
+      "direction": 0,
+      "unit": "parity-08"
+    }
+  ],
+  "replayStoppedAtSavedFailureWithoutInference": true,
+  "requestsAfterReplay": 16,
+  "safeToClose": true
+}

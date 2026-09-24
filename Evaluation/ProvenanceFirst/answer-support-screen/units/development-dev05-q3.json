@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev05-q3",
+    "inputSHA256": "1c836a5fc2c0b145019a54df5de42d48f08e7d38fdfb2f3c55b730e780cd46cf",
+    "rawSHA256": "d9e7b84ebd1462c762c76cb2d97f63540c47d6cadae9e2fce07a4de6236f588b",
+    "requestCount": 1,
+    "reservationSHA256": "2bfc1de0c274f5de5bff4c7f917407151f05281dddb38d49f75054184187878a",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.71588108332071,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "test stock CREAM-3. This stock was used only for the outdoor reading trial.",
+        "evidence": [
+          {
+            "candidateID": "21a1ef348a3dcf61a2682c3f4d9f3e87e8cabefb0a9fb543c73a6af4094c6eb2",
+            "quote": "Alder loop retired lettering test board [OCR]: test stock CREAM-3. This stock was used only for the outdoor reading trial."
+          }
+        ],
+        "verdict": "supported"
+      },
+      "peakResidentBytes": 21446656,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev05-q3"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "053b69eedef5ca792a9550bf2dfc80168070335df24f9b37380420df9eb990bd"
+}

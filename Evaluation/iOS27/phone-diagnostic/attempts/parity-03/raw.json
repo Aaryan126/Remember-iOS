@@ -1,0 +1,5 @@
+{
+  "returnCode": 0,
+  "stderr": "",
+  "stdout": "Launched application with SimpleStudio.Remember.IOS27Compatibility bundle identifier.\nWaiting for the application to terminate\u2026\nIOS27_RESULT {\"elapsedSeconds\":0.073104374998365529,\"os\":\"Version 27.0 (Build 24A437)\",\"policy\":\"d3-p2-seed29-corroborated-v1\",\"residentAfterBytes\":37847040,\"residentBeforeBytes\":28229632,\"result\":{\"computeUnits\":\"cpuOnly\",\"decisionParity\":true,\"fixture\":\"hv19a-i01--hv19a-i05\",\"inferenceSeconds\":[0.024592166664660908,0.017404875005013309],\"loadSeconds\":0.0028893333292216994,\"maximumFeatureDelta\":1.8784958033535304e-09,\"maximumNativeScoreDelta\":2.5163106403505719e-05,\"passed\":false,\"probabilities\":[0.0020923614501953125,0.0020923614501953125],\"score\":0.018643279464760881,\"tokenParity\":true},\"schemaVersion\":1,\"status\":\"ok\",\"syntheticOnly\":true,\"unit\":\"parity-03\"}\nThe app terminated with the exit code 0.\n"
+}

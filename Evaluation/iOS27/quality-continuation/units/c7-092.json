@@ -1,0 +1,60 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/c7-092/raw.json",
+  "rawSHA256": "8b881793e8729cf0482616abf75b1822e39b817d19ba72b2236fb2a567bcd053",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 3.567291583334736,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 4.375004209578037e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.2242757916683331,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2761942083307076,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.2771057916688733,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 3.5651893750036834,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "e215bce0bf90f3e9bfec1327a2d46c0c6d46ff9a05cc3598a4af944eec4256dd",
+      "contextSize": 4096,
+      "generationSeconds": 3.2874637083368725,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Export mapping, rehearsal imports and cutover support belong to this migration engagement.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Support note: Marble Desk says the fix worked after the restart. We can close it.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources reference distinct tasks unrelated to the same migration engagement.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "c7"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "c7-092"
+  }
+}

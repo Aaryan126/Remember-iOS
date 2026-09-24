@@ -1,0 +1,41 @@
+{
+  "bindingSHA256": "1fca6d82afffc14e1ce5aa81fdac077d4da6f52c0f97f8d977bc14648c21f5ab",
+  "payload": {
+    "executionKnown": true,
+    "failure": null,
+    "hostProcessExited": true,
+    "id": "development-dev02-q2",
+    "inputSHA256": "8302de3f404dbf81dd282311f45e5d7f62009a10b1aa7a0fbd382bc5a4a8940a",
+    "rawSHA256": "6f9e61c7e517c8de6f0355c776847ef8e84272d4304da00ca54236a75ef54301",
+    "requestCount": 1,
+    "reservationSHA256": "9dde7eec7e44a2fe3b1f7120fe7aa0ef10951fbe7c6d9b6e57bcf765b3290a9a",
+    "terminal": {
+      "cancellationGraceSeconds": 2,
+      "elapsedSeconds": 3.6613790416595293,
+      "error": null,
+      "nativeDeadlineSeconds": 60,
+      "output": {
+        "answer": "",
+        "evidence": [
+          {
+            "candidateID": "b26d4a80e7fdab66247d14745437c9da7669a40a96fd709ded53e3b7dac98e87",
+            "quote": "The seed-bank open day might feature Rill-62 among its displays. The outline covers signage, visitor flow and an unopened demonstration packet."
+          }
+        ],
+        "verdict": "not_established"
+      },
+      "peakResidentBytes": 21331968,
+      "runtime": {
+        "availability": "available",
+        "contextSize": 8192,
+        "os": "Version 27.0 (Build 26A428)"
+      },
+      "schemaVersion": 1,
+      "status": "ok",
+      "syntheticOnly": true,
+      "unit": "development-dev02-q2"
+    },
+    "validationError": null
+  },
+  "payloadSHA256": "b47ced52f1f967a6b089ede274ffc4784eca6bc37cd1abce482b18fbfc6b7e65"
+}

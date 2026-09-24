@@ -1,0 +1,64 @@
+{
+  "origin": "native-continuation",
+  "rawPath": "attempts/boundary-095/raw.json",
+  "rawSHA256": "b2d0aeff8720f0a860fbb36889ca90c3b8b11bd4effdeeb0747251d72ad09999",
+  "result": {
+    "deadlineFired": false,
+    "elapsedSeconds": 5.5762718333353405,
+    "error": null,
+    "events": [
+      {
+        "elapsedSeconds": 3.958339220844209e-06,
+        "phase": "app_task_entered"
+      },
+      {
+        "applicationState": 0,
+        "elapsedSeconds": 0.21898112499911804,
+        "phase": "foreground_verified"
+      },
+      {
+        "availability": "available",
+        "contextSize": 4096,
+        "elapsedSeconds": 0.2714471666695317,
+        "phase": "availability"
+      },
+      {
+        "elapsedSeconds": 0.27249545833910815,
+        "phase": "response_started"
+      },
+      {
+        "elapsedSeconds": 5.574853416670521,
+        "phase": "response_finished"
+      }
+    ],
+    "os": "Version 27.0 (Build 24A437)",
+    "result": {
+      "context": "e51143d07cc639bdb267fe97b7b8cf65da0d4b07f6501a673a13766e193e6c52",
+      "contextSize": 4096,
+      "generationSeconds": 5.30169887500233,
+      "output": {
+        "evidence": [
+          {
+            "quote": "Record the dock workers, edit their interviews and clear the music for this episode.",
+            "sourceID": "s01"
+          },
+          {
+            "quote": "Pine Signal also commissioned a harbour weather bulletin. It is a different programme from the night-shift oral history, with its own delivery and approval, even though the same dock recording supplies background sound.",
+            "sourceID": "s02"
+          },
+          {
+            "quote": "Voice memo: The producer approved that harbour segment.",
+            "sourceID": "s05"
+          }
+        ],
+        "rationale": "Both sources describe distinct programmes\u2014an oral-history episode and a harbour weather bulletin\u2014with separate approval processes and deliverables.",
+        "verdict": "separate_projects"
+      },
+      "reviewer": "boundary"
+    },
+    "schemaVersion": 1,
+    "status": "ok",
+    "syntheticOnly": true,
+    "unit": "boundary-095"
+  }
+}
