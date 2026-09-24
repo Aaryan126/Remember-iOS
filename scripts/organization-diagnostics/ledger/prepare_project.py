@@ -18,7 +18,7 @@ REPOSITORY = HERE.parents[2]
 PRODUCTION_SOURCES = (
     "LibraryFileStore.swift", "LivingWiki.swift", "LivingWikiCompiler.swift", "LocalAI.swift", "MemoryAnalyzer.swift",
     "MemoryChunk.swift", "MemoryCollection.swift", "MemoryContentExtractor.swift",
-    "MemoryItem.swift", "MemorySearch.swift", "MemoryStore.swift", "OpenAIAPI.swift",
+    "MemoryItem.swift", "MemorySearch.swift", "SearchTextMatcher.swift", "MemoryStore.swift", "OpenAIAPI.swift",
     "PrivacyActivity.swift", "ProjectGraphService.swift", "ProjectIntelligence.swift",
     "ProjectMemory.swift", "ProjectViewModel.swift", "Provenance.swift",
     "RememberAssistant.swift", "VisionImageClassifier.swift",

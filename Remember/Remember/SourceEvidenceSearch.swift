@@ -208,6 +208,7 @@ nonisolated enum SourceEvidenceSearch {
 
         let query = normalized(request.query)
         let queryTokens = tokens(query)
+        var matcher = SearchTextMatcher(query: request.query)
         var hits: [SourceEvidenceHit] = []
         var searchedBytes = 0
         for version in versions.values.sorted(by: { $0.source.sequence < $1.source.sequence }) {
@@ -237,13 +238,9 @@ nonisolated enum SourceEvidenceSearch {
                 )
                 for chunk in chunks {
                     try checkCancellation()
-                    let document = normalized(chunk.text)
-                    let matched = queryTokens.intersection(tokens(document)).count
-                    guard matched > 0 else { continue }
-                    // Same token-coverage/phrase formula as existing lexical search,
-                    // with a fixed locale so device locale cannot reorder results.
-                    let score = min(1, Double(matched) / Double(queryTokens.count) * 0.75 +
-                                    (document.contains(query) ? 0.25 : 0))
+                    let match = try matcher.match(in: chunk.text, checkCancellation: checkCancellation)
+                    guard match.coverage > 0 else { continue }
+                    let score = match.passageScore
                     hits.append(SourceEvidenceHit(
                         id: .init(memoryID: memory.memoryID, revisionID: version.source.id,
                                   snapshotID: version.evidence.id, field: field, ordinal: chunk.ordinal),

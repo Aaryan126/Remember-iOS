@@ -40,7 +40,7 @@ struct UnifiedMemorySearchView: View {
         .alert("How search works", isPresented: $showsSearchHelp) {
             Button("OK", role: .cancel) {}
         } message: {
-            Text("Ordinary search matches titles, summaries, tags and saved text. Include history adds retained earlier revisions and archived memories; these may be out of date. Source text only matches extracted text and your captions, not AI summaries or tags. Saved passages are not verified answers, and extracted text can contain recognition errors. A missing match does not prove something was never recorded.")
+            Text("Ordinary search matches titles, summaries, tags and saved text, allowing small spelling mistakes in words. Numbers and codes containing digits must match exactly. Include history adds retained earlier revisions and archived memories; these may be out of date. Source text only matches extracted text and your captions, not AI summaries or tags. Saved passages keep their original wording; they are not verified answers, and extracted text can contain recognition errors. A missing match does not prove something was never recorded.")
         }
         .task(id: request) {
             actionTask?.cancel()

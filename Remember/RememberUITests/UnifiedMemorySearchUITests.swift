@@ -87,6 +87,28 @@ final class UnifiedMemorySearchUITests: XCTestCase {
         app.alerts.buttons["OK"].tap()
     }
 
+    @MainActor func testTyposFindCardsAndOriginalPassagesAcrossFilters() throws {
+        let app = try launch()
+        search("parcle", in: app)
+        let card = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "library-memory-")).firstMatch
+        XCTAssertTrue(card.waitForExistence(timeout: 10))
+        toggle("Source text only", in: app)
+        XCTAssertTrue(passage("NOVA-42", in: app).waitForExistence(timeout: 10))
+        XCTAssertFalse(card.exists)
+        toggle("Include history", in: app)
+        let old = passage("ORBIT-27", in: app)
+        XCTAssertTrue(old.waitForExistence(timeout: 10))
+        for _ in 0..<4 where !old.isHittable { app.swipeUp() }
+        old.tap()
+        let quote = app.staticTexts["evidence-exact-quote"]
+        XCTAssertTrue(quote.waitForExistence(timeout: 10))
+        XCTAssertTrue(quote.label.contains("Parcel ORBIT-27"))
+        XCTAssertFalse(quote.label.contains("parcle"))
+        app.navigationBars.buttons["BackButton"].tap()
+        XCTAssertTrue(passage("ORBIT-27", in: app).waitForExistence(timeout: 10))
+        XCTAssertEqual(app.searchFields["Search your memories"].value as? String, "parcle")
+    }
+
     @MainActor func testClosingSearchPreservesScrolledLibraryAcrossRepeatedSessions() throws {
         try verifyRepeatedSearchDismissal(scrolled: true)
     }

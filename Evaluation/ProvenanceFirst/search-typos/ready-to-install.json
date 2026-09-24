@@ -1,0 +1,33 @@
+{
+  "installed": false,
+  "nativeRegressionPassed": 52,
+  "nextStep": "Fresh verified device backup, authorized in-place installation, phone smoke and preservation comparison.",
+  "physicalPhoneSmokeTested": false,
+  "reportSHA256": "82cb323e9769eac97ca00d31909b5c1bae27beea8aab4aa9eda94795e1116894",
+  "resources": {
+    "approvalSHA256": "eeedeacd161d554179691ee246e88dc6b5712cbf1c31139fe478d29464993d11",
+    "capBytes": 34359738368,
+    "conservativeGrowthBytes": 28184248320,
+    "externalGrowthBytes": 6059323392,
+    "freeBytes": 16778719232,
+    "initialFreeBytes": 44962967552,
+    "reserveBytes": 10737418240,
+    "scopedBytes": 4507639808,
+    "withinLimit": true
+  },
+  "signedBuildReceipt": "Evaluation/ProvenanceFirst/runs/search-typos-device/signed-build.json",
+  "signedBuildReceiptSHA256": "177e07dfc3431ab307c9fab7bb50647cae88213c768cce2d2a09cb91bef5d89e",
+  "sourceBoundChecks": {
+    "ui": {
+      "passed": 12,
+      "receipt": "Evaluation/ProvenanceFirst/runs/search-typos/1790252285484941000.json",
+      "receiptSHA256": "43922280a4cb96c8266725f3598ba0bff83d0f5ab43da0467fe31c9d3bf1cad1"
+    },
+    "unit": {
+      "passed": 79,
+      "receipt": "Evaluation/ProvenanceFirst/runs/search-typos/1790252252273195000.json",
+      "receiptSHA256": "043f4d0b0daaab43f4e42af391030fb3c7e34b5e7ceb767288ca5bdf97b16961"
+    }
+  },
+  "status": "ready-for-installation"
+}

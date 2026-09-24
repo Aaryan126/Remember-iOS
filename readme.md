@@ -33,6 +33,8 @@ The current source build brings retained-source browsing into **Search your memo
 use **Include history** for earlier revisions/archived sources or **Source text only**
 to exclude generated metadata. Matches open the exact saved version. **Ask AI** stays
 separate; this does not enable a new answer verifier or cloud history retrieval.
+Local search also tolerates small spelling mistakes in words while keeping numeric
+references exact and saved quotations unchanged (installed and verified on iPhone).
 [Unified search: behavior and verification](docs/unified-memory-search.md).
 [Plan, results, and boundaries](docs/provenance-first.md)
 

@@ -209,6 +209,7 @@ actor MemorySearchService {
         _ request: MemorySearchRequest,
         expandedTerms: [String] = [],
         useSemanticSimilarity: Bool = false,
+        tolerateTypos: Bool = false,
         limit: Int = 50
     ) async throws -> [MemorySearchResult] {
         try await synchronizeIndex()
@@ -230,8 +231,10 @@ actor MemorySearchService {
 
         let chunks = try await memoryStore.fetchChunks()
         let chunksByMemory = Dictionary(grouping: chunks, by: \.memoryID)
+        var matcher = SearchTextMatcher(query: query)
 
-        return memories.compactMap { memory -> MemorySearchResult? in
+        return try memories.compactMap { memory -> MemorySearchResult? in
+            try Task.checkCancellation()
             guard Self.includes(memory, request: request, now: currentDate),
                   let record = recordsByID[memory.id] else {
                 return nil
@@ -241,7 +244,23 @@ actor MemorySearchService {
                 return MemorySearchResult(memory: memory, score: 1)
             }
 
-            let lexicalScore = Self.lexicalScore(query: query, memory: memory, searchText: record.searchText)
+            let localMatch = tolerateTypos ? try matcher.match(in: record.searchText) : nil
+            let lexicalScore: Double
+            if let localMatch {
+                // Keep existing exact phrase/title/tag boosts; spelling variants
+                // contribute less token coverage and never gain an exact boost.
+                let normalizedQuery = Self.normalized(query)
+                let titleBoost = Self.normalized(memory.displayTitle).contains(normalizedQuery) ? 0.25 : 0
+                let tagBoost = memory.tags.contains { tag in
+                    Self.normalized(tag).contains(normalizedQuery)
+                        || Self.tokens(in: normalizedQuery).contains(Self.normalized(tag))
+                } ? 0.15 : 0
+                lexicalScore = localMatch.permitsMatch
+                    ? min(1, localMatch.coverage * 0.5 + (localMatch.containsPhrase ? 0.25 : 0) + titleBoost + tagBoost)
+                    : 0
+            } else {
+                lexicalScore = Self.lexicalScore(query: query, memory: memory, searchText: record.searchText)
+            }
             let expansionScore = normalizedExpandedTerms
                 .map { Self.lexicalScore(query: $0, memory: memory, searchText: record.searchText) }
                 .max() ?? 0
@@ -249,8 +268,9 @@ actor MemorySearchService {
                 queryEmbedding: queryEmbedding,
                 documentEmbedding: EmbeddingVectorCodec.decode(record.embeddingData)
             )
-            let chunkScore = (chunksByMemory[memory.id] ?? []).map { chunk in
-                let lexical = Self.lexicalCoverage(query: query, text: chunk.text)
+            let chunkScore = try (chunksByMemory[memory.id] ?? []).map { chunk in
+                let lexical = tolerateTypos ? try matcher.match(in: chunk.text).passageScore
+                    : Self.lexicalCoverage(query: query, text: chunk.text)
                 let semantic = Self.semanticScore(
                     queryEmbedding: queryEmbedding,
                     documentEmbedding: EmbeddingVectorCodec.decode(chunk.embeddingData)

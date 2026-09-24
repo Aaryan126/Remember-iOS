@@ -1,5 +1,59 @@
 # Unified memory search
 
+## Typo tolerance — installed and verified, 24 September 2026
+
+Ordinary Memories search and saved-passage/history search now share an on-device
+word matcher. It handles insertion, deletion, substitution and adjacent letter
+swaps using bounded optimal-string-alignment distance (restricted
+Damerau–Levenshtein). Query words of 4–7 characters allow one edit; words of
+8–64 characters allow two. Short words, longer words and queries with more than
+16 distinct words retain exact matching. Case and accent folding remain supported.
+
+Exact token matches contribute more than spelling variants, and only exact
+phrases receive the existing phrase boosts. Numbers and connected references
+containing digits (such as `ORBIT-27` or `AS1-02-07`) must match exactly, including
+when other words in the query match. This also prevents a query for one reference
+from returning a different reference solely through a shared component.
+
+Both filter scopes are unchanged: generated titles/summaries/tags can discover
+cards but never become source passages. Historical hits still resolve the exact
+saved revision. Quotes and typed queries are never rewritten. No new cloud calls,
+dependencies, database migrations or changes to Ask AI retrieval are introduced.
+
+Candidate lengths and edit-distance bands bound individual comparisons; a
+request-local cache holds up to 8,192 comparisons without dropping candidates
+when full. Cancellation is checked between documents/passages and during fuzzy
+comparisons. This is word-level spelling tolerance, not word joining/splitting,
+phonetic correction, or a guarantee of multilingual segmentation quality.
+
+Validation passed: **79 unit tests, 52 source-history regressions, 12 UI tests**
+and the signed normal iPhone app/extension build. After the user's installation
+approval, the update was installed in place and the physical-phone smoke passed
+on its third attempt. Earlier attempts recorded a UI-test authorization failure
+and a search-close assertion following a notification interruption; the unchanged
+build passed on retry. Fresh verified pre/post snapshots preserve all **8 memories,
+8 original files and 171 history events** unchanged. Remember is open on the phone.
+The optimized matcher benchmark covered 1,000 fictional documents in approximately
+168–206 ms on the development Mac; this is not an end-to-end iPhone measurement.
+
+Simulator/native validation uses fictional data and the existing resource guard. The new runner
+supports simulator tests and signed build preparation only; it has no install
+action. The separate `search-typos/deploy.py` reuses verified backup, signing,
+installation and preservation safeguards. The previous installed checkpoint is retained under the new run's
+baseline archive. See the [final validation and handoff](../Evaluation/ProvenanceFirst/search-typos/REPORT.md).
+See the [phone deployment report](../Evaluation/ProvenanceFirst/search-typos/DEPLOYMENT.md).
+
+```sh
+python3 -B scripts/provenance-first/search-typos/check.py resources
+python3 -B scripts/provenance-first/search-typos/check.py prepare
+python3 -B scripts/provenance-first/search-typos/check.py unit
+python3 -B scripts/provenance-first/search-typos/check.py native
+python3 -B scripts/provenance-first/search-typos/check.py ui
+python3 -B scripts/provenance-first/search-typos/check.py benchmark
+python3 -B scripts/provenance-first/search-typos/check.py prepare-device
+python3 -B scripts/provenance-first/search-typos/check.py build-device
+```
+
 ## Opening synchronization follow-up — installed and verified, 24 September 2026
 
 The user confirmed the earlier closing fix, but reported the grid moving upward

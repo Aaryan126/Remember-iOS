@@ -78,7 +78,7 @@ actor MemoryPipeline {
     }
 
     func search(_ request: MemorySearchRequest) async throws -> [MemoryLibraryItem] {
-        try await searchService.search(request).map { result in
+        try await searchService.search(request, tolerateTypos: true).map { result in
             MemoryLibraryItem(
                 memory: result.memory,
                 originalURL: fileStore.url(for: result.memory.originalFilename)
