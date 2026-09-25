@@ -78,10 +78,57 @@ private struct SearchTransitionFixtureRoot: View {
                         extractedText: "A fictional teal photo", tagsJSON: "[]", processingError: nil, modelVersion: nil)
                     try await store.insertIfNeeded(photo)
                 }
+                if ProcessInfo.processInfo.arguments.contains("--thread-media") {
+                    let files = try LibraryFileStore(directoryURL: LibraryFileStore.defaultDirectory())
+                    let fixtures: [(String, MemoryKind, String)] = [
+                        ("301", .pdf, "document.pdf"), ("302", .audio, "silence.wav"), ("303", .video, "motion.mp4")
+                    ]
+                    for (suffix, kind, filename) in fixtures {
+                        let target = files.url(for: "thread-media-" + filename)
+                        if !FileManager.default.fileExists(atPath: target.path) {
+                            if kind == .pdf {
+                                let data = UIGraphicsPDFRenderer(bounds: CGRect(x: 0, y: 0, width: 300, height: 400)).pdfData { context in
+                                    context.beginPage()
+                                    ("Fictional PDF source text" as NSString).draw(at: CGPoint(x: 20, y: 20), withAttributes: nil)
+                                }
+                                try data.write(to: target)
+                            } else {
+                                guard let original = Bundle.main.url(forResource: (filename as NSString).deletingPathExtension,
+                                    withExtension: (filename as NSString).pathExtension) else { throw CocoaError(.fileNoSuchFile) }
+                                try FileManager.default.copyItem(at: original, to: target)
+                            }
+                        }
+                        let date = Date(timeIntervalSince1970: 1_800_000_002)
+                        let item = MemoryItem(id: UUID(uuidString: "33333333-3333-3333-3333-333333333" + suffix)!, kind: kind,
+                            createdAt: date, importedAt: date, updatedAt: date, state: .indexed,
+                            originalFilename: target.lastPathComponent, userCaption: nil,
+                            title: "ThreadMedia " + kind.rawValue, summary: String(repeating: "Fictional long description. ", count: 40),
+                            extractedText: kind == .pdf ? "Fictional PDF source text" : "Fictional retained transcript",
+                            tagsJSON: "[]", processingError: nil, modelVersion: nil)
+                        try await store.insertIfNeeded(item)
+                    }
+                }
                 if !ProcessInfo.processInfo.arguments.contains("--unified-empty-library") {
                     await library.reloadLibraryProjection()
                 }
-                project = ProjectViewModel(initialSnapshot: try ProvenanceSnapshot.replay(await store.provenanceEvents()))
+                var snapshot = try ProvenanceSnapshot.replay(await store.provenanceEvents())
+                if let note = snapshot.memories.values.first(where: { $0.originalFilename == "unified-v1.txt" }) {
+                    if ProcessInfo.processInfo.arguments.contains("--thread-multiple") {
+                        let second = UUID(uuidString: "22222222-2222-2222-2222-222222222222")!
+                        snapshot.clusters[second] = ProvenanceCluster(id: second, title: "Additional context")
+                        snapshot.memberships[note.id, default: []].insert(second)
+                    }
+                    if ProcessInfo.processInfo.arguments.contains("--thread-long-history") {
+                        for index in 0..<60 {
+                            let context = memory("Surrounding context \(index)", filename: "thread-context-\(index).txt")
+                            snapshot.memories[context.id] = context
+                            snapshot.memberships[context.id] = [note.id]
+                            snapshot.events.append(try ProvenanceEvent(kind: .capture, memoryID: context.id,
+                                payload: ProvenancePayload(memory: context)))
+                        }
+                    }
+                }
+                project = ProjectViewModel(initialSnapshot: snapshot)
                 ready = true
             } catch { self.error = "Fictional fixture failed: \(error.localizedDescription)" }
         }

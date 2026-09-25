@@ -29,6 +29,22 @@ Global activity remains available from the Threads toolbar. Source/date/thread f
 
 `ThreadDirectory` and `ThreadHistory` are read-only presentation projections. Legacy stock user-action strings are mapped to the new vocabulary only for display and only for exact known strings; stored payloads, custom text and model evidence remain verbatim. No database migration, model/policy change, dependency addition or original-file rewrite is needed.
 
+## Entering history from a memory or search
+
+**View in thread** opens the current River at the memory's latest retained source
+event. An exact saved-source result instead targets its specific revision and
+extraction snapshot. Older targets are loaded automatically with adjacent context,
+then scrolled into view after the navigation transition. Reduce Motion skips the
+scroll animation. Entries retain their normal appearance without selection labels
+or outlines. Returning from a child page does
+not refocus the River. Existing map/finder navigation keeps its normal starting
+position.
+
+A multiple-thread chooser uses current memberships and names. Historical-source
+pages may include archived member threads, labelled **Archived**. A vanished entry
+or changed membership produces an explanatory message instead of selecting another
+revision. Thread history remains broader than an individual memory's version history.
+
 ## Validation
 
 Validation on 14 September 2026:

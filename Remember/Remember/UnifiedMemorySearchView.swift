@@ -6,6 +6,7 @@ struct UnifiedMemorySearchView: View {
     var projectModel: ProjectViewModel? = nil
     @Binding var options: UnifiedMemorySearchOptions
     let sources: SourceEvidenceBrowserModel
+    @State private var threadDestination: MemoryThreadDestination?
     @State private var selection: Selection?
     @State private var showsSource = false
     @State private var actionTask: Task<Void, Never>?
@@ -70,6 +71,7 @@ struct UnifiedMemorySearchView: View {
             searchHeader
             resultSections
         }
+        .memoryThreadNavigation(selection: $threadDestination, model: projectModel)
         .padding(.horizontal, 16)
         // Native search chrome already supplies the matching 10pt top gap.
         // Keep the 44pt header touch target; no additional top padding.
@@ -183,17 +185,17 @@ struct UnifiedMemorySearchView: View {
                         NavigationLink(value: item.id) { MemoryCard(item: item) }
                             .buttonStyle(.plain)
                             .accessibilityIdentifier("library-memory-\(item.id)")
-                        if let page = currentPage, let hit = options.snippet(for: item.id, in: page) {
-                            Button { open(hit, page: page) } label: {
-                                VStack(alignment: .leading, spacing: 6) {
-                                    Text(hit.quote).lineLimit(3).foregroundStyle(.primary)
-                                    Label("View saved passage", systemImage: "doc.text.magnifyingglass")
-                                }
-                                .font(.caption).padding(12)
+                        if let projectModel {
+                            MemoryThreadLink(destinations: MemoryThreadDestination.resolve(
+                                memoryID: item.id, snapshot: projectModel.snapshot), onSelect: { threadDestination = $0 },
+                                compact: true, labelVerticalOffset: -3)
+                                .font(.caption.weight(.medium))
+                                .buttonStyle(.plain)
+                                .foregroundStyle(.secondary)
                                 .frame(maxWidth: .infinity, alignment: .leading)
-                            }
-                            .buttonStyle(.plain)
-                            .accessibilityIdentifier("search-snippet-\(item.id)")
+                                .padding(.horizontal, item.memory.kind == .image || item.memory.kind == .video ? 12 : 14)
+                                .padding(.top, 1)
+                                .accessibilityIdentifier("search-thread-\(item.id)")
                         }
                     }
                 }

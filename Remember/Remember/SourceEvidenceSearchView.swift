@@ -168,6 +168,7 @@ struct SourceEvidenceDetailView: View {
     let sequence: Int64
     let model: SourceEvidenceBrowserModel
     let projectModel: ProjectViewModel?
+    @State private var threadDestination: MemoryThreadDestination?
     @State private var resolved: ResolvedSourceEvidence?
     @State private var errorMessage: String?
     @State private var preview: URL?
@@ -236,18 +237,14 @@ struct SourceEvidenceDetailView: View {
                     }
                 }.font(.footnote).foregroundStyle(RememberPalette.secondaryText)
                 if let projectModel {
-                    let memberships = projectModel.snapshot.memberships[hit.id.memoryID, default: []]
-                    let threads = projectModel.snapshot.activeClusters.filter { memberships.contains($0.id) }
-                    if !threads.isEmpty {
+                    let destinations = MemoryThreadDestination.resolve(memoryID: hit.id.memoryID,
+                        revisionID: hit.id.revisionID, snapshotID: hit.id.snapshotID, snapshot: projectModel.snapshot)
+                    if !destinations.isEmpty {
                         Section {
-                            ForEach(threads) { thread in
-                                NavigationLink { ClusterRiverView(clusterID: thread.id, model: projectModel) } label: {
-                                    Label(thread.title, systemImage: "clock.arrow.circlepath")
-                                }
-                                .accessibilityIdentifier("evidence-current-thread-\(thread.id)")
-                            }
-                        } header: { Text("Current thread context") } footer: {
-                            Text("Opens the current River, not a historical reconstruction of this search result.")
+                            MemoryThreadLink(destinations: destinations, onSelect: { threadDestination = $0 })
+                                .accessibilityIdentifier("evidence-thread-link")
+                        } header: { Text("Thread context") } footer: {
+                            Text("Opens the current thread history at this saved revision, not a reconstruction of the thread at that time.")
                         }
                     }
                 }
@@ -261,6 +258,7 @@ struct SourceEvidenceDetailView: View {
             }
         }
         .rememberGroupedList()
+        .memoryThreadNavigation(selection: $threadDestination, model: projectModel)
         .navigationTitle("Saved source")
         .navigationBarTitleDisplayMode(.inline)
         .accessibilityIdentifier("evidence-detail")

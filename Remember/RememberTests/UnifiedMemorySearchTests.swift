@@ -22,8 +22,6 @@ struct UnifiedMemorySearchTests {
         let page = page([current, old, archived])
         #expect(options.scope == .current)
         #expect(options.separateHits(in: page, cardMemoryIDs: [current.id.memoryID]).isEmpty)
-        #expect(options.snippet(for: current.id.memoryID, in: page)?.id == current.id)
-        #expect(options.snippet(for: old.id.memoryID, in: page) == nil)
     }
 
     @Test func historyAddsOlderAndArchivedWithoutDuplicatingCurrentCard() {

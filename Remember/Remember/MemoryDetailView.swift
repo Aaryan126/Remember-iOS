@@ -3,8 +3,11 @@ import SwiftUI
 struct MemoryDetailView: View {
     let memoryID: UUID
     let viewModel: LibraryViewModel
+    var projectModel: ProjectViewModel? = nil
 
     @Environment(\.dismiss) private var dismiss
+    @State private var threadDestination: MemoryThreadDestination?
+    @State private var photoThreadShortcutWidth: CGFloat = 0
     @State private var showsEditor = false
     @State private var showsInformation = false
     @State private var isEditingNote = false
@@ -18,6 +21,11 @@ struct MemoryDetailView: View {
     private enum NoteField {
         case title
         case body
+    }
+
+    private var threadDestinations: [MemoryThreadDestination] {
+        guard let projectModel else { return [] }
+        return MemoryThreadDestination.resolve(memoryID: memoryID, snapshot: projectModel.snapshot)
     }
 
     var body: some View {
@@ -93,8 +101,16 @@ struct MemoryDetailView: View {
                 ContentUnavailableView("Memory unavailable", systemImage: "questionmark.folder")
             }
         }
+        .memoryThreadNavigation(selection: $threadDestination, model: projectModel)
         .navigationBarTitleDisplayMode(.inline)
         .toolbar(.hidden, for: .tabBar)
+        .overlay(alignment: .bottomTrailing) {
+            if let item = viewModel.item(id: memoryID), item.memory.kind != .image {
+                threadShortcut(onPhoto: false)
+                    .padding(.horizontal, 20)
+                    .padding(.bottom, 8)
+            }
+        }
         .confirmationDialog(
             "Archive this note?",
             isPresented: $showsNoteDeleteConfirmation,
@@ -106,6 +122,18 @@ struct MemoryDetailView: View {
             Button("Cancel", role: .cancel) {}
         } message: {
             Text("The note and its history will be kept. Restore it from Settings → Archive.")
+        }
+    }
+
+    @ViewBuilder
+    private func threadShortcut(onPhoto: Bool) -> some View {
+        if !isEditingNote, !threadDestinations.isEmpty {
+            MemoryThreadLink(destinations: threadDestinations, onSelect: { threadDestination = $0 },
+                             compact: true, pillFill: onPhoto ? .white.opacity(0.14) : RememberPalette.inset)
+                .font(.caption.weight(.medium))
+                .buttonStyle(.plain)
+                .foregroundStyle(onPhoto ? Color.white : Color.primary)
+                .accessibilityIdentifier("memory-thread-link")
         }
     }
 
@@ -164,9 +192,17 @@ struct MemoryDetailView: View {
 
                     if !item.memory.tags.isEmpty {
                         WrappingTags(tags: item.memory.tags, color: .white)
+                            .padding(.trailing, threadDestinations.isEmpty ? 0 : photoThreadShortcutWidth + 12)
                     }
 
                     processingNotice(for: item.memory)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .overlay(alignment: .bottomTrailing) {
+                    threadShortcut(onPhoto: true)
+                        .onGeometryChange(for: CGFloat.self) { $0.size.width } action: {
+                            photoThreadShortcutWidth = $0
+                        }
                 }
                 .padding(.horizontal, 24)
                 .padding(.bottom, max(proxy.safeAreaInsets.bottom + 24, 34))
@@ -600,6 +636,17 @@ private struct MemoryInformationSheet: View {
     @State private var needsSpeechModel = false
     @State private var downloadsSpeechModel = false
     @State private var modelError: String?
+    @State private var showsExtractedText = false
+    @State private var selectedDetent: PresentationDetent
+    private let hasExtractedText: Bool
+
+    init(item: MemoryLibraryItem, onRetry: @escaping () -> Void) {
+        self.item = item
+        self.onRetry = onRetry
+        hasExtractedText = (item.memory.kind == .image || item.memory.kind == .pdf)
+            && !(item.memory.extractedText?.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ?? true)
+        _selectedDetent = State(initialValue: hasExtractedText || item.memory.kind == .video ? .medium : .height(260))
+    }
 
     var body: some View {
         NavigationStack {
@@ -608,6 +655,21 @@ private struct MemoryInformationSheet: View {
                     LabeledContent("Saved", value: item.memory.createdAt.formatted(date: .abbreviated, time: .shortened))
                     LabeledContent("Type", value: item.memory.kind.sourceLabel)
                     LabeledContent("Storage", value: "On this iPhone")
+                }
+
+                if hasExtractedText, let text = item.memory.extractedText {
+                    Section {
+                        DisclosureGroup(item.memory.kind == .image ? "Extracted image text" : "Extracted document text",
+                                        isExpanded: $showsExtractedText) {
+                            Text(text).textSelection(.enabled)
+                                .accessibilityIdentifier("memory-extracted-text")
+                        }
+                        .accessibilityIdentifier("memory-extracted-text-disclosure")
+                    } footer: {
+                        Text(item.memory.kind == .image
+                             ? "Saved extraction can include recognized text or visual labels and may contain errors."
+                             : "Saved extracted text may contain recognition errors.")
+                    }
                 }
 
                 if item.memory.state != .indexed {
@@ -647,7 +709,11 @@ private struct MemoryInformationSheet: View {
                 }
             }
         }
-        .presentationDetents(item.memory.kind == .video ? [.medium, .large] : [.height(260), .large])
+        .presentationDetents(hasExtractedText || item.memory.kind == .video ? [.medium, .large] : [.height(260), .large],
+                             selection: $selectedDetent)
+        .onChange(of: showsExtractedText) { _, expanded in
+            if expanded { selectedDetent = .large }
+        }
         .presentationDragIndicator(.visible)
         .task {
             if item.memory.kind == .video { needsSpeechModel = await OnDeviceSpeechTranscriber.needsModelDownload() }
@@ -678,10 +744,7 @@ private struct WrappingTags: View {
     private var fill: Color { color.map { $0.opacity(0.14) } ?? (scheme == .dark ? Color.accentColor.opacity(0.14) : RememberPalette.inset) }
 
     var body: some View {
-        ViewThatFits(in: .horizontal) {
-            HStack(spacing: 6) { tagViews }
-            VStack(alignment: .leading, spacing: 6) { tagViews }
-        }
+        VStack(alignment: .leading, spacing: 6) { tagViews }
     }
 
     @ViewBuilder
@@ -690,6 +753,7 @@ private struct WrappingTags: View {
             Text(tag)
                 .font(.caption.weight(.medium))
                 .foregroundStyle(ink)
+                .fixedSize(horizontal: false, vertical: true)
                 .padding(.horizontal, 9)
                 .padding(.vertical, 5)
                 .background(fill, in: Capsule())

@@ -49,3 +49,38 @@ Some old full-integrity audits, intermediate replays, recordings and attachments
 - All four saved search opening/closing trace checks passed.
 - Documentation links and `git diff --check` passed.
 - No app rebuild or new device tests were needed for artifact-only deletion; those were not run.
+
+## Additional approved cleanup — 25 September 2026
+
+Following explicit approval of groups A+B+C, removed exactly 22 more targets under `Evaluation/ProvenanceFirst/runs/`: seven obsolete build directories, nine byte-identical model packages, and six old simulator recordings. Their allocated size was **2,952,966,144 bytes (2.95 GB / 2.75 GiB)**. Observed available space increased by **1,649,090,560 bytes (1.65 GB)**, from 11,739,865,088 to 13,388,955,648 bytes. Shared APFS storage and concurrent filesystem activity can make available-space changes differ from summed file allocations.
+
+Exact removed paths, relative to that runs directory:
+
+```text
+memory-return-device/build
+search-status-device/build
+search-typos-device/build
+search-opening-deployment/build
+search-handoff-deployment/build
+search-overlay-deployment/build
+main-app-deployment/build
+search-typos/project/Remember/MatcherAssets/D3Matcher.mlpackage
+search-typos-device/project/Remember/MatcherAssets/D3Matcher.mlpackage
+search-status/project/Remember/MatcherAssets/D3Matcher.mlpackage
+search-status-device/project/Remember/MatcherAssets/D3Matcher.mlpackage
+memory-return/project/Remember/MatcherAssets/D3Matcher.mlpackage
+memory-return-device/project/Remember/MatcherAssets/D3Matcher.mlpackage
+search-opening-deployment/project/Remember/MatcherAssets/D3Matcher.mlpackage
+search-typos/baseline/Remember/Remember/MatcherAssets/D3Matcher.mlpackage
+search-status/baseline/Remember/Remember/MatcherAssets/D3Matcher.mlpackage
+memory-return/before.mp4
+memory-return/after.mp4
+memory-return/final.mp4
+memory-controls-motion/first.mp4
+memory-controls-motion/page-light.mp4
+memory-controls-motion/final.mp4
+```
+
+Before deletion, all nine packages matched the retained production model by SHA-256, and every target was checked for tracked files, symlinks, nested Git metadata and backup overlap. After deletion, all targets were absent, production-model hashes and Git status were unchanged, and metadata for 13,075 protected entries matched, including all 29 phone backup/post-install directories. The current simulator build, latest signed phone build, current test workspace and baseline, retained recordings/previews, and optional FP32 model remain.
+
+The existing `memory-controls-motion` baseline verifier passed for all 147 archived files. Old installers require rebuilding; archived projects missing their duplicate model require copying `Remember/Remember/MatcherAssets/D3Matcher.mlpackage` back into the removed package location. The six deleted full recordings cannot be recovered from this workspace. Historical manifests remain unchanged.

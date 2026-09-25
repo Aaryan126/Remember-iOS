@@ -111,6 +111,96 @@ struct ThreadPresentationTests {
         #expect(custom.threadRationale == "Topic is the source title.")
     }
 
+    @Test func memoryThreadLinksUseCurrentMembershipAndExactSourceEvents() throws {
+        let item = memory(0), other = memory(1)
+        let capture = try ProvenanceEvent(kind: .capture, memoryID: item.id,
+            payload: ProvenancePayload(memory: item))
+        var revised = item
+        // A filename is not sufficient to distinguish saved revisions.
+        revised.userCaption = "New source content"
+        let revision = try ProvenanceEvent(kind: .revision, memoryID: item.id,
+            payload: ProvenancePayload(memory: revised))
+        var snapshot = try ProvenanceSnapshot.replay([capture, revision])
+        snapshot.clusters[item.id]?.title = "Zulu"
+        snapshot.clusters[other.id] = ProvenanceCluster(id: other.id, title: "Alpha")
+        snapshot.memberships[item.id] = [item.id, other.id]
+        let current = MemoryThreadDestination.resolve(memoryID: item.id, snapshot: snapshot)
+        #expect(current.map(\.title) == ["Alpha", "Zulu"])
+        #expect(current.allSatisfy { $0.target.eventID == revision.id && !$0.target.isSavedRevision })
+        let old = MemoryThreadDestination.resolve(memoryID: item.id, revisionID: capture.id, snapshot: snapshot)
+        #expect(old.count == 2)
+        #expect(old.first?.target.memory(in: snapshot)?.userCaption == item.userCaption)
+        #expect(current.first?.target.memory(in: snapshot)?.userCaption == revised.userCaption)
+        #expect(MemoryThreadDestination.resolve(memoryID: item.id, revisionID: UUID(), snapshot: snapshot).isEmpty)
+        #expect(MemoryThreadDestination.resolve(memoryID: other.id, revisionID: capture.id, snapshot: snapshot).isEmpty)
+        snapshot.archivedClusterIDs.insert(other.id)
+        #expect(MemoryThreadDestination.resolve(memoryID: item.id, snapshot: snapshot).map(\.id) == [item.id])
+        let archived = MemoryThreadDestination.resolve(memoryID: item.id, revisionID: capture.id, snapshot: snapshot)
+        #expect(archived.first?.label == "Alpha · Archived")
+        snapshot.clusters[item.id]?.retired = true
+        #expect(MemoryThreadDestination.resolve(memoryID: item.id, snapshot: snapshot).isEmpty)
+        snapshot.memberships[item.id] = []
+        #expect(MemoryThreadDestination.resolve(memoryID: item.id, revisionID: capture.id, snapshot: snapshot).isEmpty)
+    }
+
+    @Test func threadTargetPreservesAttributedExtractionAndRejectsAnotherVersionsSnapshot() throws {
+        var item = memory(0)
+        item.extractedText = nil
+        let capture = try ProvenanceEvent(kind: .capture, memoryID: item.id, payload: ProvenancePayload(memory: item))
+        var extracted = item
+        extracted.extractedText = "Text recognized after capture"
+        var payload = ProvenancePayload(memory: extracted)
+        payload.sourceRevisionID = capture.id
+        let enrichment = try ProvenanceEvent(kind: .enrichment, memoryID: item.id, payload: payload)
+        var revised = item
+        revised.userCaption = "Later revision reusing the same filename"
+        let revision = try ProvenanceEvent(kind: .revision, memoryID: item.id, payload: ProvenancePayload(memory: revised))
+        let snapshot = try ProvenanceSnapshot.replay([capture, enrichment, revision])
+        let destinations = MemoryThreadDestination.resolve(memoryID: item.id, revisionID: capture.id,
+            snapshotID: enrichment.id, snapshot: snapshot)
+        let target = try #require(destinations.first?.target)
+        #expect(target.memory(in: snapshot)?.extractedText == extracted.extractedText)
+        #expect(target.original(in: snapshot) == .versionUnverified)
+        #expect(MemoryThreadDestination.resolve(memoryID: item.id, revisionID: revision.id,
+            snapshotID: enrichment.id, snapshot: snapshot).isEmpty)
+        #expect(MemoryThreadDestination.resolve(memoryID: item.id, revisionID: capture.id,
+            snapshotID: UUID(), snapshot: snapshot).isEmpty)
+    }
+
+    @Test func threadTargetLoadsOlderEntriesWithContextAndNeverSubstitutesMissingRevision() throws {
+        let item = memory(0)
+        var events: [ProvenanceEvent] = []
+        for index in 0..<120 {
+            var revision = item
+            revision.userCaption = "Revision \(index)"
+            events.append(try ProvenanceEvent(kind: index == 0 ? .capture : .revision, memoryID: item.id,
+                payload: ProvenancePayload(memory: revision)))
+        }
+        let target = ThreadHistoryTarget(memoryID: item.id, eventID: events[10].id, isSavedRevision: true)
+        let limit = target.visibleLimit(in: events, minimum: 50)
+        #expect(limit == 111)
+        #expect(Array(events.suffix(limit)).first?.id == events[9].id)
+        #expect(target.memory(in: try ProvenanceSnapshot.replay(events))?.userCaption == "Revision 10")
+        let missing = ThreadHistoryTarget(memoryID: item.id, eventID: UUID(), isSavedRevision: true)
+        #expect(missing.index(in: events) == nil)
+        #expect(missing.visibleLimit(in: events, minimum: 50) == 50)
+        #expect(missing.memory(in: try ProvenanceSnapshot.replay(events)) == nil)
+    }
+
+    @Test func memoryThreadLinkFollowsMergedMembershipWithoutOfferingRetiredParent() throws {
+        let a = memory(0), b = memory(1), merged = memory(2).id
+        let capture = try ProvenanceEvent(kind: .capture, memoryID: a.id, payload: ProvenancePayload(memory: a))
+        let snapshot = try ProvenanceSnapshot.replay([
+            capture,
+            ProvenanceEvent(kind: .capture, memoryID: b.id, payload: ProvenancePayload(memory: b)),
+            ProvenanceEvent(kind: .merge, payload: ProvenancePayload(clusterID: merged, title: "Merged", parents: [a.id, b.id],
+                assignments: [a.id.uuidString: [merged], b.id.uuidString: [merged]]))
+        ])
+        let destinations = MemoryThreadDestination.resolve(memoryID: a.id, revisionID: capture.id, snapshot: snapshot)
+        #expect(destinations.map(\.id) == [merged])
+        #expect(destinations.first?.target.index(in: ThreadHistory(snapshot: snapshot, clusterID: merged).story) == 0)
+    }
+
     private func memory(_ index: Int) -> MemoryItem {
         let id = UUID(uuidString: String(format: "00000000-0000-0000-0000-%012d", index + 1))!
         let date = Date(timeIntervalSince1970: 0)

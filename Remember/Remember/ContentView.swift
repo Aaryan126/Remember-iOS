@@ -130,7 +130,7 @@ struct MemoryLibraryView: View {
             }
             .navigationTitle("")
             .navigationDestination(for: UUID.self) { id in
-                MemoryDetailView(memoryID: id, viewModel: viewModel)
+                MemoryDetailView(memoryID: id, viewModel: viewModel, projectModel: projectModel)
             }
             .navigationBarTitleDisplayMode(.inline)
             .searchable(

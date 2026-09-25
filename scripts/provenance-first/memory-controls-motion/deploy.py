@@ -70,7 +70,8 @@ if __name__ == "__main__":
         deployment.d.write(checks.WORK / "ready-to-install.json", {
             "signedBuildReceiptSHA256": deployment.d.digest(deployment.RUN / "signed-build.json"),
             "sourceBoundChecks": {
-                "ui": verified_suite("RememberUITests/MemoryReturnUITests", 5)}})
+                "unit": verified_suite("RememberTests/ThreadPresentationTests", 32),
+                "ui": verified_suite("RememberUITests/MemoryThreadNavigationUITests", 11)}})
         print("Signed build and final simulator checks verified")
     else:
         if action not in {"resources", "prepare"}:

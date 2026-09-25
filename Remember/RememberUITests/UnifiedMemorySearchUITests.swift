@@ -248,17 +248,15 @@ final class UnifiedMemorySearchUITests: XCTestCase {
         add(attachment)
     }
 
-    @MainActor func testCurrentPassageAndKeyboardSubmissionStayLocal() throws {
+    @MainActor func testCurrentCardAndThreadShortcutKeepKeyboardSubmissionLocal() throws {
         let app = try launch()
         search("NOVA", in: app)
-        let snippet = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "search-snippet-")).firstMatch
-        XCTAssertTrue(snippet.waitForExistence(timeout: 10))
-        for _ in 0..<4 where !snippet.isHittable { app.swipeUp() }
-        capture("Current memory with saved passage", in: app)
+        let link = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "search-thread-")).firstMatch
+        XCTAssertTrue(link.waitForExistence(timeout: 10))
+        XCTAssertFalse(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "search-snippet-")).firstMatch.exists)
         XCTAssertFalse(app.staticTexts["AI-assisted memory matches"].exists)
-        snippet.tap()
-        XCTAssertTrue(app.staticTexts["evidence-exact-quote"].waitForExistence(timeout: 10))
-        XCTAssertTrue(app.staticTexts["evidence-exact-quote"].label.contains("NOVA-42"))
+        link.tap()
+        XCTAssertTrue(app.buttons["thread-target-entry"].waitForExistence(timeout: 10))
         app.navigationBars.buttons["BackButton"].tap()
         XCTAssertEqual(app.searchFields["Search your memories"].value as? String, "NOVA")
     }

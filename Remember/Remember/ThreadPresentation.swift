@@ -1,5 +1,82 @@
 import Foundation
 
+/// A source event, rather than a filename, identifies a revision in the River.
+nonisolated struct ThreadHistoryTarget: Hashable {
+    let memoryID: UUID
+    let eventID: UUID
+    let isSavedRevision: Bool
+    var snapshotID: UUID? = nil
+
+    func index(in events: [ProvenanceEvent]) -> Int? {
+        events.firstIndex { $0.id == eventID && $0.riverSource?.id == memoryID }
+    }
+
+    func memory(in snapshot: ProvenanceSnapshot) -> MemoryItem? {
+        guard let index = index(in: snapshot.events) else { return nil }
+        let event = snapshot.events[index]
+        if isSavedRevision, let snapshotID, snapshotID != eventID {
+            guard let extraction = snapshot.events.first(where: { $0.id == snapshotID }),
+                  extraction.kind == .enrichment, extraction.memoryID == memoryID,
+                  let payload = try? extraction.payload(), payload.sourceRevisionID == eventID,
+                  let memory = payload.memory, memory.id == memoryID,
+                  memory.originalFilename == event.riverSource?.originalFilename else { return nil }
+            return memory
+        }
+        return isSavedRevision ? event.riverSource : event.riverMemory(in: snapshot)
+    }
+
+    func original(in snapshot: ProvenanceSnapshot) -> SourceEvidenceOriginalState {
+        guard let memory = memory(in: snapshot) else { return .unavailable }
+        // An old filename may now hold different bytes. Keep the saved text accessible.
+        for event in snapshot.events where event.id != eventID && [.capture, .imported, .revision].contains(event.kind) {
+            guard let payload = try? event.payload() else { return .versionUnverified }
+            if payload.memory?.originalFilename == memory.originalFilename { return .versionUnverified }
+        }
+        guard let directory = try? LibraryFileStore.defaultDirectory(),
+              let url = SourceEvidenceBrowserRepository.readableOriginal(
+                filename: memory.originalFilename, directory: directory) else { return .unavailable }
+        return .available(url)
+    }
+
+    func visibleLimit(in events: [ProvenanceEvent], minimum: Int) -> Int {
+        guard let index = index(in: events) else { return minimum }
+        // Include the preceding entry as well as the selected entry and newer context.
+        return max(minimum, events.count - max(0, index - 1))
+    }
+}
+
+nonisolated struct MemoryThreadDestination: Identifiable, Hashable {
+    let id: UUID
+    let title: String
+    let isArchived: Bool
+    let target: ThreadHistoryTarget
+
+    var label: String { title + (isArchived ? " · Archived" : "") }
+
+    static func resolve(memoryID: UUID, revisionID: UUID? = nil, snapshotID: UUID? = nil,
+                        snapshot: ProvenanceSnapshot) -> [Self] {
+        let source: ProvenanceEvent?
+        if let revisionID {
+            source = snapshot.events.first { $0.id == revisionID && $0.riverSource?.id == memoryID }
+        } else {
+            source = snapshot.events.last { $0.riverSource?.id == memoryID }
+        }
+        guard let source else { return [] }
+        let target = ThreadHistoryTarget(memoryID: memoryID, eventID: source.id,
+                                         isSavedRevision: revisionID != nil, snapshotID: snapshotID)
+        guard target.memory(in: snapshot) != nil else { return [] }
+        let memberships = snapshot.memberships[memoryID, default: []]
+        return snapshot.clusters.values.compactMap { cluster in
+            let archived = snapshot.archivedClusterIDs.contains(cluster.id)
+            guard memberships.contains(cluster.id), !cluster.retired,
+                  revisionID != nil || (!archived && snapshot.memories[memoryID]?.isArchived == false),
+                  target.index(in: ThreadHistory(snapshot: snapshot, clusterID: cluster.id).story) != nil
+            else { return nil }
+            return Self(id: cluster.id, title: cluster.title, isArchived: archived, target: target)
+        }.sorted { $0.title == $1.title ? $0.id.uuidString < $1.id.uuidString : $0.title < $1.title }
+    }
+}
+
 /// The finder is independent of the map's bounded rendering window.
 nonisolated struct ThreadDirectory {
     struct Entry: Identifiable {

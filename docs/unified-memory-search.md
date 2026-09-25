@@ -1,5 +1,78 @@
 # Unified memory search
 
+## Thread context shortcuts — 25 September 2026
+
+Ordinary search keeps each memory's existing thumbnail/title card and opens the
+normal memory page. The separate attached excerpt and **View saved passage**
+action are replaced by a small arrow and **View in thread**, spaced below the
+card and aligned with its content inset. Shared memories offer a named
+thread chooser. Unassigned or unavailable destinations have no shortcut.
+
+The memory page also offers an always-visible bottom-right **View in thread**
+control, hidden while editing a note. On photos, its white text and translucent
+pill match the tags and sit beside the original footer without moving the title,
+date, or tags. It opens the same River entry as search. Images and PDFs with retained extraction
+have an expandable, selectable text section in Memory Details; audio/video
+transcripts retain their existing presentation.
+
+Thread links load the selected source event, including entries before the initial
+50-event history window, and gently scroll to it after navigation when necessary.
+Reduce Motion disables the scroll animation. Entries keep their normal appearance,
+without a selection label or outline. Back preserves the originating search
+or memory page. Historical results still open their exact saved source first;
+their thread link opens current thread history at that saved revision and retains
+its attributed extraction snapshot. Missing originals or reused filenames remain
+explicitly unavailable/unverified. Historical-source links can include archived
+member threads, labelled **Archived**; retired threads are not offered.
+
+**Source text only**, **Include history**, and standalone passages without indexed
+cards remain available. Retrieval, organization, and stored data are unchanged.
+The signed update is installed on the connected iPhone using the normal app
+identity, without uninstalling or resetting its data.
+
+Focused simulator checks use the existing isolated launcher and build cache:
+
+```sh
+python3 -B scripts/provenance-first/memory-controls-motion/check.py prepare
+python3 -B scripts/provenance-first/memory-controls-motion/check.py thread-unit
+python3 -B scripts/provenance-first/memory-controls-motion/check.py thread-ui
+```
+
+The media checks reuse the existing synthetic `silence.wav` and `motion.mp4`
+fixtures from `Evaluation/ProvenanceFirst/runs/source-browser-media/fixtures`.
+After the approved storage cleanup, the initial functional update passed **32
+focused unit tests** and **11 UI checks**. Results are retained under
+`Evaluation/ProvenanceFirst/runs/memory-controls-motion/` as
+`1790322688294963000.xcresult` and `1790322297048789000.xcresult`, respectively.
+The multi-thread fixture now identifies `unified-v1.txt` explicitly and its test
+selects the shared result: another retained fixture also matches `NOVA`, so
+choosing the first matching note/result was ambiguous. Image/PDF extraction
+checks assert the visible text rather than an identifier overridden by SwiftUI.
+
+The signed `build-for-testing` passed, and the existing deployment readiness
+check verifies the matching unit/UI results. One read-only iPhone navigation
+check passed with `test-without-building` in
+`runs/memory-controls-motion-device/smoke-1790322886132397000.xcresult` (relative to
+`Evaluation/ProvenanceFirst/`). Its first attempt timed out enabling Xcode UI
+automation before any app test ran; the unchanged retry passed. The photo layout
+screenshot was inspected. The existing deployment tools and build caches were
+reused; no new deployment pipeline was added.
+
+The before/after device comparison passed SQLite integrity and confirmed all
+eight original files, all eight memory rows, and all 177 historical events were
+unchanged. Verified backups and the preservation receipt remain in the ignored
+device run directory. `git --no-optional-locks diff --check` passed.
+
+The subsequent shortcut styling and scroll-animation refinement passed four
+focused simulator checks: photo layout/extraction, multiple-thread choices,
+search Back/swipe cancellation, and navigation beyond the initial history window
+(`runs/memory-controls-motion/1790323676124616000.xcresult`). Photo and River
+screenshots were inspected. The signed incremental build passed with one build
+worker after a storage-reserve interruption. The in-place phone
+update reused the verified backup; 11 durable data files retained their sizes and
+modification times during installation. No new full backup or phone test suite
+was run for this visual refinement.
+
 ## Library control motion — 25 September 2026
 
 The Add button and native search field now join the native navigation transition
@@ -307,8 +380,8 @@ artifacts. Ignore rules do not remove files already tracked by Git.
 - Tap **Search your memories** in Memories, including when the current library is
   empty. Type a name, phrase or reference; Return performs local search.
 - By default, current indexed memories match titles, summaries, tags, captions and
-  extracted text. Cards retain their normal Memory-page navigation. A matching
-  current saved passage gets a separate **View saved passage** action when loaded.
+  extracted text. Cards retain their normal Memory-page navigation. Current cards now offer
+  a thread-history shortcut instead of a separate saved-passage action.
 - **Include history** adds saved-text matches from retained earlier revisions and
   archived sources. These are labelled passages, not duplicate current cards.
 - **Source text only** replaces metadata/card results with saved extracted text and

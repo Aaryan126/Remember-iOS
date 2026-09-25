@@ -78,10 +78,10 @@ final class SourceEvidenceMediaUITests: XCTestCase {
         let original = app.buttons["evidence-open-original"]
         reach(original, in: app); original.tap()
         dismissPreview("Text Quick Look", in: app)
-        let thread = app.buttons["evidence-current-thread-00000000-0000-0000-0000-000000000104"]
+        let thread = app.buttons["evidence-thread-link"]
         reach(thread, in: app); capture("Explicit current River context", app); thread.tap()
         XCTAssertTrue(app.buttons["Thread options"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["History · 1 memory"].exists)
+        XCTAssertTrue(app.buttons["thread-target-entry"].exists)
         capture("Current River from saved evidence", app)
         app.navigationBars.buttons["BackButton"].tap()
         XCTAssertTrue(app.navigationBars["Saved source"].waitForExistence(timeout: 5))

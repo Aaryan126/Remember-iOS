@@ -20,7 +20,7 @@ checks.RECEIPT = checks.ROOT / "Evaluation/ProvenanceFirst/memory-return/checkpo
 def main():
     os.umask(0o077)
     parser = argparse.ArgumentParser()
-    parser.add_argument("action", choices=["preserve", "resources", "prepare", "unit", "ui", "status-ui", "return-ui", "photo-ui", "regressions"])
+    parser.add_argument("action", choices=["preserve", "resources", "prepare", "unit", "ui", "status-ui", "return-ui", "photo-ui", "regressions", "thread-unit", "thread-ui"])
     action = parser.parse_args().action
     checks.prior.configure()
     checks.boundary()
@@ -43,7 +43,23 @@ def main():
     for name, expected in checks.prior.d.load(checks.RUN / "preparation.json")["sourceBindings"].items():
         if checks.prior.d.digest(checks.ROOT / name) != expected:
             raise RuntimeError("Source changed; prepare first: " + name)
+    if action == "thread-ui":
+        preparation = checks.prior.d.load(checks.RUN / "preparation.json")
+        if runner.digest(runner.CODE / "FixtureApp.swift") != preparation["fixtureLauncherSHA256"]:
+            raise RuntimeError("Fictional launcher changed; prepare first")
+        checks.boundary(4 * 1024**2)
+        # Reuse the existing synthetic media; never read personal originals.
+        for name in ["silence.wav", "motion.mp4"]:
+            runner.copy_file(checks.ROOT / "Evaluation/ProvenanceFirst/runs/source-browser-media/fixtures" / name,
+                             runner.PROJECT / "Remember" / name)
     suites = {
+        "thread-unit": ["RememberTests/ThreadPresentationTests", "RememberTests/UnifiedMemorySearchTests",
+                        "RememberTests/SourceEvidenceBrowserTests"],
+        "thread-ui": ["RememberUITests/MemoryThreadNavigationUITests",
+                      "RememberUITests/UnifiedMemorySearchUITests/testCurrentCardAndThreadShortcutKeepKeyboardSubmissionLocal",
+                      "RememberUITests/UnifiedMemorySearchUITests/testTyposFindCardsAndOriginalPassagesAcrossFilters",
+                      "RememberUITests/MemoryReturnUITests/testPhotoBackAndInteractiveCancellationRestoreLibraryControls",
+                      "RememberUITests/MemoryReturnUITests/testSearchResultBackPreservesQueryAndControls"],
         "photo-ui": "RememberUITests/MemoryReturnUITests/testPhotoBackAndInteractiveCancellationRestoreLibraryControls",
         "return-ui": "RememberUITests/MemoryReturnUITests",
         "regressions": ["RememberUITests/MemoryReturnUITests",

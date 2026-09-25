@@ -65,14 +65,25 @@ This rule is unconditional. A task is not complete if it requires violating it; 
 
 ## Testing and Verification
 
-- Add or update tests for new behavior, bug fixes, important branches, and regressions when a test framework exists.
+- Scale verification to the change as described below. Add or update tests for meaningful behavior, important branches, and regressions when a test framework exists; routine cosmetic edits do not require new automated tests.
 - Prefer deterministic tests that do not depend on real external services, wall-clock timing, random state, or execution order.
 - Test observable behavior rather than private implementation details.
 - Include edge cases and failure paths, not only the happy path.
-- Run the narrowest relevant checks first, then broader checks when practical: formatting, linting, type checking, unit tests, integration tests, and build.
+- Run the narrowest relevant checks first. Broaden or repeat them only when changed code, a failure, an explicit requirement, or an unresolved risk justifies it; do not automatically run every available suite.
 - Do not claim a check passed unless it was actually run successfully.
 - If a check cannot run, report the exact command, failure, and likely reason. Do not hide failures or disable checks.
 - Never change production behavior solely to accommodate a weak test; improve the test or design instead.
+
+## Proportionate Work for Small Fixes
+
+- The user prefers quick, focused implementation for small UI fixes. Default to inspecting the affected code, making the smallest coherent edit, and running the relevant build or focused check. Once sufficient checks pass, finish.
+- For cosmetic changes such as text, color, spinner size, spacing, or a simple animation adjustment, do not automatically add test infrastructure, run broad regressions, record videos, or create evaluation reports, deployment wrappers, source-hash archives, or checkpoint systems.
+- Navigation or gesture changes may need focused Back, swipe-back, and cancellation checks. Broader testing is appropriate when search logic, persistence, migrations, security, or other substantial behavior changes; choose checks based on the affected behavior.
+- Reuse existing build caches and deployment tooling. Do not repeat successful source-matched checks merely because the user subsequently requests installation.
+- Install on the user's phone when requested, using an in-place update that preserves app data. Do not uninstall or reset the app. Keep applicable data-protection and resource safeguards, but do not introduce a new full backup/comparison pipeline for each cosmetic fix without a concrete need or explicit requirement.
+- Respect requests to skip phone testing. Installing and opening an authorized update does not imply that a full physical-device test suite is needed.
+- If a mandatory safeguard or a newly discovered issue will add substantial work, briefly explain the specific reason upfront. Do not silently expand a small fix into a large verification project or ask for redundant approval.
+- Keep the handoff short: what changed, which checks actually ran, and installation status when relevant. Update documentation only where needed for lasting behavior or setup guidance; small visual changes do not need standalone reports.
 
 ## Frontend and UX
 
@@ -114,4 +125,3 @@ At the end of a task:
 - Call out unresolved risks, assumptions, or checks that could not be completed.
 - Identify any manual steps the user must perform.
 - Do not stage, commit, push, or otherwise publish the work.
-

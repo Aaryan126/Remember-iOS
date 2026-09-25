@@ -1,6 +1,60 @@
 import SwiftUI
 import QuickLook
 
+/// Shared by search cards, the memory page, and exact saved-source details.
+struct MemoryThreadLink: View {
+    let destinations: [MemoryThreadDestination]
+    let onSelect: (MemoryThreadDestination) -> Void
+    var compact = false
+    var pillFill: Color? = nil
+    var labelVerticalOffset: CGFloat = 0
+
+    private func label(_ title: String) -> some View {
+        HStack(alignment: .firstTextBaseline, spacing: 6) {
+            Image(systemName: "arrow.turn.down.right")
+            Text(title).fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(.horizontal, pillFill == nil ? 0 : 9)
+        .padding(.vertical, pillFill == nil ? 0 : 5)
+        .background(pillFill ?? .clear, in: .capsule)
+        .offset(y: labelVerticalOffset)
+        .frame(minHeight: 44, alignment: pillFill == nil ? .leading : .bottomLeading)
+        .contentShape(Rectangle())
+    }
+
+    var body: some View {
+        Group {
+            if let only = destinations.first, destinations.count == 1 {
+                Button { onSelect(only) } label: {
+                    label(compact ? "View in thread" : "View in thread: \(only.label)")
+                }
+                .accessibilityHint("Opens \(only.label) at this saved memory")
+            } else if !destinations.isEmpty {
+                Menu {
+                    ForEach(destinations) { destination in
+                        Button(destination.label) { onSelect(destination) }
+                    }
+                } label: {
+                    label(compact ? "View in thread" : "View in threads · \(destinations.count)")
+                }
+                .accessibilityHint("Choose from \(destinations.count) threads")
+                .accessibilityValue("\(destinations.count) threads")
+            }
+        }
+    }
+}
+
+extension View {
+    func memoryThreadNavigation(selection: Binding<MemoryThreadDestination?>, model: ProjectViewModel?) -> some View {
+        navigationDestination(item: selection) { destination in
+            if let model {
+                ClusterRiverView(clusterID: destination.id, model: model, target: destination.target)
+                    .toolbar(.hidden, for: .tabBar)
+            }
+        }
+    }
+}
+
 struct ProjectStatusView: View {
     let model: ProjectViewModel
     var body: some View {
@@ -40,7 +94,10 @@ struct ProvenanceEventRow: View {
 struct ClusterRiverView: View {
     let clusterID: UUID
     let model: ProjectViewModel
+    var target: ThreadHistoryTarget? = nil
+    @State private var didFocusTarget = false
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var isHistorical = false
     @State private var date = Date()
     @State private var title = ""
@@ -49,6 +106,7 @@ struct ClusterRiverView: View {
     @State private var isDeleting = false
     @State private var selectedMemory: MemoryItem?
     @State private var selectedMemoryIsHistorical = false
+    @State private var selectedOriginal: SourceEvidenceOriginalState?
     @State private var showsMemory = false
     @State private var showsActivity = false
     @State private var activitySuggestionsOnly = false
@@ -58,8 +116,16 @@ struct ClusterRiverView: View {
         let cluster = snapshot.clusters[clusterID]
         let history = ThreadHistory(snapshot: snapshot, clusterID: clusterID)
         let events = history.story
-        let visibleEvents = Array(events.suffix(limit))
+        let displayLimit = isHistorical ? limit : (target?.visibleLimit(in: events, minimum: limit) ?? limit)
+        let visibleEvents = Array(events.suffix(displayLimit))
+        let targetAvailable = target.map { target in
+            cluster != nil && cluster?.retired == false
+                && snapshot.memberships[target.memoryID, default: []].contains(clusterID)
+                && (target.isSavedRevision || !snapshot.archivedClusterIDs.contains(clusterID))
+                && target.index(in: events) != nil && target.memory(in: snapshot) != nil
+        } ?? true
         let memoryCount = snapshot.members(of: clusterID).count
+        ScrollViewReader { scroll in
         List {
             Section {
                 Text(cluster?.title ?? "This thread had not formed yet").font(.largeTitle.bold())
@@ -74,6 +140,13 @@ struct ClusterRiverView: View {
                         in: (model.snapshot.events.first?.timestamp.timeIntervalSince1970 ?? Date().timeIntervalSince1970 - 1)...Date().timeIntervalSince1970)
                         .accessibilityLabel("History date").accessibilityIdentifier("History date")
                     comparison(in: snapshot)
+                }
+            }
+            if target != nil, !isHistorical, !targetAvailable {
+                Section {
+                    Label("This saved entry is no longer available in this thread. Go back to the memory or search results.",
+                          systemImage: "exclamationmark.circle")
+                        .accessibilityIdentifier("thread-target-unavailable")
                 }
             }
             if let cluster, !cluster.parents.isEmpty {
@@ -110,8 +183,8 @@ struct ClusterRiverView: View {
                     Text(isHistorical ? "No saved content at this point in the thread’s history." : "No saved content in this thread.")
                         .foregroundStyle(RememberPalette.secondaryText)
                 }
-                if events.count > limit {
-                    Button("Unfold earlier history") { limit += 50 }
+                if events.count > displayLimit {
+                    Button("Unfold earlier history") { limit = displayLimit + 50 }
                         .listRowInsets(EdgeInsets(top: 20, leading: 42, bottom: 36, trailing: 16))
                         .listRowSeparator(.hidden)
                         .listRowBackground(RiverCardBackground())
@@ -119,9 +192,10 @@ struct ClusterRiverView: View {
                 ForEach(visibleEvents) { event in
                     Group {
                         if let original = event.riverSource {
-                            let source = event.riverMemory(in: snapshot)
+                            let exactTarget = !isHistorical && target?.eventID == event.id && target?.isSavedRevision == true
+                            let source = exactTarget ? target?.memory(in: snapshot) : event.riverMemory(in: snapshot)
                             VStack(alignment: .leading, spacing: 20) {
-                                Button { openMemory(source ?? original) } label: {
+                                Button { openMemory(source ?? original, historical: exactTarget, original: exactTarget ? target?.original(in: snapshot) : nil) } label: {
                                     HStack(alignment: .firstTextBaseline, spacing: 12) {
                                         VStack(alignment: .leading, spacing: 5) {
                                             Text((source ?? original).displayTitle).font(.headline).lineLimit(3)
@@ -138,10 +212,27 @@ struct ClusterRiverView: View {
                                     .contentShape(Rectangle())
                                 }
                                 .buttonStyle(.plain)
+                                .disabled(exactTarget && !targetAvailable)
                                 .accessibilityHint("Opens this memory; Back returns to the thread")
-                                .accessibilityIdentifier("project-source-\(original.id)")
-                                RiverMediaView(memory: original, onOpenMemory: { openMemory(source ?? original) })
-                                    .id(original.originalFilename)
+                                .accessibilityIdentifier(targetAvailable && !isHistorical && target?.eventID == event.id
+                                                         ? "thread-target-entry" : "project-source-\(original.id)")
+                                if exactTarget, let state = target?.original(in: snapshot) {
+                                    // Historical media must pass the same filename and availability checks as its source page.
+                                    switch state {
+                                    case .available:
+                                        RiverMediaView(memory: source ?? original, onOpenMemory: { openMemory(source ?? original, historical: true, original: state) })
+                                            .id(original.originalFilename)
+                                    case .unavailable:
+                                        Label("The saved original is unavailable. Retained text is still available.", systemImage: "doc.badge.ellipsis")
+                                            .font(.footnote)
+                                    case .versionUnverified:
+                                        Label("The original file cannot be verified for this revision. Retained text is still available.", systemImage: "doc.badge.ellipsis")
+                                            .font(.footnote)
+                                    }
+                                } else {
+                                    RiverMediaView(memory: original, onOpenMemory: { openMemory(source ?? original) })
+                                        .id(original.originalFilename)
+                                }
                                 if original.kind == .text, let text = original.userCaption {
                                     let document = NoteDocument(text: text)
                                     let body = document.title == (source ?? original).displayTitle ? document.body : text
@@ -161,6 +252,7 @@ struct ClusterRiverView: View {
                             }
                         }
                     }
+                    .id(event.id)
                     .modifier(RiverRail(startsAtJunction: event.id == visibleEvents.first?.id))
                     .listRowInsets(EdgeInsets(top: 20, leading: 42, bottom: 36, trailing: 16))
                     .listRowSeparator(.hidden)
@@ -175,7 +267,7 @@ struct ClusterRiverView: View {
             .navigationTitle(cluster?.title ?? "Thread history").navigationBarTitleDisplayMode(.inline)
             .navigationDestination(isPresented: $showsMemory) {
                 if let selectedMemory {
-                    ProjectSourceView(memory: selectedMemory, model: model, historical: selectedMemoryIsHistorical)
+                    ProjectSourceView(memory: selectedMemory, model: model, historical: selectedMemoryIsHistorical, retainedOriginal: selectedOriginal)
                 }
             }
             .navigationDestination(isPresented: $showsActivity) {
@@ -229,12 +321,30 @@ struct ClusterRiverView: View {
             } message: {
                 Text("The thread moves to Archive. Its memories stay in Memories and any other threads. You can restore the thread from Settings → Archive.")
             }
+            .task(id: targetAvailable) {
+                guard !didFocusTarget, !isHistorical, targetAvailable, let target else { return }
+                // Let the push transition settle before scrolling. The first entry
+                // is already visible; returning from a child must not scroll again.
+                guard visibleEvents.first?.id != target.eventID else {
+                    didFocusTarget = true
+                    return
+                }
+                do { try await Task.sleep(for: .milliseconds(reduceMotion ? 0 : 350)) }
+                catch { return }
+                guard !Task.isCancelled else { return }
+                withAnimation(reduceMotion ? nil : .smooth(duration: 0.5)) {
+                    scroll.scrollTo(target.eventID, anchor: .top)
+                }
+                didFocusTarget = true
+            }
             .task { await model.recap(clusterID) }
             .safeAreaInset(edge: .bottom) { ProjectStatusView(model: model) }
+        }
     }
-    private func openMemory(_ memory: MemoryItem) {
+    private func openMemory(_ memory: MemoryItem, historical: Bool = false, original: SourceEvidenceOriginalState? = nil) {
+        selectedOriginal = original
         selectedMemory = memory
-        selectedMemoryIsHistorical = isHistorical ||
+        selectedMemoryIsHistorical = historical || isHistorical ||
             model.snapshot.memories[memory.id]?.originalFilename != memory.originalFilename
         showsMemory = true
     }
@@ -391,18 +501,36 @@ struct ProjectSourceView: View {
     let memory: MemoryItem
     let model: ProjectViewModel
     var historical = false
+    var retainedOriginal: SourceEvidenceOriginalState? = nil
     @State private var selected: Set<UUID> = []
     @State private var preview: URL?
+    private var originalIsAvailable: Bool {
+        if case .some(.available) = retainedOriginal { return true }
+        return false
+    }
     var body: some View {
         List {
             Section {
                 Text(memory.displayTitle).font(.title2.bold())
-                RiverMediaView(memory: memory).id(memory.originalFilename)
+                if retainedOriginal == nil || originalIsAvailable {
+                    RiverMediaView(memory: memory).id(memory.originalFilename)
+                }
                 LabeledContent("Captured", value: memory.createdAt.formatted(date: .abbreviated, time: .shortened))
                 Text(memory.extractedText ?? memory.userCaption ?? memory.displaySummary ?? "Extraction is pending. The original is saved.").textSelection(.enabled)
-                Button("Open saved original") {
-                    do { preview = try LibraryFileStore(directoryURL: LibraryFileStore.defaultDirectory()).url(for: memory.originalFilename) }
-                    catch { model.errorMessage = error.localizedDescription }
+                if let retainedOriginal {
+                    switch retainedOriginal {
+                    case .available(let url):
+                        Button("Open saved original") { preview = url }
+                    case .unavailable:
+                        Label("The original file is unavailable on this device.", systemImage: "doc.badge.ellipsis")
+                    case .versionUnverified:
+                        Label("The file cannot be verified for this revision. The retained text is still available.", systemImage: "doc.badge.ellipsis")
+                    }
+                } else {
+                    Button("Open saved original") {
+                        do { preview = try LibraryFileStore(directoryURL: LibraryFileStore.defaultDirectory()).url(for: memory.originalFilename) }
+                        catch { model.errorMessage = error.localizedDescription }
+                    }
                 }
             }
             if memory.kind == .video, let note = memory.analysisNote {
