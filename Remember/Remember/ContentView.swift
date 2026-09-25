@@ -101,7 +101,7 @@ struct MemoryLibraryView: View {
     }
 
     var body: some View {
-        NavigationStack(path: $detailPath) {
+        NavigationStack(path: $detailPath.animation(reduceMotion ? nil : .default)) {
             // One native scroll container owns both search and browsing insets.
             // A second results ScrollView made UIKit reparent/animate the library.
             library
@@ -116,6 +116,18 @@ struct MemoryLibraryView: View {
                     .accessibilityHidden(true)
             }
             .rememberCanvas(dark: .systemBackground)
+            .overlay(alignment: .bottomTrailing) {
+                LibraryControlsTransition(reduceMotion: reduceMotion) {
+                    if !isLoadingPhoto && !isSearchPresented && !viewModel.searchRequest.isActive {
+                        // The expanded dial stays above the blurred stack below.
+                        CaptureMenuButton(
+                            isExpanded: Binding(get: { false }, set: { isCaptureMenuExpanded = $0 }),
+                            onSelect: selectCaptureAction
+                        )
+                        .opacity(isCaptureMenuExpanded ? 0 : 1)
+                    }
+                }
+            }
             .navigationTitle("")
             .navigationDestination(for: UUID.self) { id in
                 MemoryDetailView(memoryID: id, viewModel: viewModel)
@@ -257,6 +269,7 @@ struct MemoryLibraryView: View {
                 }
             }
         }
+        .toolbar(detailPath.isEmpty ? .visible : .hidden, for: .tabBar)
         .blur(radius: isCaptureMenuExpanded && !reduceTransparency ? 12 : 0)
         .allowsHitTesting(!isCaptureMenuExpanded)
         .accessibilityHidden(isCaptureMenuExpanded)
@@ -282,7 +295,7 @@ struct MemoryLibraryView: View {
             }
         }
         .overlay(alignment: .bottomTrailing) {
-            if detailPath.isEmpty && !isLoadingPhoto && !isSearchPresented && !viewModel.searchRequest.isActive {
+            if isCaptureMenuExpanded {
                 CaptureMenuButton(
                     isExpanded: $isCaptureMenuExpanded,
                     onSelect: selectCaptureAction

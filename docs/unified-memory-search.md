@@ -1,5 +1,35 @@
 # Unified memory search
 
+## Library control motion — 25 September 2026
+
+The Add button and native search field now join the native navigation transition
+when returning to Memories. A small UIKit host uses the navigation transition
+coordinator, including interactive swipe progress and cancellation. Reduce Motion
+skips the additional effect. The collapsed capture control has a compact frame so
+its host does not intercept taps on nearby cards. Search remains native.
+
+Validation and implementation details are recorded in
+[the control-motion report](../Evaluation/ProvenanceFirst/memory-controls-motion/REPORT.md).
+This follow-up is installed on the phone. Native Back and swipe-back checks passed;
+all 8 memories, 8 original files and 172 history events were verified unchanged.
+See the [deployment report](../Evaluation/ProvenanceFirst/memory-controls-motion/DEPLOYMENT.md).
+
+## Returning from a memory — 25 September 2026
+
+The latest source keeps the collapsed Add control on the library's navigation
+page, so native Back and swipe-back reveal it with the page. The expanded capture
+dial retains its existing presentation above the blurred stack. Tab-bar visibility
+follows the memory navigation path explicitly, and path changes carry the default
+SwiftUI animation unless Reduce Motion is enabled. The native search and toolbar
+remain attached to the library; there are no delayed appearance callbacks.
+
+This refinement is installed on the phone. The signed build and phone Back and
+swipe-back check passed; all 8 memories, 8 originals and 172 history events were
+verified unchanged. Simulator validation and before/after recordings are in
+[the return-transition report](../Evaluation/ProvenanceFirst/memory-return/REPORT.md);
+the [deployment report](../Evaluation/ProvenanceFirst/memory-return/DEPLOYMENT.md)
+records the phone checks and preservation comparison.
+
 ## Centered search status — 24 September 2026
 
 The latest source uses one centered status area below the search header. While

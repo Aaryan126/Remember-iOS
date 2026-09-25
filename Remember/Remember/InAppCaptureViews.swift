@@ -61,7 +61,10 @@ struct CaptureMenuButton: View {
             .padding(.trailing, trailingInset)
             .padding(.bottom, bottomInset)
         }
-        .frame(width: menuSide, height: menuSide, alignment: .bottomTrailing)
+        // Keep the collapsed UIKit animation host from covering nearby cards.
+        .frame(width: isExpanded ? menuSide : hubSize + trailingInset,
+               height: isExpanded ? menuSide : hubSize + bottomInset,
+               alignment: .bottomTrailing)
         .coordinateSpace(name: "capture-dial")
         .accessibilityAction(.escape) { setExpanded(false) }
         .animation(reduceMotion ? nil : .easeOut(duration: 0.18), value: isExpanded)
