@@ -1,5 +1,20 @@
 # Unified memory search
 
+## Centered search status — 24 September 2026
+
+The latest source uses one centered status area below the search header. While
+the current query is pending (including debounce), it shows a spinner. A finished
+ordinary search with no results replaces it with **No matching current memories**
+at the same position. History and source-only scopes use their corresponding
+short empty labels. Saved-text failures retain their error and Retry action.
+The area supports wrapping at larger text sizes and stays above the keyboard.
+
+This UI update is installed on the phone. The signed build, 28 unit tests,
+15 simulator UI tests and physical-phone smoke passed. All 8 memories, 8 originals
+and 172 history events were verified unchanged. Validation and changed files
+are recorded in [the status report](../Evaluation/ProvenanceFirst/search-status/REPORT.md)
+and [deployment report](../Evaluation/ProvenanceFirst/search-status/DEPLOYMENT.md).
+
 ## Typo tolerance — installed and verified, 24 September 2026
 
 Ordinary Memories search and saved-passage/history search now share an on-device

@@ -29,6 +29,62 @@ final class UnifiedMemorySearchUITests: XCTestCase {
         option.tap()
     }
 
+    @MainActor func testEmptySearchStatusIsCenteredBelowHeader() throws {
+        for arguments in [[], ["--unified-dark"],
+                          ["--unified-dark", "-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"]] {
+            let app = try launch(arguments)
+            let field = app.searchFields["Search your memories"]
+            XCTAssertTrue(field.waitForExistence(timeout: 10))
+            field.tap()
+            field.typeText("Hdhdhhd")
+            let empty = app.staticTexts["search-no-memories"]
+            XCTAssertTrue(empty.waitForExistence(timeout: 10))
+            XCTAssertEqual(empty.label, "No matching current memories")
+            XCTAssertEqual(empty.frame.midX, app.frame.midX, accuracy: 2)
+            XCTAssertGreaterThan(empty.frame.midY - app.buttons["search-options-menu"].frame.maxY, 90)
+            XCTAssertLessThan(empty.frame.maxY, app.keyboards.firstMatch.frame.minY)
+            XCTAssertEqual(app.activityIndicators.count, 0)
+            capture("Centered empty search with keyboard \(arguments)", in: app)
+            field.typeText("\n")
+            XCTAssertTrue(empty.exists)
+            XCTAssertEqual(empty.frame.midX, app.frame.midX, accuracy: 2)
+            capture("Centered empty search without keyboard \(arguments)", in: app)
+            app.terminate()
+        }
+    }
+
+    @MainActor func testLoadingUsesSamePositionAsEmptyMessage() throws {
+        let app = try launch(["--search-status-loading", "--unified-dark"])
+        let spinner = app.activityIndicators["search-status-loading"]
+        XCTAssertTrue(spinner.waitForExistence(timeout: 10))
+        XCTAssertFalse(app.staticTexts["search-no-memories"].exists)
+        capture("Centered search loading", in: app)
+        let center = CGPoint(x: spinner.frame.midX, y: spinner.frame.midY)
+        XCTAssertEqual(center.x, app.frame.midX, accuracy: 2)
+        // SwiftUI exposes its ProgressView and UIKit indicator at the same frame.
+        // Verify there is no separate header or saved-text spinner.
+        for indicator in app.activityIndicators.allElementsBoundByIndex {
+            XCTAssertEqual(indicator.frame.midX, center.x, accuracy: 2)
+            XCTAssertEqual(indicator.frame.midY, center.y, accuracy: 2)
+        }
+        app.buttons["Finish test search"].tap()
+        let empty = app.staticTexts["search-no-memories"]
+        XCTAssertTrue(empty.waitForExistence(timeout: 10))
+        XCTAssertEqual(empty.frame.midX, center.x, accuracy: 2)
+        XCTAssertEqual(empty.frame.midY, center.y, accuracy: 2)
+        XCTAssertFalse(spinner.exists)
+        capture("Centered search loading replaced by empty message", in: app)
+    }
+
+    @MainActor func testFailedSavedSearchKeepsErrorAndRetry() throws {
+        let app = try launch(["--search-status-loading", "--search-status-error"])
+        XCTAssertTrue(app.activityIndicators["search-status-loading"].waitForExistence(timeout: 10))
+        app.buttons["Finish test search"].tap()
+        XCTAssertTrue(app.buttons["Retry saved text search"].waitForExistence(timeout: 10))
+        XCTAssertFalse(app.staticTexts["search-no-memories"].exists)
+        XCTAssertFalse(app.activityIndicators["search-status-loading"].exists)
+    }
+
     @MainActor func testSearchHeaderAlignmentAndBalancedSpacing() throws {
         for arguments in [[], ["--unified-dark"]] {
             let app = try launch(arguments)

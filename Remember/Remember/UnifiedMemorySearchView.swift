@@ -27,6 +27,43 @@ struct UnifiedMemorySearchView: View {
         guard sources.query == request.query, sources.scope == options.scope else { return nil }
         return sources.page
     }
+    private var sourceError: String? {
+        guard sources.query == request.query, sources.scope == options.scope else { return nil }
+        return sources.errorMessage
+    }
+    private var isLoadingResults: Bool {
+        (!options.sourceTextOnly && viewModel.isSearchPending)
+            || (hasQuery && currentPage == nil && sourceError == nil)
+    }
+    private var hasMemoryResults: Bool { !options.sourceTextOnly && !viewModel.visibleItems.isEmpty }
+    private var hasSavedResults: Bool { !(currentPage?.hits.isEmpty ?? true) }
+    private var emptyMessage: String {
+        if !options.sourceTextOnly && viewModel.searchFailed { return "Search couldn’t finish" }
+        if options.sourceTextOnly { return "No matching saved passages" }
+        return options.includeHistory ? "No matching memories" : "No matching current memories"
+    }
+
+    private var centeredStatus: some View {
+        Group {
+            if isLoadingResults {
+                ProgressView()
+                    .controlSize(.large)
+                    .tint(RememberPalette.secondaryText)
+                    .accessibilityLabel("Searching memories")
+                    .accessibilityIdentifier("search-status-loading")
+            } else {
+                Text(emptyMessage)
+                    .font(.body)
+                    .foregroundStyle(RememberPalette.secondaryText)
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .accessibilityIdentifier(options.sourceTextOnly ? "search-no-passages" : "search-no-memories")
+            }
+        }
+        // A shared footprint keeps the spinner and final message at the same
+        // comfortable position below the header, including with the keyboard up.
+        .frame(maxWidth: .infinity, minHeight: 220)
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -74,14 +111,19 @@ struct UnifiedMemorySearchView: View {
                         .accessibilityIdentifier("search-reset-filters")
                 }
             }
-            if !options.sourceTextOnly {
-                memoryResults
-            }
-            if hasQuery {
-                savedTextResults
-            } else if options.sourceTextOnly || options.includeHistory {
+            if !hasQuery && options.hasActiveFilters {
+                if hasMemoryResults { memoryResults }
                 Text("Enter a name, phrase or reference to search saved text\(options.includeHistory ? " and retained history" : "").")
                     .foregroundStyle(RememberPalette.secondaryText)
+            } else if isLoadingResults || (!hasMemoryResults && !hasSavedResults && sourceError == nil && !sources.canLoadMore) {
+                centeredStatus
+            } else {
+                if hasMemoryResults {
+                    memoryResults
+                }
+                if hasQuery {
+                    savedTextResults
+                }
             }
         }
     }
@@ -93,10 +135,11 @@ struct UnifiedMemorySearchView: View {
                 .accessibilityIdentifier("search-results-title")
             Spacer(minLength: 8)
             if !options.sourceTextOnly {
-                if viewModel.isSearching { ProgressView().controlSize(.small) }
                 Text("\(viewModel.visibleItems.count)").foregroundStyle(RememberPalette.secondaryText)
                     .font(.body)
                     .monospacedDigit()
+                    .opacity(isLoadingResults ? 0 : 1)
+                    .accessibilityHidden(isLoadingResults)
                     .accessibilityIdentifier("search-results-count")
             }
             Menu {
@@ -134,10 +177,6 @@ struct UnifiedMemorySearchView: View {
             if viewModel.usedAIForCurrentSearch {
                 Label("AI-assisted memory matches", systemImage: "sparkles").font(.caption)
             }
-            if viewModel.visibleItems.isEmpty && !viewModel.isSearching {
-                    Text("No matching current memories. Try different words or Include history in Search options.")
-                    .foregroundStyle(RememberPalette.secondaryText)
-            }
             MasonryLayout(spacing: 18) {
                 ForEach(viewModel.visibleItems) { item in
                     VStack(alignment: .leading, spacing: 0) {
@@ -164,10 +203,10 @@ struct UnifiedMemorySearchView: View {
 
     private var savedTextResults: some View {
         VStack(alignment: .leading, spacing: 12) {
-            if sources.isLoading {
+            if sources.isLoading && currentPage != nil {
                 ProgressView("Searching saved text…")
             }
-            if let error = sources.errorMessage {
+            if let error = sourceError {
                 Label(error, systemImage: "exclamationmark.triangle")
                 Button("Retry saved text search") {
                     actionTask?.cancel()

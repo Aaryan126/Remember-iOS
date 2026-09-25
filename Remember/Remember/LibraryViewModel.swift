@@ -8,6 +8,8 @@ final class LibraryViewModel {
     private(set) var items: [MemoryLibraryItem] = []
     private(set) var isSynchronizing = false
     private(set) var isSearching = false
+    private(set) var completedSearchRequest: MemorySearchRequest?
+    private(set) var searchFailed = false
     private(set) var isAISearching = false
     private(set) var isAnswering = false
     private(set) var usedAIForCurrentSearch = false
@@ -105,6 +107,10 @@ final class LibraryViewModel {
         searchRequest.isActive ? searchResults : items
     }
 
+    var isSearchPending: Bool {
+        searchRequest.isActive && (isSearching || completedSearchRequest != searchRequest)
+    }
+
     var availableTags: [String] {
         items
             .flatMap(\.memory.tags)
@@ -126,6 +132,7 @@ final class LibraryViewModel {
         }
 
         isSearching = true
+        searchFailed = false
         isAISearching = false
         usedAIForCurrentSearch = false
         do {
@@ -135,6 +142,7 @@ final class LibraryViewModel {
                 return
             }
             searchResults = results
+            completedSearchRequest = request
             isSearching = false
         } catch is CancellationError {
             if request == searchRequest {
@@ -142,6 +150,9 @@ final class LibraryViewModel {
             }
         } catch {
             if request == searchRequest {
+                searchResults = []
+                completedSearchRequest = request
+                searchFailed = true
                 isSearching = false
                 errorMessage = Self.message(for: error)
             }
@@ -156,6 +167,7 @@ final class LibraryViewModel {
         }
 
         isSearching = true
+        searchFailed = false
         isAISearching = true
         errorMessage = nil
         do {
@@ -165,6 +177,7 @@ final class LibraryViewModel {
                 return
             }
             searchResults = results
+            completedSearchRequest = request
             usedAIForCurrentSearch = true
             isSearching = false
             isAISearching = false
@@ -176,6 +189,8 @@ final class LibraryViewModel {
             }
         } catch {
             if request == searchRequest {
+                completedSearchRequest = request
+                searchFailed = true
                 isSearching = false
                 isAISearching = false
                 usedAIForCurrentSearch = false
@@ -285,6 +300,8 @@ final class LibraryViewModel {
         selectedDateRange = .anytime
         selectedTag = nil
         searchResults = []
+        completedSearchRequest = nil
+        searchFailed = false
         isSearching = false
         isAISearching = false
         usedAIForCurrentSearch = false
@@ -479,7 +496,12 @@ final class LibraryViewModel {
     private func reload(using pipeline: MemoryPipeline) async throws {
         items = try await pipeline.libraryItems()
         if searchRequest.isActive {
-            searchResults = try await pipeline.search(searchRequest)
+            let request = searchRequest
+            let results = try await pipeline.search(request)
+            guard request == searchRequest else { return }
+            searchResults = results
+            completedSearchRequest = request
+            searchFailed = false
         } else {
             searchResults = []
         }
